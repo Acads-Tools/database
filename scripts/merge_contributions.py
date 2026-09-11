@@ -293,8 +293,8 @@ def update_readme_table(data_dir: str = "data"):
                     pass
 
     table_rows = [
-        "<details open>",
-        f"<summary><b>📚 Click to Toggle Gathered Subjects ({len(stats)} Courses Active)</b></summary>",
+        "<details>",
+        "<summary><b>View active subject archives (Click to expand)</b></summary>",
         "<br>",
         "",
         "| Subject Code | Course Title | Verified Questions | Status |",
@@ -312,7 +312,7 @@ def update_readme_table(data_dir: str = "data"):
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    pattern = r'(## (?:📂 )?Available Course Databases\s*\n\n)([\s\S]*?)(\n\n---|\n\n##|$)'
+    pattern = r'(## (?:Course Archives|(?:📂 )?Available Course Databases)\s*\n\n)([\s\S]*?)(\n\n---|\n\n##|$)'
     if re.search(pattern, content):
         new_content = re.sub(pattern, f"\\1{table_content}\\3", content)
         with open(readme_path, "w", encoding="utf-8") as f:
