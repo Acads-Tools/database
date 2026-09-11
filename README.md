@@ -4,24 +4,6 @@ A verified, open-source question bank and study archive powering the [AMAES Tool
 
 ---
 
-## Available Course Databases
-
-<details open>
-<summary><b>📚 Click to Toggle Gathered Subjects (3 Courses Active)</b></summary>
-<br>
-
-| Subject Code | Course Title | Verified Questions | Status |
-| :--- | :--- | :---: | :--- |
-| `CS6204` | Computer Architecture and Organization | **47** | Active |
-| `CS6301` | Logic Design and Digital Computer Circuits | **84** | Active |
-| `ITE6301` | Technopreneurship | **187** | Active |
-
-Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
-
-</details>
-
----
-
 ## How It Works
 
 ### Automatic Cloud Sync
@@ -47,6 +29,24 @@ When students complete and review quiz attempts using the toolkit:
 - `docs/`: Technical specifications and architectural guides ([`docs/`](docs/)).
 - `relay/`: Cloudflare Worker source code for secure, rate-limited anonymous submissions.
 - `scripts/`: Automated anti-sabotage merge engine and validation utilities.
+
+---
+
+## Course Archives
+
+<details>
+<summary><b>View active subject archives (Click to expand)</b></summary>
+<br>
+
+| Subject Code | Course Title | Verified Questions | Status |
+| :--- | :--- | :---: | :--- |
+| `CS6204` | Computer Architecture and Organization | **47** | Active |
+| `CS6301` | Logic Design and Digital Computer Circuits | **84** | Active |
+| `ITE6301` | Technopreneurship | **187** | Active |
+
+Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
+
+</details>
 
 ---
 
