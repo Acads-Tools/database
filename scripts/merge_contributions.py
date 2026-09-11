@@ -128,8 +128,8 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
             rejected_count += 1
             continue
 
-        raw_q = item.get("question") or item.get("qText") or ""
-        raw_a = item.get("answer") or item.get("correctAnswer") or ""
+        raw_q = item.get("question") or item.get("qRaw") or item.get("qText") or ""
+        raw_a = item.get("answer") or item.get("ansRaw") or (item.get("answers")[0] if isinstance(item.get("answers"), list) and item.get("answers") else "") or item.get("correctAnswer") or ""
         choices = item.get("choices") or []
 
         clean_q = clean_text(raw_q)
