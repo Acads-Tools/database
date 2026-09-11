@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-09-11T07:44:14Z",
-  "totalQuestions": 46,
+  "updatedAt": "2026-09-11T10:01:00Z",
+  "totalQuestions": 47,
   "tier": "verified",
   "questions": [
     {
@@ -624,6 +624,21 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-11T02:47:09Z",
       "lastVerifiedAt": "2026-09-11T07:44:14Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the primary function of the Program Counter in a basic CPU architecture?",
+      "answer": "Holds the address of the next instruction to be executed.",
+      "choices": [
+        "Holds the address of the next instruction to be executed.",
+        "Stores the result of the ALU operation",
+        "Decodes the current opcode",
+        "Manages peripheral interrupts"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-11T10:01:00Z",
+      "lastVerifiedAt": "2026-09-11T10:01:00Z",
       "source": "community_contribution"
     }
   ]
