@@ -37,13 +37,13 @@ sequenceDiagram
 ## 2. Component Details
 
 ### A. Client-Side Contribution Dispatcher
-- **Location**: [`amaes-toolkit.user.js`](file:///home/ryme/Personal/amaes-moodle-toolkit/amaes-toolkit.user.js) (`dispatchCommunityContribution`)
+- **Location**: [`amaes-toolkit.user.js`](https://github.com/Acads-Tools/amaes-toolkit/blob/main/amaes-toolkit.user.js) (`dispatchCommunityContribution`)
 - **Privacy First**: Strips all user identifiers, Moodle session cookies, student numbers, and names. Only the subject code and sanitized question/answer pairs are sent.
 - **Opt-Out**: Can be toggled off at any time under the **Study Database** tab (*"Collect & Share Anonymously"*).
 
 ### B. Cloudflare Serverless Worker Relay
 - **Endpoint**: `https://amaes-community-relay.acads-tools.workers.dev`
-- **Source Code**: [`relay/worker.js`](file:///home/ryme/Personal/database/relay/worker.js)
+- **Source Code**: [`relay/worker.js`](../relay/worker.js)
 - **Role**: Serves as a secure API gateway between client browsers and GitHub.
 - **Security & Rate Limiting**:
   - Validates `subjectCode` against format regex (`/^[A-Z0-9_-]{2,16}$/`).

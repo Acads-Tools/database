@@ -1,6 +1,6 @@
 # Anti-Sabotage Merge Engine
 
-This document explains the security, validation, and consensus algorithms implemented in [`scripts/merge_contributions.py`](file:///home/ryme/Personal/database/scripts/merge_contributions.py) to protect the question database against tampering, spam, and sabotage.
+This document explains the security, validation, and consensus algorithms implemented in [`scripts/merge_contributions.py`](../scripts/merge_contributions.py) to protect the question database against tampering, spam, and sabotage.
 
 ---
 
