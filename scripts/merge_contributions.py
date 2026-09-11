@@ -292,16 +292,27 @@ def update_readme_table(data_dir: str = "data"):
                 except Exception:
                     pass
 
-    table_rows = ["| Subject Code | Course Title | Questions |", "| --- | --- | --- |"]
+    table_rows = [
+        "<details open>",
+        f"<summary><b>📚 Click to Toggle Gathered Subjects ({len(stats)} Courses Active)</b></summary>",
+        "<br>",
+        "",
+        "| Subject Code | Course Title | Verified Questions | Status |",
+        "| :--- | :--- | :---: | :--- |"
+    ]
     for code, title, count in stats:
-        table_rows.append(f"| `{code}` | {title} | **{count}** verified answers |")
+        table_rows.append(f"| `{code}` | {title} | **{count}** | Active |")
+    table_rows.append("")
+    table_rows.append("Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).")
+    table_rows.append("")
+    table_rows.append("</details>")
 
     table_content = "\n".join(table_rows)
 
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    pattern = r'(## 📂 Available Course Databases\s*\n\n)([\s\S]*?)(\n\n##|$)'
+    pattern = r'(## (?:📂 )?Available Course Databases\s*\n\n)([\s\S]*?)(\n\n---|\n\n##|$)'
     if re.search(pattern, content):
         new_content = re.sub(pattern, f"\\1{table_content}\\3", content)
         with open(readme_path, "w", encoding="utf-8") as f:
