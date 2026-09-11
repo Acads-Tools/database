@@ -38,6 +38,7 @@ When students complete and review quiz attempts using the toolkit:
   - `data/verified/`: Official review key archives.
   - `data/community/`: Consensus-backed community contributions.
   - `data/amauoed/`: Scraped study guide references.
+- `docs/`: Technical specifications and architectural guides ([`docs/`](docs/)).
 - `relay/`: Cloudflare Worker source code for secure, rate-limited anonymous submissions.
 - `scripts/`: Automated anti-sabotage merge engine and validation utilities.
 
