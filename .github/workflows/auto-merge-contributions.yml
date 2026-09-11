@@ -1,0 +1,110 @@
+name: Anti-Sabotage Community Contribution Auto-Merger
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: community-database-merge
+  cancel-in-progress: false
+
+jobs:
+  process-contribution:
+    if: contains(github.event.issue.labels.*.name, 'community-contribution') || startsWith(github.event.issue.title, '[Contribution]')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate and Merge Contribution
+        id: merge_step
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          set -e
+          echo "$ISSUE_BODY" > /tmp/issue_payload.txt
+          OUTPUT=$(python3 scripts/merge_contributions.py /tmp/issue_payload.txt)
+          echo "$OUTPUT" > /tmp/merge_result.json
+          {
+            echo "merge_output<<EOF"
+            echo "$OUTPUT"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Merged result: $OUTPUT"
+
+      - name: Commit and Push Verified Updates
+        id: git_push
+        run: |
+          git config user.name "Open LMS Contributor"
+          git config user.email "academic-contributor@users.noreply.github.com"
+          git add data/ README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "Auto-merge verified contribution from issue #${{ github.event.issue.number }} [skip ci]"
+            git pull --rebase -X ours origin main || true
+            git push origin main
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Post Success Comment & Close Issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = context.issue.number;
+            const fs = require('fs');
+            let details = "";
+            try {
+              if (fs.existsSync('/tmp/merge_result.json')) {
+                const parsed = JSON.parse(fs.readFileSync('/tmp/merge_result.json', 'utf8'));
+                details = `\n- **Subject:** \`${parsed.subjectCode}\`\n- **New Questions Added:** \`${parsed.newMerged}\`\n- **Existing Confirmations Updated:** \`${parsed.updatedConfirmations}\`\n- **Total Verified in File:** \`${parsed.totalInFile}\``;
+              }
+            } catch (e) {}
+
+            const body = `🎉 **Contribution Validated & Merged!**\n\nThank you for contributing to the community study archive.${details}\n\nAll questions were vetted against the anti-sabotage rules and merged cleanly into the repository.`;
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: body
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: 'closed',
+              state_reason: 'completed'
+            });
+
+      - name: Handle Validation Failure
+        if: failure() && steps.merge_step.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = context.issue.number;
+            const body = `⚠️ **Contribution Validation Failed**\n\nThe anti-sabotage merge engine could not validate the payload in this issue. Please ensure your submission contains a valid JSON block with \`subjectCode\` and verified \`questions\` array.\n\nYou can re-export cleanly from the LMS Toolkit panel and submit again.`;
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: body
+            });
