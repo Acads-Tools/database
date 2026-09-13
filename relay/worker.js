@@ -101,6 +101,18 @@ export default {
         });
       }
 
+      if (path === "/favicon.ico" || path === "/favicon.svg") {
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"><rect width="32" height="32" rx="6" fill="#0f172a"/><path d="M6 10c0-2.2 4.5-4 10-4s10 1.8 10 4-4.5 4-10 4-10-1.8-10-4z" fill="none" stroke="#38bdf8" stroke-width="2"/><path d="M6 16c0 2.2 4.5 4 10 4s10-1.8 10-4" fill="none" stroke="#38bdf8" stroke-width="2"/><path d="M6 22c0 2.2 4.5 4 10 4s10-1.8 10-4" fill="none" stroke="#38bdf8" stroke-width="2"/><line x1="6" y1="10" x2="6" y2="22" stroke="#38bdf8" stroke-width="2"/><line x1="26" y1="10" x2="26" y2="22" stroke="#38bdf8" stroke-width="2"/></svg>`;
+        return new Response(svg, {
+          status: 200,
+          headers: {
+            ...corsHeaders,
+            "Content-Type": "image/svg+xml",
+            "Cache-Control": "public, max-age=86400"
+          }
+        });
+      }
+
       if (path === "/health") {
         return new Response(JSON.stringify({ status: "ok", healthy: true }), {
           status: 200,
