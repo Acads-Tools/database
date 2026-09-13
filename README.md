@@ -43,6 +43,7 @@ When students complete and review quiz attempts using the toolkit:
 | `CS6204` | Computer Architecture and Organization | **47** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **84** | Active |
 | `ITE6301` | Technopreneurship | **187** | Active |
+| `TEST101` | TEST101 | **1** | Active |
 
 Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
 
