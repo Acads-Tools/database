@@ -101,24 +101,6 @@ export default {
         });
       }
 
-      if (path === "/favicon.ico" || path === "/favicon.png" || path === "/assets/logo.png") {
-        const logoUrl = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/assets/amaes-toolkit-logo.png";
-        try {
-          const logoResp = await fetch(logoUrl, { cf: { cacheTtl: 604800, cacheEverything: true } });
-          if (logoResp.ok) {
-            return new Response(logoResp.body, {
-              status: 200,
-              headers: {
-                ...corsHeaders,
-                "Content-Type": "image/png",
-                "Cache-Control": "public, max-age=604800, immutable"
-              }
-            });
-          }
-        } catch (_) {}
-        return Response.redirect(logoUrl, 302);
-      }
-
       if (path === "/health") {
         return new Response(JSON.stringify({ status: "ok", healthy: true }), {
           status: 200,
