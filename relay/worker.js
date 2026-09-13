@@ -10,24 +10,115 @@
  * - Environment Variable: REPO_NAME = "database"
  */
 
+/**
+ * In-memory active peer registry per Cloudflare edge isolate.
+ * Rolling window: 10 minutes (600,000 ms).
+ */
+const activePeerMap = new Map();
+
+async function hashString(str) {
+  const enc = new TextEncoder().encode(str + "_amaes_telemetry_salt");
+  const buf = await crypto.subtle.digest("SHA-256", enc);
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 24);
+}
+
+function pruneAndCountActivePeers() {
+  const now = Date.now();
+  const threshold = now - 600000; // 10 minutes
+  for (const [key, ts] of activePeerMap.entries()) {
+    if (ts < threshold) {
+      activePeerMap.delete(key);
+    }
+  }
+  return Math.max(1, activePeerMap.size);
+}
+
 export default {
   async fetch(request, env) {
+    const corsHeaders = {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Access-Control-Max-Age": "86400",
+    };
+
     if (request.method === "OPTIONS") {
-      return new Response(null, {
-        status: 204,
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "POST, OPTIONS",
-          "Access-Control-Allow-Headers": "Content-Type",
-          "Access-Control-Max-Age": "86400",
-        },
-      });
+      return new Response(null, { status: 204, headers: corsHeaders });
+    }
+
+    const url = new URL(request.url);
+    const path = url.pathname;
+
+    // --- REAL 10-MINUTE TELEMETRY PING & ACTIVE USER TRACKING ---
+    if (request.method === "GET" || (request.method === "POST" && (path === "/ping" || path === "/active"))) {
+      if (path === "/ping") {
+        const ip = request.headers.get("CF-Connecting-IP") || "127.0.0.1";
+        const cid = url.searchParams.get("cid") || "";
+        const peerHash = await hashString(`${ip}:${cid}`);
+        const now = Date.now();
+
+        activePeerMap.set(peerHash, now);
+        let activeCount = pruneAndCountActivePeers();
+
+        if (env.TELEMETRY_KV) {
+          try {
+            await env.TELEMETRY_KV.put(`peer:${peerHash}`, now.toString(), { expirationTtl: 600 });
+            const list = await env.TELEMETRY_KV.list({ prefix: "peer:" });
+            if (list && list.keys) {
+              activeCount = Math.max(activeCount, list.keys.length);
+            }
+          } catch (_) {}
+        }
+
+        return new Response(JSON.stringify({
+          status: "ok",
+          active: activeCount,
+          windowMinutes: 10,
+          timestamp: now
+        }), {
+          status: 200,
+          headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
+        });
+      }
+
+      if (path === "/active") {
+        let activeCount = pruneAndCountActivePeers();
+        if (env.TELEMETRY_KV) {
+          try {
+            const list = await env.TELEMETRY_KV.list({ prefix: "peer:" });
+            if (list && list.keys) {
+              activeCount = Math.max(activeCount, list.keys.length);
+            }
+          } catch (_) {}
+        }
+        return new Response(JSON.stringify({
+          status: "ok",
+          active: activeCount,
+          windowMinutes: 10
+        }), {
+          status: 200,
+          headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
+        });
+      }
+
+      if (path === "/") {
+        const activeCount = pruneAndCountActivePeers();
+        return new Response(JSON.stringify({
+          status: "online",
+          relay: "AMAES Moodle Toolkit Serverless Relay",
+          activeUsers: activeCount,
+          telemetryWindowMinutes: 10
+        }), {
+          status: 200,
+          headers: { ...corsHeaders, "Content-Type": "application/json" }
+        });
+      }
     }
 
     if (request.method !== "POST") {
-      return new Response(JSON.stringify({ error: "Only POST requests are accepted" }), {
+      return new Response(JSON.stringify({ error: "Only POST requests are accepted for question submissions" }), {
         status: 405,
-        headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" },
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
 
