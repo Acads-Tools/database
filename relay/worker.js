@@ -112,249 +112,57 @@ export default {
           } catch (_) {}
         }
 
-        const acceptHeader = request.headers.get("accept") || "";
-        const wantsHtml = acceptHeader.includes("text/html") && url.searchParams.get("format") !== "json";
-
-        if (wantsHtml) {
-          const html = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AMAES Community Relay - Online &amp; Healthy</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background: #090d16;
-      color: #f1f5f9;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-    }
-    .card {
-      background: #131b2e;
-      border: 1px solid #1e293b;
-      border-radius: 16px;
-      max-width: 580px;
-      width: 100%;
-      padding: 32px;
-      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
-    }
-    .header {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 20px;
-    }
-    .badge-status {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 14px;
-      background: rgba(16, 185, 129, 0.12);
-      border: 1px solid rgba(16, 185, 129, 0.35);
-      border-radius: 9999px;
-      font-size: 13px;
-      font-weight: 600;
-      color: #10b981;
-    }
-    .pulse-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: #10b981;
-      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-      70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
-      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
-    }
-    h1 {
-      font-size: 22px;
-      font-weight: 700;
-      color: #ffffff;
-      margin-bottom: 6px;
-      letter-spacing: -0.02em;
-    }
-    p.subtitle {
-      font-size: 14px;
-      color: #94a3b8;
-      line-height: 1.5;
-      margin-bottom: 24px;
-    }
-    .stats-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-    .stat-box {
-      background: #0b1120;
-      border: 1px solid #1e293b;
-      border-radius: 12px;
-      padding: 14px 16px;
-    }
-    .stat-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #64748b;
-      margin-bottom: 4px;
-      font-weight: 600;
-    }
-    .stat-val {
-      font-size: 20px;
-      font-weight: 700;
-      color: #38bdf8;
-    }
-    .stat-sub {
-      font-size: 11px;
-      color: #64748b;
-      margin-top: 2px;
-    }
-    .btn-group {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-bottom: 24px;
-    }
-    .btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 12px 18px;
-      border-radius: 10px;
-      font-size: 14px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.2s ease;
-      cursor: pointer;
-    }
-    .btn-primary {
-      background: #3b82f6;
-      color: #ffffff;
-      border: 1px solid #2563eb;
-    }
-    .btn-primary:hover {
-      background: #2563eb;
-      transform: translateY(-1px);
-    }
-    .btn-secondary {
-      background: #1e293b;
-      color: #cbd5e1;
-      border: 1px solid #334155;
-    }
-    .btn-secondary:hover {
-      background: #273549;
-      color: #ffffff;
-      transform: translateY(-1px);
-    }
-    .links-row {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      padding-top: 16px;
-      border-top: 1px solid #1e293b;
-      font-size: 12px;
-    }
-    .links-row a {
-      color: #94a3b8;
-      text-decoration: none;
-      transition: color 0.15s;
-    }
-    .links-row a:hover {
-      color: #38bdf8;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <div class="header">
-      <div class="badge-status">
-        <div class="pulse-dot"></div>
-        <span>Online &amp; Healthy</span>
-      </div>
-    </div>
-    <h1>AMAES Community Relay</h1>
-    <p class="subtitle">Free serverless background mesh for real-time telemetry and anonymous question database verification for AMAES Moodle students.</p>
-
-    <div class="stats-grid">
-      <div class="stat-box">
-        <div class="stat-label">Active Users</div>
-        <div class="stat-val">${activeCount}</div>
-        <div class="stat-sub">Past 10-minute window</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-label">Edge Relay</div>
-        <div class="stat-val" style="color: #10b981;">Cloudflare</div>
-        <div class="stat-sub">Global low-latency</div>
-      </div>
-    </div>
-
-    <div class="btn-group">
-      <a class="btn btn-primary" href="https://greasyfork.org/en/scripts/594744-amaes-toolkit" target="_blank" rel="noopener noreferrer">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        Install via Greasy Fork
-      </a>
-      <a class="btn btn-secondary" href="https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js" target="_blank" rel="noopener noreferrer">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
-        Direct Install (Tampermonkey)
-      </a>
-      <a class="btn btn-secondary" href="https://acads-tools.github.io/amaes-toolkit/" target="_blank" rel="noopener noreferrer">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        Official Website &amp; Docs
-      </a>
-    </div>
-
-    <div class="links-row">
-      <a href="https://github.com/Acads-Tools/amaes-toolkit" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-      <span>•</span>
-      <a href="https://github.com/Acads-Tools/database" target="_blank" rel="noopener noreferrer">Question Database</a>
-      <span>•</span>
-      <a href="/ping">API Ping</a>
-    </div>
-  </div>
-</body>
-</html>`;
-          return new Response(html, {
-            status: 200,
-            headers: {
-              ...corsHeaders,
-              "Content-Type": "text/html; charset=utf-8",
-              "Cache-Control": "no-cache"
+        if (url.searchParams.get("format") === "json") {
+          return new Response(JSON.stringify({
+            status: "healthy",
+            state: "online",
+            relay: "AMAES Moodle Toolkit Serverless Relay",
+            activeUsers: activeCount,
+            telemetryWindowMinutes: 10,
+            endpoints: {
+              ping: "/ping",
+              active: "/active",
+              submit: "POST /"
+            },
+            links: {
+              site: "https://acads-tools.github.io/amaes-toolkit/",
+              install: "https://greasyfork.org/en/scripts/594744-amaes-toolkit",
+              rawScript: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
+              github: "https://github.com/Acads-Tools/amaes-toolkit",
+              database: "https://github.com/Acads-Tools/database"
             }
+          }, null, 2), {
+            status: 200,
+            headers: { ...corsHeaders, "Content-Type": "application/json" }
           });
         }
 
-        return new Response(JSON.stringify({
-          status: "healthy",
-          state: "online",
-          relay: "AMAES Moodle Toolkit Serverless Relay",
-          activeUsers: activeCount,
-          telemetryWindowMinutes: 10,
-          endpoints: {
-            ping: "/ping",
-            active: "/active",
-            submit: "POST /"
-          },
-          links: {
-            site: "https://acads-tools.github.io/amaes-toolkit/",
-            install: "https://greasyfork.org/en/scripts/594744-amaes-toolkit",
-            rawScript: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
-            github: "https://github.com/Acads-Tools/amaes-toolkit",
-            database: "https://github.com/Acads-Tools/database"
-          }
-        }, null, 2), {
+        const plainText = [
+          "Online & Healthy",
+          "AMAES Community Relay",
+          "Free serverless background mesh for real-time telemetry and anonymous question database verification for AMAES Moodle students.",
+          "",
+          `Active Users: ${activeCount}`,
+          "Past 10-minute window",
+          "",
+          "Edge Relay: Cloudflare",
+          "Global low-latency",
+          "",
+          "Install via Greasy Fork: https://greasyfork.org/en/scripts/594744-amaes-toolkit",
+          "Direct Install (Tampermonkey): https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
+          "Official Website & Docs: https://acads-tools.github.io/amaes-toolkit/",
+          "GitHub Repository: https://github.com/Acads-Tools/amaes-toolkit",
+          "• Question Database: https://github.com/Acads-Tools/database",
+          "• API Ping: https://amaes-community-relay.acads-tools.workers.dev/ping"
+        ].join("\n");
+
+        return new Response(plainText, {
           status: 200,
-          headers: { ...corsHeaders, "Content-Type": "application/json" }
+          headers: {
+            ...corsHeaders,
+            "Content-Type": "text/plain; charset=utf-8",
+            "Cache-Control": "no-cache"
+          }
         });
       }
     }
