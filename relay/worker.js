@@ -50,7 +50,7 @@ export default {
     const path = url.pathname;
 
     // --- REAL 10-MINUTE TELEMETRY PING & ACTIVE USER TRACKING ---
-    if (request.method === "GET" || (request.method === "POST" && (path === "/ping" || path === "/active"))) {
+    if (request.method === "GET" || request.method === "HEAD" || (request.method === "POST" && (path === "/ping" || path === "/active"))) {
       if (path === "/ping") {
         const ip = request.headers.get("CF-Connecting-IP") || "127.0.0.1";
         const cid = url.searchParams.get("cid") || "";
@@ -101,6 +101,24 @@ export default {
         });
       }
 
+      if (path === "/favicon.ico" || path === "/favicon.png") {
+        const logoUrl = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/assets/amaes-toolkit-logo.png";
+        try {
+          const res = await fetch(logoUrl, { cf: { cacheTtl: 604800, cacheEverything: true } });
+          if (res.ok) {
+            return new Response(res.body, {
+              status: 200,
+              headers: {
+                ...corsHeaders,
+                "Content-Type": "image/png",
+                "Cache-Control": "public, max-age=604800, immutable"
+              }
+            });
+          }
+        } catch (_) {}
+        return Response.redirect(logoUrl, 302);
+      }
+
       if (path === "/health") {
         return new Response(JSON.stringify({ status: "ok", healthy: true }), {
           status: 200,
@@ -130,7 +148,8 @@ export default {
             script: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
             website: "https://acads-tools.github.io/amaes-toolkit/",
             github: "https://github.com/Acads-Tools/amaes-toolkit",
-            database: "https://github.com/Acads-Tools/database"
+            database: "https://github.com/Acads-Tools/database",
+            logo: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/assets/amaes-toolkit-logo.png"
           },
           endpoints: {
             ping: "/ping",
