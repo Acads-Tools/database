@@ -101,7 +101,14 @@ export default {
         });
       }
 
-      if (path === "/" || path === "/health" || path === "/status") {
+      if (path === "/health") {
+        return new Response(JSON.stringify({ status: "ok", healthy: true }), {
+          status: 200,
+          headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-cache" }
+        });
+      }
+
+      if (path === "/" || path === "/status") {
         let activeCount = pruneAndCountActivePeers();
         if (env.TELEMETRY_KV) {
           try {
@@ -112,57 +119,27 @@ export default {
           } catch (_) {}
         }
 
-        if (url.searchParams.get("format") === "json") {
-          return new Response(JSON.stringify({
-            status: "healthy",
-            state: "online",
-            relay: "AMAES Moodle Toolkit Serverless Relay",
-            activeUsers: activeCount,
-            telemetryWindowMinutes: 10,
-            endpoints: {
-              ping: "/ping",
-              active: "/active",
-              submit: "POST /"
-            },
-            links: {
-              site: "https://acads-tools.github.io/amaes-toolkit/",
-              install: "https://greasyfork.org/en/scripts/594744-amaes-toolkit",
-              rawScript: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
-              github: "https://github.com/Acads-Tools/amaes-toolkit",
-              database: "https://github.com/Acads-Tools/database"
-            }
-          }, null, 2), {
-            status: 200,
-            headers: { ...corsHeaders, "Content-Type": "application/json" }
-          });
-        }
-
-        const plainText = [
-          "Online & Healthy",
-          "AMAES Community Relay",
-          "Free serverless background mesh for real-time telemetry and anonymous question database verification for AMAES Moodle students.",
-          "",
-          `Active Users: ${activeCount}`,
-          "Past 10-minute window",
-          "",
-          "Edge Relay: Cloudflare",
-          "Global low-latency",
-          "",
-          "Install via Greasy Fork: https://greasyfork.org/en/scripts/594744-amaes-toolkit",
-          "Direct Install (Tampermonkey): https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
-          "Official Website & Docs: https://acads-tools.github.io/amaes-toolkit/",
-          "GitHub Repository: https://github.com/Acads-Tools/amaes-toolkit",
-          "• Question Database: https://github.com/Acads-Tools/database",
-          "• API Ping: https://amaes-community-relay.acads-tools.workers.dev/ping"
-        ].join("\n");
-
-        return new Response(plainText, {
-          status: 200,
-          headers: {
-            ...corsHeaders,
-            "Content-Type": "text/plain; charset=utf-8",
-            "Cache-Control": "no-cache"
+        return new Response(JSON.stringify({
+          status: "healthy",
+          name: "amaes-community-relay",
+          message: "AMAES Community Relay is operational",
+          active_users: activeCount,
+          telemetry_window_minutes: 10,
+          links: {
+            installer: "https://greasyfork.org/en/scripts/594744-amaes-toolkit",
+            script: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
+            website: "https://acads-tools.github.io/amaes-toolkit/",
+            github: "https://github.com/Acads-Tools/amaes-toolkit",
+            database: "https://github.com/Acads-Tools/database"
+          },
+          endpoints: {
+            ping: "/ping",
+            active: "/active",
+            submit: "POST /"
           }
+        }, null, 2), {
+          status: 200,
+          headers: { ...corsHeaders, "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-cache" }
         });
       }
     }
