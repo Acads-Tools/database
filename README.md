@@ -42,7 +42,7 @@ When students complete and review quiz attempts using the toolkit:
 | :--- | :--- | :---: | :--- |
 | `CS6204` | Computer Architecture and Organization | **47** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **155** | Active |
-| `IT6205A` | IT6205A | **14** | Active |
+| `IT6205A` | IT6205A | **23** | Active |
 | `IT6322A` | IT6322A | **52** | Active |
 | `ITE6301` | Technopreneurship | **187** | Active |
 
