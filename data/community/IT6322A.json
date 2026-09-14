@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "IT6322A",
-  "updatedAt": "2026-09-14T14:07:03Z",
-  "totalQuestions": 27,
+  "updatedAt": "2026-09-14T14:11:02Z",
+  "totalQuestions": 37,
   "questions": [
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
@@ -17,6 +17,19 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:05:21Z",
       "lastVerifiedAt": "2026-09-14T14:05:21Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A PopupMenu is a modal menu anchored to a View",
+      "answer": "True",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
       "source": "community_contribution"
     },
     {
@@ -59,6 +72,19 @@
       "source": "community_contribution"
     },
     {
+      "question": "Another way to customize the soft keyboard is with the android.R.simple_spinner_item attribute.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Application Name is used as the title of your application launcher icon when it is installed on your device",
       "answer": "True",
       "choices": [
@@ -97,6 +123,71 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:07:03Z",
       "lastVerifiedAt": "2026-09-14T14:07:03Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "On Android 3.0 and higher, items from the options menu are presented by the action bar as a combination of on-screen action items and overflow options.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "onItemSelected() is one of most common values for android.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "R.array.spinnerColors is the ID of the string array.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Spinners are drop-down menus that allow users to pick one item from a group of choices.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Tabs work in conjunction with the ActionBarMenu.",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
       "source": "community_contribution"
     },
     {
@@ -155,6 +246,19 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:07:03Z",
       "lastVerifiedAt": "2026-09-14T14:07:03Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The android:inputType attribute lets you specify what kind of input you're expecting.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
       "source": "community_contribution"
     },
     {
@@ -256,6 +360,19 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:07:03Z",
       "lastVerifiedAt": "2026-09-14T14:07:03Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "To provide a familliar and consistent user experience, you should use the Menu and Dialogs to present user actions and other options in your activities.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
       "source": "community_contribution"
     },
     {
@@ -391,6 +508,19 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-14T13:59:09Z",
       "lastVerifiedAt": "2026-09-14T14:02:02Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "You create new tabs by requesting one from the ActionBar using its newTab() method.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:11:02Z",
       "source": "community_contribution"
     }
   ]
