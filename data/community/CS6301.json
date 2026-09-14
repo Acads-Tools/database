@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-11T10:07:15Z",
-  "totalQuestions": 85,
+  "updatedAt": "2026-09-14T13:58:59Z",
+  "totalQuestions": 155,
   "questions": [
     {
       "question": "(1217)₈ is equivalent to",
@@ -14,9 +14,9 @@
         "d. (0B17)₁₆"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -27,8 +27,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "2’s complement is obtained by adding 1 to 1’s complement of a number.",
@@ -38,9 +38,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -53,9 +53,9 @@
         "d. 777"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -68,9 +68,9 @@
         "d. right shift"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -83,9 +83,24 @@
         "d. Truth table"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A basic S-R flip-flop can be constructed by cross-coupling of which basic logic gates?",
+      "answer": "NOR or NAND gates",
+      "choices": [
+        "a. XOR or XNOR gates",
+        "b. NOR or NAND gates",
+        "c. AND or NOR gates",
+        "d. AND or OR gates"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -96,9 +111,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "A computer language that is written in binary codes only is _____",
@@ -110,9 +125,54 @@
         "d. machine language"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "A digital multiplexer is a combinational circuit that selects ___________",
+      "answer": "One digital information from several sources and transmits the selected one",
+      "choices": [
+        "a. Many decimal inputs and transmits the selected information",
+        "b. One digital information from several sources and transmits the selected one",
+        "c. Many decimal outputs and accepts the selected information",
+        "d. Many digital information and convert them into one"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A Karnaugh map (K-map) is an abstract form of ____________ diagram organized as a matrix of squares.",
+      "answer": "Venn Diagram",
+      "choices": [
+        "a. Triangular Diagram",
+        "b. Venn Diagram",
+        "c. Cycle Diagram",
+        "d. Block diagram"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A product term containing all K variables of the function in either complemented or uncomplemented form is called a __________",
+      "answer": "Minterm",
+      "choices": [
+        "a. Minterm",
+        "b. ∑ term",
+        "c. Midterm",
+        "d. Maxterm"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "A switch holds both of the states",
@@ -122,8 +182,38 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "A technique that allocates time slots dynamically.",
+      "answer": "Statistical TDM",
+      "choices": [
+        "a. Dynamic TDM",
+        "b. Statistical TDM",
+        "c. TDM",
+        "d. WDM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A variable on its own or in its complemented form is known as a __________",
+      "answer": "Literal",
+      "choices": [
+        "a. Sum Term",
+        "b. Word",
+        "c. Literal",
+        "d. Product Term"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "ABC is a valid hexadecimal number.",
@@ -133,9 +223,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "According to study reports of Global Entrepreneurship Monitor (GEM), entrepreneurs are most likely to launch businesses when they are between the ages of 35 and 44.",
@@ -145,9 +235,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-11T09:26:31Z",
-      "lastVerifiedAt": "2026-09-14T11:50:00Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "moodle_review_verified",
       "wrongAnswers": [
         "False"
@@ -167,8 +257,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "ASCII is to 8bits as Unicode is to 16 bits",
@@ -178,8 +268,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Combinational circuits are memory-less, thus, the output value depends ONLY on current input values",
@@ -189,8 +279,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Combinational Circuits can be described by Boolean Functions",
@@ -200,8 +290,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Complete the given Truth Table below:ABC=A* B00001011What are the values under Column B, arranged from top to bottom?",
@@ -211,8 +301,23 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "Controlling the frequency is referred as _________",
+      "answer": "frequency modulation",
+      "choices": [
+        "a. frequency modulation",
+        "b. hertz modulation",
+        "c. phase modulation",
+        "d. amplitude modulation"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "Convert (22)₈ into its corresponding decimal number.",
@@ -224,9 +329,9 @@
         "d. 18"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Convert (52)₁₆ into its decimal equivalent.",
@@ -238,9 +343,9 @@
         "d. 28"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Convert 1088 to octal",
@@ -250,8 +355,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Convert 259 to hexa",
@@ -261,8 +366,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Convert 303 to octal",
@@ -272,8 +377,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Convert 4100 to binary",
@@ -283,8 +388,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Convert 67 to binary",
@@ -294,8 +399,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Convert the binary equivalent 10101 to its decimal equivalent.",
@@ -307,9 +412,54 @@
         "d. 22"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "CPU has built-in ability to execute a particular set of machine instructions, called as __________",
+      "answer": "Instruction Set",
+      "choices": [
+        "a. Instruction Set",
+        "b. Sequence Set",
+        "c. User instructions",
+        "d. Registers"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Each product term of a group, w’.x.y’ and w.y, represents the ____________in that group.",
+      "answer": "Sum-of-Minterms",
+      "choices": [
+        "a. Sum of Maxterms",
+        "b. POS",
+        "c. Sum-of-Minterms",
+        "d. Input"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Electronic circuits that operate on one or more input signals to produce standard output _______",
+      "answer": "Logic Gates",
+      "choices": [
+        "a. Logic Signals",
+        "b. Parallel Circuits",
+        "c. Logic Gates",
+        "d. Series circuits"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "For each binary combination of the input variables, there are three possible outputs",
@@ -319,8 +469,23 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "For the device shown here, assume the D input is LOW, both S inputs are LOW and the input is LOW. What is the status of the Y’ outputs? [Image: [moodle-asset:207781/8.png]]",
+      "answer": "All but Y0 are HIGH",
+      "choices": [
+        "a. All are LOW",
+        "b. All but Y0 are LOW",
+        "c. All but Y0 are HIGH",
+        "d. All are HIGH"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "Frequency = Hertz/second",
@@ -330,8 +495,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Gate array chip design is the most expensive style",
@@ -341,8 +506,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Hierarchy is useful because it reuses blocks if possible",
@@ -352,8 +517,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "How many AND gates are required to realize the following expression Y=AB+BC?",
@@ -365,9 +530,39 @@
         "d. 2"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "How many inputs of a four-input AND gate must be HIGH in order for the output of the logic gate to go HIGH?",
+      "answer": "all four inputs",
+      "choices": [
+        "a. all four inputs",
+        "b. any two of the inputs",
+        "c. any three of the inputs",
+        "d. any one of the inputs"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "How many types of sequential circuits are?",
+      "answer": "2",
+      "choices": [
+        "a. 4",
+        "b. 3",
+        "c. 5",
+        "d. 2"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -380,9 +575,9 @@
         "d. 2"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -395,9 +590,9 @@
         "d. 2"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -410,9 +605,84 @@
         "d. AND"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "If the input to a NOT gate is A and the output is X, then ________.",
+      "answer": "[Image: [moodle-asset:528339/1.gif]]",
+      "choices": [
+        "a. X = 0",
+        "b. X = A",
+        "c. none of the above",
+        "d. [Image: [moodle-asset:528339/1.gif]]"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In 1-to-4 demultiplexer, how many select lines are required?",
+      "answer": "2",
+      "choices": [
+        "a. 5",
+        "b. 4",
+        "c. 3",
+        "d. 2"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In 1-to-4 multiplexer, if C1 = 1 & C2 = 1, then the output will be ____________",
+      "answer": "Y3",
+      "choices": [
+        "a. Y3",
+        "b. Y2",
+        "c. Y0",
+        "d. Y1"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In a multiplexer the output depends on its ___________",
+      "answer": "Select inputs",
+      "choices": [
+        "a. Enable pin",
+        "b. Data inputs",
+        "c. Select outputs",
+        "d. Select inputs"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In a NAND based S’-R’ latch, if S’=1 & R’=1 then the state of the latch is ____________",
+      "answer": "No change",
+      "choices": [
+        "a. Reset",
+        "b. Set",
+        "c. Forbidden",
+        "d. No change"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -423,9 +693,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "source": "review-95-percent",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "In double precision format, the size of the mantissa is ______",
@@ -437,9 +707,37 @@
         "d. 52 bit"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In TDM, the samples occupy adjacent time slots.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In the boolean function w=f(X,Y,Z), what is the RHS referred to as ________",
+      "answer": "expression",
+      "choices": [
+        "a. expression",
+        "b. right hand side",
+        "c. boolean",
+        "d. literals"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -452,9 +750,54 @@
         "d. the normalized value 2⁻¹²⁷"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In this technique, there is a link between subscriber and network and a local loop.",
+      "answer": "ASDL",
+      "choices": [
+        "a. DSDL",
+        "b. ASDL",
+        "c. TSDL",
+        "d. SSDL"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In this type of multiplexing time slots are preassigned to sources and fixed.",
+      "answer": "Synchronous TDM",
+      "choices": [
+        "a. TDM",
+        "b. FDM",
+        "c. Asynchronous TDM",
+        "d. Synchronous TDM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In which operation carry is obtained?",
+      "answer": "Addition",
+      "choices": [
+        "a. Addition",
+        "b. Subtraction",
+        "c. Multiplication",
+        "d. Both addition and subtraction"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -465,8 +808,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "It is rooted in binary code, a series of zeroes and ones each having an\nopposite value.",
@@ -478,9 +821,84 @@
         "d. Radix Number System"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "Latches constructed with NOR and NAND gates tend to remain in the latched condition due to which configuration feature?",
+      "answer": "Cross coupling",
+      "choices": [
+        "a. Cross coupling",
+        "b. Gate impedance",
+        "c. Synchronous operation",
+        "d. Low input voltages"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Let r denote number system radix. The only value(s) of r that satisfy the equation [Image: 12 - http://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/12.gif]",
+      "answer": "any value > 2",
+      "choices": [
+        "a. decimal 10",
+        "b. any value > 2",
+        "c. decimal 11",
+        "d. decimal 10 and 11"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Many time slots are wasted in __________",
+      "answer": "Synchronous TDM",
+      "choices": [
+        "a. FDM",
+        "b. Asynchronous TDM",
+        "c. TDM",
+        "d. Synchronous TDM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Most demultiplexers facilitate which type of conversion?",
+      "answer": "Single input, multiple outputs",
+      "choices": [
+        "a. Decimal-to-hexadecimal",
+        "b. Odd parity to even parity",
+        "c. AC to DC",
+        "d. Single input, multiple outputs"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "New CPU whose instruction set includes the instruction set of its predecessor CPU is said to be ___________ with its predecessor.",
+      "answer": "backward compatible",
+      "choices": [
+        "a. compatible",
+        "b. fully compatible",
+        "c. forward compatible",
+        "d. backward compatible"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "Number of outputs in a half adder _____________",
@@ -492,9 +910,39 @@
         "d. 1"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Odd parity of word can be conveniently tested by ___________",
+      "answer": "XOR gate",
+      "choices": [
+        "a. OR gate",
+        "b. NAND gate",
+        "c. AND gate",
+        "d. XOR gate"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "One example of the use of an S-R flip-flop is as ___________",
+      "answer": "Switch debouncer",
+      "choices": [
+        "a. Transition pulse generator",
+        "b. Racer",
+        "c. Astable oscillator",
+        "d. Switch debouncer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -505,8 +953,21 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "Opcode indicates the operations to be performed.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "Output inversion for Programmable Logic Array is unavailable",
@@ -516,8 +977,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Output will be a LOW for any case when one or more inputs are zero for a [Image: No - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/no] :",
@@ -529,9 +990,9 @@
         "d. NOR Gate"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -542,8 +1003,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "P is a 16-bit signed integer. The 2's complement representation of P is (F87B)₁₆.The 2's complement representation of 8*P",
@@ -555,9 +1016,9 @@
         "d. (187B)₁₆"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -568,8 +1029,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Propagation delay is usually measured at 30% point with respect to the L and H output voltage level",
@@ -579,8 +1040,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Sequential circuits consist of combinational logic only",
@@ -590,8 +1051,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Solve for the following: 2438 plus 1728=",
@@ -601,8 +1062,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Solve for the following: 3a1216 less 29A(16)",
@@ -612,8 +1073,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "The 1’s complement of 1111111110.101 is _______________",
@@ -625,9 +1086,9 @@
         "d. 1.101"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -640,9 +1101,9 @@
         "d. None of the mentioned"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -655,9 +1116,9 @@
         "d. 3124"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -670,9 +1131,39 @@
         "d. EXNOR"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The _________ holds the contents of the accessed memory word.",
+      "answer": "MBR",
+      "choices": [
+        "a. PC",
+        "b. MBR",
+        "c. IR",
+        "d. MAR"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The basic latch consists of ___________",
+      "answer": "Two inverters",
+      "choices": [
+        "a. Two adders",
+        "b. Two amplifiers",
+        "c. Two inverters",
+        "d. Two comparators"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -685,9 +1176,9 @@
         "d. 0010"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "The binary number 111 in octal format is ________________",
@@ -699,9 +1190,9 @@
         "d. 7"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "The binary number 1110 in hexadecimal format is _____________",
@@ -713,9 +1204,9 @@
         "d. E"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "The Boolean expression for a 3-input AND gate is ________.",
@@ -727,9 +1218,24 @@
         "d. X = ABC"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The carry propagation can be expressed as ________",
+      "answer": "Cp = A + B",
+      "choices": [
+        "a. All but Y0 are HIGH",
+        "b. Cp = A + B",
+        "c. Cp = AB",
+        "d. All but Y0 are LOW"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -742,9 +1248,24 @@
         "d. NOT"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The complement term for X’.Y’.Z + X.Y will be _____________",
+      "answer": "(X+Y+Z’)(X’+Y’)",
+      "choices": [
+        "a. XYZ’+X’Y’",
+        "b. (X+Y+Z’)(X’+Y’)",
+        "c. (X+Y+Z’)(X’+Y)",
+        "d. (X+Y+Z’)(X’+Y)"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -757,9 +1278,9 @@
         "d. fraction bits of 100…000 and exponent value of 0"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -770,8 +1291,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "The expression of a NAND gate is_______",
@@ -783,9 +1304,39 @@
         "d. (A+B)’"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The expression Y=(A+B)(B+C)(C+A) shows the _________ operation.",
+      "answer": "POS",
+      "choices": [
+        "a. NAND",
+        "b. POS",
+        "c. AND",
+        "d. SOP"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The expression Y=AB+BC+AC shows the _________ operation.",
+      "answer": "SOP",
+      "choices": [
+        "a. NOR",
+        "b. EX-OR",
+        "c. SOP",
+        "d. POS"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -798,9 +1349,9 @@
         "d. NOR"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -813,9 +1364,24 @@
         "d. input logic function"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The general form for calculating the number of rows in a truth table is ________",
+      "answer": "2ⁿ",
+      "choices": [
+        "a. 2ⁿ",
+        "b. -2ⁿ",
+        "c. 2ⁿ⁺¹",
+        "d. 2ⁿ⁻¹"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -828,9 +1394,54 @@
         "d. 0111"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "The length of a register is called _______",
+      "answer": "word size",
+      "choices": [
+        "a. word limit",
+        "b. register size",
+        "c. word size",
+        "d. register limit"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The logic circuits whose outputs at any instant of time depends only on the present input but also on the past outputs are called",
+      "answer": "Sequential circuits",
+      "choices": [
+        "a. Flip-flops",
+        "b. Sequential circuits",
+        "c. Latches",
+        "d. Combinational circuits"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The max term when X=Y=Z=1 is ________",
+      "answer": "x’+y’+z’",
+      "choices": [
+        "a. x+y+z",
+        "b. x’y’z’",
+        "c. x’+y’+z’",
+        "d. xyz"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "The maximum number of bits sufficient to represent a hexadecimal number in binary:",
@@ -842,9 +1453,84 @@
         "d. 3"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "The min term when X=Y=Z=0 is _____________",
+      "answer": "x’y’z’",
+      "choices": [
+        "a. x’+y’+z’",
+        "b. xyz",
+        "c. x’y’z’",
+        "d. x+y+z"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The minterm of any expression is denoted by ___________",
+      "answer": "m",
+      "choices": [
+        "a. min",
+        "b. m",
+        "c. Mt",
+        "d. M"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The normalized representation of 0.0010110 * 2 ₉ is _______",
+      "answer": "0 10000101 0110",
+      "choices": [
+        "a. 0 10000101 0110",
+        "b. 0 11110100 11100",
+        "c. 0 10001000 0010110",
+        "d. 0 10101010 1110"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The number of literals in the expression F=X.Y’ + Z are _____________",
+      "answer": "3",
+      "choices": [
+        "a. 1",
+        "b. 2",
+        "c. 3",
+        "d. 4"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The number of sign bits in a 32-bit IEEE format __________",
+      "answer": "1",
+      "choices": [
+        "a. 1",
+        "b. 23",
+        "c. 11",
+        "d. 9"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "The octal equivalent of 1100101.001010 is ______",
@@ -856,9 +1542,9 @@
         "d. 145.21"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "The Output is LOW if any one of the inputs is HIGH in case of a _________ gate.",
@@ -870,9 +1556,9 @@
         "d. NAND"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -885,9 +1571,24 @@
         "d. all inputs are LOW"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The output of a NOT gate is HIGH when ________.",
+      "answer": "the input is LOW",
+      "choices": [
+        "a. power is applied to the gate's IC",
+        "b. the input is HIGH",
+        "c. power is removed from the gate's IC",
+        "d. the input is LOW"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -900,9 +1601,9 @@
         "d. A = 1, B = 1, C = 1"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -915,9 +1616,9 @@
         "d. all of the above"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -928,8 +1629,8 @@
       ],
       "verified": true,
       "source": "amauoed-cs6301",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "confirmations": 10,
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "The result obtained on subtraction using 2’s complement of 1111-0010 will be _________",
@@ -941,9 +1642,37 @@
         "d. 11011"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The result of X+X.Y is X.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The sequential circuit is also called ___________",
+      "answer": "Latch",
+      "choices": [
+        "a. Strobe",
+        "b. Latch",
+        "c. Adder",
+        "d. Flip-flop"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -956,9 +1685,9 @@
         "d. -127"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -971,9 +1700,24 @@
         "d. 010"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The truth table for an S-R flip-flop has how many VALID entries?",
+      "answer": "3",
+      "choices": [
+        "a. 4",
+        "b. 1",
+        "c. 2",
+        "d. 3"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -999,9 +1743,24 @@
         "d. 8"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 16,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "The word demultiplex means ___________",
+      "answer": "One into many as well as Distributor",
+      "choices": [
+        "a. Many into one",
+        "b. One into many as well as Distributor",
+        "c. Distributor",
+        "d. One into many"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "There are 5 universal gates.",
@@ -1011,9 +1770,24 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "WDM stands for?",
+      "answer": "Wavelength division multiplexing",
+      "choices": [
+        "a. Wave division multiplexing",
+        "b. Wave dependent multiplexing",
+        "c. Wavelength division multiplexing",
+        "d. Wavelength dependent multiplexing"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -1026,9 +1800,24 @@
         "d. 5"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "What does the small bubble on the output of the NAND gate logic symbol mean?",
+      "answer": "The output is inverted.",
+      "choices": [
+        "a. none of the above",
+        "b. The output is inverted.",
+        "c. tristate",
+        "d. open collector output"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "What does the symbol D represent in a hexadecimal number system?",
@@ -1040,18 +1829,63 @@
         "d. 16"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "What is a multiplexer?",
+      "answer": "A multiplexer is a device which converts many signals into one",
+      "choices": [
+        "a. It is a type of encoder which decodes several inputs and gives one output",
+        "b. It takes one input and results into many output",
+        "c. It is a type of decoder which decodes several inputs and gives one output",
+        "d. A multiplexer is a device which converts many signals into one"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is an ambiguous condition in a NAND based S’-R’ latch?",
+      "answer": "S’=0, R’=0",
+      "choices": [
+        "a. S’=1, R’=1",
+        "b. S’=0, R’=0",
+        "c. S’=1, R’=0",
+        "d. S’=0, R’=1"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "What is binary?",
       "answer": "Base 2",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T03:05:02Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is correct instruction if you want the control to go to the location 2000h?",
+      "answer": "JMP 2000h",
+      "choices": [
+        "a. MOV 2000h",
+        "b. RET 2000h",
+        "c. MOV A, 2000h",
+        "d. JMP 2000h"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -1064,9 +1898,129 @@
         "d. 00110"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the complement of X’Y’Z?",
+      "answer": "X+Y+Z’",
+      "choices": [
+        "a. X’+Y+’Z’",
+        "b. X+YZ",
+        "c. X+Y+Z’",
+        "d. XYZ’"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the function of an enable input on a multiplexer chip?",
+      "answer": "To active the entire chip",
+      "choices": [
+        "a. To apply Vcc",
+        "b. To active one half of the chip",
+        "c. To connect ground",
+        "d. To active the entire chip"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What kind of a flag is the sign flag?",
+      "answer": "Status",
+      "choices": [
+        "a. Status",
+        "b. Instruction",
+        "c. General Purpose",
+        "d. Address"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What type of logic circuit is represented by the figure shown below? [Image: [moodle-asset:207775/4.png]]",
+      "answer": "XNOR",
+      "choices": [
+        "a. XOR",
+        "b. AND",
+        "c. NAND",
+        "d. XNOR"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "When logic gates are connected to form a gating/logic network it is called as a ______________ logic circuit.",
+      "answer": "combinational",
+      "choices": [
+        "a. hardwired",
+        "b. sequential",
+        "c. systematic",
+        "d. combinational"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which combinational circuit is renowned for selecting a single input from multiple inputs & directing the binary information to output line?",
+      "answer": "Data Selector",
+      "choices": [
+        "a. DeMultiplexer",
+        "b. Data distributor",
+        "c. Data Selector",
+        "d. Both data selector and data distributor"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which IC is used for the implementation of 1-to-16 DEMUX?",
+      "answer": "IC 74154a)",
+      "choices": [
+        "a. IC 74138",
+        "b. IC 74155",
+        "c. IC 74139",
+        "d. IC 74154a)"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which is the major functioning responsibility of the multiplexing combinational circuit?",
+      "answer": "Generation of selected path between multiple sources and a single destination",
+      "choices": [
+        "a. Encoding of binary information",
+        "b. Decoding the binary information",
+        "c. Generation of all minterms in an output function with OR-gate",
+        "d. Generation of selected path between multiple sources and a single destination"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -1079,9 +2033,39 @@
         "d. (A+B).C=AC+BC"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following is a data transfer instruction?",
+      "answer": "STA 16-bit address",
+      "choices": [
+        "a. STA 16-bit address",
+        "b. ADD A, B",
+        "c. MUL C, D",
+        "d. RET"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following is correct for a gated D-type flip-flop?",
+      "answer": "The Q output is either SET or RESET as soon as the D input goes HIGH or LOW",
+      "choices": [
+        "a. The output complement follows the input when enabled",
+        "b. The Q output is either SET or RESET as soon as the D input goes HIGH or LOW",
+        "c. Only one of the inputs can be HIGH at a time",
+        "d. The output toggles if one of the inputs is held HIGH"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     },
     {
@@ -1094,9 +2078,9 @@
         "d. 000"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
     },
     {
       "question": "Which of the following is not a positional number system?",
@@ -1108,9 +2092,24 @@
         "Binary Number System"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "source": "review-95-percent",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "Which of the following is not a visible register?",
+      "answer": "MAR",
+      "choices": [
+        "a. MAR",
+        "b. Status Register",
+        "c. General Purpose Registers",
+        "d. Address Register"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "Which of the following is the correct representation of a binary number?",
@@ -1122,9 +2121,24 @@
         "d. (110)²"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z"
+      "lastVerifiedAt": "2026-09-14T13:58:59Z"
+    },
+    {
+      "question": "Which of the following logic expressions represents the logic diagram shown? [Image: [moodle-asset:207772/2.png]]",
+      "answer": "X=A’B’+AB",
+      "choices": [
+        "a. X=AB’+A’B",
+        "b. X=A’B’+AB",
+        "c. X=(AB)’+AB",
+        "d. X=(AB)’+A’B’"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
     },
     {
       "question": "Which of the following logical operations is represented by the + sign in Boolean algebra?",
@@ -1136,9 +2150,39 @@
         "d. complementation"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-11T10:07:15Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Whose operations are more faster among the following?",
+      "answer": "Combinational circuits",
+      "choices": [
+        "a. Sequential circuits",
+        "b. Combinational circuits",
+        "c. Latches",
+        "d. Flip-flops"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Why is a demultiplexer called a data distributor?",
+      "answer": "The input will be distributed to one of the outputs",
+      "choices": [
+        "a. The input will be distributed to one of the outputs",
+        "b. The output will be distributed to one of the inputs",
+        "c. One of the inputs will be selected for the output",
+        "d. Single input to Single Output"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T13:58:59Z",
+      "lastVerifiedAt": "2026-09-14T13:58:59Z",
       "source": "community_contribution"
     }
   ]
