@@ -2,7 +2,7 @@
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
   "updatedAt": "2026-09-11T10:07:15Z",
-  "totalQuestions": 84,
+  "totalQuestions": 85,
   "questions": [
     {
       "question": "(1217)₈ is equivalent to",
@@ -136,6 +136,28 @@
       "confirmations": 9,
       "source": "CS6301_Prelim_Quiz_1_Answers.json",
       "lastVerifiedAt": "2026-09-11T10:07:15Z"
+    },
+    {
+      "question": "According to study reports of Global Entrepreneurship Monitor (GEM), entrepreneurs are most likely to launch businesses when they are between the ages of 35 and 44.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 15,
+      "firstSeenAt": "2026-09-11T09:26:31Z",
+      "lastVerifiedAt": "2026-09-14T11:50:00Z",
+      "source": "moodle_review_verified",
+      "wrongAnswers": [
+        "False"
+      ],
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "False",
+          "timestamp": "2026-09-14T11:50:00Z"
+        }
+      ]
     },
     {
       "question": "Analog Technology still used today",
