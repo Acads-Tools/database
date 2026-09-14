@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "IT6205A",
-  "updatedAt": "2026-09-14T14:50:48Z",
-  "totalQuestions": 23,
+  "updatedAt": "2026-09-14T14:57:10Z",
+  "totalQuestions": 37,
   "tier": "verified",
   "questions": [
     {
@@ -18,6 +18,31 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-14T14:26:37Z",
       "lastVerifiedAt": "2026-09-14T14:50:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "After the first six phases, an attacker can act to achieve the goals. These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
+      "answer": "Action on Objective",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "After the weapon is delivered to the victim, follows the targeting of an application or vulnerability of the operating system. The infected file can be used by the self-execution facility to launch the malware code, or it can be executed by the user himself;",
+      "answer": "Exploitation",
+      "choices": [
+        "a. Exploitation",
+        "b. Delivery",
+        "c. Weaponization",
+        "d. Reconnaissance"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
       "source": "community_contribution"
     },
     {
@@ -157,6 +182,16 @@
       "source": "community_contribution"
     },
     {
+      "question": "Infecting a victim system with a computer trojan, backdoor or other malware application of this type that ensures the attacker’s presence in the target environment;",
+      "answer": "Installation",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Is a generic term that implies a mechanism in place to provide a basis for confidence in the reliability/security of the system.",
       "answer": "Trust",
       "choices": [
@@ -207,6 +242,36 @@
       "source": "community_contribution"
     },
     {
+      "question": "Logical security consists in software that are necessary to control the access to information and services of a system. The logical level is divided into two categories: access security level and service security level.",
+      "answer": "System",
+      "choices": [
+        "a. Install",
+        "b. Recon",
+        "c. Prevent Cyber-Attacks",
+        "d. System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Making a malware application (for example, a computer trojan) that, combined with an exploitable security breach, allows remote access. Moreover, PDF (Portable Document Format) files or Microsoft Office suite-specific files can be regarded as weapons available to the attacker;",
+      "answer": "Weaponization",
+      "choices": [
+        "a. Delivery",
+        "b. Exploitation",
+        "c. Reconnaissance",
+        "d. Weaponization"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Not performing an activity that would incur risk.",
       "answer": "Risk Avoidance",
       "choices": [
@@ -219,6 +284,46 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-14T14:26:37Z",
       "lastVerifiedAt": "2026-09-14T14:50:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Once this bidirectional communication has been made, an attacker has access inside the target environment and can usually control the activity by manually launching commands;",
+      "answer": "command and control",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Physical security consist in the closure of IT equipment in a dedicated space and the provision of access control.",
+      "answer": "Prevent Cyber-Attacks",
+      "choices": [
+        "a. Recon",
+        "b. System",
+        "c. Prevent Cyber-Attacks",
+        "d. Install"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Research, target identification and selection: it may be looking for e-mail addresses, social relationships, or data about a particular technology, information displayed on various websites;",
+      "answer": "Reconnaissance",
+      "choices": [
+        "a. Reconnaissance",
+        "b. Exploitation",
+        "c. Delivery",
+        "d. Weaponization"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
       "source": "community_contribution"
     },
     {
@@ -323,6 +428,51 @@
       "source": "community_contribution"
     },
     {
+      "question": "The infected file can be used by the self-execution facility to launch the malware code, or it can be executed by the user himself;",
+      "answer": "Installation",
+      "choices": [
+        "a. Reconnaissance",
+        "b. Exploitation",
+        "c. Installation",
+        "d. Weaponization"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The main ways of transport are e-mails (attachment of infected files), web platforms (running malware scripts), or removable USB memories;",
+      "answer": "Delivery",
+      "choices": [
+        "a. Install",
+        "b. Recon",
+        "c. C2",
+        "d. Delivery"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
+      "answer": "Action on objective",
+      "choices": [
+        "a. Command and Control",
+        "b. Installation",
+        "c. Action on objective",
+        "d. Exploitation"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Three Features of Security",
       "answer": "Confidentiality, Integrity and Availability",
       "choices": [
@@ -335,6 +485,46 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:19:50Z",
       "lastVerifiedAt": "2026-09-14T14:19:50Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Transmitting the weapon to the target environment.",
+      "answer": "Delivery",
+      "choices": [
+        "a. Exploitation",
+        "b. Delivery",
+        "c. Weaponization",
+        "d. Reconnaissance"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Usually an infected host must be accessible outside of the local network to establish a command and control channel between the victim and the attacker. Once this bidirectional communication has been made, an attacker has access inside the target environment and can usually control the activity by manually launching commands;",
+      "answer": "command and control",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What are the steps in intrusion model?",
+      "answer": "Recon, Weaponise, Deliver, Exploit, Install, C2 and Action",
+      "choices": [
+        "a. System, Weaponise, Deliver, Exploit, Install, C2 and Action",
+        "b. Recon, Weaponise, Deliver, Exploit, Install, System and Action",
+        "c. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action",
+        "d. Recon, Weaponise, Deliver, System, Install, C2 and Action"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:57:10Z",
+      "lastVerifiedAt": "2026-09-14T14:57:10Z",
       "source": "community_contribution"
     }
   ]
