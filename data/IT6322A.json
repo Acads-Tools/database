@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "IT6322A",
-  "updatedAt": "2026-09-14T14:11:02Z",
-  "totalQuestions": 37,
+  "updatedAt": "2026-09-14T14:12:29Z",
+  "totalQuestions": 43,
   "questions": [
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
@@ -20,6 +20,19 @@
       "source": "community_contribution"
     },
     {
+      "question": "A layout manager positions item views inside the RecylerView",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:12:29Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "A PopupMenu is a modal menu anchored to a View",
       "answer": "True",
       "choices": [
@@ -27,9 +40,9 @@
         "b. True"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
       "source": "community_contribution"
     },
     {
@@ -126,6 +139,19 @@
       "source": "community_contribution"
     },
     {
+      "question": "ListView is a view group that displays a list of unscrollable items",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:12:29Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "On Android 3.0 and higher, items from the options menu are presented by the action bar as a combination of on-screen action items and overflow options.",
       "answer": "True",
       "choices": [
@@ -133,9 +159,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
       "source": "community_contribution"
     },
     {
@@ -185,9 +211,9 @@
         "b. True"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
       "source": "community_contribution"
     },
     {
@@ -262,6 +288,19 @@
       "source": "community_contribution"
     },
     {
+      "question": "The Menu button is deprecated on Android 2, so you should migrate toward using the action bar to provide access to actions and other options.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:12:29Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "The Motorola Dynatec was the first ever mobile phone to be approved by the FCC. What does the FCC stand for?",
       "answer": "Federal Communications Commission",
       "choices": [
@@ -289,6 +328,32 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-14T13:59:09Z",
       "lastVerifiedAt": "2026-09-14T14:05:21Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The RecyclerView provides layout managers for positioning items",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:12:29Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The RecyclerView widget is a more advanced and flexible version of the ListView",
+      "answer": "True",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:12:29Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
       "source": "community_contribution"
     },
     {
@@ -373,6 +438,19 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:11:02Z",
       "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Using a Cursor Loader is helpful when avoiding/blocking an Adapter",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-14T14:12:29Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
       "source": "community_contribution"
     },
     {
@@ -518,9 +596,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-09-14T14:12:29Z",
       "source": "community_contribution"
     }
   ]
