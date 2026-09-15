@@ -1,9 +1,129 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-09-15T02:15:43Z",
-  "totalQuestions": 47,
+  "updatedAt": "2026-09-15T03:04:15Z",
+  "totalQuestions": 108,
   "questions": [
+    {
+      "question": "______ are used to correct the error(s) present in the received data (bit stream) so that, we will get the original data.",
+      "answer": "Error correction codes",
+      "choices": [
+        "a. Error correction parity",
+        "b. Error correction codes",
+        "c. Error detection codes",
+        "d. Error detection parity"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "______ can handle CPU, direct memory access (DMA) and video refresh at the same time by utilizing a high-speed video interface.",
+      "answer": "CDRAM",
+      "choices": [
+        "a. DRAM",
+        "b. CDRAM",
+        "c. CDROM",
+        "d. SRAM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "______ stores a bit of data using a transistor and capacitor pair.",
+      "answer": "DRAM",
+      "choices": [
+        "a. DRAM",
+        "b. SRAM",
+        "c. ROM",
+        "d. Semiconductor Memory"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "_______ are still used in many computers for situations where data must be read and written quickly.",
+      "answer": "Internal Drive",
+      "choices": [
+        "a. Internal Drive",
+        "b. External Drive",
+        "c. Hard Drive",
+        "d. Flash Drive"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "_______ are used in devices such as cameras, GPS systems and call phones.",
+      "answer": "Memory Card",
+      "choices": [
+        "a. Flash Drive",
+        "b. Hard Drive",
+        "c. Memory Card",
+        "d. Floppy Disk"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "_______ refers to recording data using light.",
+      "answer": "Optical storage",
+      "choices": [
+        "a. Magnetic disk",
+        "b. Magnetic tape",
+        "c. External memory",
+        "d. Optical storage"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "_________ queues are not an independent scheduling algorithm. They make use of other existing algorithms to group and schedule jobs with common characteristics.",
+      "answer": "Multiple level",
+      "choices": [
+        "a. Shortest Remaining Time",
+        "b. Waiting time",
+        "c. Multiple level",
+        "d. Round robin"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "__________ is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code",
+      "answer": "Random Access Memory",
+      "choices": [
+        "a. Central Processing Unit",
+        "b. Random Access Memory",
+        "c. Read Only Memory",
+        "d. Random Access Machine"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
     {
       "question": "__________ is saved in a known place.",
       "answer": "Program counter",
@@ -14,9 +134,39 @@
         "d. Program counter"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "___________ is the fundamental building block of computer memory.",
+      "answer": "Memory Cell",
+      "choices": [
+        "a. Cache memory",
+        "b. Random Access Memory",
+        "c. Memory Cell",
+        "d. Read Only Memory"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "___________ mode takes the most time to transfer a block of data, yet it is also the most efficient mode in terms of overall system performance.",
+      "answer": "Transparent Mode",
+      "choices": [
+        "a. Transparent Mode",
+        "b. Cycle stealing mode",
+        "c. Burst mode",
+        "d. PCI"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -29,9 +179,39 @@
         "d. Interrupt"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A (or B) is increased by one and the resulting value appears at Y.",
+      "answer": "Increment",
+      "choices": [
+        "a. Add",
+        "b. Subtract",
+        "c. Decrement",
+        "d. Increment"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A _________ usually comprises the display device, circuitry, casing, and power supply.",
+      "answer": "Monitor",
+      "choices": [
+        "a. Display",
+        "b. Desktop",
+        "c. Monitor",
+        "d. Keyboard"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -39,9 +219,9 @@
       "answer": "bus",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -49,9 +229,24 @@
       "answer": "bus",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A basic ALU has three parallel ______ buses consisting of two input operands (A and B) and a result output (Y).",
+      "answer": "Data",
+      "choices": [
+        "a. Data",
+        "b. Integer",
+        "c. Binary",
+        "d. Memory"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -64,9 +259,54 @@
         "d. Bus line"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A computer _________ is one of the primary input devices used with a computer.",
+      "answer": "Keyboard",
+      "choices": [
+        "a. Headset",
+        "b. Mouse",
+        "c. Printer",
+        "d. Keyboard"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A disk or solid state drive (SSD) subsystem that increases performance or provides fault tolerance or both.",
+      "answer": "Redundant Array of Independent Disks",
+      "choices": [
+        "a. Hard Disk",
+        "b. Redundant Array of Dependent Disks",
+        "c. Redundant Array of Independent Disks",
+        "d. Floppy Disk"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A group of simple ALUs that calculates a square root in stages, with intermediate results passing through ALUs arranged like a factory production line.",
+      "answer": "Calculation pipeline",
+      "choices": [
+        "a. Calculation in a single clock",
+        "b. Iterative calculation",
+        "c. Subtract with borrow",
+        "d. Calculation pipeline"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -74,9 +314,84 @@
       "answer": "bus",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A printer is an external hardware output device that takes the electronic data stored on a computer or other device and generates a soft copy of it.",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. I don't know",
+        "c. Maybe",
+        "d. True"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A simple ALU that calculates the square root through several steps under the direction of a control unit.",
+      "answer": "Iterative calculation",
+      "choices": [
+        "a. Calculation pipeline",
+        "b. Subtract with borrow",
+        "c. Calculation in a single clock",
+        "d. Iterative calculation"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A type of flash memory",
+      "answer": "NOR-flash",
+      "choices": [
+        "a. NER-flash",
+        "b. NOR-flash",
+        "c. NIR-flash",
+        "d. NAR-flash"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "An ALU is a ______________ circuit, meaning that its outputs will change asynchronously in response to input changes.",
+      "answer": "Combinational Logic",
+      "choices": [
+        "a. Binary logic",
+        "b. Calculation pipeline",
+        "c. Arithmetic logic",
+        "d. Combinational Logic"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Any peripheral device that is not housed inside the computer cabinet.",
+      "answer": "External Devices",
+      "choices": [
+        "a. Floppy Disk",
+        "b. Internal Devices",
+        "c. Hard Drive",
+        "d. External Devices"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -87,9 +402,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -100,9 +415,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -115,9 +430,9 @@
         "NASA"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -130,9 +445,24 @@
         "d. 2004"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Capacity of true tape",
+      "answer": "185 TB",
+      "choices": [
+        "a. 185 GB",
+        "b. 186 KB",
+        "c. 185 TB",
+        "d. 185 EB"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -143,9 +473,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -156,9 +486,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -168,9 +498,39 @@
         "Suggested (Verified DB): Input Fill"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Electronic data storage mediums that we can utilize",
+      "answer": "Magnetic & Optical",
+      "choices": [
+        "a. Magnetic",
+        "b. Operational",
+        "c. Magnetic & Optical",
+        "d. Magnetic & Operational"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Entire data blocks are access and transferred out on a high-speed bus-like interface",
+      "answer": "RDRAM",
+      "choices": [
+        "a. RDRAM",
+        "b. SRAM",
+        "c. DRAM",
+        "d. CDRAM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -183,9 +543,9 @@
         "d. Keyboard"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -196,9 +556,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -209,9 +569,54 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In _______, a bit of data is stored using the state of a six-transistor memory cell.",
+      "answer": "SRAM",
+      "choices": [
+        "a. SRAM",
+        "b. ROM",
+        "c. DRAM",
+        "d. None"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In many modern personal computers, the RAM comes in an easily upgraded form of modules called memory modules or DRAM modules about the size of a few sticks of _________",
+      "answer": "Chewing gum",
+      "choices": [
+        "a. Cigarettes",
+        "b. Popsicle",
+        "c. Ruler",
+        "d. Chewing gum"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In multiprogramming environment, the OS decides which process gets the processor when and for how much time. This function is called?",
+      "answer": "Processes scheduling",
+      "choices": [
+        "a. Error detecting aids",
+        "b. Operating system",
+        "c. Processes scheduling",
+        "d. Memory management"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -224,9 +629,69 @@
         "Cathode Tubes"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It can be used as true cache.",
+      "answer": "CDRAM",
+      "choices": [
+        "a. SRAM",
+        "b. DRAM",
+        "c. CDRAM",
+        "d. CDROM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It has multiple-bank internal architecture that improves opportunities for on-chip parallelism. Generally, it uses dual data banks internally. It starts access in one bank then next, and then receives data from first then second.",
+      "answer": "SDRAM",
+      "choices": [
+        "a. RDRAM",
+        "b. SDRAM",
+        "c. CDRAM",
+        "d. DDR DRAM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is a crucial function that manages the speed discrepancy that exists between the speed of transfer of data between the processor and memory and peripheral devices.",
+      "answer": "Data buffering",
+      "choices": [
+        "a. Data buffering",
+        "b. Device communication",
+        "c. Control and timing",
+        "d. Error detection"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is a digital electronic data storage device.",
+      "answer": "Semiconductor Memories",
+      "choices": [
+        "a. Read Only Memory",
+        "b. Random Access Memory",
+        "c. Semiconductor Memories",
+        "d. Electronic Data"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -236,9 +701,39 @@
         "Suggested (Verified DB): PCI Fill"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is a processor with direct memory access capability. In this, the computer system is divided into a memory unit and number of processors.",
+      "answer": "I/O Processors",
+      "choices": [
+        "a. I/O Processors",
+        "b. Microprocessors",
+        "c. I/O Modules",
+        "d. Miniprocessors"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is a storage device that uses a magnetization process to write, rewrite and access data.",
+      "answer": "Magnetic Disk",
+      "choices": [
+        "a. Magnetic Tape",
+        "b. Magnetic Disk",
+        "c. External Memory",
+        "d. Optical Memory"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -251,9 +746,9 @@
         "d. Low cost"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -266,9 +761,24 @@
         "d. Miniprocessor"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is easy to include (append) one parity bit either to the left of MSB or to the right of LSB of original bit stream.",
+      "answer": "Parity Code",
+      "choices": [
+        "a. Even Parity Code",
+        "b. Binary Code",
+        "c. Parity Code",
+        "d. Odd Parity Code"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -281,9 +791,9 @@
         "d. DISC"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -296,9 +806,24 @@
         "d. Trigger methods"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is the activity of the process manager that handles the removal of the running process from the CPU and the selection of another process on the basis of a particular strategy.",
+      "answer": "Scheduling of process",
+      "choices": [
+        "a. Job queue",
+        "b. Ready queue",
+        "c. Scheduling of process",
+        "d. Device queue"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -308,9 +833,9 @@
         "Suggested (Verified DB): Memory Fill"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -323,9 +848,24 @@
         "d. Software interrupt"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is the simplest technique of mapping.",
+      "answer": "Direct mapping",
+      "choices": [
+        "a. Indirect mapping",
+        "b. Direct mapping",
+        "c. Non-associative mapping",
+        "d. Associative mapping"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -338,9 +878,39 @@
         "d. Control line"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is useful for both detection and correction of error present in the received data.",
+      "answer": "Hamming code",
+      "choices": [
+        "a. Parity code",
+        "b. Odd-parity Code",
+        "c. Binary code",
+        "d. Hamming code"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It performs best when it is transferring large blocks of data serially, such as for applications like word processing, spreadsheets and multimedia.",
+      "answer": "SDRAM",
+      "choices": [
+        "a. RDRAM",
+        "b. SDRAM",
+        "c. CDRAM",
+        "d. DDR DRAM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -350,9 +920,69 @@
         "Suggested (Verified DB): Processor Fill"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It selects processes from the queue and loads them into memory for execution.",
+      "answer": "Long-Term Scheduler",
+      "choices": [
+        "a. Medium-Term Scheduler",
+        "b. Long-Term Scheduler",
+        "c. Short-Term Scheduler",
+        "d. Average-Term Scheduler"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Keeps track of information, location, uses, status etc. The collective facilities are often known as ________",
+      "answer": "File System",
+      "choices": [
+        "a. File System",
+        "b. Memory Management",
+        "c. Database",
+        "d. Operating System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Magnetic tape was first used to record computer data in _____ on the Eckert-Mauchly UNIVAC I.",
+      "answer": "1951",
+      "choices": [
+        "a. 1950",
+        "b. 1952",
+        "c. 1949",
+        "d. 1951"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Magnetic tape was invented for recording sound by Fritz Pfleumer in _____ in Germany.",
+      "answer": "1928",
+      "choices": [
+        "a. 1927",
+        "b. 1929",
+        "c. 1926",
+        "d. 1928"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -365,9 +995,24 @@
         "d. Cache memory"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Most external hard drives connect to a computer through a ______",
+      "answer": "USB port",
+      "choices": [
+        "a. Flash Drive",
+        "b. Floppy Disk",
+        "c. Hard Drive",
+        "d. USB port"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -378,9 +1023,39 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Production of dumps, traces, error messages, and other debugging and ____________",
+      "answer": "Error detecting aids",
+      "choices": [
+        "a. Operating system",
+        "b. Error detecting aids",
+        "c. Processes",
+        "d. Memory management"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Short term scheduler is also called as _______",
+      "answer": "CPU scheduler",
+      "choices": [
+        "a. OS scheduler",
+        "b. CPU scheduler",
+        "c. Memory scheduler",
+        "d. Swapping"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -390,9 +1065,9 @@
         "Suggested (Verified DB): Power pin Fill"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -405,9 +1080,9 @@
         "d. RAM"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -420,9 +1095,39 @@
         "I/O modules"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-11T02:42:05Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The __________ is used in systems in which the CPU should not be disabled for the length of time needed for burst transfer modes.",
+      "answer": "Cycle stealing mode",
+      "choices": [
+        "a. Mode of condition",
+        "b. Burst mode",
+        "c. Direct Memory Access",
+        "d. Cycle stealing mode"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The carry bit and operand are collectively treated as a circular buffer of bits.",
+      "answer": "Rotate through carry",
+      "choices": [
+        "a. Logical shift",
+        "b. Arithmetic shift",
+        "c. Rotate through carry",
+        "d. Rotate"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -433,9 +1138,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -446,9 +1151,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -459,9 +1164,39 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The operand is treated as a circular buffer of bits so its least and most significant bits are effectively adjacent.",
+      "answer": "Rotate",
+      "choices": [
+        "a. Arithmetic shift",
+        "b. Logical shift",
+        "c. Rotate through carry",
+        "d. Rotate"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The operand is treated as a two's complement integer, meaning that the most significant bit is a \"sign\" bit and is preserved.",
+      "answer": "Arithmetic shift",
+      "choices": [
+        "a. Rotate",
+        "b. Arithmetic shift",
+        "c. Rotate through carry",
+        "d. Logical shift"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -474,9 +1209,54 @@
         "d. 60"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The status _______ are various individual signals that convey supplemental information about the result of the current ALU operation.",
+      "answer": "Output",
+      "choices": [
+        "a. Binary",
+        "b. Output",
+        "c. Memory",
+        "d. Data"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The typical type of external memory that most people use and are familiar with are ______",
+      "answer": "Flash Drive",
+      "choices": [
+        "a. Floppy Disk",
+        "b. Hard Drive",
+        "c. External Hard Drive",
+        "d. Flash Drive"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The value of even parity bit should be zero, if even number of ones present in the binary code.",
+      "answer": "Even Parity Code",
+      "choices": [
+        "a. Parity Code",
+        "b. Odd Parity Code",
+        "c. Even Parity Code",
+        "d. No right answer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -489,9 +1269,24 @@
         "d. 1993"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "These are examples of an Operating System, except:",
+      "answer": "None",
+      "choices": [
+        "a. Windows",
+        "b. None",
+        "c. Linux",
+        "d. Mac"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -504,9 +1299,39 @@
         "d. Address Line"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "These are the other important activities that an operating system performs, except:",
+      "answer": "Print",
+      "choices": [
+        "a. Security",
+        "b. No right answer",
+        "c. Print",
+        "d. Job accounting"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "These are used to ______ the error(s) present in the received data (bit stream). These codes contain some bit(s), which are included (appended) to the original bit stream.",
+      "answer": "Detect",
+      "choices": [
+        "a. Improve",
+        "b. Detect",
+        "c. Correct",
+        "d. Remove"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -514,9 +1339,9 @@
       "answer": "data bus",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -524,9 +1349,9 @@
       "answer": "Data Bus",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -534,9 +1359,69 @@
       "answer": "data bus",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "This involves a number of tasks, primarily the transference of data between the processor and an I/O module, accepting and decoding commands sent by the processor, reporting of current status, and an ability for the I/O module to recognise its own unique address.",
+      "answer": "Processor communication",
+      "choices": [
+        "a. I/O Module",
+        "b. Control and timing",
+        "c. Device communication",
+        "d. Processor communication"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "This is a non-preemptive, pre-emptive scheduling algorithm.",
+      "answer": "Both SJN & SJF",
+      "choices": [
+        "a. Shortest Job First",
+        "b. No right answer",
+        "c. Both SJN & SJF",
+        "d. Shortest Job Next"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "This is in contrast to a floating-point unit (FPU), which operates on floating point numbers.",
+      "answer": "Arithmetic Logic Unit",
+      "choices": [
+        "a. Binary Integer Representation",
+        "b. Arithmetic Logic Unit",
+        "c. Floating-Point",
+        "d. Binary Integer Arithmetic"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "This is used in many older computer BIOS chips, is non-volatile storage that can be erased and programmed several times and allows only one location at a time to be written or erased.",
+      "answer": "EEPROM",
+      "choices": [
+        "a. UV-EPROM",
+        "b. EPROM",
+        "c. EEPROM",
+        "d. EAROM"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -550,9 +1435,9 @@
         "Christian Genco"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -563,9 +1448,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -578,9 +1463,9 @@
         "d. Internet and Network"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -590,9 +1475,24 @@
         "Suggested (Verified DB): Control line Fill"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What does EPROM stand for?",
+      "answer": "Erasable Programmable Read-Only Memory",
+      "choices": [
+        "a. Erasable Program Read-Only Memory",
+        "b. Electrically Programmable Read-Only Memory",
+        "c. Erasable Proof Read-Only Memory",
+        "d. Erasable Programmable Read-Only Memory"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -605,9 +1505,24 @@
         "d. Peripheral Computer Interconnect"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What does UNI stand for?",
+      "answer": "User Network Interface",
+      "choices": [
+        "a. User Neutral Interface",
+        "b. User Network Interface",
+        "c. User Network Internet",
+        "d. User Natural Interface"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-15T03:04:15Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -620,9 +1535,9 @@
         "d. Net money income"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     },
     {
@@ -635,9 +1550,9 @@
         "Manages peripheral interrupts"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-11T10:01:00Z",
-      "lastVerifiedAt": "2026-09-15T02:15:43Z",
+      "lastVerifiedAt": "2026-09-15T03:04:15Z",
       "source": "community_contribution"
     }
   ]
