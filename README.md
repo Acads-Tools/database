@@ -42,7 +42,7 @@ When students complete and review quiz attempts using the toolkit:
 | :--- | :--- | :---: | :--- |
 | `CS6204` | Computer Architecture and Organization | **108** | Active |
 | `CS6205` | Automata Theory and Formal Languages | **12** | Active |
-| `CS6206` | Principles of Operating Systems | **149** | Active |
+| `CS6206` | Principles of Operating Systems | **153** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **155** | Active |
 | `IT6205A` | IT6205A | **37** | Active |
 | `IT6322A` | IT6322A | **52** | Active |
