@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-09-17T16:31:26Z",
-  "totalQuestions": 157,
+  "updatedAt": "2026-09-17T16:33:49Z",
+  "totalQuestions": 159,
   "tier": "verified",
   "questions": [
     {
@@ -15,7 +15,13 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-17T16:00:06Z",
       "lastVerifiedAt": "2026-09-17T16:26:53Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Private IP Address",
+          "timestamp": "2026-09-17T16:33:49Z"
+        }
+      ]
     },
     {
       "question": "802.11a network standard is typically used in public spaces",
@@ -301,9 +307,9 @@
         "Automatic Private IP Addressing"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -599,9 +605,9 @@
         "32 bits"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -611,9 +617,9 @@
         "128 bits"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -913,9 +919,9 @@
         "Default Gateway"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -1129,9 +1135,9 @@
         "Public IP Address"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -1519,9 +1525,9 @@
         "Subnet Mask"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -1909,9 +1915,9 @@
         "11111111.11111111.11111111.00000000"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -1924,6 +1930,21 @@
       "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:00:06Z",
       "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What type of notation does IP version 6 address uses?",
+      "answer": "Hexadecimal",
+      "choices": [
+        "a. Hexadecimal",
+        "b. Binary",
+        "c. Octal",
+        "d. Decimal"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:33:49Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
@@ -2014,6 +2035,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:28:46Z",
       "lastVerifiedAt": "2026-09-17T16:28:46Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following is not an IPv6 Address types?",
+      "answer": "Broadcast",
+      "choices": [
+        "a. Anycast",
+        "b. Multicast",
+        "c. Unicast",
+        "d. Broadcast"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:33:49Z",
+      "lastVerifiedAt": "2026-09-17T16:33:49Z",
       "source": "community_contribution"
     },
     {
