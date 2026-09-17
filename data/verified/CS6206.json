@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-09-17T16:33:49Z",
-  "totalQuestions": 159,
+  "updatedAt": "2026-09-17T16:35:18Z",
+  "totalQuestions": 163,
   "tier": "verified",
   "questions": [
     {
@@ -907,9 +907,9 @@
         "Switch"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
@@ -1111,9 +1111,9 @@
         "WPA-Enterprise"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
@@ -1147,9 +1147,9 @@
         "Wireless Network"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
@@ -1219,9 +1219,9 @@
         "Ad hoc mode"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
@@ -1699,9 +1699,9 @@
         "IEEE 802.1X"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
@@ -1933,6 +1933,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "What is the maximum bit rate for the 802.11n technologies?",
+      "answer": "600mbps",
+      "choices": [
+        "a. None of the choices",
+        "b. 600mbps",
+        "c. 54mbps",
+        "d. 11mbps"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:35:18Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "What type of notation does IP version 6 address uses?",
       "answer": "Hexadecimal",
       "choices": [
@@ -1945,6 +1960,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:33:49Z",
       "lastVerifiedAt": "2026-09-17T16:33:49Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Where will you see the Manage Wireless Networks tool in your PC?",
+      "answer": "Control Panel",
+      "choices": [
+        "a. Accessories",
+        "b. Control Panel",
+        "c. System Tools",
+        "d. Program Files"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:35:18Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
@@ -2008,6 +2038,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which of the following is not a way to improve the signal strength?",
+      "answer": "None of the Choices",
+      "choices": [
+        "a. Check all Physical obstructions",
+        "b. None of the Choices",
+        "c. Check for devices that may cause interference",
+        "d. Ensure close proximity to the Wireless APs"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:35:18Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Which of the following is not a Wireless LAN Standards?",
       "answer": "802.11 a",
       "choices": [
@@ -2032,9 +2077,9 @@
         "d. Improved Security"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-09-17T16:28:46Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
@@ -2065,6 +2110,21 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-17T16:07:30Z",
       "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following statement is not correct?",
+      "answer": "You can configure the client computer by going to the accessories in the start menu and clicking the network options.",
+      "choices": [
+        "a. You can configure the client computer by going to the accessories in the start menu and clicking the network options.",
+        "b. You can configure the client computer by using the Network Dialog Box and following the Wizard",
+        "c. You can configure the client computer by using the group policy",
+        "d. You can configure the client computer by using the command line: netsh wlan"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:35:18Z",
+      "lastVerifiedAt": "2026-09-17T16:35:18Z",
       "source": "community_contribution"
     },
     {
