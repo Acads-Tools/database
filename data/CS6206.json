@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-09-17T16:26:53Z",
-  "totalQuestions": 153,
+  "updatedAt": "2026-09-17T16:28:46Z",
+  "totalQuestions": 156,
   "questions": [
     {
       "question": "172.16.0.0 /12 is what type of IPv4 Address.",
@@ -924,9 +924,9 @@
         "Windows Upgrade Advisor"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     },
     {
@@ -1116,9 +1116,9 @@
         "Sysprep"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     },
     {
@@ -1260,9 +1260,9 @@
         "Does not require the reinstallation of applications"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     },
     {
@@ -1296,9 +1296,9 @@
         "Usability"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     },
     {
@@ -1311,9 +1311,9 @@
         "Deployment"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     },
     {
@@ -1323,9 +1323,9 @@
         "Clean Installation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     },
     {
@@ -1335,9 +1335,9 @@
         "Upgrade Installation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     },
     {
@@ -1956,6 +1956,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which of the following is not a Specialized version of Windows 7?",
+      "answer": "Windows 7 Home Basic",
+      "choices": [
+        "a. Windows 7 Professional",
+        "b. Windows 7 Ultimate",
+        "c. Windows 7 Home Basic",
+        "d. Windows 7 Enterprise"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:28:46Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Which of the following is not a Wireless LAN Standards?",
       "answer": "802.11 a",
       "choices": [
@@ -1971,6 +1986,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which of the following is not an advantage of installing a 64-bit edition of Windows 7?",
+      "answer": "It supports 16-bit Windows on Windows (WOW) environment",
+      "choices": [
+        "a. It supports 16-bit Windows on Windows (WOW) environment",
+        "b. Improved Performance",
+        "c. More Memory",
+        "d. Improved Security"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:28:46Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Which of the following is not the common network architecture types?",
       "answer": "WiMax",
       "choices": [
@@ -1983,6 +2013,21 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-17T16:07:30Z",
       "lastVerifiedAt": "2026-09-17T16:26:53Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following version of Windows are allowed for Upgrade?",
+      "answer": "Windows Vista SP1",
+      "choices": [
+        "a. Windows Vista SP1",
+        "b. Windows XP",
+        "c. None of the choices",
+        "d. Windows 95"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-17T16:28:46Z",
+      "lastVerifiedAt": "2026-09-17T16:28:46Z",
       "source": "community_contribution"
     }
   ]
