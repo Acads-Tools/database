@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "IT6310",
-  "updatedAt": "2026-09-18T08:05:39Z",
-  "totalQuestions": 30,
+  "updatedAt": "2026-09-18T08:20:16Z",
+  "totalQuestions": 47,
   "questions": [
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
@@ -29,6 +29,33 @@
       "source": "community_contribution"
     },
     {
+      "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Areas of Security Trinity where they need to have a good security measures to avoid hackers from getting access to the network.",
+      "answer": "Prevention",
+      "choices": [
+        "a. Detection",
+        "b. Prevention",
+        "c. Response"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "As a philosophy, it complements midpoint security, which focuses on individual devices; preventive security instead focuses on how those devices interact, and on the connective tissue between them.",
       "answer": "False",
       "choices": [
@@ -38,6 +65,42 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-18T08:05:39Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Availability refers to the ability of a network to protect its information from any unauthorized access.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Big corporations are not at risks to any form of security breach.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "How many key phases are there in an incident response plan ?",
+      "answer": "6",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
       "source": "community_contribution"
     },
     {
@@ -77,6 +140,19 @@
       "source": "community_contribution"
     },
     {
+      "question": "Internet is an example of a network.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "It could be exploited because of an encryption key that was vulnerable to decoding.",
       "answer": "WEP 64",
       "choices": [
@@ -89,6 +165,16 @@
       "source": "community_contribution"
     },
     {
+      "question": "It determines whether you are allowed to access a specific information or file.",
+      "answer": "Authorization",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "It disguises as useful software.",
       "answer": "trojan horse",
       "choices": [
@@ -98,6 +184,35 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-18T08:05:39Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It ensures that the information in an information system is accurate.",
+      "answer": "Integrity",
+      "choices": [
+        "a. Availability",
+        "b. Accountability",
+        "c. Integrity"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It has a vital role in an information system because it is the one that allows a company to link their computers and its users",
+      "answer": "Network",
+      "choices": [
+        "a. Network",
+        "b. Router",
+        "c. Switch",
+        "d. Internet"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
       "source": "community_contribution"
     },
     {
@@ -125,6 +240,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "It is a model designed to guide policies for information security within an organization.",
+      "answer": "CIA Triad Information Security",
+      "choices": [
+        "a. CIA Triad Information Security",
+        "b. AAA of Information",
+        "c. Security Trinity",
+        "d. Core Security Concepts"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "It is a self-replicating program that is harmful to networks.",
       "answer": "worm",
       "choices": [
@@ -137,6 +267,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "It is a structured procedure for taking care of any security incidents, breaches, and network threats.",
+      "answer": "Response",
+      "choices": [
+        "a. Detection",
+        "b. Preventive",
+        "c. Response",
+        "d. Planning"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "It is a wireless security protocol created by Cisco to address the weaknesses in WEP and WPA.",
       "answer": "LEAP",
       "choices": [
@@ -146,6 +291,45 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-18T08:05:39Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is considered as a crucial part of information systems",
+      "answer": "Information",
+      "choices": [
+        "a. Security",
+        "b. Information",
+        "c. Data",
+        "d. Network"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is the network security solution by an institute to [____: detect] any malicious activity in a network.",
+      "answer": "detect",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is the tangible parts of a computer system.",
+      "answer": "Hardware",
+      "choices": [
+        "a. Hardware",
+        "b. Peopleware",
+        "c. Software"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
       "source": "community_contribution"
     },
     {
@@ -182,6 +366,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-18T08:05:39Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It will help the company to provide a better strategy in keeping a data secured while avoiding intruders to alter or steal important and confidential information.",
+      "answer": "CIA Triad of Information",
+      "choices": [
+        "a. Security Trinity",
+        "b. CIA Triad of Information",
+        "c. Network Security",
+        "d. Network Administrator"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
       "source": "community_contribution"
     },
     {
@@ -254,6 +453,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-18T08:05:39Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "System that are intended to manage the computer itself such as the operating system.",
+      "answer": "System Software",
+      "choices": [
+        "a. System Software",
+        "b. Software",
+        "c. Application",
+        "d. Application Software"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
       "source": "community_contribution"
     },
     {
@@ -362,6 +576,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-18T08:05:39Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of these are not part of the reason why we need to secure our network?",
+      "answer": "To exploit vulnerabilities in the system",
+      "choices": [
+        "a. To keep your job",
+        "b. To secure company asset",
+        "c. To gain a competitive advantage",
+        "d. To exploit vulnerabilities in the system"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-18T08:20:16Z",
+      "lastVerifiedAt": "2026-09-18T08:20:16Z",
       "source": "community_contribution"
     }
   ]
