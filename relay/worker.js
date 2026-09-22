@@ -51,18 +51,25 @@ export default {
 
     // --- REAL 10-MINUTE TELEMETRY PING & ACTIVE USER TRACKING ---
     if (request.method === "GET" || request.method === "HEAD" || (request.method === "POST" && (path === "/ping" || path === "/active"))) {
-      if (path === "/ping") {
+      if (path === "/ping" || path === "/active") {
         const ip = request.headers.get("CF-Connecting-IP") || "127.0.0.1";
         const cid = url.searchParams.get("cid") || "";
-        const peerHash = await hashString(`${ip}:${cid}`);
         const now = Date.now();
+        let peerHash = null;
 
-        activePeerMap.set(peerHash, now);
+        // Register client session whenever cid is provided or on explicit ping
+        if (cid || path === "/ping") {
+          peerHash = await hashString(`${ip}:${cid}`);
+          activePeerMap.set(peerHash, now);
+        }
+
         let activeCount = pruneAndCountActivePeers();
 
         if (env.TELEMETRY_KV) {
           try {
-            await env.TELEMETRY_KV.put(`peer:${peerHash}`, now.toString(), { expirationTtl: 600 });
+            if (peerHash) {
+              await env.TELEMETRY_KV.put(`peer:${peerHash}`, now.toString(), { expirationTtl: 600 });
+            }
             const list = await env.TELEMETRY_KV.list({ prefix: "peer:" });
             if (list && list.keys) {
               activeCount = Math.max(activeCount, list.keys.length);
@@ -72,29 +79,9 @@ export default {
 
         return new Response(JSON.stringify({
           status: "ok",
-          active: activeCount,
+          active: Math.max(1, activeCount),
           windowMinutes: 10,
           timestamp: now
-        }), {
-          status: 200,
-          headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
-        });
-      }
-
-      if (path === "/active") {
-        let activeCount = pruneAndCountActivePeers();
-        if (env.TELEMETRY_KV) {
-          try {
-            const list = await env.TELEMETRY_KV.list({ prefix: "peer:" });
-            if (list && list.keys) {
-              activeCount = Math.max(activeCount, list.keys.length);
-            }
-          } catch (_) {}
-        }
-        return new Response(JSON.stringify({
-          status: "ok",
-          active: activeCount,
-          windowMinutes: 10
         }), {
           status: 200,
           headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
@@ -221,8 +208,49 @@ export default {
         }))
       };
 
+      // Generate clean, human-readable markdown preview table
+      const questionRows = validQuestions.slice(0, 25).map((q, idx) => {
+        const cleanQ = (q.question || q.qRaw || '')
+          .replace(/\r?\n/g, ' ')
+          .replace(/\|/g, '\\|')
+          .slice(0, 120);
+        const cleanAns = (q.answer || q.ansRaw || '')
+          .replace(/\r?\n/g, ' ')
+          .replace(/\|/g, '\\|')
+          .slice(0, 80);
+        return `| ${idx + 1} | ${cleanQ} | **${cleanAns}** |`;
+      }).join('\n');
+
+      const extraNote = validQuestions.length > 25
+        ? `\n*... and ${validQuestions.length - 25} more verified questions in this submission.*\n`
+        : '';
+
       const title = `[Contribution] Auto-Sync for ${subjectCode} (${validQuestions.length} verified answers)`;
-      const body = `### Community Contribution Payload\n\n\`\`\`json\n${JSON.stringify(issuePayload, null, 2)}\n\`\`\``;
+      const body = [
+        `## 🎓 Community Contribution: \`${subjectCode}\``,
+        ``,
+        `### 📊 Submission Overview`,
+        `| Metric | Value |`,
+        `| :--- | :--- |`,
+        `| **Subject Code** | \`${subjectCode}\` |`,
+        `| **Verified Answers** | \`${validQuestions.length}\` |`,
+        `| **Submission Source** | \`${payload.source || "background_harvester"}\` |`,
+        `| **Timestamp (UTC)** | \`${new Date().toISOString()}\` |`,
+        ``,
+        `### 📝 Verified Questions Preview`,
+        `| # | Question | Verified Answer |`,
+        `| :---: | :--- | :--- |`,
+        questionRows,
+        extraNote,
+        ``,
+        `<details>`,
+        `<summary><b>📦 Machine-Readable Payload (JSON)</b></summary>`,
+        ``,
+        `\`\`\`json`,
+        JSON.stringify(issuePayload, null, 2),
+        `\`\`\``,
+        `</details>`
+      ].join('\n');
 
       const ghResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/issues`, {
         method: "POST",
