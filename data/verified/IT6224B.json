@@ -1,10 +1,49 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "IT6224B",
-  "updatedAt": "2026-09-22T08:07:16Z",
-  "totalQuestions": 10,
+  "updatedAt": "2026-09-22T08:09:58Z",
+  "totalQuestions": 20,
   "tier": "verified",
   "questions": [
+    {
+      "question": "Access Layer is a design model layer that provides connectivity for the users.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Access Layer is the layer of which the hierarchical enterprise LAN design model would PoE for VoIP phones and access points be considered.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Core Layer is a design model layer that forwards traffic from/to different local networks.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
     {
       "question": "Distribution Layer is a design model layer that provides a high-speed backbone link between dispersed networks.",
       "answer": "True",
@@ -79,6 +118,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "In managing Cisco devices, what is a characteristic of out-of-band device management?",
+      "answer": "It requires a terminal emulation client.",
+      "choices": [
+        "a. It requires Telnet, SSH, or HTTP to access a Cisco device.",
+        "b. It requires at least one network interface on the device to be connected and operational.",
+        "c. It requires a terminal emulation client.",
+        "d. Out-of-band device management requires a direct connection to a network interface."
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "In network troubleshooting, which command is used to display the bandwidth of an interface on an EIGRP-enabled router?",
       "answer": "show interfaces",
       "choices": [
@@ -104,6 +158,79 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
       "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In this chapter, what is the function of PoE pass-through?",
+      "answer": "Allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
+      "choices": [
+        "a. Allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU",
+        "b. Allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
+        "c. Allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
+        "d. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In today's current switch technology, Which statement describes a characteristic of Cisco Meraki switches?",
+      "answer": "They are cloud-managed access switches that enable virtual stacking of switches.",
+      "choices": [
+        "a. They promote infrastructure scalability, operational continuity, and transport flexibility.",
+        "b. They are campus LAN switches that perform the same functions as Cisco 2960 switches.",
+        "c. They are service provider switches that aggregate traffic at the edge of the network.",
+        "d. They are cloud-managed access switches that enable virtual stacking of switches."
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which among the listed below are the 2 functional parts of the network that can be combined to form a collapsed core design in Cisco Enterprise Architecture?",
+      "answer": "Distribution and core layer",
+      "choices": [
+        "a. Enterprise edge and access layer",
+        "b. Provider edge and access layer",
+        "c. Access and distribution layer",
+        "d. Distribution and core layer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which among the listed below as discussed in Cisco Enterprise Architecture which two functional parts of the network are combined to form a collapsed core design?",
+      "answer": "Core and distribution layer",
+      "choices": [
+        "a. Enterprise edge and access layer",
+        "b. Provider edge and access layer",
+        "c. Core and distribution layer",
+        "d. Access and distribution layer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
       "source": "community_contribution"
     },
     {
@@ -134,6 +261,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
       "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which network design solution below in the current technology today will extend access layer connectivity to user devices?",
+      "answer": "Wireless connectivity implementation",
+      "choices": [
+        "a. Routing protocol implementation",
+        "b. Implementing etherChannel implementation",
+        "c. Wireless connectivity implementation",
+        "d. Redundancy implementation"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-22T08:09:58Z",
       "source": "community_contribution"
     },
     {
