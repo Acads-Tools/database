@@ -1,0 +1,155 @@
+{
+  "subjectCode": "IT6224B",
+  "subjectName": "IT6224B",
+  "updatedAt": "2026-09-22T08:07:16Z",
+  "totalQuestions": 10,
+  "tier": "verified",
+  "questions": [
+    {
+      "question": "Distribution Layer is a design model layer that provides a high-speed backbone link between dispersed networks.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "How much traffic for a 12port gigabit switch capable of generating when operating at full wire speed?",
+      "answer": "12 Gb/s, by providing full bandwidth to each port",
+      "choices": [
+        "a. 24 Gb/s, because this is the maximum forwarding rate on Cisco switches",
+        "b. 26 Gb/s, because of overhead requirements",
+        "c. 1 Gb/s, because data can only be forwarded from one port at a time",
+        "d. 12 Gb/s, by providing full bandwidth to each port"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "How much traffic for a 24port Gbit switch at hand capable of generating when operating at full wire speed?",
+      "answer": "48 Gb/s, because of overhead requirements",
+      "choices": [
+        "a. 12 Gb/s, because of overhead requirements",
+        "b. 24 Gb/s, by providing full bandwidth to each port",
+        "c. 48 Gb/s, because this is the maximum forwarding rate on Cisco switches",
+        "d. 48 Gb/s, because of overhead requirements"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
+      "answer": "Network edge routers",
+      "choices": [
+        "a. Network edge routers",
+        "b. Service provider routers",
+        "c. Branch routers",
+        "d. Modular routers"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In managing Cisco devices, what are two ways to access a Cisco switch for out-of-band management?",
+      "answer": "A connection that uses the console and AUX port",
+      "choices": [
+        "a. A connection that uses the console and AUX port",
+        "b. A connection that uses HTTP and HTTPs",
+        "c. A connection that uses Telnet and SSH",
+        "d. A connection that uses the AUX and and Telnet"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In network troubleshooting, which command is used to display the bandwidth of an interface on an EIGRP-enabled router?",
+      "answer": "show interfaces",
+      "choices": [
+        "a. show ip route",
+        "b. show interfaces",
+        "c. show ip interface brief",
+        "d. show ip protocols"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In networking term, port density refers to the number of ports available on a single switch.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which among the listed below is a characteristic of in-band device management as discussed in this chapter?",
+      "answer": "It is used to monitor and make configuration changes to a network device over a network connection.",
+      "choices": [
+        "a. It uses a direct connection to a console or AUX port.",
+        "b. It uses a terminal emulation client.",
+        "c. It is used to monitor and make configuration changes to a network device over a network connection.",
+        "d. It is used for initial configuration or when a network connection is unavailable."
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which network design solution among the choices listed below will best extend access layer connectivity to host devices?",
+      "answer": "Implementing wireless connectivity",
+      "choices": [
+        "a. Dynamic routing implementation",
+        "b. Implementing wireless connectivity",
+        "c. Etherchannel implementation",
+        "d. Implementing redundancy"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Why would a network administrator of RMS Defence Contractor company issue the show cdp neigbors command on a router especially if a network problem occurs?",
+      "answer": "To display device ID and other information about directly connected Cisco devices",
+      "choices": [
+        "a. To display router ID and other information about OSPF neighbors",
+        "b. To display device ID and other information about directly connected Cisco devices",
+        "c. To display routing table and other information about directly connected Cisco devices",
+        "d. To display line status and other information about directly connected Cisco devices"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    }
+  ]
+}
