@@ -49,7 +49,7 @@ When students complete and review quiz attempts using the toolkit:
 | `IT6208` | System Integration and Architecture 1 | **104** | Active |
 | `IT6209` | Introduction to Multimedia | **100** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **20** | Active |
-| `IT6310` | Network Security | **48** | Active |
+| `IT6310` | Network Security | **68** | Active |
 | `IT6322A` | Mobile Application Development | **61** | Active |
 | `ITE6202` | ITE6202 | **12** | Active |
 | `ITE6301` | Technopreneurship | **188** | Active |

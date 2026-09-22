@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-22T12:14:04Z",
-  "totalQuestions": 48,
+  "updatedAt": "2026-09-22T12:31:44Z",
+  "totalQuestions": 68,
   "questions": [
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
@@ -29,6 +29,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "A type of malware that automatically sends advertisements to the users.",
+      "answer": "Adware",
+      "choices": [
+        "a. Spyware",
+        "b. Ransomware",
+        "c. Adware",
+        "d. Advertising-supported software"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
       "answer": "False",
       "choices": [
@@ -39,6 +54,19 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:20:16Z",
       "lastVerifiedAt": "2026-09-22T12:07:24Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "any program design to damage specific file or computer system.",
+      "answer": "Malware",
+      "choices": [
+        "a. Malware",
+        "b. Virus"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
       "source": "community_contribution"
     },
     {
@@ -91,6 +119,19 @@
       "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
       "lastVerifiedAt": "2026-09-22T12:14:04Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Brute force attack are often successful because most of the users uses different ordinary words as their passwords.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
       "source": "community_contribution"
     },
     {
@@ -216,6 +257,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "It has been developed by ISO in the year 1984.",
+      "answer": "OSI Reference Model",
+      "choices": [
+        "a. OS1 Reference Model",
+        "b. ISO Reference Model",
+        "c. OSI Reference Model",
+        "d. 0SI Reference Model"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "It helps keep data and equipment safe by giving only the appropriate people access.",
       "answer": "network security",
       "choices": [
@@ -267,6 +323,16 @@
       "source": "community_contribution"
     },
     {
+      "question": "It is a set of standards that are widely used as a basis for communication.",
+      "answer": "Protocol",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "It is a structured procedure for taking care of any security incidents, breaches, and network threats.",
       "answer": "Response",
       "choices": [
@@ -291,6 +357,26 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-22T04:32:32Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is an act that exploits a vulnerability.",
+      "answer": "Attack",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is anything that can disrupt the operation, functioning, integrity, or availability of a network or system",
+      "answer": "Threat",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
       "source": "community_contribution"
     },
     {
@@ -346,6 +432,46 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:20:16Z",
       "lastVerifiedAt": "2026-09-22T12:07:24Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It may contain phishing scams and malware.",
+      "answer": "Spam",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It pretends to be a legitimate programs in order to gain access to a system.",
+      "answer": "Trojan Horse",
+      "choices": [
+        "a. Virus",
+        "b. Worms",
+        "c. Trojan Horse",
+        "d. Adware"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It provides data routing paths where data will take for network communication.",
+      "answer": "Network Layer",
+      "choices": [
+        "a. Data Link Layer",
+        "b. Session Layer",
+        "c. Physical Layer",
+        "d. Network Layer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
       "source": "community_contribution"
     },
     {
@@ -478,6 +604,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "SQL stands for?",
+      "answer": "Structured Query Language",
+      "choices": [
+        "a. Structured Query Lanquage",
+        "b. Structure Query Language",
+        "c. Structured Query Language",
+        "d. Structure Query Languaqe"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Stephen Northcutt wrote an essay on the basics of network security for CS) online last year.",
       "answer": "False",
       "choices": [
@@ -526,6 +667,31 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-22T04:32:32Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "These are what make networks prone to information loss and downtime",
+      "answer": "Vulnerabilities",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "These layers work together to transmit the data from one person to another world wide.",
+      "answer": "OSI Layer",
+      "choices": [
+        "a. ISO Layer",
+        "b. OS1 Layer",
+        "c. OSI Layer",
+        "d. 0SI Layer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
       "source": "community_contribution"
     },
     {
@@ -601,6 +767,31 @@
       "source": "community_contribution"
     },
     {
+      "question": "This layer involves devices such as router, UTP Cables and other networking devices to transfer data.",
+      "answer": "Physical Layer",
+      "choices": [
+        "a. Physical Layer",
+        "b. Transport Layer",
+        "c. Data Link Layer",
+        "d. Session Layer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "This layer is also called human-computer interaction layer.",
+      "answer": "Application Layer",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "This refers to the events or attacks that steal, damage, or destroy equipment.",
       "answer": "physical security threats",
       "choices": [
@@ -610,6 +801,59 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-22T04:32:32Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Two different devices can communicate with each other regardless of the manufacturer as long as they have the same protocol.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Type of malware that may contain an attachment to an email that loads malware onto your computer system.",
+      "answer": "Phishing",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What are the signs and symptoms that your device/s are getting infected by any malware. (Choose all that applies)",
+      "answer": "Slower computer performance, Appearance of strange desktop icons, Software freezes or crashes, Increased CPU usage",
+      "choices": [
+        "a. Slower computer performance",
+        "b. Appearance of strange desktop icons",
+        "c. Software freezes or crashes",
+        "d. Increased CPU usage"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following are not part of OSI Layer?",
+      "answer": "Transfer Layer",
+      "choices": [
+        "a. Presentation Layer",
+        "b. Session Layer",
+        "c. Transfer Layer",
+        "d. Physical Layer"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
       "source": "community_contribution"
     },
     {
@@ -625,6 +869,19 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:20:16Z",
       "lastVerifiedAt": "2026-09-22T12:07:24Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Worms can be classified as a type of computer virus that needs a third party or a user to replicate and spread through the system.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-09-22T12:31:44Z",
       "source": "community_contribution"
     }
   ]
