@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "IT6208",
-  "updatedAt": "2026-09-22T06:31:13Z",
-  "totalQuestions": 17,
+  "updatedAt": "2026-09-22T06:35:15Z",
+  "totalQuestions": 36,
   "questions": [
     {
       "question": "A variety of segments intended to achieve a specific goal as indicated by plan.",
@@ -17,6 +17,34 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T06:31:13Z",
       "lastVerifiedAt": "2026-09-22T06:31:13Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Advantages of Object-Oriented approach: Allows flexibility in the design as it evolves over time",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "An architectural style represents a family of related systems",
+      "answer": "Style",
+      "choices": [
+        "a. Properties",
+        "b. Style",
+        "c. System",
+        "d. Connectors"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
       "source": "community_contribution"
     },
     {
@@ -63,6 +91,51 @@
       "source": "community_contribution"
     },
     {
+      "question": "Conditions that must be true once the use case is run e.g. ;",
+      "answer": "Post",
+      "choices": [
+        "a. Constraints",
+        "b. Style",
+        "c. System",
+        "d. Post"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Describes the proposed functionality of the new system",
+      "answer": "Use Case",
+      "choices": [
+        "a. System",
+        "b. Properties",
+        "c. Use Case",
+        "d. Style"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Description of the steps taken to carry out the use case",
+      "answer": "Scenarios",
+      "choices": [
+        "a. Scenarios Diagram",
+        "b. Constraint",
+        "c. Activity Diagram",
+        "d. Scenarios"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Developers program in pairs and must write the tests for their own code.",
       "answer": "Extreme Programming",
       "choices": [
@@ -75,6 +148,34 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T06:31:13Z",
       "lastVerifiedAt": "2026-09-22T06:31:13Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Disadvantages of Object-Oriented approach: Requires some early elimination of technology alternatives in the absence of reliable information",
+      "answer": "a. True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Graphs of components and connectors",
+      "answer": "System",
+      "choices": [
+        "a. Properties",
+        "b. Components",
+        "c. System",
+        "d. Connectors"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
       "source": "community_contribution"
     },
     {
@@ -120,6 +221,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T06:31:13Z",
       "lastVerifiedAt": "2026-09-22T06:31:13Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Is an interaction diagram that emphasizes the time ordering of messages",
+      "answer": "Sequence Diagram",
+      "choices": [
+        "a. Style",
+        "b. Sequence Diagram",
+        "c. Use Case Model",
+        "d. Scenarios Diagram"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
       "source": "community_contribution"
     },
     {
@@ -177,6 +293,36 @@
       "source": "community_contribution"
     },
     {
+      "question": "Is to model the procedural flow of actions that are part of a larger activity",
+      "answer": "Activity Diagram",
+      "choices": [
+        "a. Constraints",
+        "b. Sequence Diagram",
+        "c. Activity Diagram",
+        "d. Scenario Diagram"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Model interactions among components",
+      "answer": "Connectors",
+      "choices": [
+        "a. Components",
+        "b. Properties",
+        "c. System",
+        "d. Connectors"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Repetitions of iterative development are referred to as sprints, which normally last thirty days.",
       "answer": "Scrum",
       "choices": [
@@ -189,6 +335,36 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T06:31:13Z",
       "lastVerifiedAt": "2026-09-22T06:31:13Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Represent the non-structural information about the parts of an architecture description",
+      "answer": "Properties",
+      "choices": [
+        "a. System",
+        "b. Connectors",
+        "c. Properties",
+        "d. Components"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Sequence diagram to depict the workflow – as above but graphically portrayed",
+      "answer": "Scenarios Diagram",
+      "choices": [
+        "a. Sequence Diagram",
+        "b. Scenarios Diagram",
+        "c. Style",
+        "d. Use Case Model"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
       "source": "community_contribution"
     },
     {
@@ -222,6 +398,95 @@
       "source": "community_contribution"
     },
     {
+      "question": "The computational elements and data stores of the system",
+      "answer": "Components",
+      "choices": [
+        "a. Connectors",
+        "b. Style",
+        "c. Components",
+        "d. System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The fundamental and unifying system structure defined in terms of system elements, interfaces, processes, constraints, and behaviors",
+      "answer": "Architecture",
+      "choices": [
+        "a. System",
+        "b. System",
+        "c. Architecture",
+        "d. Components"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution",
+      "answer": "Architecture",
+      "choices": [
+        "a. Architecture",
+        "b. Connectors",
+        "c. System Architecture",
+        "d. Components"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The organizational structure of a system of CSCIs, identifying its components, their interfaces and a concept of execution among them",
+      "answer": "Architecture",
+      "choices": [
+        "a. Architecture",
+        "b. Connectors",
+        "c. Systems",
+        "d. Properties"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The static constructs are used, together with descriptions of the dynamic behavior of the architecture to obtain the executable operational X-architecture (X = executable property)",
+      "answer": "Synthesis Phase",
+      "choices": [
+        "a. Synthesis Phase",
+        "b. Evaluation Phase",
+        "c. Analysis Phase"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The static representatives of the functional and physical",
+      "answer": "Analysis Phase",
+      "choices": [
+        "a. Analysis Phase",
+        "b. Synthesis Phase",
+        "c. Evaluation Phase",
+        "d. System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "The teams are put together based on the number of members needed to produce the product or complete the project.",
       "answer": "Project Organization Structure",
       "choices": [
@@ -234,6 +499,21 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T06:31:13Z",
       "lastVerifiedAt": "2026-09-22T06:31:13Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "These are the formal rules an limitations that a use case operates under, and includes pre-post and invariant conditions.",
+      "answer": "Contraints",
+      "choices": [
+        "a. Post",
+        "b. Contraints",
+        "c. Sequence Diagram",
+        "d. Activity Diagram"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:35:15Z",
+      "lastVerifiedAt": "2026-09-22T06:35:15Z",
       "source": "community_contribution"
     },
     {
