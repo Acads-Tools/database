@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-22T12:31:44Z",
-  "totalQuestions": 68,
+  "updatedAt": "2026-09-22T13:14:15Z",
+  "totalQuestions": 79,
   "questions": [
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
@@ -135,6 +135,16 @@
       "source": "community_contribution"
     },
     {
+      "question": "File system that has a features like permissions, encryption, quotas, and auditing services.",
+      "answer": "NTFS",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "How many key phases are there in an incident response plan ?",
       "answer": "6",
       "choices": [],
@@ -191,6 +201,35 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:20:16Z",
       "lastVerifiedAt": "2026-09-22T12:07:24Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "is a crucial security update that you should always apply to your system",
+      "answer": "Security hot-fix",
+      "choices": [
+        "a. Service pack",
+        "b. Patch",
+        "c. Security hot-fix"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Is a service responsible for sending messages to other computers or users.",
+      "answer": "Messenger service",
+      "choices": [
+        "a. Messenger service",
+        "b. Workstation service",
+        "c. Server service",
+        "d. Print Spooler service"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
       "source": "community_contribution"
     },
     {
@@ -296,6 +335,16 @@
       "source": "community_contribution"
     },
     {
+      "question": "It is a core feature of Windows that allow the network administrator to enable and disable different features in Windows",
+      "answer": "Group Policy",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "It is a model designed to guide policies for information security within an organization.",
       "answer": "CIA Triad Information Security",
       "choices": [
@@ -330,6 +379,21 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
       "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "It is a software service that manages the process of printing in the Windows environment.",
+      "answer": "Print Spooler service",
+      "choices": [
+        "a. Messenger service",
+        "b. Workstation service",
+        "c. Print Spooler service",
+        "d. Server service"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
       "source": "community_contribution"
     },
     {
@@ -565,6 +629,16 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-18T08:05:39Z",
       "lastVerifiedAt": "2026-09-22T04:32:32Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "NTFS and FAT/FAT32 is an example of?",
+      "answer": "File system",
+      "choices": [],
+      "verified": true,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
       "source": "community_contribution"
     },
     {
@@ -804,6 +878,36 @@
       "source": "community_contribution"
     },
     {
+      "question": "This service is the one responsible for handling connections to a remote network resources.",
+      "answer": "Workstation service",
+      "choices": [
+        "a. Messenger service",
+        "b. Print Spooler service",
+        "c. Server service",
+        "d. Workstation service"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Two Categories of a Group Policy. Choose any that apply.",
+      "answer": "Computer settings, User settings",
+      "choices": [
+        "a. Computer settings",
+        "b. Account settings",
+        "c. User settings",
+        "d. Security settings"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Two different devices can communicate with each other regardless of the manufacturer as long as they have the same protocol.",
       "answer": "True",
       "choices": [
@@ -857,6 +961,36 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which of the following are not part of the steps in order to harden your system. Choose only one.",
+      "answer": "Uninstall Necessary Software",
+      "choices": [
+        "a. Uninstall Necessary Software",
+        "b. Disable Unnecessary Services",
+        "c. Patch System",
+        "d. Disable or Remove Unnecessary Accounts"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following are the commands for disabling a port in a Network Switch. Choose any that Apply",
+      "answer": "SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown, SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown",
+      "choices": [
+        "a. SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown",
+        "b. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown",
+        "c. SWITCH>enableSWITCH#configure terminalSWITCH(config)#interface f0/2SWITCH(config-if)#no shutdown",
+        "d. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#no shutdown"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Which of these are not part of the reason why we need to secure our network?",
       "answer": "To exploit vulnerabilities in the system",
       "choices": [
@@ -869,6 +1003,21 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:20:16Z",
       "lastVerifiedAt": "2026-09-22T12:07:24Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Without this service on your environment, you won't be able to share any of your resources",
+      "answer": "Server service",
+      "choices": [
+        "a. Print Spooler service",
+        "b. Workstation service",
+        "c. Messenger service",
+        "d. Server service"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T13:14:15Z",
+      "lastVerifiedAt": "2026-09-22T13:14:15Z",
       "source": "community_contribution"
     },
     {
