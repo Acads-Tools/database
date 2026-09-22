@@ -45,7 +45,7 @@ When students complete and review quiz attempts using the toolkit:
 | `CS6206` | Principles of Operating Systems | **165** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **155** | Active |
 | `IT6205A` | IT6205A | **37** | Active |
-| `IT6206` | IT6206 | **110** | Active |
+| `IT6206` | IT6206 | **111** | Active |
 | `IT6310` | IT6310 | **47** | Active |
 | `IT6322A` | IT6322A | **61** | Active |
 | `ITE6301` | Technopreneurship | **188** | Active |
