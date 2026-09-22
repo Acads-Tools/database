@@ -47,6 +47,7 @@ When students complete and review quiz attempts using the toolkit:
 | `IT6205A` | IT6205A | **37** | Active |
 | `IT6206` | IT6206 | **118** | Active |
 | `IT6208` | IT6208 | **104** | Active |
+| `IT6209` | IT6209 | **10** | Active |
 | `IT6310` | IT6310 | **47** | Active |
 | `IT6322A` | IT6322A | **61** | Active |
 | `ITE6301` | Technopreneurship | **188** | Active |
