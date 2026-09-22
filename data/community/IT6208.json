@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "IT6208",
-  "updatedAt": "2026-09-22T06:40:45Z",
-  "totalQuestions": 37,
+  "updatedAt": "2026-09-22T06:42:48Z",
+  "totalQuestions": 57,
   "questions": [
     {
       "question": "A variety of segments intended to achieve a specific goal as indicated by plan.",
@@ -17,6 +17,46 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T06:31:13Z",
       "lastVerifiedAt": "2026-09-22T06:31:13Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Acronym: ACC",
+      "answer": "Accumulator",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Acronym: CIR",
+      "answer": "Current Instruction Register",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Acronym: MAR",
+      "answer": "Memory Address Register",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Acronym: MDR",
+      "answer": "Memory Data Register",
+      "choices": [],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
       "source": "community_contribution"
     },
     {
@@ -78,6 +118,20 @@
       "source": "community_contribution"
     },
     {
+      "question": "Characteristics of Distributed System",
+      "answer": "Resource Sharing, Openness, Concurrency, Scalable, Fault Tolerant and Transparent",
+      "choices": [
+        "a. System, Openness, Concurrency, Scalable, Fault Tolerant and Transparent",
+        "b. Resource Sharing, Openness, Concurrency, Scalable, Fault Tolerant and Transparent",
+        "c. Resource Sharing, Personal System, Concurrency, Scalable, Fault Tolerant and Transparent"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Components expected to demonstrate a product engineering include",
       "answer": "Segments, Connectors, Systems, Properties, Styles",
       "choices": [
@@ -103,6 +157,36 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-22T06:35:15Z",
       "lastVerifiedAt": "2026-09-22T06:40:45Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Data flow or control flow diagrams",
+      "answer": "Relationship Model",
+      "choices": [
+        "a. Relationship Model",
+        "b. Dynamic Process Model",
+        "c. Interface Model",
+        "d. System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Defines subsystem interfaces",
+      "answer": "Interface Model",
+      "choices": [
+        "a. Control Modeling",
+        "b. Interface Model",
+        "c. Dynamic Process Model",
+        "d. System Structuring"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
       "source": "community_contribution"
     },
     {
@@ -133,6 +217,36 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-22T06:35:15Z",
       "lastVerifiedAt": "2026-09-22T06:40:45Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Description of the system output by architectural design",
+      "answer": "Software Architecture",
+      "choices": [
+        "a. Software Architecture",
+        "b. Architectural Design",
+        "c. System Structuring",
+        "d. Control Modeling"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Designed to run on a single user system",
+      "answer": "Personal System",
+      "choices": [
+        "a. Interface Model",
+        "b. Personal System",
+        "c. Dynamic Process Model",
+        "d. Personal Integrated System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
       "source": "community_contribution"
     },
     {
@@ -186,6 +300,21 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-22T06:35:15Z",
       "lastVerifiedAt": "2026-09-22T06:40:45Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Identified subsystems decomposed into modules",
+      "answer": "Modular Decomposition",
+      "choices": [
+        "a. Control Modeling",
+        "b. Modular Decomposition",
+        "c. System Structuring",
+        "d. Software Architecture"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
       "source": "community_contribution"
     },
     {
@@ -288,6 +417,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "Is the design upon which many general purpose computers are based.",
+      "answer": "Von Neumann Architecture",
+      "choices": [
+        "a. Blase Pascal Architecture",
+        "b. Von Neumann Architecture",
+        "c. Blaise Pascal Architecture",
+        "d. Von Neuman Architecture"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Is the mix of between related components to accomplish a typical goal.",
       "answer": "System Integration",
       "choices": [
@@ -318,6 +462,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "May run on a single processor",
+      "answer": "Embedded System",
+      "choices": [
+        "a. Interface Model",
+        "b. System",
+        "c. Relationship Model",
+        "d. Embedded System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Model interactions among components",
       "answer": "Connectors",
       "choices": [
@@ -330,6 +489,66 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-22T06:35:15Z",
       "lastVerifiedAt": "2026-09-22T06:40:45Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Model of control relationships among system components is established",
+      "answer": "Control Modeling",
+      "choices": [
+        "a. Software Architecture",
+        "b. Control Modeling",
+        "c. Modular Decomposition",
+        "d. System Structuring"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "No distinctions made between clients and servers",
+      "answer": "Distributed Object",
+      "choices": [
+        "a. Dynamic Process model",
+        "b. Personal System",
+        "c. Client/Server",
+        "d. Distributed Object"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Offer distributed services which may be called by clients",
+      "answer": "Client/Server",
+      "choices": [
+        "a. Personal System",
+        "b. Client/Server",
+        "c. Dynamic System",
+        "d. System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Process for identifying the subsystems that make up a system",
+      "answer": "Architectural Design",
+      "choices": [
+        "a. Architectural Design",
+        "b. System Structuring",
+        "c. Control Modeling",
+        "d. Software Architecture"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
       "source": "community_contribution"
     },
     {
@@ -375,6 +594,66 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-22T06:35:15Z",
       "lastVerifiedAt": "2026-09-22T06:40:45Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Shows major system components",
+      "answer": "Static Structural Model",
+      "choices": [
+        "a. Dynamic Process Model",
+        "b. Static Structural Model",
+        "c. Interface Model",
+        "d. Relationships Model"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Shows process structure of the system",
+      "answer": "Dynamic Process Model",
+      "choices": [
+        "a. Dynamic Process Model",
+        "b. Interface Model",
+        "c. Relationship Model",
+        "d. Control Modeling"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "System decomposed into several subsystems",
+      "answer": "System Structuring",
+      "choices": [
+        "a. Software Architecture",
+        "b. Architectural Design",
+        "c. Control Modeling",
+        "d. System Structuring"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "System software runs on loosely integrated group of cooperating processors linked by a network",
+      "answer": "Distributed System",
+      "choices": [
+        "a. Personal System",
+        "b. Distributed System",
+        "c. System",
+        "d. Embedded System"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T06:42:48Z",
+      "lastVerifiedAt": "2026-09-22T06:42:48Z",
       "source": "community_contribution"
     },
     {
