@@ -46,6 +46,7 @@ def extract_json_payload(raw_content: str) -> dict:
     return json.loads(raw_content)
 
 KNOWN_COURSE_NAMES = {
+    # Computer Science
     "CS6202": "Algorithms and Complexity",
     "CS6204": "Computer Architecture and Organization",
     "CS6205": "Automata Theory and Formal Languages",
@@ -55,20 +56,79 @@ KNOWN_COURSE_NAMES = {
     "CS6301": "Logic Design and Digital Computer Circuits",
     "CS6309": "Introduction to Machine Learning",
     "CS6326": "Mobile Application Development",
+    # Information Technology
+    "IT6201": "Data Structures and Algorithm Analysis",
+    "IT6202": "Data Structures and Algorithms",
+    "IT6203": "Web Systems and Technologies 1",
+    "IT6204": "Web Systems and Technologies 2",
+    "IT6205": "Information Assurance and Security 1",
+    "IT6205A": "Information Assurance and Security 1",
+    "IT6206": "Information Assurance and Security 2",
+    "IT6207": "Database Systems 1",
+    "IT6208": "System Integration and Architecture 1",
+    "IT6209": "Introduction to Multimedia",
+    "IT6210": "Systems Administration and Maintenance",
+    "IT6220": "Information Management",
+    "IT6221": "Data Communications and Networking 1",
+    "IT6222": "Data Communications and Networking 2",
+    "IT6224": "Data Communications and Networking 3",
+    "IT6224B": "Data Communications and Networking 3",
+    "IT6300": "Cloud Computing",
+    "IT6301": "Technopreneurship",
+    "IT6302": "System Analysis and Design",
+    "IT6310": "Network Security",
+    "IT6320": "Social and Professional Issues",
+    "IT6322": "Mobile Application Development",
+    "IT6322A": "Mobile Application Development",
+    "IT6323": "Human Computer Interaction",
+    "IT6324": "Information Assurance and Security",
+    # Information Technology Education Core
     "ITE6100": "Introduction to Computing",
+    "ITE6101": "Computer Programming 1",
     "ITE6102": "Computer Programming 1",
+    "ITE6103": "Computer Programming 2",
     "ITE6104": "Computer Programming 2",
     "ITE6200": "Application Development and Emerging Technology",
     "ITE6201": "Data Structures and Algorithm Analysis",
     "ITE6220": "Information Management",
     "ITE6300": "Cloud Computing and Internet of Things",
     "ITE6301": "Technopreneurship",
+    # Mathematics & Sciences
     "MATH6100": "Calculus 1",
+    "MATH6101": "Calculus 2",
+    "MATH6102": "Discrete Mathematics",
+    # General Education & Institutional
+    "GE6100": "Understanding the Self",
+    "GE6101": "Readings in Philippine History",
+    "GE6102": "The Contemporary World",
+    "GE6103": "Mathematics in the Modern World",
+    "GE6104": "Purposive Communication",
+    "GE6105": "Art Appreciation",
+    "GE6106": "Science, Technology and Society",
     "GE6107": "Ethics",
+    "GE6108": "Rizal's Life and Works",
     "GE6115": "Art Appreciation",
     "ETHNS6101": "Euthenics 1",
     "ETHNS6102": "Euthenics 2",
+    "NSTP6101": "National Service Training Program 1",
+    "NSTP6102": "National Service Training Program 2",
+    "PE6101": "Physical Education 1",
+    "PE6102": "Physical Education 2",
+    "PE6103": "Physical Education 3",
+    "PE6104": "Physical Education 4",
 }
+
+def get_known_course_name(code: str) -> str:
+    """Resolve human-readable course name by code, supporting suffixes (e.g. IT6205A -> IT6205)."""
+    if not code:
+        return ""
+    code_clean = str(code).strip().upper()
+    if code_clean in KNOWN_COURSE_NAMES:
+        return KNOWN_COURSE_NAMES[code_clean]
+    base_code = re.sub(r'[A-Za-z]+$', '', code_clean)
+    if base_code and base_code in KNOWN_COURSE_NAMES:
+        return KNOWN_COURSE_NAMES[base_code]
+    return code_clean
 
 def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
     """
@@ -88,8 +148,8 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
     target_file = os.path.join(data_dir, f"{subject_code}.json")
 
     resolved_title = payload.get("subjectName")
-    if not resolved_title or resolved_title == subject_code:
-        resolved_title = KNOWN_COURSE_NAMES.get(subject_code, subject_code)
+    if not resolved_title or str(resolved_title).strip().upper() == subject_code:
+        resolved_title = get_known_course_name(subject_code)
 
     existing_data = {
         "subjectCode": subject_code,
@@ -107,6 +167,13 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                     existing_data = loaded
         except Exception as e:
             print(f"Warning reading {target_file}: {e}")
+
+    # Ensure subjectName is upgraded if existing was empty or identical to subjectCode
+    current_name = str(existing_data.get("subjectName", "")).strip()
+    if not current_name or current_name.upper() == subject_code:
+        existing_data["subjectName"] = resolved_title
+    elif resolved_title != subject_code and len(resolved_title) > len(current_name):
+        existing_data["subjectName"] = resolved_title
 
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -285,8 +352,10 @@ def update_readme_table(data_dir: str = "data"):
                 try:
                     with open(fpath, "r", encoding="utf-8") as f:
                         data = json.load(f)
-                        code = data.get("subjectCode", fname.replace(".json", ""))
-                        title = data.get("subjectName", code)
+                        code = data.get("subjectCode", fname.replace(".json", "")).strip().upper()
+                        title = data.get("subjectName")
+                        if not title or str(title).strip().upper() == code:
+                            title = get_known_course_name(code)
                         count = data.get("totalQuestions", len(data.get("questions", [])))
                         stats.append((code, title, count))
                 except Exception:

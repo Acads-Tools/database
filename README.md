@@ -44,13 +44,13 @@ When students complete and review quiz attempts using the toolkit:
 | `CS6205` | Automata Theory and Formal Languages | **12** | Active |
 | `CS6206` | Principles of Operating Systems | **165** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **155** | Active |
-| `IT6205A` | IT6205A | **37** | Active |
-| `IT6206` | IT6206 | **118** | Active |
-| `IT6208` | IT6208 | **104** | Active |
-| `IT6209` | IT6209 | **100** | Active |
-| `IT6224B` | IT6224B | **20** | Active |
-| `IT6310` | IT6310 | **47** | Active |
-| `IT6322A` | IT6322A | **61** | Active |
+| `IT6205A` | Information Assurance and Security 1 | **37** | Active |
+| `IT6206` | Information Assurance and Security 2 | **118** | Active |
+| `IT6208` | System Integration and Architecture 1 | **104** | Active |
+| `IT6209` | Introduction to Multimedia | **100** | Active |
+| `IT6224B` | Data Communications and Networking 3 | **20** | Active |
+| `IT6310` | Network Security | **47** | Active |
+| `IT6322A` | Mobile Application Development | **61** | Active |
 | `ITE6301` | Technopreneurship | **188** | Active |
 
 Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
