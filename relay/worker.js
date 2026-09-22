@@ -176,7 +176,18 @@ export default {
         });
       }
 
-      const validQuestions = questions.filter(q => q && (q.answer || q.ansRaw) && (q.question || q.qRaw));
+      const validQuestions = questions.filter(q => {
+        if (!q) return false;
+        const ans = (q.answer || q.ansRaw || '').trim();
+        const que = (q.question || q.qRaw || '').trim();
+        if (!ans || !que) return false;
+        const wrongList = Array.isArray(q.wrongAnswers) ? q.wrongAnswers : [];
+        const isWrong = wrongList.some(w => {
+          const wText = typeof w === 'string' ? w.trim().toLowerCase() : (w.text || '').trim().toLowerCase();
+          return wText && (wText === ans.toLowerCase() || ans.toLowerCase().includes(wText) || wText.includes(ans.toLowerCase()));
+        });
+        return !isWrong;
+      });
       if (validQuestions.length === 0) {
         return new Response(JSON.stringify({ error: "No verified answers found in payload" }), {
           status: 400,
@@ -204,7 +215,11 @@ export default {
           question: q.question || q.qRaw,
           answer: q.answer || q.ansRaw,
           choices: q.choices || [],
-          wrongAnswers: q.wrongAnswers || []
+          wrongAnswers: q.wrongAnswers || [],
+          verified: Boolean(q.verified),
+          isAiSuggestion: Boolean(q.isAiSuggestion || (q.source && String(q.source).toLowerCase().includes('gemini'))),
+          source: q.source || payload.source || "community_contribution",
+          evidenceType: q.evidenceType || payload.evidenceType || "community_report"
         }))
       };
 
@@ -218,7 +233,10 @@ export default {
           .replace(/\r?\n/g, ' ')
           .replace(/\|/g, '\\|')
           .slice(0, 80);
-        return `| ${idx + 1} | ${cleanQ} | **${cleanAns}** |`;
+        const typeBadge = (q.isAiSuggestion || (q.source && String(q.source).toLowerCase().includes('gemini')))
+          ? '✦ AI Suggestion'
+          : (q.verified ? '✔ Verified' : 'Community');
+        return `| ${idx + 1} | ${cleanQ} | **${cleanAns}** | ${typeBadge} |`;
       }).join('\n');
 
       const extraNote = validQuestions.length > 25
@@ -238,8 +256,8 @@ export default {
         `| **Timestamp (UTC)** | \`${new Date().toISOString()}\` |`,
         ``,
         `### 📝 Verified Questions Preview`,
-        `| # | Question | Verified Answer |`,
-        `| :---: | :--- | :--- |`,
+        `| # | Question | Answer | Type |`,
+        `| :---: | :--- | :--- | :---: |`,
         questionRows,
         extraNote,
         ``,

@@ -222,48 +222,90 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
             continue
 
         sanitized_choices = [clean_text(c) for c in choices if clean_text(c)]
+        incoming_wrong = [clean_text(w) for w in (item.get("wrongAnswers") or []) if clean_text(w)]
+
+        # Safety Guard: If answer is listed in wrongAnswers, it was PROVEN WRONG! Never accept it.
+        if any(clean_a.lower() == w.lower() for w in incoming_wrong):
+            rejected_count += 1
+            continue
+
+        is_ai_suggestion = bool(item.get("isAiSuggestion") or "gemini" in str(item.get("source", "")).lower() or item.get("evidenceType") == "ai_inference")
+        is_verified_source = bool(item.get("verified") or item.get("evidenceType") in ["moodle_review", "official_review", "moodle_100_percent"])
 
         if norm_key in existing_map:
             idx = existing_map[norm_key]
             existing_item = existing_data["questions"][idx]
             curr_answer = clean_text(existing_item.get("answer", ""))
 
+            # Merge wrong answers
+            existing_wrong = existing_item.setdefault("wrongAnswers", [])
+            for w in incoming_wrong:
+                if not any(w.lower() == ew.lower() for ew in existing_wrong):
+                    existing_wrong.append(w)
+
+            # Safety Guard: If incoming answer matches any known wrong answer, reject
+            if any(clean_a.lower() == ew.lower() for ew in existing_wrong):
+                rejected_count += 1
+                continue
+
             if clean_a.lower() == curr_answer.lower():
                 # Confirmed existing answer
                 existing_item["confirmations"] = existing_item.get("confirmations", 1) + 1
                 existing_item["lastVerifiedAt"] = now_iso
-                existing_item["verified"] = True
+                if is_verified_source:
+                    existing_item["verified"] = True
+                    existing_item["isAiSuggestion"] = False
+                    existing_item["source"] = item.get("source") or "moodle_review"
                 updated_count += 1
             else:
                 # Conflict Detected!
-                # Anti-Sabotage Rule: An existing confirmed answer (confirmations >= 2)
-                # CANNOT be overwritten by a conflicting submission.
-                conf_count = existing_item.get("confirmations", 1)
-                if conf_count >= 2:
+                # If existing was an unverified AI suggestion and incoming is a verified review:
+                if existing_item.get("isAiSuggestion") and is_verified_source:
+                    # Verified review promotes and supersedes the AI guess!
+                    existing_item["answer"] = clean_a
+                    existing_item["verified"] = True
+                    existing_item["isAiSuggestion"] = False
+                    existing_item["source"] = item.get("source") or "moodle_review"
+                    existing_item["confirmations"] = 1
+                    existing_item["lastVerifiedAt"] = now_iso
+                    updated_count += 1
+                elif existing_item.get("verified") and is_ai_suggestion:
+                    # Unverified AI suggestion CANNOT overwrite an already verified answer
                     conflict_count += 1
                     notes = existing_item.setdefault("conflictHistory", [])
                     notes.append({
                         "rejectedAnswer": clean_a,
+                        "reason": "AI suggestion cannot overwrite verified answer",
                         "timestamp": now_iso
                     })
                 else:
-                    # If existing only had 1 confirmation, record alternate answer for consensus
-                    existing_item.setdefault("alternateAnswers", []).append({
-                        "answer": clean_a,
-                        "timestamp": now_iso
-                    })
-                    updated_count += 1
+                    conf_count = existing_item.get("confirmations", 1)
+                    if conf_count >= 2:
+                        conflict_count += 1
+                        notes = existing_item.setdefault("conflictHistory", [])
+                        notes.append({
+                            "rejectedAnswer": clean_a,
+                            "timestamp": now_iso
+                        })
+                    else:
+                        existing_item.setdefault("alternateAnswers", []).append({
+                            "answer": clean_a,
+                            "timestamp": now_iso
+                        })
+                        updated_count += 1
         else:
-            # New Question Verified Addition
+            # New Question Addition
             new_entry = {
                 "question": clean_q,
                 "answer": clean_a,
                 "choices": sanitized_choices,
-                "verified": True,
+                "wrongAnswers": incoming_wrong,
+                "verified": not is_ai_suggestion and is_verified_source,
+                "isAiSuggestion": is_ai_suggestion,
                 "confirmations": 1,
                 "firstSeenAt": now_iso,
                 "lastVerifiedAt": now_iso,
-                "source": "community_contribution"
+                "source": "Google Gemini AI" if is_ai_suggestion else (item.get("source") or "community_contribution")
             }
             existing_data["questions"].append(new_entry)
             existing_map[norm_key] = len(existing_data["questions"]) - 1
@@ -291,7 +333,11 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
     os.makedirs(verified_dir, exist_ok=True)
     verified_questions = [
         q for q in existing_data["questions"]
-        if q.get("confirmations", 1) >= 2 or q.get("source") in ["moodle_review", "official_review", "moodle_100_percent"] or q.get("verified") is True
+        if q.get("isAiSuggestion") is not True and (
+            q.get("confirmations", 1) >= 2 or
+            q.get("source") in ["moodle_review", "official_review", "moodle_100_percent"] or
+            q.get("verified") is True
+        )
     ]
     verified_data = {
         "subjectCode": subject_code,
