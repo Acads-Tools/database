@@ -51,7 +51,7 @@ When students complete and review quiz attempts using the toolkit:
 | `IT6224B` | Data Communications and Networking 3 | **20** | Active |
 | `IT6310` | Network Security | **47** | Active |
 | `IT6322A` | Mobile Application Development | **61** | Active |
-| `ITE6202` | ITE6202 | **10** | Active |
+| `ITE6202` | ITE6202 | **11** | Active |
 | `ITE6301` | Technopreneurship | **188** | Active |
 
 Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
