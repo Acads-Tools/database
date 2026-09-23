@@ -29,7 +29,7 @@ If a course is not yet in the database, the toolkit falls back to autonomous bac
 When students complete and review quiz attempts using the toolkit:
 - **Zero Personal Data:** Submissions contain only the question text, verified correct answer, choices, subject code, and a random installation identifier used only to prevent duplicate counting. No student names, student IDs, emails, passwords, grades, or Moodle tokens are ever transmitted or stored.
 - **Anti-Sabotage Verification:** Contributions are submitted through an encrypted Cloudflare Worker relay ([`relay/`](relay/)) and processed by an automated consensus engine ([`scripts/merge_contributions.py`](scripts/merge_contributions.py)). Conflicting or unverified answers are quarantined until consensus confirms their accuracy against official review keys.
-- **Non-reviewable quiz evidence:** A completed 100% attempt can support an answer even when Moodle does not show a review page. The toolkit labels this as **Most supported answer**, records the score and `reviewAvailable: false`, and counts each anonymous installation only once. Partial scores are retained as evidence but never identify a specific correct answer by themselves.
+- **Non-reviewable quiz evidence:** A completed 100% attempt can support an answer even when Moodle does not show a review page. The toolkit labels this as **Most supported answer**, records the score and `reviewAvailable: false`, and counts each anonymous installation only once. Partial scores are not promoted or used to identify a specific correct answer.
 
 ### Optional shared AI fallback
 
