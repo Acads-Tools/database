@@ -4,6 +4,18 @@ A verified, open-source question bank and study archive powering the [AMAES Tool
 
 ---
 
+## Client compatibility
+
+The current AMAES Toolkit policy allows client version **1.7.5 or newer**.
+Older, missing, or invalid client versions are blocked by the userscript before
+the toolkit starts and rejected by the relay with `426 Upgrade Required`.
+The authoritative configured minimum is
+[`relay/wrangler.toml`](relay/wrangler.toml); keep the policy documented in
+[`amaes-toolkit/CLIENT-COMPATIBILITY.md`](https://github.com/Acads-Tools/amaes-toolkit/blob/main/CLIENT-COMPATIBILITY.md)
+aligned with it.
+
+---
+
 ## How It Works
 
 ### Automatic Cloud Sync
