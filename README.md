@@ -77,7 +77,7 @@ not enabled by this lightweight rollout.
 | `IT6206` | Information Assurance and Security 2 | **118** | Active |
 | `IT6208` | System Integration and Architecture 1 | **104** | Active |
 | `IT6209` | Introduction to Multimedia | **100** | Active |
-| `IT6224B` | Data Communications and Networking 3 | **29** | Active |
+| `IT6224B` | Data Communications and Networking 3 | **48** | Active |
 | `IT6310` | Network Security | **79** | Active |
 | `IT6322A` | Mobile Application Development | **61** | Active |
 | `ITE6202` | ITE6202 | **12** | Active |
