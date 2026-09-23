@@ -2,7 +2,6 @@ name: Privacy and identity check
 
 on:
   push:
-  pull_request_target:
   workflow_dispatch:
 
 permissions:
