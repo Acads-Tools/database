@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+
+name=$(git config user.name || true)
+email=$(git config user.email || true)
+if [ "$name" != "AcademicContributor" ] || [ "$email" != "academic-contributor@users.noreply.github.com" ]; then
+  echo "Push blocked: use AcademicContributor <academic-contributor@users.noreply.github.com>." >&2
+  exit 1
+fi
+
+exec "$(git rev-parse --show-toplevel)/.githooks/privacy-check"

@@ -1,0 +1,22 @@
+name: Privacy and identity check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  privacy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reject personal identifiers and invalid commit identities
+        run: |
+          set -eu
+          test -z "$(git log --all --format='%an <%ae>%n%cn <%ce>' | grep -Ev '^AcademicContributor <academic-contributor@users\.noreply\.github\.com>$' || true)"
+          ! git grep -n -I -E '(^|/)(home|Users)/[^/ ]+|anonymous-contributor|local-user||slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY' -- ':!AGENTS.md' ':!GEMINI.md' ':!.githooks/**' ':!.github/workflows/privacy-check.yml'
