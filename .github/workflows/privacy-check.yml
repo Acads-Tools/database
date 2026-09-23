@@ -19,4 +19,7 @@ jobs:
         run: |
           set -eu
           test -z "$(git log --all --format='%an <%ae>%n%cn <%ce>' | grep -Ev '^AcademicContributor <academic-contributor@users\.noreply\.github\.com>$' || true)"
-          ! git grep -n -I -E '(^|/)(home|Users)/[^/ ]+|ractopen|ryme|197402134|slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY' -- . ':(exclude)AGENTS.md' ':(exclude)GEMINI.md' ':(exclude).githooks/**' ':(exclude).github/workflows/privacy-check.yml'
+          files=$(git ls-files | grep -Ev '(^|/)(AGENTS|GEMINI)\.md$|^\.githooks/|^\.github/workflows/privacy-check\.yml$' || true)
+          if [ -n "$files" ] && printf '%s\n' "$files" | xargs grep -n -I -E '(^|/)(home|Users)/[^/ ]+|ractopen|ryme|197402134|slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY'; then
+            exit 1
+          fi

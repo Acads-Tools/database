@@ -1,7 +1,8 @@
 #!/bin/sh
 set -eu
 
-if git grep -n -I -E '(^|/)(home|Users)/[^/ ]+|ractopen|ryme|197402134|slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY' -- . ':(exclude)AGENTS.md' ':(exclude)GEMINI.md' ':(exclude).githooks/**' ':(exclude).github/workflows/privacy-check.yml' >/tmp/database-privacy-match; then
+files=$(git ls-files | grep -Ev '(^|/)(AGENTS|GEMINI)\.md$|^\.githooks/|^\.github/workflows/privacy-check\.yml$' || true)
+if [ -n "$files" ] && printf '%s\n' "$files" | xargs grep -n -I -E '(^|/)(home|Users)/[^/ ]+|ractopen|ryme|197402134|slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY' >/tmp/database-privacy-match; then
   echo "Privacy check failed; personal paths, handles, emails, or private keys were found:" >&2
   cat /tmp/database-privacy-match >&2
   rm -f /tmp/database-privacy-match
