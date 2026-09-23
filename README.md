@@ -33,10 +33,11 @@ When students complete and review quiz attempts using the toolkit:
 ### Optional shared AI fallback
 
 The toolkit keeps a user's own Gemini key as the primary and fastest path. If
-the user explicitly enables **shared AI help** in the toolkit and the personal
-key is temporarily rate-limited, the relay may use a small project-managed
-pool. Shared requests are bounded per installation and globally, and the relay
-returns a clear capacity message instead of retrying indefinitely.
+the user leaves **shared AI help** enabled in the toolkit and the personal key
+is temporarily rate-limited, the relay may use a small project-managed pool.
+Shared requests are bounded per installation and globally, and the relay
+returns a clear capacity message instead of retrying indefinitely. This
+best-effort fallback is not a guarantee of availability.
 
 The current rollout does **not** upload or store user-provided Gemini keys.
 Project-managed pool keys must be configured as Cloudflare Worker secrets
