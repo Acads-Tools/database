@@ -3,11 +3,14 @@ name: Anti-Sabotage Community Contribution Auto-Merger
 on:
   issues:
     types: [opened]
+  pull_request:
+    types: [closed]
   workflow_dispatch:
 
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
 concurrency:
   group: community-database-merge
@@ -45,21 +48,32 @@ jobs:
           } >> "$GITHUB_OUTPUT"
           echo "Merged result: $OUTPUT"
 
-      - name: Commit and Push Verified Updates
+      - name: Create protected contribution branch and pull request
         id: git_push
         run: |
+          set -e
           git config user.name "AcademicContributor"
           git config user.email "academic-contributor@users.noreply.github.com"
+          branch="automation/contribution-${{ github.event.issue.number }}"
+          git switch -c "$branch"
           git add data/ README.md
           if git diff --staged --quiet; then
             echo "No changes to commit."
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "Auto-merge verified contribution from issue #${{ github.event.issue.number }} [skip ci]"
-            git pull --rebase -X ours origin main || true
-            git push origin main
+            git commit -m "Add verified contribution from issue #${{ github.event.issue.number }}"
+            git push --set-upstream origin "$branch"
+            pr_url=$(gh pr create \
+              --base main \
+              --head "$branch" \
+              --title "Verified contribution from issue #${{ github.event.issue.number }}" \
+              --body "Automated contribution validated by scripts/merge_contributions.py. Closes #${{ github.event.issue.number }}.")
+            gh pr merge "$pr_url" --auto --squash
+            echo "pr_url=$pr_url" >> $GITHUB_OUTPUT
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Post Success Comment & Close Issue
         uses: actions/github-script@v7
@@ -76,7 +90,8 @@ jobs:
               }
             } catch (e) {}
 
-            const body = `🎉 **Contribution Validated & Merged!**\n\nThank you for contributing to the community study archive.${details}\n\nAll questions were vetted against the anti-sabotage rules and merged cleanly into the repository.`;
+            const prUrl = `${{ steps.git_push.outputs.pr_url }}`;
+            const body = `🎉 **Contribution Validated & Queued for Merge!**\n\nThank you for contributing to the community study archive.${details}\n\nThe verified changes are in a protected pull request and will merge automatically after all required checks pass.${prUrl ? `\n\n**Pull request:** ${prUrl}` : ''}`;
             
             await github.rest.issues.createComment({
               owner: context.repo.owner,
@@ -89,8 +104,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              state: 'closed',
-              state_reason: 'completed'
+              state: 'open'
             });
 
       - name: Handle Validation Failure
@@ -107,4 +121,23 @@ jobs:
               repo: context.repo.repo,
               issue_number: issueNumber,
               body: body
+            });
+
+  close-merged-contribution:
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'automation/contribution-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close source issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const match = context.payload.pull_request.body.match(/Closes #(\d+)/i);
+            if (!match) return;
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: Number(match[1]),
+              state: 'closed',
+              state_reason: 'completed'
             });
