@@ -10,6 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
   issues: write
   pull-requests: write
@@ -74,6 +75,19 @@ jobs:
               --head "$branch" \
               --title "Verified contribution from issue #${{ github.event.issue.number }}" \
               --body "Automated contribution validated by scripts/merge_contributions.py. Closes #${{ github.event.issue.number }}.")
+            gh workflow run privacy-check.yml --ref "$branch"
+            for attempt in $(seq 1 30); do
+              run_id=$(gh run list --workflow privacy-check.yml --branch "$branch" --limit 1 --json databaseId --jq '.[0].databaseId')
+              if [ -n "$run_id" ]; then
+                status=$(gh run view "$run_id" --json status --jq '.status')
+                if [ "$status" = "completed" ]; then
+                  conclusion=$(gh run view "$run_id" --json conclusion --jq '.conclusion')
+                  test "$conclusion" = "success"
+                  break
+                fi
+              fi
+              sleep 2
+            done
             gh pr merge "$pr_url" --auto --rebase
             echo "pr_url=$pr_url" >> $GITHUB_OUTPUT
             echo "has_changes=true" >> $GITHUB_OUTPUT
