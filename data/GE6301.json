@@ -1,8 +1,8 @@
 {
   "subjectCode": "GE6301",
   "subjectName": "GE6301",
-  "updatedAt": "2026-09-23T15:14:46Z",
-  "totalQuestions": 34,
+  "updatedAt": "2026-09-23T15:57:39Z",
+  "totalQuestions": 48,
   "questions": [
     {
       "question": "___________________ stereotypes of gender designate what men and women are.",
@@ -33,9 +33,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -65,9 +65,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -82,9 +82,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -99,9 +99,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -114,9 +114,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -131,9 +131,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -148,9 +148,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -163,9 +163,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -184,6 +184,21 @@
       "firstSeenAt": "2026-09-23T14:43:56Z",
       "lastVerifiedAt": "2026-09-23T14:43:56Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "Gender identity is defined as a personal conception of oneself as male or female (or rarely, both or neither).",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
     },
     {
       "question": "Gender is the range of characteristics pertaining to and differentiating between, masculinity and femininity.",
@@ -231,6 +246,36 @@
       "source": "community_contribution"
     },
     {
+      "question": "Human reproduction is the process in which human beings produce more human beings similar to themselves.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
+      "question": "If a human shows signs in both sexes, the person is considered an intersex.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
       "question": "In 2011 and 2015, ________ has recorded 40,000 dowry-related deaths.",
       "answer": "India",
       "choices": [
@@ -242,9 +287,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -257,9 +302,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -272,10 +317,25 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "In lay man’s term, the traditional meaning of gender is “the thing between the legs” and/or the psychological, emotional and sexual attraction towards a member of a different sex.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
     },
     {
       "question": "In the WHO definition, the term, gender is similar from society to society and cannot be changed.",
@@ -287,9 +347,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T15:14:46Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "Google Gemini AI"
     },
     {
@@ -302,9 +362,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -336,9 +396,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -387,9 +447,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -402,9 +462,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -417,10 +477,25 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "The definition of gender now is tagged along with Biological Identity.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
     },
     {
       "question": "The effects of gender-based abuse are long-lasting and wide-ranging that leaves the victim a devastating life, social ills, and/or death.",
@@ -432,9 +507,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -455,6 +530,81 @@
       "source": "community_contribution"
     },
     {
+      "question": "The term, gender, is also used more broadly to denote a range of identities that do not correspond to established ideas of male and female.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
+      "question": "The usual gonads for Female are ovaries.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
+      "question": "The usual gonads for Female are testes.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
+      "question": "The usual level of sex hormones for male is testosterone.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
+      "question": "The World Health Organization released a definition of Gender in 2018 and it states that “Gender refers to the biologically constructed characteristics of women and men, such as genitals, body parts, and built.”",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
       "question": "There is no nation free from gender-based violence.",
       "answer": "True",
       "choices": [
@@ -464,9 +614,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -487,6 +637,36 @@
       "source": "community_contribution"
     },
     {
+      "question": "Traditionally, Gender is viewed as being male or female.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
+      "question": "Usually both sexes do not have pubic hair and underam hair.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
       "question": "Violence can and does occur for females only.",
       "answer": "False",
       "choices": [
@@ -496,9 +676,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:43:56Z",
-      "lastVerifiedAt": "2026-09-23T15:14:46Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
       "source": "community_contribution"
     },
     {
@@ -549,6 +729,36 @@
       "firstSeenAt": "2026-09-23T14:43:56Z",
       "lastVerifiedAt": "2026-09-23T14:43:56Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "Words such as “roles” and “relationships” are used to signify that Gender does not only include the biological characteristics of a person but also the preference of an individual depending on the role the individual view his/her gender.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
+    },
+    {
+      "question": "XX chromosomes in Female is the usual sex chromosomes.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:57:39Z",
+      "lastVerifiedAt": "2026-09-23T15:57:39Z",
+      "source": "Google Gemini AI"
     }
   ]
 }
