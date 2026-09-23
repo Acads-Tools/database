@@ -13,8 +13,8 @@
 const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
 const LATEST_VERSION = "1.7.5";
 const SHARED_POOL_WINDOW_MS = 60_000;
-const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 2;
-const SHARED_POOL_MAX_REQUESTS_GLOBAL = 80;
+const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 1;
+const SHARED_POOL_MAX_REQUESTS_GLOBAL = 20;
 const SHARED_POOL_KEY_COOLDOWN_MS = 30_000;
 const sharedPoolState = {
   windowStartedAt: 0,
@@ -68,6 +68,10 @@ function quarantineSharedPoolKey(key) {
 }
 
 async function handleSharedAiRequest(request, env, corsHeaders) {
+  const contentLength = Number(request.headers.get("Content-Length") || 0);
+  if (contentLength > 16_384) {
+    return jsonResponse({ error: "Shared AI request is too large" }, 413, corsHeaders);
+  }
   let payload;
   try {
     payload = await request.json();
@@ -83,6 +87,12 @@ async function handleSharedAiRequest(request, env, corsHeaders) {
     return jsonResponse({ error: "Invalid shared AI request" }, 400, corsHeaders);
   }
   const keys = sharedPoolKeys(env);
+  if (keys.length === 0) {
+    return jsonResponse({
+      error: "Shared AI help is not currently configured",
+      retryable: true
+    }, 503, corsHeaders);
+  }
   const reservation = reserveSharedPoolRequest(installationId, keys.length);
   if (!reservation.ok) {
     return jsonResponse({
@@ -98,10 +108,10 @@ async function handleSharedAiRequest(request, env, corsHeaders) {
   try {
     const model = env.GEMINI_SHARED_MODEL || "gemini-1.5-flash";
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(key)}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`,
       {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json", "x-goog-api-key": key },
         body: JSON.stringify({
           contents: [{ parts: [{ text: prompt }] }],
           generationConfig: { maxOutputTokens }
