@@ -60,7 +60,7 @@ jobs:
           set -e
           git config user.name "AcademicContributor"
           git config user.email "academic-contributor@users.noreply.github.com"
-          branch="automation/contribution-${{ github.event.issue.number }}"
+          branch="automation/contribution-${{ github.event.issue.number }}-${{ github.run_id }}"
           git switch -c "$branch"
           git add data/ README.md
           if git diff --staged --quiet; then
