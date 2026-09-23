@@ -29,7 +29,7 @@ The relay does not collect IP addresses, client identifiers, active-user
 counts, or presence telemetry. `/ping` is a stateless health response, and
 `/version` exposes the current compatibility policy.
 
-The current deployed policy is **1.7.5 or newer**, with toolkit release **1.7.7**. Keep
+The current deployed policy is **1.7.5 or newer**, with toolkit release **1.7.8**. Keep
 [CLIENT-COMPATIBILITY.md](https://github.com/Acads-Tools/amaes-toolkit/blob/main/CLIENT-COMPATIBILITY.md)
 aligned with `MIN_CLIENT_VERSION` when changing the client, payload, or schema.
 # Shared AI fallback and opt-in contributor key sharing
