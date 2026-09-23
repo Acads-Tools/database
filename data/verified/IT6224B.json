@@ -1,10 +1,61 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-23T14:44:45Z",
-  "totalQuestions": 20,
+  "updatedAt": "2026-09-23T14:45:38Z",
+  "totalQuestions": 39,
   "tier": "verified",
   "questions": [
+    {
+      "question": "A network administrator configured an EtherChannel link with three interfaces between two switches. What is the result if one of the three interfaces is down?",
+      "answer": "The remaining two interfaces continue to load balance traffic.",
+      "choices": [
+        "a. The EtherChannel fails.",
+        "b. The remaining two interfaces become separate links between the two switches.",
+        "c. The remaining two interfaces continue to load balance traffic.",
+        "d. One interface becomes an active link for data traffic and the other becomes a backup link."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement describes a feature that is associated with HSRP?",
+      "answer": "HSRP uses active and standby routers.",
+      "choices": [
+        "a. It allows load balancing between a group of redundant routers.",
+        "b. HSRP is nonproprietary.",
+        "c. HSRP uses active and standby routers.",
+        "d. It uses ICMP messages in order to assign the default gateway to hosts."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement is a feature that is associated with GLBP?",
+      "answer": "GLBP allows load balancing between routers.",
+      "choices": [
+        "a. It uses a virtual router master.",
+        "b. It is nonproprietary.",
+        "c. It works together with VRRP.",
+        "d. GLBP allows load balancing between routers."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
     {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
       "answer": "True",
@@ -13,10 +64,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Access Layer is the layer of which the hierarchical enterprise LAN design model would PoE for VoIP phones and access points be considered.",
@@ -26,9 +78,44 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
+    },
+    {
+      "question": "After the election of the root bridge has been completed, how will switches find the best paths to the root bridge?",
+      "answer": "Each switch will analyze the sum of all port costs to reach the root and use the path with the lowest cost.",
+      "choices": [
+        "a. Each switch will analyze the BID of all neighbors to reach the root and use the path through the lowest BID neighbors.",
+        "b. Each switch will analyze the sum of all port costs to reach the root and use the path with the lowest cost.",
+        "c. Each switch will analyze the sum of the hops to reach the root and use the path with the fewest hops.",
+        "d. Each switch will analyze the port states of all neighbors and use the designated ports to forward traffic to the root."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
+      "answer": "grouping multiple physical ports to increase bandwidth between two switches",
+      "choices": [
+        "a. providing redundant links that dynamically block or forward traffic",
+        "b. providing redundant devices to allow traffic to flow in the event of device failure",
+        "c. grouping two devices to share a virtual IP address",
+        "d. grouping multiple physical ports to increase bandwidth between two switches"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -39,10 +126,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Distribution Layer is a design model layer that provides a high-speed backbone link between dispersed networks.",
@@ -55,7 +143,16 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
       "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswers": [
+        "True"
+      ],
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-09-23T14:45:38Z"
+        }
+      ]
     },
     {
       "question": "How much traffic for a 12port gigabit switch capable of generating when operating at full wire speed?",
@@ -67,10 +164,11 @@
         "d. 12 Gb/s, by providing full bandwidth to each port"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "How much traffic for a 24port Gbit switch at hand capable of generating when operating at full wire speed?",
@@ -97,10 +195,11 @@
         "d. Modular routers"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In managing Cisco devices, what are two ways to access a Cisco switch for out-of-band management?",
@@ -112,10 +211,11 @@
         "d. A connection that uses the AUX and and Telnet"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In managing Cisco devices, what is a characteristic of out-of-band device management?",
@@ -142,10 +242,11 @@
         "d. show ip protocols"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In networking term, port density refers to the number of ports available on a single switch.",
@@ -155,10 +256,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In this chapter, what is the function of PoE pass-through?",
@@ -170,10 +272,11 @@
         "d. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In today's current switch technology, Which statement describes a characteristic of Cisco Meraki switches?",
@@ -185,10 +288,11 @@
         "d. They are cloud-managed access switches that enable virtual stacking of switches."
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
@@ -198,9 +302,163 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
+    },
+    {
+      "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
+      "answer": "EtherChannel",
+      "choices": [
+        "a. PortFast",
+        "b. HSRP",
+        "c. EtherChannel",
+        "d. trunking"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
+      "answer": "Link aggregation",
+      "choices": [
+        "a. Redundant links",
+        "b. Network diameter",
+        "c. Link aggregation",
+        "d. Convergence"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is an accurate description of redundancy?",
+      "answer": "designing a network to use multiple paths between switches to ensure there is no single point of failure",
+      "choices": [
+        "a. designing a network to use multiple paths between switches to ensure there is no single point of failure",
+        "b. configuring a router with a complete MAC address database to ensure that all frames can be forwarded to the correct destination",
+        "c. designing a network to use multiple virtual devices to ensure that all traffic uses the best path through the internetwork",
+        "d. configuring a switch with proper security to ensure that all traffic forwarded through an interface is filtered"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is one way to correct a spanning tree failure?",
+      "answer": "Manually remove redundant links in the switched network.",
+      "choices": [
+        "a. Manually remove redundant links in the switched network.",
+        "b. Replace the cables on failed STP links.",
+        "c. Insert redundant links to replace the failed STP links.",
+        "d. Replace all instances of STP with RSTP."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the function of PoE pass-through?",
+      "answer": "allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
+      "choices": [
+        "a. allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
+        "b. allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU",
+        "c. allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
+        "d. allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP on a port only if the port receives LACP packets from another device?",
+      "answer": "passive",
+      "choices": [
+        "a. desirable",
+        "b. passive",
+        "c. active",
+        "d. auto"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "When EtherChannel is configured, which mode will force an interface into a port channel without exchanging aggregation protocol packets?",
+      "answer": "on",
+      "choices": [
+        "a. desirable",
+        "b. on",
+        "c. auto",
+        "d. active"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "When EtherChannel is implemented, multiple physical interfaces are bundled into which type of logical connection?",
+      "answer": "port channel",
+      "choices": [
+        "a. interface range",
+        "b. loopback",
+        "c. VLAN interface",
+        "d. port channel"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "When PVST is running over a switched network, which port state can participate in BPDU frame forwarding based on BPDUs received, but does not forward data frames?",
+      "answer": "listening",
+      "choices": [
+        "a. listening",
+        "b. blocking",
+        "c. disabled",
+        "d. forwarding"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -213,10 +471,11 @@
         "d. Distribution and core layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which among the listed below as discussed in Cisco Enterprise Architecture which two functional parts of the network are combined to form a collapsed core design?",
@@ -228,10 +487,11 @@
         "d. Access and distribution layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which among the listed below is a characteristic of in-band device management as discussed in this chapter?",
@@ -243,9 +503,63 @@
         "d. It is used for initial configuration or when a network connection is unavailable."
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
+    },
+    {
+      "question": "Which command will start the process to bundle two physical interfaces to create an EtherChannel group via LACP?",
+      "answer": "interface range GigabitEthernet 0/4 - 5",
+      "choices": [
+        "a. interface port-channel 2",
+        "b. channel-group 1 mode desirable",
+        "c. channel-group 2 mode auto",
+        "d. interface range GigabitEthernet 0/4 - 5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which is the default STP operation mode on Cisco Catalyst switches?",
+      "answer": "PVST+",
+      "choices": [
+        "a. Rapid PVST+",
+        "b. MST",
+        "c. PVST+",
+        "d. MSTP",
+        "e. RSTP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which mode configuration setting would allow formation of an EtherChannel link between switches SW1 and SW2 without sending negotiation traffic?",
+      "answer": "SW1: on SW2: on",
+      "choices": [
+        "a. SW1: passive SW2: active",
+        "b. SW1: desirable SW2: desirable",
+        "c. SW1: auto SW2: auto trunking enabled on both switches",
+        "d. SW1: auto SW2: auto PortFast enabled on both switches",
+        "e. SW1: on SW2: on"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -258,10 +572,11 @@
         "d. Implementing redundancy"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which network design solution below in the current technology today will extend access layer connectivity to user devices?",
@@ -273,9 +588,43 @@
         "d. Redundancy implementation"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
+    },
+    {
+      "question": "Which network design solution will best extend access layer connectivity to host devices?",
+      "answer": "implementing wireless connectivity",
+      "choices": [
+        "a. implementing EtherChannel",
+        "b. implementing redundancy",
+        "c. implementing routing protocol",
+        "d. implementing wireless connectivity"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which PAgP mode forces the interface to channel without PAgP?",
+      "answer": "On",
+      "choices": [
+        "a. On",
+        "b. PAgP desirable",
+        "c. PAgP auto"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -288,10 +637,11 @@
         "d. To display line status and other information about directly connected Cisco devices"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     }
   ]
 }
