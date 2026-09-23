@@ -1,9 +1,74 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-23T14:44:45Z",
-  "totalQuestions": 57,
+  "updatedAt": "2026-09-23T14:45:38Z",
+  "totalQuestions": 128,
   "questions": [
+    {
+      "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
+      "answer": "show ip ospf interface",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "[____: show ip ospf neighbor] Used to verify that the router has formed an OSPFv2 adjacency with its neighboring routers.",
+      "answer": "show ip ospf neighbor",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "[____: show ip ospf] Used to examine the OSPFv2 process ID and router ID.",
+      "answer": "show ip ospf",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "[____: show ip protocols] Used to verify vital OSPFv2 configuration information, including the OSPFv2 process ID, the router ID, networks the router is advertising, the neighbors the router is receiving updates from, and the default administrative distance, which is 110 for OSPF.",
+      "answer": "show ip protocols",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "[Image: [moodle-asset:382189/q.png]] Referring to the exhibit, the command “show ipv6 route can be issued on router R2 to verify the propagation of a static default router from R1 to R2\" As discussed in this chapter why is MD5 authentication is more secure than simple authentication of OSPF updates?a",
+      "answer": "MD5 does not send the password to the neighbor router.",
+      "choices": [
+        "a. MD5 does not send the password to the neighbor router.",
+        "b. MD5 employs IPsec to keep the updates from being intercepted.",
+        "c. MD5 uses both a username and a password to authenticate the neighbor.",
+        "d. MD5 requires passwords that are at least 8 characters long."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
     {
       "question": "A network administrator configured an EtherChannel link with three interfaces between two switches. What is the result if one of the three interfaces is down?",
       "answer": "The remaining two interfaces continue to load balance traffic.",
@@ -16,9 +81,43 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A network administrator configures a loopback interface as the OSPF router ID with the IP address of 192.168.1.1/30. What could be the consequence of using this 30-bit mask for the loopback interface?",
+      "answer": "This loopback interface may be advertised as a reachable network.",
+      "choices": [
+        "a. This loopback interface may be advertised as a reachable network.",
+        "b. OSPF routers must also be configured with a router priority value.",
+        "c. Older routers do not recognize the router-id command.",
+        "d. The interface is not enabled for OSPF."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A network administrator is analyzing the differences between an EIGRP hold timer and EIGRP hello interval. What statement is valid about EIGRP hello and hold timers?",
+      "answer": "EIGRP hello intervals should be less than or equal to EIGRP hold timers.",
+      "choices": [
+        "a. EIGRP hello timers specify the maximum time that the router should wait to receive the next hello.?",
+        "b. EIGRP hold timers specify the minimum time that the router should wait to send the next hello.",
+        "c. EIGRP hello intervals and hold timers must match between EIGRP neighbors to form an EIGRP adjacency.",
+        "d. EIGRP hello intervals should be less than or equal to EIGRP hold timers."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -33,9 +132,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -50,9 +149,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -73,6 +172,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "A network administrator of Genesis Airlines issue a command of show cdp neigbors on a router, what do you think is the reason?",
+      "answer": "To display device ID and other information about directly connected Cisco devices",
+      "choices": [
+        "a. To display router ID and other information about OSPF neighbors",
+        "b. To display device ID and other information about directly connected Cisco devices",
+        "c. To display routing table and other information about directly connected Cisco devices",
+        "d. To display line status and other information about directly connected Cisco devices"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "A network engineer connected 2 switches together with two crossover cables for redundancy, and STP is disabled. Which of the following will happen between the switches?",
       "answer": "Broadcast storms will occur on the switched network.",
       "choices": [
@@ -90,6 +206,71 @@
       "source": "community_contribution"
     },
     {
+      "question": "A network engineer of Genesis Industries is troubleshooting an OSPFv2 network and discovers that two routers connected by a point-to-point WAN serial link are not establishing an adjacency. The OSPF routing process, network commands and area ID are all confirmed as correct, and the interfaces are not passive. Testing shows that the cabling is correct, that the link is up, and pings between the interfaces are successful. What is most likely the problem?",
+      "answer": "The subnet masks on the two connected serial interfaces do not match.",
+      "choices": [
+        "a. Ip addresses of the 2 serials are the same or conflict",
+        "b. The subnet masks on the two connected serial interfaces do not match.",
+        "c. The OSPFv2 process IDs on each router do not match.",
+        "d. A clock rate has not been set on the DCE interface of the serial link."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A network technician issues the following commands when configuring a router: R1(config)# router ospf 11 R1(config-router)# network 10.10.10.0 0.0.0.255 area 0 What does the number 11 represent?",
+      "answer": "the OSPF process ID on R1",
+      "choices": [
+        "a. the OSPF process ID on R1",
+        "b. the administrative distance that is manually assigned to R1",
+        "c. the autonomous system number to which R1 belongs",
+        "d. the area number where R1 is located",
+        "e. the cost of the link to R1"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A router is running an EIGRP process and obtaining updates from other routers. What is an indication within the routing table that a route is a candidate for a default route?",
+      "answer": "*",
+      "choices": [
+        "a. D",
+        "b. 170",
+        "c. *",
+        "d. EX",
+        "e. 90"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A virtual [____: link] is a special OSPF transit area that is used to connect a remote OSPF network to Area 0.",
+      "answer": "link",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
       "answer": "True",
       "choices": [
@@ -97,10 +278,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Access Layer is the layer of which the hierarchical enterprise LAN design model would PoE for VoIP phones and access points be considered.",
@@ -110,10 +292,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "After the election of the root bridge has been completed, how will switches find the best paths to the root bridge?",
@@ -127,9 +310,41 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "All other non-DR or BDR routers become DROTHER (a router that is neither the DR nor the BDR) and DROTHERs only form full adjacencies with the DR and BDR in the network.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Among the 802.11 standards what is the maximum speed of 802.11a?",
+      "answer": "54Mb/s",
+      "choices": [
+        "a. 2Mb/s",
+        "b. 54Mb/s",
+        "c. 600Mb/s",
+        "d. 64Mb/s"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -167,6 +382,55 @@
       "source": "community_contribution"
     },
     {
+      "question": "An OSPF router has received type 3 summary LSAs that were flooded into an area. How are these LSAs identified in the routing table?",
+      "answer": "O IA",
+      "choices": [
+        "a. O E1",
+        "b. O E2",
+        "c. O",
+        "d. O IA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Area Border Router (ABR) s is a router that has interfaces attached to multiple areas",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "As discussed in wireless LAN technologies and standards, what wireless LAN technology that is an IEEE 802.16 WWAN standard that provides wireless broadband access of up to 30mi (50km)?",
+      "answer": "WIMAX",
+      "choices": [
+        "a. WLAN",
+        "b. WIMAX",
+        "c. Satellite broadband",
+        "d. Cellular broadband"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
       "answer": "grouping multiple physical ports to increase bandwidth between two switches",
       "choices": [
@@ -178,9 +442,24 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Autonomous System Boundary Router (ASBR) is a router that has at least one interface attached to an external internetwork.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -191,10 +470,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Distribution Layer is a design model layer that provides a high-speed backbone link between dispersed networks.",
@@ -207,6 +487,47 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
       "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution",
+      "wrongAnswers": [
+        "True"
+      ],
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-09-23T14:45:38Z"
+        }
+      ]
+    },
+    {
+      "question": "DR/BDR elections only occur in point-topoint networks and do not occur in multiaccessnetworks.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "During the checking a routing table, a network specialist notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route.",
+      "choices": [
+        "a. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
+        "b. This route is a propagated default route.",
+        "c. The metric for this route is 110",
+        "d. The route is located two hops away."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -219,10 +540,11 @@
         "d. 12 Gb/s, by providing full bandwidth to each port"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "How much traffic for a 24port Gbit switch at hand capable of generating when operating at full wire speed?",
@@ -257,6 +579,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "If a specific router ID is not configured on an IPv4-based OSPF router, what will the IOS look for next to determine the router ID?",
+      "answer": "the highest IPv4 address on a loopback interface",
+      "choices": [
+        "a. the highest MAC address on a loopback interface",
+        "b. the highest MAC address on any enabled interface",
+        "c. the highest IPv4 address on a loopback interface",
+        "d. the lowest IPv4 address on any enabled interface"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
       "answer": "Network edge routers",
       "choices": [
@@ -266,10 +605,11 @@
         "d. Modular routers"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "If you want to disable STP on a port connected to a server, which command would you use?",
@@ -306,6 +646,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "In implementing OSPF authentication why is MD5 authentication more secure than simple authentication for OSPF updates?",
+      "answer": "MD5 does not send the password to the neighbor router.",
+      "choices": [
+        "a. MD5 uses both a username and a password to authenticate the neighbor.",
+        "b. MD5 employs IPsec to keep the updates from being intercepted.",
+        "c. MD5 requires passwords that are at least 8 characters long.",
+        "d. MD5 does not send the password to the neighbor router."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "In managing Cisco devices, what are two ways to access a Cisco switch for out-of-band management?",
       "answer": "A connection that uses the console and AUX port",
       "choices": [
@@ -315,10 +672,11 @@
         "d. A connection that uses the AUX and and Telnet"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In managing Cisco devices, what is a characteristic of out-of-band device management?",
@@ -336,6 +694,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "In network troubleshooting, which command can be issued on a router to verify that automatic summarization is enabled?",
+      "answer": "show ip protocols",
+      "choices": [
+        "a. show ip eigrp interfaces",
+        "b. show ip protocols",
+        "c. show ip interface brief",
+        "d. show ip eigrp neighbors"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "In network troubleshooting, which command is used to display the bandwidth of an interface on an EIGRP-enabled router?",
       "answer": "show interfaces",
       "choices": [
@@ -345,10 +720,11 @@
         "d. show ip protocols"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In networking term, port density refers to the number of ports available on a single switch.",
@@ -358,9 +734,59 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
+    },
+    {
+      "question": "In networking world, \"Rack unit\" is the term used to express the thickness or height of a switch.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In single-area OSPF concepts which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
+      "answer": "administrative distance",
+      "choices": [
+        "a. hop count",
+        "b. link delay",
+        "c. administrative distance",
+        "d. link bandwidth"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In the understanding of wireless LAN technologies what wireless LAN technology that operates in the range of a few feet (Bluetooth)?",
+      "answer": "WPAN",
+      "choices": [
+        "a. WLAN",
+        "b. WIMAX",
+        "c. WPAN",
+        "d. Wi-fi(Wireless Fidelity)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -373,10 +799,11 @@
         "d. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "In today's current switch technology, Which statement describes a characteristic of Cisco Meraki switches?",
@@ -388,9 +815,61 @@
         "d. They are cloud-managed access switches that enable virtual stacking of switches."
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
+    },
+    {
+      "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
+      "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
+      "choices": [
+        "a. All serial interfaces default to a value of 1.544 Mb/s.",
+        "b. Each side of an OSPF serial link should be configured with a unique value.",
+        "c. OSPF uses the bandwidth value to compute routes for its routing table.",
+        "d. OSPF uses the bandwidth value to compute the router IDs"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In understanding of OSPF networks what is used to facilitate hierarchical routing in OSPF?",
+      "answer": "the use of multiple areas",
+      "choices": [
+        "a. the use of router ids",
+        "b. the election of designated routers",
+        "c. frequent SPF calculations",
+        "d. the use of multiple areas"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In understanding OSPF concepts which parameter or parameters are used to calculate OSPF cost in Cisco routers?",
+      "answer": "Bandwidth",
+      "choices": [
+        "a. Bandwidth and MTU",
+        "b. Bandwidth",
+        "c. Bandwidth, Delay and MTU",
+        "d. Hello"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -411,6 +890,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "Internal router is a router that has all of its interfaces in the same area.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Link aggregation should be implemented at which layer of the hierarchical network?",
       "answer": "Access, distribution, and core",
       "choices": [
@@ -428,6 +922,78 @@
       "source": "community_contribution"
     },
     {
+      "question": "LSA type 1 including a list of directly attached network prefixes and link type",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "LSA type 2 identifying the routers and the network address of the multiaccess link",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "LSA type 3 advertising networks from other areas by ABRs",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "LSA type 4 advertising an ASBR to other areas and providing a route to it",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "OSPF features, [____: fast convergence] It quickly propagates network changes",
+      "answer": "fast convergence",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
       "answer": "True",
       "choices": [
@@ -435,10 +1001,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
@@ -452,9 +1019,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -475,6 +1042,47 @@
       "source": "community_contribution"
     },
     {
+      "question": "The [____: default-information originate] command is used when configuring an OSPFv2 router to redistribute only a static default route.",
+      "answer": "default-information originate",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The ABC Mining company network administrator has been asked to summarize the routes for a new OSPF area. The networks to be summarized are 172.16.8.0, 172.16.10.0, and 172.16.12.0 with subnet masks of 255.255.255.0 for each network. Which command should the administrator use to forward the summary route for area 15 into area 0?",
+      "answer": "network 172.16.8.0 0.0.7.255 area 15",
+      "choices": [
+        "a. network 172.16.8.0 0.0.7.255 area 0",
+        "b. network 172.16.8.0 0.0.0.7 area 15",
+        "c. network 172.16.8.0 0.0.7.255 area 15",
+        "d. network 172.16.8.0 0.0.0.7 area 0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The command clear ip ospf [____: process] forces a router with a new or changed router ID to form new adjacencies.",
+      "answer": "process",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "The legacy standard for STP that runs all VLANs in a single spanning-tree instance is called MSTP.",
       "answer": "False",
       "choices": [
@@ -490,6 +1098,171 @@
       "source": "community_contribution"
     },
     {
+      "question": "The network engineer of Stark Industries has manually configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?",
+      "answer": "The dead interval will now be 60 seconds.",
+      "choices": [
+        "a. The dead interval will now be 15 seconds.",
+        "b. The dead interval will now be 30 seconds.",
+        "c. The dead interval will not change from the default value.",
+        "d. The dead interval will now be 60 seconds."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The OSPF Hello and Dead intervals are configurable on a per-interface basis.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The OSPF hello timer has been set to 15 seconds on a router in a point-to-point network. By default, what is the dead interval on this router?",
+      "answer": "60 seconds",
+      "choices": [
+        "a. 60 seconds",
+        "b. 30 seconds",
+        "c. 15 seconds",
+        "d. 45 seconds"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The OSPF Type 1 packet is the [____: Hello] packet.",
+      "answer": "Hello",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The router ID can be manually configured.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The show ip ospf interface command use to verify active RIP interfaces.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The show ip ospf neighbor command is use to verify if routers form adjacentcy.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The show ip protocols command use to verify the OSPFv2 settings.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The show ip route ospf command use to verify the routing table.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "The wildcard mask that is used to advertise exactly the network 192.168.160.0 with subnet mask 255.255.240.0 is [____: 0.0.15.255]",
+      "answer": "0.0.15.255",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Two routers, R1 and R2, have established an EIGRP neighbor relationship, but there is still a connectivity problem. Which issue could be causing this problem??",
+      "answer": "an access list that is blocking advertisements from other networks",
+      "choices": [
+        "a. an authentication mismatch",
+        "b. an access list that is blocking advertisements from other networks",
+        "c. a process ID mismatch",
+        "d. automatic summarization that is disabled on both routers"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
       "answer": "Link aggregation",
       "choices": [
@@ -501,9 +1274,54 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Use the show ip ospf database command to verify the contents of the OSPFv2 LSDB.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Use the show ip ospf interface brief command to display concise OSPFv2-related information of OSPFv2-enabled interfaces.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Use the show ip protocols command to verify the OSPFv2 status.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -524,6 +1342,58 @@
       "source": "community_contribution"
     },
     {
+      "question": "What does an O routing table entry mean?",
+      "answer": "Intra-area route",
+      "choices": [
+        "a. Inter-area route",
+        "b. Intra-area route",
+        "c. External route",
+        "d. internal route"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is a benefit of multiarea OSPF routing?",
+      "answer": "Topology changes in one area do not cause SPF recalculations in other areas.",
+      "choices": [
+        "a. Routers in all areas share the same link-state database and have a complete picture of the entire network.",
+        "b. Topology changes in one area do not cause SPF recalculations in other areas.",
+        "c. A backbone area is not required.",
+        "d.",
+        "e. Automatic route summarization occurs by default between areas."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is a disadvantage of using EIGRP automatic summarization?",
+      "answer": "It creates inconsistent routing when the network has discontiguous networks.",
+      "choices": [
+        "a. It prevents convergence of the routing table.",
+        "b. It increases the number of routes in the routing table.",
+        "c. It increases the size of routing updates.",
+        "d. It creates inconsistent routing when the network has discontiguous networks."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "What is an accurate description of redundancy?",
       "answer": "designing a network to use multiple paths between switches to ensure there is no single point of failure",
       "choices": [
@@ -535,9 +1405,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -552,9 +1422,26 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the default maximum amount of bandwidth that EIGRP uses for EIGRP control information considering an interface configured for 128 kbps?",
+      "answer": "64 kbps",
+      "choices": [
+        "a. 128 kbps",
+        "b. 16 kbps",
+        "c. 32 kbps",
+        "d. 64 kbps"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -569,9 +1456,77 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the purpose of the EIGRP Null0 summary route?",
+      "answer": "to prevent routing loops for destination networks which do not actually exist but are included in a summary route",
+      "choices": [
+        "a. to reduce bandwidth consumption for traffic that is leaving the network",
+        "b. to enhance security by hiding all internal networks that are included in a summary route",
+        "c. to ensure that all traffic destined for individual subnets uses one single best path",
+        "d. to prevent routing loops for destination networks which do not actually exist but are included in a summary route"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the useof in-band device management and how it is done?",
+      "answer": "It is used to monitor and make configuration changes to a network device over a network connection.",
+      "choices": [
+        "a. It uses a direct connection to a console or AUX port.",
+        "b. It is used for initial configuration or when a network connection is unavailable.",
+        "c. It uses a terminal emulation client.",
+        "d. It is used to monitor and make configuration changes to a network device over a network connection."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What must all non-backbone OSPF areas connect to when deploying multiarea OSPF?",
+      "answer": "Area 0",
+      "choices": [
+        "a. a DR",
+        "b. an ASBR",
+        "c. Area 1",
+        "d. Area 0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What type of wireless attack that uses the method by flooding an AP with deauthentication frames?",
+      "answer": "Jamming",
+      "choices": [
+        "a. War Driving",
+        "b. Packet Sniffing",
+        "c. Man in the middle",
+        "d. Jamming"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -586,9 +1541,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -603,9 +1558,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -620,9 +1575,26 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "When OSPFv2 neighbors are establishing adjacencies, in which state do they elect a DR and BDR router?",
+      "answer": "Two-Way state",
+      "choices": [
+        "a. Init state",
+        "b. One-Way state",
+        "c. Loading state",
+        "d. Two-Way state"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -637,9 +1609,26 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "When would the network administrator use the ip bandwidth-percent eigrp as-number percent command?",
+      "answer": "when there is a low bandwidth connection",
+      "choices": [
+        "a. when the connection is on a shared medium",
+        "b. when there is a low bandwidth connection",
+        "c. when the connection is serial instead of Ethernet",
+        "d. when the link is always busy"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -652,10 +1641,11 @@
         "d. Distribution and core layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which among the listed below as discussed in Cisco Enterprise Architecture which two functional parts of the network are combined to form a collapsed core design?",
@@ -667,10 +1657,11 @@
         "d. Access and distribution layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which among the listed below is a characteristic of in-band device management as discussed in this chapter?",
@@ -682,10 +1673,11 @@
         "d. It is used for initial configuration or when a network connection is unavailable."
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which command will start the process to bundle two physical interfaces to create an EtherChannel group via LACP?",
@@ -699,9 +1691,44 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which configuration will prevent two directly connected Cisco routers from forming an OSPFv2 neighbor adjacency?",
+      "answer": "Configuring mismatched MTU values on two adjacent routers",
+      "choices": [
+        "a. Configuring mismatched OSPF process IDs on two adjacent routers",
+        "b. Configuring a router ID on two adjacent routers",
+        "c. Configuring a LAN interface connected to a switch as a passive interface",
+        "d. Configuring mismatched MTU values on two adjacent routers"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which EIGRP parameter must match between all routers forming an EIGRP adjacency?",
+      "answer": "autonomous system number",
+      "choices": [
+        "a. autonomous system number",
+        "b. variance",
+        "c. hello timer",
+        "d. administrative distance",
+        "e. hold timer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -717,9 +1744,43 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which LSA type advertises directly connected OSPF-enabled links to other OSPF routers within the OSPF area they originated?",
+      "answer": "type 1",
+      "choices": [
+        "a. type 4",
+        "b. type 2",
+        "c. type 3",
+        "d. type 1"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which LSA type is flooded by a designated router to other OSPF routers within the same area?",
+      "answer": "type 2",
+      "choices": [
+        "a. type 4",
+        "b. type 1",
+        "c. type 3",
+        "d. type 2"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -735,9 +1796,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -750,10 +1811,11 @@
         "d. Implementing redundancy"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which network design solution below in the current technology today will extend access layer connectivity to user devices?",
@@ -765,10 +1827,11 @@
         "d. Redundancy implementation"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which network design solution will best extend access layer connectivity to host devices?",
@@ -782,9 +1845,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -822,6 +1885,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which OPSF packet contains the different types of link-state advertisements?",
+      "answer": "LSU",
+      "choices": [
+        "a. LSU",
+        "b. DBD",
+        "c. hello",
+        "d. LSR"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Which PAgP mode forces the interface to channel without PAgP?",
       "answer": "On",
       "choices": [
@@ -832,9 +1912,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -851,6 +1931,40 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-23T14:38:50Z",
       "lastVerifiedAt": "2026-09-23T14:38:50Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which show command displays the administrative distance of the routing protocol that is being used?",
+      "answer": "show ip protocols",
+      "choices": [
+        "a. show ip ospf interface",
+        "b. show interface",
+        "c. show ip protocols",
+        "d. show ip ospf neighbor"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which state will OSPF routers transition to when they have converged?",
+      "answer": "Full",
+      "choices": [
+        "a. ExStart",
+        "b. Init",
+        "c. Full",
+        "d. Loading"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
     },
     {
@@ -871,6 +1985,24 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which type of routing table entry would indicate that an external route was redistributed into the multiarea OSPF process?",
+      "answer": "O E2",
+      "choices": [
+        "a. C",
+        "b. O E2",
+        "c. O",
+        "d. O IA",
+        "e. S"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Whichamong the listed below describes an EtherChannel implementation as mentioned in Link Aggregation chapter?",
       "answer": "A trunked port can be part of an EtherChannel bundle.",
       "choices": [
@@ -888,6 +2020,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "Why do OSPF serial interfaces usually require manual bandwidth configuration?",
+      "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
+      "choices": [
+        "a. OSPF uses the bandwidth value to compute routes for its routing table.",
+        "b. Bandwidth value affects the actual speed of the link.",
+        "c. All serial interfaces default to a value of 1.544 Mb/s.",
+        "d. Each side of an OSPF serial link should be configured with a unique value."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Why would a network administrator of RMS Defence Contractor company issue the show cdp neigbors command on a router especially if a network problem occurs?",
       "answer": "To display device ID and other information about directly connected Cisco devices",
       "choices": [
@@ -897,10 +2046,11 @@
         "d. To display line status and other information about directly connected Cisco devices"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
