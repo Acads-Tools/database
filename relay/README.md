@@ -14,3 +14,14 @@ Enables zero-friction, background submission of verified answers directly from s
 5. Save & Deploy.
 6. Copy the worker URL (e.g., `https://amaes-community-relay.<your-subdomain>.workers.dev`).
 7. Paste this URL into the userscript's `COMMUNITY_RELAY_URL` constant.
+
+## Client compatibility and privacy
+
+The relay requires `X-AMAES-Client-Version` to be at least `MIN_CLIENT_VERSION`
+(`1.7.5` by default). Older clients receive `426 Upgrade Required` with the
+official update URL. Keep the minimum version aligned with the first release
+that supports the current payload and schema.
+
+The relay does not collect IP addresses, client identifiers, active-user
+counts, or presence telemetry. `/ping` is a stateless health response, and
+`/version` exposes the current compatibility policy.

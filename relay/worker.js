@@ -10,27 +10,22 @@
  * - Environment Variable: REPO_NAME = "database"
  */
 
-/**
- * In-memory active peer registry per Cloudflare edge isolate.
- * Rolling window: 10 minutes (600,000 ms).
- */
-const activePeerMap = new Map();
+const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
+const LATEST_VERSION = "1.7.5";
 
-async function hashString(str) {
-  const enc = new TextEncoder().encode(str + "_amaes_telemetry_salt");
-  const buf = await crypto.subtle.digest("SHA-256", enc);
-  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 24);
+function parseVersion(value) {
+  const match = String(value || "").trim().replace(/^v/i, "").match(/^(\d+)\.(\d+)\.(\d+)$/);
+  return match ? match.slice(1).map(Number) : null;
 }
 
-function pruneAndCountActivePeers() {
-  const now = Date.now();
-  const threshold = now - 600000; // 10 minutes
-  for (const [key, ts] of activePeerMap.entries()) {
-    if (ts < threshold) {
-      activePeerMap.delete(key);
-    }
+function isSupportedVersion(version, minimum) {
+  const actual = parseVersion(version);
+  const required = parseVersion(minimum);
+  if (!actual || !required) return false;
+  for (let i = 0; i < 3; i += 1) {
+    if (actual[i] !== required[i]) return actual[i] > required[i];
   }
-  return Math.max(1, activePeerMap.size);
+  return true;
 }
 
 export default {
@@ -49,40 +44,22 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // --- REAL 10-MINUTE TELEMETRY PING & ACTIVE USER TRACKING ---
-    if (request.method === "GET" || request.method === "HEAD" || (request.method === "POST" && (path === "/ping" || path === "/active"))) {
-      if (path === "/ping" || path === "/active") {
-        const ip = request.headers.get("CF-Connecting-IP") || "127.0.0.1";
-        const cid = url.searchParams.get("cid") || "";
-        const now = Date.now();
-        let peerHash = null;
-
-        // Register client session whenever cid is provided or on explicit ping
-        if (cid || path === "/ping") {
-          peerHash = await hashString(`${ip}:${cid}`);
-          activePeerMap.set(peerHash, now);
-        }
-
-        let activeCount = pruneAndCountActivePeers();
-
-        if (env.TELEMETRY_KV) {
-          try {
-            if (peerHash) {
-              await env.TELEMETRY_KV.put(`peer:${peerHash}`, now.toString(), { expirationTtl: 600 });
-            }
-            const list = await env.TELEMETRY_KV.list({ prefix: "peer:" });
-            if (list && list.keys) {
-              activeCount = Math.max(activeCount, list.keys.length);
-            }
-          } catch (_) {}
-        }
-
+    if (request.method === "GET" || request.method === "HEAD") {
+      if (path === "/version") {
+        const minimumVersion = env.MIN_CLIENT_VERSION || LATEST_VERSION;
         return new Response(JSON.stringify({
           status: "ok",
-          active: Math.max(1, activeCount),
-          windowMinutes: 10,
-          timestamp: now
+          minimumVersion,
+          latestVersion: LATEST_VERSION,
+          updateUrl: UPDATE_URL
         }), {
+          status: 200,
+          headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
+        });
+      }
+
+      if (path === "/ping" || path === "/active") {
+        return new Response(JSON.stringify({ status: "ok" }), {
           status: 200,
           headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
         });
@@ -114,22 +91,11 @@ export default {
       }
 
       if (path === "/" || path === "/status") {
-        let activeCount = pruneAndCountActivePeers();
-        if (env.TELEMETRY_KV) {
-          try {
-            const list = await env.TELEMETRY_KV.list({ prefix: "peer:" });
-            if (list && list.keys) {
-              activeCount = Math.max(activeCount, list.keys.length);
-            }
-          } catch (_) {}
-        }
-
         return new Response(JSON.stringify({
           status: "healthy",
           name: "amaes-community-relay",
           message: "AMAES Community Relay is operational",
-          active_users: activeCount,
-          telemetry_window_minutes: 10,
+          privacy: "No IP, client identifier, or active-user telemetry is collected.",
           links: {
             installer: "https://greasyfork.org/en/scripts/594744-amaes-toolkit",
             script: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js",
@@ -139,8 +105,7 @@ export default {
             logo: "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/assets/amaes-toolkit-logo.png"
           },
           endpoints: {
-            ping: "/ping",
-            active: "/active",
+            version: "/version",
             submit: "POST /"
           }
         }, null, 2), {
@@ -159,6 +124,20 @@ export default {
 
     try {
       const payload = await request.json();
+      const clientVersion = request.headers.get("X-AMAES-Client-Version") || payload.clientVersion;
+      const minimumVersion = env.MIN_CLIENT_VERSION || LATEST_VERSION;
+      if (env.REQUIRE_CLIENT_VERSION === "true" &&
+          (!clientVersion || !isSupportedVersion(clientVersion, minimumVersion))) {
+        return new Response(JSON.stringify({
+          error: "Client update required",
+          minimumVersion,
+          latestVersion: LATEST_VERSION,
+          updateUrl: UPDATE_URL
+        }), {
+          status: 426,
+          headers: { ...corsHeaders, "Content-Type": "application/json" }
+        });
+      }
 
       const subjectCode = (payload.subjectCode || payload.subject || "").trim().toUpperCase();
       if (!subjectCode || !/^[A-Z0-9_-]{2,16}$/.test(subjectCode)) {
