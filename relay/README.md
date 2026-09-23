@@ -45,9 +45,11 @@ wrangler secret put GEMINI_SHARED_KEY_3
 
 The relay enforces a small per-installation burst limit, a global in-memory
 window limit, provider-key cooldowns, request-size limits, supported-client
-validation, and bounded provider calls. It does not log prompts, API keys, or
-provider responses. Shared capacity is best-effort: if no key is configured,
-rate-limited, or available, the client receives a readable retry message.
+validation, and bounded provider calls. Application code does not log prompts,
+API keys, or provider responses. Shared capacity is best-effort: if no key is
+configured, rate-limited, or available, the client receives a readable retry
+message. The free-tier-safe starting ceiling is 20 shared requests per Worker
+isolate per minute, with one request per installation per minute.
 
 User-submitted keys are intentionally not stored or shared in this rollout.
 Adding that capability requires encrypted persistent storage, revocation,
