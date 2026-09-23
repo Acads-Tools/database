@@ -73,6 +73,7 @@ not enabled by this lightweight rollout.
 | `CS6205` | Automata Theory and Formal Languages | **12** | Active |
 | `CS6206` | Principles of Operating Systems | **165** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **155** | Active |
+| `GE6301` | GE6301 | **33** | Active |
 | `IT6205A` | Information Assurance and Security 1 | **37** | Active |
 | `IT6206` | Information Assurance and Security 2 | **118** | Active |
 | `IT6208` | System Integration and Architecture 1 | **104** | Active |
