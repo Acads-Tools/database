@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-if git grep -n -I -E '(^|/)(home|Users)/[^/ ]+|anonymous-contributor|local-user||slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY' -- ':!AGENTS.md' ':!GEMINI.md' ':!.githooks/**' ':!.github/workflows/privacy-check.yml' >/tmp/database-privacy-match; then
+if git grep -n -I -E '(^|/)(home|Users)/[^/ ]+|ractopen|ryme|197402134|slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY' -- ':!AGENTS.md' ':!GEMINI.md' ':!.githooks/**' ':!.github/workflows/privacy-check.yml' >/tmp/database-privacy-match; then
   echo "Privacy check failed; personal paths, handles, emails, or private keys were found:" >&2
   cat /tmp/database-privacy-match >&2
   rm -f /tmp/database-privacy-match
