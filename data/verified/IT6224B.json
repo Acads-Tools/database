@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-23T14:46:30Z",
-  "totalQuestions": 39,
+  "updatedAt": "2026-09-23T14:47:13Z",
+  "totalQuestions": 43,
   "tier": "verified",
   "questions": [
     {
@@ -57,6 +57,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "A network administrator of Genesis Airlines issue a command of show cdp neigbors on a router, what do you think is the reason?",
+      "answer": "To display device ID and other information about directly connected Cisco devices",
+      "choices": [
+        "a. To display router ID and other information about OSPF neighbors",
+        "b. To display device ID and other information about directly connected Cisco devices",
+        "c. To display routing table and other information about directly connected Cisco devices",
+        "d. To display line status and other information about directly connected Cisco devices"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
       "answer": "True",
       "choices": [
@@ -64,9 +81,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
       "source": "community_contribution",
       "wrongAnswers": []
     },
@@ -164,9 +181,9 @@
         "d. 12 Gb/s, by providing full bandwidth to each port"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
       "source": "community_contribution",
       "wrongAnswers": []
     },
@@ -211,9 +228,9 @@
         "d. A connection that uses the AUX and and Telnet"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
       "source": "community_contribution",
       "wrongAnswers": []
     },
@@ -233,6 +250,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "In network troubleshooting, which command can be issued on a router to verify that automatic summarization is enabled?",
+      "answer": "show ip protocols",
+      "choices": [
+        "a. show ip eigrp interfaces",
+        "b. show ip protocols",
+        "c. show ip interface brief",
+        "d. show ip eigrp neighbors"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "In network troubleshooting, which command is used to display the bandwidth of an interface on an EIGRP-enabled router?",
       "answer": "show interfaces",
       "choices": [
@@ -242,9 +276,9 @@
         "d. show ip protocols"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
       "source": "community_contribution",
       "wrongAnswers": []
     },
@@ -256,11 +290,26 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "In networking world, \"Rack unit\" is the term used to express the thickness or height of a switch.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
+      "source": "community_contribution"
     },
     {
       "question": "In this chapter, what is the function of PoE pass-through?",
@@ -288,9 +337,9 @@
         "d. They are cloud-managed access switches that enable virtual stacking of switches."
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
       "source": "community_contribution",
       "wrongAnswers": []
     },
@@ -391,6 +440,23 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "What is the useof in-band device management and how it is done?",
+      "answer": "It is used to monitor and make configuration changes to a network device over a network connection.",
+      "choices": [
+        "a. It uses a direct connection to a console or AUX port.",
+        "b. It is used for initial configuration or when a network connection is unavailable.",
+        "c. It uses a terminal emulation client.",
+        "d. It is used to monitor and make configuration changes to a network device over a network connection."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-09-23T14:47:13Z",
       "source": "community_contribution"
     },
     {
