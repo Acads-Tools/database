@@ -1,9 +1,43 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-22T08:09:58Z",
-  "totalQuestions": 20,
+  "updatedAt": "2026-09-23T13:28:48Z",
+  "totalQuestions": 29,
   "questions": [
+    {
+      "question": "A network administrator is overseeing the implementation of first hop redundancy protocols. Which two protocols will not be able to function with multivendor devices?",
+      "answer": "GLBP & HSRP",
+      "choices": [
+        "a. IRDP & HSRP",
+        "b. GLBP & HSRP",
+        "c. HSRP & PVST",
+        "d. VRRP & GLBP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "A network engineer connected 2 switches together with two crossover cables for redundancy, and STP is disabled. Which of the following will happen between the switches?",
+      "answer": "Broadcast storms will occur on the switched network.",
+      "choices": [
+        "a. The switches will automatically load-balance between the two links.",
+        "b. The routing tables on the switches will not update.",
+        "c. The MAC forward/filter table will not update on the switch.",
+        "d. Broadcast storms will occur on the switched network."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
+      "source": "community_contribution"
+    },
     {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
       "answer": "True",
@@ -28,6 +62,40 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:09:58Z",
       "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Among the choices below, which protocol specified by RFC 2281 provides network redundancy for IP networks, ensuring that user traffic immediately and transparently recovers from first-hop failures in network edge devices or access circuits?",
+      "answer": "HSRP",
+      "choices": [
+        "a. HSRP",
+        "b. ICMP",
+        "c. IRDP",
+        "d. STP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "An administrator is troubleshooting a switch and wants to verify if it is a root bridge. What command can be used to do this?",
+      "answer": "show spanning-tree",
+      "choices": [
+        "a. show cdp neigh",
+        "b. show running-config",
+        "c. show startup-config",
+        "d. show spanning-tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
       "source": "community_contribution"
     },
     {
@@ -99,6 +167,23 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
       "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "If you want to disable STP on a port connected to a server, which command would you use?",
+      "answer": "spanning-tree portfast",
+      "choices": [
+        "a. spanning-tree portfast",
+        "b. disable spanning-tree",
+        "c. spanning-tree off",
+        "d. spanning-tree security"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
       "source": "community_contribution"
     },
     {
@@ -203,6 +288,21 @@
       "source": "community_contribution"
     },
     {
+      "question": "The legacy standard for STP that runs all VLANs in a single spanning-tree instance is called MSTP.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Which among the listed below are the 2 functional parts of the network that can be combined to form a collapsed core design in Cisco Enterprise Architecture?",
       "answer": "Distribution and core layer",
       "choices": [
@@ -278,6 +378,40 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which of the following is a layer 2 protocol used to maintain a loop-free network?",
+      "answer": "STP",
+      "choices": [
+        "a. STP",
+        "b. VTP",
+        "c. PORTFAST",
+        "d. CDP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Which of the following statement is true?",
+      "answer": "A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.",
+      "choices": [
+        "a. A switch creates separate collision domains and separate broadcast domains. A router provides separate collision domains.",
+        "b. A switch creates a single collision domain and separate broadcast domains. A router provides a separate broadcast domain as well.",
+        "c. A switch creates a single collision domain and a single broadcast domain. A router creates a single collision domain.",
+        "d. A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Why would a network administrator of RMS Defence Contractor company issue the show cdp neigbors command on a router especially if a network problem occurs?",
       "answer": "To display device ID and other information about directly connected Cisco devices",
       "choices": [
@@ -290,6 +424,23 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
       "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
+      "answer": "Switch(config)# spanning-tree mode rapid-pvst",
+      "choices": [
+        "a. Switch# spanning-tree mode 802.1w",
+        "b. Switch# spanning-tree mode rapid-pvst",
+        "c. Switch(config)# spanning-tree mode 802.1w",
+        "d. Switch(config)# spanning-tree mode rapid-pvst"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:28:48Z",
+      "lastVerifiedAt": "2026-09-23T13:28:48Z",
       "source": "community_contribution"
     }
   ]
