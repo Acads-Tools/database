@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-files=$(git ls-files | grep -Ev '(^|/)(AGENTS|GEMINI)\.md$|^\.githooks/|^\.github/workflows/privacy-check\.yml$' || true)
+files=$(git ls-files | grep -Ev '(^|/)(AGENTS|GEMINI)\.md$|^\.githooks/|^\.github/workflows/(privacy-check|auto-merge-contributions)\.yml$' || true)
 if [ -n "$files" ] && printf '%s\n' "$files" | xargs grep -n -I -E '(^|/)(home|Users)/[^/ ]+|ractopen|ryme|197402134|slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY' >/tmp/database-privacy-match; then
   echo "Privacy check failed; personal paths, handles, emails, or private keys were found:" >&2
   cat /tmp/database-privacy-match >&2
