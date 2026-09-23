@@ -176,6 +176,7 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
         existing_data["subjectName"] = resolved_title
 
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    contributor_id = clean_text(payload.get("contributorId") or "")
 
     # Build lookup map of existing questions by normalized key
     existing_map = {}
@@ -231,6 +232,9 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
 
         is_ai_suggestion = bool(item.get("isAiSuggestion") or "gemini" in str(item.get("source", "")).lower() or item.get("evidenceType") == "ai_inference")
         is_verified_source = bool(item.get("verified") or item.get("evidenceType") in ["moodle_review", "official_review", "moodle_100_percent"])
+        evidence_type = clean_text(item.get("evidenceType") or payload.get("evidenceType") or "")
+        review_available = item.get("reviewAvailable")
+        incoming_contributor = clean_text(item.get("contributorId") or contributor_id)
 
         if norm_key in existing_map:
             idx = existing_map[norm_key]
@@ -250,12 +254,22 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
 
             if clean_a.lower() == curr_answer.lower():
                 # Confirmed existing answer
-                existing_item["confirmations"] = existing_item.get("confirmations", 1) + 1
+                contributors = existing_item.setdefault("contributors", [])
+                already_counted = bool(incoming_contributor and incoming_contributor in contributors)
+                if incoming_contributor and not already_counted:
+                    contributors.append(incoming_contributor)
+                if not already_counted:
+                    existing_item["confirmations"] = existing_item.get("confirmations", 1) + 1
                 existing_item["lastVerifiedAt"] = now_iso
                 if is_verified_source:
                     existing_item["verified"] = True
                     existing_item["isAiSuggestion"] = False
-                    existing_item["source"] = item.get("source") or "moodle_review"
+                    existing_item["source"] = item.get("source") or (
+                        "moodle_100_percent" if evidence_type == "moodle_100_percent" else "moodle_review"
+                    )
+                    existing_item["evidenceType"] = evidence_type or existing_item.get("evidenceType") or "verified_evidence"
+                    if review_available is not None:
+                        existing_item["reviewAvailable"] = bool(review_available)
                 updated_count += 1
             else:
                 # Conflict Detected!
@@ -265,8 +279,14 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                     existing_item["answer"] = clean_a
                     existing_item["verified"] = True
                     existing_item["isAiSuggestion"] = False
-                    existing_item["source"] = item.get("source") or "moodle_review"
+                    existing_item["source"] = item.get("source") or (
+                        "moodle_100_percent" if evidence_type == "moodle_100_percent" else "moodle_review"
+                    )
                     existing_item["confirmations"] = 1
+                    existing_item["contributors"] = [incoming_contributor] if incoming_contributor else []
+                    existing_item["evidenceType"] = evidence_type or "verified_evidence"
+                    if review_available is not None:
+                        existing_item["reviewAvailable"] = bool(review_available)
                     existing_item["lastVerifiedAt"] = now_iso
                     updated_count += 1
                 elif existing_item.get("verified") and is_ai_suggestion:
@@ -303,10 +323,14 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                 "verified": not is_ai_suggestion and is_verified_source,
                 "isAiSuggestion": is_ai_suggestion,
                 "confirmations": 1,
+                "contributors": [incoming_contributor] if incoming_contributor else [],
                 "firstSeenAt": now_iso,
                 "lastVerifiedAt": now_iso,
-                "source": "Google Gemini AI" if is_ai_suggestion else (item.get("source") or "community_contribution")
+                "source": "Google Gemini AI" if is_ai_suggestion else (item.get("source") or "community_contribution"),
+                "evidenceType": evidence_type or ("ai_inference" if is_ai_suggestion else "community_contribution")
             }
+            if review_available is not None:
+                new_entry["reviewAvailable"] = bool(review_available)
             existing_data["questions"].append(new_entry)
             existing_map[norm_key] = len(existing_data["questions"]) - 1
             merged_count += 1
