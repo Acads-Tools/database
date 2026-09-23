@@ -7,3 +7,13 @@ REPO_OWNER = "Acads-Tools"
 REPO_NAME = "database"
 MIN_CLIENT_VERSION = "1.7.5"
 REQUIRE_CLIENT_VERSION = "true"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "amaes-community-relay"
+# Replace this placeholder with the D1 database ID before deployment.
+database_id = "1f9eeebd-6047-4ded-beeb-bf8695a13f2f"
+migrations_dir = "../migrations"
+
+[triggers]
+crons = ["17 3 * * *"]
