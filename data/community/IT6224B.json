@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-22T08:09:58Z",
-  "totalQuestions": 20,
+  "updatedAt": "2026-09-23T13:42:14Z",
+  "totalQuestions": 29,
   "questions": [
     {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
@@ -87,6 +87,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "If a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+      "answer": "auto",
+      "choices": [
+        "a. auto",
+        "b. passive",
+        "c. on",
+        "d. desirable"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
       "answer": "Network edge routers",
       "choices": [
@@ -99,6 +116,23 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
       "lastVerifiedAt": "2026-09-22T08:07:16Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "In implementing EtherChannel technology, which PAgP mode combination will establish an EtherChannel?",
+      "answer": "switch 1 set to desirable; switch 2 set to desirable.",
+      "choices": [
+        "a. switch 1 set to auto; switch 2 set to auto.",
+        "b. switch 1 set to desirable; switch 2 set to desirable.",
+        "c. switch 1 set to on; switch 2 set to desirable.",
+        "d. switch 1 set to auto; switch 2 set to on."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
       "source": "community_contribution"
     },
     {
@@ -190,6 +224,40 @@
       "source": "community_contribution"
     },
     {
+      "question": "In wireless LAN standards what wireless LAN technology that is an IEEE 802.15 WPAN standard; uses a device pairing process to communicate over distance up to .05 mile (100m)?",
+      "answer": "Bluetooth",
+      "choices": [
+        "a. None of the choices",
+        "b. Wi-Fi",
+        "c. Bluetooth",
+        "d. WLAN"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Link aggregation should be implemented at which layer of the hierarchical network?",
+      "answer": "Access, distribution, and core",
+      "choices": [
+        "a. Distribution and core",
+        "b. Network layer",
+        "c. Access, distribution, and core",
+        "d. Access and distribution"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
+      "source": "community_contribution"
+    },
+    {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
       "answer": "True",
       "choices": [
@@ -200,6 +268,74 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:09:58Z",
       "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
+      "answer": "EtherChannel",
+      "choices": [
+        "a. PortFast",
+        "b. HSRP",
+        "c. EtherChannel",
+        "d. trunking"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Referring to the lab diagram shown below. The senior network administrator of ABC merchandize tried to create an EtherChannel between S1 and the other two switches via the commands that are shown, but was unsuccessful. What is the problem? [Image: [moodle-asset:382055/q.png]]",
+      "answer": "Traffic cannot be sent to two different switches through the same EtherChannel link.",
+      "choices": [
+        "a. Traffic cannot be sent to two different switches, but only to two different devices like an EtherChannel-enabled server and a switch.",
+        "b. Traffic can only be sent to two different switches if EtherChannel is implemented on Layer 3 switches.",
+        "c. Traffic cannot be sent to two different switches through the same EtherChannel link.",
+        "d. Traffic can only be sent to two different switches if EtherChannel is implemented on Gigabit Ethernet interfaces."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
+      "answer": "Link aggregation",
+      "choices": [
+        "a. Redundant links",
+        "b. Network diameter",
+        "c. Link aggregation",
+        "d. Convergence"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Using LACP, besides of being a multivendor protocol which among the listed below describes as it advantage?",
+      "answer": "allows automatic formation of EtherChannel links",
+      "choices": [
+        "a. provides a simulated environment for testing link aggregation",
+        "b. decreases the chance of a spanning-tree loop",
+        "c. increases redundancy to Layer 3 devices",
+        "d. allows automatic formation of EtherChannel links"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
       "source": "community_contribution"
     },
     {
@@ -275,6 +411,23 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:09:58Z",
       "lastVerifiedAt": "2026-09-22T08:09:58Z",
+      "source": "community_contribution"
+    },
+    {
+      "question": "Whichamong the listed below describes an EtherChannel implementation as mentioned in Link Aggregation chapter?",
+      "answer": "A trunked port can be part of an EtherChannel bundle.",
+      "choices": [
+        "a. EtherChannel operates only at Layer 2.",
+        "b. EtherChannel can support up to a maximum of ten separate links.",
+        "c. PAgP cannot be used in conjunction with EtherChannel.",
+        "d. A trunked port can be part of an EtherChannel bundle."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T13:42:14Z",
+      "lastVerifiedAt": "2026-09-23T13:42:14Z",
       "source": "community_contribution"
     },
     {
