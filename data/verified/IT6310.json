@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-22T13:14:15Z",
+  "updatedAt": "2026-09-23T14:39:58Z",
   "totalQuestions": 79,
   "tier": "verified",
   "questions": [
@@ -12,10 +12,11 @@
         "WTLS"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "A tool (typically based on IPsec or SSL) that authenticates the communication between a device and a secure network, creating a secure, encrypted \"tunnel\" across the open internet",
@@ -24,10 +25,11 @@
         "VPN"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "A type of malware that automatically sends advertisements to the users.",
@@ -39,10 +41,11 @@
         "d. Advertising-supported software"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
@@ -52,10 +55,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "any program design to damage specific file or computer system.",
@@ -65,10 +69,11 @@
         "b. Virus"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Areas of Security Trinity where they need to have a good security measures to avoid hackers from getting access to the network.",
@@ -79,10 +84,11 @@
         "c. Response"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "As a philosophy, it complements midpoint security, which focuses on individual devices; preventive security instead focuses on how those devices interact, and on the connective tissue between them.",
@@ -91,10 +97,11 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Availability refers to the ability of a network to protect its information from any unauthorized access.",
@@ -104,10 +111,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:14:04Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Big corporations are not at risks to any form of security breach.",
@@ -117,10 +125,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:14:04Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Brute force attack are often successful because most of the users uses different ordinary words as their passwords.",
@@ -130,30 +139,33 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "File system that has a features like permissions, encryption, quotas, and auditing services.",
       "answer": "NTFS",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "How many key phases are there in an incident response plan ?",
       "answer": "6",
       "choices": [],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:14:04Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Human beings are inevitably the weakest security link. You need to implement technologies and processes to ensure that staffers don't deliberately or inadvertently send sensitive data outside the network.",
@@ -162,10 +174,11 @@
         "Data Loss Prevention"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "If the network isn't a line or a point: it's a _____________.",
@@ -174,10 +187,11 @@
         "territory"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "If there's one common theme among security experts, it's that relying on one single line of defense is dangerous, because any single defensive tool can be defeated by a determined adversary.",
@@ -186,10 +200,11 @@
         "defense in depth strategy"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Internet is an example of a network.",
@@ -199,10 +214,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "is a crucial security update that you should always apply to your system",
@@ -213,10 +229,11 @@
         "c. Security hot-fix"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Is a service responsible for sending messages to other computers or users.",
@@ -228,10 +245,11 @@
         "d. Print Spooler service"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It could be exploited because of an encryption key that was vulnerable to decoding.",
@@ -240,20 +258,22 @@
         "WEP 64"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It determines whether you are allowed to access a specific information or file.",
       "answer": "Authorization",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It disguises as useful software.",
@@ -262,10 +282,11 @@
         "trojan horse"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It ensures that the information in an information system is accurate.",
@@ -276,10 +297,11 @@
         "c. Integrity"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It has a vital role in an information system because it is the one that allows a company to link their computers and its users",
@@ -291,10 +313,11 @@
         "d. Internet"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It has been developed by ISO in the year 1984.",
@@ -306,10 +329,11 @@
         "d. 0SI Reference Model"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It helps keep data and equipment safe by giving only the appropriate people access.",
@@ -318,10 +342,11 @@
         "network security"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It helps prevent attackers from monitoring or recording traffic between resources and computers.",
@@ -330,20 +355,22 @@
         "data encryption"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is a core feature of Windows that allow the network administrator to enable and disable different features in Windows",
       "answer": "Group Policy",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is a model designed to guide policies for information security within an organization.",
@@ -355,10 +382,11 @@
         "d. Core Security Concepts"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is a self-replicating program that is harmful to networks.",
@@ -367,20 +395,22 @@
         "worm"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is a set of standards that are widely used as a basis for communication.",
       "answer": "Protocol",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is a software service that manages the process of printing in the Windows environment.",
@@ -392,10 +422,11 @@
         "d. Server service"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is a structured procedure for taking care of any security incidents, breaches, and network threats.",
@@ -407,10 +438,11 @@
         "d. Planning"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is a wireless security protocol created by Cisco to address the weaknesses in WEP and WPA.",
@@ -419,30 +451,33 @@
         "LEAP"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is an act that exploits a vulnerability.",
       "answer": "Attack",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is anything that can disrupt the operation, functioning, integrity, or availability of a network or system",
       "answer": "Threat",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is considered as a crucial part of information systems",
@@ -462,7 +497,15 @@
         {
           "rejectedAnswer": "Security",
           "timestamp": "2026-09-22T12:07:24Z"
+        },
+        {
+          "rejectedAnswer": "Security",
+          "timestamp": "2026-09-23T14:39:58Z"
         }
+      ],
+      "wrongAnswers": [
+        "Information",
+        "Data"
       ]
     },
     {
@@ -470,20 +513,24 @@
       "answer": "detect",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It is the process of taking preventative measures to keep the network infrastructure from any unauthorized access, misuse of important information",
       "answer": "Network security",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T11:51:23Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": [
+        "Prevention"
+      ]
     },
     {
       "question": "It is the tangible parts of a computer system.",
@@ -494,20 +541,22 @@
         "c. Software"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It may contain phishing scams and malware.",
       "answer": "Spam",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It pretends to be a legitimate programs in order to gain access to a system.",
@@ -519,10 +568,11 @@
         "d. Adware"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It provides data routing paths where data will take for network communication.",
@@ -534,10 +584,11 @@
         "d. Network Layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It uses available resources, such as passwords or scripts.",
@@ -546,10 +597,11 @@
         "unstructured attacks"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It uses code to access operating systems and software.",
@@ -558,10 +610,11 @@
         "structured attacks"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It was the first generation security standard for wireless network.",
@@ -570,10 +623,11 @@
         "WEP"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "It will help the company to provide a better strategy in keeping a data secured while avoiding intruders to alter or steal important and confidential information.",
@@ -605,7 +659,14 @@
         {
           "rejectedAnswer": "Security Trinity",
           "timestamp": "2026-09-22T12:14:04Z"
+        },
+        {
+          "rejectedAnswer": "Security Trinity",
+          "timestamp": "2026-09-23T14:39:58Z"
         }
+      ],
+      "wrongAnswers": [
+        "CIA Triad of Information"
       ]
     },
     {
@@ -615,10 +676,11 @@
         "True"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Network security is the process of taking physical and software preventative measures to protect the underlying networking infrastructure from unauthorized access",
@@ -627,20 +689,22 @@
         "True"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "NTFS and FAT/FAT32 is an example of?",
       "answer": "File system",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "One example is when an employee intends to cause damage.",
@@ -649,10 +713,11 @@
         "malicious threats"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Preventive security is implemented by the tasks and tools you use to prevent unauthorized people or programs from accessing your networks and the devices connected to them.",
@@ -661,10 +726,11 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Software designed to detect, disable, and remove viruses, worms, and Trojans.",
@@ -673,10 +739,11 @@
         "antivirus"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "SQL stands for?",
@@ -688,10 +755,11 @@
         "d. Structure Query Languaqe"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Stephen Northcutt wrote an essay on the basics of network security for CS) online last year.",
@@ -700,10 +768,11 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "System that are intended to manage the computer itself such as the operating system.",
@@ -715,10 +784,11 @@
         "d. Application Software"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "These are created with malicious intent and sent by attackers.",
@@ -727,10 +797,11 @@
         "virus"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "These are the events or attacks that remove, corrupt, deny access to, allow access to, or steal information.",
@@ -739,20 +810,22 @@
         "data security attacks"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "These are what make networks prone to information loss and downtime",
       "answer": "Vulnerabilities",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "These layers work together to transmit the data from one person to another world wide.",
@@ -764,10 +837,11 @@
         "d. 0SI Layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This is a networking infrastructure company.",
@@ -776,10 +850,11 @@
         "CISCO"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This is a way of protecting a computer from intrusion through the ports.",
@@ -788,10 +863,11 @@
         "firewall"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This is an enhanced encryption protocol combining a 104-bit key and a 24-bit initializing vector.",
@@ -800,10 +876,11 @@
         "WEP 128"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This is an improved version of WEP.",
@@ -812,10 +889,11 @@
         "WPA"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This is data being transported on a network.",
@@ -824,10 +902,11 @@
         "traffic"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This is when the user damages data or equipment unintentionally.",
@@ -836,10 +915,11 @@
         "accidental threats"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This layer involves devices such as router, UTP Cables and other networking devices to transfer data.",
@@ -851,20 +931,22 @@
         "d. Session Layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This layer is also called human-computer interaction layer.",
       "answer": "Application Layer",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This refers to the events or attacks that steal, damage, or destroy equipment.",
@@ -873,10 +955,11 @@
         "physical security threats"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "This service is the one responsible for handling connections to a remote network resources.",
@@ -888,10 +971,11 @@
         "d. Workstation service"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Two Categories of a Group Policy. Choose any that apply.",
@@ -903,10 +987,11 @@
         "d. Security settings"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Two different devices can communicate with each other regardless of the manufacturer as long as they have the same protocol.",
@@ -916,20 +1001,22 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Type of malware that may contain an attachment to an email that loads malware onto your computer system.",
       "answer": "Phishing",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "What are the signs and symptoms that your device/s are getting infected by any malware. (Choose all that applies)",
@@ -944,7 +1031,14 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T12:31:44Z",
       "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "alternateAnswers": [
+        {
+          "answer": "Appearance of strange desktop icons, Software freezes or crashes, Slower computer performance, Increased CPU usage",
+          "timestamp": "2026-09-23T14:39:58Z"
+        }
+      ]
     },
     {
       "question": "Which of the following are not part of OSI Layer?",
@@ -956,10 +1050,11 @@
         "d. Physical Layer"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which of the following are not part of the steps in order to harden your system. Choose only one.",
@@ -971,10 +1066,11 @@
         "d. Disable or Remove Unnecessary Accounts"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Which of the following are the commands for disabling a port in a Network Switch. Choose any that Apply",
@@ -989,7 +1085,14 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T13:14:15Z",
       "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "alternateAnswers": [
+        {
+          "answer": "SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown, SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown",
+          "timestamp": "2026-09-23T14:39:58Z"
+        }
+      ]
     },
     {
       "question": "Which of these are not part of the reason why we need to secure our network?",
@@ -1001,10 +1104,11 @@
         "d. To exploit vulnerabilities in the system"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T12:07:24Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Without this service on your environment, you won't be able to share any of your resources",
@@ -1016,10 +1120,11 @@
         "d. Server service"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     },
     {
       "question": "Worms can be classified as a type of computer virus that needs a third party or a user to replicate and spread through the system.",
@@ -1029,10 +1134,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "source": "community_contribution",
+      "wrongAnswers": []
     }
   ]
 }
