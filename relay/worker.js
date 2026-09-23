@@ -12,6 +12,123 @@
 
 const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
 const LATEST_VERSION = "1.7.5";
+const SHARED_POOL_WINDOW_MS = 60_000;
+const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 2;
+const SHARED_POOL_MAX_REQUESTS_GLOBAL = 80;
+const SHARED_POOL_KEY_COOLDOWN_MS = 30_000;
+const sharedPoolState = {
+  windowStartedAt: 0,
+  globalRequests: 0,
+  installationRequests: new Map(),
+  keyCooldowns: new Map()
+};
+
+function jsonResponse(body, status, corsHeaders) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { ...corsHeaders, "Content-Type": "application/json" }
+  });
+}
+
+function sharedPoolKeys(env) {
+  return [env.GEMINI_SHARED_KEY_1, env.GEMINI_SHARED_KEY_2, env.GEMINI_SHARED_KEY_3]
+    .map(key => String(key || "").trim())
+    .filter(Boolean);
+}
+
+function resetSharedPoolWindow(now) {
+  if (now - sharedPoolState.windowStartedAt < SHARED_POOL_WINDOW_MS) return;
+  sharedPoolState.windowStartedAt = now;
+  sharedPoolState.globalRequests = 0;
+  sharedPoolState.installationRequests.clear();
+}
+
+function reserveSharedPoolRequest(installationId, keyCount) {
+  const now = Date.now();
+  resetSharedPoolWindow(now);
+  if (!keyCount || sharedPoolState.globalRequests >= SHARED_POOL_MAX_REQUESTS_GLOBAL) {
+    return { ok: false, reason: "shared_capacity" };
+  }
+  const current = sharedPoolState.installationRequests.get(installationId) || 0;
+  if (current >= SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION) {
+    return { ok: false, reason: "user_burst_limit" };
+  }
+  sharedPoolState.installationRequests.set(installationId, current + 1);
+  sharedPoolState.globalRequests += 1;
+  return { ok: true };
+}
+
+function chooseSharedPoolKey(keys) {
+  const now = Date.now();
+  return keys.find(key => (sharedPoolState.keyCooldowns.get(key) || 0) <= now) || null;
+}
+
+function quarantineSharedPoolKey(key) {
+  sharedPoolState.keyCooldowns.set(key, Date.now() + SHARED_POOL_KEY_COOLDOWN_MS);
+}
+
+async function handleSharedAiRequest(request, env, corsHeaders) {
+  let payload;
+  try {
+    payload = await request.json();
+  } catch (_) {
+    return jsonResponse({ error: "Invalid JSON request" }, 400, corsHeaders);
+  }
+  const prompt = typeof payload.prompt === "string" ? payload.prompt.trim() : "";
+  const installationId = request.headers.get("X-AMAES-Installation");
+  const maxOutputTokens = Number.isInteger(payload.maxOutputTokens)
+    ? Math.min(128, Math.max(1, payload.maxOutputTokens))
+    : 64;
+  if (!prompt || prompt.length > 12_000 || !installationId || installationId.length > 128) {
+    return jsonResponse({ error: "Invalid shared AI request" }, 400, corsHeaders);
+  }
+  const keys = sharedPoolKeys(env);
+  const reservation = reserveSharedPoolRequest(installationId, keys.length);
+  if (!reservation.ok) {
+    return jsonResponse({
+      error: "Shared AI capacity is temporarily unavailable",
+      reason: reservation.reason,
+      retryable: true
+    }, 429, corsHeaders);
+  }
+  const key = chooseSharedPoolKey(keys);
+  if (!key) {
+    return jsonResponse({ error: "Shared AI keys are temporarily rate-limited", retryable: true }, 429, corsHeaders);
+  }
+  try {
+    const model = env.GEMINI_SHARED_MODEL || "gemini-1.5-flash";
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(key)}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: { maxOutputTokens }
+        }),
+        signal: request.signal
+      }
+    );
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      if (response.status === 401 || response.status === 403 || response.status === 429 || response.status >= 500) {
+        quarantineSharedPoolKey(key);
+      }
+      return jsonResponse({
+        error: response.status === 429
+          ? "Shared AI capacity is rate-limited"
+          : "Shared AI provider is temporarily unavailable",
+        retryable: true
+      }, response.status === 429 ? 429 : 503, corsHeaders);
+    }
+    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!text) return jsonResponse({ error: "Shared AI provider returned no answer", retryable: true }, 503, corsHeaders);
+    return jsonResponse({ success: true, text: String(text).trim(), modelUsed: model }, 200, corsHeaders);
+  } catch (_) {
+    quarantineSharedPoolKey(key);
+    return jsonResponse({ error: "Shared AI provider is temporarily unavailable", retryable: true }, 503, corsHeaders);
+  }
+}
 
 function parseVersion(value) {
   const match = String(value || "").trim().replace(/^v/i, "").match(/^(\d+)\.(\d+)\.(\d+)$/);
@@ -43,6 +160,21 @@ export default {
 
     const url = new URL(request.url);
     const path = url.pathname;
+
+    if (request.method === "POST" && path === "/ai") {
+      const clientVersion = request.headers.get("X-AMAES-Client-Version");
+      const minimumVersion = env.MIN_CLIENT_VERSION || LATEST_VERSION;
+      if (env.REQUIRE_CLIENT_VERSION === "true" &&
+          (!clientVersion || !isSupportedVersion(clientVersion, minimumVersion))) {
+        return jsonResponse({
+          error: "Client update required",
+          minimumVersion,
+          latestVersion: LATEST_VERSION,
+          updateUrl: UPDATE_URL
+        }, 426, corsHeaders);
+      }
+      return handleSharedAiRequest(request, env, corsHeaders);
+    }
 
     if (request.method === "GET" || request.method === "HEAD") {
       if (path === "/version") {
