@@ -29,3 +29,26 @@ counts, or presence telemetry. `/ping` is a stateless health response, and
 The current deployed policy is **1.7.5 or newer**. Keep
 [CLIENT-COMPATIBILITY.md](https://github.com/Acads-Tools/amaes-toolkit/blob/main/CLIENT-COMPATIBILITY.md)
 aligned with `MIN_CLIENT_VERSION` when changing the client, payload, or schema.
+# Shared AI fallback
+
+The relay exposes `POST /ai` for the toolkit's explicit shared-AI fallback.
+The client must opt in locally; the personal Gemini key is always attempted
+first and is never sent to this endpoint.
+
+Configure the optional project-managed pool as Wrangler secrets:
+
+```sh
+wrangler secret put GEMINI_SHARED_KEY_1
+wrangler secret put GEMINI_SHARED_KEY_2
+wrangler secret put GEMINI_SHARED_KEY_3
+```
+
+The relay enforces a small per-installation burst limit, a global in-memory
+window limit, provider-key cooldowns, request-size limits, supported-client
+validation, and bounded provider calls. It does not log prompts, API keys, or
+provider responses. Shared capacity is best-effort: if no key is configured,
+rate-limited, or available, the client receives a readable retry message.
+
+User-submitted keys are intentionally not stored or shared in this rollout.
+Adding that capability requires encrypted persistent storage, revocation,
+lease coordination, and a separate privacy/security review.
