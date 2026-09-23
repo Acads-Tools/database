@@ -77,7 +77,7 @@ jobs:
               --title "Verified contribution from issue #${{ github.event.issue.number }}" \
               --body "Automated contribution validated by scripts/merge_contributions.py. Closes #${{ github.event.issue.number }}.")
             test -z "$(git log --no-merges --format='%an <%ae>%n%cn <%ce>' HEAD | grep -Ev '^AcademicContributor <academic-contributor@users\.noreply\.github\.com>$' || true)"
-            files=$(git ls-files | grep -Ev '(^|/)(AGENTS|GEMINI)\.md$|^\.githooks/|^\.github/workflows/privacy-check\.yml$' || true)
+            files=$(git ls-files | grep -Ev '(^|/)(AGENTS|GEMINI)\.md$|^\.githooks/|^\.github/workflows/(privacy-check|auto-merge-contributions)\.yml$' || true)
             if [ -n "$files" ] && printf '%s\n' "$files" | xargs grep -n -I -E '(^|/)(home|Users)/[^/ ]+|ractopen|ryme|197402134|slmails\.com|file:///|BEGIN (RSA|OPENSSH|EC|PGP) PRIVATE KEY'; then
               exit 1
             fi
