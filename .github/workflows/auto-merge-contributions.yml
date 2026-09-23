@@ -3,6 +3,8 @@ name: Anti-Sabotage Community Contribution Auto-Merger
 on:
   issues:
     types: [opened]
+  issue_comment:
+    types: [created]
   pull_request:
     types: [closed]
   workflow_dispatch:
@@ -18,7 +20,11 @@ concurrency:
 
 jobs:
   process-contribution:
-    if: contains(github.event.issue.labels.*.name, 'community-contribution') || startsWith(github.event.issue.title, '[Contribution]')
+    if: |
+      (github.event_name == 'issues' ||
+       (github.event_name == 'issue_comment' && startsWith(github.event.comment.body, '/reprocess'))) &&
+      (contains(github.event.issue.labels.*.name, 'community-contribution') ||
+       startsWith(github.event.issue.title, '[Contribution]'))
     runs-on: ubuntu-latest
 
     steps:
@@ -68,7 +74,7 @@ jobs:
               --head "$branch" \
               --title "Verified contribution from issue #${{ github.event.issue.number }}" \
               --body "Automated contribution validated by scripts/merge_contributions.py. Closes #${{ github.event.issue.number }}.")
-            gh pr merge "$pr_url" --auto --squash
+            gh pr merge "$pr_url" --auto --rebase
             echo "pr_url=$pr_url" >> $GITHUB_OUTPUT
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
