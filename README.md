@@ -30,6 +30,22 @@ When students complete and review quiz attempts using the toolkit:
 - **Zero Personal Data:** Submissions contain only the question text, verified correct answer, choices, and subject code. No student names, student IDs, emails, passwords, grades, or Moodle tokens are ever transmitted or stored.
 - **Anti-Sabotage Verification:** Contributions are submitted through an encrypted Cloudflare Worker relay ([`relay/`](relay/)) and processed by an automated consensus engine ([`scripts/merge_contributions.py`](scripts/merge_contributions.py)). Conflicting or unverified answers are quarantined until consensus confirms their accuracy against official review keys.
 
+### Optional shared AI fallback
+
+The toolkit keeps a user's own Gemini key as the primary and fastest path. If
+the user explicitly enables **shared AI help** in the toolkit and the personal
+key is temporarily rate-limited, the relay may use a small project-managed
+pool. Shared requests are bounded per installation and globally, and the relay
+returns a clear capacity message instead of retrying indefinitely.
+
+The current rollout does **not** upload or store user-provided Gemini keys.
+Project-managed pool keys must be configured as Cloudflare Worker secrets
+(`GEMINI_SHARED_KEY_1`, `GEMINI_SHARED_KEY_2`, and optionally
+`GEMINI_SHARED_KEY_3`). Never place keys in this repository, GitHub issues,
+workflow logs, browser storage, or database files. Dynamic user-key sharing
+requires encrypted persistent storage and explicit revocation controls and is
+not enabled by this lightweight rollout.
+
 ---
 
 ## Repository Structure
