@@ -1,9 +1,74 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-09-16T01:21:50Z",
-  "totalQuestions": 12,
+  "updatedAt": "2026-09-23T15:14:23Z",
+  "totalQuestions": 29,
   "questions": [
+    {
+      "question": "[____: Sets] are collections of objects in which order of elements and duplication of elements do not matter.",
+      "answer": "Sets",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "A [____: graph] is a tree if it is connected and has no simple cycles.",
+      "answer": "graph",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "A conceptual design for a machine consisting of a Mill, Store, Printer, and Readers.",
+      "answer": "Analytic Engine",
+      "choices": [
+        "a. Analytic Engine",
+        "b. Turing Machine",
+        "c. Neumann Machine",
+        "d. Jacquard Loom"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "A general purpose, programmable, information processor with input and output.",
+      "answer": "computer",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "A Moore machine can be described by a [____: 6] tuple.",
+      "answer": "6",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
     {
       "question": "An automaton that produces outputs based on current input and/or previous state is called ____________.",
       "answer": "transducer",
@@ -13,10 +78,12 @@
         "c. classifier"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "An English like abbreviations representing elementary computer operations.",
@@ -28,10 +95,39 @@
         "d. von Neumann Machine"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
+    },
+    {
+      "question": "Computers are general purpose because they can perform many different tasks.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "ContrapositiveConcatenationSubjectPredicates are parameterized statement, they are true or false depending on the values of their parameters.",
+      "answer": "Predicates",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "Global Positioning System (GPS) calculates latitude and longitude from satellite signals.",
@@ -41,10 +137,41 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
+    },
+    {
+      "question": "If A = {3, 4, 6, 8} and B = { 1, 2, 3, 5, 6} then A ∩ B = {3, 4, 6}{3, 5, 6}{3, 6}{4, 6}",
+      "answer": "{3, 6}",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "If L1 and L2 are regular sets then intersection of these two will be __________.",
+      "answer": "regular",
+      "choices": [
+        "a. non-regular",
+        "b. recursive",
+        "c. regular",
+        "d. non-recursive"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "It is a unary operator on a set of symbols or strings, that gives the infinite set of all possible strings of all possible lengths.",
@@ -55,10 +182,51 @@
         "c. λ*"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
+    },
+    {
+      "question": "It process information in their efforts to eat, survive, and reproduce.",
+      "answer": "Living Organisms",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "Leibniz introduced binary notation of calculation.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "Living organisms [____: process] information in their efforts to eat, survive, and reproduce.",
+      "answer": "process",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "Number of final state require to accept in minimal finite automata.",
@@ -70,30 +238,94 @@
         "d. none of the mentioned NO final state requires"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Number of states require to accept string ends with 10.",
       "answer": "3",
       "choices": [],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "One of the first programmable electronic computers in 1945.",
       "answer": "ENIAC",
       "choices": [],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
+    },
+    {
+      "question": "Regular sets are closed under union,concatenation and kleene closure.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "Sets are usually designated with small letters.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "The first counting machine developed 5000 years ago in the Middle East.",
+      "answer": "Abacus",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "The first mechanical calculator using gears for calculation developed in 1642.",
+      "answer": "Pascaline",
+      "choices": [
+        "a. Abacus",
+        "b. Pascaline",
+        "c. Tabulating machine"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "The following are phases of C++ Programs except __________.",
@@ -105,10 +337,24 @@
         "d. load"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
+    },
+    {
+      "question": "The number of edges attached to a node is called its [____: degree] .",
+      "answer": "degree",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-23T15:14:23Z",
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "There are 5 tuples in finite state machine.",
@@ -118,10 +364,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which one is a computer system?",
@@ -133,20 +381,24 @@
         "d. [Image: [moodle-asset:105591/washing%20machine.PNG]]"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Who is the father of modern computer science?",
       "answer": "Alan Turing",
       "choices": [],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-23T15:14:23Z",
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Z2 uses electricity to convey letters and transmit information quickly in 1844.",
@@ -159,7 +411,16 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-16T01:21:50Z",
       "lastVerifiedAt": "2026-09-16T01:21:50Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswers": [
+        "True"
+      ],
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-09-23T15:14:23Z"
+        }
+      ]
     }
   ]
 }
