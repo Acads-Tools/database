@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-24T04:44:25Z",
-  "totalQuestions": 83,
+  "updatedAt": "2026-09-24T13:51:02Z",
+  "totalQuestions": 87,
   "tier": "verified",
   "questions": [
     {
@@ -1008,6 +1008,36 @@
       "source": "review_screen"
     },
     {
+      "question": "True or False? IEEE 802.1X may use TACACS+ to communicate the EAP identity to the authentication server.",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "True or False? MSCHAPv2 may be used to perform machine authentication with an LDAP connection to Active Directory.",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Two Categories of a Group Policy. Choose any that apply.",
       "answer": "Computer settings, User settings",
       "choices": [
@@ -1069,6 +1099,23 @@
           "timestamp": "2026-09-23T14:39:58Z"
         }
       ]
+    },
+    {
+      "question": "What is the name of the “secure cookie” used with EAP-FAST that can be used in lieu of a certificate, or even in addition to a certificate?",
+      "answer": "Protected access credential (PAC)",
+      "choices": [
+        "a. Shadow credential file (SCF)",
+        "b. Private authorization credential (PAC)",
+        "c. Protected access credential (PAC)",
+        "d. Protected password file (PPF)"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
     },
     {
       "question": "What is the purpose of adding a user with the username radiustest password password command?",
@@ -1173,6 +1220,23 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "Which supplicant(s) is capable of EAP chaining?",
+      "answer": "Cisco AnyConnect NAM",
+      "choices": [
+        "a. Windows Native Supplicant",
+        "b. Odyssey Client",
+        "c. Cisco Secure Services Client (CSSC)",
+        "d. Cisco AnyConnect NAM"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
     },
     {
       "question": "Without this service on your environment, you won't be able to share any of your resources",

@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-24T04:44:25Z",
+  "updatedAt": "2026-09-24T13:51:02Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -1307,12 +1307,12 @@
         "b. True"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
     },
     {
       "question": "True or False? MSCHAPv2 may be used to perform machine authentication with an LDAP connection to Active Directory.",
@@ -1322,12 +1322,12 @@
         "b. True"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
     },
     {
       "question": "True or False? The supplicant is required to trust the certificate of the authentication server before it will form the TLS tunnel within which the EAP transaction will occur.",
@@ -1344,7 +1344,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-23T14:39:58Z",
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-09-24T13:51:02Z"
+        }
+      ]
     },
     {
       "question": "Two Categories of a Group Policy. Choose any that apply.",
@@ -1434,12 +1440,12 @@
         "d. Protected password file (PPF)"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
     },
     {
       "question": "What is the purpose of adding a user with the username radiustest password password command?",
@@ -1572,12 +1578,12 @@
         "d. Cisco AnyConnect NAM"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T13:51:02Z",
+      "source": "review_screen"
     },
     {
       "question": "Without this service on your environment, you won't be able to share any of your resources",
