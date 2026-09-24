@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-23T14:39:58Z",
+  "updatedAt": "2026-09-24T04:44:25Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -1277,12 +1277,12 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T04:44:25Z",
+      "source": "review_screen"
     },
     {
       "question": "True or False? Cisco switches should be configured in production to send syslog messages to the ISE MNT node.",
@@ -1292,12 +1292,12 @@
         "b. True"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T04:44:25Z",
+      "source": "review_screen"
     },
     {
       "question": "True or False? IEEE 802.1X may use TACACS+ to communicate the EAP identity to the authentication server.",
@@ -1451,12 +1451,12 @@
         "d. Without the local username and password in the configuration, an administrator can be locked out of the switch when the RADIUS server is unavailable."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T04:44:25Z",
+      "source": "review_screen"
     },
     {
       "question": "When configuring a Cisco Wireless LAN Controller (WLC) for communication with ISE, what must be configured for the wireless LAN (WLAN)? (Choose two.)",
@@ -1468,12 +1468,12 @@
         "d. The authentication and authorization RADIUS servers can be pointed to different ISE PSNs, as long as those PSNs are part of a node group."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-24T04:44:25Z",
+      "source": "review_screen"
     },
     {
       "question": "Which of the following are not part of OSI Layer?",
