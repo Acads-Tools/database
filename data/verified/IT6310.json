@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-24T13:51:02Z",
-  "totalQuestions": 87,
+  "updatedAt": "2026-09-24T13:52:27Z",
+  "totalQuestions": 92,
   "tier": "verified",
   "questions": [
     {
@@ -252,6 +252,22 @@
       "wrongAnswers": []
     },
     {
+      "question": "It can manipulate your system including the deletion of the important files on your computer.",
+      "answer": "ActiveX controls",
+      "choices": [
+        "Suggested (Verified DB): ActiveX controls Fill"
+      ],
+      "wrongAnswers": [
+        "Malware"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:52:27Z",
+      "source": "review_screen"
+    },
+    {
       "question": "It could be exploited because of an encryption key that was vulnerable to decoding.",
       "answer": "WEP 64",
       "choices": [
@@ -389,6 +405,23 @@
       "wrongAnswers": []
     },
     {
+      "question": "It is a security concern because most scripting languages can make some alteration to your system.",
+      "answer": "Scripting",
+      "choices": [
+        "a. Cross-site scripting",
+        "b. Java",
+        "c. Cookies",
+        "d. Scripting"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:52:27Z",
+      "source": "review_screen"
+    },
+    {
       "question": "It is a self-replicating program that is harmful to networks.",
       "answer": "worm",
       "choices": [
@@ -467,6 +500,34 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "It is an advanced method of handling an error.",
+      "answer": "Exception handling",
+      "choices": [
+        "Suggested (Verified DB): Exception handling Fill"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:52:27Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "It is another term for a runtime error",
+      "answer": "Exception",
+      "choices": [
+        "Suggested (Verified DB): Exception Fill"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:52:27Z",
+      "source": "review_screen"
     },
     {
       "question": "It is anything that can disrupt the operation, functioning, integrity, or availability of a network or system",
@@ -789,6 +850,23 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "The following codes is an example of?TryMessageBox.Show(cdbl(txtTotalValue.text) + cdbl(txtTotalVAT.text))Catch ex as InvalidCastExceptionMessageBox.Show(\"Please supply 2 numbers as input\")Catch ex as ExceptionMessageBox.Show(\"An error has occurred. Please try again.\")End Try",
+      "answer": "try/catch block",
+      "choices": [
+        "a. handling errors",
+        "b. try/catch block",
+        "c. Exception handling",
+        "d. block syntax"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:52:27Z",
+      "source": "review_screen"
     },
     {
       "question": "These are created with malicious intent and sent by attackers.",
