@@ -1,10 +1,24 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-24T13:52:39Z",
-  "totalQuestions": 93,
+  "updatedAt": "2026-09-24T14:00:49Z",
+  "totalQuestions": 95,
   "tier": "verified",
   "questions": [
+    {
+      "question": "A popular feature of Windows that allows you to harden multiple systems quickly.",
+      "answer": "Security Templates",
+      "choices": [
+        "Suggested (Verified DB): Security Templates Fill"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "source": "review_screen"
+    },
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
       "answer": "WTLS",
@@ -324,6 +338,20 @@
       "wrongAnswers": []
     },
     {
+      "question": "It ensure that the essential and vital services are only running on the system",
+      "answer": "Services running",
+      "choices": [
+        "Suggested (Verified DB): Services running Fill"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "source": "review_screen"
+    },
+    {
       "question": "It ensures that the information in an information system is accurate.",
       "answer": "Integrity",
       "choices": [
@@ -401,11 +429,12 @@
       "answer": "Group Policy",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "It is a model designed to guide policies for information security within an organization.",
@@ -1294,17 +1323,18 @@
         "d. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#no shutdown"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-22T13:14:15Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "alternateAnswers": [
         {
           "answer": "SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown, SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown",
           "timestamp": "2026-09-23T14:39:58Z"
         }
-      ]
+      ],
+      "isAiSuggestion": false
     },
     {
       "question": "Which of these are not part of the reason why we need to secure our network?",
