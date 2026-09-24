@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-24T13:52:27Z",
-  "totalQuestions": 92,
+  "updatedAt": "2026-09-24T13:52:39Z",
+  "totalQuestions": 93,
   "tier": "verified",
   "questions": [
     {
@@ -46,6 +46,22 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "An information that is only accessed by an authorized person.",
+      "answer": "Confidential information",
+      "choices": [
+        "Suggested (Verified DB): Confidential information Fill"
+      ],
+      "wrongAnswers": [
+        "Confidentiality"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-09-24T13:52:39Z",
+      "source": "review_screen"
     },
     {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
@@ -111,11 +127,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-24T13:52:39Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Big corporations are not at risks to any form of security breach.",
@@ -125,11 +142,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-24T13:52:39Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Brute force attack are often successful because most of the users uses different ordinary words as their passwords.",
@@ -161,11 +179,12 @@
       "answer": "6",
       "choices": [],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-24T13:52:39Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Human beings are inevitably the weakest security link. You need to implement technologies and processes to ensure that staffers don't deliberately or inadvertently send sensitive data outside the network.",
@@ -724,6 +743,10 @@
         {
           "rejectedAnswer": "Security Trinity",
           "timestamp": "2026-09-23T14:39:58Z"
+        },
+        {
+          "rejectedAnswer": "Security Trinity",
+          "timestamp": "2026-09-24T13:52:39Z"
         }
       ],
       "wrongAnswers": [
