@@ -18,10 +18,20 @@ jobs:
       - name: Reject personal identifiers and invalid commit identities
         run: |
           set -eu
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            commit_range="${{ github.event.pull_request.base.sha }}..HEAD"
-          else
+          before="${{ github.event.before || '' }}"
+          if [ -n "$before" ] && [ "$before" != "0000000000000000000000000000000000000000" ] && git cat-file -e "$before^{commit}" 2>/dev/null; then
+            commit_range="$before..HEAD"
+          elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            base_sha="${{ github.event.pull_request.base.sha }}"
+            if git cat-file -e "$base_sha^{commit}" 2>/dev/null; then
+              commit_range="$base_sha..HEAD"
+            else
+              commit_range="HEAD"
+            fi
+          elif git rev-parse HEAD^ >/dev/null 2>&1; then
             commit_range="HEAD^..HEAD"
+          else
+            commit_range="HEAD"
           fi
           test -z "$(git log --no-merges --format='%an <%ae>%n%cn <%ce>' "$commit_range" | grep -Ev '^AcademicContributor <academic-contributor@users\.noreply\.github\.com>$' || true)"
           files=$(git ls-files | grep -Ev '(^|/)(AGENTS|GEMINI)\.md$|^\.githooks/|^\.github/workflows/(privacy-check|auto-merge-contributions)\.yml$' || true)
