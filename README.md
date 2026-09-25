@@ -80,7 +80,7 @@ not enabled by this lightweight rollout.
 | `IT6209` | Introduction to Multimedia | **100** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **129** | Active |
 | `IT6310` | Network Security | **109** | Active |
-| `IT6322A` | Mobile Application Development | **61** | Active |
+| `IT6322A` | Mobile Application Development | **67** | Active |
 | `ITE6202` | ITE6202 | **42** | Active |
 | `ITE6301` | Technopreneurship | **188** | Active |
 
