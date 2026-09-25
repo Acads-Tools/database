@@ -789,6 +789,112 @@ async function handleUserBugReport(request, env, corsHeaders) {
   }
 }
 
+async function handleTelemetryUsage(request, env, corsHeaders) {
+  try {
+    const data = await request.json();
+    const anonId = typeof data.anon_id === 'string' && data.anon_id.trim() ? data.anon_id.trim() : null;
+    const version = typeof data.version === 'string' && data.version.trim() ? data.version.trim().slice(0, 32) : 'unknown';
+    const event = typeof data.event === 'string' && data.event.trim() ? data.event.trim().slice(0, 64) : 'heartbeat';
+    const sessionQuizzesSolved = Number.isInteger(data.session_quizzes_solved) ? Math.max(0, data.session_quizzes_solved) : 0;
+    const fastModeEnabled = Boolean(data.fast_mode_enabled);
+
+    if (!anonId) {
+      return new Response(JSON.stringify({ success: false, error: "Missing anon_id" }), {
+        status: 400,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    if (env.DB) {
+      try {
+        await env.DB.prepare(`
+          CREATE TABLE IF NOT EXISTS telemetry_events (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            anon_id TEXT NOT NULL,
+            version TEXT NOT NULL,
+            event TEXT NOT NULL,
+            session_quizzes_solved INTEGER DEFAULT 0,
+            fast_mode_enabled INTEGER DEFAULT 0,
+            created_at TEXT NOT NULL
+          )
+        `).run();
+
+        await env.DB.prepare(`
+          INSERT INTO telemetry_events (anon_id, version, event, session_quizzes_solved, fast_mode_enabled, created_at)
+          VALUES (?, ?, ?, ?, ?, ?)
+        `).bind(anonId, version, event, sessionQuizzesSolved, fastModeEnabled ? 1 : 0, new Date().toISOString()).run();
+
+        return new Response(JSON.stringify({ success: true, storage: "d1" }), {
+          status: 200,
+          headers: { ...corsHeaders, "Content-Type": "application/json" }
+        });
+      } catch (_) {}
+    }
+
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ success: false, error: err.message }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  }
+}
+
+async function handleTelemetryStats(request, env, corsHeaders) {
+  try {
+    const sinceIso = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+    let rows = [];
+
+    if (env.DB) {
+      try {
+        const d1Res = await env.DB.prepare(
+          "SELECT anon_id, version, event, session_quizzes_solved, fast_mode_enabled, created_at FROM telemetry_events WHERE created_at >= ?"
+        ).bind(sinceIso).all();
+        if (d1Res && d1Res.results) {
+          rows = d1Res.results;
+        }
+      } catch (_) {}
+    }
+
+    const uniqueUsers24h = new Set();
+    const versions = {};
+    let totalSessionQuizzes = 0;
+    let fastModeUsers = 0;
+
+    for (const r of rows) {
+      uniqueUsers24h.add(r.anon_id);
+      versions[r.version] = (versions[r.version] || 0) + 1;
+      if (r.session_quizzes_solved > 0) {
+        totalSessionQuizzes += Number(r.session_quizzes_solved || 0);
+      }
+      if (r.fast_mode_enabled) {
+        fastModeUsers++;
+      }
+    }
+
+    return new Response(JSON.stringify({
+      success: true,
+      active_users_24h: uniqueUsers24h.size,
+      total_events_24h: rows.length,
+      versions: versions,
+      total_session_quizzes_reported: totalSessionQuizzes,
+      fast_mode_active_count: fastModeUsers,
+      since: sinceIso
+    }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ success: false, error: err.message }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  }
+}
+
 export default {
   async fetch(request, env) {
     const corsHeaders = {
@@ -804,6 +910,14 @@ export default {
 
     const url = new URL(request.url);
     const path = url.pathname;
+
+    if (request.method === "POST" && (path === "/telemetry" || path === "/telemetry/usage")) {
+      return handleTelemetryUsage(request, env, corsHeaders);
+    }
+
+    if (request.method === "GET" && (path === "/telemetry/stats" || path === "/stats")) {
+      return handleTelemetryStats(request, env, corsHeaders);
+    }
 
     if (request.method === "POST" && (path === "/report-bug" || path === "/bug-report")) {
       return handleUserBugReport(request, env, corsHeaders);
