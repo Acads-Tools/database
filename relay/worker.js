@@ -462,6 +462,103 @@ function isSupportedVersion(version, minimum) {
   return true;
 }
 
+async function handleUnknownQuestionTelemetry(request, env, corsHeaders) {
+  try {
+    const payload = await request.json().catch(() => ({}));
+    const repoOwner = env.REPO_OWNER || "Acads-Tools";
+    const repoName = env.REPO_NAME || "database";
+    const botToken = env.GITHUB_BOT_TOKEN;
+
+    const signature = String(payload.signature || 'unknown').slice(0, 100);
+    const subjectCode = String(payload.subjectCode || 'GENERAL').toUpperCase();
+    const snippet = String(payload.snippet || 'No text snippet').slice(0, 200);
+    const classes = Array.isArray(payload.classes) ? payload.classes.join(' ') : (payload.classes || '');
+    const inputsSummary = Array.isArray(payload.inputsSummary) ? payload.inputsSummary.join(', ') : (payload.inputsSummary || '');
+    const htmlSample = String(payload.htmlSample || '').slice(0, 800);
+
+    if (!botToken) {
+      return new Response(JSON.stringify({ success: true, mode: 'local_ack', message: 'Telemetry received' }), {
+        status: 200,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const title = `❓ New Question Format Detected — ${subjectCode} — ${signature.slice(0, 50)}`;
+    const body = [
+      `## Unknown / New Question Format Detected`,
+      ``,
+      `A user encountered an unhandled question structure in course **${subjectCode}**.`,
+      `The toolkit skipped processing this question cleanly without interrupting the quiz.`,
+      ``,
+      `### Question Metadata`,
+      `| Property | Value |`,
+      `| :--- | :--- |`,
+      `| **Subject Code** | \`${subjectCode}\` |`,
+      `| **Signature** | \`${signature}\` |`,
+      `| **DOM Classes** | \`${classes || 'None'}\` |`,
+      `| **Input Elements** | \`${inputsSummary || 'None'} (Total: ${payload.inputCount || 0})\` |`,
+      `| **Detected At** | ${new Date().toISOString()} |`,
+      ``,
+      `### Question Snippet`,
+      `> ${snippet.replace(/\r?\n/g, ' ')}`,
+      ``,
+      `<details>`,
+      `<summary><b>HTML Sample</b></summary>`,
+      ``,
+      `\`\`\`html`,
+      htmlSample,
+      `\`\`\``,
+      `</details>`,
+      ``,
+      `<details>`,
+      `<summary><b>Full Telemetry Payload</b></summary>`,
+      ``,
+      `\`\`\`json`,
+      JSON.stringify(payload, null, 2),
+      `\`\`\``,
+      `</details>`
+    ].join('\n');
+
+    const ghResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/issues`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${botToken}`,
+        "User-Agent": "AMAES-Cloudflare-Relay",
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title: title,
+        body: body,
+        labels: ["unknown-question-format", "telemetry"]
+      })
+    });
+
+    if (!ghResponse.ok) {
+      const ghErr = await ghResponse.text();
+      return new Response(JSON.stringify({ success: false, error: "GitHub issue creation failed", details: ghErr }), {
+        status: 200,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const issueData = await ghResponse.json();
+    return new Response(JSON.stringify({
+      success: true,
+      issueNumber: issueData.number,
+      issueUrl: issueData.html_url
+    }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ success: false, error: err.message }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  }
+}
+
 export default {
   async fetch(request, env) {
     const corsHeaders = {
@@ -477,6 +574,10 @@ export default {
 
     const url = new URL(request.url);
     const path = url.pathname;
+
+    if (request.method === "POST" && (path === "/unknown-question" || path === "/telemetry/unknown-question")) {
+      return handleUnknownQuestionTelemetry(request, env, corsHeaders);
+    }
 
     if (request.method === "POST" && path === "/keys/register") {
       return registerContributorKey(request, env, corsHeaders);
@@ -581,7 +682,8 @@ export default {
             contributorRegistration: "POST /keys/register",
             contributorRevoke: "POST /keys/revoke",
             contributorDelete: "POST /keys/delete",
-            contributorActivity: "POST /keys/activity"
+            contributorActivity: "POST /keys/activity",
+            unknownQuestion: "POST /unknown-question"
           }
         }, null, 2), {
           status: 200,
