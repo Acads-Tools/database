@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-25T10:04:52Z",
-  "totalQuestions": 157,
+  "updatedAt": "2026-09-25T10:39:20Z",
+  "totalQuestions": 160,
   "questions": [
     {
       "question": "(1217)₈ is equivalent to",
@@ -72,11 +72,12 @@
         "d. right shift"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-23T14:55:22Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:39:20Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "A ____________ is a circuit with only one output but can have multiple inputs.",
@@ -257,10 +258,11 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 14,
-      "source": "CS6301_Prelim_Quiz_1_Answers.json",
-      "lastVerifiedAt": "2026-09-23T14:55:22Z",
-      "wrongAnswers": []
+      "confirmations": 15,
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-25T10:39:20Z",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "According to study reports of Global Entrepreneurship Monitor (GEM), entrepreneurs are most likely to launch businesses when they are between the ages of 35 and 44.",
@@ -309,6 +311,23 @@
       "wrongAnswers": []
     },
     {
+      "question": "Canonical form is a unique way of representing ____________",
+      "answer": "Boolean Expressions",
+      "choices": [
+        "a. Minterm",
+        "b. SOP",
+        "c. POS",
+        "d. Boolean Expressions"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:39:20Z",
+      "lastVerifiedAt": "2026-09-25T10:39:20Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Combinational circuits are memory-less, thus, the output value depends ONLY on current input values",
       "answer": "True",
       "choices": [
@@ -354,9 +373,9 @@
         "d. amplitude modulation"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "lastVerifiedAt": "2026-09-25T10:39:20Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -896,9 +915,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-25T10:04:52Z",
-      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "lastVerifiedAt": "2026-09-25T10:39:20Z",
       "source": "review_screen"
     },
     {
@@ -1439,6 +1458,23 @@
       "wrongAnswers": []
     },
     {
+      "question": "The difference between half adder and full adder is __________",
+      "answer": "Half adder has two inputs while full adder has three inputs",
+      "choices": [
+        "a. Half adder has one output while full adder has two outputs",
+        "b. Half adder has two inputs while full adder has four inputs",
+        "c. All of the Mentioned",
+        "d. Half adder has two inputs while full adder has three inputs"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:39:20Z",
+      "lastVerifiedAt": "2026-09-25T10:39:20Z",
+      "source": "review_screen"
+    },
+    {
       "question": "The expression of a NAND gate is_______",
       "answer": "(A.B)’",
       "choices": [
@@ -1517,6 +1553,23 @@
       "lastVerifiedAt": "2026-09-23T14:55:22Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "The gate which is used to reverse the output obtained is _____",
+      "answer": "NOT",
+      "choices": [
+        "a. NOT",
+        "b. NAND",
+        "c. EXOR",
+        "d. NOR"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:39:20Z",
+      "lastVerifiedAt": "2026-09-25T10:39:20Z",
+      "source": "review_screen"
     },
     {
       "question": "The general form for calculating the number of rows in a truth table is ________",
