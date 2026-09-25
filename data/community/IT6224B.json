@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-23T14:47:13Z",
-  "totalQuestions": 128,
+  "updatedAt": "2026-09-25T09:34:30Z",
+  "totalQuestions": 129,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -470,11 +470,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Distribution Layer is a design model layer that provides a high-speed backbone link between dispersed networks.",
@@ -540,11 +541,12 @@
         "d. 12 Gb/s, by providing full bandwidth to each port"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "How much traffic for a 24port Gbit switch at hand capable of generating when operating at full wire speed?",
@@ -605,11 +607,12 @@
         "d. Modular routers"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "If you want to disable STP on a port connected to a server, which command would you use?",
@@ -720,11 +723,12 @@
         "d. show ip protocols"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In networking term, port density refers to the number of ports available on a single switch.",
@@ -799,11 +803,12 @@
         "d. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In today's current switch technology, Which statement describes a characteristic of Cisco Meraki switches?",
@@ -815,11 +820,12 @@
         "d. They are cloud-managed access switches that enable virtual stacking of switches."
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
@@ -1001,11 +1007,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
@@ -1513,6 +1520,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "What today's network design would contain the scope of disruptions on a network should a failure occur?",
+      "answer": "The deployment of distribution layer switches in pairs and the division of access layer switch connections between them",
+      "choices": [
+        "a. The installation of only enterprise class equipment throughout the network",
+        "b. The reduction in the number of redundant devices and connections in the network core",
+        "c. The deployment of distribution layer switches in pairs and the division of access layer switch connections between them",
+        "d. The configuration of all access layer devices to share a single gateway"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen"
+    },
+    {
       "question": "What type of wireless attack that uses the method by flooding an AP with deauthentication frames?",
       "answer": "Jamming",
       "choices": [
@@ -1811,11 +1835,12 @@
         "d. Implementing redundancy"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which network design solution below in the current technology today will extend access layer connectivity to user devices?",
@@ -2046,11 +2071,12 @@
         "d. To display line status and other information about directly connected Cisco devices"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
