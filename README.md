@@ -70,7 +70,7 @@ not enabled by this lightweight rollout.
 | Subject Code | Course Title | Verified Questions | Status |
 | :--- | :--- | :---: | :--- |
 | `CS6204` | Computer Architecture and Organization | **110** | Active |
-| `CS6205` | Automata Theory and Formal Languages | **31** | Active |
+| `CS6205` | Automata Theory and Formal Languages | **33** | Active |
 | `CS6206` | Principles of Operating Systems | **165** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **167** | Active |
 | `GE6301` | GE6301 | **50** | Active |
