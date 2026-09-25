@@ -636,8 +636,11 @@ async function handleUserBugReport(request, env, corsHeaders) {
     const subjectCode = String(payload.subjectCode || "GENERAL").toUpperCase().slice(0, 20);
     const clientVersion = String(payload.clientVersion || "unknown").slice(0, 20);
     const pageType = String(payload.pageType || "moodle_page").slice(0, 30);
-    const environment = String(payload.environment || "Browser / OS").slice(0, 100);
-    const logs = Array.isArray(payload.logs) ? payload.logs.slice(-25) : [];
+    const environment = String(payload.environment || "Browser / OS").slice(0, 120);
+    const logs = Array.isArray(payload.logs) ? payload.logs.slice(-40) : [];
+    const breadcrumbs = Array.isArray(payload.breadcrumbs) ? payload.breadcrumbs.slice(-35) : [];
+    const questionsSummary = Array.isArray(payload.questionsSummary) ? payload.questionsSummary.slice(0, 30) : [];
+    const settings = (payload.settings && typeof payload.settings === 'object') ? payload.settings : {};
 
     if (!botToken) {
       return new Response(JSON.stringify({ success: true, mode: "local_ack", message: "Bug report received" }), {
@@ -648,10 +651,35 @@ async function handleUserBugReport(request, env, corsHeaders) {
 
     const summaryLine = description.replace(/\r?\n/g, ' ').slice(0, 55);
     const title = `🐛 Bug Report: [${subjectCode}] — ${summaryLine}${description.length > 55 ? '...' : ''}`;
+
+    const breadcrumbsSection = breadcrumbs.length > 0
+      ? [
+          `<details>`,
+          `<summary><b>User Action History & Reproduction Breadcrumbs (${breadcrumbs.length} actions)</b></summary>`,
+          ``,
+          `\`\`\`text`,
+          breadcrumbs.join('\n'),
+          `\`\`\``,
+          `</details>`
+        ].join('\n')
+      : `*No user actions recorded.*`;
+
+    const questionsSection = questionsSummary.length > 0
+      ? [
+          `<details>`,
+          `<summary><b>Active Page Questions Breakdown (${questionsSummary.length} detected)</b></summary>`,
+          ``,
+          `| Question | Type | Answered? | Grade / Score |`,
+          `| :--- | :--- | :--- | :--- |`,
+          ...questionsSummary.map(q => `| ${q.num || 'Q'} | \`${q.type || 'unknown'}\` | ${q.answered ? '✅ Yes' : '❌ No'} | ${q.grade || '—'} |`),
+          `</details>`
+        ].join('\n')
+      : `*No questions detected on this page.*`;
+
     const logSection = logs.length > 0
       ? [
           `<details>`,
-          `<summary><b>Recent Diagnostic Logs (${logs.length} entries)</b></summary>`,
+          `<summary><b>Diagnostic Activity Logs (${logs.length} entries)</b></summary>`,
           ``,
           `\`\`\`text`,
           logs.join('\n'),
@@ -677,7 +705,26 @@ async function handleUserBugReport(request, env, corsHeaders) {
       `### What Happened (User Description)`,
       `> ${description.replace(/\r?\n/g, '\n> ')}`,
       ``,
-      `### Diagnostics`,
+      `### Active Toolkit Configuration`,
+      `| Setting | Value |`,
+      `| :--- | :--- |`,
+      `| **Auto-Quiz Mode** | ${settings.autoQuizMode ? 'Active / On' : 'Passive / Off'} |`,
+      `| **Personality** | \`${settings.quizPersonality || 'careful'}\` |`,
+      `| **Auto-Advance** | ${settings.autoNextQuiz !== false ? 'Enabled' : 'Disabled'} |`,
+      `| **Auto-Delay** | \`${settings.autoDelay || '3s'}\` |`,
+      `| **Highlight Only** | ${settings.highlightOnly ? 'Yes' : 'No'} |`,
+      `| **Cloud Sync** | ${settings.cloudSync !== false ? 'Enabled' : 'Disabled'} |`,
+      `| **Gemini AI** | ${settings.aiAssisted ? 'Enabled' : 'Disabled'} (Key: ${settings.hasGeminiKey ? 'Configured' : 'None'}) |`,
+      `| **Cached DB Answers** | ${settings.cachedAnswersCount || 0} questions |`,
+      `| **Unknown Types** | ${settings.unknownTypesCount || 0} recorded |`,
+      ``,
+      `### User Action Timeline (What the user did)`,
+      breadcrumbsSection,
+      ``,
+      `### Page State & Question Inventory`,
+      questionsSection,
+      ``,
+      `### Diagnostic Logs`,
       logSection,
       ``,
       `---`,
