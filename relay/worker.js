@@ -845,44 +845,111 @@ async function handleTelemetryUsage(request, env, corsHeaders) {
 
 async function handleTelemetryStats(request, env, corsHeaders) {
   try {
-    const sinceIso = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+    const url = new URL(request.url);
+    const rawTimeframe = (url.searchParams.get("timeframe") || url.searchParams.get("period") || url.searchParams.get("range") || "24h").toLowerCase();
+
+    let sinceIso = null;
+    let periodLabel = "24h";
+
+    if (rawTimeframe === "1h") {
+      sinceIso = new Date(Date.now() - 1 * 60 * 60 * 1000).toISOString();
+      periodLabel = "1h";
+    } else if (rawTimeframe === "6h") {
+      sinceIso = new Date(Date.now() - 6 * 60 * 60 * 1000).toISOString();
+      periodLabel = "6h";
+    } else if (rawTimeframe === "24h" || rawTimeframe === "1d") {
+      sinceIso = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+      periodLabel = "24h";
+    } else if (rawTimeframe === "7d") {
+      sinceIso = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+      periodLabel = "7d";
+    } else if (rawTimeframe === "30d") {
+      sinceIso = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString();
+      periodLabel = "30d";
+    } else if (rawTimeframe === "all" || rawTimeframe === "overall" || rawTimeframe === "alltime" || rawTimeframe === "total") {
+      sinceIso = null;
+      periodLabel = "overall";
+    } else {
+      const hoursMatch = rawTimeframe.match(/^(\d+)h$/);
+      const daysMatch = rawTimeframe.match(/^(\d+)d$/);
+      if (hoursMatch) {
+        const hrs = parseInt(hoursMatch[1], 10);
+        sinceIso = new Date(Date.now() - hrs * 60 * 60 * 1000).toISOString();
+        periodLabel = `${hrs}h`;
+      } else if (daysMatch) {
+        const dys = parseInt(daysMatch[1], 10);
+        sinceIso = new Date(Date.now() - dys * 24 * 60 * 60 * 1000).toISOString();
+        periodLabel = `${dys}d`;
+      } else {
+        sinceIso = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+        periodLabel = "24h";
+      }
+    }
+
     let rows = [];
 
     if (env.DB) {
       try {
-        const d1Res = await env.DB.prepare(
-          "SELECT anon_id, version, event, session_quizzes_solved, fast_mode_enabled, created_at FROM telemetry_events WHERE created_at >= ?"
-        ).bind(sinceIso).all();
-        if (d1Res && d1Res.results) {
-          rows = d1Res.results;
+        if (sinceIso) {
+          const d1Res = await env.DB.prepare(
+            "SELECT anon_id, version, event, session_quizzes_solved, fast_mode_enabled, created_at FROM telemetry_events WHERE created_at >= ? ORDER BY created_at DESC LIMIT 10000"
+          ).bind(sinceIso).all();
+          if (d1Res && d1Res.results) {
+            rows = d1Res.results;
+          }
+        } else {
+          const d1Res = await env.DB.prepare(
+            "SELECT anon_id, version, event, session_quizzes_solved, fast_mode_enabled, created_at FROM telemetry_events ORDER BY created_at DESC LIMIT 10000"
+          ).all();
+          if (d1Res && d1Res.results) {
+            rows = d1Res.results;
+          }
         }
       } catch (_) {}
     }
 
-    const uniqueUsers24h = new Set();
+    const uniqueUsers = new Set();
     const versions = {};
-    let totalSessionQuizzes = 0;
-    let fastModeUsers = 0;
+    const events = {};
+    const fastModeUsers = new Set();
+    const maxQuizzesPerUser = new Map();
 
     for (const r of rows) {
-      uniqueUsers24h.add(r.anon_id);
+      uniqueUsers.add(r.anon_id);
       versions[r.version] = (versions[r.version] || 0) + 1;
-      if (r.session_quizzes_solved > 0) {
-        totalSessionQuizzes += Number(r.session_quizzes_solved || 0);
-      }
+      events[r.event] = (events[r.event] || 0) + 1;
       if (r.fast_mode_enabled) {
-        fastModeUsers++;
+        fastModeUsers.add(r.anon_id);
+      }
+      const q = Number(r.session_quizzes_solved || 0);
+      const curr = maxQuizzesPerUser.get(r.anon_id) || 0;
+      if (q > curr) {
+        maxQuizzesPerUser.set(r.anon_id, q);
       }
     }
 
+    let totalQuizzesSolved = 0;
+    for (const val of maxQuizzesPerUser.values()) {
+      totalQuizzesSolved += val;
+    }
+
+    const fastAdoptionPct = uniqueUsers.size > 0
+      ? Math.round((fastModeUsers.size / uniqueUsers.size) * 1000) / 10
+      : 0;
+
     return new Response(JSON.stringify({
       success: true,
-      active_users_24h: uniqueUsers24h.size,
+      timeframe: periodLabel,
+      active_users: uniqueUsers.size,
+      active_users_24h: uniqueUsers.size,
+      total_events: rows.length,
       total_events_24h: rows.length,
       versions: versions,
-      total_session_quizzes_reported: totalSessionQuizzes,
-      fast_mode_active_count: fastModeUsers,
-      since: sinceIso
+      events: events,
+      total_session_quizzes_reported: totalQuizzesSolved,
+      fast_mode_active_count: fastModeUsers.size,
+      fast_mode_adoption_percent: fastAdoptionPct,
+      since: sinceIso || "all-time"
     }), {
       status: 200,
       headers: { ...corsHeaders, "Content-Type": "application/json" }
