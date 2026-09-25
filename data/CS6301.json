@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-25T10:39:20Z",
-  "totalQuestions": 160,
+  "updatedAt": "2026-09-25T10:52:42Z",
+  "totalQuestions": 163,
   "questions": [
     {
       "question": "(1217)₈ is equivalent to",
@@ -105,9 +105,9 @@
         "d. AND or OR gates"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T09:49:44Z",
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -309,6 +309,23 @@
       "confirmations": 14,
       "lastVerifiedAt": "2026-09-23T14:55:22Z",
       "wrongAnswers": []
+    },
+    {
+      "question": "Binary coded decimal is a combination of __________",
+      "answer": "Four binary digits",
+      "choices": [
+        "a. Three binary digits",
+        "b. Five binary digits",
+        "c. Two binary digits",
+        "d. Four binary digits"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:52:42Z",
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
+      "source": "review_screen"
     },
     {
       "question": "Canonical form is a unique way of representing ____________",
@@ -754,9 +771,9 @@
         "d. Select inputs"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -800,11 +817,12 @@
         "d. 52 bit"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-23T14:55:22Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In TDM, the samples occupy adjacent time slots.",
@@ -852,6 +870,23 @@
       "lastVerifiedAt": "2026-09-23T14:55:22Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "In the octal system, there can be _______ choices for each digit of a number.",
+      "answer": "8",
+      "choices": [
+        "a. 2",
+        "b. 10",
+        "c. 16",
+        "d. 8"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:52:42Z",
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
+      "source": "review_screen"
     },
     {
       "question": "In this technique, there is a link between subscriber and network and a local loop.",
@@ -957,9 +992,9 @@
         "d. Low input voltages"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T09:49:44Z",
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1265,11 +1300,12 @@
         "d. 3124"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-23T14:55:22Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The ________ gate is an OR gate followed by a NOT gate.",
@@ -1749,6 +1785,23 @@
       "isAiSuggestion": false
     },
     {
+      "question": "The numbers written to the power of 10 in the representation of decimal numbers are called as _____",
+      "answer": "Scale factors",
+      "choices": [
+        "a. Scale factors",
+        "b. None of the mentioned",
+        "c. Size factors",
+        "d. Height factors"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:52:42Z",
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
+      "source": "review_screen"
+    },
+    {
       "question": "The octal equivalent of 1100101.001010 is ______",
       "answer": "145.12",
       "choices": [
@@ -1912,11 +1965,12 @@
         "d. -127"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-23T14:55:22Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:52:42Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The subtraction using 1’s complement of 110 – 100 will give the result ___________",
