@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-25T09:49:44Z",
-  "totalQuestions": 155,
+  "updatedAt": "2026-09-25T10:04:52Z",
+  "totalQuestions": 157,
   "tier": "verified",
   "questions": [
     {
@@ -210,11 +210,29 @@
         "d. WDM"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
+    },
+    {
+      "question": "A technique that can be a solution to the problem of synchronizing data sources.",
+      "answer": "pulse stuffing",
+      "choices": [
+        "a. framing",
+        "b. pulse stuffing",
+        "c. data link control",
+        "d. full link control"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:04:52Z",
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen"
     },
     {
       "question": "A variable on its own or in its complemented form is known as a __________",
@@ -337,11 +355,12 @@
         "d. amplitude modulation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Convert (22)₈ into its corresponding decimal number.",
@@ -684,11 +703,12 @@
         "d. 2"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In 1-to-4 multiplexer, if C1 = 1 & C2 = 1, then the output will be ____________",
@@ -716,11 +736,12 @@
         "d. Select inputs"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In a NAND based S’-R’ latch, if S’=1 & R’=1 then the state of the latch is ____________",
@@ -775,11 +796,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In the boolean function w=f(X,Y,Z), what is the RHS referred to as ________",
@@ -823,11 +845,12 @@
         "d. SSDL"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In this type of multiplexing time slots are preassigned to sources and fixed.",
@@ -839,11 +862,12 @@
         "d. Synchronous TDM"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In which operation carry is obtained?",
@@ -860,6 +884,23 @@
       "lastVerifiedAt": "2026-09-23T14:53:51Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "It is possible for an enable or strobe input to undergo an expansion of two or more MUX ICs to the digital multiplexer with the proficiency of large number of ___________",
+      "answer": "Inputs",
+      "choices": [
+        "a. Selection lines",
+        "b. Inputs",
+        "c. Enable lines",
+        "d. Outputs"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:04:52Z",
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen"
     },
     {
       "question": "It is possible to recreate an audio original quality through extract if the pattern fromdigital code",
@@ -931,11 +972,12 @@
         "d. Synchronous TDM"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Most demultiplexers facilitate which type of conversion?",
@@ -947,11 +989,12 @@
         "d. Single input, multiple outputs"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "New CPU whose instruction set includes the instruction set of its predecessor CPU is said to be ___________ with its predecessor.",
@@ -1894,11 +1937,12 @@
         "d. One into many"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "There are 5 universal gates.",
@@ -1924,11 +1968,12 @@
         "d. Wavelength dependent multiplexing"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "What could be the maximum value of a single digit in an octal number system?",
@@ -1986,11 +2031,12 @@
         "d. A multiplexer is a device which converts many signals into one"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "What is an ambiguous condition in a NAND based S’-R’ latch?",
@@ -2078,11 +2124,12 @@
         "d. To active the entire chip"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "What kind of a flag is the sign flag?",
@@ -2143,11 +2190,12 @@
         "d. Both data selector and data distributor"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which IC is used for the implementation of 1-to-16 DEMUX?",
@@ -2175,11 +2223,12 @@
         "d. Generation of selected path between multiple sources and a single destination"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following correctly describes the distributive law.",
@@ -2352,11 +2401,12 @@
         "d. Single input to Single Output"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     }
   ]
 }
