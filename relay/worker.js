@@ -462,6 +462,8 @@ function isSupportedVersion(version, minimum) {
   return true;
 }
 
+const seenSignatures = new Set();
+
 async function handleUnknownQuestionTelemetry(request, env, corsHeaders) {
   try {
     const payload = await request.json().catch(() => ({}));
@@ -469,14 +471,44 @@ async function handleUnknownQuestionTelemetry(request, env, corsHeaders) {
     const repoName = env.REPO_NAME || "database";
     const botToken = env.GITHUB_BOT_TOKEN;
 
-    const signature = String(payload.signature || 'unknown').slice(0, 100);
+    const signature = String(payload.signature || 'unknown').slice(0, 120);
     const subjectCode = String(payload.subjectCode || 'GENERAL').toUpperCase();
     const snippet = String(payload.snippet || 'No text snippet').slice(0, 200);
     const classes = Array.isArray(payload.classes) ? payload.classes.join(' ') : (payload.classes || '');
     const inputsSummary = Array.isArray(payload.inputsSummary) ? payload.inputsSummary.join(', ') : (payload.inputsSummary || '');
     const htmlSample = String(payload.htmlSample || '').slice(0, 800);
 
+    // Fast in-memory deduplication across concurrent requests
+    if (seenSignatures.has(signature)) {
+      return new Response(JSON.stringify({ success: true, duplicate: true, message: 'Already recorded in memory' }), {
+        status: 200,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    // Persistent D1 database deduplication
+    if (env.DB) {
+      try {
+        await env.DB.prepare(`CREATE TABLE IF NOT EXISTS reported_unknown_signatures (
+          signature TEXT PRIMARY KEY,
+          subject_code TEXT,
+          reported_at TEXT
+        )`).run();
+        const existing = await env.DB.prepare(`SELECT signature FROM reported_unknown_signatures WHERE signature = ?`).bind(signature).first();
+        if (existing) {
+          seenSignatures.add(signature);
+          return new Response(JSON.stringify({ success: true, duplicate: true, message: 'Signature already reported to maintainer' }), {
+            status: 200,
+            headers: { ...corsHeaders, "Content-Type": "application/json" }
+          });
+        }
+      } catch (_) {
+        // D1 deduplication is best-effort
+      }
+    }
+
     if (!botToken) {
+      seenSignatures.add(signature);
       return new Response(JSON.stringify({ success: true, mode: 'local_ack', message: 'Telemetry received' }), {
         status: 200,
         headers: { ...corsHeaders, "Content-Type": "application/json" }
@@ -543,6 +575,18 @@ async function handleUnknownQuestionTelemetry(request, env, corsHeaders) {
     }
 
     const issueData = await ghResponse.json();
+
+    seenSignatures.add(signature);
+    if (seenSignatures.size > 200) {
+      const first = seenSignatures.values().next().value;
+      seenSignatures.delete(first);
+    }
+    if (env.DB) {
+      try {
+        await env.DB.prepare(`INSERT OR REPLACE INTO reported_unknown_signatures (signature, subject_code, reported_at) VALUES (?, ?, ?)`).bind(signature, subjectCode, new Date().toISOString()).run();
+      } catch (_) {}
+    }
+
     return new Response(JSON.stringify({
       success: true,
       issueNumber: issueData.number,
