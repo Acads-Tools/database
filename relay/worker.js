@@ -603,6 +603,144 @@ async function handleUnknownQuestionTelemetry(request, env, corsHeaders) {
   }
 }
 
+const bugReportRateLimitMap = new Map();
+
+async function handleUserBugReport(request, env, corsHeaders) {
+  try {
+    const payload = await request.json().catch(() => ({}));
+    const botToken = env.GITHUB_BOT_TOKEN;
+    const repoOwner = env.REPO_OWNER || "Acads-Tools";
+    const repoName = "amaes-toolkit";
+
+    const description = String(payload.description || "").trim();
+    if (description.length < 10) {
+      return new Response(JSON.stringify({ error: "Bug description is too short (minimum 10 characters required)" }), {
+        status: 400,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const contributorId = String(payload.contributorId || "anon").slice(0, 64);
+    const now = Date.now();
+    const userReports = bugReportRateLimitMap.get(contributorId) || [];
+    const recent = userReports.filter(ts => now - ts < 15 * 60 * 1000);
+    if (recent.length >= 3) {
+      return new Response(JSON.stringify({ error: "Rate limit reached: Maximum 3 bug reports per 15 minutes. Please wait a bit." }), {
+        status: 429,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+    recent.push(now);
+    bugReportRateLimitMap.set(contributorId, recent);
+
+    const subjectCode = String(payload.subjectCode || "GENERAL").toUpperCase().slice(0, 20);
+    const clientVersion = String(payload.clientVersion || "unknown").slice(0, 20);
+    const pageType = String(payload.pageType || "moodle_page").slice(0, 30);
+    const environment = String(payload.environment || "Browser / OS").slice(0, 100);
+    const logs = Array.isArray(payload.logs) ? payload.logs.slice(-25) : [];
+
+    if (!botToken) {
+      return new Response(JSON.stringify({ success: true, mode: "local_ack", message: "Bug report received" }), {
+        status: 200,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const summaryLine = description.replace(/\r?\n/g, ' ').slice(0, 55);
+    const title = `🐛 Bug Report: [${subjectCode}] — ${summaryLine}${description.length > 55 ? '...' : ''}`;
+    const logSection = logs.length > 0
+      ? [
+          `<details>`,
+          `<summary><b>Recent Diagnostic Logs (${logs.length} entries)</b></summary>`,
+          ``,
+          `\`\`\`text`,
+          logs.join('\n'),
+          `\`\`\``,
+          `</details>`
+        ].join('\n')
+      : `*No logs attached by user.*`;
+
+    const body = [
+      `## User-Submitted Bug Report`,
+      ``,
+      `A student reported an issue using the in-app reporting button.`,
+      ``,
+      `### Environment & System Info`,
+      `| Parameter | Value |`,
+      `| :--- | :--- |`,
+      `| **Subject Code** | \`${subjectCode}\` |`,
+      `| **Toolkit Version** | \`${clientVersion}\` |`,
+      `| **Page Type** | \`${pageType}\` |`,
+      `| **Browser / OS** | ${environment} |`,
+      `| **Reported At** | ${new Date().toISOString()} |`,
+      ``,
+      `### What Happened (User Description)`,
+      `> ${description.replace(/\r?\n/g, '\n> ')}`,
+      ``,
+      `### Diagnostics`,
+      logSection,
+      ``,
+      `---`,
+      `*Submitted via AMAES Toolkit 1-Click Reporter.*`
+    ].join('\n');
+
+    let ghResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/issues`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${botToken}`,
+        "User-Agent": "AMAES-Cloudflare-Relay",
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title: title,
+        body: body,
+        labels: ["bug", "user-report"]
+      })
+    });
+
+    if (!ghResponse.ok && repoName !== (env.REPO_NAME || "database")) {
+      ghResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${env.REPO_NAME || "database"}/issues`, {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${botToken}`,
+          "User-Agent": "AMAES-Cloudflare-Relay",
+          "Accept": "application/vnd.github.v3+json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          title: title,
+          body: body,
+          labels: ["bug", "user-report"]
+        })
+      });
+    }
+
+    if (!ghResponse.ok) {
+      const ghErr = await ghResponse.text();
+      return new Response(JSON.stringify({ error: "Failed to create GitHub issue", details: ghErr }), {
+        status: 500,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const issueData = await ghResponse.json();
+    return new Response(JSON.stringify({
+      success: true,
+      issueNumber: issueData.number,
+      issueUrl: issueData.html_url
+    }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ error: "Internal server error", details: err.message }), {
+      status: 500,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  }
+}
+
 export default {
   async fetch(request, env) {
     const corsHeaders = {
@@ -618,6 +756,10 @@ export default {
 
     const url = new URL(request.url);
     const path = url.pathname;
+
+    if (request.method === "POST" && (path === "/report-bug" || path === "/bug-report")) {
+      return handleUserBugReport(request, env, corsHeaders);
+    }
 
     if (request.method === "POST" && (path === "/unknown-question" || path === "/telemetry/unknown-question")) {
       return handleUnknownQuestionTelemetry(request, env, corsHeaders);
@@ -727,7 +869,8 @@ export default {
             contributorRevoke: "POST /keys/revoke",
             contributorDelete: "POST /keys/delete",
             contributorActivity: "POST /keys/activity",
-            unknownQuestion: "POST /unknown-question"
+            unknownQuestion: "POST /unknown-question",
+            bugReport: "POST /report-bug"
           }
         }, null, 2), {
           status: 200,
