@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-25T10:52:42Z",
-  "totalQuestions": 163,
+  "updatedAt": "2026-09-25T10:55:27Z",
+  "totalQuestions": 166,
   "questions": [
     {
       "question": "(1217)₈ is equivalent to",
@@ -72,9 +72,9 @@
         "d. right shift"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-25T10:39:20Z",
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -210,9 +210,9 @@
         "d. WDM"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -923,6 +923,23 @@
       "isAiSuggestion": false
     },
     {
+      "question": "In which of the following gates the output is 1 if and only if at least one input is 1?",
+      "answer": "OR",
+      "choices": [
+        "a. NOR",
+        "b. OR",
+        "c. NAND",
+        "d. AND"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:55:27Z",
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "source": "review_screen"
+    },
+    {
       "question": "In which operation carry is obtained?",
       "answer": "Addition",
       "choices": [
@@ -1259,6 +1276,23 @@
       "wrongAnswers": []
     },
     {
+      "question": "The 16’s complement of 74E will be __________",
+      "answer": "F8B2",
+      "choices": [
+        "a. 8B2",
+        "b. F8B2",
+        "c. 2B8",
+        "d. 8C2"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:55:27Z",
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "source": "review_screen"
+    },
+    {
       "question": "The 1’s complement of 1111111110.101 is _______________",
       "answer": "1.010",
       "choices": [
@@ -1432,6 +1466,23 @@
       "lastVerifiedAt": "2026-09-23T14:53:51Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "The characteristic equation of S-R latch is ____________",
+      "answer": "Q(n+1) = (S + Q [Image: No - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/no] )R’",
+      "choices": [
+        "a. Q(n+1) = SR + Q [Image: No - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/no] R",
+        "b. Q(n+1) = S’R + Q [Image: No - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/no] R",
+        "c. Q(n+1) = S’R + Q' [Image: No - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/no] R",
+        "d. Q(n+1) = (S + Q [Image: No - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/no] )R’"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-25T10:55:27Z",
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "source": "review_screen"
     },
     {
       "question": "The complement of the input given is obtained in case of:",
@@ -1682,11 +1733,12 @@
         "d. xyz"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The maximum number of bits sufficient to represent a hexadecimal number in binary:",
@@ -1745,11 +1797,12 @@
         "d. 0 10101010 1110"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The number of literals in the expression F=X.Y’ + Z are _____________",
@@ -1826,11 +1879,12 @@
         "d. NAND"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-23T14:55:22Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The output of a NOR gate is HIGH if ________.",
@@ -1858,11 +1912,12 @@
         "d. the input is LOW"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The output of an AND gate with three inputs, A, B, and C, is HIGH when ________.",
@@ -2247,9 +2302,9 @@
         "d. Address"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T09:49:44Z",
+      "lastVerifiedAt": "2026-09-25T10:55:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
