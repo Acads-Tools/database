@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-25T09:34:30Z",
+  "updatedAt": "2026-09-25T09:35:34Z",
   "totalQuestions": 44,
   "tier": "verified",
   "questions": [
@@ -81,11 +81,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Access Layer is the layer of which the hierarchical enterprise LAN design model would PoE for VoIP phones and access points be considered.",
@@ -169,6 +170,10 @@
         {
           "answer": "b. False",
           "timestamp": "2026-09-23T14:45:38Z"
+        },
+        {
+          "answer": "b. False",
+          "timestamp": "2026-09-25T09:35:34Z"
         }
       ]
     },
@@ -214,9 +219,9 @@
         "d. Modular routers"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -262,12 +267,12 @@
         "d. show ip eigrp neighbors"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "source": "review_screen"
     },
     {
       "question": "In network troubleshooting, which command is used to display the bandwidth of an interface on an EIGRP-enabled router?",
@@ -342,9 +347,9 @@
         "d. They are cloud-managed access switches that enable virtual stacking of switches."
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -459,12 +464,12 @@
         "d. It is used to monitor and make configuration changes to a network device over a network connection."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "source": "review_screen"
     },
     {
       "question": "What today's network design would contain the scope of disruptions on a network should a failure occur?",
@@ -478,9 +483,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-25T09:34:30Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
       "source": "review_screen"
     },
     {
@@ -662,9 +667,9 @@
         "d. Implementing redundancy"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -679,11 +684,12 @@
         "d. Redundancy implementation"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which network design solution will best extend access layer connectivity to host devices?",
