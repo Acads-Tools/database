@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-09-27T09:38:38Z",
-  "totalQuestions": 105,
+  "updatedAt": "2026-09-27T09:41:17Z",
+  "totalQuestions": 107,
   "questions": [
     {
       "question": "1st features of System Control Component",
@@ -223,10 +223,12 @@
       "answer": "Computer-Aided Manufacturing",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T07:01:09Z",
-      "lastVerifiedAt": "2026-09-22T07:02:31Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Acronym: CIM",
@@ -443,9 +445,9 @@
         "d. System Structuring"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-27T09:26:23Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -515,9 +517,9 @@
       "answer": "Routing logic",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-27T09:23:43Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -852,9 +854,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-09-27T09:26:23Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -888,6 +890,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "Is the creative process by which our understanding of logic and science is joined with our understanding of human needs and wants to conceive and refine artifacts that serve specific human purposes.",
+      "answer": "Design",
+      "choices": [
+        "a. CAE",
+        "b. CAD",
+        "c. Design",
+        "d. CAM"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-27T09:41:17Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Is the design upon which many general purpose computers are based.",
       "answer": "Von Neumann Architecture",
       "choices": [
@@ -914,9 +933,9 @@
         "d. System Thinking"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-09-27T09:26:23Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1144,9 +1163,9 @@
         "d. Use Case Model"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-27T08:47:59Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1269,6 +1288,21 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "The concept of the design is understood to involve: finally, the selection, implementation, and testing of the most preferred alternative",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-27T09:41:17Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
+      "source": "review_screen"
     },
     {
       "question": "The concept of the design is understood to involve: the conceptualization and parameterization of alternative candidate designs that meet or surpass specifications;",
@@ -1439,9 +1473,9 @@
         "d. Matrix Structure"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-09-27T08:43:54Z",
+      "lastVerifiedAt": "2026-09-27T09:41:17Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
