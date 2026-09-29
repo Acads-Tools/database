@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-09-29T15:51:18Z",
+  "updatedAt": "2026-09-29T15:52:08Z",
   "totalQuestions": 165,
   "tier": "verified",
   "questions": [
@@ -1152,10 +1152,12 @@
         "WPA-Enterprise"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:12Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "It is a tool used to remove system-specific data from the Windows operating system, configure windows to start in audit mode, configure the windows operating system to start the Windows Welcome phase and reset Windows Product activation.",
@@ -1192,10 +1194,12 @@
         "Wireless Network"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "It is a type of printing wherein it is used by legacy application in pre-vista version of windows that uses enhanced metafile format (EMF) as the spool file format.",
@@ -1268,10 +1272,12 @@
         "Ad hoc mode"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:12Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "It is an administrative tool for managing user settings and computer settings across a network",
@@ -1770,10 +1776,12 @@
         "IEEE 802.1X"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:12Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Subnet Mask are used to determine the best route for packet forwarding",
@@ -2017,10 +2025,12 @@
         "d. 11mbps"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-22T03:42:12Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "What type of notation does IP version 6 address uses?",
@@ -2049,10 +2059,12 @@
         "d. Program Files"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following is a main type of group?",
@@ -2099,7 +2111,14 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:07:30Z",
       "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Crown",
+          "timestamp": "2026-09-29T15:52:08Z"
+        }
+      ]
     },
     {
       "question": "Which of the following is not a Performance Monitor tool?",
@@ -2156,10 +2175,12 @@
         "d. Ensure close proximity to the Wireless APs"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-22T03:42:12Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following is not a Wireless LAN Standards?",
@@ -2220,9 +2241,9 @@
         "d. Ethernet"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-09-29T15:49:01Z",
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -2237,10 +2258,12 @@
         "d. You can configure the client computer by using the command line: netsh wlan"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-22T03:42:12Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following version of Windows are allowed for Upgrade?",
