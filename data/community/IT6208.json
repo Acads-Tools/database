@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-09-29T15:38:36Z",
-  "totalQuestions": 107,
+  "updatedAt": "2026-09-29T15:40:55Z",
+  "totalQuestions": 109,
   "questions": [
     {
       "question": "1st features of System Control Component",
@@ -159,10 +159,12 @@
         "d. Feasibility Analysis"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T07:01:09Z",
-      "lastVerifiedAt": "2026-09-22T07:31:02Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "7th System Integration Life Cycle",
@@ -517,9 +519,9 @@
       "answer": "Routing logic",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -656,9 +658,9 @@
         "d. SLDC"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-09-29T15:19:42Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -932,9 +934,9 @@
         "d. Von Neuman Architecture"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1017,6 +1019,23 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Measures of performance (MOP) and measures of effectiveness (MOE) are obtained",
+      "answer": "Evaluation Phase",
+      "choices": [
+        "a. Contraints",
+        "b. Requirements",
+        "c. Use Case Model",
+        "d. Evaluation Phase"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-29T15:40:55Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Model interactions among components",
       "answer": "Connectors",
       "choices": [
@@ -1060,9 +1079,9 @@
         "d. Distributed Object"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1533,9 +1552,9 @@
         "d. Activity Diagram"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1569,6 +1588,21 @@
       "firstSeenAt": "2026-09-22T07:28:43Z",
       "lastVerifiedAt": "2026-09-22T07:28:43Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "This gives the detail of the structure of the system including the size, shape, materials, and quantities of components and the interrelationships among these design elements together.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-29T15:40:55Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "source": "review_screen"
     },
     {
       "question": "This involves generating alternative designs, or design options, that might reasonably satisfy system specifications.",
@@ -1629,9 +1663,9 @@
         "d. Business Rule Component"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1695,9 +1729,9 @@
         "d. Functional, Accurate and Matrix"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-09-29T15:19:42Z",
+      "lastVerifiedAt": "2026-09-29T15:40:55Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false

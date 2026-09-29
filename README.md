@@ -76,7 +76,7 @@ not enabled by this lightweight rollout.
 | `GE6301` | GE6301 | **50** | Active |
 | `IT6205A` | Information Assurance and Security 1 | **37** | Active |
 | `IT6206` | Information Assurance and Security 2 | **118** | Active |
-| `IT6208` | System Integration and Architecture 1 | **107** | Active |
+| `IT6208` | System Integration and Architecture 1 | **109** | Active |
 | `IT6209` | Introduction to Multimedia | **100** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **129** | Active |
 | `IT6310` | Network Security | **109** | Active |
