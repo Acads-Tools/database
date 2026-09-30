@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-09-30T15:14:23Z",
-  "totalQuestions": 70,
+  "updatedAt": "2026-09-30T15:16:59Z",
+  "totalQuestions": 74,
   "questions": [
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
@@ -31,10 +31,10 @@
         "d. match_parent"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -240,6 +240,24 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Every button is styled using the system’s ___________ button background",
+      "answer": "Default",
+      "choices": [
+        "a. Fixed",
+        "b. Varying",
+        "c. Default",
+        "d. Common"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen"
+    },
+    {
       "question": "In the early 2000s, Symbian, BlackBerry OS, Palm OS and ________ (now known as Windows Mobile) became increasingly popular. They are gadgets with capabilities such as email, fax, Web browsing, etc.",
       "answer": "Pocket PC",
       "choices": [
@@ -332,6 +350,22 @@
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "RelativeLayout lets you specify where each element should be placed with respect to the other elements in the interface.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen"
     },
     {
       "question": "Spinners are drop-down menus that allow users to pick one item from a group of choices.",
@@ -472,12 +506,28 @@
         "d. android:scaleType"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "The LinearLayout class arranges all of the contained UI elements either horizontally or vertically.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen"
     },
     {
       "question": "The Menu button is deprecated on Android 2, so you should migrate toward using the action bar to provide access to actions and other options.",
@@ -589,6 +639,24 @@
       "isAiSuggestion": false
     },
     {
+      "question": "The TextView is a subclass of View that represents a substandard text field component. True or False?",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. Text Views",
+        "c. False",
+        "d. None of the choices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen"
+    },
+    {
       "question": "The Windows Phone 8 is also known as the __________.",
       "answer": "Apollo",
       "choices": [
@@ -649,10 +717,10 @@
         "d. Borderless Button"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -717,10 +785,10 @@
         "d. Layout"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1062,10 +1130,10 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1109,10 +1177,10 @@
         "d. Image Partner"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
