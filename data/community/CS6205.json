@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-09-30T10:59:20Z",
-  "totalQuestions": 46,
+  "updatedAt": "2026-09-30T11:50:33Z",
+  "totalQuestions": 56,
   "questions": [
     {
       "question": "[____: Sets] are collections of objects in which order of elements and duplication of elements do not matter.",
@@ -97,6 +97,22 @@
       ]
     },
     {
+      "question": "A DFA can remember a finite amount of information, but a ____ can remember an infinite amount of information.",
+      "answer": "PDA",
+      "choices": [
+        "a. PDA",
+        "b. NFA",
+        "c. NDFA"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
       "question": "A general purpose, programmable, information processor with input and output.",
       "answer": "computer",
       "choices": [],
@@ -109,6 +125,22 @@
       "source": "review_screen"
     },
     {
+      "question": "A language accepted by Deterministic Push down automata is closed under which of the following?",
+      "answer": "complement",
+      "choices": [
+        "a. intersection",
+        "b. union",
+        "c. complement"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
       "question": "A Moore machine can be described by a [____: 6] tuple.",
       "answer": "6",
       "choices": [],
@@ -118,6 +150,67 @@
       "confirmations": 6,
       "firstSeenAt": "2026-09-23T15:14:23Z",
       "lastVerifiedAt": "2026-09-30T09:52:28Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "A parsing that starts from the top with the start-symbol and derives a string using a parsetree.",
+      "answer": "top-down parser",
+      "choices": [],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "A PDA accepts a string when, after reading the entire string, the PDA is in a final state.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "A PDA can be formally described as a 7-tuple :",
+      "answer": "Answer 1 Question 6, Answer 2 Question 6, Answer 3 Question 6, Answer 4 Question 6, Answer 5 Question 6, Answer 6 Question 6",
+      "choices": [
+        "a. Answer 1 Question 6",
+        "b. Answer 2 Question 6",
+        "c. Answer 3 Question 6",
+        "d. Answer 4 Question 6",
+        "e. Answer 5 Question 6",
+        "f. Answer 6 Question 6"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "A pushdown automaton is a way to implement a context-free grammar in a similar way to design DFA for a regular grammar.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
       "source": "review_screen"
     },
     {
@@ -561,6 +654,38 @@
       "isAiSuggestion": false
     },
     {
+      "question": "The instantaneous description (ID) of a PDA is represented by a triplet (q, w, s) where :",
+      "answer": "Answer 1 Question 2, Answer 2 Question 2, Answer 3 Question 2",
+      "choices": [
+        "a. Answer 1 Question 2",
+        "b. Answer 2 Question 2",
+        "c. Answer 3 Question 2"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "The instantaneous description (ID) of a PDA is represented by a triplet where :",
+      "answer": "Answer 1 Question 1, Answer 2 Question 1, Answer 3 Question 1",
+      "choices": [
+        "a. Answer 1 Question 1",
+        "b. Answer 2 Question 1",
+        "c. Answer 3 Question 1"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
       "question": "The number of edges attached to a node is called its [____: degree] .",
       "answer": "degree",
       "choices": [],
@@ -588,6 +713,21 @@
       "source": "review_screen"
     },
     {
+      "question": "The stack head scans the top symbol of the stack. A stack does two operations:",
+      "answer": "Answer 1 Question 4, Answer 2 Question 4",
+      "choices": [
+        "a. Answer 1 Question 4",
+        "b. Answer 2 Question 4"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
+    },
+    {
       "question": "There are 5 tuples in finite state machine.",
       "answer": "True",
       "choices": [
@@ -601,6 +741,21 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "Types of parser:",
+      "answer": "Answer 1 Question 13, Answer 2 Question 13",
+      "choices": [
+        "a. Answer 1 Question 13",
+        "b. Answer 2 Question 13"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T11:50:33Z",
+      "lastVerifiedAt": "2026-09-30T11:50:33Z",
+      "source": "review_screen"
     },
     {
       "question": "Which of the following statement is false?",
