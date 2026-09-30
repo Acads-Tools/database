@@ -299,6 +299,7 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                 "question": clean_q,
                 "answer": clean_a,
                 "choices": sanitized_choices,
+                "questionType": "multichoice" if sanitized_choices else "shortanswer",
                 "wrongAnswers": incoming_wrong,
                 "verified": not is_ai_suggestion and is_verified_source,
                 "isAiSuggestion": is_ai_suggestion,
