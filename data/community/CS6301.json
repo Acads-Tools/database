@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-30T09:43:16Z",
-  "totalQuestions": 167,
+  "updatedAt": "2026-09-30T09:48:44Z",
+  "totalQuestions": 171,
   "questions": [
     {
       "question": "(1217)₈ is equivalent to",
@@ -561,6 +561,23 @@
       "wrongAnswers": []
     },
     {
+      "question": "For a two-input XNOR gate, with the input waveforms as shown below, which output waveform is correct? [Image: [moodle-asset:207777/5.png]]",
+      "answer": "d",
+      "choices": [
+        "a. d",
+        "b. c",
+        "c. a",
+        "d. b"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen"
+    },
+    {
       "question": "For each binary combination of the input variables, there are three possible outputs",
       "answer": "False",
       "choices": [
@@ -582,11 +599,12 @@
         "d. All are HIGH"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Frequency = Hertz/second",
@@ -863,11 +881,12 @@
         "d. literals"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "In the IEEE floating point representation, the hexadecimal value 0 × 00000000 corresponds to",
@@ -1505,11 +1524,12 @@
         "d. All but Y0 are LOW"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The characteristic equation of S-R latch is ____________",
@@ -1555,11 +1575,12 @@
         "d. (X+Y+Z’)(X’+Y)"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The decimal value 0.5 in IEEE single precision floating point representation has",
@@ -1589,6 +1610,23 @@
       "confirmations": 14,
       "lastVerifiedAt": "2026-09-23T14:55:22Z",
       "wrongAnswers": []
+    },
+    {
+      "question": "The device shown here is most likely a ________ [Image: [moodle-asset:207774/3.png]]",
+      "answer": "Demultiplexer",
+      "choices": [
+        "a. Multiplexer",
+        "b. Inverter",
+        "c. Comparator",
+        "d. Demultiplexer"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen"
     },
     {
       "question": "The difference between half adder and full adder is __________",
@@ -1717,11 +1755,12 @@
         "d. 2ⁿ⁻¹"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The input hexadecimal representation of 1110 is _______________",
@@ -1783,9 +1822,9 @@
         "d. xyz"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1816,11 +1855,12 @@
         "d. x+y+z"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The minterm of any expression is denoted by ___________",
@@ -1865,11 +1905,12 @@
         "d. 4"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The number of sign bits in a 32-bit IEEE format __________",
@@ -2043,11 +2084,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "The sequential circuit is also called ___________",
@@ -2331,11 +2373,12 @@
         "d. XYZ’"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "What is the function of an enable input on a multiplexer chip?",
@@ -2353,6 +2396,23 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "What is the indication of a short to ground in the output of a driving gate?",
+      "answer": "There is a signal loss to all load gates",
+      "choices": [
+        "a. Only the output of the defective gate is affected",
+        "b. The node may be stuck in either the HIGH or the LOW state",
+        "c. The affected node will be stuck in the HIGH state",
+        "d. There is a signal loss to all load gates"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen"
     },
     {
       "question": "What kind of a flag is the sign flag?",
@@ -2381,11 +2441,12 @@
         "d. XNOR"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "When logic gates are connected to form a gating/logic network it is called as a ______________ logic circuit.",
@@ -2452,6 +2513,23 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "Which of the following combinations of logic gates can decode binary 1101?",
+      "answer": "One 4-input AND gate, one inverter",
+      "choices": [
+        "a. One 4-input NAND gate, one inverter",
+        "b. One 4-input AND gate, one inverter",
+        "c. One 4-input AND gate, one OR gate",
+        "d. One 4-input AND gate"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen"
     },
     {
       "question": "Which of the following correctly describes the distributive law.",
@@ -2579,11 +2657,12 @@
         "d. X=(AB)’+A’B’"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following logical operations is represented by the + sign in Boolean algebra?",
