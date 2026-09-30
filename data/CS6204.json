@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-09-30T08:04:57Z",
+  "updatedAt": "2026-09-30T08:05:11Z",
   "totalQuestions": 110,
   "questions": [
     {
@@ -14,10 +14,10 @@
         "d. Error detection parity"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -31,10 +31,10 @@
         "d. SRAM"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -48,10 +48,10 @@
         "d. Semiconductor Memory"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -69,12 +69,18 @@
       "firstSeenAt": "2026-09-15T03:04:15Z",
       "lastVerifiedAt": "2026-09-25T14:27:06Z",
       "source": "community_contribution",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "Internal Drive"
+      ],
       "isAiSuggestion": false,
       "conflictHistory": [
         {
           "rejectedAnswer": "Hard Drive",
           "timestamp": "2026-09-30T08:04:57Z"
+        },
+        {
+          "rejectedAnswer": "Hard, Drive",
+          "timestamp": "2026-09-30T08:05:11Z"
         }
       ]
     },
@@ -88,10 +94,10 @@
         "d. Floppy Disk"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -105,10 +111,10 @@
         "d. Optical storage"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -122,9 +128,9 @@
         "d. Round robin"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -139,10 +145,10 @@
         "d. Random Access Machine"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -156,10 +162,10 @@
         "d. Program counter"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -173,10 +179,10 @@
         "d. Read Only Memory"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -190,10 +196,10 @@
         "d. PCI"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -207,10 +213,10 @@
         "d. Interrupt"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -224,10 +230,10 @@
         "d. Increment"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -238,10 +244,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-24T13:53:31Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "A _________ usually comprises the display device, circuitry, casing, and power supply.",
@@ -253,10 +259,10 @@
         "d. Keyboard"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -265,9 +271,9 @@
       "answer": "bus",
       "choices": [],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -277,9 +283,9 @@
       "answer": "bus",
       "choices": [],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -294,10 +300,10 @@
         "d. Memory"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -311,10 +317,10 @@
         "d. Bus line"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -328,10 +334,10 @@
         "d. Keyboard"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -345,10 +351,10 @@
         "d. Floppy Disk"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -362,10 +368,10 @@
         "d. Calculation pipeline"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -374,9 +380,9 @@
       "answer": "bus",
       "choices": [],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -391,10 +397,10 @@
         "d. True"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -408,10 +414,10 @@
         "d. Iterative calculation"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -425,10 +431,10 @@
         "d. NAR-flash"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -442,10 +448,10 @@
         "d. Combinational Logic"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -459,10 +465,10 @@
         "d. External Devices"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -474,9 +480,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -489,9 +495,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -506,9 +512,9 @@
         "NASA"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -523,10 +529,10 @@
         "d. 2004"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -540,10 +546,10 @@
         "d. 185 EB"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -555,9 +561,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -570,9 +576,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -584,10 +590,10 @@
         "Suggested (Verified DB): Input Fill"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -605,8 +611,16 @@
       "firstSeenAt": "2026-09-15T03:04:15Z",
       "lastVerifiedAt": "2026-09-30T08:04:57Z",
       "source": "review_screen",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "wrongAnswers": [
+        "Magnetic"
+      ],
+      "isAiSuggestion": false,
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Optical",
+          "timestamp": "2026-09-30T08:05:11Z"
+        }
+      ]
     },
     {
       "question": "Entire data blocks are access and transferred out on a high-speed bus-like interface",
@@ -618,10 +632,10 @@
         "d. CDRAM"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -635,10 +649,10 @@
         "d. Keyboard"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -650,9 +664,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -665,9 +679,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -682,10 +696,10 @@
         "d. None"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -699,10 +713,10 @@
         "d. Chewing gum"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -716,9 +730,9 @@
         "d. Memory management"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -733,9 +747,9 @@
         "Cathode Tubes"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -750,10 +764,10 @@
         "d. CDROM"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -767,10 +781,10 @@
         "d. DDR DRAM"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -784,10 +798,10 @@
         "d. Error detection"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -801,10 +815,10 @@
         "d. Electronic Data"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -815,10 +829,10 @@
         "Suggested (Verified DB): PCI Fill"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -832,10 +846,10 @@
         "d. Miniprocessors"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -849,10 +863,10 @@
         "d. Optical Memory"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -889,10 +903,10 @@
         "d. Miniprocessor"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -906,10 +920,10 @@
         "d. Odd Parity Code"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -923,10 +937,10 @@
         "d. DISC"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -940,10 +954,10 @@
         "d. Trigger methods"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -957,9 +971,9 @@
         "d. Device queue"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -971,10 +985,10 @@
         "Suggested (Verified DB): Memory Fill"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -988,10 +1002,10 @@
         "d. Software interrupt"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1005,10 +1019,10 @@
         "d. Associative mapping"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1022,10 +1036,10 @@
         "d. Control line"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1039,10 +1053,10 @@
         "d. Hamming code"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1056,10 +1070,10 @@
         "d. DDR DRAM"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1070,10 +1084,10 @@
         "Suggested (Verified DB): Processor Fill"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1087,9 +1101,9 @@
         "d. Average-Term Scheduler"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1104,10 +1118,10 @@
         "d. Operating System"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1121,10 +1135,10 @@
         "d. 1951"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1138,10 +1152,10 @@
         "d. 1928"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1155,10 +1169,10 @@
         "d. Cache memory"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1172,10 +1186,10 @@
         "d. USB port"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1187,9 +1201,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1204,9 +1218,9 @@
         "d. Memory management"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1221,9 +1235,9 @@
         "d. Swapping"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1235,10 +1249,10 @@
         "Suggested (Verified DB): Power pin Fill"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1252,10 +1266,10 @@
         "d. RAM"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1269,10 +1283,10 @@
         "I/O modules"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-11T02:42:05Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1286,10 +1300,10 @@
         "d. Cycle stealing mode"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1303,10 +1317,10 @@
         "d. Rotate"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1318,9 +1332,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1333,9 +1347,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1348,9 +1362,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1365,10 +1379,10 @@
         "d. Rotate"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1382,10 +1396,10 @@
         "d. Logical shift"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1399,10 +1413,10 @@
         "d. 60"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1416,10 +1430,10 @@
         "d. Data"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1433,10 +1447,10 @@
         "d. Flash Drive"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:37Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1450,10 +1464,10 @@
         "d. No right answer"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1467,10 +1481,10 @@
         "d. 1993"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1484,9 +1498,9 @@
         "d. Mac"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1501,10 +1515,10 @@
         "d. Address Line"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1518,9 +1532,9 @@
         "d. Job accounting"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1535,10 +1549,10 @@
         "d. Remove"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:01:12Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1547,9 +1561,9 @@
       "answer": "data bus",
       "choices": [],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1561,19 +1575,19 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-24T13:53:31Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "These lines, collectively, are called the Answer Question 14.",
       "answer": "Data Bus",
       "choices": [],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1583,9 +1597,9 @@
       "answer": "data bus",
       "choices": [],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1600,10 +1614,10 @@
         "d. Processor communication"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1617,9 +1631,9 @@
         "d. Shortest Job Next"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1634,10 +1648,10 @@
         "d. Binary Integer Arithmetic"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1651,10 +1665,10 @@
         "d. EAROM"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1669,9 +1683,9 @@
         "Christian Genco"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1684,9 +1698,9 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1701,10 +1715,10 @@
         "d. Internet and Network"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T08:04:57Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [
         "Internet and Network"
       ],
@@ -1717,10 +1731,10 @@
         "Suggested (Verified DB): Control line Fill"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1734,10 +1748,10 @@
         "d. Erasable Programmable Read-Only Memory"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:00:07Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1751,10 +1765,10 @@
         "d. Peripheral Computer Interconnect"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:58:26Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1768,10 +1782,10 @@
         "d. User Natural Interface"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-09-30T08:02:48Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1785,10 +1799,10 @@
         "d. Net money income"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T07:54:51Z",
-      "source": "review_screen",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
+      "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1802,9 +1816,9 @@
         "Manages peripheral interrupts"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-11T10:01:00Z",
-      "lastVerifiedAt": "2026-09-25T14:27:06Z",
+      "lastVerifiedAt": "2026-09-30T08:05:11Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
