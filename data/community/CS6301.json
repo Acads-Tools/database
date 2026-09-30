@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-30T14:08:06Z",
-  "totalQuestions": 179,
+  "updatedAt": "2026-09-30T14:13:05Z",
+  "totalQuestions": 182,
   "questions": [
     {
       "question": "(1217)₈ is equivalent to",
@@ -92,9 +92,9 @@
         "d. right shift"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T12:19:24Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -282,9 +282,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:08:06Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1052,11 +1052,12 @@
         "d. Both addition and subtraction"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-23T14:53:51Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false
     },
     {
       "question": "It is possible for an enable or strobe input to undergo an expansion of two or more MUX ICs to the digital multiplexer with the proficiency of large number of ___________",
@@ -1559,9 +1560,9 @@
         "d. 7"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:08:06Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
       "wrongAnswers": [],
       "isAiSuggestion": false
     },
@@ -1627,9 +1628,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-25T10:55:27Z",
-      "lastVerifiedAt": "2026-09-25T10:55:27Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
       "source": "review_screen"
     },
     {
@@ -1805,9 +1806,9 @@
         "d. input logic function"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T12:40:45Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1861,6 +1862,24 @@
       "lastVerifiedAt": "2026-09-30T14:08:06Z",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "The K-map based Boolean reduction is based on the following Unifying Theorem: A + A’ = 1.",
+      "answer": "Non Impact",
+      "choices": [
+        "a. Impact",
+        "b. Complementarity",
+        "c. Force",
+        "d. Non Impact"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T14:13:05Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
+      "source": "review_screen"
     },
     {
       "question": "The length of a register is called _______",
@@ -2517,6 +2536,24 @@
       "source": "review_screen"
     },
     {
+      "question": "what is?",
+      "answer": "b. 1",
+      "choices": [
+        "a. 2",
+        "b. 1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "2"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T14:13:05Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
+      "source": "review_screen"
+    },
+    {
       "question": "What kind of a flag is the sign flag?",
       "answer": "Status",
       "choices": [
@@ -2549,6 +2586,24 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "When both inputs of a J-K flip-flop cycle, the output will ___________",
+      "answer": "Not change",
+      "choices": [
+        "a. Not change",
+        "b. Change",
+        "c. Toggle",
+        "d. Be invalid"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T14:13:05Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
+      "source": "review_screen"
     },
     {
       "question": "When logic gates are connected to form a gating/logic network it is called as a ______________ logic circuit.",
@@ -2609,9 +2664,9 @@
         "d. Generation of selected path between multiple sources and a single destination"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-25T10:04:52Z",
+      "lastVerifiedAt": "2026-09-30T14:13:05Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
