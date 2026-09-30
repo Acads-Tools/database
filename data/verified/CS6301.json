@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-30T09:48:44Z",
-  "totalQuestions": 171,
+  "updatedAt": "2026-09-30T09:52:54Z",
+  "totalQuestions": 172,
   "tier": "verified",
   "questions": [
     {
@@ -48,6 +48,23 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "3 bits full adder contains ________",
+      "answer": "8 combinational inputs",
+      "choices": [
+        "a. 6 combinational inputs",
+        "b. 4 combinational inputs",
+        "c. 8 combinational inputs",
+        "d. 3 combinational inputs"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-30T09:52:54Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
+      "source": "review_screen"
     },
     {
       "question": "7’s complement of 432 is _________________",
@@ -573,9 +590,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen"
     },
     {
@@ -600,9 +617,9 @@
         "d. All are HIGH"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -882,9 +899,9 @@
         "d. literals"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1525,9 +1542,9 @@
         "d. All but Y0 are LOW"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1576,9 +1593,9 @@
         "d. (X+Y+Z’)(X’+Y)"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1624,9 +1641,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen"
     },
     {
@@ -1756,9 +1773,9 @@
         "d. 2ⁿ⁻¹"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1823,9 +1840,9 @@
         "d. xyz"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1856,9 +1873,9 @@
         "d. x+y+z"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -1906,9 +1923,9 @@
         "d. 4"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -2085,9 +2102,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -2374,9 +2391,9 @@
         "d. XYZ’"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -2410,9 +2427,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen"
     },
     {
@@ -2442,9 +2459,9 @@
         "d. XNOR"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
@@ -2527,9 +2544,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen"
     },
     {
@@ -2658,9 +2675,9 @@
         "d. X=(AB)’+A’B’"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T09:48:44Z",
+      "lastVerifiedAt": "2026-09-30T09:52:54Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false
