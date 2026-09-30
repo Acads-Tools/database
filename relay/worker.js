@@ -1208,14 +1208,17 @@ export default {
         const typeBadge = (q.isAiSuggestion || (q.source && String(q.source).toLowerCase().includes('gemini')))
           ? '✦ AI Suggestion'
           : (q.verified ? '✔ Verified' : 'Community');
-        return `| ${idx + 1} | ${cleanQ} | **${cleanAns}** | ${typeBadge} |`;
+        const wrongList = Array.isArray(q.wrongAnswers) && q.wrongAnswers.length > 0
+          ? q.wrongAnswers.map(w => `~~${String(w).replace(/\|/g, '\\|').slice(0, 40)}~~`).join(', ')
+          : '—';
+        return `| ${idx + 1} | ${cleanQ} | **${cleanAns}** | ${typeBadge} | ${wrongList} |`;
       }).join('\n');
 
       const extraNote = validQuestions.length > 25
         ? `\n*... and ${validQuestions.length - 25} more verified questions in this submission.*\n`
         : '';
 
-      const title = `✅ New answer contribution — ${subjectCode} — ${validQuestions.length} answer${validQuestions.length === 1 ? '' : 's'}`;
+      const title = `New answer contribution — ${subjectCode} — ${validQuestions.length} answer${validQuestions.length === 1 ? '' : 's'}`;
       const body = [
         `## New answer contribution: ${subjectCode}`,
         ``,
@@ -1231,16 +1234,15 @@ export default {
         `| **Received** | ${new Date().toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, ' UTC')} |`,
         ``,
         `### Answer preview`,
-        `| # | Question | Answer | Type |`,
-        `| :---: | :--- | :--- | :---: |`,
+        `| # | Question | Answer | Type | Eliminated Choices |`,
+        `| :---: | :--- | :--- | :---: | :--- |`,
         questionRows,
         extraNote,
         ``,
         `### What happens next`,
         `1. Automated checks validate the subject, question format, duplicates, and answer evidence.`,
-        `2. A pull request is created for the database change.`,
-        `3. The privacy check and protected-branch rules run before merge.`,
-        `4. This issue is closed automatically after a successful merge.`,
+        `2. The privacy check runs and the changes are pushed directly to the live database.`,
+        `3. This issue is closed automatically after a successful merge.`,
         ``,
         `<details>`,
         `<summary><b>Technical payload (for automation)</b></summary>`,
