@@ -1187,6 +1187,7 @@ export default {
           question: q.question || q.qRaw,
           answer: q.answer || q.ansRaw,
           choices: q.choices || [],
+          questionType: q.questionType || (Array.isArray(q.choices) && q.choices.length > 0 ? "multichoice" : "shortanswer"),
           wrongAnswers: q.wrongAnswers || [],
           verified: Boolean(q.verified),
           isAiSuggestion: Boolean(q.isAiSuggestion || (q.source && String(q.source).toLowerCase().includes('gemini'))),

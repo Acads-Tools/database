@@ -243,6 +243,16 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                 if not any(w.lower() == ew.lower() for ew in existing_wrong):
                     existing_wrong.append(w)
 
+            # Merge choices pool (future-proofing against Moodle updating choice pools)
+            existing_choices = existing_item.setdefault("choices", [])
+            for c in sanitized_choices:
+                if not any(c.lower() == ec.lower() for ec in existing_choices):
+                    existing_choices.append(c)
+
+            # Preserve/update questionType
+            if not existing_item.get("questionType"):
+                existing_item["questionType"] = item.get("questionType") or ("multichoice" if existing_choices else "shortanswer")
+
             # Safety Guard: If incoming answer matches any known wrong answer, reject
             if any(clean_a.lower() == ew.lower() for ew in existing_wrong):
                 rejected_count += 1
@@ -299,7 +309,7 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                 "question": clean_q,
                 "answer": clean_a,
                 "choices": sanitized_choices,
-                "questionType": "multichoice" if sanitized_choices else "shortanswer",
+                "questionType": item.get("questionType") or ("multichoice" if sanitized_choices else "shortanswer"),
                 "wrongAnswers": incoming_wrong,
                 "verified": not is_ai_suggestion and is_verified_source,
                 "isAiSuggestion": is_ai_suggestion,
