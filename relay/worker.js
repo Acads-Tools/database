@@ -11,7 +11,7 @@
  */
 
 const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
-const LATEST_VERSION = "1.8.2";
+const LATEST_VERSION = "1.8.3";
 const SHARED_POOL_WINDOW_MS = 60_000;
 const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 1;
 const SHARED_POOL_MAX_REQUESTS_GLOBAL = 20;
@@ -1012,7 +1012,7 @@ export default {
 
     if (request.method === "POST" && path === "/ai") {
       const clientVersion = request.headers.get("X-AMAES-Client-Version");
-      const minimumVersion = env.MIN_CLIENT_VERSION || "1.7.5";
+      const minimumVersion = env.MIN_CLIENT_VERSION || "1.8.2";
       if (env.REQUIRE_CLIENT_VERSION === "true" &&
           (!clientVersion || !isSupportedVersion(clientVersion, minimumVersion))) {
         return jsonResponse({
@@ -1032,7 +1032,7 @@ export default {
 
     if (request.method === "GET" || request.method === "HEAD") {
       if (path === "/version") {
-        const minimumVersion = env.MIN_CLIENT_VERSION || "1.7.5";
+        const minimumVersion = env.MIN_CLIENT_VERSION || "1.8.2";
         return new Response(JSON.stringify({
           status: "ok",
           minimumVersion,
@@ -1118,7 +1118,7 @@ export default {
     try {
       const payload = await request.json();
       const clientVersion = request.headers.get("X-AMAES-Client-Version") || payload.clientVersion;
-      const minimumVersion = env.MIN_CLIENT_VERSION || "1.7.5";
+      const minimumVersion = env.MIN_CLIENT_VERSION || "1.8.2";
       if (env.REQUIRE_CLIENT_VERSION === "true" &&
           (!clientVersion || !isSupportedVersion(clientVersion, minimumVersion))) {
         return new Response(JSON.stringify({
