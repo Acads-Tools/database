@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-09-30T15:16:59Z",
+  "updatedAt": "2026-10-02T00:18:19Z",
   "totalQuestions": 74,
   "questions": [
     {
@@ -421,15 +421,20 @@
         "a. Windows Phone",
         "b. Windows Mobile 2003 SE",
         "c. Pocket PC 2000",
-        "d. Windows Mobile 2003"
+        "d. Windows Mobile 2003",
+        "a. Windows Mobile 2003 SE",
+        "b. Pocket PC 2000",
+        "c. Windows Mobile 2003",
+        "d. Windows Phone"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-09-30T15:12:12Z",
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The _________ tells the system when to use the contained resources.",
@@ -568,15 +573,18 @@
         "a. Netherlands",
         "b. Norway",
         "c. Finland",
-        "d. Fiji"
+        "d. Fiji",
+        "a. Fiji",
+        "d. Netherlands"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-09-30T15:12:12Z",
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The push notification for 3rd party apps was first seen during this iOS 4 update.",
@@ -588,10 +596,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-09-30T15:12:12Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The RecyclerView provides layout managers for positioning items",
@@ -878,15 +887,20 @@
         "a. Ingenious Mobile Telephone System",
         "b. Improved Mobile Telephone System",
         "c. Important Mobile Telephone System",
-        "d. None of the choices"
+        "d. None of the choices",
+        "a. Improved Mobile Telephone System",
+        "b. None of the choices",
+        "c. Ingenious Mobile Telephone System",
+        "d. Important Mobile Telephone System"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is the estimated total number of Android devices sold in 2014?",
@@ -963,15 +977,19 @@
         "a. Nokia",
         "b. Samsung",
         "c. Iphone",
-        "d. Blackberry OS"
+        "d. Blackberry OS",
+        "b. Blackberry OS",
+        "c. Samsung",
+        "d. Iphone"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What version did Java Support first appear in the Blackberry OS updates?",
@@ -1002,10 +1020,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-09-30T15:12:12Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When creating a new Android Project, you first SELECT FILE > NEW >________",
@@ -1048,15 +1067,19 @@
         "a. November 2007",
         "b. December 2007",
         "c. October 2007",
-        "d. September 2007"
+        "d. September 2007",
+        "a. September 2007",
+        "b. November 2007",
+        "d. December 2007"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When did Japan achieve a city-wide commercial mobile phone network?",
@@ -1097,15 +1120,18 @@
         "a. Alan K",
         "b. Alan Kate",
         "c. Alan Kaye",
-        "d. Federal Communications Conference Alan Kay"
+        "d. Federal Communications Conference Alan Kay",
+        "b. Federal Communications Conference Alan Kay",
+        "d. Alan Kate"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-09-30T15:12:12Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "With an Android-powered device, you can develop and debug your Android applications just as you would on the emulator",
