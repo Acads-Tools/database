@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:22:51Z",
-  "totalQuestions": 79,
+  "updatedAt": "2026-10-02T00:23:09Z",
+  "totalQuestions": 83,
   "tier": "verified",
   "questions": [
     {
@@ -86,15 +86,18 @@
       "answer": "False",
       "choices": [
         "a. True",
-        "b. False"
+        "b. False",
+        "a. False",
+        "b. True"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A layout manager positions item views inside the RecylerView",
@@ -116,15 +119,34 @@
       "answer": "True",
       "choices": [
         "a. False",
-        "b. True"
+        "b. True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
+    },
+    {
+      "question": "actionDone is one of most common values for android.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:23:09Z",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen"
     },
     {
       "question": "Although the Eclipse Platform is written in Java, it supports plug-ins that allows developers to develop and test code written in other languages.",
@@ -284,6 +306,24 @@
       "source": "review_screen"
     },
     {
+      "question": "Editable text fields or hints do not have a distinct appearance and behavior from static ones.",
+      "answer": "a. False",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:23:09Z",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Every button is styled using the system’s ___________ button background",
       "answer": "Default",
       "choices": [
@@ -388,6 +428,22 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Menus are a common user interface component in many types of applications",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:23:09Z",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen"
+    },
+    {
       "question": "On Android 3.0 and higher, items from the options menu are presented by the action bar as a combination of on-screen action items and overflow options.",
       "answer": "True",
       "choices": [
@@ -411,12 +467,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "R.array.spinnerColors is the ID of the string array.",
@@ -426,12 +483,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "RelativeLayout lets you specify where each element should be placed with respect to the other elements in the interface.",
@@ -600,12 +658,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The attribute that determines whether it stretches the image to the specified dimensions.",
@@ -715,6 +774,22 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-02T00:22:51Z",
       "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "The OptionsMenu is the tertiary collection of menu items for an activity.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:23:09Z",
+      "lastVerifiedAt": "2026-10-02T00:23:09Z",
       "source": "review_screen"
     },
     {
@@ -992,8 +1067,17 @@
       "firstSeenAt": "2026-09-14T14:11:02Z",
       "lastVerifiedAt": "2026-09-25T14:27:29Z",
       "source": "community_contribution",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "wrongAnswers": [
+        "True"
+      ],
+      "isAiSuggestion": false,
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "b. False",
+          "timestamp": "2026-10-02T00:23:09Z"
+        }
+      ]
     },
     {
       "question": "Using a Cursor Loader is helpful when avoiding/blocking an Adapter",
