@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-09-30T14:34:50Z",
+  "updatedAt": "2026-10-02T00:27:51Z",
   "totalQuestions": 184,
   "tier": "verified",
   "questions": [
@@ -142,11 +142,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A computer language that is written in binary codes only is _____",
@@ -155,14 +156,17 @@
         "a. Pascal",
         "b. C#",
         "c. C",
-        "d. machine language"
+        "d. machine language",
+        "c. machine language",
+        "d. C"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A digital multiplexer is a combinational circuit that selects ___________",
@@ -301,11 +305,12 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "According to study reports of Global Entrepreneurship Monitor (GEM), entrepreneurs are most likely to launch businesses when they are between the ages of 35 and 44.",
@@ -481,14 +486,19 @@
         "a. 28",
         "b. 82",
         "c. 81",
-        "d. 18"
+        "d. 18",
+        "a. 18",
+        "b. 81",
+        "c. 82",
+        "d. 28"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Convert (52)₁₆ into its decimal equivalent.",
@@ -497,14 +507,18 @@
         "a. 82",
         "b. 83",
         "c. 80",
-        "d. 28"
+        "d. 28",
+        "a. 80",
+        "c. 28",
+        "d. 82"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Convert 1088 to octal",
@@ -573,14 +587,18 @@
         "a. 12",
         "b. 21",
         "c. 31",
-        "d. 22"
+        "d. 22",
+        "b. 22",
+        "c. 21",
+        "d. 31"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "CPU has built-in ability to execute a particular set of machine instructions, called as __________",
@@ -936,14 +954,17 @@
       "answer": "True",
       "choices": [
         "True",
-        "False"
+        "False",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In double precision format, the size of the mantissa is ______",
@@ -1132,14 +1153,17 @@
         "a. Numeric System",
         "b. Digital Logic",
         "c. Decimal Base",
-        "d. Radix Number System"
+        "d. Radix Number System",
+        "a. Radix Number System",
+        "d. Numeric System"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Latches constructed with NOR and NAND gates tend to remain in the latched condition due to which configuration feature?",
@@ -1578,14 +1602,17 @@
         "a. 010",
         "b. 1010",
         "c. 10",
-        "d. 0010"
+        "d. 0010",
+        "b. 0010",
+        "d. 1010"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The binary number 111 in octal format is ________________",
@@ -1594,14 +1621,17 @@
         "a. 5",
         "b. 6",
         "c. 8",
-        "d. 7"
+        "d. 7",
+        "a. 7",
+        "d. 5"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The binary number 1110 in hexadecimal format is _____________",
@@ -1610,14 +1640,19 @@
         "a. 15",
         "b. 6",
         "c. 14",
-        "d. E"
+        "d. E",
+        "a. 6",
+        "b. 14",
+        "c. E",
+        "d. 15"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The Boolean expression for a 3-input AND gate is ________.",
@@ -1891,14 +1926,18 @@
         "a. E",
         "b. 15",
         "c. 14",
-        "d. 0111"
+        "d. 0111",
+        "b. 14",
+        "c. 0111",
+        "d. 15"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The K-map based Boolean reduction is based on the following Unifying Theorem: A + A’ = 1.",
@@ -1976,14 +2015,19 @@
         "a. 4",
         "b. 7",
         "c. 8",
-        "d. 3"
+        "d. 3",
+        "a. 7",
+        "b. 3",
+        "c. 4",
+        "d. 8"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The min term when X=Y=Z=0 is _____________",
@@ -2094,14 +2138,18 @@
         "a. 624.12",
         "b. 154.12",
         "c. 145.12",
-        "d. 145.21"
+        "d. 145.21",
+        "a. 154.12",
+        "b. 145.21",
+        "d. 624.12"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The Output is LOW if any one of the inputs is HIGH in case of a _________ gate.",
@@ -2337,14 +2385,19 @@
         "a. 1",
         "b. 10",
         "c. 2",
-        "d. 8"
+        "d. 8",
+        "a. 2",
+        "b. 8",
+        "c. 10",
+        "d. 1"
       ],
       "verified": true,
-      "confirmations": 31,
+      "confirmations": 32,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The word demultiplex means ___________",
@@ -2402,14 +2455,19 @@
         "a. 6",
         "b. 7",
         "c. 8",
-        "d. 5"
+        "d. 5",
+        "a. 5",
+        "b. 8",
+        "c. 7",
+        "d. 6"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What does the small bubble on the output of the NAND gate logic symbol mean?",
@@ -2434,14 +2492,19 @@
         "a. 14",
         "b. 8",
         "c. 13",
-        "d. 16"
+        "d. 16",
+        "a. 16",
+        "b. 13",
+        "c. 14",
+        "d. 8"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is a multiplexer?",
@@ -2817,14 +2880,18 @@
         "a. 1111",
         "b. 11E",
         "c. 101",
-        "d. 000"
+        "d. 000",
+        "a. 101",
+        "c. 000",
+        "d. 1111"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is not a positional number system?",
@@ -2833,14 +2900,19 @@
         "Octal Number System",
         "Roman Number System",
         "Hexadecimal Number System",
-        "Binary Number System"
+        "Binary Number System",
+        "a. Octal Number System",
+        "b. Hexadecimal Number System",
+        "c. Binary Number System",
+        "d. Roman Number System"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is not a visible register?",
@@ -2866,14 +2938,19 @@
         "a. (000)₂",
         "b. 1110",
         "c. (124)₂",
-        "d. (110)²"
+        "d. (110)²",
+        "a. (124)₂",
+        "b. (000)₂",
+        "c. (110)²",
+        "d. 1110"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-09-30T14:13:37Z",
+      "lastVerifiedAt": "2026-10-02T00:27:51Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following logic expressions represents the logic diagram shown? [Image: [moodle-asset:207772/2.png]]",
