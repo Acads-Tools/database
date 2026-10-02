@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:20:01Z",
+  "updatedAt": "2026-10-02T00:20:16Z",
   "totalQuestions": 75,
   "tier": "verified",
   "questions": [
@@ -146,12 +146,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Android offers custom plugin for the Eclipse IDE and it is called the ADK(Android Development Kit)",
@@ -207,12 +208,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Eclipse got its start in 2005 when IBM donated 3 million lines of code from its Java tools",
@@ -467,15 +469,20 @@
         "a. Qualifier",
         "b. Dividend",
         "c. Quantifier",
-        "d. Exponent"
+        "d. Exponent",
+        "a. Exponent",
+        "b. Quantifier",
+        "c. Dividend",
+        "d. Qualifier"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The _____________ is responsible for developing the Eclipse IDE workbench.",
@@ -505,12 +512,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The android:inputType attribute lets you specify what kind of input you're expecting.",
@@ -673,12 +681,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The TextView is a subclass of View that represents a substandard text field component. True or False?",
@@ -725,15 +734,18 @@
         "a. Source Code, Auto Generated Code, Included Sections",
         "b. Source Code, Postal Code, HTML",
         "c. Source Code, Auto Generated Code, HTML",
-        "d. Source Code, Auto Generated Code, Included Libraries"
+        "d. Source Code, Auto Generated Code, Included Libraries",
+        "a. Source Code, Auto Generated Code, HTML",
+        "c. Source Code, Auto Generated Code, Included Sections"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "These tools contain platform-dependent tools for developing and debugging your application.",
@@ -780,15 +792,19 @@
         "a. Package Name",
         "b. Name Package",
         "c. Name of the Packages",
-        "d. Names of Packages"
+        "d. Names of Packages",
+        "b. Name of the Packages",
+        "c. Names of Packages",
+        "d. Name Package"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "This constant makes the element as big as it needs to contain its content.",
@@ -849,12 +865,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "To provide a familliar and consistent user experience, you should use the Menu and Dialogs to present user actions and other options in your activities.",
@@ -1101,15 +1118,19 @@
         "a. None of the Choices",
         "b. Project",
         "c. Document",
-        "d. Reference"
+        "d. Reference",
+        "a. Reference",
+        "c. None of the Choices",
+        "d. Document"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-30T15:14:23Z",
+      "lastVerifiedAt": "2026-10-02T00:20:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "When did Dr. Martin Cooper successfully call on a handheld mobile phone?",
