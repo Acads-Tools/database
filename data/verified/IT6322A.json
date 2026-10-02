@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:23:29Z",
+  "updatedAt": "2026-10-02T00:24:14Z",
   "totalQuestions": 83,
   "tier": "verified",
   "questions": [
@@ -104,15 +104,18 @@
       "answer": "True",
       "choices": [
         "a. True",
-        "b. False"
+        "b. False",
+        "a. False",
+        "b. True"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:12:29Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A PopupMenu is a modal menu anchored to a View",
@@ -203,12 +206,13 @@
         "b. True"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:13:50Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Another way to customize the soft keyboard is with the android.R.simple_spinner_item attribute.",
@@ -423,15 +427,18 @@
       "answer": "False",
       "choices": [
         "a. False",
-        "b. True"
+        "b. True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:12:29Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Menus are a common user interface component in many types of applications",
@@ -828,12 +835,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:12:29Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The RecyclerView widget is a more advanced and flexible version of the ListView",
@@ -843,12 +851,13 @@
         "b. True"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:12:29Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The Source code or the src code is the directory which will contain all of you applications source files",
@@ -1101,12 +1110,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:12:29Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What device falls between a smartphone and a laptop in usability and functionality?",
@@ -1415,12 +1425,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:13:50Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "While spinners may offer similar functionality as radio buttons, they do not require an entirely different API",
@@ -1467,15 +1478,18 @@
       "answer": "True",
       "choices": [
         "a. True",
-        "b. False"
+        "b. False",
+        "a. False",
+        "b. True"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:13:50Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "wrap_content makes the element as big as it needs to be to contain its content",
@@ -1501,27 +1515,31 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:13:50Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "You can install your application on the device directly from Android Studio",
       "answer": "True",
       "choices": [
         "a. False",
-        "b. True"
+        "b. True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:13:50Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:24:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "You can scale images by defining layout_width and layout_height attributes on the ____________ element",
