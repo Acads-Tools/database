@@ -1,9 +1,25 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:25:00Z",
-  "totalQuestions": 23,
+  "updatedAt": "2026-10-02T22:25:24Z",
+  "totalQuestions": 28,
   "questions": [
+    {
+      "question": "_construct() method executes when a class is created or instantiated.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:25:24Z",
+      "lastVerifiedAt": "2026-10-02T22:25:24Z",
+      "source": "review_screen"
+    },
     {
       "question": "A variable declared within a function.",
       "answer": "Local",
@@ -15,12 +31,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 2,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:24:01Z",
-      "lastVerifiedAt": "2026-10-02T22:25:00Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:25:24Z",
+      "source": "review_screen"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -39,6 +55,40 @@
       "source": "Review"
     },
     {
+      "question": "Database group configuration in CI is stored in a multi-dimensional array.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:25:24Z",
+      "lastVerifiedAt": "2026-10-02T22:25:24Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "Defines a multi-line text input control.",
+      "answer": "// tag",
+      "choices": [
+        "a. // tag",
+        "b. // tag",
+        "c. // tag",
+        "d. // tag"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:25:24Z",
+      "lastVerifiedAt": "2026-10-02T22:25:24Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Delimiter symbol for rules in form validation.",
       "answer": "\"|\" or pipe symbol",
       "choices": [
@@ -49,12 +99,30 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:25:00Z",
-      "lastVerifiedAt": "2026-10-02T22:25:00Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:25:24Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "Element can be placed onto a web page in a pre-checked fashion by setting the checked attribute.",
+      "answer": "Checkbox",
+      "choices": [
+        "a. Options",
+        "b. Checkbox",
+        "c. Selection",
+        "d. List"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:25:24Z",
+      "lastVerifiedAt": "2026-10-02T22:25:24Z",
+      "source": "review_screen"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1994] What year did PHP began its development?",
@@ -169,6 +237,24 @@
       "firstSeenAt": "2026-10-02T22:14:56Z",
       "lastVerifiedAt": "2026-10-02T22:25:00Z",
       "source": "Google Gemini AI"
+    },
+    {
+      "question": "Other term used for Option buttons?",
+      "answer": "Radio Buttons",
+      "choices": [
+        "a. Selection Buttons",
+        "b. Select Buttons",
+        "c. Radio Buttons",
+        "d. Television Buttons"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:25:24Z",
+      "lastVerifiedAt": "2026-10-02T22:25:24Z",
+      "source": "review_screen"
     },
     {
       "question": "PDO stands for Personal Data Objects.",
