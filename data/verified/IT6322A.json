@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:21:33Z",
+  "updatedAt": "2026-10-02T00:22:22Z",
   "totalQuestions": 75,
   "tier": "verified",
   "questions": [
@@ -68,15 +68,18 @@
         "a. Android",
         "b. Button",
         "c. Image",
-        "d. Buttoning"
+        "d. Buttoning",
+        "b. Image",
+        "c. Button"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A ContextualMenu offers actions that affect general items or constant frame in the UI",
@@ -254,15 +257,19 @@
         "a. Fixed",
         "b. Varying",
         "c. Default",
-        "d. Common"
+        "d. Common",
+        "a. Varying",
+        "b. Default",
+        "c. Common",
+        "d. Fixed"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
       "source": "review_screen"
     },
     {
@@ -317,15 +324,20 @@
         "a. ImageView",
         "b. android:onClick",
         "c. Relative Layout",
-        "d. ViewGroup"
+        "d. ViewGroup",
+        "a. android:onClick",
+        "b. ViewGroup",
+        "c. ImageView",
+        "d. Relative Layout"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "ListView is a view group that displays a list of unscrollable items",
@@ -398,9 +410,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
       "source": "review_screen"
     },
     {
@@ -554,15 +566,18 @@
         "a. Scaling Images",
         "b. ImageView",
         "c. centerInside",
-        "d. android:scaleType"
+        "d. android:scaleType",
+        "b. centerInside",
+        "c. ImageView"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The LinearLayout class arranges all of the contained UI elements either horizontally or vertically.",
@@ -575,9 +590,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
       "source": "review_screen"
     },
     {
@@ -832,15 +847,19 @@
         "a. Name Package",
         "b. wrap_content",
         "c. Explicit Decision",
-        "d. match_parent"
+        "d. match_parent",
+        "a. match_parent",
+        "b. Name Package",
+        "d. wrap_content"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "This constant makes the element match the width and height of the parent element.",
@@ -866,15 +885,19 @@
         "a. None of the choices",
         "b. Outer Space",
         "c. Interface",
-        "d. Layout"
+        "d. Layout",
+        "b. Layout",
+        "c. Outer Space",
+        "d. Interface"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "To display the raw HTML, click the activity_main.html tab in the bottom-left of Eclipse's editing area",
@@ -1281,12 +1304,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "You are in your final chapter of Mobile Programming",
@@ -1325,15 +1349,20 @@
         "a. Name Package",
         "b. ImageView",
         "c. Wrap_content",
-        "d. Image Partner"
+        "d. Image Partner",
+        "a. Wrap_content",
+        "b. Image Partner",
+        "c. Name Package",
+        "d. ImageView"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-02T00:22:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "You create new tabs by requesting one from the ActionBar using its newTab() method.",
