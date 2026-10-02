@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:25:42Z",
-  "totalQuestions": 34,
+  "updatedAt": "2026-10-02T22:26:07Z",
+  "totalQuestions": 36,
   "questions": [
     {
       "question": "_construct() method executes when a class is created or instantiated.",
@@ -55,6 +55,24 @@
       "source": "Review"
     },
     {
+      "question": "Can hold an unlimited number of characters, and the text renders in a fixed-width font.",
+      "answer": "TextArea",
+      "choices": [
+        "a. Paragraph",
+        "b. Content",
+        "c. Selection",
+        "d. TextArea"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:26:07Z",
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
+    },
+    {
       "question": "CI method or code to set a rule in form validation.",
       "answer": "$this->form_validation->set_rules()",
       "choices": [
@@ -65,12 +83,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "Database group configuration in CI is stored in a multi-dimensional array.",
@@ -99,12 +117,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "Defines a multi-line text input control.",
@@ -149,16 +167,19 @@
         "a. Options",
         "b. Checkbox",
         "c. Selection",
-        "d. List"
+        "d. List",
+        "a. Selection",
+        "c. List",
+        "d. Options"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "Element represents a control that presents a menu of options.",
@@ -171,12 +192,31 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "Form Helper method or code to return an HTML password input type.",
+      "answer": "form_password()",
+      "choices": [
+        "a. form_pword()",
+        "b. password()",
+        "c. form_password()",
+        "d.",
+        "e. form"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:26:07Z",
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1994] What year did PHP began its development?",
@@ -285,12 +325,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "It is a URI Component that serve as persistent, location-independent identifiers",
@@ -321,12 +361,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "Other term used for Option buttons?",
@@ -335,16 +375,20 @@
         "a. Selection Buttons",
         "b. Select Buttons",
         "c. Radio Buttons",
-        "d. Television Buttons"
+        "d. Television Buttons",
+        "a. Radio Buttons",
+        "b. Television Buttons",
+        "c. Select Buttons",
+        "d. Selection Buttons"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "PDO stands for Personal Data Objects.",
@@ -458,12 +502,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:25:42Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:26:07Z",
+      "source": "review_screen"
     },
     {
       "question": "The default file extension for PHP file is \".php\"",
