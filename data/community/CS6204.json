@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-02T21:44:47Z",
+  "updatedAt": "2026-10-02T21:45:49Z",
   "totalQuestions": 110,
   "questions": [
     {
@@ -11,13 +11,16 @@
         "a. Error correction parity",
         "b. Error correction codes",
         "c. Error detection codes",
-        "d. Error detection parity"
+        "d. Error detection parity",
+        "a. Error detection codes",
+        "b. Error correction parity",
+        "c. Error correction codes"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -29,13 +32,16 @@
         "a. DRAM",
         "b. CDRAM",
         "c. CDROM",
-        "d. SRAM"
+        "d. SRAM",
+        "b. SRAM",
+        "c. CDRAM",
+        "d. CDROM"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -719,13 +725,15 @@
         "a. RDRAM",
         "b. SRAM",
         "c. DRAM",
-        "d. CDRAM"
+        "d. CDRAM",
+        "a. CDRAM",
+        "d. RDRAM"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -868,13 +876,16 @@
         "a. SRAM",
         "b. DRAM",
         "c. CDRAM",
-        "d. CDROM"
+        "d. CDROM",
+        "b. CDROM",
+        "c. DRAM",
+        "d. CDRAM"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -886,13 +897,16 @@
         "a. RDRAM",
         "b. SDRAM",
         "c. CDRAM",
-        "d. DDR DRAM"
+        "d. DDR DRAM",
+        "a. SDRAM",
+        "b. CDRAM",
+        "c. RDRAM"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1042,13 +1056,15 @@
         "a. Even Parity Code",
         "b. Binary Code",
         "c. Parity Code",
-        "d. Odd Parity Code"
+        "d. Odd Parity Code",
+        "b. Parity Code",
+        "c. Binary Code"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1201,13 +1217,17 @@
         "a. Parity code",
         "b. Odd-parity Code",
         "c. Binary code",
-        "d. Hamming code"
+        "d. Hamming code",
+        "a. Odd-parity Code",
+        "b. Hamming code",
+        "c. Parity code",
+        "d. Binary code"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1219,13 +1239,17 @@
         "a. RDRAM",
         "b. SDRAM",
         "c. CDRAM",
-        "d. DDR DRAM"
+        "d. DDR DRAM",
+        "a. DDR DRAM",
+        "b. CDRAM",
+        "c. RDRAM",
+        "d. SDRAM"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1673,13 +1697,17 @@
         "a. Parity Code",
         "b. Odd Parity Code",
         "c. Even Parity Code",
-        "d. No right answer"
+        "d. No right answer",
+        "a. Odd Parity Code",
+        "b. No right answer",
+        "c. Parity Code",
+        "d. Even Parity Code"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1778,13 +1806,17 @@
         "a. Improve",
         "b. Detect",
         "c. Correct",
-        "d. Remove"
+        "d. Remove",
+        "a. Detect",
+        "b. Correct",
+        "c. Remove",
+        "d. Improve"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
