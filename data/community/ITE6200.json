@@ -1,9 +1,64 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:15:37Z",
-  "totalQuestions": 3,
+  "updatedAt": "2026-10-02T22:18:38Z",
+  "totalQuestions": 9,
   "questions": [
+    {
+      "question": "Andi Gutmans was the inventor of PHP.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:18:38Z",
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1994] What year did PHP began its development?",
+      "answer": "1994",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:18:38Z",
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1995] Year that PHP was officially called Personal Home Page Tools.",
+      "answer": "1995",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:18:38Z",
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 4.1.0] Version of PHP that introduces the use of superglobals.",
+      "answer": "4.1.0",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:18:38Z",
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
+    },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____] Year that PHP was officially called Personal Home Page Tools.",
       "answer": "199",
@@ -28,15 +83,49 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 2,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:14:56Z",
-      "lastVerifiedAt": "2026-10-02T22:15:37Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "PDO stands for Personal Data Objects.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:18:38Z",
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
     },
     {
       "question": "PHP development began in 1995.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:14:56Z",
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "The default file extension for PHP file is \".php\"",
       "answer": "True",
       "choices": [
         "a. True",
@@ -44,12 +133,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 2,
-      "firstSeenAt": "2026-10-02T22:14:56Z",
-      "lastVerifiedAt": "2026-10-02T22:15:37Z",
-      "source": "Google Gemini AI"
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:18:38Z",
+      "lastVerifiedAt": "2026-10-02T22:18:38Z",
+      "source": "review_screen"
     }
   ]
 }
