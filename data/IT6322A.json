@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:22:22Z",
-  "totalQuestions": 75,
+  "updatedAt": "2026-10-02T00:22:51Z",
+  "totalQuestions": 79,
   "questions": [
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
@@ -195,12 +195,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Application Name is used as the title of your application launcher icon when it is installed on your device",
@@ -217,6 +218,22 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Beginning with Android 2.5, Android-powered devices are no longer required to provide a dedicated Menu button.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:22:51Z",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen"
     },
     {
       "question": "Eclipse got its start in 2005 when IBM donated 3 million lines of code from its Java tools",
@@ -248,6 +265,22 @@
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "Editable text field hints are one of the most important attributes to set.",
+      "answer": "True",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:22:51Z",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen"
     },
     {
       "question": "Every button is styled using the system’s ___________ button background",
@@ -361,12 +394,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "onItemSelected() is one of most common values for android.",
@@ -419,30 +453,44 @@
       "answer": "True",
       "choices": [
         "a. True",
-        "b. False"
-      ],
-      "verified": true,
-      "confirmations": 3,
-      "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
-    },
-    {
-      "question": "Tabs work in conjunction with the ActionBarMenu.",
-      "answer": "False",
-      "choices": [
+        "b. False",
         "a. False",
         "b. True"
       ],
       "verified": true,
       "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:11:02Z",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Tabs work in conjunction with the ActionBarMenu.",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. True",
+        "a. True",
+        "b. False"
+      ],
+      "verified": true,
+      "confirmations": 4,
+      "firstSeenAt": "2026-09-14T14:11:02Z",
       "lastVerifiedAt": "2026-09-25T14:27:29Z",
       "source": "community_contribution",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "wrongAnswers": [
+        "False"
+      ],
+      "isAiSuggestion": false,
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "a. True",
+          "timestamp": "2026-10-02T00:22:51Z"
+        }
+      ]
     },
     {
       "question": "The 2^{nd} Blackberry OS included the same features as the first version but included ___________ to its repertoire.",
@@ -602,12 +650,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:12:29Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The Motorola Dynatec was the first ever mobile phone to be approved by the FCC. What does the FCC stand for?",
@@ -650,6 +699,22 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "The onItemSelected() method is where the click is handled.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:22:51Z",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen"
     },
     {
       "question": "The push notification for 3rd party apps was first seen during this iOS 4 update.",
@@ -1259,6 +1324,22 @@
       "isAiSuggestion": false
     },
     {
+      "question": "While spinners may offer similar functionality as radio buttons, they do not require an entirely different API",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:22:51Z",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Who conceptualized the Dynabook?",
       "answer": "Federal Communications Conference Alan Kay",
       "choices": [
@@ -1371,12 +1452,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     }
   ]
 }
