@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:19:10Z",
-  "totalQuestions": 10,
+  "updatedAt": "2026-10-02T22:22:00Z",
+  "totalQuestions": 16,
   "questions": [
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -58,6 +58,19 @@
       "firstSeenAt": "2026-10-02T22:18:38Z",
       "lastVerifiedAt": "2026-10-02T22:19:10Z",
       "source": "Review"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: Rasmus Lerdorf] Who is the inventor of PHP?",
+      "answer": "Rasmus Lerdorf",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:22:00Z",
+      "lastVerifiedAt": "2026-10-02T22:22:00Z",
+      "source": "review_screen"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____] Year that PHP was officially called Personal Home Page Tools.",
@@ -122,7 +135,61 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:14:56Z",
       "lastVerifiedAt": "2026-10-02T22:19:10Z",
-      "source": "Google Gemini AI"
+      "source": "Google Gemini AI",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "False",
+          "timestamp": "2026-10-02T22:22:00Z"
+        }
+      ]
+    },
+    {
+      "question": "PHP is one of the most widely used and recognizable web technology used on the Internet.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:22:00Z",
+      "lastVerifiedAt": "2026-10-02T22:22:00Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "PHP runs on various platforms operating system such as apache and IIS.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:22:00Z",
+      "lastVerifiedAt": "2026-10-02T22:22:00Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "php.org is the official php resource.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:22:00Z",
+      "lastVerifiedAt": "2026-10-02T22:22:00Z",
+      "source": "review_screen"
     },
     {
       "question": "The default file extension for PHP file is \".php\"",
@@ -151,12 +218,48 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:19:10Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:22:00Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "The function or ci code to load a view.",
+      "answer": "$this->load->view",
+      "choices": [
+        "a. %this->load->view",
+        "b. $this->load->views",
+        "c. $this->load->view",
+        "d. $that->load->view"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:22:00Z",
+      "lastVerifiedAt": "2026-10-02T22:22:00Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "The function or ci code to show or call the client-side \"non-existing page\" error",
+      "answer": "show_404()",
+      "choices": [
+        "a. show_404()",
+        "b. show()_504",
+        "c. show_405()",
+        "d. show_444()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:22:00Z",
+      "lastVerifiedAt": "2026-10-02T22:22:00Z",
+      "source": "review_screen"
     }
   ]
 }
