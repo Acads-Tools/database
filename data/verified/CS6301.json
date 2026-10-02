@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-10-02T00:29:05Z",
+  "updatedAt": "2026-10-02T00:30:29Z",
   "totalQuestions": 184,
   "tier": "verified",
   "questions": [
@@ -12,15 +12,20 @@
         "a. (2297)₁₀",
         "b. (028F)₁₆",
         "c. (1217)₁₆",
-        "d. (0B17)₁₆"
+        "d. (0B17)₁₆",
+        "a. (0B17)₁₆",
+        "b. (1217)₁₆",
+        "c. (2297)₁₀",
+        "d. (028F)₁₆"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "1 bit is equal to 1 pixel",
@@ -42,12 +47,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "3 bits full adder contains ________",
@@ -73,15 +79,18 @@
         "a. 432",
         "b. 345",
         "c. 543",
-        "d. 777"
+        "d. 777",
+        "c. 777",
+        "d. 543"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": ">> operator is used to denote _________",
@@ -90,15 +99,20 @@
         "a. less than",
         "b. left shift",
         "c. greater than",
-        "d. right shift"
+        "d. right shift",
+        "a. left shift",
+        "b. right shift",
+        "c. less than",
+        "d. greater than"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A ____________ is a circuit with only one output but can have multiple inputs.",
@@ -980,15 +994,20 @@
         "a. 32 bit",
         "b. 72",
         "c. 64",
-        "d. 52 bit"
+        "d. 52 bit",
+        "a. 64",
+        "b. 52 bit",
+        "c. 72",
+        "d. 32 bit"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In TDM, the samples occupy adjacent time slots.",
@@ -1029,15 +1048,18 @@
         "a. the normalized value 2⁻¹²⁶",
         "b. the special value +0",
         "c. the normalized value +0",
-        "d. the normalized value 2⁻¹²⁷"
+        "d. the normalized value 2⁻¹²⁷",
+        "a. the special value +0",
+        "b. the normalized value 2⁻¹²⁶"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In the octal system, there can be _______ choices for each digit of a number.",
@@ -1199,15 +1221,19 @@
         "a. decimal 10",
         "b. any value > 2",
         "c. decimal 11",
-        "d. decimal 10 and 11"
+        "d. decimal 10 and 11",
+        "a. decimal 10 and 11",
+        "c. decimal 10",
+        "d. decimal 11"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Logic Gates are the building blocks of all circuits in a computer.",
@@ -1400,15 +1426,20 @@
         "a. (F878)₁₆",
         "b. (C3D8)₁₆",
         "c. (987B)₁₆",
-        "d. (187B)₁₆"
+        "d. (187B)₁₆",
+        "a. (987B)₁₆",
+        "b. (187B)₁₆",
+        "c. (C3D8)₁₆",
+        "d. (F878)₁₆"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "PAM is for video encoding",
@@ -1477,15 +1508,18 @@
         "a. 3",
         "b. 7",
         "c. 4",
-        "d. 8"
+        "d. 8",
+        "b. 8",
+        "d. 7"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-25T11:26:56Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The 16’s complement of 74E will be __________",
@@ -1494,15 +1528,19 @@
         "a. 8B2",
         "b. F8B2",
         "c. 2B8",
-        "d. 8C2"
+        "d. 8C2",
+        "b. 2B8",
+        "c. 8C2",
+        "d. F8B2"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-25T10:55:27Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The 1’s complement of 1111111110.101 is _______________",
@@ -1511,15 +1549,19 @@
         "a. 1111111110.101",
         "b. 1.010",
         "c. 0000000000.010",
-        "d. 1.101"
+        "d. 1.101",
+        "b. 1.101",
+        "c. 1.010",
+        "d. 0000000000.010"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The 32 bit representation of the decimal number is called as ____",
@@ -1528,15 +1570,19 @@
         "a. Extended format",
         "b. Double-precision",
         "c. Single-precision",
-        "d. None of the mentioned"
+        "d. None of the mentioned",
+        "b. None of the mentioned",
+        "c. Double-precision",
+        "d. Single-precision"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The 9’s complement of 6578 is ___________",
@@ -1545,15 +1591,19 @@
         "a. 1234",
         "b. 3421",
         "c. 3420",
-        "d. 3124"
+        "d. 3124",
+        "a. 3420",
+        "b. 1234",
+        "c. 3421"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The ________ gate is an OR gate followed by a NOT gate.",
@@ -1762,15 +1812,19 @@
         "a. fraction bits of 100…000 and exponent value of 0",
         "b. fraction bits of 000…000 and exponent value of −1",
         "c. fraction bits of 000…000 and exponent value of 0",
-        "d. fraction bits of 100…000 and exponent value of 0"
+        "d. fraction bits of 100…000 and exponent value of 0",
+        "a. fraction bits of 000…000 and exponent value of 0",
+        "b. fraction bits of 100…000 and exponent value of 0",
+        "c. fraction bits of 000…000 and exponent value of −1"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The detailed specification of a cell for the use of a designer is called cell specification",
@@ -2089,15 +2143,18 @@
         "a. 0 10000101 0110",
         "b. 0 11110100 11100",
         "c. 0 10001000 0010110",
-        "d. 0 10101010 1110"
+        "d. 0 10101010 1110",
+        "a. 0 10101010 1110",
+        "d. 0 10000101 0110"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The number of literals in the expression F=X.Y’ + Z are _____________",
@@ -2295,15 +2352,20 @@
         "a. 1101",
         "b. 1011",
         "c. 11101",
-        "d. 11011"
+        "d. 11011",
+        "a. 11011",
+        "b. 11101",
+        "c. 1101",
+        "d. 1011"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The result of X+X.Y is X.",
@@ -2344,15 +2406,18 @@
         "a. -128",
         "b. 0",
         "c. -256",
-        "d. -127"
+        "d. -127",
+        "a. -127",
+        "d. -128"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The subtraction using 1’s complement of 110 – 100 will give the result ___________",
@@ -2361,15 +2426,20 @@
         "a. -011",
         "b. -010",
         "c. 011",
-        "d. 010"
+        "d. 010",
+        "a. 011",
+        "b. 010",
+        "c. -011",
+        "d. -010"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The truth table for an S-R flip-flop has how many VALID entries?",
@@ -2603,15 +2673,19 @@
         "a. 11011",
         "b. 00101",
         "c. 11010",
-        "d. 00110"
+        "d. 00110",
+        "b. 11010",
+        "c. 00110",
+        "d. 00101"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:16:47Z",
+      "lastVerifiedAt": "2026-10-02T00:30:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is the complement of X’Y’Z?",
