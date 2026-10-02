@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:24:14Z",
-  "totalQuestions": 83,
+  "updatedAt": "2026-10-02T00:24:45Z",
+  "totalQuestions": 85,
   "questions": [
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
@@ -69,12 +69,15 @@
         "c. Image",
         "d. Buttoning",
         "b. Image",
-        "c. Button"
+        "c. Button",
+        "a. Button",
+        "b. Buttoning",
+        "d. Android"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -90,9 +93,9 @@
         "b. True"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-02T00:23:09Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -164,6 +167,22 @@
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false
+    },
+    {
+      "question": "An Activity Life Cycle consists of the following six states: Created, Started, Ended, Paused, Stopped, Destroyed",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "source": "review_screen"
     },
     {
       "question": "Android apps use HTML to define thier user interfaces",
@@ -529,9 +548,9 @@
         "b. True"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-10-02T00:22:51Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -622,9 +641,9 @@
         "d. Quantifier"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1065,9 +1084,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1385,14 +1404,16 @@
         "d. September 2007",
         "a. September 2007",
         "b. November 2007",
-        "d. December 2007"
+        "d. December 2007",
+        "b. October 2007",
+        "c. November 2007"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1415,6 +1436,24 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "When the user clicks a button, the Button object receives and on-click event. To define the click event handler for a button, add the _______________.",
+      "answer": "android:onClick",
+      "choices": [
+        "a. android:ofClick",
+        "b. android:onClick",
+        "c. android:inClick",
+        "d. android:onclicks"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "source": "review_screen"
     },
     {
       "question": "When you connect a device running Android 4.2.2. or higher to your computer, the system shows a dialog asking whether to accept an RSA key that allows debugging through the computer.",
@@ -1498,9 +1537,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1570,9 +1609,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:11:02Z",
-      "lastVerifiedAt": "2026-10-02T00:23:29Z",
+      "lastVerifiedAt": "2026-10-02T00:24:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
