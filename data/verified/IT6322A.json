@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:20:16Z",
+  "updatedAt": "2026-10-02T00:21:33Z",
   "totalQuestions": 75,
   "tier": "verified",
   "questions": [
@@ -146,9 +146,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -208,9 +208,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -290,7 +290,10 @@
         "a. PocketPC2000",
         "b. PocketWifi",
         "c. PocketCD",
-        "d. Pocket PC"
+        "d. Pocket PC",
+        "a. Pocket PC",
+        "c. PocketPC2000",
+        "d. PocketCD"
       ],
       "verified": true,
       "confirmations": 4,
@@ -298,7 +301,14 @@
       "lastVerifiedAt": "2026-09-25T14:27:29Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "PocketPC2000",
+          "timestamp": "2026-10-02T00:21:33Z"
+        }
+      ]
     },
     {
       "question": "It can display any kind of bitmap, and it takes care of basic alignment and scaling functionality.",
@@ -473,12 +483,14 @@
         "a. Exponent",
         "b. Quantifier",
         "c. Dividend",
-        "d. Qualifier"
+        "d. Qualifier",
+        "b. Qualifier",
+        "d. Quantifier"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -512,9 +524,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -681,9 +693,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -736,12 +748,16 @@
         "c. Source Code, Auto Generated Code, HTML",
         "d. Source Code, Auto Generated Code, Included Libraries",
         "a. Source Code, Auto Generated Code, HTML",
-        "c. Source Code, Auto Generated Code, Included Sections"
+        "c. Source Code, Auto Generated Code, Included Sections",
+        "a. Source Code, Postal Code, HTML",
+        "b. Source Code, Auto Generated Code, Included Sections",
+        "c. Source Code, Auto Generated Code, Included Libraries",
+        "d. Source Code, Auto Generated Code, HTML"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -795,12 +811,15 @@
         "d. Names of Packages",
         "b. Name of the Packages",
         "c. Names of Packages",
-        "d. Name Package"
+        "d. Name Package",
+        "a. Name of the Packages",
+        "b. Names of Packages",
+        "c. Package Name"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -865,9 +884,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1121,12 +1140,16 @@
         "d. Reference",
         "a. Reference",
         "c. None of the Choices",
-        "d. Document"
+        "d. Document",
+        "a. Document",
+        "b. None of the Choices",
+        "c. Reference",
+        "d. Project"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:20:16Z",
+      "lastVerifiedAt": "2026-10-02T00:21:33Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
