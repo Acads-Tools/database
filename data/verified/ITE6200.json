@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:22:00Z",
-  "totalQuestions": 15,
+  "updatedAt": "2026-10-02T22:24:01Z",
+  "totalQuestions": 20,
   "tier": "verified",
   "questions": [
     {
@@ -16,9 +16,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
       "source": "Review"
     },
     {
@@ -29,9 +29,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
       "source": "Review"
     },
     {
@@ -42,9 +42,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
       "source": "Review"
     },
     {
@@ -55,9 +55,22 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 5.3.0] Version of PHP that uses namespace support late static binding.",
+      "answer": "5.3.0",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:24:01Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
       "source": "Review"
     },
     {
@@ -68,10 +81,28 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:22:00Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
+    },
+    {
+      "question": "It is a configuration file that is used for configuration of site-access issues, such as URL redirect, URL shortening, Access-security control.",
+      "answer": ".htaccess",
+      "choices": [
+        "a. .httptaccess",
+        "b. .htpaccess",
+        "c. .htaccess",
+        "d. .httpccess"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:24:01Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
     },
     {
       "question": "It is a URI Component that serve as persistent, location-independent identifiers",
@@ -86,9 +117,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:14:56Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
       "source": "Google Gemini AI"
     },
     {
@@ -102,9 +133,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
       "source": "Review"
     },
     {
@@ -128,6 +159,11 @@
         {
           "rejectedAnswer": "False",
           "timestamp": "2026-10-02T22:22:00Z"
+        },
+        {
+          "rejectedAnswer": "False",
+          "reason": "AI suggestion cannot overwrite verified answer",
+          "timestamp": "2026-10-02T22:24:01Z"
         }
       ]
     },
@@ -142,10 +178,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:22:00Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
     },
     {
       "question": "PHP runs on various platforms operating system such as apache and IIS.",
@@ -158,10 +194,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:22:00Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
     },
     {
       "question": "php.org is the official php resource.",
@@ -174,10 +210,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:22:00Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
     },
     {
       "question": "The default file extension for PHP file is \".php\"",
@@ -190,9 +226,27 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
+    },
+    {
+      "question": "The first URI segment",
+      "answer": "controller",
+      "choices": [
+        "a. method",
+        "b. parameter",
+        "c. controller",
+        "d. address"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:24:01Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
       "source": "Review"
     },
     {
@@ -208,10 +262,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:19:10Z",
-      "lastVerifiedAt": "2026-10-02T22:22:00Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Google Gemini AI"
     },
     {
       "question": "The function or ci code to load a view.",
@@ -226,10 +280,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:22:00Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
     },
     {
       "question": "The function or ci code to show or call the client-side \"non-existing page\" error",
@@ -244,10 +298,44 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:22:00Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
+    },
+    {
+      "question": "The Model represents your data structures. Typically your model classes will contain functions that help you retrieve, insert, and update information in your database.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:24:01Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
+    },
+    {
+      "question": "URN stands for?",
+      "answer": "Uniform Resource Name",
+      "choices": [
+        "a. Uniform Resource Name",
+        "b. Uniform Resources Name",
+        "c. Uniform Resource Names",
+        "d. Unique Resource Name"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:24:01Z",
+      "lastVerifiedAt": "2026-10-02T22:24:01Z",
+      "source": "Review"
     }
   ]
 }
