@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:18:38Z",
-  "totalQuestions": 9,
+  "updatedAt": "2026-10-02T22:19:10Z",
+  "totalQuestions": 10,
   "questions": [
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -15,10 +15,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Review"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1994] What year did PHP began its development?",
@@ -28,10 +28,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Review"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1995] Year that PHP was officially called Personal Home Page Tools.",
@@ -41,10 +41,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Review"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 4.1.0] Version of PHP that introduces the use of superglobals.",
@@ -54,10 +54,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Review"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____] Year that PHP was officially called Personal Home Page Tools.",
@@ -67,9 +67,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:15:37Z",
-      "lastVerifiedAt": "2026-10-02T22:15:37Z",
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
       "source": "Google Gemini AI"
     },
     {
@@ -85,10 +85,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:14:56Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Google Gemini AI"
     },
     {
       "question": "PDO stands for Personal Data Objects.",
@@ -101,10 +101,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Review"
     },
     {
       "question": "PHP development began in 1995.",
@@ -119,10 +119,10 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:14:56Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Google Gemini AI"
     },
     {
       "question": "The default file extension for PHP file is \".php\"",
@@ -135,10 +135,28 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:18:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Review"
+    },
+    {
+      "question": "The function of ci code to return a URI segment",
+      "answer": "$this->uri->segment",
+      "choices": [
+        "a. %this->uri->segment",
+        "b. $this->uri->segment",
+        "c. $these->uri->segment",
+        "d. $that->uri->segment"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": false,
+      "isAiSuggestion": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "source": "Google Gemini AI"
     }
   ]
 }
