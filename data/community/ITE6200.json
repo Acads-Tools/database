@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:26:36Z",
-  "totalQuestions": 37,
+  "updatedAt": "2026-10-02T22:27:54Z",
+  "totalQuestions": 40,
   "questions": [
     {
       "question": "_construct() method executes when a class is created or instantiated.",
@@ -55,6 +55,24 @@
       "source": "Review"
     },
     {
+      "question": "Area that can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.",
+      "answer": "Textarea",
+      "choices": [
+        "a. Textarea",
+        "b. Paragraph",
+        "c. Content",
+        "d. Selection"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Can hold an unlimited number of characters, and the text renders in a fixed-width font.",
       "answer": "TextArea",
       "choices": [
@@ -101,10 +119,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
     },
     {
       "question": "Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -113,16 +131,19 @@
         "a. HTML",
         "b. TextArea",
         "c. PHP",
-        "d. CSS"
+        "d. CSS",
+        "a. PHP",
+        "b. HTML",
+        "c. TextArea"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
     },
     {
       "question": "Defines a multi-line text input control.",
@@ -137,10 +158,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
     },
     {
       "question": "Delimiter symbol for rules in form validation.",
@@ -198,6 +219,24 @@
       "firstSeenAt": "2026-10-02T22:25:42Z",
       "lastVerifiedAt": "2026-10-02T22:26:36Z",
       "source": "Google Gemini AI"
+    },
+    {
+      "question": "Form Helper method or code to return an HTML checkbox input type.",
+      "answer": "form_checkbox()",
+      "choices": [
+        "a. form_checklist()",
+        "b. form_checkbox()",
+        "c. form_boxcheck()",
+        "d. form_checkbox[]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
     },
     {
       "question": "Form Helper method or code to return an HTML password input type.",
@@ -357,16 +396,19 @@
         "a. Model",
         "b. Example",
         "c. Structure",
-        "d. Sample"
+        "d. Sample",
+        "a. Structure",
+        "b. Model",
+        "c. Example"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
     },
     {
       "question": "Other term used for Option buttons?",
@@ -509,10 +551,26 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "row_array() fetch the data as a single row and result_array() fetch the data as a multi-dimensional array.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
     },
     {
       "question": "Symbol used to combine 2 sting values to create one string.",
@@ -525,12 +583,12 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
-      "verified": false,
-      "isAiSuggestion": true,
-      "confirmations": 1,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:26:36Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
-      "source": "Google Gemini AI"
+      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "source": "review_screen"
     },
     {
       "question": "The default file extension for PHP file is \".php\"",
