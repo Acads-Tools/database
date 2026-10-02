@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-02T22:09:46Z",
+  "updatedAt": "2026-10-02T22:11:20Z",
   "totalQuestions": 110,
   "questions": [
     {
@@ -35,12 +35,15 @@
         "d. SRAM",
         "b. SRAM",
         "c. CDRAM",
-        "d. CDROM"
+        "d. CDROM",
+        "a. CDRAM",
+        "b. DRAM",
+        "c. SRAM"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:45:49Z",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -57,12 +60,14 @@
         "a. SRAM",
         "b. ROM",
         "c. Semiconductor Memory",
-        "d. DRAM"
+        "d. DRAM",
+        "b. Semiconductor Memory",
+        "d. SRAM"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:44:47Z",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -77,7 +82,9 @@
         "c. Hard Drive",
         "d. Flash Drive",
         "c. Flash Drive",
-        "d. Hard Drive"
+        "d. Hard Drive",
+        "a. Hard Drive",
+        "c. Internal Drive"
       ],
       "verified": true,
       "confirmations": 7,
@@ -116,6 +123,10 @@
         {
           "rejectedAnswer": "Hard Drive",
           "timestamp": "2026-10-02T21:53:36Z"
+        },
+        {
+          "rejectedAnswer": "Hard Drive",
+          "timestamp": "2026-10-02T22:11:20Z"
         }
       ],
       "questionType": "multichoice"
@@ -298,13 +309,17 @@
         "a. Add",
         "b. Subtract",
         "c. Decrement",
-        "d. Increment"
+        "d. Increment",
+        "a. Increment",
+        "b. Add",
+        "c. Subtract",
+        "d. Decrement"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -331,12 +346,15 @@
         "c. Monitor",
         "d. Keyboard",
         "a. Keyboard",
-        "d. Display"
+        "d. Display",
+        "b. Display",
+        "c. Desktop",
+        "d. Monitor"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T22:00:30Z",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -375,13 +393,15 @@
         "a. Data",
         "b. Integer",
         "c. Binary",
-        "d. Memory"
+        "d. Memory",
+        "b. Binary",
+        "c. Integer"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -464,13 +484,15 @@
         "a. Calculation in a single clock",
         "b. Iterative calculation",
         "c. Subtract with borrow",
-        "d. Calculation pipeline"
+        "d. Calculation pipeline",
+        "a. Iterative calculation",
+        "b. Calculation in a single clock"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -504,12 +526,14 @@
         "c. Maybe",
         "d. True",
         "b. True",
-        "d. I don't know"
+        "d. I don't know",
+        "c. I don't know",
+        "d. Maybe"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T22:00:30Z",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -522,13 +546,15 @@
         "a. Calculation pipeline",
         "b. Subtract with borrow",
         "c. Calculation in a single clock",
-        "d. Iterative calculation"
+        "d. Iterative calculation",
+        "a. Calculation in a single clock",
+        "c. Calculation pipeline"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -561,13 +587,17 @@
         "a. Binary logic",
         "b. Calculation pipeline",
         "c. Arithmetic logic",
-        "d. Combinational Logic"
+        "d. Combinational Logic",
+        "a. Combinational Logic",
+        "b. Arithmetic logic",
+        "c. Binary logic",
+        "d. Calculation pipeline"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1102,13 +1132,15 @@
         "d. Miniprocessor",
         "a. Miniprocessor",
         "c. Microprocessor",
-        "d. Supercomputers"
+        "d. Supercomputers",
+        "b. Supercomputers",
+        "c. Desktop"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1240,13 +1272,17 @@
         "a. Indirect mapping",
         "b. Direct mapping",
         "c. Non-associative mapping",
-        "d. Associative mapping"
+        "d. Associative mapping",
+        "a. Non-associative mapping",
+        "b. Indirect mapping",
+        "c. Associative mapping",
+        "d. Direct mapping"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1368,12 +1404,14 @@
         "d. Operating System",
         "a. Database",
         "c. Operating System",
-        "d. File System"
+        "d. File System",
+        "a. Memory Management",
+        "b. Operating System"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T22:09:46Z",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1631,13 +1669,17 @@
         "a. Logical shift",
         "b. Arithmetic shift",
         "c. Rotate through carry",
-        "d. Rotate"
+        "d. Rotate",
+        "a. Arithmetic shift",
+        "b. Rotate",
+        "c. Logical shift",
+        "d. Rotate through carry"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1697,13 +1739,16 @@
         "a. Arithmetic shift",
         "b. Logical shift",
         "c. Rotate through carry",
-        "d. Rotate"
+        "d. Rotate",
+        "a. Rotate",
+        "c. Arithmetic shift",
+        "d. Rotate through carry"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1715,13 +1760,17 @@
         "a. Rotate",
         "b. Arithmetic shift",
         "c. Rotate through carry",
-        "d. Logical shift"
+        "d. Logical shift",
+        "a. Logical shift",
+        "b. Rotate through carry",
+        "c. Arithmetic shift",
+        "d. Rotate"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1761,13 +1810,17 @@
         "a. Binary",
         "b. Output",
         "c. Memory",
-        "d. Data"
+        "d. Data",
+        "a. Output",
+        "b. Data",
+        "c. Binary",
+        "d. Memory"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -2038,13 +2091,16 @@
         "a. Binary Integer Representation",
         "b. Arithmetic Logic Unit",
         "c. Floating-Point",
-        "d. Binary Integer Arithmetic"
+        "d. Binary Integer Arithmetic",
+        "a. Binary Integer Arithmetic",
+        "c. Binary Integer Representation",
+        "d. Floating-Point"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -2120,13 +2176,14 @@
         "d. Network",
         "c. Internet",
         "b. Internet and Network",
-        "d. None of the above"
+        "d. None of the above",
+        "a. None of the above"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-02T22:11:20Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "Internet and Network"
       ],
