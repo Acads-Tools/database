@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:18:42Z",
-  "totalQuestions": 74,
+  "updatedAt": "2026-10-02T00:20:01Z",
+  "totalQuestions": 75,
   "questions": [
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
@@ -45,15 +45,19 @@
         "a. References",
         "b. Documentation",
         "c. Online Tools",
-        "d. Sources"
+        "d. Sources",
+        "a. Sources",
+        "b. Online Tools",
+        "c. Documentation",
+        "d. References"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen"
     },
     {
@@ -156,12 +160,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Android-powered devices have a host of developer options that you can access on the phone",
@@ -255,6 +260,24 @@
       "confirmations": 1,
       "firstSeenAt": "2026-09-30T15:16:59Z",
       "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "In setting up the Android Virtual Device (AVD), and the recommended version that you will use in creating your own android-based mobile applications, you must first finish downloading and installing the __________.",
+      "answer": "Android SDK",
+      "choices": [
+        "a. Android App",
+        "b. Android TDK",
+        "c. Android Notepad",
+        "d. Android SDK"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen"
     },
     {
@@ -460,15 +483,17 @@
         "a. Sprint Communications",
         "b. Eclipse Symposium",
         "c. Eclipse Consortium",
-        "d. None of the Choices"
+        "d. None of the Choices",
+        "b. None of the Choices",
+        "d. Eclipse Symposium"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen"
     },
     {
@@ -596,14 +621,16 @@
       "answer": "FALSE",
       "choices": [
         "a. FALSE",
-        "b. TRUE"
+        "b. TRUE",
+        "a. TRUE",
+        "b. FALSE"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -714,15 +741,19 @@
         "a. USB Drivers",
         "b. SDK Platform Tools",
         "c. Android Platforms",
-        "d. Android App"
+        "d. Android App",
+        "a. Android App",
+        "c. USB Drivers",
+        "d. Android Platforms"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "They resemble basic buttons except they have no borders or background but still change appearance during different states.",
@@ -908,14 +939,15 @@
         "a. Improved Mobile Telephone System",
         "b. None of the choices",
         "c. Ingenious Mobile Telephone System",
-        "d. Important Mobile Telephone System"
+        "d. Important Mobile Telephone System",
+        "b. Ingenious Mobile Telephone System"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -971,12 +1003,14 @@
         "a. Symbian",
         "b. Windows Phone",
         "c. IOS",
-        "d. Android"
+        "d. Android",
+        "b. Android",
+        "d. IOS"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1087,12 +1121,15 @@
         "a. None of the choices Dr. Martin Cooper was successfully able to call on a handheld mobile phone in 1973.",
         "b. 1977",
         "c. 1971",
-        "d. 1974"
+        "d. 1974",
+        "a. 1977",
+        "b. 1971",
+        "c. None of the choices Dr. Martin Cooper was successfully able to call on a handheld mobile phone in 1973."
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1163,14 +1200,16 @@
         "c. Alan Kaye",
         "d. Federal Communications Conference Alan Kay",
         "b. Federal Communications Conference Alan Kay",
-        "d. Alan Kate"
+        "d. Alan Kate",
+        "c. Federal Communications Conference Alan Kay",
+        "d. Alan Kaye"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-02T00:20:01Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
