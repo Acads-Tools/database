@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-02T04:04:28Z",
+  "updatedAt": "2026-10-02T04:07:09Z",
   "totalQuestions": 110,
   "questions": [
     {
@@ -336,15 +336,19 @@
         "a. Bus interconnection",
         "b. Bus network",
         "c. Bus structure",
-        "d. Bus line"
+        "d. Bus line",
+        "a. Bus line",
+        "b. Bus interconnection",
+        "d. Bus network"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A computer _________ is one of the primary input devices used with a computer.",
@@ -548,15 +552,18 @@
         "a. 1989",
         "b. 1994",
         "c. 1984",
-        "d. 2004"
+        "d. 2004",
+        "c. 2004",
+        "d. 1984"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Capacity of true tape",
@@ -612,12 +619,13 @@
         "Suggested (Verified DB): Input Fill"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Electronic data storage mediums that we can utilize",
@@ -855,12 +863,13 @@
         "Suggested (Verified DB): PCI Fill"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a processor with direct memory access capability. In this, the computer system is divided into a memory unit and number of processors.",
@@ -1027,12 +1036,13 @@
         "Suggested (Verified DB): Memory Fill"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is the occurrence of a false interrupt request signal.",
@@ -1079,15 +1089,20 @@
         "a. Address line",
         "b. Bus line",
         "c. Data line",
-        "d. Control line"
+        "d. Control line",
+        "a. Data line",
+        "b. Control line",
+        "c. Bus line",
+        "d. Address line"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is useful for both detection and correction of error present in the received data.",
@@ -1130,12 +1145,13 @@
         "Suggested (Verified DB): Processor Fill"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It selects processes from the queue and loads them into memory for execution.",
@@ -1300,12 +1316,13 @@
         "Suggested (Verified DB): Power pin Fill"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The ________ reads in instructions and data",
@@ -1314,15 +1331,20 @@
         "a. Information",
         "b. Processor",
         "c. Videocard",
-        "d. RAM"
+        "d. RAM",
+        "a. RAM",
+        "b. Videocard",
+        "c. Processor",
+        "d. Information"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The _________ reads in instructions and data, writes out data after processing, and uses control signals to control the overall operation of the system.",
@@ -1331,15 +1353,20 @@
         "CPU",
         "Processor",
         "Memory",
-        "I/O modules"
+        "I/O modules",
+        "a. CPU",
+        "b. Memory",
+        "c. I/O modules",
+        "d. Processor"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-11T02:42:05Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The __________ is used in systems in which the CPU should not be disabled for the length of time needed for burst transfer modes.",
@@ -1461,15 +1488,19 @@
         "a. 64",
         "b. 62",
         "c. 58",
-        "d. 60"
+        "d. 60",
+        "b. 60",
+        "c. 62",
+        "d. 58"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The status _______ are various individual signals that convey supplemental information about the result of the current ALU operation.",
@@ -1529,15 +1560,19 @@
         "a. 1990",
         "b. 1991",
         "c. 1992",
-        "d. 1993"
+        "d. 1993",
+        "a. 1991",
+        "b. 1992",
+        "c. 1990"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "These are examples of an Operating System, except:",
@@ -1563,15 +1598,18 @@
         "a. Control Line",
         "b. Data line",
         "c. Network Line",
-        "d. Address Line"
+        "d. Address Line",
+        "a. Address Line",
+        "d. Control Line"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "These are the other important activities that an operating system performs, except:",
@@ -1626,10 +1664,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-24T13:53:31Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "These lines, collectively, are called the Answer Question 14.",
@@ -1763,17 +1802,21 @@
         "a. Internet",
         "b. None of the above",
         "c. Network",
-        "d. Internet and Network"
+        "d. Internet and Network",
+        "a. Network",
+        "b. Internet",
+        "c. None of the above"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internet and Network"
       ],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Used to control the access to and the use of the data and address lines",
@@ -1782,12 +1825,13 @@
         "Suggested (Verified DB): Control line Fill"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What does EPROM stand for?",
@@ -1813,15 +1857,20 @@
         "a. Peripheral Component Internet",
         "b. Peripheral Component Interconnect",
         "c. Personal Computer Internet",
-        "d. Peripheral Computer Interconnect"
+        "d. Peripheral Computer Interconnect",
+        "a. Peripheral Computer Interconnect",
+        "b. Personal Computer Internet",
+        "c. Peripheral Component Interconnect",
+        "d. Peripheral Component Internet"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-09-30T15:29:40Z",
+      "lastVerifiedAt": "2026-10-02T04:07:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What does UNI stand for?",
