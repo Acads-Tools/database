@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-02T21:49:49Z",
+  "updatedAt": "2026-10-02T21:53:36Z",
   "totalQuestions": 110,
   "questions": [
     {
@@ -75,7 +75,9 @@
         "a. Internal Drive",
         "b. External Drive",
         "c. Hard Drive",
-        "d. Flash Drive"
+        "d. Flash Drive",
+        "c. Flash Drive",
+        "d. Hard Drive"
       ],
       "verified": true,
       "confirmations": 7,
@@ -110,6 +112,10 @@
         {
           "rejectedAnswer": "Hard Drive",
           "timestamp": "2026-09-30T15:26:08Z"
+        },
+        {
+          "rejectedAnswer": "Hard Drive",
+          "timestamp": "2026-10-02T21:53:36Z"
         }
       ],
       "questionType": "multichoice"
@@ -125,12 +131,15 @@
         "a. Memory Card",
         "b. Floppy Disk",
         "c. Hard Drive",
-        "d. Flash Drive"
+        "d. Flash Drive",
+        "a. Hard Drive",
+        "b. Memory Card",
+        "c. Floppy Disk"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -146,12 +155,13 @@
         "d. Optical storage",
         "a. Magnetic tape",
         "b. Optical storage",
-        "d. Magnetic disk"
+        "d. Magnetic disk",
+        "d. Magnetic tape"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -421,12 +431,15 @@
         "d. Floppy Disk",
         "a. Redundant Array of Dependent Disks",
         "b. Redundant Array of Independent Disks",
-        "c. Hard Disk"
+        "c. Hard Disk",
+        "a. Redundant Array of Independent Disks",
+        "b. Hard Disk",
+        "c. Redundant Array of Dependent Disks"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -647,12 +660,15 @@
         "d. 185 EB",
         "a. 185 EB",
         "b. 185 GB",
-        "d. 186 KB"
+        "d. 186 KB",
+        "a. 186 KB",
+        "b. 185 EB",
+        "d. 185 GB"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1006,12 +1022,15 @@
         "d. Optical Memory",
         "a. Optical Memory",
         "c. Magnetic Tape",
-        "d. External Memory"
+        "d. External Memory",
+        "a. External Memory",
+        "c. Optical Memory",
+        "d. Magnetic Tape"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1332,12 +1351,14 @@
         "a. 1949",
         "b. 1951",
         "c. 1950",
-        "d. 1952"
+        "d. 1952",
+        "a. 1952",
+        "d. 1950"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1352,12 +1373,15 @@
         "c. 1926",
         "d. 1928",
         "a. 1926",
-        "c. 1927"
+        "c. 1927",
+        "a. 1929",
+        "b. 1928",
+        "d. 1927"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1396,12 +1420,13 @@
         "a. Hard Drive",
         "b. Flash Drive",
         "c. USB port",
-        "d. Floppy Disk"
+        "d. Floppy Disk",
+        "d. Hard Drive"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1709,12 +1734,15 @@
         "a. External Hard Drive",
         "b. Floppy Disk",
         "c. Flash Drive",
-        "d. Hard Drive"
+        "d. Hard Drive",
+        "b. Flash Drive",
+        "c. Hard Drive",
+        "d. Floppy Disk"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-02T21:49:49Z",
+      "lastVerifiedAt": "2026-10-02T21:53:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
