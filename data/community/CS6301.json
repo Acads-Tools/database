@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-10-03T23:28:36Z",
+  "updatedAt": "2026-10-03T23:36:26Z",
   "totalQuestions": 184,
   "questions": [
     {
@@ -67,15 +67,19 @@
         "a. 6 combinational inputs",
         "b. 4 combinational inputs",
         "c. 8 combinational inputs",
-        "d. 3 combinational inputs"
+        "d. 3 combinational inputs",
+        "b. 3 combinational inputs",
+        "c. 4 combinational inputs",
+        "d. 8 combinational inputs"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-30T09:52:54Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "7’s complement of 432 is _________________",
@@ -437,15 +441,20 @@
         "a. Truth Table",
         "b. K=f(X,Y,X)",
         "c. Truth values",
-        "d. Algebraic Expression"
+        "d. Algebraic Expression",
+        "a. Truth values",
+        "b. Truth Table",
+        "c. Algebraic Expression",
+        "d. K=f(X,Y,X)"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-30T13:01:39Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Canonical form is a unique way of representing ____________",
@@ -710,15 +719,18 @@
         "a. d",
         "b. c",
         "c. a",
-        "d. b"
+        "d. b",
+        "a. b",
+        "d. d"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "For each binary combination of the input variables, there are three possible outputs",
@@ -739,15 +751,18 @@
         "a. All are LOW",
         "b. All but Y0 are LOW",
         "c. All but Y0 are HIGH",
-        "d. All are HIGH"
+        "d. All are HIGH",
+        "a. All are HIGH",
+        "d. All are LOW"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "For voice, each channel contains a ___ word of digitized data.",
@@ -1089,15 +1104,18 @@
         "a. expression",
         "b. right hand side",
         "c. boolean",
-        "d. literals"
+        "d. literals",
+        "b. boolean",
+        "c. right hand side"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In the IEEE floating point representation, the hexadecimal value 0 × 00000000 corresponds to",
@@ -1877,15 +1895,18 @@
         "a. All but Y0 are HIGH",
         "b. Cp = A + B",
         "c. Cp = AB",
-        "d. All but Y0 are LOW"
+        "d. All but Y0 are LOW",
+        "a. All but Y0 are LOW",
+        "d. All but Y0 are HIGH"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The characteristic equation of S-R latch is ____________",
@@ -1933,15 +1954,18 @@
         "a. XYZ’+X’Y’",
         "b. (X+Y+Z’)(X’+Y’)",
         "c. (X+Y+Z’)(X’+Y)",
-        "d. (X+Y+Z’)(X’+Y)"
+        "d. (X+Y+Z’)(X’+Y)",
+        "b. (X+Y+Z’)(X’+Y)",
+        "d. (X+Y+Z’)(X’+Y’)"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The decimal value 0.5 in IEEE single precision floating point representation has",
@@ -1985,15 +2009,20 @@
         "a. Multiplexer",
         "b. Inverter",
         "c. Comparator",
-        "d. Demultiplexer"
+        "d. Demultiplexer",
+        "a. Demultiplexer",
+        "b. Comparator",
+        "c. Multiplexer",
+        "d. Inverter"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The difference between half adder and full adder is __________",
@@ -2132,15 +2161,19 @@
         "a. 2ⁿ",
         "b. -2ⁿ",
         "c. 2ⁿ⁺¹",
-        "d. 2ⁿ⁻¹"
+        "d. 2ⁿ⁻¹",
+        "a. -2ⁿ",
+        "b. 2ⁿ⁻¹",
+        "d. 2ⁿ"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The input hexadecimal representation of 1110 is _______________",
@@ -2226,15 +2259,20 @@
         "a. x+y+z",
         "b. x’y’z’",
         "c. x’+y’+z’",
-        "d. xyz"
+        "d. xyz",
+        "a. x’+y’+z’",
+        "b. xyz",
+        "c. x’y’z’",
+        "d. x+y+z"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The maximum number of bits sufficient to represent a hexadecimal number in binary:",
@@ -2267,15 +2305,20 @@
         "a. x’+y’+z’",
         "b. xyz",
         "c. x’y’z’",
-        "d. x+y+z"
+        "d. x+y+z",
+        "a. x+y+z",
+        "b. x’+y’+z’",
+        "c. xyz",
+        "d. x’y’z’"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The minterm of any expression is denoted by ___________",
@@ -2327,15 +2370,19 @@
         "a. 1",
         "b. 2",
         "c. 3",
-        "d. 4"
+        "d. 4",
+        "b. 4",
+        "c. 2",
+        "d. 3"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The number of sign bits in a 32-bit IEEE format __________",
@@ -2562,12 +2609,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The sequential circuit is also called ___________",
@@ -2904,15 +2952,20 @@
         "a. X’+Y+’Z’",
         "b. X+YZ",
         "c. X+Y+Z’",
-        "d. XYZ’"
+        "d. XYZ’",
+        "a. X+Y+Z’",
+        "b. XYZ’",
+        "c. X’+Y+’Z’",
+        "d. X+YZ"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is the function of an enable input on a multiplexer chip?",
@@ -2938,15 +2991,18 @@
         "a. Only the output of the defective gate is affected",
         "b. The node may be stuck in either the HIGH or the LOW state",
         "c. The affected node will be stuck in the HIGH state",
-        "d. There is a signal loss to all load gates"
+        "d. There is a signal loss to all load gates",
+        "b. The affected node will be stuck in the HIGH state",
+        "c. The node may be stuck in either the HIGH or the LOW state"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "what is?",
@@ -2990,15 +3046,19 @@
         "a. XOR",
         "b. AND",
         "c. NAND",
-        "d. XNOR"
+        "d. XNOR",
+        "a. NAND",
+        "b. XOR",
+        "c. AND"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "When both inputs of a J-K flip-flop cycle, the output will ___________",
@@ -3091,15 +3151,19 @@
         "a. d",
         "b. a",
         "c. c",
-        "d. b"
+        "d. b",
+        "a. b",
+        "b. d",
+        "d. a"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T13:48:06Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following combinations of logic gates can decode binary 1101?",
@@ -3108,15 +3172,19 @@
         "a. One 4-input NAND gate, one inverter",
         "b. One 4-input AND gate, one inverter",
         "c. One 4-input AND gate, one OR gate",
-        "d. One 4-input AND gate"
+        "d. One 4-input AND gate",
+        "a. One 4-input AND gate, one inverter",
+        "b. One 4-input AND gate",
+        "d. One 4-input NAND gate, one inverter"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-30T09:48:44Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following correctly describes the distributive law.",
@@ -3295,15 +3363,18 @@
         "a. X=AB’+A’B",
         "b. X=A’B’+AB",
         "c. X=(AB)’+AB",
-        "d. X=(AB)’+A’B’"
+        "d. X=(AB)’+A’B’",
+        "c. X=(AB)’+A’B’",
+        "d. X=(AB)’+AB"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:23:34Z",
+      "lastVerifiedAt": "2026-10-03T23:36:26Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following logical operations is represented by the + sign in Boolean algebra?",
