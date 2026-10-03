@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-09-30T13:49:06Z",
+  "updatedAt": "2026-10-03T04:45:01Z",
   "totalQuestions": 56,
   "questions": [
     {
@@ -11,10 +11,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "[Dropdown 1: Predicates] are parameterized statement, they are true or false depending on the values of their parameters.",
@@ -23,10 +24,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-25T14:27:17Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "A [____: graph] is a tree if it is connected and has no simple cycles.",
@@ -35,10 +37,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "A [Dropdown 1: partial derivation tree] sub-tree of a derivation tree/parse tree such that either all of its children are in the sub-tree or none of them are in the [Dropdown 2: sub-tree] .",
@@ -47,10 +50,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "A conceptual design for a machine consisting of a Mill, Store, Printer, and Readers.",
@@ -64,10 +68,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A context-free grammar (CFG) consisting of a finite set of grammar rules is a quadruple where",
@@ -81,9 +86,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -94,7 +99,8 @@
           "answer": "Answer 1 Question 11, Answer 2 Question 11, Answer 3 Question 11, Answer 4 Question 11",
           "timestamp": "2026-09-30T10:59:20Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "A DFA can remember a finite amount of information, but a ____ can remember an infinite amount of information.",
@@ -107,10 +113,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A general purpose, programmable, information processor with input and output.",
@@ -119,10 +126,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "A language accepted by Deterministic Push down automata is closed under which of the following?",
@@ -135,10 +143,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A Moore machine can be described by a [____: 6] tuple.",
@@ -147,10 +156,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "Grades-Harvester"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "Grades-Harvester",
+      "questionType": "shortanswer"
     },
     {
       "question": "A parsing that starts from the top with the start-symbol and derives a string using a parsetree.",
@@ -159,10 +169,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "A PDA accepts a string when, after reading the entire string, the PDA is in a final state.",
@@ -174,10 +185,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A PDA can be formally described as a 7-tuple :",
@@ -193,16 +205,17 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
           "answer": "Answer 1 Question 10, Answer 2 Question 10, Answer 3 Question 10, Answer 4 Question 10, Answer 5 Question 10, Answer 6 Question 10",
           "timestamp": "2026-09-30T12:05:23Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "A pushdown automaton is a way to implement a context-free grammar in a similar way to design DFA for a regular grammar.",
@@ -214,10 +227,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "An automaton that produces outputs based on current input and/or previous state is called ____________.",
@@ -228,12 +242,13 @@
         "c. classifier"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "An English like abbreviations representing elementary computer operations.",
@@ -245,12 +260,13 @@
         "d. von Neumann Machine"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "An order rooted tree that graphically represents the semantic information a string derived from a context-free grammar.",
@@ -264,10 +280,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Are ambiguous grammar context free?",
@@ -279,10 +296,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Computers are general purpose because they can perform many different tasks.",
@@ -294,10 +312,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "ConcatenationPredicatesContrapositiveSubject are parameterized statement, they are true or false depending on the values of their parameters.",
@@ -306,10 +325,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-25T06:10:56Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "Review",
+      "questionType": "shortanswer"
     },
     {
       "question": "ContrapositiveConcatenationSubjectPredicates are parameterized statement, they are true or false depending on the values of their parameters.",
@@ -318,10 +338,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "Grades-Harvester"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "Grades-Harvester",
+      "questionType": "shortanswer"
     },
     {
       "question": "Determine the output of the finite automaton. [Image: Simple Finite automaton - [moodle-asset:39536/1-5.PNG]] [Dropdown 1: 010110]",
@@ -330,10 +351,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T09:46:00Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Different approaches to draw a derivation tree:",
@@ -345,16 +367,17 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
           "answer": "Answer 1 Question 5, Answer 2 Question 5",
           "timestamp": "2026-09-30T10:52:14Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "Every context free grammar can be transformed into an equvalent non deterministic push down automata.",
@@ -366,10 +389,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Global Positioning System (GPS) calculates latitude and longitude from satellite signals.",
@@ -379,12 +403,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "If A = {3, 4, 6, 8} and B = { 1, 2, 3, 5, 6} then A ∩ B = [Dropdown 1: {3, 6}]",
@@ -393,10 +418,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-25T14:27:17Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "If A = {3, 4, 6, 8} and B = { 1, 2, 3, 5, 6} then A ∩ B = {3, 4, 6}{3, 5, 6}{3, 6}{4, 6}",
@@ -405,10 +431,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "Grades-Harvester"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "Grades-Harvester",
+      "questionType": "shortanswer"
     },
     {
       "question": "If A = {3, 4, 6, 8} and B = { 1, 2, 3, 5, 6} then A ∩ B = {3, 4, 6}{4, 6}{3, 6}{3, 5, 6}",
@@ -417,10 +444,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-25T06:10:56Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "Review",
+      "questionType": "shortanswer"
     },
     {
       "question": "If L1 and L2 are regular sets then intersection of these two will be __________.",
@@ -434,10 +462,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "It is a unary operator on a set of symbols or strings, that gives the infinite set of all possible strings of all possible lengths.",
@@ -448,12 +477,13 @@
         "c. λ*"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It process information in their efforts to eat, survive, and reproduce.",
@@ -462,10 +492,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Languages that are generated by context-free grammars are regular languages",
@@ -477,10 +508,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Leibniz introduced binary notation of calculation.",
@@ -492,10 +524,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Living organisms [____: process] information in their efforts to eat, survive, and reproduce.",
@@ -504,10 +537,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "Grades-Harvester"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "Grades-Harvester",
+      "questionType": "shortanswer"
     },
     {
       "question": "Number of final state require to accept in minimal finite automata.",
@@ -519,36 +553,39 @@
         "d. none of the mentioned NO final state requires"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Number of states require to accept string ends with 10.",
       "answer": "3",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "One of the first programmable electronic computers in 1945.",
       "answer": "ENIAC",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Production Rule: aAb->agb belongs to which of the following category?",
@@ -562,10 +599,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Regular sets are closed under union,concatenation and kleene closure.",
@@ -577,10 +615,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Sets are usually designated with small letters.",
@@ -592,10 +631,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The entity which generate Language is termed as:",
@@ -609,10 +649,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The first counting machine developed 5000 years ago in the Middle East.",
@@ -621,10 +662,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "The first mechanical calculator using gears for calculation developed in 1642.",
@@ -637,10 +679,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The following are phases of C++ Programs except __________.",
@@ -652,12 +695,13 @@
         "d. load"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The instantaneous description (ID) of a PDA is represented by a triplet (q, w, s) where :",
@@ -670,10 +714,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The instantaneous description (ID) of a PDA is represented by a triplet where :",
@@ -686,16 +731,17 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
           "answer": "Answer 1 Question 7, Answer 2 Question 7, Answer 3 Question 7",
           "timestamp": "2026-09-30T12:05:23Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "The number of edges attached to a node is called its [____: degree] .",
@@ -704,10 +750,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-09-30T13:49:06Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "The recursive inference procedure determines that string w is in the language of the variable A, A being the starting variable.",
@@ -719,10 +766,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The stack head scans the top symbol of the stack. A stack does two operations:",
@@ -734,16 +782,17 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
           "answer": "Answer 1 Question 12, Answer 2 Question 12",
           "timestamp": "2026-09-30T12:05:23Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "There are 5 tuples in finite state machine.",
@@ -753,12 +802,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Types of parser:",
@@ -770,16 +820,17 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
           "answer": "Answer 1 Question 8, Answer 2 Question 8",
           "timestamp": "2026-09-30T12:05:23Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following statement is false?",
@@ -793,10 +844,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which one is a computer system?",
@@ -808,24 +860,26 @@
         "d. [Image: [moodle-asset:105591/washing%20machine.PNG]]"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Who is the father of modern computer science?",
       "answer": "Alan Turing",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "community_contribution",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Who is the father of modern computer?",
@@ -836,10 +890,11 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T10:00:58Z",
-      "lastVerifiedAt": "2026-09-30T13:17:38Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Z2 uses electricity to convey letters and transmit information quickly in 1844.",
@@ -884,8 +939,13 @@
         {
           "answer": "b. False",
           "timestamp": "2026-09-30T13:17:38Z"
+        },
+        {
+          "answer": "b. False",
+          "timestamp": "2026-10-03T04:45:01Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     }
   ]
 }
