@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-02T22:27:54Z",
-  "totalQuestions": 40,
+  "updatedAt": "2026-10-03T13:22:42Z",
+  "totalQuestions": 53,
   "questions": [
     {
       "question": "_construct() method executes when a class is created or instantiated.",
@@ -15,10 +15,28 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
+    },
+    {
+      "question": "A variable declared outside a function.",
+      "answer": "Global",
+      "choices": [
+        "a. Global",
+        "b. Local",
+        "c. Worldwide",
+        "d. International"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "A variable declared within a function.",
@@ -33,9 +51,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:24:01Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -49,9 +67,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -67,9 +85,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:27:54Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
     },
     {
@@ -85,10 +103,47 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:26:07Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
+    },
+    {
+      "question": "CI function code to load the database class.",
+      "answer": "$this->load->database();",
+      "choices": [
+        "a. $this->load- b. ?this->load->database(); c. $this->load->database(); d. $this->load->database[];",
+        "b. ?this->load->database();",
+        "c. $this->load->database();",
+        "d. $this->load->database[];"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "CI method or code to load the form validation library.",
+      "answer": "$this->load->library('form_validation')",
+      "choices": [
+        "a. $this->load",
+        "b. $load->library('form_validation')",
+        "c. $this->load('library_form_validation')",
+        "d. $this->load->library('form_validation')",
+        "e. \"library\""
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "CI method or code to set a rule in form validation.",
@@ -100,12 +155,14 @@
         "d. &this->form_validation->set_rules()"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "&this->form_validation->set_rules()"
+      ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -119,9 +176,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
     },
     {
@@ -140,9 +197,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
     },
     {
@@ -158,10 +215,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "Delimiter symbol for rules in form validation.",
@@ -176,9 +233,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:25:00Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -197,9 +254,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -215,9 +272,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -233,9 +290,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:27:54Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
     },
     {
@@ -246,16 +303,21 @@
         "b. password()",
         "c. form_password()",
         "d.",
-        "e. form"
+        "e. form",
+        "a. form_password()",
+        "b. form",
+        "c. password()",
+        "d. form_pword()",
+        "e."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:26:07Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1994] What year did PHP began its development?",
@@ -265,9 +327,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -278,10 +340,23 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 1998] Year that PHP 3 was released",
+      "answer": "1998",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 4.1.0] Version of PHP that introduces the use of superglobals.",
@@ -291,9 +366,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -304,10 +379,36 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:24:01Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 5.3] Version of PHP that uses namespace support late static binding.",
+      "answer": "5.3",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: 5] PHP version currently in use on most websites and included several new features such as support for object-oriented programming.",
+      "answer": "5",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. [____: Rasmus Lerdorf] Who is the inventor of PHP?",
@@ -317,9 +418,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -330,9 +431,9 @@
       "wrongAnswers": [],
       "verified": false,
       "isAiSuggestion": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:15:37Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -348,9 +449,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:24:01Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -366,9 +467,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -384,9 +485,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-10-02T22:14:56Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -405,10 +506,44 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
+    },
+    {
+      "question": "One of the main points of interaction between a user and a web site or application. They allow users to send data to the website.",
+      "answer": "HTML Forms",
+      "choices": [
+        "a. HTML Forms",
+        "b. URL Forms",
+        "c. WWW Forms",
+        "d. Registration Forms"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "Originally, PHP is known as \"Personal Home Pages\"",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "Other term used for Option buttons?",
@@ -427,9 +562,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:25:24Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -443,10 +578,26 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
+    },
+    {
+      "question": "PHP 3 was released in 1998.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "PHP development began in 1995.",
@@ -461,9 +612,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:14:56Z",
-      "lastVerifiedAt": "2026-10-02T22:19:10Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI",
       "conflictHistory": [
         {
@@ -503,9 +654,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -519,9 +670,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -535,9 +686,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -551,9 +702,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:25:42Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
     },
     {
@@ -567,9 +718,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T22:27:54Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
     },
     {
@@ -585,9 +736,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T22:26:36Z",
-      "lastVerifiedAt": "2026-10-02T22:27:54Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "review_screen"
     },
     {
@@ -601,9 +752,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:18:38Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -616,12 +767,14 @@
         "d. address"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "parameter"
+      ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:24:01Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -637,9 +790,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-02T22:19:10Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Google Gemini AI"
     },
     {
@@ -655,9 +808,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -673,9 +826,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:22:00Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     },
     {
@@ -689,10 +842,80 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:24:01Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
+    },
+    {
+      "question": "The second URI segment",
+      "answer": "method",
+      "choices": [
+        "a. address",
+        "b. controller",
+        "c. method",
+        "d. parameter"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "The third URI Segment",
+      "answer": "parameter",
+      "choices": [
+        "a. method",
+        "b. controller",
+        "c. address",
+        "d. parameter"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "The window is the information that is being presented to a user.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
+    },
+    {
+      "question": "URI stands for?",
+      "answer": "Uniform Resources Identifier",
+      "choices": [
+        "a. United Resource Identifier",
+        "b. Uniform Resource Identifier",
+        "c. Unchanging Resource Identifier",
+        "d. Uniform Resources Identifier"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:22:42Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
+      "source": "Grades-Harvester"
     },
     {
       "question": "URN stands for?",
@@ -707,9 +930,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-02T22:24:01Z",
-      "lastVerifiedAt": "2026-10-02T22:26:36Z",
+      "lastVerifiedAt": "2026-10-03T13:22:42Z",
       "source": "Review"
     }
   ]
