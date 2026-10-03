@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-03T13:28:42Z",
-  "totalQuestions": 61,
+  "updatedAt": "2026-10-03T13:32:56Z",
+  "totalQuestions": 66,
   "questions": [
     {
       "question": "_construct() method executes when a class is created or instantiated.",
@@ -469,6 +469,19 @@
       "source": "Google Gemini AI"
     },
     {
+      "question": "IDENTIFICATION: [____: cc()] Method that accepts 'secondary recipients' that receives the mail just to keep them informed",
+      "answer": "cc()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:32:56Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
+      "source": "review_screen"
+    },
+    {
       "question": "IDENTIFICATION: [____: Email address] An input required to verify the user's record existence in order to reset his/her password.",
       "answer": "Email address",
       "choices": [],
@@ -476,9 +489,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
       "source": "review_screen"
     },
     {
@@ -489,9 +502,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
       "source": "review_screen"
     },
     {
@@ -528,9 +541,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
       "source": "review_screen"
     },
     {
@@ -544,9 +557,25 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "is_uniques form validation rule checks if the input is unique from the table.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:32:56Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
       "source": "review_screen"
     },
     {
@@ -622,6 +651,22 @@
       "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:25:42Z",
       "lastVerifiedAt": "2026-10-03T13:28:27Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "matches form validation rule checks 3 fields that should have an equal or same value.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:32:56Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
       "source": "review_screen"
     },
     {
@@ -818,6 +863,22 @@
       "confirmations": 6,
       "firstSeenAt": "2026-10-02T22:25:42Z",
       "lastVerifiedAt": "2026-10-03T13:28:27Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "Registration is an activity of deleting user information on the database.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:32:56Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
       "source": "review_screen"
     },
     {
@@ -1047,6 +1108,22 @@
       "firstSeenAt": "2026-10-02T22:24:01Z",
       "lastVerifiedAt": "2026-10-03T13:28:27Z",
       "source": "Review"
+    },
+    {
+      "question": "valid_email form validation rule is used to check if an e-mail is valid or not.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:32:56Z",
+      "lastVerifiedAt": "2026-10-03T13:32:56Z",
+      "source": "review_screen"
     }
   ]
 }
