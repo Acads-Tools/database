@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-03T13:28:27Z",
-  "totalQuestions": 52,
+  "updatedAt": "2026-10-03T13:28:42Z",
+  "totalQuestions": 60,
   "tier": "verified",
   "questions": [
     {
@@ -56,6 +56,22 @@
       "firstSeenAt": "2026-10-02T22:24:01Z",
       "lastVerifiedAt": "2026-10-03T13:28:27Z",
       "source": "Google Gemini AI"
+    },
+    {
+      "question": "Account registration can be approved through activation link sent from user's email or by an admin approval.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -279,6 +295,22 @@
       "source": "Google Gemini AI"
     },
     {
+      "question": "Form helper class helps us by returning formatted HTML form elements.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
+    },
+    {
       "question": "Form Helper method or code to return an HTML checkbox input type.",
       "answer": "form_checkbox()",
       "choices": [
@@ -423,6 +455,87 @@
       "firstSeenAt": "2026-10-02T22:22:00Z",
       "lastVerifiedAt": "2026-10-03T13:28:27Z",
       "source": "Review"
+    },
+    {
+      "question": "IDENTIFICATION: [____: Email address] An input required to verify the user's record existence in order to reset his/her password.",
+      "answer": "Email address",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION: [____: From()] Method that accepts the sender's email address",
+      "answer": "From()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION: [____: Print_debugger()] Method that returns a string containing any server messages, email header and email message.",
+      "answer": "Print_debugger()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION: [____: Send()] Method that triggers the sending of email",
+      "answer": "Send()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION: [____: To()] Method that accepts the recipient's email address",
+      "answer": "To()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
+    },
+    {
+      "question": "is_unique requires table and field name as parameter.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-03T13:28:42Z",
+      "lastVerifiedAt": "2026-10-03T13:28:42Z",
+      "source": "review_screen"
     },
     {
       "question": "It is a configuration file that is used for configuration of site-access issues, such as URL redirect, URL shortening, Access-security control.",
