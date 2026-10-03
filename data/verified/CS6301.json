@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-10-03T23:27:47Z",
+  "updatedAt": "2026-10-03T23:28:36Z",
   "totalQuestions": 184,
   "tier": "verified",
   "questions": [
@@ -135,15 +135,19 @@
         "a. Binary circuit",
         "b. Boolean circuit",
         "c. Logic gate",
-        "d. Truth table"
+        "d. Truth table",
+        "a. Logic gate",
+        "b. Binary circuit",
+        "c. Boolean circuit"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A basic S-R flip-flop can be constructed by cross-coupling of which basic logic gates?",
@@ -807,15 +811,18 @@
         "a. 1",
         "b. 8",
         "c. 4",
-        "d. 2"
+        "d. 2",
+        "b. 4",
+        "c. 8"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "How many inputs of a four-input AND gate must be HIGH in order for the output of the logic gate to go HIGH?",
@@ -857,15 +864,20 @@
         "a. 1",
         "b. 8",
         "c. 7",
-        "d. 2"
+        "d. 2",
+        "a. 8",
+        "b. 7",
+        "c. 2",
+        "d. 1"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "If a 3-input NOR gate has eight input possibilities, how many of those possibilities will result in a HIGH output?",
@@ -874,15 +886,20 @@
         "a. 7",
         "b. 1",
         "c. 8",
-        "d. 2"
+        "d. 2",
+        "a. 8",
+        "b. 2",
+        "c. 7",
+        "d. 1"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "If A and B are the inputs of a half adder, the sum is given by __________",
@@ -908,15 +925,20 @@
         "a. NOR",
         "b. NAND",
         "c. OR",
-        "d. AND"
+        "d. AND",
+        "a. AND",
+        "b. OR",
+        "c. NOR",
+        "d. NAND"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "If the input to a NOT gate is A and the output is X, then ________.",
@@ -1358,15 +1380,19 @@
         "a. 2",
         "b. 0",
         "c. 3",
-        "d. 1"
+        "d. 1",
+        "a. 0",
+        "b. 3",
+        "c. 2"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Odd parity of word can be conveniently tested by ___________",
@@ -1447,15 +1473,20 @@
         "a. AND Gate",
         "b. OR Gate",
         "c. NOT Gate",
-        "d. NOR Gate"
+        "d. NOR Gate",
+        "a. NOR Gate",
+        "b. AND Gate",
+        "c. OR Gate",
+        "d. NOT Gate"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Overflow happens under 2 conditions: a) negative added to another negative gives positive; b) positive added to positive gives negative",
@@ -1696,15 +1727,19 @@
         "a. EXOR",
         "b. NAND",
         "c. NOR",
-        "d. EXNOR"
+        "d. EXNOR",
+        "a. NAND",
+        "b. NOR",
+        "c. EXOR"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The _________ holds the contents of the accessed memory word.",
@@ -1821,15 +1856,20 @@
         "a. X = AB + C",
         "b. X = AB",
         "c. X = A + B + C",
-        "d. X = ABC"
+        "d. X = ABC",
+        "a. X = AB",
+        "b. X = A + B + C",
+        "c. X = ABC",
+        "d. X = AB + C"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The carry propagation can be expressed as ________",
@@ -1872,15 +1912,20 @@
         "a. AND+NOR",
         "b. NOR",
         "c. EX-OR",
-        "d. NOT"
+        "d. NOT",
+        "a. NOT",
+        "b. AND+NOR",
+        "c. NOR",
+        "d. EX-OR"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The complement term for X’.Y’.Z + X.Y will be _____________",
@@ -1975,15 +2020,20 @@
         "a. A’B+AB’",
         "b. (A.B)’",
         "c. A.B",
-        "d. (A+B)’"
+        "d. (A+B)’",
+        "a. (A+B)’",
+        "b. A’B+AB’",
+        "c. (A.B)’",
+        "d. A.B"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The expression Y=(A+B)(B+C)(C+A) shows the _________ operation.",
@@ -2024,15 +2074,20 @@
         "a. OR",
         "b. NAND",
         "c. EXOR",
-        "d. NOR"
+        "d. NOR",
+        "a. EXOR",
+        "b. NOR",
+        "c. OR",
+        "d. NAND"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The format used to present the logic output for the various combinations of logic inputs to a gate is called a [Image: No - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/no] :",
@@ -2041,15 +2096,18 @@
         "a. Boolean variable",
         "b. Boolean constant",
         "c. truth table",
-        "d. input logic function"
+        "d. input logic function",
+        "a. truth table",
+        "c. Boolean variable"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The gate which is used to reverse the output obtained is _____",
@@ -2345,15 +2403,19 @@
         "a. OR",
         "b. NOR",
         "c. AND",
-        "d. NAND"
+        "d. NAND",
+        "b. AND",
+        "c. NAND",
+        "d. NOR"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The output of a NOR gate is HIGH if ________.",
@@ -2362,15 +2424,20 @@
         "a. any input is LOW",
         "b. all inputs are HIGH",
         "c. any input is HIGH",
-        "d. all inputs are LOW"
+        "d. all inputs are LOW",
+        "a. all inputs are HIGH",
+        "b. any input is LOW",
+        "c. all inputs are LOW",
+        "d. any input is HIGH"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The output of a NOT gate is HIGH when ________.",
@@ -2396,15 +2463,20 @@
         "a. A = 0, B = 0, C = 0",
         "b. A = 1, B = 0, C = 1",
         "c. A = 1, B = 1, C = 0",
-        "d. A = 1, B = 1, C = 1"
+        "d. A = 1, B = 1, C = 1",
+        "a. A = 1, B = 1, C = 0",
+        "b. A = 1, B = 1, C = 1",
+        "c. A = 0, B = 0, C = 0",
+        "d. A = 1, B = 0, C = 1"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The output of an OR gate with three inputs, A, B, and C, is LOW when ________.",
@@ -2413,15 +2485,18 @@
         "a. A = 0, B = 0, C = 0",
         "b. A = 0, B = 1, C = 1",
         "c. A = 0, B = 0, C = 1",
-        "d. all of the above"
+        "d. all of the above",
+        "a. A = 0, B = 0, C = 1",
+        "c. A = 0, B = 0, C = 0"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The output of sequential circuits depend only on input values",
@@ -2640,12 +2715,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "WDM stands for?",
@@ -3050,15 +3126,20 @@
         "a. (A.B)C=AC.AB",
         "b. ( A+B)(C+D)=AB+CD",
         "c. (AB)(A+B)=AB",
-        "d. (A+B).C=AC+BC"
+        "d. (A+B).C=AC+BC",
+        "a. ( A+B)(C+D)=AB+CD",
+        "b. (A.B)C=AC.AB",
+        "c. (A+B).C=AC+BC",
+        "d. (AB)(A+B)=AB"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following gates has the exact inverse output of the OR gate for all possible input combinations?",
@@ -3235,12 +3316,13 @@
         "d. complementation"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-09-30T14:19:49Z",
+      "lastVerifiedAt": "2026-10-03T23:28:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Whose operations are more faster among the following?",
