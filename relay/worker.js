@@ -41,6 +41,49 @@ function jsonResponse(body, status, corsHeaders) {
   });
 }
 
+async function resolveFeatureFlags(env) {
+  const flags = {
+    killSwitch: false,
+    autoQuiz: true,
+    aiSolver: true,
+    autoMarker: true,
+    cloudSync: true,
+    highlighter: true
+  };
+
+  if (env.KILL_SWITCH === "true" || env.KILL_SWITCH === "1") {
+    flags.killSwitch = true;
+  }
+
+  if (env.DISABLED_FEATURES) {
+    try {
+      const parsed = typeof env.DISABLED_FEATURES === 'string' && env.DISABLED_FEATURES.startsWith('{')
+        ? JSON.parse(env.DISABLED_FEATURES)
+        : env.DISABLED_FEATURES.split(',').map(s => s.trim());
+      if (Array.isArray(parsed)) {
+        parsed.forEach(feat => { if (flags[feat] !== undefined) flags[feat] = false; });
+      } else if (typeof parsed === 'object' && parsed) {
+        Object.assign(flags, parsed);
+      }
+    } catch (_) {}
+  }
+
+  if (env.DB) {
+    try {
+      const rows = await env.DB.prepare("SELECT key, value FROM feature_flags").all();
+      if (rows && rows.results) {
+        for (const r of rows.results) {
+          const val = r.value === '1' || r.value === 'true';
+          if (r.key === 'killSwitch') flags.killSwitch = val;
+          else if (flags[r.key] !== undefined) flags[r.key] = val;
+        }
+      }
+    } catch (_) {}
+  }
+
+  return flags;
+}
+
 function sharedPoolKeys(env) {
   return [env.GEMINI_SHARED_KEY_1, env.GEMINI_SHARED_KEY_2, env.GEMINI_SHARED_KEY_3]
     .map(key => String(key || "").trim())
@@ -1030,14 +1073,58 @@ export default {
       return handleSharedAiRequest(request, env, corsHeaders);
     }
 
+    if (request.method === "POST" && (path === "/admin/flags" || path === "/admin/killswitch")) {
+      const authHeader = request.headers.get("Authorization") || "";
+      const secret = authHeader.replace(/^Bearer\s+/i, '').trim();
+      const adminKey = env.ADMIN_KEY || env.ADMIN_SECRET || "amaes-admin-secret-2026";
+      if (!secret || secret !== adminKey) {
+        return jsonResponse({ error: "Unauthorized: Invalid admin secret" }, 401, corsHeaders);
+      }
+      try {
+        const body = await request.json();
+        if (env.DB) {
+          await env.DB.prepare(`
+            CREATE TABLE IF NOT EXISTS feature_flags (
+              key TEXT PRIMARY KEY,
+              value TEXT NOT NULL,
+              updated_at INTEGER
+            )
+          `).run();
+          if (body.flags && typeof body.flags === 'object') {
+            for (const [k, v] of Object.entries(body.flags)) {
+              await env.DB.prepare(`
+                INSERT INTO feature_flags (key, value, updated_at)
+                VALUES (?, ?, ?)
+                ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at
+              `).bind(k, String(v), Date.now()).run();
+            }
+          }
+          if (typeof body.killSwitch !== 'undefined') {
+            await env.DB.prepare(`
+              INSERT INTO feature_flags (key, value, updated_at)
+              VALUES ('killSwitch', ?, ?)
+              ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at
+            `).bind(String(body.killSwitch), Date.now()).run();
+          }
+        }
+        const updated = await resolveFeatureFlags(env);
+        return jsonResponse({ status: "ok", flags: updated }, 200, corsHeaders);
+      } catch (err) {
+        return jsonResponse({ error: err.message }, 400, corsHeaders);
+      }
+    }
+
     if (request.method === "GET" || request.method === "HEAD") {
-      if (path === "/version") {
+      if (path === "/version" || path === "/flags") {
         const minimumVersion = env.MIN_CLIENT_VERSION || "1.8.2";
+        const flags = await resolveFeatureFlags(env);
         return new Response(JSON.stringify({
           status: "ok",
           minimumVersion,
           latestVersion: LATEST_VERSION,
-          updateUrl: UPDATE_URL
+          updateUrl: UPDATE_URL,
+          flags,
+          announcement: env.GLOBAL_ANNOUNCEMENT || null
         }), {
           status: 200,
           headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
