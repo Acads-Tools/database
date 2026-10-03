@@ -1,0 +1,1484 @@
+{
+  "subjectCode": "CS6204",
+  "subjectName": "Computer Architecture and Organization",
+  "updatedAt": "2026-10-03T15:57:19Z",
+  "refreshedAt": "2026-10-03T15:57:19Z",
+  "tier": "study_guide",
+  "sourceName": "Jenny's Online",
+  "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html",
+  "sourceFormat": "Blogger post with published Google Sheet",
+  "verified": false,
+  "totalQuestions": 147,
+  "questions": [
+    {
+      "question": "An edge-triggered interrupt is an interrupt signaled by a level transition on the interrupt line, either a falling edge (high to low) or a rising edge (low to high).",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The carry bit and operand are collectively treated as a circular buffer of bits.",
+      "answer": "Rotate through carry",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Capacity of true tape",
+      "answer": "185 TB",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Magnetic tape was first used to record computer data in _____ on the Eckert-Mauchly UNIVAC I.",
+      "answer": "1951",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The typical type of external memory that most people use and are familiar with are ______",
+      "answer": "Flash Drive",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A is a communication pathway connecting two or more devices",
+      "answer": "bus",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "______ stores a bit of data using a transistor and capacitor pair.",
+      "answer": "DRAM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Any peripheral device that is not housed",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is useful for both detection and correction of error present in the received data.",
+      "answer": "Hamming code",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The is used in systems in which the CPU should not be disabled for the length of time needed for burst transfer modes.",
+      "answer": "Cycle stealing mode",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "In what year was the",
+      "answer": "1971",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Keeps track of information, location, uses, status etc. The collective facilities are often known as ________",
+      "answer": "File System",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is a digital electronic data storage device.",
+      "answer": "Semiconductor Memories",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "_________ queues are not an independent scheduling algorithm. They make use of other existing algorithms to group and schedule jobs with common characteristics.",
+      "answer": "Multiple level",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "_______ are used in devices such as cameras, GPS systems and call phones.",
+      "answer": "Memory Card",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A disk or solid state drive (SSD) subsystem that increases performance or provides fault tolerance or both.",
+      "answer": "Redundant Array of Independent Disks",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "As logic density has increased, it has become possible to have a cache on the same chip as the processor: the on-chip cache",
+      "answer": "Multilevel caches",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is a hardware bus used for adding internal components to a desktop computer",
+      "answer": "PCI",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "What does EPROM stand for?",
+      "answer": "Erasable Programmable Read-Only Memory",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Supplies power to the PCI card",
+      "answer": "POWER PIN",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Control signal transmit both commands and timing information between the modules",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "In _______, a bit of data is stored using the state of a six-transistor memory cell.",
+      "answer": "SRAM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "This programmed with the use of very high voltages and exposure to apporoximately 20 minutes of intense UV light.",
+      "answer": "EPROM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "If you have 4 bits, you make one ______",
+      "answer": "Nibble",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The ___________ reads in instructions and data, writes out data after processing, and uses control signals to control the overall operation of the system.",
+      "answer": "Processor",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A computer _________ is one of the primary input devices used with a computer.",
+      "answer": "Keyboard",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is the activity of the process manager that handles the removal of the running process from the CPU and the selection of another process on the basis of a particular strategy.",
+      "answer": "Scheduling of process",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "__________ is saved in a known place.",
+      "answer": "Program counter",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "_______ are still used in many computers for situations where data must be read and written quickly.",
+      "answer": "Hard Drive",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "___________ is the fundamental building block of computer memory.",
+      "answer": "Memory Cell",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Registers may be called as the Internal Storage device. Input data, Output data and various other binary data is stored in this unit for further processing.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The 1960s saw large mainframe computers become much more common in large industries and with the US military and space program.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "first microprocessor to make it to Home computers?",
+      "answer": "Intel 8080",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is one of the most important elements in a computer system.",
+      "answer": "Computer memory",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is a storage device that uses a magnetization process to write, rewrite and access data.",
+      "answer": "Magnetic Disk",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A simple ALU that calculates the square root through several steps under the direction of a control unit.",
+      "answer": "Iterative calculation",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "This involves a number of tasks, primarily the transference of data between the processor and an I/O module, accepting and decoding commands sent by the processor, reporting of current status, and an ability for the I/O module to recognise its own unique address.",
+      "answer": "Processor communication",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "introduced in 1977.",
+      "answer": "TRS-80",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It includes most types of ROM and a type of flash memory called ___________.",
+      "answer": "NOR-FLASH",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "This is used in many older computer BIOS chips, is non-volatile storage that can be erased and programmed several times and allows only one location at a time to be written or erased.",
+      "answer": "EEPROM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The following are I/O module's important",
+      "answer": "Database Mining",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Control unit as the name specifies controls the flow of data and signals in the microprocessor",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Which of the following is not belong to non-volatile memory?",
+      "answer": "NONE OF THESE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A _________ usually comprises the display device, circuitry, casing, and power supply.",
+      "answer": "Monitor",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": ". DVD is also known as ________________.",
+      "answer": "SUPER DENSITY DISK",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Microprocessors uses a clock signal to control the rate at which instructions are executed, synchronize other internal components and to control the data transfer between them.",
+      "answer": "Clock speed",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "___________ mode takes the most time to transfer a block of data, yet it is also the most efficient mode in terms of overall system performance.",
+      "answer": "Transparent Mode",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "These are the 3 functional groups of a bus interconnection except?",
+      "answer": "Network Line",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Then during the year 1976, Intel introduced 8085 processors which is nothing but an update of 8080 processors.8080 processors are updated by adding two Enable/Disable Instructions, Three added interrupt pins and serial I/O pins.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is the occurrence of a false interrupt request signal.",
+      "answer": "Spurious interrupt",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "What was the",
+      "answer": "giant ENIAC machine",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Entire data blocks are access and transferred out on a high-speed bus-like interface",
+      "answer": "RDRAM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "1 TB (Terabyte) is equal to?",
+      "answer": "1024 Gigabyte",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Typical control lines include:",
+      "answer": "None of the above",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It performs best when it is transferring large blocks of data serially, such as for applications like word processing, spreadsheets and multimedia.",
+      "answer": "SDRAM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is a processor with direct memory access capability. In this, the computer system is divided into a memory unit and number of processors.",
+      "answer": "I/O Processors",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is used to designate the source or destination of the data on the data bus",
+      "answer": "Address line",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "In the 1960's two devices would be invented that would improve the computer field and set in motion the beginning of the computer revolution.",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "What does PCI stands for?",
+      "answer": "Peripheral Component Interconnect",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "These lines, collectively, are called the .",
+      "answer": "data bus",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Vacuum Tubes (1950s) - one bit on the size of a thumb",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "may be called as the Internal Storage device.",
+      "answer": "Register",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "This is in contrast to a floating-point unit (FPU), which operates on floating point numbers.",
+      "answer": "Arithmetic Logic Unit",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The ________ reads in instructions and data",
+      "answer": "Processor",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The operand is treated as a",
+      "answer": "Arithmetic shift",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is a crucial function that manages the speed discrepancy that exists between the speed of transfer of data between the processor and memory and peripheral devices.",
+      "answer": "Data buffering",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is easy to include (append) one parity bit either to the left of MSB or to the right of LSB of original bit stream.",
+      "answer": "Parity Code",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It reads in instructions and data, writes out data after processing, and uses control signals to control the overall operation of the system.",
+      "answer": "processor",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The ________ of a tape is the surface that can be magnetically manipulate by a tape head",
+      "answer": "Oxide side",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A microprocessor is an integrated circuit (IC) which incorporates core functions of a computer’s central processing unit (CPU).",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "This is used in many older computer BIOS chips, is non-volatile storage that can be erased and programmed several times and allows only one location at a time to be written or erased.",
+      "answer": "All of the above",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "This is a non-preemptive, pre-emptive scheduling algorithm.",
+      "answer": "Both SJN & SJF",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is from the external memory sources is done the same way as copying data to and from the existing hard drive.",
+      "answer": "copying data",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Who was invented the magnetic tape for the purpose of recording?",
+      "answer": "Fritz Pfluemer",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is made to reduce the number of instructions per program, ignoring the number of cycles per instruction.",
+      "answer": "CISC",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Driven by the motherboard, received by the PCI card",
+      "answer": "INPUT",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "first substantial computer?",
+      "answer": "giant ENIAC machine",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Most external hard drives connect to a computer through a ______",
+      "answer": "USB port",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is the simplest technique of mapping.",
+      "answer": "Direct mapping",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "PCI is a hardware bus used for adding internal components to a laptop.",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A group of simple ALUs that calculates a square root in stages, with intermediate results passing through ALUs arranged like a factory production line.",
+      "answer": "Calculation pipeline",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Used to control the access to and the use of the data and address system",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The drives, network",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "In many modern personal computers, the RAM comes in an easily upgraded form of modules called or DRAM modules about the size of a few sticks of _________",
+      "answer": "Chewing gum",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The PCI connector is defined as having how many contacts each side of the dge connector?",
+      "answer": "62",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "first microprocessor introduced?",
+      "answer": "1971",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "This major function enables a computer system to",
+      "answer": "I/O MODULE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Examples of microprocessor",
+      "answer": "Intel Core i7",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Typically, a memory module will consist of M words of equal length.",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Short term scheduler is also called as _______",
+      "answer": "CPU scheduler",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Electronic data storage mediums that we can utilize",
+      "answer": "Magnetic & Optical",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "I t is designed to store computer data in the form of text and graphics, as well as hi-fi stereo sound.",
+      "answer": "CD-ROM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The “conventional PCI was designed by Intel and introduced in ______.",
+      "answer": "1992",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Which is not belongs to optical storage devices?",
+      "answer": "none of these",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Intel’s 8086 was the first microprocessor to make it to Home computers.",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Microprocessors are very versatile, the same chip can be used for a number of applications by simply changing the program (instructions stored in the memory).",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is a compromise that exhibits the strengths of both the direct and associative approaches while reducing their disadvantages.",
+      "answer": "Set-associative mapping",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is the nature of the operation is indicated by read and write control signals.",
+      "answer": "memory",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is made up of memory cell where each cell is composed of one transistor.",
+      "answer": "DRAM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Both static and dynamic RAM are considered _____________.",
+      "answer": "volatile",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is a temporary physical storage used to hold data during execution of process from one place to one another.",
+      "answer": "BUFFER",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Any peripheral device that is not housed inside the computer cabinet.",
+      "answer": "External Devices",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "What is NMI?",
+      "answer": "Non-maskable interrupts",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A level-triggered interrupt is requested by holding the interrupt signal at its particular (high or low) active logic level.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "RISC is a type of microprocessor architecture which uses small, general purpose and highly optimized instruction set rather than more specialized set of instructions found in others.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A type of flash memory",
+      "answer": "NOR-flash",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "__________ is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code",
+      "answer": "Random Access Memory",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A bus is a communication pathway connecting two or more devices",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A bus consists of multiple pathways or lines",
+      "answer": "Bus interconnection",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The first microprocessor was introduced in the year 1972.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It selects processes from the queue and loads them into memory for execution.",
+      "answer": "Long-Term Scheduler",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Term RAM refers solely to ________________",
+      "answer": "solid-state memory devices",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The first substantial computer was the giant ENIAC machine by John W. Mauchly and J. Presper Eckert at the University of Pennsylvania.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Cache memory is a random access memory that is integrated into the hard disk drive.",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "An ALU is a ______________ circuit, meaning that its outputs will change asynchronously in response to input changes.",
+      "answer": "Combinational Logic",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Which of the following is not categorised in physical characteristics of a memory.",
+      "answer": "METAL",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It used to detect the error(s) present in the received data(bit stream).",
+      "answer": "error detection codes",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "All the instructions that are fetched from memory are located in the Instruction register.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The hard disk drive forms the brain of the Central Processing Unit",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "_______ refers to recording data using light.",
+      "answer": "Optical storage",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is requested by holding the interrupt signal at its particular (high or low) active logic level.",
+      "answer": "Level-triggered interrupt",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A software interrupt is requested by the processor itself upon executing particular instructions or when certain conditions are met.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The memory ________ is the fundamental building block of computer memory.",
+      "answer": "cell",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is an advantage of a microprocessor.",
+      "answer": "Both low cost and high-speed",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Processors typically have an internal interrupt mask register which allows selective enabling and disabling of hardware interrupts.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "A printer is an external hardware output device that takes the electronic data stored on a computer or other device and generates a soft copy of it.",
+      "answer": "False",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Microprocessors are very reliable, failure rate is very less as semiconductor technology is used.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Both PCI and PCI-X were superseded by PCI Express, which was introduced in?",
+      "answer": "2004",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "is saved in a known place.",
+      "answer": "Program counter",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The status _______ are various individual signals that convey supplemental information about the result of the current ALU operation.",
+      "answer": "Output",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Blueberry released the first generation Macintosh, which was the first computer to come with a graphical user interface(GUI) and a mouse.",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "______ are used to correct the error(s) present in the received data (bit stream) so that, we will get the original data.",
+      "answer": "Error correction codes",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "It is an integrated circuit (IC) which incorporates core functions of a computer’s central processing unit (CPU).",
+      "answer": "Microprocessor",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Production of dumps, traces, error messages, and other debugging and ____________",
+      "answer": "Error detecting aids",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Interrupts may be implemented in hardware as a distinct component with control lines, or they may be integrated into the memory subsystem.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Used to control the access to and the use of the data and address lines",
+      "answer": "CONTROL LINE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Direct memory access (DMA) is a feature of",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Word Width is the number of bits in the internal data bus of a processor or it is the number of bits a processor can process at a time",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "______ can handle CPU, direct memory access (DMA) and video refresh at the same time by utilizing a high-speed video interface.",
+      "answer": "CDRAM",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "An input-output processor (IOP) is a",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Processor to memory: The processor writes a unit of data to memory.",
+      "answer": "TRUE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The following are MODES OF OPERATION (DMA), except:",
+      "answer": "REITERATIVE MODE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "The memory characterised on the basis of two key factors; _______ and _____________.",
+      "answer": "CAPACITY AND ACCESS TIME",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "Magnetic tape was invented for recording sound by Fritz Pfleumer in _____ in Germany.",
+      "answer": "1928",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "I/O module stands for Input / Output module, which is a device that acts as the connective bridge between a computer system at one end and an I/O or peripheral device of some kind at the other, such as a mouse keypad, webcam or scanner.",
+      "answer": "FALSE",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "What does UNI stand for?",
+      "answer": "User Network Interface",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    },
+    {
+      "question": "____________ is a set of conductors intended to transmit data, address or control information to different elements in a microprocessor.",
+      "answer": "Bus",
+      "choices": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "jennysonline",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://jennysonline.blogspot.com/2021/03/computer-architecture-and-organization.html"
+    }
+  ]
+}

@@ -54,10 +54,31 @@ not enabled by this lightweight rollout.
 - `data/`: Active course question banks in structured JSON format.
   - `data/verified/`: Official review key archives.
   - `data/community/`: Consensus-backed community contributions.
-  - `data/amauoed/`: Scraped study guide references.
+  - AMAUOED course snapshots: monthly refreshed, source-attributed suggestions kept unverified and separate from the primary course bank.
+  - Jenny's Online course snapshots: monthly refreshed, source-attributed suggestions kept unverified and separate from the primary course bank.
 - `docs/`: Technical specifications and architectural guides ([`docs/`](docs/)).
 - `relay/`: Cloudflare Worker source code for secure, rate-limited anonymous submissions.
 - `scripts/`: Automated anti-sabotage merge engine and validation utilities.
+
+---
+
+## Study-guide source snapshots
+
+With source-owner permission reported by the repository maintainer, the monthly
+[`refresh-study-guides.yml`](.github/workflows/refresh-study-guides.yml) workflow
+refreshes only courses already represented by a primary `data/{SUBJECT}.json`
+file. It checks for exact course-code/title matches, observes a 1.5-second
+minimum interval between source requests and preserves existing snapshots when
+a source is unavailable or yields no parseable rows; source errors fail the
+workflow so the next scheduled run can retry. Every imported row is marked
+`verified: false` with source attribution; these files never become ground truth
+by being scraped or refreshed. Existing legacy AMAUOED tier files containing
+verified rows are preserved rather than replaced by fresh unverified candidates.
+
+Jenny discovery uses Blogger's feed endpoint, not the `/search` path disallowed
+by that site's `robots.txt`. The workflow has no student-level access tracking:
+the existing course files are the explicit refresh allowlist. Manual runs are
+available from GitHub Actions via `workflow_dispatch`.
 
 ---
 

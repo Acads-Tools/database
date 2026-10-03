@@ -1,0 +1,3760 @@
+{
+  "subjectCode": "CS6205",
+  "subjectName": "Automata Theory and Formal Languages",
+  "updatedAt": "2026-10-03T15:57:29Z",
+  "refreshedAt": "2026-10-03T15:57:29Z",
+  "tier": "study_guide",
+  "sourceName": "AMAUOED",
+  "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs",
+  "sourceFormat": "AMAUOED course answer cards",
+  "verified": false,
+  "totalQuestions": 246,
+  "questions": [
+    {
+      "question": "__ is a finite set of states.",
+      "answer": "Q",
+      "choices": [
+        "Q"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "__ is a finite set of symbols called the alphabet.",
+      "answer": "Σ",
+      "choices": [
+        "Σ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "__ is the initial state from where any input is processed (q0 ∈ Q).",
+      "answer": "q0",
+      "choices": [
+        "q0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "______ is used to derive a string using the production rules of a grammar.",
+      "answer": "Parsing",
+      "choices": [
+        "Parsing"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "“C if H” is also the same as saying _______.",
+      "answer": "“If H then ”",
+      "choices": [
+        "“If H then ”",
+        "“If C then H”",
+        "“If H then C else {}”",
+        "“If H then C else do nothing”"
+      ],
+      "wrongAnswers": [
+        "“If C then H”",
+        "“If H then C else {}”",
+        "“If H then C else do nothing”"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "“If H then ” is also the same as saying _______.",
+      "answer": "“C if H”",
+      "choices": [
+        "“If H then C else do nothing”",
+        "“If C then H”",
+        "“If H then C else {}”",
+        "“C if H”"
+      ],
+      "wrongAnswers": [
+        "“If H then C else do nothing”",
+        "“If C then H”",
+        "“If H then C else {}”"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "“Whenever H holds, C follows” can also be said as _______.",
+      "answer": "H → C",
+      "choices": [
+        "H → ε and ε → C",
+        "H → C",
+        "C → H",
+        "ε → H and C → ε"
+      ],
+      "wrongAnswers": [
+        "H → ε and ε → C",
+        "C → H",
+        "ε → H and C → ε"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "{Q, Σ, q0, F, δ, Q × Σ → Q} is…",
+      "answer": "There is no such tuple",
+      "choices": [
+        "An NFA",
+        "Either DFA or NFA",
+        "There is no such tuple",
+        "A DFA"
+      ],
+      "wrongAnswers": [
+        "An NFA",
+        "Either DFA or NFA",
+        "A DFA"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "* Starts from tree leaves. It proceeds upward to the root which is the starting symbol S.",
+      "answer": "Bottom-Up Approach",
+      "choices": [
+        "Bottom-Up Approach"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "* Starts with the starting symbol S. It goes down to tree leaves using productions.",
+      "answer": "Top-Down Approach",
+      "choices": [
+        "Top-Down Approach"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "|-* is the _____ closure of |-",
+      "answer": "transitive and reflexive",
+      "choices": [
+        "transitive and reflexive"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A __________ of a derivation is a tree in which each internal node is labeled with a nonterminal.",
+      "answer": "parse tree",
+      "choices": [
+        "parse tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A - B will contain elements in?",
+      "answer": "A not in B",
+      "choices": [
+        "B not in A",
+        "A not in B",
+        "Neither A nor B",
+        "Both A and B"
+      ],
+      "wrongAnswers": [
+        "B not in A",
+        "Neither A nor B",
+        "Both A and B"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A ⊂ B is read as ________________.",
+      "answer": "A is a proper subset of B",
+      "choices": [
+        "A is less than B",
+        "A is a subset of B",
+        "B is a subset of A",
+        "A is a proper subset of B"
+      ],
+      "wrongAnswers": [
+        "A is less than B",
+        "A is a subset of B",
+        "B is a subset of A"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A 2-Tape Turing Machine ___________________.",
+      "answer": "can show that recursive languages are closed under union",
+      "choices": [
+        "can infer that recursive languages are closed under union",
+        "can show that recursive languages are closed under union",
+        "has two outputs",
+        "has two inputs"
+      ],
+      "wrongAnswers": [
+        "can infer that recursive languages are closed under union",
+        "has two outputs",
+        "has two inputs"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A compact textual representation of a set of strings representing a language.",
+      "answer": "Regular Expressions",
+      "choices": [
+        "Regular Expressions"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A conceptual design for a machine consisting of a Mill, Store, Printer, and Readers.",
+      "answer": "Analytic Engine",
+      "choices": [
+        "Analytic Engine"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A DFA can remember a finite amount of information, but a can remember an infinite amount of information.",
+      "answer": "PDA",
+      "choices": [
+        "PDA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A DFA is defined ____________________.",
+      "answer": "by a 5-tuple which is {Q, Σ, q0, F, δ}",
+      "choices": [
+        "as Department of Finite Automaton",
+        "by a 5-tuple which is {Q, Σ, q0, F, δ}",
+        "by a 6-tuple which is {Q, Σ, q0, F, δ, Q × Σ → Q}",
+        "as Department of Foreign Affairs"
+      ],
+      "wrongAnswers": [
+        "as Department of Finite Automaton",
+        "by a 6-tuple which is {Q, Σ, q0, F, δ, Q × Σ → Q}",
+        "as Department of Foreign Affairs"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A DFA is represented by digraphs called.",
+      "answer": "State Diagram",
+      "choices": [
+        "State Diagram"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A DPDA is a PDA in which",
+      "answer": "No state p has two outgoing transitions",
+      "choices": [
+        "No state p has two outgoing transitions"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A Finite Automaton with null moves (FA-ε) does transit not only after giving input from the alphabet set but also without any input symbol. This transition without input is called a",
+      "answer": "Null Move",
+      "choices": [
+        "Null Move"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A finite number of states.",
+      "answer": "Q",
+      "choices": [
+        "Q"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A finite set of input symbols.",
+      "answer": "Σ",
+      "choices": [
+        "Σ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A finite set of states",
+      "answer": "Q",
+      "choices": [
+        "Q"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A formal language is a set of strings, each string composed of symbols from a finite set called.",
+      "answer": "Alphabet",
+      "choices": [
+        "Alphabet"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A general purpose, programmable, information processor with input and output.",
+      "answer": "computer",
+      "choices": [
+        "computer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A good regular expression for any valid real number using engineering notation is ______________.",
+      "answer": "[0-9]+[0-9]*[(E|e)[0-9]+]",
+      "choices": [
+        "[0-9]+[0-9]*[(E|e)[0-9]+]",
+        "[0-9]*",
+        "[0-9]+[0-9]*[(E|e|∈)[0-9]+]",
+        "[0-9]+"
+      ],
+      "wrongAnswers": [
+        "[0-9]*",
+        "[0-9]+"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A good regular expression for any valid whole number is ______________.",
+      "answer": "[0-9]+",
+      "choices": [
+        "[0-9]*",
+        "[0-9]*[0-9]*",
+        "[0-9]+",
+        "[0-9]+[0-9]*"
+      ],
+      "wrongAnswers": [
+        "[0-9]*[0-9]*",
+        "[0-9]+[0-9]*"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A good regular expression of a person's name is ______________.",
+      "answer": "[A-Z][a-z]*",
+      "choices": [
+        "None of the given choices",
+        "[A-Z][a-z]+",
+        "[A-Z][a-z]?",
+        "[A-Z][a-z]*"
+      ],
+      "wrongAnswers": [
+        "None of the given choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A grammar G is ambiguous if there is a word w Î L(G) having are least two different parse trees.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A language accepted by Deterministic Push down automata is closed under which of the following?",
+      "answer": "complement",
+      "choices": [
+        "complement"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A language is regular if and only if.",
+      "answer": "Accepted by DFA",
+      "choices": [
+        "Accepted by DFA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A may or may not read an input symbol, but it has to read the top of the stack in every transition.",
+      "answer": "PDA",
+      "choices": [
+        "PDA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A Moore machine can be described by a tuple.",
+      "answer": "6",
+      "choices": [
+        "6"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A nested if-then statement is one of these:",
+      "answer": "If w then if x then y else z",
+      "choices": [
+        "If w then x if y then z",
+        "If w if x then y then z",
+        "If w then if x then y else z",
+        "All of the choices are examples of nestedness"
+      ],
+      "wrongAnswers": [
+        "If w then x if y then z",
+        "If w if x then y then z",
+        "All of the choices are examples of nestedness"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A new symbol is added at the top.",
+      "answer": "Push",
+      "choices": [
+        "Push"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A parsing that starts from the top with the start-symbol and derives a string using a parsetree.",
+      "answer": "top-down parser",
+      "choices": [
+        "top-down parser"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A PDA accepts a string when, after reading the entire string, the PDA is in a final state.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A PDA is already in its accept state if:",
+      "answer": "it is either in the final state or the stack is empty",
+      "choices": [
+        "and only if it is both in the final state and the stack is empty",
+        "none of the given choices",
+        "it is either in the final state or the stack is empty",
+        "it has no more input to process"
+      ],
+      "wrongAnswers": [
+        "and only if it is both in the final state and the stack is empty",
+        "none of the given choices",
+        "it has no more input to process"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A PDA machine configuration (p, w, y) can be correctly represented as.",
+      "answer": "Current state, Unprocessed input, Stack content",
+      "choices": [
+        "Current state, Unprocessed input, Stack content"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A PDA machine configuration (p, w, y) can be ly represented as ____________",
+      "answer": "current state, unprocessed input, stack content",
+      "choices": [
+        "current state, unprocessed input, stack content"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A pushdown automata can be regarded as:",
+      "answer": "a ε-NFA with a stack",
+      "choices": [
+        "a ε-NFA with a stack",
+        "a DFA with a FILO queue",
+        "a NFA with a stack",
+        "a DFA with FIFO queue"
+      ],
+      "wrongAnswers": [
+        "a DFA with a FILO queue",
+        "a DFA with FIFO queue"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A pushdown automaton is a way to implement a context-free grammar in a similar way to design DFA for a regular grammar.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A regular expression consisting of a finite set of grammar rules is a quadruple.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A right-most derivation of a sentential form is one in which rules transforming the are always applied.",
+      "answer": "Context",
+      "choices": [
+        "Context"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set has n elements, then the number of elements in its power set is?",
+      "answer": "2 ^ n",
+      "choices": [
+        "2n",
+        "2 ^ n",
+        "None of the choices",
+        "2n-1"
+      ],
+      "wrongAnswers": [
+        "2n",
+        "None of the choices",
+        "2n-1"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set of accepting states (F ∈ Q).",
+      "answer": "F",
+      "choices": [
+        "F"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set of final state/states of Q (F⊆Q).",
+      "answer": "F",
+      "choices": [
+        "F"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set of rules, P: N → (N U T)*, it does have any right context or left context.",
+      "answer": "P",
+      "choices": [
+        "P"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set of strings of a's and b's of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa.......}, the regular",
+      "answer": "(a+b)*",
+      "choices": [
+        "(a+b)*"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set of strings of a's and b's of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa.......}, the regular expression is.",
+      "answer": "(a+b)*",
+      "choices": [
+        "(a+b)*"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set of terminals where N ∩ T = NULL.",
+      "answer": "T",
+      "choices": [
+        "T"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A set on non-terminal symbols.",
+      "answer": "S & A",
+      "choices": [
+        "S & A"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A stack symbols",
+      "answer": "Σ",
+      "choices": [
+        "Σ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A string is accepted by a, iff the DFA/NDFA starting at the initial state ends in an after reading the string.",
+      "answer": "NDFA",
+      "choices": [
+        "NDFA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A sub-tree of a derivation tree/parse tree such that either all of its children are in the sub-tree or none of them are in the",
+      "answer": "Partial Derivation Tree, Sub-Tree",
+      "choices": [
+        "Partial Derivation Tree, Sub-Tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A symbol X is reachable _________________________.",
+      "answer": "if S →* aXβ",
+      "choices": [
+        "if S → aXβ",
+        "if X →* w, for some w ∈ Σ",
+        "if X → w, for some w ∈ Σ",
+        "if S →* aXβ"
+      ],
+      "wrongAnswers": [
+        "if X →* w, for some w ∈ Σ",
+        "if X → w, for some w ∈ Σ"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A transition function δ : Q × (Σ ∪ {ε}) → 2Q.",
+      "answer": "δ",
+      "choices": [
+        "δ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A transition function: Q × (Σ∪{ε}) × S × Q × S*.",
+      "answer": "δ",
+      "choices": [
+        "δ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "A' will contain how many elements from the original set A?",
+      "answer": "0",
+      "choices": [
+        "1",
+        "all elements in A",
+        "infinite",
+        "0"
+      ],
+      "wrongAnswers": [
+        "1",
+        "all elements in A",
+        "infinite"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "According to the 5-tuple representation i.e. FA= {Q, ∑, δ, q, F} Statement 1: q ϵ Q'; Statement 2: FϵQ",
+      "answer": "Statement 1 is false, Statement 2 is true",
+      "choices": [
+        "Statement 1 is false, Statement 2 is true"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "According to what concept is CFL a superset of RL?",
+      "answer": "Chomsky Hierarchy",
+      "choices": [
+        "Chomsky Hierarchy",
+        "Chomsky Normal Form",
+        "Backus-Naur Form",
+        "None of the given choices"
+      ],
+      "wrongAnswers": [
+        "Chomsky Normal Form",
+        "Backus-Naur Form",
+        "None of the given choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "All functions are relations",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "All relations are functions",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "All trees contain loops.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An algorithms to shampoo your hair.",
+      "answer": "rinse, lather, repeat",
+      "choices": [
+        "rinse, lather, repeat"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An alphabet is any finite set of symbols.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An automaton that produces outputs based on current input and/or previous state is called.",
+      "answer": "Transducer",
+      "choices": [
+        "Transducer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An English like abbreviations representing elementary computer operations.",
+      "answer": "Assembly Language",
+      "choices": [
+        "Assembly Language"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An example string w of a language L characterized by equal number of As and Bs is _______________.",
+      "answer": "ABBBAA",
+      "choices": [
+        "BABAE",
+        "ABABA",
+        "ABBBAA",
+        "ALIBABA"
+      ],
+      "wrongAnswers": [
+        "BABAE",
+        "ABABA",
+        "ALIBABA"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An indirect way of building a CFG is to _____________",
+      "answer": "build a PDA and then construct a CFG from it",
+      "choices": [
+        "build a regular expression and then construct a PDA from it, and then construct CDF from it",
+        "You can only build a CFG directly",
+        "build a PDA and then construct a CFG from it",
+        "none of the given choices"
+      ],
+      "wrongAnswers": [
+        "build a regular expression and then construct a PDA from it, and then construct CDF from it",
+        "You can only build a CFG directly",
+        "none of the given choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An initial state q0 ∈ Q",
+      "answer": "q0",
+      "choices": [
+        "q0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An order rooted tree that graphically represents the semantic information a string derived from a context-free grammar.",
+      "answer": "Derivation tree",
+      "choices": [
+        "Derivation tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "An ε-NFA with a stack is also regarded as:",
+      "answer": "A PDA",
+      "choices": [
+        "A CFG",
+        "A FSA",
+        "A PDA",
+        "A RE"
+      ],
+      "wrongAnswers": [
+        "A CFG",
+        "A FSA",
+        "A RE"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Any production rule in the form A → B where A, B ∈ Non-terminal is called unit production.",
+      "answer": "Unit Production",
+      "choices": [
+        "Unit Production"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Any production rule in the form A → B where A, B ∈ Non-terminal is called.",
+      "answer": "Unit Production",
+      "choices": [
+        "Unit Production"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Any set that represents the value of the Regular Expression is called a Property set.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Are ambiguous grammar context free?",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "are parameterized statement, they are true or false depending on the values of their parameters.",
+      "answer": "predicates",
+      "choices": [
+        "predicates"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Blank symbol",
+      "answer": "Δ",
+      "choices": [
+        "Δ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "challenged the mathematical community to find an infallible, mechanical method for constructing and checking truth of mathematical statements.",
+      "answer": "David Hilbert",
+      "choices": [
+        "David Hilbert"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Checking whether there is a matching parenthesis in a computer code can be done by a ______________.",
+      "answer": "context-free grammar",
+      "choices": [
+        "regular expression",
+        "automatically by a very patient debugger",
+        "context-free language",
+        "context-free grammar"
+      ],
+      "wrongAnswers": [
+        "regular expression",
+        "automatically by a very patient debugger",
+        "context-free language"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Circuits in graphs are always simple paths.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Computer science has roots in two fields :",
+      "answer": "Mathematics",
+      "choices": [
+        "Mathematics"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Computers are general purpose because they can perform many different tasks.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Connected graphs have components.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Context Free Languages is closed under intersection.",
+      "answer": "False",
+      "choices": [
+        "False",
+        "True"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Context-free grammars are more expressive than finite automata; if a language L is _____ by a finite automata then L can be _______ by a context-free grammar.",
+      "answer": "accepted, generated",
+      "choices": [
+        "accepted, generated"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Context-free grammars are more expressive than finite automata; if a language L is by a finite automata then L can be blank by a context-free grammar.",
+      "answer": "Accepted",
+      "choices": [
+        "Accepted"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Context-free grammars are more expressive than finite automata; if a language L is by a finite automata then L can be by a context-free grammar.",
+      "answer": "Accepted, Ignored",
+      "choices": [
+        "Accepted, Ignored"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Elimination of productions and symbols is called simplification of CFGs. Simplification essentially comprises of the following steps:",
+      "answer": "Reduction of CFG",
+      "choices": [
+        "Reduction of CFG"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Empty set is a/an ________________.",
+      "answer": "Finite set",
+      "choices": [
+        "Infinite set",
+        "Finite set",
+        "Invalid set",
+        "None of the choices"
+      ],
+      "wrongAnswers": [
+        "Infinite set",
+        "Invalid set",
+        "None of the choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Empty string",
+      "answer": "Σ",
+      "choices": [
+        "Σ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Every context free grammar can be transformed into an equvalent non deterministic push down automata.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Every set is a / an ________________ of itself.",
+      "answer": "Improper Subset",
+      "choices": [
+        "None of the choices",
+        "Complement",
+        "Proper Subset",
+        "Improper Subset"
+      ],
+      "wrongAnswers": [
+        "None of the choices",
+        "Complement",
+        "Proper Subset"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Finite Automata all regular languages and only regular languages.",
+      "answer": "Accept",
+      "choices": [
+        "Accept"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Finite set of input alphabets.",
+      "answer": "Σ",
+      "choices": [
+        "Σ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Finite set of states",
+      "answer": "Q",
+      "choices": [
+        "Q"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "For a regular expression 'a', we can construct the following FA:",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "For bottom-up parsing, a PDA has the following four types of transitions:",
+      "answer": "Push the current input symbol into the stack., Replace the right‑hand side of a production at the top of the stack with its left‑hand side. , If the top of the stack element matches with the current input symbol, pop it. , If the input string is fully read and only if the start symbol 'S' remains in the stack, pop it and go to the final state .",
+      "choices": [
+        "Push the current input symbol into the stack., Replace the right‑hand side of a production at the top of the stack with its left‑hand side. , If the top of the stack element matches with the current input symbol, pop it. , If the input string is fully read and only if the start symbol 'S' remains in the stack, pop it and go to the final state ."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "For every CFL, G, there exists a PDA M such that L(G) = L(M) and vice versa.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "For every pair of regular expressions R and S, the languages denoted by R(SR)* and (RS)*R are the same.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "For the given Regular expression, the minimum number of terminals required to derive its grammar (011+1)*(01)* is",
+      "answer": "3,6,2,5,4",
+      "choices": [
+        "3,6,2,5,4"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Given that the language L = {ε}, is L empty?",
+      "answer": "No, because the language has an empty symbol",
+      "choices": [
+        "None of the given choices",
+        "No, because the language has an empty symbol",
+        "Definitely, because ε is an empty symbol",
+        "This is a case of apples and oranges, you really can't compare!"
+      ],
+      "wrongAnswers": [
+        "None of the given choices",
+        "Definitely, because ε is an empty symbol",
+        "This is a case of apples and oranges, you really can't compare!"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Given the language L = {ε}, is L empty?",
+      "answer": "No, because the language has an empty symbol",
+      "choices": [
+        "none of the given choices",
+        "Definitely, because ε is an empty symbol",
+        "No, because the language has an empty symbol",
+        "You can't say"
+      ],
+      "wrongAnswers": [
+        "none of the given choices",
+        "Definitely, because ε is an empty symbol",
+        "You can't say"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Given the productions S → αXβ, X → a, ___________________.",
+      "answer": "X is useful",
+      "choices": [
+        "X is not reachable nor generating",
+        "X is reachable but not generating",
+        "X is useful",
+        "X is not reachable but is generating"
+      ],
+      "wrongAnswers": [
+        "X is not reachable nor generating",
+        "X is reachable but not generating",
+        "X is not reachable but is generating"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Global Positioning System (GPS) calculates latitude and longitude from satellite signals.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Having the initial state as a final state, give the deterministic finite state automaton that accepts the regular expression.",
+      "answer": "((a.b)+c)*",
+      "choices": [
+        "((a.b)+c)*"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "How many rational and irrational numbers are possible between 0 and 1?",
+      "answer": "Infinite",
+      "choices": [
+        "0",
+        "Infinite",
+        "Finite",
+        "1"
+      ],
+      "wrongAnswers": [
+        "0",
+        "Finite",
+        "1"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "How many sets belong to the power set of A = {a,b,c,d}?",
+      "answer": "16",
+      "choices": [
+        "4",
+        "8",
+        "7",
+        "16"
+      ],
+      "wrongAnswers": [
+        "4",
+        "8",
+        "7"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Identify the modeling recognition of the word \"then\"",
+      "answer": "Start State",
+      "choices": [
+        "Start State"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If A →* ε, then we can say that:",
+      "answer": "A is nullable",
+      "choices": [
+        "A is not generating",
+        "A is not reachable",
+        "A is nullable",
+        "A is not generally useful"
+      ],
+      "wrongAnswers": [
+        "A is not generating",
+        "A is not reachable",
+        "A is not generally useful"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If A = {0,2) and B = {1,3), then Cartesian product is?",
+      "answer": "A x B not equal B x A",
+      "choices": [
+        "none of the choices",
+        "A x B not equal B x A",
+        "A x B = B x A",
+        "is not possible"
+      ],
+      "wrongAnswers": [
+        "none of the choices",
+        "A x B = B x A",
+        "is not possible"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If A = {3, 4, 6, 8} and",
+      "answer": "{ 4,6}",
+      "choices": [
+        "{ 4,6}"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If A = {5,6,7} and B = {7,8,9} then A U B is equal to:",
+      "answer": "{5,6,7,8,9}",
+      "choices": [
+        "{5,6,7}",
+        "None of the choices",
+        "{7,8,9}",
+        "{5,6,7,8,9}"
+      ],
+      "wrongAnswers": [
+        "{5,6,7}",
+        "None of the choices",
+        "{7,8,9}"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If A has m elements and B has n elements, then A x B has elements?",
+      "answer": "m x n",
+      "choices": [
+        "m - n",
+        "m + n",
+        "2n",
+        "m x n"
+      ],
+      "wrongAnswers": [
+        "m - n",
+        "m + n",
+        "2n"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If a problem can be shown that it belongs to the class of recursively enumerable languages then ______________________.",
+      "answer": "It may be solved by any TM",
+      "choices": [
+        "It may be solved by any TM",
+        "It may be solved by a special RE",
+        "It may be solved by a special TM",
+        "It may be solved by any RE"
+      ],
+      "wrongAnswers": [
+        "It may be solved by a special RE",
+        "It may be solved by a special TM",
+        "It may be solved by any RE"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If L is recursively enumerable then ________________.",
+      "answer": "L may not be recursively enumerable",
+      "choices": [
+        "none of the choices given is correct",
+        "L is also recursively enumerable",
+        "L is definitely not recursively enumerable",
+        "L may not be recursively enumerable"
+      ],
+      "wrongAnswers": [
+        "none of the choices given is correct",
+        "L is also recursively enumerable",
+        "L is definitely not recursively enumerable"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If L1 and L2 are regular sets then intersection of these two will be.",
+      "answer": "Regular",
+      "choices": [
+        "Regular"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If R = {(1,1),(2,3),(4,5)}, then domain of the function is?",
+      "answer": "Dom R = {1,2,4}",
+      "choices": [
+        "Dom R = {2,3,4,5}",
+        "Dom R = {1,2,4}",
+        "Dom R {1,3,5}",
+        "Dom R {1,1,4,5}"
+      ],
+      "wrongAnswers": [
+        "Dom R = {2,3,4,5}",
+        "Dom R {1,3,5}",
+        "Dom R {1,1,4,5}"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If R ={(1,1),(2,3),(4,5)}, then the Range of the function is?",
+      "answer": "Range R = {1,3,5}",
+      "choices": [
+        "Range R {1,1,4,5}",
+        "Range R {1,2,5}",
+        "Range R = {2,3,4,5}",
+        "Range R = {1,3,5}"
+      ],
+      "wrongAnswers": [
+        "Range R {1,1,4,5}",
+        "Range R {1,2,5}",
+        "Range R = {2,3,4,5}"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If we can successfully and correctly stimulate a TM with storage by two standard TMs, then ______________________.",
+      "answer": "we have already shown that the two are equivalent",
+      "choices": [
+        "None of the choices",
+        "we have already shown that the TM with storage is at least twice as powerful as one standard TM",
+        "we have already shown that the two are equivalent",
+        "we have already shown that one standard TM is half as powerful as the TM with storage"
+      ],
+      "wrongAnswers": [
+        "None of the choices",
+        "we have already shown that the TM with storage is at least twice as powerful as one standard TM",
+        "we have already shown that one standard TM is half as powerful as the TM with storage"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If we can successfully and ly stimulate a TM with storage by two standard TMs, then ______________________",
+      "answer": "we have already shown that the two are equivalent",
+      "choices": [
+        "we have already shown that the two are equivalent"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "If Σ2 is {00, 01, 10, 11}, then Σ =",
+      "answer": "{0, 1}",
+      "choices": [
+        "{0, 1}",
+        "{false, true}",
+        "{true, false}",
+        "{F, T}"
+      ],
+      "wrongAnswers": [
+        "{false, true}",
+        "{true, false}",
+        "{F, T}"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "In Allan M. Turing proposed the Turing machine as a model of \"any possible computation\".",
+      "answer": "1936",
+      "choices": [
+        "1936"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "In mathematical notation, the symbol → means...",
+      "answer": "implication",
+      "choices": [
+        "implication",
+        "an element of",
+        "not an element of",
+        "assignment statement"
+      ],
+      "wrongAnswers": [
+        "an element of",
+        "not an element of",
+        "assignment statement"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "In the Chomsky Hierarchy:",
+      "answer": "Regular Language ⊂ Context-sensitive Language",
+      "choices": [
+        "Regular Language ⊂ Context-sensitive Language",
+        "Regular Language ⊃ Context-sensitive Language",
+        "Regular Language| • |Context-sensitive Language",
+        "Regular Language = Context-sensitive Language"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "In words, H → C means…",
+      "answer": "Whenever H holds, C follows",
+      "choices": [
+        "Whenever H holds, C follows",
+        "Whenever H does not follow, C does not follow either",
+        "Whenever H is true, then it becomes C",
+        "Whenever H, then it becomes C"
+      ],
+      "wrongAnswers": [
+        "Whenever H does not follow, C does not follow either",
+        "Whenever H is true, then it becomes C",
+        "Whenever H, then it becomes C"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Increasing accuracy, or precision",
+      "answer": "Minimizing False Positives",
+      "choices": [
+        "Minimizing False Positives"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Increasing coverage, or recall.",
+      "answer": "Minimizing False Negatives",
+      "choices": [
+        "Minimizing False Negatives"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Is a set of final state/states of Q (F ⊆ Q).",
+      "answer": "F",
+      "choices": [
+        "F"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Is the transition function where δ: Q × Σ → Q.",
+      "answer": "δ",
+      "choices": [
+        "δ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Is to be applied to show that certain languages are not regular. It should never be used to show a language is regular.",
+      "answer": "Pumping Lemma",
+      "choices": [
+        "Pumping Lemma"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Is used to derive a string using the production rules of a grammar.",
+      "answer": "Production",
+      "choices": [
+        "Production"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "It generate context-free languages. The productions must be in the form A → γ",
+      "answer": "Type-2 grammars",
+      "choices": [
+        "Type-2 grammars"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "IT generate recursively enumerable languages. The productions have no restrictions and phase structure grammar including all formal grammars.",
+      "answer": "Type-0 grammars",
+      "choices": [
+        "Type-0 grammars"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "IT generate recursively enumerable languages. The productions have no restrictions and phase structure grammar including all formal grammars. They generate the languages that are recognized by a Turing machine.",
+      "answer": "Type-0 grammars",
+      "choices": [
+        "Type-0 grammars"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "It is a unary operator on a set of symbols or strings, that gives the infinite set of all possible strings of all possible lengths.",
+      "answer": "Σ *",
+      "choices": [
+        "Σ *"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "It process information in their efforts to eat, survive, and reproduce.",
+      "answer": "Living Organisms",
+      "choices": [
+        "Living Organisms"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "It refers to the measure of the number of times the tape moves when the machine is initialized for some input symbols and the space complexity is the number of cells of the tape written.",
+      "answer": "Time Complexity",
+      "choices": [
+        "Time Complexity"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "It starts from the bottom with the string and comes to the start symbol using a parse tree.",
+      "answer": "Bottom-Up Parser",
+      "choices": [
+        "Bottom-Up Parser"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "It starts from the top with the start-symbol and derives a string using a parse tree.",
+      "answer": "Top-Down Parser",
+      "choices": [
+        "Top-Down Parser"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "JASON can generally be parsed by ______________.",
+      "answer": "A CFG",
+      "choices": [
+        "A C parser",
+        "A CFG",
+        "A Java parser",
+        "A RE"
+      ],
+      "wrongAnswers": [
+        "A C parser",
+        "A Java parser",
+        "A RE"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Labeled by a non-terminal symbol.",
+      "answer": "Vertex",
+      "choices": [
+        "Vertex"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Labeled by a terminal symbol or ε.",
+      "answer": "Leaves",
+      "choices": [
+        "Leaves"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Labeled by the start symbol.",
+      "answer": "Root Vertex",
+      "choices": [
+        "Root Vertex"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Language may be derived from other strings using the productions in a grammar.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Leibniz introduced binary notation of calculation.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Let the class of language accepted by finite state machine be L1 and the class of languages represented by regular expressions be L2 then.",
+      "answer": "L1=L2",
+      "choices": [
+        "L1=L2"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Let w = 100011, is w a member of a language of string with equal number of 0s and 1s?",
+      "answer": "Yes, because the number of 1s is the same as the number of 0s, which is 3",
+      "choices": [
+        "Yes, because the number of 1s is the same as the number of 0s, which is 3",
+        "It is hard to ascertain because 100011 is 35 in decimal, which is an odd number",
+        "No, because even if the symbols 1 and 0 are of the same number, they are not palindromic",
+        "This is an NP-hard problem"
+      ],
+      "wrongAnswers": [
+        "It is hard to ascertain because 100011 is 35 in decimal, which is an odd number",
+        "No, because even if the symbols 1 and 0 are of the same number, they are not palindromic",
+        "This is an NP-hard problem"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "NFA means:",
+      "answer": "Nondeterministic Finite Automaton",
+      "choices": [
+        "Nondeterministic Finite Automaton",
+        "Nondeterministic Final Automaton",
+        "Nondifferentiable Final Automaton",
+        "Nondifferential Finite Automaton"
+      ],
+      "wrongAnswers": [
+        "Nondeterministic Final Automaton",
+        "Nondifferentiable Final Automaton",
+        "Nondifferential Finite Automaton"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Noam Chomsky gave a mathematical model in _______ which is effective for writing computer languages.",
+      "answer": "1956",
+      "choices": [
+        "1956"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Non-terminal symbols",
+      "answer": "S & A",
+      "choices": [
+        "S & A"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "NP-Hard problems are problems that are...",
+      "answer": "intractable",
+      "choices": [
+        "Easy (they are called hard so that computer programmers can be paid more)",
+        "intractable",
+        "none of the choices",
+        "hard"
+      ],
+      "wrongAnswers": [
+        "Easy (they are called hard so that computer programmers can be paid more)",
+        "none of the choices",
+        "hard"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Number of final state require to accept in minimal finite automata.",
+      "answer": "None of the mentioned",
+      "choices": [
+        "None of the mentioned"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Number of states require to accept string ends with 10.",
+      "answer": "3",
+      "choices": [
+        "3"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "One of the first programmable electronic computers in 1945.",
+      "answer": "ENIAC",
+      "choices": [
+        "ENIAC"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Production Rule: aAb->agb belongs to which of the following category?",
+      "answer": "Context Sensitive Language",
+      "choices": [
+        "Context Sensitive Language"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Recursive : TM that always halt = ________________ : TM that may or may not halt",
+      "answer": "recursively enumerable",
+      "choices": [
+        "iterative",
+        "recursively enumerable",
+        "none of the choices given",
+        "iteratively enumerable"
+      ],
+      "wrongAnswers": [
+        "iterative",
+        "none of the choices given",
+        "iteratively enumerable"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Regular expression Φ* is equivalent to.",
+      "answer": "ϵ",
+      "choices": [
+        "ϵ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Regular sets are closed under union,concatenation and kleene closure.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "S → aAb, aA →aaAb, A→ε",
+      "answer": "P",
+      "choices": [
+        "P"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Set of all tape symbols",
+      "answer": "Γ",
+      "choices": [
+        "Γ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Set of final or accepting states.",
+      "answer": "F",
+      "choices": [
+        "F"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Some graphs contain cycles.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Start symbol, S ∈ N",
+      "answer": "S",
+      "choices": [
+        "S"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Starting state",
+      "answer": "q0",
+      "choices": [
+        "q0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "T generate recursively enumerable languages. The productions have no restrictions and phase structure grammar including all formal grammars.",
+      "answer": "Type-0 grammars",
+      "choices": [
+        "Type-0 grammars"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Terminal symbols",
+      "answer": "a & b",
+      "choices": [
+        "a & b"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The _____ of two sets A and B is the set containing those elements which are elements of A or elements of B.",
+      "answer": "union",
+      "choices": [
+        "union"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The __________ of a Turing machine depends on the current state of finite control and the tape symbol present in the input tape.",
+      "answer": "single move",
+      "choices": [
+        "single move"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The algebraic law of regular expression described by E + E = E is _____________.",
+      "answer": "Idempotent",
+      "choices": [
+        "Annihilator",
+        "Identity",
+        "Additive idempotent",
+        "Idempotent"
+      ],
+      "wrongAnswers": [
+        "Annihilator",
+        "Identity",
+        "Additive idempotent"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The algebraic law of regular expression described by φE = φ = Eφ is _______________.",
+      "answer": "Annihilator",
+      "choices": [
+        "Annihilator",
+        "Associative",
+        "Commutative",
+        "Identity"
+      ],
+      "wrongAnswers": [
+        "Associative",
+        "Commutative",
+        "Identity"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The basic model of a Turing machine consists of _______ and _______ , in which the finite control has finite set of states and the transition between the states.",
+      "answer": "finite control, input tape",
+      "choices": [
+        "finite control, input tape"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The body of a production in CFG is composed of:",
+      "answer": "a string of terminals and non-terminals",
+      "choices": [
+        "a string of terminals only",
+        "none of the choices given because a CFG production does not have a body",
+        "a string of non-terminals only",
+        "a string of terminals and non-terminals"
+      ],
+      "wrongAnswers": [
+        "a string of terminals only",
+        "none of the choices given because a CFG production does not have a body",
+        "a string of non-terminals only"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The cardinality of the union of two disjoint sets is less than the sum of the cardinality of the given sets.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The CFG \"S → (S) | SS | ε\" accepts:",
+      "answer": "the string \"((()))(())(())\"",
+      "choices": [
+        "the string \"<<>><><<>>\"",
+        "the string \"(((((((((())))))))))\"",
+        "the string \"((()))(())(())\"",
+        "the string \"{} { {} } [[]]\""
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The commutativity property of set operations states that the union of any set with same set is the set itself.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The complement of an infinite language is necessarily finite.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The difference between DFA and NFA",
+      "answer": "DFA can exist in only one state at a given time while NFA can exist in multiple states",
+      "choices": [
+        "DFA is where you get your passport while NFA is where you get your cheap rice",
+        "NFA can exist in only one state at a given time while DFA can exist in multiple states",
+        "DFA can exist in only one state at a given time while NFA can exist in multiple states",
+        "DFA is also an NFA"
+      ],
+      "wrongAnswers": [
+        "DFA is where you get your passport while NFA is where you get your cheap rice",
+        "NFA can exist in only one state at a given time while DFA can exist in multiple states",
+        "DFA is also an NFA"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The difference between regular expressions and finite automata is _____________.",
+      "answer": "that regular expressions are more program syntax-like while automata are more machine-like",
+      "choices": [
+        "that automata are more program syntax-like while regular expression are more machine-like",
+        "|regular expression| - |finite automata| = |Turing Machine| because you can only get the difference by computing for their respective lengths",
+        "that regular expressions are more program syntax-like while automata are more machine-like",
+        "{regular expression} - {finite automata} = { } because they are sets and they are equivalent"
+      ],
+      "wrongAnswers": [
+        "that automata are more program syntax-like while regular expression are more machine-like",
+        "|regular expression| - |finite automata| = |Turing Machine| because you can only get the difference by computing for their respective lengths",
+        "{regular expression} - {finite automata} = { } because they are sets and they are equivalent"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The empty set is always a subset of any set.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The entity which generate Language is termed as regular languages.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The entity which generate Language is termed as:",
+      "answer": "Grammar",
+      "choices": [
+        "Grammar"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The first counting machine developed 5000 years ago in the Middle East.",
+      "answer": "Abacus",
+      "choices": [
+        "Abacus"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The first mechanical calculator using gears for calculation developed in 1642.",
+      "answer": "Pascaline",
+      "choices": [
+        "Pascaline"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The following are phases of C++ Programs except",
+      "answer": "Process",
+      "choices": [
+        "Process"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The initial stack top symbol (I ∈ S).",
+      "answer": "I",
+      "choices": [
+        "I"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The initial state (q0 ∈ Q)",
+      "answer": "q0",
+      "choices": [
+        "q0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The intersection of sets A and B is expressed as _________________.",
+      "answer": "A ∩ B",
+      "choices": [
+        "A - B",
+        "A / B",
+        "A x B",
+        "A ∩ B"
+      ],
+      "wrongAnswers": [
+        "A x B"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The language L contains all strings over the alphabet {a,b} that begin with and end with",
+      "answer": "a,b",
+      "choices": [
+        "a,b"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The minimum number of states required to recognize an octal number divisible by 3 are/is.",
+      "answer": "3",
+      "choices": [
+        "3"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The number of elements in the set for the Language L={xϵ(∑r) *|length if x is at most 2} and ∑={0,1} is",
+      "answer": "7",
+      "choices": [
+        "7"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The PDA has infinite memory and access in _____ order and the finite automata has ____ memory.",
+      "answer": "LIFO, finite",
+      "choices": [
+        "LIFO, finite"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The power set of a given set does not contain the set itself.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The recursive inference procedure determines that string w is in the language of the variable A, A being the starting variable.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The relationship between recursive and recursively enumerable languages is ________________.",
+      "answer": "⊂",
+      "choices": [
+        "∈",
+        "⊂",
+        "∉",
+        "⊃"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The stack content",
+      "answer": "s",
+      "choices": [
+        "s"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The stack contents",
+      "answer": "s",
+      "choices": [
+        "s"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The start symbol.",
+      "answer": "S",
+      "choices": [
+        "S"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The string \"0000111\" is accepted by _____________.",
+      "answer": "the CFG S → 0S1 | A, A → 0A | ε",
+      "choices": [
+        "the CFG S → 0S1 | A, A → A1 | ε",
+        "the CFG S → 1S0 | A, A → A0 | ε",
+        "the CFG S → 0S1 | A, A → 0A | ε",
+        "none of the choices"
+      ],
+      "wrongAnswers": [
+        "the CFG S → 0S1 | A, A → A1 | ε",
+        "the CFG S → 1S0 | A, A → A0 | ε",
+        "none of the choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The string aaaabbbccaaad is accepted by this regular expression.",
+      "answer": "a*b*c*a*d*",
+      "choices": [
+        "a+b+c+d+",
+        "a*b*c*a*d*e+",
+        "a*b*c*a*d*",
+        "a+b+c+d+e*"
+      ],
+      "wrongAnswers": [
+        "a+b+c+d+",
+        "a*b*c*a*d*e+",
+        "a+b+c+d+e*"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The string abe is accepted by this regular expression.",
+      "answer": "a*b*c*a*d*e+",
+      "choices": [
+        "a*b*c*a*d*",
+        "a+b+c+d+e*",
+        "a*b*c*a*d*e+",
+        "a+b+c+d+"
+      ],
+      "wrongAnswers": [
+        "a*b*c*a*d*",
+        "a+b+c+d+e*",
+        "a+b+c+d+"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The string acde is accepted by this regular expression.",
+      "answer": "a*b*c*a*d*e+",
+      "choices": [
+        "a+b+c+d+",
+        "a+b+c+d+e*",
+        "a*b*c*a*d*",
+        "a*b*c*a*d*e+"
+      ],
+      "wrongAnswers": [
+        "a+b+c+d+",
+        "a+b+c+d+e*",
+        "a*b*c*a*d*"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The symbol used for the empty string is ____________.",
+      "answer": "ε",
+      "choices": [
+        "ε",
+        "φ",
+        "a blank",
+        "ψ"
+      ],
+      "wrongAnswers": [
+        "a blank"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The tape head is positioned at one of the tape cells for scanning the input symbol from the input tape and initially the tape head points at the left most cell of the input tape.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The theory of formal languages finds its applicability extensively in the fields of Computer Science. gave a mathematical model of grammar in which is effective for writing computer languages.",
+      "answer": "Noam Chomsky, 1956",
+      "choices": [
+        "Noam Chomsky, 1956"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The top symbol is read and removed.",
+      "answer": "Pop",
+      "choices": [
+        "Pop"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The transition a Push down automaton makes it additionally dependent upon the _____.",
+      "answer": "stack",
+      "choices": [
+        "stack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The unconsumed input.",
+      "answer": "w",
+      "choices": [
+        "w"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "The union of sets A and B is expressed as?",
+      "answer": "A U B",
+      "choices": [
+        "A U B",
+        "A - B",
+        "A / B",
+        "A x B"
+      ],
+      "wrongAnswers": [
+        "A - B",
+        "A / B",
+        "A x B"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "There are 5 tuples in finite state machine.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Transition function",
+      "answer": "δ",
+      "choices": [
+        "δ"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Turing hypothesis believed that a function is said to be computable if and only if it can be computed by a Turing machine.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Unconsumed input",
+      "answer": "w",
+      "choices": [
+        "w"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What are strings?",
+      "answer": "A string is a finite sequence of symbols chosen from Σ",
+      "choices": [
+        "A string is an infinite area of symbols chosen from Σ",
+        "A string is a finite sequence of symbols chosen from Σ",
+        "A string is a finite area of symbols chosen from Σ",
+        "A string is an infinite sequence of symbols chosen from Σ"
+      ],
+      "wrongAnswers": [
+        "A string is an infinite area of symbols chosen from Σ",
+        "A string is a finite area of symbols chosen from Σ",
+        "A string is an infinite sequence of symbols chosen from Σ"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What can be said about CFLs?",
+      "answer": "It is closed under •",
+      "choices": [
+        "It is closed under ~",
+        "It is closed under ∩",
+        "All of the given choices",
+        "It is closed under •"
+      ],
+      "wrongAnswers": [
+        "All of the given choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What can be said about undecidable problems?",
+      "answer": "They are not recursive",
+      "choices": [
+        "They are definitely recursive",
+        "They are surely iterative",
+        "They are not recursive",
+        "They are not iterative"
+      ],
+      "wrongAnswers": [
+        "They are definitely recursive",
+        "They are surely iterative",
+        "They are not iterative"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What can not be said about CFLs?",
+      "answer": "It is closed under —",
+      "choices": [
+        "It is closed under ~",
+        "It is closed under —",
+        "All of the given choices",
+        "It is closed under ∩"
+      ],
+      "wrongAnswers": [
+        "All of the given choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What cannot be said about automata theory?",
+      "answer": "None of the choices",
+      "choices": [
+        "None of the choices",
+        "Automata theory is the study of abstract computing devices or machines",
+        "Automata theory is used to find out if a problem is computable",
+        "Automata theory answers the fundamental questions in computer science"
+      ],
+      "wrongAnswers": [
+        "Automata theory is the study of abstract computing devices or machines",
+        "Automata theory is used to find out if a problem is computable",
+        "Automata theory answers the fundamental questions in computer science"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What concept did Alan Turing introduce?",
+      "answer": "The concept of decidability",
+      "choices": [
+        "The concept of programs and programmabilities of problems",
+        "The concept of decidability",
+        "The concept of functions and relations",
+        "The concept of undecidability"
+      ],
+      "wrongAnswers": [
+        "The concept of programs and programmabilities of problems",
+        "The concept of functions and relations",
+        "The concept of undecidability"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What is a grammar?",
+      "answer": "A device that enumerates the sentences of a language",
+      "choices": [
+        "How a sentence should be constructed to avoid syntax error",
+        "\"Them cowboys is dumb!\" is an example of a wrong grammar",
+        "\"We ain't gonna make mistakes\" is an example of correct grammar",
+        "A device that enumerates the sentences of a language"
+      ],
+      "wrongAnswers": [
+        "How a sentence should be constructed to avoid syntax error",
+        "\"Them cowboys is dumb!\" is an example of a wrong grammar",
+        "\"We ain't gonna make mistakes\" is an example of correct grammar"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What is a language?",
+      "answer": "A collection of finite-length sentences that were constructed from a finite set of symbols",
+      "choices": [
+        "A way to communicate with other humans",
+        "A collection of finite-length sentences that were constructed from a finite set of symbols",
+        "A code that you use when writing a computer program",
+        "English, Filipino and Valyrian are examples of a language"
+      ],
+      "wrongAnswers": [
+        "A way to communicate with other humans",
+        "A code that you use when writing a computer program",
+        "English, Filipino and Valyrian are examples of a language"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What is a Universal TM?",
+      "answer": "a TM that stimulates another TM",
+      "choices": [
+        "a TM that stimulates another TM",
+        "A TM that can solve all problems",
+        "A TM that can solve all undecidable problems",
+        "a Universal TM does not exist"
+      ],
+      "wrongAnswers": [
+        "A TM that can solve all problems",
+        "A TM that can solve all undecidable problems",
+        "a Universal TM does not exist"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What is an undecidable problem?",
+      "answer": "When a TM cannot make a decision on an instance of the problem",
+      "choices": [
+        "When a TM cannot make a decision on an instance of the problem",
+        "When a CFG cannot make a decision on an instance of the problem",
+        "When a PDA cannot make a decision on an instance of the problem",
+        "When a RE cannot make a decision on an instance of the problem"
+      ],
+      "wrongAnswers": [
+        "When a CFG cannot make a decision on an instance of the problem",
+        "When a PDA cannot make a decision on an instance of the problem",
+        "When a RE cannot make a decision on an instance of the problem"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What is an ε-NFA?",
+      "answer": "It is an NFA with at least one explicit ε-transition defined",
+      "choices": [
+        "It is a DFA where all transitions are ε-transitions",
+        "It is an NFA where all transitions are ε-transitions",
+        "It is a DFA with at least one explicit ε-transition defined",
+        "It is an NFA with at least one explicit ε-transition defined"
+      ],
+      "wrongAnswers": [
+        "It is a DFA where all transitions are ε-transitions",
+        "It is an NFA where all transitions are ε-transitions",
+        "It is a DFA with at least one explicit ε-transition defined"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What is automata theory?",
+      "answer": "All of the choices",
+      "choices": [
+        "To answer the fundamental questions in computer science",
+        "All of the choices",
+        "To find out if a problem is computable",
+        "Study of abstract computing devices or machines"
+      ],
+      "wrongAnswers": [
+        "To answer the fundamental questions in computer science",
+        "To find out if a problem is computable",
+        "Study of abstract computing devices or machines"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What is the final result after converting the following NFA-ε to NFA without Null move.",
+      "answer": "What is the final result after converting the following NFA-ε to NFA without Null move.",
+      "choices": [
+        "What is the final result after converting the following NFA-ε to NFA without Null move."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "What kind of languages does a TM decide?",
+      "answer": "recursively enumerable",
+      "choices": [
+        "regular expression",
+        "context-sensitive",
+        "recursively enumerable",
+        "context-free"
+      ],
+      "wrongAnswers": [
+        "regular expression",
+        "context-sensitive",
+        "context-free"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which among the following cannot be accepted by a regular grammar?",
+      "answer": "L is a set of 0n1n",
+      "choices": [
+        "L is a set of 0n1n"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which among the following is not a part of the Context free grammar tuple?",
+      "answer": "End SymbolCorre",
+      "choices": [
+        "End SymbolCorre"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which among the following is the correct option for the given grammar? G->X111|G1,X->X0|00.",
+      "answer": "{0a1b|a=2,b=3}",
+      "choices": [
+        "{0a1b|a=2,b=3}"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which among the following is the option for the given grammar? G->X111|G1,X->X0|00",
+      "answer": "{0a1b|a=2,b=3}",
+      "choices": [
+        "{0a1b|a=2,b=3}"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following is a not a part of 5-tuple finite automata?",
+      "answer": "Output Alphabet",
+      "choices": [
+        "Output Alphabet"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following Set Operations produces the set that contains everything that is in Set A and in Set B?",
+      "answer": "Union",
+      "choices": [
+        "Complement",
+        "Union",
+        "Intersection",
+        "Set Difference"
+      ],
+      "wrongAnswers": [
+        "Complement",
+        "Intersection",
+        "Set Difference"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following statement is false in context of tree terminology?",
+      "answer": "Root with no children is called a leaf",
+      "choices": [
+        "Root with no children is called a leaf"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following statements are correct for a concept called inherent ambiguity in CFL?",
+      "answer": "Every CFG for L is ambiguous",
+      "choices": [
+        "Every CFG for L is ambiguous"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following statements are for a concept called inherent ambiguity in CFL?",
+      "answer": "Every CFG for L is ambiguous",
+      "choices": [
+        "Every CFG for L is ambiguous"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following statements is true about NPDA, DPDA, and RL?",
+      "answer": "RL ⊂ DPDA ⊂ NPDA",
+      "choices": [
+        "RL • DPDA • NPDA",
+        "RL* • DPDA* • NPDA*",
+        "RL ⊃ DPDA ⊃ NPDA",
+        "RL ⊂ DPDA ⊂ NPDA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following ways can be done to simplify a CFG?",
+      "answer": "Eliminate productions of the form A → B",
+      "choices": [
+        "Eliminate symbols that are not useful",
+        "Eliminate the ε symbol",
+        "Eliminate productions of the form A → B",
+        "Eliminate productions of the form A → b"
+      ],
+      "wrongAnswers": [
+        "Eliminate symbols that are not useful",
+        "Eliminate the ε symbol"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which of the following will not be accepted by the following DFA?",
+      "answer": "ababaabaa",
+      "choices": [
+        "ababaabaa"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Which one is the answer?",
+      "answer": "Computer",
+      "choices": [
+        "Computer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Who is the father of modern computer science?",
+      "answer": "Alan Turing",
+      "choices": [
+        "Noam Chomsky",
+        "Alan Turing",
+        "Steve Jobs",
+        "Bill Gates"
+      ],
+      "wrongAnswers": [
+        "Noam Chomsky",
+        "Steve Jobs",
+        "Bill Gates"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Who is the father of modern computer?",
+      "answer": "Charles Babbage",
+      "choices": [
+        "Charles Babbage"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    },
+    {
+      "question": "Z2 uses electricity to convey letters and transmit information quickly in 1844.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/cs/automata-theory-and-formal-language-6205-cs"
+    }
+  ]
+}

@@ -13,8 +13,10 @@ data/
 │   └── [SUBCODE].json       # High-consensus, officially verified answers
 ├── community/
 │   └── [SUBCODE].json       # Continuous community submissions queue
-└── amauoed/
-    └── [SUBCODE].json       # Web-scraped reference baseline
+├── amauoed/
+│   └── [SUBCODE].json       # Web-scraped reference baseline
+└── jennysonline/
+    └── [SUBCODE].json       # Source registry for unconfirmed external suggestions
 ```
 
 ### Purpose of Each Tier
@@ -29,7 +31,14 @@ data/
    - Records all validated anonymous student submissions received via the Cloudflare relay.
    - Tracks confirmation counters (`confirmations: N`) as multiple students submit the same answer.
 4. **`data/amauoed/[SUBCODE].json` (Catalog Fallback)**:
-   - Reference questions parsed from public online study repositories used as fallback when a subject has no local or community submissions yet.
+   - Monthly source snapshot containing unverified, source-attributed AMAUOED candidates. It is fetched as a study-guide tier and is never part of the verified primary bank.
+5. **`data/jennysonline/[SUBCODE].json` (Study-Guide Source Registry)**:
+   - Monthly source snapshot containing unverified, source-attributed Jenny's Online candidates. The refresh job uses Blogger's feed API, title-matches posts, and only imports published sheets. These rows are never part of the verified primary bank.
+
+Both source tiers are refreshed by `scripts/refresh_study_guides.py` and
+`.github/workflows/refresh-study-guides.yml`. The workflow refreshes courses
+already present in the primary `data/` directory, throttles source requests,
+and preserves snapshots on missing sources or parse failures.
 
 ---
 

@@ -1,0 +1,3225 @@
+{
+  "subjectCode": "IT6224B",
+  "subjectName": "Data Communications and Networking 3",
+  "updatedAt": "2026-10-03T15:58:53Z",
+  "refreshedAt": "2026-10-03T15:58:53Z",
+  "tier": "study_guide",
+  "sourceName": "AMAUOED",
+  "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it",
+  "sourceFormat": "AMAUOED course answer cards",
+  "verified": false,
+  "totalQuestions": 247,
+  "questions": [
+    {
+      "question": "10. Which three steps in the design and implementation of a multiarea OSPF network are considered planning steps? (Choose a letter)",
+      "answer": "2, 4 & 5",
+      "choices": [
+        "2, 4 & 5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "7. Which two networks are part of the summary route 192.168.32.0/22? (Choose a letter)",
+      "answer": "2 & 3",
+      "choices": [
+        "2 & 3"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "8. In OSPF discussions what is used to facilitate hierarchical routing in OSPF?",
+      "answer": "the use of multiple areas",
+      "choices": [
+        "the use of multiple areas"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A CCIE network administrator is verifying a multi-area OSPF configuration by checking the routing table on a router in area 1. The administrator notices a route to a network that is connected to a router in area 2. Which code appears in front of this route in the routing table within area 1?",
+      "answer": "O IA",
+      "choices": [
+        "O IA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A CCNA network administrator configures a router with the command sequence:",
+      "answer": "The router will load IOS from the TFTP server. If the image fails to load, it will load the IOS image from ROM.",
+      "choices": [
+        "The router will load IOS from the TFTP server. If the image fails to load, it will load the IOS image from ROM."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A CCNA network administrator configures a router with the command sequence: R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin R1(config)# boot system rom What is the effect of the command sequence?",
+      "answer": "The router will load IOS from the TFTP server. If the image fails to load, it will load the IOS image from ROM.",
+      "choices": [
+        "The router will load IOS from the TFTP server. If the image fails to load, it will load the IOS image from ROM."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A certified network administrator is trying to add a new router into an established OSPF network. The networks attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem?",
+      "answer": "The network wildcard mask is configured improperly.",
+      "choices": [
+        "The network wildcard mask is configured improperly."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A certified network administrator is trying to add a new router into an established OSPF network. The networks attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
+      "answer": "The network wildcard mask is configured improperly",
+      "choices": [
+        "The network wildcard mask is configured improperly"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A certified network administrator of Gilas Medical Hospital has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID",
+      "answer": "Issue the clear ip ospf process privileged mode command.",
+      "choices": [
+        "Issue the clear ip ospf process privileged mode command."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A certified network administrator of RMS Company has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
+      "answer": "Issue the clear ip ospf process privileged mode command.",
+      "choices": [
+        "Issue the clear ip ospf process privileged mode command."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A certified network engineer of a new startup company is configuring an EtherChannel link between switches SW1 and SW2 by using the command SW2(config-if-range)# channel-group 1 mode passive. Which command must be used on SW1 to enable this EtherChannel?",
+      "answer": "SW1(config-if-range)# channel-group 1 mode active",
+      "choices": [
+        "SW1(config-if-range)# channel-group 1 mode active"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A certified network expert is configuring a LAN with a redundant first hop to make better use of the available network resources. Which protocol should the engineer implement?",
+      "answer": "GLBP",
+      "choices": [
+        "GLBP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A certified wireless professional wishes to extend the range of the existing IEEE 802.11n network without changing the AP. What can the administrator do to accomplish this?",
+      "answer": "Deploy a Wi-Fi Repeater.",
+      "choices": [
+        "Deploy a Wi-Fi Repeater."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A company has deployed four 48-port access layer switches to a switch block. For redundancy each access layer switch will connect to two distribution layer",
+      "answer": "176",
+      "choices": [
+        "176"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A connection to a switch went down suddenly, how long can it take for a network using RSTP to converge again after a topology change?",
+      "answer": "6sec",
+      "choices": [
+        "6sec"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A good example of our learning in chapter 9 is what code in the Cisco IOS 15 image filename C1900- UNIVERSALK9-MZ.SPA.153-3.M.BIN Indicates that the file is digitally signed by Cisco?",
+      "answer": "SPA",
+      "choices": [
+        "SPA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network administrator discovers a visitor is trying to flood an AP with deauthentication frames. After some interrogation the security department finds out he is from a competitor company. The attack the visitor used is called jamming.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network administrator enters the following command sequence on a Cisco 3560 switch. What is the purpose of these commands?",
+      "answer": "to make the Gi0/1 port a routed port",
+      "choices": [
+        "to make the Gi0/1 port a routed port"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network administrator is implementing OSPF in a portion of the network and must ensure that only specific routes are advertised via OSPF. Which network statement would configure the OSPF process for networks 192.168.4.0, 192.168.5.0, 192.168.6.0, and 192.168.7.0, now located in the backbone area, and inject them into the OSPF domain?",
+      "answer": "c",
+      "choices": [
+        "c"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network administrator of an international herbal company is verifying a multi-area OSPF configuration by checking the routing table on a router in area 1. The administrator notices a route to a network that is connected to a router in area 2. Which code appears in front of this route in the routing table within area 1?",
+      "answer": "O IA",
+      "choices": [
+        "O IA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network administrator of RMS defence contractor company is configuring an EtherChannel link between switches SW1 and SW2 each switch is located in a different building but just adjacent to each other by using the command SW1(config-if-range)# channel-group 1 mode passive. Which command must be used on SW2 to enable this EtherChannel?",
+      "answer": "SW2(config-if-range)# channel-group 1 mode active",
+      "choices": [
+        "SW2(config-if-range)# channel-group 1 mode active"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network engineer in ABC Enterprise is asked to stop auto route summary in EIGRP, which command you will use to prevent auto summary?",
+      "answer": "c",
+      "choices": [
+        "c"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network expert discovers a rogue AP in the network. The rogue AP is capturing traffic and then forwarding it on to the legitimate AP. What type of attack is this?",
+      "answer": "Man in the middle",
+      "choices": [
+        "Man in the middle"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network link connected to a switch went down. How long can it take for a network using spanning tree topology to converge again after a topology change?",
+      "answer": "up to 50 seconds",
+      "choices": [
+        "up to 50 seconds"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network problem occurs suddenly, what is the initial approach that should be used to troubleshoot a broadcast storm in a switched network?",
+      "answer": "Manually remove redundant links in the switched network.",
+      "choices": [
+        "Manually remove redundant links in the switched network."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network specialist of Avengers Corporation is troubleshooting an OSPFv2 network and discovers that two routers connected by a point-to-point WAN serial link are not establishing an adjacency. The OSPF routing process, network commands and area ID are all confirmed as correct, and the interfaces are not passive. Testing shows that the cabling is correct, that the link is up, and pings between the interfaces are successful. What is most likely the problem?",
+      "answer": "The subnet masks on the two connected serial interfaces do not match.",
+      "choices": [
+        "The subnet masks on the two connected serial interfaces do not match."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A network specialist of PRS Industries is troubleshooting an OSPFv2 network and discovers that two routers connected by a point-to-point WAN serial link are not establishing an adjacency. The OSPF routing process, network commands and area ID are all confirmed as correct, and the interfaces are not passive. Testing shows that the cabling is correct, that the link is up, and pings between the interfaces are successful. What is most likely the problem?",
+      "answer": "The subnet masks on the two connected serial interfaces do not match.",
+      "choices": [
+        "The subnet masks on the two connected serial interfaces do not match."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A new network specialist has been asked to verify the metrics that are used by EIGRP on a Cisco device. Which two EIGRP metrics are measured by using static values on a Cisco device?",
+      "answer": "Bandwidth & delay",
+      "choices": [
+        "Bandwidth & delay"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A newly hired certified network engineer of RMS Industries is troubleshooting a switch and wants to verify if it is a root bridge. Which of the following listed below is the right command to display the correct information?",
+      "answer": ". show spanning-tree",
+      "choices": [
+        ". show spanning-tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A newly hired network engineer has been instructed to implement EtherChannel in a corporate network. What does this configuration consist of?",
+      "answer": "grouping multiple physical ports to increase bandwidth between two switches",
+      "choices": [
+        "grouping multiple physical ports to increase bandwidth between two switches"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A remote class room can successfully access video-intensive streaming lectures via wired computers. However, when an 802.11n wireless access point is installed and used with 25 wireless laptops to access the same lectures, poor audio and video quality is experienced. Which wireless solution would improve the performance for the laptops?",
+      "answer": "Add another access point.",
+      "choices": [
+        "Add another access point."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A router that has at least one interface that is attached to a non-OSPF network is called ASBR.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A router with its interfaces attached to multiple areas is called ABR",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "A student uses a laptop to upload an assignment to a file server. Which wireless frame type did the laptop send to locate and associate with the campus access point?",
+      "answer": "management frame",
+      "choices": [
+        "management frame"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Access Layer is a design model layer that provides connectivity for the users.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the 802.11 standards what is the frequency assigned for 802.11g?",
+      "answer": "2.4Ghz",
+      "choices": [
+        "2.4Ghz"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the 802.11 standards what is the maximum speed of 802.11a?",
+      "answer": "54Mb/s",
+      "choices": [
+        "54Mb/s"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the 802.11 standards what is the maximum speed of 802.11g?",
+      "answer": "54Mb/s",
+      "choices": [
+        "54Mb/s"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the 802.11 wireless LAN standards what is the frequency assigned for 802.11a?",
+      "answer": "5Ghz",
+      "choices": [
+        "5Ghz"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the 802.11 wireless lan standards what is the frequency assigned for 802.11ac?",
+      "answer": "5Ghz",
+      "choices": [
+        "5Ghz"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the choices below which command would you use, If you want to disable STP on a port connected to a server?",
+      "answer": "spanning-tree portfast",
+      "choices": [
+        "spanning-tree portfast"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the choices below, which protocol specified by RFC 2281 provides network redundancy for IP networks, ensuring that user traffic immediately and transparently recovers from first-hop failures in network edge devices or access circuits?",
+      "answer": "HSRP",
+      "choices": [
+        "HSRP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the choices listed below, which port state will switch ports ?immediately transition to when configured for PortFast",
+      "answer": "Forwarding",
+      "choices": [
+        "Forwarding"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the features of EIGRP which uses multicast and unicast rather than broadcast?",
+      "answer": "Less Overhead",
+      "choices": [
+        "Less Overhead"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the listed below what organization that set or influence WLAN standards?",
+      "answer": "IEEE",
+      "choices": [
+        "IEEE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the listed below which is a feature of EIGRP?",
+      "answer": "Load balancing",
+      "choices": [
+        "Load balancing"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the listed below, in deploying wireless lan what advantage do a WLAN router offers vs. access point?_____+",
+      "answer": "Connect multiple networks",
+      "choices": [
+        "Connect multiple networks"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the listed below, what advantage do a WLAN router offers vs. access point?",
+      "answer": "Increase in security",
+      "choices": [
+        "Increase in security"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the listed below, which command can be issued on a router to verify that automatic summarization is enabled?",
+      "answer": "Show ip protocols",
+      "choices": [
+        "Show ip protocols"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Among the listed below, which serves as a receipt and is used to obtain a license. It is an 11- digit alphanumeric key created by Cisco manufacturing and it also defines the Feature Set associated with it?",
+      "answer": "Product Activation Key (PAK)",
+      "choices": [
+        "Product Activation Key (PAK)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "An airline company has recently implemented an 802.11n wireless network. Some users are complaining that the wireless network is too slow. Which solution is the best method to enhance the performance of the wireless network?",
+      "answer": "Split the traffic between the 2.4 GHz and 5 GHz frequency bands",
+      "choices": [
+        "Split the traffic between the 2.4 GHz and 5 GHz frequency bands"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "An ASBR generates type 5 LSAs for each of its external routes and floods them into the area that it is connected to.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in chapter 1, the duplication of devices, services, or connections so that, in the event of a failure, the redundant devices, services , or connections can perform the work of those that failed.",
+      "answer": "Redundancy",
+      "choices": [
+        "Redundancy"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in Chapter 2 of Scaling Networks , which non-proprietary protocol provides router redundancy for a group of routers which support IPv4 LANs?",
+      "answer": "VRRPv2",
+      "choices": [
+        "VRRPv2"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in Chapter 2, what do you called a design methodology for building networks in three layers including access, distribution, and core.",
+      "answer": "hierarchical network",
+      "choices": [
+        "hierarchical network"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in chapter 7 as one of the EIGRP concepts what is the purpose of using protocol-dependent modules in EIGRP?",
+      "answer": "to accommodate routing of different network layer protocols",
+      "choices": [
+        "to accommodate routing of different network layer protocols"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in chapter 7, when an EIGRP-enabled router uses a password to accept routes from other EIGRP-enabled routers, which mechanism is used?",
+      "answer": "EIGRP authentication",
+      "choices": [
+        "EIGRP authentication"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in chapter 9 of Scaling Networks what is the major release number in the IOS image name c1900-universalk9-mz.SPA.152-3.T.bin?",
+      "answer": "15",
+      "choices": [
+        "15"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in link aggregation what are two requirements to be able to configure an EtherChannel between two switches?",
+      "answer": "All the interfaces need to work at the same speed & need to be working in the same duplex mode.",
+      "choices": [
+        "All the interfaces need to work at the same speed & need to be working in the same duplex mode."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in link state advertisement which two statements correctly describe OSPF type 3 LSAs? 1. Type 3 LSAs are used to update routes between OSPF areas. 2. Type 3 LSAs are known as router link entries . 3. Type 3 LSAs are used for routes to networks outside the OSPF autonomous system . 4. Type 3 LSAs are known as autonomous system external LSA entries. 5. Type 3 LSAs are generated without requiring a full SPF calculation.",
+      "answer": "1 & 5",
+      "choices": [
+        "1 & 5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in our topic Scaling Networks chapter 6,which area is referred to as the \"backbone area\"?",
+      "answer": "Area 0",
+      "choices": [
+        "Area 0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in Scaling Network course when OSPFv2 neighbors are establishing adjacencies, in which state do they elect a DR and BDR router?",
+      "answer": "Two-Way state",
+      "choices": [
+        "Two-Way state"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in this chapter multiarea OSPF what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
+      "answer": "type 2",
+      "choices": [
+        "type 2"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in this chapter which statement is true regarding OSPF multi-area adjacencies?",
+      "answer": "One logical interface will be a primary link, and the other configured as a secondary link; the secondary link will be established as an unnumbered point-to-point interface.",
+      "choices": [
+        "One logical interface will be a primary link, and the other configured as a secondary link; the secondary link will be established as an unnumbered point-to-point interface."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in this chapter, beginning with the Cisco IOS Software Release 15.0, which license is a prerequisite for installing additional technology pack licenses?",
+      "answer": "IPBase",
+      "choices": [
+        "IPBase"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As discussed in wireless LAN technologies and standards, what wireless LAN technology that is an IEEE 802.16 WWAN standard that provides wireless broadband access of up to 30mi (50km)?",
+      "answer": "WIMAX",
+      "choices": [
+        "WIMAX"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As shown from the network diagram above, the command “show ipv6 route can be issued on router R2 to verify the propagation of static default router from R1 to R2\" Why is MD5 authentication is more secure than simple authentication of OSPF updates?",
+      "answer": "MD5 does not send the password to the neighbor router.",
+      "choices": [
+        "MD5 does not send the password to the neighbor router."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "As shown in the exhibit below, which protocol information is being displayed in the output?",
+      "answer": "GLBP",
+      "choices": [
+        "GLBP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "ASBRs are capable of summarizing which type of routes?",
+      "answer": "External",
+      "choices": [
+        "External"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "At the start with the Cisco IOS Software Release 15.0, which license is a prerequisite for installing additional technology pack licenses?",
+      "answer": "IPBase",
+      "choices": [
+        "IPBase"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Based on the discussion in this chapter, which command syntax will initiate EtherChannel interface configuration mode?",
+      "answer": "interface port-channel interface-identifier",
+      "choices": [
+        "interface port-channel interface-identifier"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Core Layer is a design model layer that forwards traffic from/to different local networks",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Discussed in chapter 9, what code in the Cisco IOS 15 image filename C1900-UNIVERSALK9-MZ.SPA.153-3.M.BIN Indicates that the file is digitally signed by Cisco?",
+      "answer": "SPA",
+      "choices": [
+        "SPA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Divides the network into functional components while still maintaining the core, distribution, and access layers of the three-layer model as discussed in chapter 2 LAN Redundancy?",
+      "answer": "Cisco Enterprise Architecture",
+      "choices": [
+        "Cisco Enterprise Architecture"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During checking of routing table, a network engineer notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route",
+      "choices": [
+        "This route is a propagated default route"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During EIGRP operation where do successor routes stored?",
+      "answer": "in the routing table and the topology table",
+      "choices": [
+        "in the routing table and the topology table"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During EIGRP operation which two EIGRP packet types are sent with reliable delivery?",
+      "answer": "Hello & Ack",
+      "choices": [
+        "Hello & Ack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During network troubleshooting in MAX Industries factory 2 routers, R1 and R2, have established an EIGRP neighbor relationship, but there is still a connectivity problem. Which issue could be causing this problem?",
+      "answer": "An access list that is blocking the advertisements from other networks was configured in each or both routers",
+      "choices": [
+        "An access list that is blocking the advertisements from other networks was configured in each or both routers"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During router configuration what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
+      "answer": "type 2",
+      "choices": [
+        "type 2"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During summarization configuration what address and wild card mask can be used to enable EIGRP for only the subnet 192.168.100.192 255.255.255.192?",
+      "answer": "192.168.100.192 0.0.0.63",
+      "choices": [
+        "192.168.100.192 0.0.0.63"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the checking a routing table, a network specialist notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route.",
+      "choices": [
+        "This route is a propagated default route."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the discussion in chapter 6 about multiarea OSPF, what router that has at least one interface that is attached to a non-OSPF network?",
+      "answer": "ASBR",
+      "choices": [
+        "ASBR"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the discussion in this chapter, what is a characteristic of in-band device management?",
+      "answer": "It is used to monitor and make configuration changes to a network device over a network connection.",
+      "choices": [
+        "It is used to monitor and make configuration changes to a network device over a network connection."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the discussion of OSPF networks on chapter 6, what is used to facilitate hierarchical routing in OSPF?",
+      "answer": "the use of multiple areas",
+      "choices": [
+        "the use of multiple areas"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the implementation what is the term used to express the thickness or height of a switch?",
+      "answer": "Rack Unit or RU",
+      "choices": [
+        "Rack Unit or RU"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the investigation of routing table, the network administrator notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.10.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route",
+      "choices": [
+        "This route is a propagated default route"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the network troubleshooting in RMS Hospital the network administrator notice an EIGRP problem on a router and needs to confirm the IP addresses of the devices with which the router has established adjacency. The retransmit interval and the queue counts for the adjacent routers also need to be checked.",
+      "answer": "c",
+      "choices": [
+        "c"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the network troubleshooting in RMS Hospital the network administrator notice an EIGRP problem on a router and needs to confirm the IP addresses of the devices with which the router has established adjacency. The retransmit interval and the queue counts for the adjacent routers also need to be checked. What command will display the required information?",
+      "answer": "c",
+      "choices": [
+        "c"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the testing and troubleshooting, the senior network administrator investigates and notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route.",
+      "choices": [
+        "This route is a propagated default route."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the upgrade of IOS system image, a router is powered on, where will the router first search for a valid IOS image to load by default?",
+      "answer": "flash memory",
+      "choices": [
+        "flash memory"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During the wireless implementation planning what type of wireless antenna is best suited for providing coverage in large open spaces, such as hallways or large conference rooms?",
+      "answer": "In wireless topologies, Yagi is a type of directional antenna that can be used in long distance Wi-Fi networking.",
+      "choices": [
+        "In wireless topologies, Yagi is a type of directional antenna that can be used in long distance Wi-Fi networking."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During troubleshooting, the administrator notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route.",
+      "choices": [
+        "This route is a propagated default route."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "During which stage of establishing connectivity between a WLAN client and an AP does the client learn the MAC address of the AP?",
+      "answer": "association",
+      "choices": [
+        "association"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "How many switches in a network must be running STP or RSTP in order to avoid broadcast storms?",
+      "answer": "At least one in each loop",
+      "choices": [
+        "At least one in each loop"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "How much traffic for a 12port gigabit switch capable of generating when operating at full wire speed?",
+      "answer": "12 Gb/s, by providing full bandwidth to each port",
+      "choices": [
+        "12 Gb/s, by providing full bandwidth to each port"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "If a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+      "answer": "auto",
+      "choices": [
+        "auto"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
+      "answer": "Network edge routers",
+      "choices": [
+        "Network edge routers"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "If you planning to built a large network composed of datacenters, nationwide branches office, stores, remote overseas offices which of these works better for larger network such as this?",
+      "answer": "Multi-area OSPF",
+      "choices": [
+        "Multi-area OSPF"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "If you want to disable STP on a port connected to a server, which command would you use?",
+      "answer": "spanning-tree portfast",
+      "choices": [
+        "spanning-tree portfast"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In a switched LAN environment which RSTP ports are connected to end devices?",
+      "answer": "edge ports",
+      "choices": [
+        "edge ports"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In AP technology which type of management frame may regularly be broadcast by an AP?",
+      "answer": "beacon",
+      "choices": [
+        "beacon"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In case a router is powered on, where will the router first search for a valid IOS image to load by default?",
+      "answer": "flash memory",
+      "choices": [
+        "flash memory"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In chapter 6 which area is referred to as the \"backbone area\"?",
+      "answer": ". Area 0",
+      "choices": [
+        ". Area 0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In Cisco APs that operate in a home environment and Cisco APs that operate in a corporate environment what is the most likely advantage of corporate access points?",
+      "answer": "Many corporate AP models can operate in either autonomous mode or controller-based mode.",
+      "choices": [
+        "Many corporate AP models can operate in either autonomous mode or controller-based mode."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In configuring link aggregation an EtherChannel link using LACP was formed between two switches, S1 and S2. While verifying the configuration, which mode combination could be utilized on both switches?",
+      "answer": "S1-passive and S2-active",
+      "choices": [
+        "S1-passive and S2-active"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In configuring OSPF authentication which two pieces of information are used by the OSPF MD5 algorithm to generate a signature?",
+      "answer": "secret key & OSPF message",
+      "choices": [
+        "secret key & OSPF message"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In EIGRP operation if all router Ethernet interfaces in an EIGRP network are configured with the default EIGRP timers, how long will a router wait by default to receive an EIGRP packet from its neighbor before declaring the neighbor unreachable?",
+      "answer": "15 seconds",
+      "choices": [
+        "15 seconds"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In etherchannel configuration what is a requirement to configure a trunking EtherChannel between two switches?",
+      "answer": "The allowed range of VLANs must be the same on both switches",
+      "choices": [
+        "The allowed range of VLANs must be the same on both switches"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In FHRP operation, two or more routers are represented as a single virtual router.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In implementation of OSPF network what command pertains to propagating a default route?",
+      "answer": "Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
+      "choices": [
+        "Ip route 0.0.0.0 0.0.0.0 192.200.1.2"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In implementing EtherChannel technology, which PAgP mode combination will establish an EtherChannel?",
+      "answer": "switch 1 set to desirable; switch 2 set to desirable.",
+      "choices": [
+        "switch 1 set to desirable; switch 2 set to desirable."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In LAN redundancy which 3 components are combined to form a bridge ID?",
+      "answer": "extended system ID, MAC address, bridge priority",
+      "choices": [
+        "extended system ID, MAC address, bridge priority"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In link aggregation configuration, which command will initiate EtherChannel interface configuration mode?",
+      "answer": "interface port-channel interface-identifier",
+      "choices": [
+        "interface port-channel interface-identifier"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In link state advertisement the type 1 LSAs are also refered to as:",
+      "answer": "Router link entries",
+      "choices": [
+        "Router link entries"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In managing cisco devices, which two requirements must always be met to use in-band management to configure a network device?",
+      "answer": "at least one network interface that is connected and operational & Telnet, SSH, or HTTP access to the device",
+      "choices": [
+        "at least one network interface that is connected and operational & Telnet, SSH, or HTTP access to the device"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In network troubleshooting, which command can be issued on a router to verify that automatic summarization is enabled?",
+      "answer": "show ip protocol",
+      "choices": [
+        "show ip protocol"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In networking term, port density refers to the number of ports available on a single switch.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In networking world, \"Rack unit\" is the term used to express the thickness or height of a switch.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In OSPF configuration understanding which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
+      "answer": "administrative distance",
+      "choices": [
+        "administrative distance"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In OSPF discussions what is used to facilitate hierarchical routing in OSPF?",
+      "answer": "the use of multiple areas",
+      "choices": [
+        "the use of multiple areas"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In OSPF networks discussion what router that has at least one interface that is attached to a non-OSPF network?",
+      "answer": "ASBR",
+      "choices": [
+        "ASBR"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In OSPFv2 operations which command can be used to verify the contents of the LSDB in an OSPF area?",
+      "answer": "show ip ospf database",
+      "choices": [
+        "show ip ospf database"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In RMS University, the network admin is trying to add a new router into an established OSPF network. The network attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
+      "answer": "The network wildcard mask is configured improperly.",
+      "choices": [
+        "The network wildcard mask is configured improperly."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In scalable hierarchical network design, what is the design model layer that provides a high-speed backbone link between dispersed networks?",
+      "answer": "Core Layer",
+      "choices": [
+        "Core Layer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In Scaling Networks as discussed in chapter 8, If all router Ethernet interfaces in an EIGRP network are configured with the default EIGRP timers, how long(hold timer) will a router wait by default to receive an EIGRP packet from its neighbor before declaring the neighbor unreachable?",
+      "answer": "15 sec",
+      "choices": [
+        "15 sec"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In Scaling Networks course, link aggregation should be implemented at which layer of the hierarchical network?",
+      "answer": "Access, distribution, and core",
+      "choices": [
+        "Access, distribution, and core"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In scaling networks what command pertains to propagating a default route?",
+      "answer": "Ip route 0.0.0.0 0.0.0.0 192.200.",
+      "choices": [
+        "Ip route 0.0.0.0 0.0.0.0 192.200."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In single-area OSPF concepts which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
+      "answer": "administrative distance",
+      "choices": [
+        "administrative distance"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In specific 802.11 wireless lan standard what frequency band is assigned for 802.11a?",
+      "answer": "5Ghz",
+      "choices": [
+        "5Ghz"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In specific 802.11 wireless lan standard what maximum speed can 802.11n reached?",
+      "answer": "600Mbps",
+      "choices": [
+        "600Mbps"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In terms of network reliability, the ability of a network to be up most of the time. Sometimes referred to as 99.999, or \"five nines\".",
+      "answer": "Reliability",
+      "choices": [
+        "Reliability"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In the understanding of dynamic routing protocol operations. A scenario where a router has learned three possible routes that could be used to reach a destination network. One route is from EIGRP and has a composite metric of 20514560. Another route is from OSPF with a metric of 782. The last is from RIPv2 and has a metric of 4. Which route or routes will the router will install in the routing table?",
+      "answer": "the EIGRP route",
+      "choices": [
+        "the EIGRP route"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In this chapter, which is a characteristic of a Layer 2 loop?",
+      "answer": "Broadcast frames are forwarded back to the sending switch",
+      "choices": [
+        "Broadcast frames are forwarded back to the sending switch"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In this chapter, which two types of spanning tree protocols can cause sub-optimal traffic flows because they assume only one spanning-tree instance for the entire bridged network?",
+      "answer": "STP & RSTP",
+      "choices": [
+        "STP & RSTP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In today's current switch technology, Which statement describes a characteristic of Cisco Meraki switches?",
+      "answer": "They are cloud-managed access switches that enable virtual stacking of switches.",
+      "choices": [
+        "They are cloud-managed access switches that enable virtual stacking of switches."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In todays network technology which network design solution will best extend access layer connectivity to host devices?",
+      "answer": "Implementing wireless connectivity",
+      "choices": [
+        "Implementing wireless connectivity"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In troubleshooting OSPF issues which command is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?",
+      "answer": "show ip protocols",
+      "choices": [
+        "show ip protocols"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
+      "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
+      "choices": [
+        "OSPF uses the bandwidth value to compute routes for its routing table."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding basic features and operation of EIGRP what is the EIGRP metric?",
+      "answer": "K-values",
+      "choices": [
+        "K-values"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding Cisco IOS image which statement describes a difference between the IOS 15.0 extended maintenance release and a standard maintenance release?",
+      "answer": "The standard maintenance release enables faster IOS feature delivery than the extended maintenance release does.",
+      "choices": [
+        "The standard maintenance release enables faster IOS feature delivery than the extended maintenance release does."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding concepts of OSPF which three statements describe the routing protocol OSPF? 1. It supports VLSM. 2. It is used to route between autonomous systems. 3. It confines network instability to one area of the network. 4. It increases routing overhead on the network. 5. It allows extensive control of routing updates 6. It is simpler to configure than RIPv2.",
+      "answer": "1, 3, 5",
+      "choices": [
+        "1, 3, 5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding IOS system image files what statement describes a Cisco IOS image with the “universalk9_npe” designation for Cisco ISR G2 routers?",
+      "answer": "It is an IOS version that, at the request of some countries, removes any strong cryptographic functionality.",
+      "choices": [
+        "It is an IOS version that, at the request of some countries, removes any strong cryptographic functionality."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding IOS system image files which IOS 12.4 software package integrates full features, including voice, security, and VPN capabilities, for all routing protocols?",
+      "answer": "Advanced Enterprise Services",
+      "choices": [
+        "Advanced Enterprise Services"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding link aggregation what is a best practice to use before beginning an EtherChannel implementation?",
+      "answer": "Shut down each of the affected interfaces.",
+      "choices": [
+        "Shut down each of the affected interfaces."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding link aggregation which protocol is an IEEE standard, it can be used to facilitate EtherChannels in multivendor environments?",
+      "answer": "LACP",
+      "choices": [
+        "LACP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding multiarea OSPF network which statement describes a multiarea OSPF network?",
+      "answer": ". It has a core backbone area with other areas connected to the backbone area.",
+      "choices": [
+        ". It has a core backbone area with other areas connected to the backbone area."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding of chapter 7 EIGRP uses the dual algorithm for finding shortest path?",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding of multiarea OSPF where do inter-area route summarization be performed in an OSPF network?",
+      "answer": "any router",
+      "choices": [
+        "any router"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding of this chapter which characteristic describes both ABRs and ASBRs that are implemented in a multiarea OSPF network?",
+      "answer": "They are required to reload frequently and quickly in order to update the LSDB.",
+      "choices": [
+        "They are required to reload frequently and quickly in order to update the LSDB."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In understanding OSPF concepts which parameter or parameters are used to calculate OSPF cost in Cisco routers?",
+      "answer": "Bandwidth",
+      "choices": [
+        "Bandwidth"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In verifying multiarea OSPF which command can be used to verify the contents of the LSDB in an OSPF area?",
+      "answer": "show ip ospf database",
+      "choices": [
+        "show ip ospf database"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In which IOS CLI mode must a network engineer issue the maximum paths command to configure load balancing in EIGRP?",
+      "answer": "router configuration mode",
+      "choices": [
+        "router configuration mode"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In wireless LAN security what is an advantage of SSID cloaking?",
+      "answer": "Clients will have to manually identify the SSID to connect to the network.",
+      "choices": [
+        "Clients will have to manually identify the SSID to connect to the network."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In wireless LAN standards what wireless LAN technology that is an IEEE 802.15 WPAN standard; uses a device pairing process to communicate over distance up to .05 mile (100m)?",
+      "answer": "Bluetooth",
+      "choices": [
+        "Bluetooth"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In wireless LAN technologies what wireless LAN technology that operates in the range of a few hundred feet?",
+      "answer": "WLAN",
+      "choices": [
+        "WLAN"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "In wireless LAN technology and standards what classification do Bluetooth belongs?",
+      "answer": "WPAN",
+      "choices": [
+        "WPAN"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "It is known as WiGig and operates using a tri-band solution in the 2.4, 5, and 60 GHz ranges in IEEE wireless standard?",
+      "answer": "802.11ad",
+      "choices": [
+        "802.11ad"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Observe the given output below. A certified network engineer is troubleshooting host connectivity on a LAN that uses a first hop redundancy protocol. Which IPv4 gateway address should be configured on the host?",
+      "answer": "192.168.2.100",
+      "choices": [
+        "192.168.2.100"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "OSPF type 2 LSA messages are only generated by the DR router to advertise routes in multiaccess networks.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "R1(config)# boot system rom",
+      "answer": "R1(config)# boot system rom",
+      "choices": [
+        "R1(config)# boot system rom"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin",
+      "answer": "R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin",
+      "choices": [
+        "R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Refer to the exhibit shown above. A certified network administrator is troubleshooting the four routers that are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
+      "answer": "All of the routers have an OSPFv3 interface priority of 0.",
+      "choices": [
+        "All of the routers have an OSPFv3 interface priority of 0."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Refer to the exhibit shown. What command statement must be issued to complete the configuration at R1 for multiarea OSPF.",
+      "answer": "network 192.168.10.128 0.0.0.127 area 1",
+      "choices": [
+        "network 192.168.10.128 0.0.0.127 area 1"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Refer to the exhibit. In RMS Robotics Industries network, Four routers are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
+      "answer": "All of the routers have an OSPFv3 interface priority of 0.",
+      "choices": [
+        "All of the routers have an OSPFv3 interface priority of 0."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Refer to the network topology diagram above. A certified network expert has configured the OSPF timers to the values that are shown in the graphic. What is the result of having those manually configured timers?",
+      "answer": "The R1 dead timer expires between hello packets from R2",
+      "choices": [
+        "The R1 dead timer expires between hello packets from R2"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Refer to the series of ip addresses below. A network specialist has been asked to summarize the networks shown in the exhibit as part of a multiarea OSPF implementation. All addresses are using a subnet mask of 255.255.255.0. What is the correct summarization for these eight networks? 10.0.4.0 10.0.8.0 10.0.5.0 10.0.9.0 10.0.6.0 10.0.10.0 10.0.7.0 10.0.11.0",
+      "answer": "10.0.0.0 255.255.240.0",
+      "choices": [
+        "10.0.0.0 255.255.240.0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Refer to the test result above. These two routers are configured to run OSPFv3 but they are not forming a neighbor adjacency. What is the cause of the problem?",
+      "answer": "The routers are configured with the same router ID.",
+      "choices": [
+        "The routers are configured with the same router ID."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch?",
+      "answer": "EtherChannel",
+      "choices": [
+        "EtherChannel"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Referring to the exhibit, the command “show ipv6 route can be issued on router R2 to verify the propagation of a static default router from R1 to R2\" As discussed in this chapter why is MD5 authentication is more secure than simple authentication of OSPF updates?a",
+      "answer": "MD5 does not send the password to the neighbor router.",
+      "choices": [
+        "MD5 does not send the password to the neighbor router."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Referring to the sample result above, a network specialist has configured eigrp authentication between routers R! and R2. After there routing tables are received, it is noted that neither router is receiving eigrp updates. What is a possible cause for this failure?",
+      "answer": "The same autonomous system numbers must be used in the interface configurations of each router.",
+      "choices": [
+        "The same autonomous system numbers must be used in the interface configurations of each router."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Referring to the test result shown above. Given the output for this command, if the router ID has not been manually set, what router ID will OSPF use for this RouterD?",
+      "answer": "172.16.5.1",
+      "choices": [
+        "172.16.5.1"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Standard Electric Company is planning the implementation of Rapid PVST+ on a production network. How are the Rapid PVST+ link types determined on the switch interfaces?",
+      "answer": "Link types are determined automatically",
+      "choices": [
+        "Link types are determined automatically"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The backbone area interconnects with all other OSPF area types.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The client of a networking company requires VPN connectivity for workers who must travel frequently. To support the VPN server, the customer router must be upgraded to a new Cisco IOS software version with the Advanced IP Services feature set. What should the field engineer do before copying the new IOS to the router?",
+      "answer": "Issue the show version and the show flash commands to ensure that the router has enough memory and file space to support the new IOS image.",
+      "choices": [
+        "Issue the show version and the show flash commands to ensure that the router has enough memory and file space to support the new IOS image."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The network engineer of 3A Recording Studiohas added a new router into an established OSPF network. The networks attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
+      "answer": "The network wildcard mask is configured improperly.",
+      "choices": [
+        "The network wildcard mask is configured improperly."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The network engineer of RMS University has configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?",
+      "answer": "The dead interval will now be 60 seconds.",
+      "choices": [
+        "The dead interval will now be 60 seconds."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The network engineer of Stark Industries has manually configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?",
+      "answer": "The dead interval will now be 60 seconds.",
+      "choices": [
+        "The dead interval will now be 60 seconds."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The network specialist has manually configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?",
+      "answer": "The dead interval will now be 60 seconds.",
+      "choices": [
+        "The dead interval will now be 60 seconds."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The PRD company network engineer is upgrading the Cisco IOS image on a Cisco ISR 4000 series. What command could the engineer use to verify the total amount of flash memory as well as how much flash memory is currently available?",
+      "answer": "show flash0:",
+      "choices": [
+        "show flash0:"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The Predator Missile factory network administrator is checking and troubleshooting an EIGRP problem on a router and needs to confirm the IP addresses of the devices with which the router has established adjacency. The retransmit interval and the queue counts for the adjacent routers also need to be checked. What command will display the required information?",
+      "answer": "Router# show ip eigrp neighbors",
+      "choices": [
+        "Router# show ip eigrp neighbors"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The trunk link between two 2960 switches has reached its capacity. How can solve this problem in the most economical way?",
+      "answer": "Combine physical ports into a high-speed logical link by configuring EtherChannel.",
+      "choices": [
+        "Combine physical ports into a high-speed logical link by configuring EtherChannel."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The trunk link between two 2960 switches has reached its capacity. In understanding of link aggregation, how can this be addressed in the most economical way?",
+      "answer": "Combine physical ports into a high-speed logical link by configuring EtherChannel.",
+      "choices": [
+        "Combine physical ports into a high-speed logical link by configuring EtherChannel."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "The use of PAgP to create EtherChannels is discussed in link aggregation chapter as part of Scaling Network. Which statement below as discussed in this course is true about PagP?",
+      "answer": "It is a Cisco Proprietary",
+      "choices": [
+        "It is a Cisco Proprietary"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "This always appear in certification exams so remember this, which parameter or parameters are used to calculate OSPF cost in Cisco routers?",
+      "answer": "Bandwidth",
+      "choices": [
+        "Bandwidth"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "This wireless attack comes from an old term called war dialing, where people would dial random phone numbers in search of modems. It is basically people driving around looking for vulnerable APs to attack. What wireless attack is this?",
+      "answer": "War driving",
+      "choices": [
+        "War driving"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Understanding EtherChannel technology, what is an advantage of using LACP?",
+      "answer": "allows automatic formation of EtherChannel links",
+      "choices": [
+        "allows automatic formation of EtherChannel links"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Understanding multiarea OSPF what is one advantage of using multiarea OSPF?",
+      "answer": "It enables multiple routing protocols to be running in a large network.",
+      "choices": [
+        "It enables multiple routing protocols to be running in a large network."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
+      "answer": "Link aggregation",
+      "choices": [
+        "Link aggregation"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Using 2 switches, which PAgP mode combination will establish an EtherChannel?",
+      "answer": "switch 1 set to desirable; switch 2 set to desirable.",
+      "choices": [
+        "switch 1 set to desirable; switch 2 set to desirable."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Using LACP, besides of being a multivendor protocol which among the listed below describes as it advantage?",
+      "answer": "allows automatic formation of EtherChannel links",
+      "choices": [
+        "allows automatic formation of EtherChannel links"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Using PagP as range of ports to be configured as etherchannel, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+      "answer": "auto",
+      "choices": [
+        "auto"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What area interconnects with all other OSPF area types?",
+      "answer": "Backbone",
+      "choices": [
+        "Backbone"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What command will display the required information?",
+      "answer": "What command will display the required information?",
+      "choices": [
+        "What command will display the required information?"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What do you called the number of ports available on a single switch?",
+      "answer": "Port density",
+      "choices": [
+        "Port density"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What does an O IA routing table entry mean?",
+      "answer": "Inter-area route",
+      "choices": [
+        "Inter-area route"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What happens when a router has two network statements in different areas?",
+      "answer": "It becomes ABR",
+      "choices": [
+        "It becomes ABR"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What is the default hello timer value for STP BPDU frames",
+      "answer": "2 seconds",
+      "choices": [
+        "2 seconds"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What is the effect of the command sequence?",
+      "answer": "What is the effect of the command sequence?",
+      "choices": [
+        "What is the effect of the command sequence?"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What is the frequency range of the IEEE 802.11b standard as discussed in wireless LAN standards?",
+      "answer": "2.4GHz",
+      "choices": [
+        "2.4GHz"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What is the purpose of HSRP in switching environment?",
+      "answer": "It provides a continuous network connection when a router fails.",
+      "choices": [
+        "It provides a continuous network connection when a router fails."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What is the useof in-band device management and how it is done?",
+      "answer": "It is used to monitor and make configuration changes to a network device over a network connection.",
+      "choices": [
+        "It is used to monitor and make configuration changes to a network device over a network connection."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What module consists of the Internet, VPN, and WAN modules connecting the enterprise with the service provider's network and also this module extends the enterprise services to remote sites and enables the enterprise to use Internet and partner resources?",
+      "answer": "Enterprise Edge",
+      "choices": [
+        "Enterprise Edge"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What routerhas all of its interfaces in the same area and have identical LSDBs.",
+      "answer": ". Internal Router",
+      "choices": [
+        ". Internal Router"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What routing table descriptor is used to identify OSPF summary networks that originate from an ABR?",
+      "answer": "O IA",
+      "choices": [
+        "O IA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What type of wireless attack that uses the method by flooding an AP with deauthentication frames?",
+      "answer": "Jamming",
+      "choices": [
+        "Jamming"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What wireless LAN technology that operates in the range of a few hundred feet?",
+      "answer": "WLAN",
+      "choices": [
+        "WLAN"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "What wireless standard consists of various corporate, national, and international organizations using service provider cellular access to provide mobile broadband network connectivity?",
+      "answer": "Cellular Broadband",
+      "choices": [
+        "Cellular Broadband"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "When a customer purchases a Cisco IOS 15.0 software package, what serves as the receipt for that customer and is used to obtain the license as well?",
+      "answer": "End User License Agreement",
+      "choices": [
+        "End User License Agreement"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "When a home wireless AP is being configured, _____ is used to identify the wireless network name?",
+      "answer": "SSID",
+      "choices": [
+        "SSID"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "When a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+      "answer": "auto",
+      "choices": [
+        "auto"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP so that it initiates the EtherChannel negotiation?",
+      "answer": "active",
+      "choices": [
+        "active"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "When OSPFv2 neighbors are establishing adjacencies, in which state do they elect a DR and BDR router?",
+      "answer": "Two-Way state",
+      "choices": [
+        "Two-Way state"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Where are EIGRP successor routes stored?",
+      "answer": "in the routing table and the topology table",
+      "choices": [
+        "in the routing table and the topology table"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Where do inter-area route summarization be performed in an OSPF network?",
+      "answer": "ABR",
+      "choices": [
+        "ABR"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which 3 features are OSPF routing protocol?",
+      "answer": "Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors.",
+      "choices": [
+        "Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which among the commands below must be entered on a serial interface of a Cisco router to restore the bandwidth to the default value of that specific router interface?",
+      "answer": "No bandwidth",
+      "choices": [
+        "No bandwidth"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which among the listed below are the 2 functional parts of the network that can be combined to form a collapsed core design in Cisco Enterprise Architecture?",
+      "answer": "Distribution and core layer",
+      "choices": [
+        "Distribution and core layer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which among the listed below are two types of spanning tree protocols can cause suboptimal traffic flows because they assume only one spanning-tree instance for the entire bridged network?",
+      "answer": "STP & RSTP",
+      "choices": [
+        "STP & RSTP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which among the listed below is an advantage of PVST+?",
+      "answer": "PVST+ optimizes performance on the network through load sharing.",
+      "choices": [
+        "PVST+ optimizes performance on the network through load sharing."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which area is referred to as the \"backbone area\"?",
+      "answer": ". Area 0",
+      "choices": [
+        ". Area 0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which command statement below will a network engineer issue to verify the configured hello and dead timer intervals on a point-to-point WAN link between two routers that are running OSPFv2?",
+      "answer": "show ip ospf interface serial 0/0/0",
+      "choices": [
+        "show ip ospf interface serial 0/0/0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which command will a network engineer issue to verify the configured hello and dead timer intervals on a point-to-point WAN link between two routers that are running OSPFv2?",
+      "answer": "show ipospf interface serial 0/0/0",
+      "choices": [
+        "show ipospf interface serial 0/0/0"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which describes a multiarea OSPF network?",
+      "answer": "It has a core backbone area with other areas connected to the backbone area.",
+      "choices": [
+        "It has a core backbone area with other areas connected to the backbone area."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which feature of EIGRP supports AppleTalk, IP version 4 (IPv4), IP version 6 (IPv6), and Novell Internetwork Packet Exchange (IPX)?",
+      "answer": "Multiple network layer support",
+      "choices": [
+        "Multiple network layer support"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which IEEE wireless standard is known as WiGig and operates using a tri-band solution in the 2, 4, 5, and 60 GHz ranges?",
+      "answer": "802.11ad",
+      "choices": [
+        "802.11ad"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which is the default STP operation mode on Cisco Catalyst switches?",
+      "answer": "PVST+",
+      "choices": [
+        "PVST+"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which network design solution below in the current technology today will extend access layer connectivity to user devices?",
+      "answer": "Wireless connectivity implementation",
+      "choices": [
+        "Wireless connectivity implementation"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which of the following is a layer 2 protocol used to maintain a loop-free network?",
+      "answer": "STP",
+      "choices": [
+        "STP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which security mode is the least secure choice when a home wireless router is configured?",
+      "answer": "WEP",
+      "choices": [
+        "WEP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which security mode is the least secure choice when a home wireless router is configured. It is also the first security mode used for wireless?",
+      "answer": "WEP",
+      "choices": [
+        "WEP"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which show command is used to display the collection of OSPF link states?",
+      "answer": "show ip ospf database",
+      "choices": [
+        "show ip ospf database"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which statement describes a multiarea OSPF network?",
+      "answer": "c. It has a core backbone area with other areas connected to the backbone area.",
+      "choices": [
+        "c. It has a core backbone area with other areas connected to the backbone area."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which statement describes an EtherChannel implementation?",
+      "answer": "A trunked port can be part of an EtherChannel bundle.",
+      "choices": [
+        "A trunked port can be part of an EtherChannel bundle."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which statement is correct as discussed in this chapter regarding the use of PAgP to create EtherChannels?",
+      "answer": "It is Cisco proprietary.",
+      "choices": [
+        "It is Cisco proprietary."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which statement is true regarding the use of PAgP to create EtherChannels?",
+      "answer": "It is Cisco proprietary.",
+      "choices": [
+        "It is Cisco proprietary."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which switchport mode makes the interface able to convert the link to a trunk",
+      "answer": "switchport mode access",
+      "choices": [
+        "switchport mode access"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which switchport mode puts the interface into permanent nontrunking ?",
+      "answer": "switchport mode dynamic auto",
+      "choices": [
+        "switchport mode dynamic auto"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which switchport mode Puts the interface into permanent trunking mode and negotiates",
+      "answer": "switchport mode trunk",
+      "choices": [
+        "switchport mode trunk"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which three statements describe the routing protocol OSPF as discussed in Chapter 5? 1. It supports VLSM. 2. It is used to route between autonomous systems. 3. It confines network instability to one area of the network. 4. It increases routing overhead on the network. 5. It allows extensive control of routing updates 6. It is simpler to configure than RIPv2.",
+      "answer": "1, 3, 5",
+      "choices": [
+        "1, 3, 5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which three statements describe the routing protocol OSPF? 1. It supports VLSM. 2. It is used to route between autonomous systems. 3. It confines network instability to one area of the network. 4. It increases routing overhead on the network. 5. It allows extensive control of routing updates 6. It is simpler to configure than RIPv2.",
+      "answer": "1, 3, 5",
+      "choices": [
+        "1, 3, 5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which three steps in the design and implementation of a multiarea OSPF network are considered planning steps? (Choose a letter)",
+      "answer": "2, 4 & 5",
+      "choices": [
+        "2, 4 & 5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which two functional parts of the network are combined to form a collapsed core design as discussed in Cisco Enterprise Architecture?",
+      "answer": "distribution and core layer",
+      "choices": [
+        "distribution and core layer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which two networks are part of the summary route 192.168.32.0/22? (Choose a letter)",
+      "answer": "2 & 3",
+      "choices": [
+        "2 & 3"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which two pieces of information are used by the OSPF MD5 algorithm to generate a signature?",
+      "answer": "Secret key & OSPF message",
+      "choices": [
+        "Secret key & OSPF message"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Which type of wireless antenna is best suited for providing coverage in large open spaces, such as hallways or large conference rooms?",
+      "answer": "Omnidirectiona",
+      "choices": [
+        "Omnidirectiona"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Why do OSPF serial interfaces usually require manual bandwidth configuration?",
+      "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
+      "choices": [
+        "OSPF uses the bandwidth value to compute routes for its routing table."
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    },
+    {
+      "question": "Why would a network administrator of RMS Defence Contractor company issue the show cdp neigbors command on a router especially if a network problem occurs?",
+      "answer": "To display device ID and other information about directly connected Cisco devices",
+      "choices": [
+        "To display device ID and other information about directly connected Cisco devices"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/it/data-communications-and-networking-3-6224-it"
+    }
+  ]
+}

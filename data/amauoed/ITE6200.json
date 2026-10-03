@@ -1,0 +1,5025 @@
+{
+  "subjectCode": "ITE6200",
+  "subjectName": "Application Development and Emerging Technology",
+  "updatedAt": "2026-10-03T15:59:36Z",
+  "refreshedAt": "2026-10-03T15:59:36Z",
+  "tier": "study_guide",
+  "sourceName": "AMAUOED",
+  "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite",
+  "sourceFormat": "AMAUOED course answer cards",
+  "verified": false,
+  "totalQuestions": 300,
+  "questions": [
+    {
+      "question": "_____________ is defines the structure of the document, default values, and validators.",
+      "answer": "Mongoose schema",
+      "choices": [
+        "Mongoose data object",
+        "Mongoose model",
+        "Mongoose diagram",
+        "Mongoose schema"
+      ],
+      "wrongAnswers": [
+        "Mongoose data object",
+        "Mongoose model",
+        "Mongoose diagram"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "_construct() method executes when a class is created or instantiated.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "$(document).ready() function calls if the browser contents has properly loaded its contents and is browsing.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "$that->db->insert_id() function returns the auto incremented or last inserted id from the query.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "$this->db->insert_id() inserts an id in the database.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "$this->session->set_userdata() is also used to set or change an existing session variable value",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "1The Control Appendfunction of the URL helperreturns the $config[‘base_url’] value defined on application/config/config.php.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "4.Helpers differs from the model methods because it doesn’t require database intervention.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A cart library method that displays the total number of items in the cart.",
+      "answer": "total_items()",
+      "choices": [
+        "total_items()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A cart library method that permits you to destroy the cart.",
+      "answer": "destroy()",
+      "choices": [
+        "destroy()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A cart library method that returns the total amount",
+      "answer": "total()",
+      "choices": [
+        "total()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A cart library method used to update the information of a specific cart item.",
+      "answer": "update()",
+      "choices": [
+        "update()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A child pseudoclass may represent the second, third, fourth, and so on elements.",
+      "answer": "Nth child",
+      "choices": [
+        "Siblings",
+        "Nth child",
+        "Class",
+        "Descendants"
+      ],
+      "wrongAnswers": [
+        "Siblings",
+        "Class",
+        "Descendants"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A class contained within the header, main, and footer elements which will carry the content elements.",
+      "answer": "container",
+      "choices": [
+        "script",
+        "container",
+        "body",
+        "Html"
+      ],
+      "wrongAnswers": [
+        "script",
+        "body",
+        "Html"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A Cloud Foundry command is used to specify a target API endpoint, login credentials, an org, and space.",
+      "answer": "cf login",
+      "choices": [
+        "cf login",
+        "cf credential",
+        "cf log",
+        "cf account"
+      ],
+      "wrongAnswers": [
+        "cf credential",
+        "cf log",
+        "cf account"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A Cloud Foundry command that set or view the targeted org or space.",
+      "answer": "target",
+      "choices": [
+        "view",
+        "source",
+        "set",
+        "target"
+      ],
+      "wrongAnswers": [
+        "view",
+        "source",
+        "set"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A collection of data elements organized in terms of rows and columns.",
+      "answer": "Relational table",
+      "choices": [
+        "Relational table",
+        "Relational schema",
+        "Relational database",
+        "Relational diagram"
+      ],
+      "wrongAnswers": [
+        "Relational schema",
+        "Relational database",
+        "Relational diagram"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command is used in the command-line interface to create a new directory.",
+      "answer": "mkdir",
+      "choices": [
+        "mkdir",
+        "cddir",
+        "Cd\\",
+        "rddir"
+      ],
+      "wrongAnswers": [
+        "cddir",
+        "Cd\\",
+        "rddir"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command module that appears to be available on the global scope is ___________________.",
+      "answer": "Require module",
+      "choices": [
+        "Global module",
+        "Require module",
+        "Class module",
+        "Universal module"
+      ],
+      "wrongAnswers": [
+        "Global module",
+        "Class module",
+        "Universal module"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command that allows us to make a new directory on your current or specific directory location.",
+      "answer": "mkdir",
+      "choices": [
+        "rd",
+        "mkdir",
+        "cd",
+        "cd"
+      ],
+      "wrongAnswers": [
+        "rd",
+        "cd",
+        "cd"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command that allows you to move from your current directory to an inner directory.",
+      "answer": "cd",
+      "choices": [
+        "cd",
+        "mkdir",
+        "cd",
+        "rd"
+      ],
+      "wrongAnswers": [
+        "mkdir",
+        "rd"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command that can be used to restart Vagrant once it stopped.",
+      "answer": "vagrant up",
+      "choices": [
+        "vagrant halt",
+        "vagrant up",
+        "vagrant run",
+        "vagrant destroy"
+      ],
+      "wrongAnswers": [
+        "vagrant halt",
+        "vagrant run",
+        "vagrant destroy"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command that is used to load up the intuitive Redis clients.",
+      "answer": "Redis-cli",
+      "choices": [
+        "Redis-gui",
+        "Redis-auth",
+        "Redis-acl",
+        "Redis-cli"
+      ],
+      "wrongAnswers": [
+        "Redis-gui",
+        "Redis-auth",
+        "Redis-acl"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command that is used to make a new directory thru the command line interface.",
+      "answer": "mkdir",
+      "choices": [
+        "cddir",
+        "mkdir",
+        "Cd\\",
+        "rddir"
+      ],
+      "wrongAnswers": [
+        "cddir",
+        "Cd\\",
+        "rddir"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command which allows you to create a new directory.",
+      "answer": "mkdir",
+      "choices": [
+        "rd",
+        "mkdir",
+        "cd",
+        "cd"
+      ],
+      "wrongAnswers": [
+        "rd",
+        "cd",
+        "cd"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command which refers to the print working directory.",
+      "answer": "pwd",
+      "choices": [
+        "cd\\",
+        "pwd",
+        "print",
+        "mkdir"
+      ],
+      "wrongAnswers": [
+        "cd\\",
+        "print",
+        "mkdir"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A command-line tool used to interact with Cloud Foundry.",
+      "answer": "cf",
+      "choices": [
+        "cli",
+        "cf",
+        "node",
+        "redis"
+      ],
+      "wrongAnswers": [
+        "cli",
+        "node",
+        "redis"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A common open standard for authorization.",
+      "answer": "Oauth",
+      "choices": [
+        "Oauth"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A common XML-based open data format for authentication.",
+      "answer": "security assertion markup language(saml)",
+      "choices": [
+        "security assertion markup language(saml)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A component that packages a non-native app so that it is viable for native distribution.",
+      "answer": "native wrapper",
+      "choices": [
+        "native wrapper"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A configuration variables contain full URL to the controller class/function containing your pagination",
+      "answer": "base_url",
+      "choices": [
+        "base_url"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A configuration variables represents the total rows in the result set you are creating pagination for",
+      "answer": "total_rows",
+      "choices": [
+        "total_rows"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A configuration variables that set number of items you intend to show per page.",
+      "answer": "per_page",
+      "choices": [
+        "per_page"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A cross-platform and language-independent interface treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document.",
+      "answer": "Document Object Model",
+      "choices": [
+        "Data Model",
+        "Document Object Model",
+        "Entity Relationship Diagram",
+        "Object Model"
+      ],
+      "wrongAnswers": [
+        "Data Model",
+        "Entity Relationship Diagram",
+        "Object Model"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A CSS feature that is intended to eliminate all browser defaults.",
+      "answer": "CSS reset",
+      "choices": [
+        "CSS reset",
+        "CSS validation",
+        "CSS tools",
+        "CSS selector"
+      ],
+      "wrongAnswers": [
+        "CSS validation",
+        "CSS tools",
+        "CSS selector"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A database that can be utilized for more impenetrable data storage needs.",
+      "answer": "Mongodb",
+      "choices": [
+        "Mongodb",
+        "MySQL",
+        "Postgresql",
+        "Redis"
+      ],
+      "wrongAnswers": [
+        "MySQL",
+        "Postgresql",
+        "Redis"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A development process that works on a very short development cycle.",
+      "answer": "est-driven development(TDD)",
+      "choices": [
+        "est-driven development(TDD)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A development tool, sometimes including a mobile middleware server, that builds hybrid or native apps for each mobile platform from a single codebase. IncludesMEAPs and MCAPs.",
+      "answer": "mobile application development platform(MADP)",
+      "choices": [
+        "mobile application development platform(MADP)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A device that helps fabricate a development environment utilizing a virtual machine.",
+      "answer": "Vagrant",
+      "choices": [
+        "Apache",
+        "Vagrant",
+        "VirtualBox",
+        "Nginx"
+      ],
+      "wrongAnswers": [
+        "Apache",
+        "VirtualBox",
+        "Nginx"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A feature for access control systems that allows users to log in to (or log out of) multiple, independent software systems using one set of credentials.",
+      "answer": "single ign-on(SSO)",
+      "choices": [
+        "single ign-on(SSO)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A file that contains a single JSON object that incorporates your Twitter credentials",
+      "answer": "credentialsjson",
+      "choices": [
+        "credentialsjson",
+        "propertyjson",
+        "objectjson",
+        "attributejson"
+      ],
+      "wrongAnswers": [
+        "propertyjson",
+        "objectjson",
+        "attributejson"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A for loop comprises of four things, three of them are in the parenthesis that follow the word for and we allude to those as the initialization statement, the continuation condition, the update statement, and the fourth is the loop body,",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function from a selector which will eliminate the chosen element(s) from the DOM.",
+      "answer": "remove",
+      "choices": [
+        "empty",
+        "delete",
+        "remove",
+        "erase"
+      ],
+      "wrongAnswers": [
+        "empty",
+        "delete",
+        "erase"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that carries or executes the callback after the predefined number of milliseconds have passed.",
+      "answer": "setTimeout",
+      "choices": [
+        "setClock",
+        "setTimer",
+        "setTimein",
+        "setTimeout"
+      ],
+      "wrongAnswers": [
+        "setClock",
+        "setTimer",
+        "setTimein"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that creates contentions such as a string signifying the kind of stream and an object that contains data about our filter rules.",
+      "answer": "stream function",
+      "choices": [
+        "filter function",
+        "string data function",
+        "stream function",
+        "object filter function"
+      ],
+      "wrongAnswers": [
+        "filter function",
+        "string data function",
+        "object filter function"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that finishes the response by including \"Hi World.\"",
+      "answer": "resend",
+      "choices": [
+        "resend",
+        "reqwriteHead",
+        "req",
+        "res"
+      ],
+      "wrongAnswers": [
+        "reqwriteHead",
+        "req",
+        "res"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that is used to gain access to the JSON files in our program locally.",
+      "answer": "getJSON",
+      "choices": [
+        "getJSON",
+        "Split",
+        "items",
+        "jsonString"
+      ],
+      "wrongAnswers": [
+        "Split",
+        "items",
+        "jsonString"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that makes the HTTP header that sets the attributes of the response.",
+      "answer": "reqwriteHead",
+      "choices": [
+        "req",
+        "resend",
+        "reqwriteHead",
+        "res"
+      ],
+      "wrongAnswers": [
+        "req",
+        "resend",
+        "res"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that returns all the values of all specified keys in Redis.",
+      "answer": "mget",
+      "choices": [
+        "hmget",
+        "get",
+        "mget",
+        "hget"
+      ],
+      "wrongAnswers": [
+        "hmget",
+        "get",
+        "hget"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that runs as the system user rather than an application user.",
+      "answer": "System function",
+      "choices": [
+        "Application function",
+        "Software function",
+        "System function",
+        "Network function"
+      ],
+      "wrongAnswers": [
+        "Application function",
+        "Software function",
+        "Network function"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function that sets the time when a function will be called.",
+      "answer": "setInterval",
+      "choices": [
+        "setInterval",
+        "setTime",
+        "setEvent",
+        "setClock"
+      ],
+      "wrongAnswers": [
+        "setTime",
+        "setEvent",
+        "setClock"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A function used in asynchronous programming where it is executed at the later part being an argument.",
+      "answer": "callback",
+      "choices": [
+        "return",
+        "declaration",
+        "callback",
+        "val"
+      ],
+      "wrongAnswers": [
+        "return",
+        "declaration",
+        "val"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A Git command that is only used to start or initialize the repository.",
+      "answer": "Git init",
+      "choices": [
+        "Git add [file(s)]",
+        "Git init",
+        "Git commit =E2=80=93m[msg]",
+        "Git status"
+      ],
+      "wrongAnswers": [
+        "Git add [file(s)]",
+        "Git commit =E2=80=93m[msg]",
+        "Git status"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A git command which initializes your repository.",
+      "answer": "Git init",
+      "choices": [
+        "Git status",
+        "Git commit -m[msg]",
+        "Git add [file(s)]",
+        "Git init"
+      ],
+      "wrongAnswers": [
+        "Git status",
+        "Git commit -m[msg]",
+        "Git add [file(s)]"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A JavaScript object that is created by a standard JavaScript object constructor.",
+      "answer": "controller",
+      "choices": [
+        "map",
+        "compiler",
+        "constructor",
+        "controller"
+      ],
+      "wrongAnswers": [
+        "map",
+        "compiler",
+        "constructor"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A JavaScript string where strings are declared inside a string using single quotes outwardly and double quotes within.",
+      "answer": "jsonString",
+      "choices": [
+        "BSON",
+        "jsonString",
+        "jQuery",
+        "JSON"
+      ],
+      "wrongAnswers": [
+        "BSON",
+        "jQuery",
+        "JSON"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A JSON file that resides from the root base of a JavaScript Node project",
+      "answer": "packagejson",
+      "choices": [
+        "stdoutlog",
+        "Serverjs",
+        "packagejson",
+        "consolelog"
+      ],
+      "wrongAnswers": [
+        "stdoutlog",
+        "Serverjs",
+        "consolelog"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A kind of schema that characterizes the structure of the archive, predefined values, and validators.",
+      "answer": "Mongoose schema",
+      "choices": [
+        "Mongoose data object",
+        "Mongoose model",
+        "Mongoose schema",
+        "Mongoose diagram"
+      ],
+      "wrongAnswers": [
+        "Mongoose data object",
+        "Mongoose model",
+        "Mongoose diagram"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A language that is used to present requests from a database saved in a relational format.",
+      "answer": "SQL",
+      "choices": [
+        "SQL",
+        "NoSQL",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "wrongAnswers": [
+        "NoSQL",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A library that enables real-time, bidirectional and event-based communication between the browser and the server.",
+      "answer": "socketio",
+      "choices": [
+        "socketio",
+        "socketonopen",
+        "socketemit",
+        "socketsend"
+      ],
+      "wrongAnswers": [
+        "socketonopen",
+        "socketemit",
+        "socketsend"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A lightweight format in JavaScript for storing and transporting data.",
+      "answer": "json",
+      "choices": [
+        "json",
+        "server",
+        "node",
+        "script"
+      ],
+      "wrongAnswers": [
+        "server",
+        "node",
+        "script"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A method in jQuery that is used to create a serialized representation of an object.",
+      "answer": "param()",
+      "choices": [
+        "param()",
+        "declaration()",
+        "argument()",
+        "syntax()"
+      ],
+      "wrongAnswers": [
+        "declaration()",
+        "argument()",
+        "syntax()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A method that can be used on jQuery collections that wrap plain JavaScript objects similar to a pub/ sub mechanism.",
+      "answer": "trigger()",
+      "choices": [
+        "config",
+        "toString()",
+        "trigger()",
+        "content()"
+      ],
+      "wrongAnswers": [
+        "config",
+        "toString()",
+        "content()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A method that loads data from the server using an HTTP POST request",
+      "answer": "$post()",
+      "choices": [
+        "$post()",
+        "contentpost()",
+        "post()",
+        "post()"
+      ],
+      "wrongAnswers": [
+        "contentpost()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A method that sends back all the values of all predetermined keys in Redis.",
+      "answer": "mget",
+      "choices": [
+        "get",
+        "mget",
+        "hmget",
+        "hget"
+      ],
+      "wrongAnswers": [
+        "get",
+        "hmget",
+        "hget"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A method under the calendar library that will display the calendar",
+      "answer": "generate()",
+      "choices": [
+        "generate()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A mobile application developed using web standards and accessed through a browser.",
+      "answer": "web app",
+      "choices": [
+        "web app"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A mobile application that is written in a programming language that is directly compatible with the target platform.",
+      "answer": "native app",
+      "choices": [
+        "native app"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A mobile application written in HTML, CSS, and JavaScript that uses a web-to-native abstraction layer, allowing the application to access mobile device APIs that pure web applications cannot access.",
+      "answer": "hybrid app",
+      "choices": [
+        "hybrid app"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A mobile phone with internet access and music playback that lacks the full functionality of a smartphone.",
+      "answer": "Feature phone",
+      "choices": [
+        "Feature phone"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A mobile platform-specific API that lets applications access specific mobile hardware functionality.",
+      "answer": "Device API",
+      "choices": [
+        "Device API"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A module that makes a layer on above the center http module that handles a great deal of complex things such as presenting static HTML, CSS, and client side JavaScript files.",
+      "answer": "Express module",
+      "choices": [
+        "Developer module",
+        "HTTP module",
+        "Application module",
+        "Express module"
+      ],
+      "wrongAnswers": [
+        "Developer module",
+        "HTTP module",
+        "Application module"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A multi-cloud environment allows developers to use the cloud platform that suits specific application workloads and move those workloads as necessary within minutes with no changes to the application.",
+      "answer": "Cloud foundry",
+      "choices": [
+        "VMware",
+        "Open cloud",
+        "Cloud foundry",
+        "Azure"
+      ],
+      "wrongAnswers": [
+        "VMware",
+        "Open cloud",
+        "Azure"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A network of physical objects embedded with electronics, software, sensors, and connectivity to enable it to achieve greater value and service by exchanging data with other connected devices.",
+      "answer": "internet of things",
+      "choices": [
+        "internet of things"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A program that actualizes the File Transfer Protocol.",
+      "answer": "FTP server",
+      "choices": [
+        "File server",
+        "FTP server",
+        "XML server",
+        "HTTP server"
+      ],
+      "wrongAnswers": [
+        "File server",
+        "XML server",
+        "HTTP server"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A programming API for HTML and XML documents defines the logical structure of documents and how a document is accessed and manipulated.",
+      "answer": "Document Object Model",
+      "choices": [
+        "Entity-Relationship Model",
+        "Object Model",
+        "Data Model",
+        "Document Object Model"
+      ],
+      "wrongAnswers": [
+        "Entity-Relationship Model",
+        "Object Model",
+        "Data Model"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A property of an object that can integrate a linkage to a specific image.",
+      "answer": "m",
+      "choices": [
+        "script",
+        "href",
+        "m",
+        "img"
+      ],
+      "wrongAnswers": [
+        "script",
+        "href",
+        "img"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A property that can be used to alter and specify the spacing between the elements' content.",
+      "answer": "Padding property",
+      "choices": [
+        "Margin property",
+        "Padding property",
+        "Float property",
+        "Border property"
+      ],
+      "wrongAnswers": [
+        "Margin property",
+        "Float property",
+        "Border property"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A property that can be used to alter and specify the spacing between the margin and padding.",
+      "answer": "border",
+      "choices": [
+        "border",
+        "margin",
+        "float",
+        "padding"
+      ],
+      "wrongAnswers": [
+        "margin",
+        "float",
+        "padding"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A Queriesis a formatted result of database queries and contain useful data for decision making and analysis.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A Query is a formatted result of database queries and contain useful data for decision making and analysis",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A query method used to returns the query result as an array of objects, or an empty array on failure",
+      "answer": "result()",
+      "choices": [
+        "result()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A query module contains a form that will pass parameters to the controller suggesting on how you want the data to be showed",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A Redis module is required to be installed to make our Node.js program communicate with Redis.",
+      "answer": "Node-redis",
+      "choices": [
+        "Package-json",
+        "Node-redis",
+        "Indexjs",
+        "Nodejs"
+      ],
+      "wrongAnswers": [
+        "Package-json",
+        "Indexjs",
+        "Nodejs"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A reference is utilized as a placeholder for an object.",
+      "answer": "null",
+      "choices": [
+        "variable",
+        "string",
+        "float",
+        "null"
+      ],
+      "wrongAnswers": [
+        "variable",
+        "string",
+        "float"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A report module is typically a front-end web page that contains various figures of interpreted database table records.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A rule reference that returns FALSE if the form element contains anything other than numeric characters.",
+      "answer": "numeric",
+      "choices": [
+        "numeric"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A rule reference that returns FALSE if the form element is empty.",
+      "answer": "required",
+      "choices": [
+        "required"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A rule reference that returns FALSE if the form element is not unique to the table and field name in the parameter.",
+      "answer": "is_unique",
+      "choices": [
+        "is_unique"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A segment of a web application that refers to the aspect of the program that runs in your internet browser.",
+      "answer": "Customer-side segment",
+      "choices": [
+        "Customer-side segment",
+        "Web-server segment",
+        "Network side segment",
+        "Server-side segment"
+      ],
+      "wrongAnswers": [
+        "Web-server segment",
+        "Network side segment",
+        "Server-side segment"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A selector function that allows you to delete a specific element(s) from within the DOM.",
+      "answer": "remove",
+      "choices": [
+        "erase",
+        "empty",
+        "remove",
+        "delete"
+      ],
+      "wrongAnswers": [
+        "erase",
+        "empty",
+        "delete"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A sensor that measures the acceleration (change in velocity) of an object in order to determine movement of a mobile device.",
+      "answer": "Accelerometer",
+      "choices": [
+        "Accelerometer"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A server that is fundamentally designed to respond to browser's request and responding with them thru a text.",
+      "answer": "HTTP server",
+      "choices": [
+        "HTTP server",
+        "FTP server",
+        "HTTPS server",
+        "SSH server"
+      ],
+      "wrongAnswers": [
+        "FTP server",
+        "HTTPS server",
+        "SSH server"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A set of programming codes known as API enables data transmission between one software product to another.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A set of programming tools and resources built specifically to aid software development on a particular platform or technology.",
+      "answer": "software developmentkit (SDK)",
+      "choices": [
+        "software developmentkit (SDK)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+      "answer": "bootstrap",
+      "choices": [
+        "IDE",
+        "script",
+        "console",
+        "bootstrap"
+      ],
+      "wrongAnswers": [
+        "IDE",
+        "script",
+        "console"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A software design pattern is usually utilized for developing UIs that partitions the interrelated program logic.",
+      "answer": "Model-View-Controller",
+      "choices": [
+        "Model-View-Controller",
+        "Model-View-Adapter",
+        "Model-View-Viewmodel",
+        "Model-View-Presenter"
+      ],
+      "wrongAnswers": [
+        "Model-View-Adapter",
+        "Model-View-Viewmodel",
+        "Model-View-Presenter"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A specific procedure or instruction that is executed when a user clicks a button.",
+      "answer": "Click events",
+      "choices": [
+        "Mouse event",
+        "Double Click event",
+        "Click events",
+        "Handling event"
+      ],
+      "wrongAnswers": [
+        "Mouse event",
+        "Double Click event",
+        "Handling event"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A specific program runs and executes most of its resources via the netfunction where various client programs pass through.",
+      "answer": "Server program",
+      "choices": [
+        "Utility program",
+        "Server program",
+        "Application program",
+        "Client program"
+      ],
+      "wrongAnswers": [
+        "Utility program",
+        "Application program",
+        "Client program"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A specification that defines the fifth major revision of HTML.",
+      "answer": "HTML5",
+      "choices": [
+        "HTML5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A string representation of a JavaScript object that can be prepared by any programming language.",
+      "answer": "JSON",
+      "choices": [
+        "getJSON",
+        "jsonString",
+        "jQuery",
+        "JSON"
+      ],
+      "wrongAnswers": [
+        "getJSON",
+        "jsonString",
+        "jQuery"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A string whose format resembles very much on the JavaScript object literal format.",
+      "answer": "JSON string",
+      "choices": [
+        "Processenv",
+        "Vcap_services",
+        "JSON string",
+        "Jsonparse"
+      ],
+      "wrongAnswers": [
+        "Processenv",
+        "Vcap_services",
+        "Jsonparse"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A structure that is used to capture certain characteristics about an individual user.",
+      "answer": "User model",
+      "choices": [
+        "Authentication model",
+        "User model",
+        "Account model",
+        "Profile model"
+      ],
+      "wrongAnswers": [
+        "Authentication model",
+        "Account model",
+        "Profile model"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A subcommand that is executed alongside the name of the application you'd prefer to refresh in Cloud Foundry.",
+      "answer": "push",
+      "choices": [
+        "push",
+        "pull",
+        "pop",
+        "stack"
+      ],
+      "wrongAnswers": [
+        "pull",
+        "pop",
+        "stack"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A superset of JSON with some more data types, most importantly binary byte array.",
+      "answer": "BSON",
+      "choices": [
+        "GSON",
+        "XML",
+        "BSON",
+        "protobuf"
+      ],
+      "wrongAnswers": [
+        "GSON",
+        "XML",
+        "protobuf"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A tag that is used as a container for a substructure.",
+      "answer": "<div>",
+      "choices": [
+        "<div>",
+        "<nav>",
+        "<script>",
+        "<href>"
+      ],
+      "wrongAnswers": [
+        "<nav>",
+        "<script>",
+        "<href>"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A tag that specifies the main content area of your document.",
+      "answer": "<main>",
+      "choices": [
+        "<main>",
+        "<title>",
+        "<head>",
+        "<footer>"
+      ],
+      "wrongAnswers": [
+        "<title>",
+        "<head>",
+        "<footer>"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A technique applied on an element before we can apply blurring to any object from a DOM.",
+      "answer": "hide",
+      "choices": [
+        "blur",
+        "shroud",
+        "hide",
+        "clear"
+      ],
+      "wrongAnswers": [
+        "blur",
+        "shroud",
+        "clear"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A term is utilized for both the statements coded in a specific programming language and the statements after it has been prepared by a compiler and prepared to run in a P~",
+      "answer": "code",
+      "choices": [
+        "library",
+        "Dll",
+        "webconfig",
+        "code"
+      ],
+      "wrongAnswers": [
+        "library",
+        "Dll",
+        "webconfig"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A term to describe all aspects of the end user’s interaction with an application.",
+      "answer": "User Experience",
+      "choices": [
+        "User Experience"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A term to describe the ways in which the end user directly interacts with a device or application.",
+      "answer": "User interface (UI)",
+      "choices": [
+        "User interface (UI)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A text messaging service component of a phone using standardized communication protocols to send short text messages.",
+      "answer": "simple message service (SMS)",
+      "choices": [
+        "simple message service (SMS)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A type of CSS comment that is common to use when we want to disregard multiple lines on codes from being executed.",
+      "answer": "multiline",
+      "choices": [
+        "multiline",
+        "batch",
+        "single",
+        "solitary"
+      ],
+      "wrongAnswers": [
+        "batch",
+        "single",
+        "solitary"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A variable declared outside a function.",
+      "answer": "Global",
+      "choices": [
+        "Global"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A variety of different style rules that are applied to other elements within the DOM.",
+      "answer": "ruleset",
+      "choices": [
+        "tools",
+        "browser",
+        "ruleset",
+        "validation"
+      ],
+      "wrongAnswers": [
+        "tools",
+        "browser",
+        "validation"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A view that displays web pages within an application.",
+      "answer": "webview",
+      "choices": [
+        "webview"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A vital part of a website or system UI because it accepts inputs as data parameters",
+      "answer": "Forms",
+      "choices": [
+        "Forms"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A website layout based on a fluid grid, allowing the site to have hundreds of dynamically generated states with mostly minor differences based on browser window size.",
+      "answer": "responsive layout",
+      "choices": [
+        "responsive layout"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A website layout that uses media queries to change the site’s design for specified devices or window sizes.",
+      "answer": "Adaptive layout",
+      "choices": [
+        "Adaptive layout"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A wireless local area network that allows smartphones, computers, and other devices to connect to the internet.",
+      "answer": "wi-fi",
+      "choices": [
+        "wi-fi"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "A wireless technology networking protocol used to exchange data over short distances.",
+      "answer": "Bluetooth",
+      "choices": [
+        "Bluetooth"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Account registration can be approved through activation link sent from user's email or by an admin approval.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Addresses an error condition and will be set to a certain error object if there's such an issue within the request.",
+      "answer": "Err parameter",
+      "choices": [
+        "Declaration parameter",
+        "Variable parameter",
+        "Err parameter",
+        "Output parameter"
+      ],
+      "wrongAnswers": [
+        "Declaration parameter",
+        "Variable parameter",
+        "Output parameter"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "AJAX engine is an XMLHttpRequest object and jQuery makes it a lot more easier for us because of its AJAX development API.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Ajax engine uses what type of object",
+      "answer": "XMLHttpRequest",
+      "choices": [
+        "XMLHttpRequest"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "AJAX stands for Asynchronous Java",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An abstraction layer that gives a non-application access to mobile device APIs.",
+      "answer": "native bridge",
+      "choices": [
+        "native bridge"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An algorithm that is used in security hashing that transforms data into a 128 bit string",
+      "answer": "MD5",
+      "choices": [
+        "MD5"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An application developed for use on small, wireless devices such as tablets and smartphones.",
+      "answer": "mobile app",
+      "choices": [
+        "mobile app"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An application programming interface for either a web server or a web browser.",
+      "answer": "Web API",
+      "choices": [
+        "Web console",
+        "Web API",
+        "Task manager",
+        "Developer Tool"
+      ],
+      "wrongAnswers": [
+        "Web console",
+        "Task manager",
+        "Developer Tool"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An application that duplicates the functionality of hardware or operating systems for testing purposes.",
+      "answer": "Emulator",
+      "choices": [
+        "Emulator"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An architecture style that uses discrete software services (each with one clearly defined business task) with well-defined, loosely-coupled interfaces that are orchestrated to work as a complete system by sharing functionality.",
+      "answer": "service-oriented architecture(soa)",
+      "choices": [
+        "service-oriented architecture(soa)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An array of DOM elements and not jQuery objects are the functions created by jQuery.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An assortment of various variables that are connected almost everywhere within the application.",
+      "answer": "Object",
+      "choices": [
+        "Bridge",
+        "Client",
+        "Object",
+        "Server"
+      ],
+      "wrongAnswers": [
+        "Bridge",
+        "Client",
+        "Server"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An element that integrates the app.js script containing the JavaScript codes we've created.",
+      "answer": "Second script element",
+      "choices": [
+        "Second script element",
+        "First script element",
+        "Fourth script element",
+        "Third script element"
+      ],
+      "wrongAnswers": [
+        "First script element",
+        "Fourth script element",
+        "Third script element"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An element that signifies an input text box and doesn't need an end tag.",
+      "answer": "Input element",
+      "choices": [
+        "Output element",
+        "Input element",
+        "Object element",
+        "Attribute element"
+      ],
+      "wrongAnswers": [
+        "Output element",
+        "Object element",
+        "Attribute element"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An elements which normally highlight JavaScript files.",
+      "answer": "script",
+      "choices": [
+        "attribute",
+        "script",
+        "tag",
+        "class"
+      ],
+      "wrongAnswers": [
+        "attribute",
+        "tag",
+        "class"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An email preference for mail sending protocol",
+      "answer": "protocol",
+      "choices": [
+        "protocol"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An environment variable that contains information that you can use to interact with a service instance in clouds.",
+      "answer": "Vcap_services",
+      "choices": [
+        "JSON string",
+        "Vcap_services",
+        "JSONparse",
+        "Processenv"
+      ],
+      "wrongAnswers": [
+        "JSON string",
+        "JSONparse",
+        "Processenv"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An Express functional configuration wherein we can make HTML, CSS, and client side JavaScript files.",
+      "answer": "Static file server",
+      "choices": [
+        "Web file server",
+        "Static file server",
+        "Hypertext file server",
+        "Dynamic file server"
+      ],
+      "wrongAnswers": [
+        "Web file server",
+        "Hypertext file server",
+        "Dynamic file server"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An HTML attribute that is incorporates a textual depiction of an image.",
+      "answer": "Alt attribute",
+      "choices": [
+        "Href attribute",
+        "Alt attribute",
+        "Ref attribute",
+        "Img attribute"
+      ],
+      "wrongAnswers": [
+        "Href attribute",
+        "Ref attribute",
+        "Img attribute"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An HTML attribute that plays a critical role in making web pages accessible by visually impaired users and needs to use screen readers when using the Web.",
+      "answer": "Alt attribute",
+      "choices": [
+        "Img attribute",
+        "Ref attribute",
+        "Alt attribute",
+        "Href attribute"
+      ],
+      "wrongAnswers": [
+        "Img attribute",
+        "Ref attribute",
+        "Href attribute"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An HTML element that is enclosed by an open and close angle bracket.",
+      "answer": "tags",
+      "choices": [
+        "tags",
+        "class",
+        "objects",
+        "function"
+      ],
+      "wrongAnswers": [
+        "class",
+        "objects",
+        "function"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An HTML meta tag that tells the browser how to behave when it renders the web page. The viewport is also a term for the section of the web page in view.",
+      "answer": "viewport",
+      "choices": [
+        "viewport"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An HTML5 standard that allows a web application to be cached and available offline.",
+      "answer": "Appcache",
+      "choices": [
+        "Appcache"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An innovation that permits us to determine the structure of the visual components of a web application.",
+      "answer": "HTML",
+      "choices": [
+        "XCode",
+        "Sublime",
+        "Text Editor",
+        "HTML"
+      ],
+      "wrongAnswers": [
+        "XCode",
+        "Sublime",
+        "Text Editor"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An instrument that measures the orientation of a device in order to orient display.",
+      "answer": "Gryoscope",
+      "choices": [
+        "Gryoscope"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An online library containing various JavaScript queries to which the initial script tag is usually linked",
+      "answer": "jQuery",
+      "choices": [
+        "JSLint",
+        "W3C",
+        "CSSLint",
+        "jQuery"
+      ],
+      "wrongAnswers": [
+        "JSLint",
+        "W3C",
+        "CSSLint"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An open-source, in-memory data structure store, used as a database, cache, and message broker.",
+      "answer": "redis",
+      "choices": [
+        "Cloud Foundry",
+        "Mongo",
+        "redis",
+        "JavaScript"
+      ],
+      "wrongAnswers": [
+        "Cloud Foundry",
+        "Mongo",
+        "JavaScript"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "An operating system designed specifically to run on mobile devices.",
+      "answer": "mobile OS",
+      "choices": [
+        "mobile OS"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Given the URL http://www.abc.com/student/record/201512345 State the following student",
+      "answer": "controller",
+      "choices": [
+        "controller"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Given the URL http://www.abc.com/student/record/201512345 State the following www.abc.com",
+      "answer": "base_url",
+      "choices": [
+        "base_url"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "How do you get the value of a config file item named 'author'.",
+      "answer": "//$this->config->load('author');",
+      "choices": [
+        "//$this->config->load('author');"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "How JavaScript stores object properties?",
+      "answer": "Key-value design",
+      "choices": [
+        "Parallel Key Store design",
+        "Value-Injection design",
+        "Key-value design",
+        "Stored value design"
+      ],
+      "wrongAnswers": [
+        "Parallel Key Store design",
+        "Value-Injection design",
+        "Stored value design"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "How many parameters does CAPCHA requires",
+      "answer": "3",
+      "choices": [
+        "3"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "htaccess file that will automatically route the index.php next to the Controller",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "HTML Helper is a codeigniter 3 helper class",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "HTML is all about the origin of a document, this implies despite the fact that we see various stylistic elements here such as the different textual styles, the hues, and even the format.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "IDENTIFICATION: CSS stands for",
+      "answer": "Cascading style sheets",
+      "choices": [
+        "Cascading style sheets"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "IDENTIFICATION: Name the university that created MaterialDesign CSS",
+      "answer": "Carnegie Mellon University",
+      "choices": [
+        "Carnegie Mellon University"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "If an element has two child elements, and we float one child element to the left side and one to the right side, they will appear next to each other, expecting they don't cover.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "If set to true, if a file with the same name as the one you are uploading exists, it will be overwritten. If set to false, a number will be appended to the filename if another with the same name exists.",
+      "answer": "overwrite",
+      "choices": [
+        "overwrite"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "If the browser is altered, the sized to viewport a little smaller than 855 px, the rest of the part of the page will be avoided from viewing.",
+      "answer": "Min-width property",
+      "choices": [
+        "Min-width property",
+        "Attribute property",
+        "Float property",
+        "Max-width property"
+      ],
+      "wrongAnswers": [
+        "Attribute property",
+        "Float property",
+        "Max-width property"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "If we need to tackle excess lines of codes and how they can be extracted, we need to apply the function organizeByTags to keep the objects in our program well arranged.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In case there are two child elements, and we float one of the child elements on to the left side and the other to the right side, they will appear on top of each other.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In CI what does URI stands for",
+      "answer": "uniform resource identifier",
+      "choices": [
+        "uniform resource identifier"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In Codeigniter 3 helpers are all located in system/helper.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In CodeIgniter the Calendar class enables you to dynamically create calendars.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In CodeIgniter the validation system supports callforward to your own validation methods.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In file upload the maximum size are set in _________ that the file can be. Set to zero for no limit",
+      "answer": "kilobytes",
+      "choices": [
+        "kilobytes"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In file upload you'll need a destination directory for your uploaded images.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In Java, objects are first-class citizens since they can also be characterize as unknown functions or functions without names.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In jQuery the scr tag is use for linking.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In NoSQL, a data model comprises a schema, which depicts the structure of the entirety of the objects of that type.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In order for the image class to be allowed to do any processing, the folder containing the image files be write protected",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In order to use and access session variables on webpages, we must put the session_start()",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In shopping cart if the quantity is set to negative value, the item will be removed from the cart.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In the event that you type in an invalid Object value, the previous code will toss an error that says you've utilized an invalid Id.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In the JavaScript environment, a triple equal sign is used to compare two expressions that return a true or false value.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In the Macintosh operating system, you usually use CTRL+R to reopen a page.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In the MVC design, the model abstracts the database utilizing a type of data modeling tool.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "In Windows and the majority of Linux environment, Ctrl+Tab is utilized to shift from one active window to another faster.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Information that is delivered immediately after collecting it without any delay.",
+      "answer": "Real-time data",
+      "choices": [
+        "Real-time data"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Is a complete development and deployment environment in the cloud, with resources that enables you to deliver everything from simple cloud-based apps to sophisticated, cloud-enabled enterprise applications.",
+      "answer": "Platform-as-a-Service (PaaS)",
+      "choices": [
+        "Software-as-a-Service (SaaS)",
+        "System as-a-Service (SaaS)",
+        "Infrastructure-as-a-Service (IaaS)",
+        "Platform-as-a-Service (PaaS)"
+      ],
+      "wrongAnswers": [
+        "Software-as-a-Service (SaaS)",
+        "System as-a-Service (SaaS)",
+        "Infrastructure-as-a-Service (IaaS)"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Is a type of challenge-response test used in computing to ensure that the response is not generated by a computer.",
+      "answer": "captcha",
+      "choices": [
+        "captcha"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "is the process of organizing the columns/records or attributes and tables of the database to minimize data redundancy.",
+      "answer": "database normalization",
+      "choices": [
+        "database normalization"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "is the process of redirecting or remapping a controller class or method.",
+      "answer": "Routing",
+      "choices": [
+        "Routing"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "is_unique requires table and field name as parameter.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "is_uniques form validation rule checks if the input is unique from the table.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It allows web developers to identify elements within the DOM using CSS selectors and takes over those elements using JavaScript.",
+      "answer": "jQuery",
+      "choices": [
+        "CSSLint",
+        "W3C",
+        "JSLint",
+        "jQuery"
+      ],
+      "wrongAnswers": [
+        "CSSLint",
+        "W3C",
+        "JSLint"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It allows you to trigger small JavaScript programs from the command line without any browser involved.",
+      "answer": "Nodejs",
+      "choices": [
+        "Packagejson",
+        "Indexhtml",
+        "Nodejs",
+        "Node Package Manager"
+      ],
+      "wrongAnswers": [
+        "Packagejson",
+        "Indexhtml",
+        "Node Package Manager"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It can be said as the entry point of application.",
+      "answer": "Controller",
+      "choices": [
+        "Controller"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It characterizes a division or a portion and is utilized mainly as a container for HTML elements that are then styled with CSS or controlled with JavaScript.",
+      "answer": "div",
+      "choices": [
+        "dir",
+        "div",
+        "!doctype",
+        "data"
+      ],
+      "wrongAnswers": [
+        "dir",
+        "!doctype",
+        "data"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It chooses which controller and action to send the request to.",
+      "answer": "Serverjs",
+      "choices": [
+        "Indexhtml",
+        "Node Package Manager",
+        "Packagejson",
+        "Serverjs"
+      ],
+      "wrongAnswers": [
+        "Indexhtml",
+        "Node Package Manager",
+        "Packagejson"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It contains meta-information about the document.",
+      "answer": "<head>",
+      "choices": [
+        "<head>",
+        "<main>",
+        "<body>",
+        "<html>"
+      ],
+      "wrongAnswers": [
+        "<main>",
+        "<body>",
+        "<html>"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It contains the content that will be rendered in the browser.",
+      "answer": "<body>",
+      "choices": [
+        "<head>",
+        "<main>",
+        "<body>",
+        "<html>"
+      ],
+      "wrongAnswers": [
+        "<head>",
+        "<main>",
+        "<html>"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It executes the callback function once for each array element that usually returns the value undefined and is not chainable.",
+      "answer": "forEach()",
+      "choices": [
+        "forEach()",
+        "while()",
+        "for()",
+        "doWhile()"
+      ],
+      "wrongAnswers": [
+        "while()",
+        "for()",
+        "doWhile()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It flushes data and information to disk, and for the most part, you may likewise think of it as an in-memory data stockpiling.",
+      "answer": "Redis",
+      "choices": [
+        "CouchDB",
+        "Redis",
+        "HBase",
+        "Cassandra"
+      ],
+      "wrongAnswers": [
+        "CouchDB",
+        "HBase",
+        "Cassandra"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It gives a significantly bigger number of warnings compare to the HTML validation tools.",
+      "answer": "CSS Lint",
+      "choices": [
+        "CSS web support",
+        "CSS Lint",
+        "CSS ruleset",
+        "CSS developer tool"
+      ],
+      "wrongAnswers": [
+        "CSS web support",
+        "CSS ruleset",
+        "CSS developer tool"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It grants access to the DOM nodes underlying each jQuery objects.",
+      "answer": "get()",
+      "choices": [
+        "click()",
+        "val()",
+        "on()",
+        "get()"
+      ],
+      "wrongAnswers": [
+        "click()",
+        "val()",
+        "on()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a configuration file that is used for configuration of site-access issues, such as URL redirect, URL shortening, Access-security control.",
+      "answer": ".htaccess",
+      "choices": [
+        ".htaccess"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a function that overrides the normal behavior in which the URI determines which function is called, allowing you to define your own function routing rules.",
+      "answer": "//_remap()",
+      "choices": [
+        "//_remap()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a JavaScript object that contains attributes/properties and functions.",
+      "answer": "Controller",
+      "choices": [
+        "Compiler",
+        "Constructor",
+        "Controller",
+        "Map"
+      ],
+      "wrongAnswers": [
+        "Compiler",
+        "Constructor",
+        "Map"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a line that is not read/executed as part of the program.",
+      "answer": "comment",
+      "choices": [
+        "comment"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a programming tool we require, which doesn't need too much feature in formatting text.",
+      "answer": "Text editor",
+      "choices": [
+        "Version Control System",
+        "Operating System",
+        "Text editor",
+        "Browser"
+      ],
+      "wrongAnswers": [
+        "Version Control System",
+        "Operating System",
+        "Browser"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a software framework that is designed to support the development of dynamic websites, web applications, web services and web resources.",
+      "answer": "Web Application Framework",
+      "choices": [
+        "Web Application Framework"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a URI Component that locates the path or address.",
+      "answer": "Web Address",
+      "choices": [
+        "Web Address"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a URI Component that serve as persistent, location-independent identifiers",
+      "answer": "URN",
+      "choices": [
+        "URN"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is a way in which an HTML element are shown, applies to elements that have the type a or span.",
+      "answer": "inline",
+      "choices": [
+        "outline",
+        "inline",
+        "grid",
+        "Content"
+      ],
+      "wrongAnswers": [
+        "outline",
+        "grid",
+        "Content"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is an Application Development Framework - a toolkit - for people who build web sites using PHP",
+      "answer": "CodeIgniter",
+      "choices": [
+        "CodeIgniter"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is an inherent function in node.js with a particular use, and that is to load modules.",
+      "answer": "require()",
+      "choices": [
+        "import()",
+        "require()",
+        "append()",
+        "load()"
+      ],
+      "wrongAnswers": [
+        "import()",
+        "append()",
+        "load()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is any process or technology that allows users who forgot their passwords authenticate and reset the passwords of their account",
+      "answer": "Self-service password reset",
+      "choices": [
+        "Self-service password reset"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is applicable to use function as parameters to another function.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is applied to select all elements within the DOM and sets the elements' background to different recognizable shades of gray.",
+      "answer": "Universal selector",
+      "choices": [
+        "Universal selector",
+        "CSS selector",
+        "Validation selector",
+        "Selector"
+      ],
+      "wrongAnswers": [
+        "CSS selector",
+        "Validation selector",
+        "Selector"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is best for information that should be accessed rapidly or for temporary storing frequently used data to progress our applications' response time.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is highly recommended to use underscore(_) in the absence of space when working with the command-line interface.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is intended for the enormous scope of cooperation among numerous programmers.",
+      "answer": "Git",
+      "choices": [
+        "Git",
+        "Mercurial",
+        "Coda",
+        "Sublime text"
+      ],
+      "wrongAnswers": [
+        "Mercurial",
+        "Coda",
+        "Sublime text"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is quite ideal to disregard web programming in JavaScript since it mainly involves monstrous techniques and approaches by and by.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is set in the body ruleset for the document before you scale all different font styles comparative with that one.",
+      "answer": "Base text size",
+      "choices": [
+        "Dynamic text size",
+        "Fixed text size",
+        "Max text size",
+        "Base text size"
+      ],
+      "wrongAnswers": [
+        "Dynamic text size",
+        "Fixed text size",
+        "Max text size"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is the Data Access Layer or Persistence Layer of the MVC Layered Architecture.",
+      "answer": "Model",
+      "choices": [
+        "Model"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is the Presentation Layer of the MVC Architecture.",
+      "answer": "View",
+      "choices": [
+        "View"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is the process of redirecting or remapping a controller class or method.",
+      "answer": "Routing",
+      "choices": [
+        "Routing"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is used to alter how a connection is shown when a client hovers over it.",
+      "answer": "pseudoclasses",
+      "choices": [
+        "pseudoclasses",
+        "functions",
+        "objects",
+        "div"
+      ],
+      "wrongAnswers": [
+        "functions",
+        "objects",
+        "div"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is used to check the error from the Chrome Developer Tool which is brought about by an empty p element.",
+      "answer": "Element",
+      "choices": [
+        "Element",
+        "Network",
+        "Sources",
+        "Console"
+      ],
+      "wrongAnswers": [
+        "Network",
+        "Sources",
+        "Console"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is used to get or set values from and to an input element particularly textboxes.",
+      "answer": "val",
+      "choices": [
+        "val"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is used to increment the integer value of a key in Redis by one.",
+      "answer": "INCR",
+      "choices": [
+        "INCRBYFLOAT",
+        "INCRBY",
+        "INCR",
+        "DECR"
+      ],
+      "wrongAnswers": [
+        "INCRBYFLOAT",
+        "INCRBY",
+        "DECR"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is used to present explicit elements of the HTML to be shown with uniformity in the browser.",
+      "answer": "CSS file",
+      "choices": [
+        "HTML file",
+        "CSS file",
+        "Index file",
+        "JavaScript file"
+      ],
+      "wrongAnswers": [
+        "HTML file",
+        "Index file",
+        "JavaScript file"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is used to produce a fading in effect within a given time on a selected element",
+      "answer": "fadeIn(interval)",
+      "choices": [
+        "fadeIn(interval)"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is used to specify a data as an element of a list.",
+      "answer": "<li>",
+      "choices": [
+        "<ol>",
+        "<li>",
+        "<a>",
+        "<ul>"
+      ],
+      "wrongAnswers": [
+        "<ol>",
+        "<a>",
+        "<ul>"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is utilized to move information between the internet browser (the customer) and the server.",
+      "answer": "JSON",
+      "choices": [
+        "jQuery",
+        "JSON",
+        "jsonString",
+        "getJSON"
+      ],
+      "wrongAnswers": [
+        "jQuery",
+        "jsonString",
+        "getJSON"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is very useful on web forms security against online bots, crawlers and spammers",
+      "answer": "CAPTCHA",
+      "choices": [
+        "CAPTCHA"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It is where AJAX functions are attached within a JavaScript program.",
+      "answer": "jQuery",
+      "choices": [
+        "jsonString",
+        "getJSON",
+        "jQuery",
+        "Script"
+      ],
+      "wrongAnswers": [
+        "jsonString",
+        "getJSON",
+        "Script"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It means your web server is experiencing problems, but it can't pinpoint the specific error or its root cause.",
+      "answer": "500",
+      "choices": [
+        "303",
+        "500",
+        "404",
+        "200"
+      ],
+      "wrongAnswers": [
+        "303",
+        "404",
+        "200"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It permits the styling for different pages to be characterized in a similar spot.",
+      "answer": "CSS",
+      "choices": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "ASP"
+      ],
+      "wrongAnswers": [
+        "HTML",
+        "JavaScript",
+        "ASP"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It pertains to a specific JavaScript object that purely consists and is intentionally designed for as a string.",
+      "answer": "JSON",
+      "choices": [
+        "BSON",
+        "jsonString",
+        "JSON",
+        "jQuery"
+      ],
+      "wrongAnswers": [
+        "BSON",
+        "jsonString",
+        "jQuery"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It provides convenient access to your instance's credentials and location should you want to use a GUI to access your instance.",
+      "answer": "Redis: Credentials",
+      "choices": [
+        "Redis: Validation",
+        "Redis: Account",
+        "Redis: Credentials",
+        "Redis: Logs"
+      ],
+      "wrongAnswers": [
+        "Redis: Validation",
+        "Redis: Account",
+        "Redis: Logs"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a class attribute that is adopted to separate multiple tags of the same or different types.",
+      "answer": "<div> tag",
+      "choices": [
+        "<href> tag",
+        "<nav> tag",
+        "<div> tag",
+        "<script> tag"
+      ],
+      "wrongAnswers": [
+        "<href> tag",
+        "<nav> tag",
+        "<script> tag"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a cloud platform service that facilitates cloud components to some other software utilized mainly for applications.",
+      "answer": "PaaS",
+      "choices": [
+        "IaaS",
+        "PaaS",
+        "Cloud",
+        "SaaS"
+      ],
+      "wrongAnswers": [
+        "IaaS",
+        "Cloud",
+        "SaaS"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a command that creates a new directory on your current location.",
+      "answer": "mkdir",
+      "choices": [
+        "mkdir",
+        "cd",
+        "cd",
+        "rd"
+      ],
+      "wrongAnswers": [
+        "cd",
+        "cd",
+        "rd"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a common example of a configurable HTTP server program intended to host enormous sites.",
+      "answer": "Apache",
+      "choices": [
+        "Apache",
+        "ActiveX",
+        "ASP",
+        "JS"
+      ],
+      "wrongAnswers": [
+        "ActiveX",
+        "ASP",
+        "JS"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a function you write to control your data.",
+      "answer": "Controller",
+      "choices": [
+        "Object",
+        "View",
+        "Controller",
+        "Map"
+      ],
+      "wrongAnswers": [
+        "Object",
+        "View",
+        "Map"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a polyglot platform as it has features for a developer to build, run, and scale applications in a similar manner across most languages.",
+      "answer": "Heroku",
+      "choices": [
+        "Heroku",
+        "Mongo",
+        "Redis",
+        "Nodejitsu"
+      ],
+      "wrongAnswers": [
+        "Mongo",
+        "Redis",
+        "Nodejitsu"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a small, powerful editor program which can handle codes readable by various programming language.",
+      "answer": "Text editor",
+      "choices": [
+        "Operating system",
+        "Text editor",
+        "Version control system",
+        "Browser"
+      ],
+      "wrongAnswers": [
+        "Operating system",
+        "Version control system",
+        "Browser"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a typical text editor with a few features and is dedicated to web development.",
+      "answer": "Sublime Text",
+      "choices": [
+        "Terminal Editor",
+        "Sublime Text",
+        "CLI Editor",
+        "GUI Editor"
+      ],
+      "wrongAnswers": [
+        "Terminal Editor",
+        "CLI Editor",
+        "GUI Editor"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to a Unix command that permits a user to view all file contents of a particular directory, which also includes all hidden files",
+      "answer": "ls -a",
+      "choices": [
+        "ls",
+        "ls -a",
+        "ls -r",
+        "ls -h"
+      ],
+      "wrongAnswers": [
+        "ls",
+        "ls -r",
+        "ls -h"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to all the process in the styles of writing computer programs.",
+      "answer": "Asynchronous programming",
+      "choices": [
+        "Event handling",
+        "Synchronous programming",
+        "Software development",
+        "Asynchronous programming"
+      ],
+      "wrongAnswers": [
+        "Event handling",
+        "Synchronous programming",
+        "Software development"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to an event handler procedure executed each time a client clicks within the app page.",
+      "answer": "jQuery click handler",
+      "choices": [
+        "jQuery click handler",
+        "Java click handler",
+        "VBScript handler",
+        "Event handler"
+      ],
+      "wrongAnswers": [
+        "Java click handler",
+        "VBScript handler",
+        "Event handler"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to an event that is executed when a user clicks a button from your app.",
+      "answer": "Click events",
+      "choices": [
+        "Double Click event",
+        "Handling event",
+        "Mouse event",
+        "Click events"
+      ],
+      "wrongAnswers": [
+        "Double Click event",
+        "Handling event",
+        "Mouse event"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to an HTML tag that is utilized for linking images on an HTML web page",
+      "answer": "img",
+      "choices": [
+        "a",
+        "script",
+        "img",
+        "href"
+      ],
+      "wrongAnswers": [
+        "a",
+        "script",
+        "href"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to application software that runs on a web server and is accessed through a web browser with an active network application.",
+      "answer": "web application",
+      "choices": [
+        "web application",
+        "plugin",
+        "stand-alone",
+        "web browser"
+      ],
+      "wrongAnswers": [
+        "plugin",
+        "stand-alone",
+        "web browser"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to code description in CSS that is technically set aside and bypassed by the program while it is being executed.",
+      "answer": "CSS comments",
+      "choices": [
+        "CSS comments",
+        "CSS selector",
+        "CSS validation",
+        "CSS ruleset"
+      ],
+      "wrongAnswers": [
+        "CSS selector",
+        "CSS validation",
+        "CSS ruleset"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to how an application's endpoints (URIs) respond to client requests.",
+      "answer": "routing",
+      "choices": [
+        "virtualization",
+        "routing",
+        "mirroring",
+        "POST"
+      ],
+      "wrongAnswers": [
+        "virtualization",
+        "mirroring",
+        "POST"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to JSON's data property, which is a variety of pictures.",
+      "answer": "items",
+      "choices": [
+        "items",
+        "images",
+        "href",
+        "tags"
+      ],
+      "wrongAnswers": [
+        "images",
+        "href",
+        "tags"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to our local PC that is running the virtual machine.   It pertains to a physical server or computer having a virtual machine running inside.",
+      "answer": "Host machine",
+      "choices": [
+        "Client-server",
+        "Publisher",
+        "Subscriber",
+        "Host machine"
+      ],
+      "wrongAnswers": [
+        "Client-server",
+        "Publisher",
+        "Subscriber"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to tags that can be used to describes elements that reside within the DOM.",
+      "answer": "HTML Tags",
+      "choices": [
+        "Body tags",
+        "Main tags",
+        "HTML Tags",
+        "Anchor tags"
+      ],
+      "wrongAnswers": [
+        "Body tags",
+        "Main tags",
+        "Anchor tags"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the command for printing or displaying you're working directory",
+      "answer": "pwd",
+      "choices": [
+        "pwd",
+        "print",
+        "mkdir",
+        "cd\\"
+      ],
+      "wrongAnswers": [
+        "print",
+        "mkdir",
+        "cd\\"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the developer tool where our web program output runs.",
+      "answer": "Browser",
+      "choices": [
+        "Browser",
+        "Explorer",
+        "CLI",
+        "Form"
+      ],
+      "wrongAnswers": [
+        "Explorer",
+        "CLI",
+        "Form"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the digits having the values 0 to 9 and A to F.",
+      "answer": "Hexadecimal digits",
+      "choices": [
+        "Decimal digits",
+        "Binary digits",
+        "Hexadecimal digits",
+        "Octadecimal digits"
+      ],
+      "wrongAnswers": [
+        "Decimal digits",
+        "Binary digits",
+        "Octadecimal digits"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the horizontal dimension of the grid system",
+      "answer": "rows",
+      "choices": [
+        "rows"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the immediate descendants in the tree diagram.",
+      "answer": "Child elements",
+      "choices": [
+        "Child elements",
+        "Parent elements",
+        "Grandchild elements",
+        "Sibling elements"
+      ],
+      "wrongAnswers": [
+        "Parent elements",
+        "Grandchild elements",
+        "Sibling elements"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the lower elements of a tree that adopt an ancestor's properties such as styles and formats.",
+      "answer": "descendant",
+      "choices": [
+        "child",
+        "offspring",
+        "heir",
+        "descendant"
+      ],
+      "wrongAnswers": [
+        "child",
+        "offspring",
+        "heir"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the page's essential layout, which may be utilized in the reset function as its new default after resetting.",
+      "answer": "style",
+      "choices": [
+        "scope",
+        "style",
+        "code",
+        "parameter"
+      ],
+      "wrongAnswers": [
+        "scope",
+        "code",
+        "parameter"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It refers to the primary components that comprise the structure of a web application.",
+      "answer": "Codes",
+      "choices": [
+        "Codes",
+        "Files",
+        "Instructions",
+        "Elements"
+      ],
+      "wrongAnswers": [
+        "Files",
+        "Instructions",
+        "Elements"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It revolves around a resource where every component is a resource, and a resource is accessed by a common interface using HTTP standard methods.",
+      "answer": "Representational State Transfer",
+      "choices": [
+        "Representational State Transfer",
+        "Resource State Transfer",
+        "Representational State Transmission",
+        "Representational String Transference"
+      ],
+      "wrongAnswers": [
+        "Resource State Transfer",
+        "Representational State Transmission",
+        "Representational String Transference"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It was initially developed way back in 2009 and was planned and created by a VMware group to which they initially call Project B29.",
+      "answer": "Cloud Foundry",
+      "choices": [
+        "Cloud Foundry",
+        "VMware",
+        "Open cloud",
+        "Azure"
+      ],
+      "wrongAnswers": [
+        "VMware",
+        "Open cloud",
+        "Azure"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "It's a javascript library that makes web scripting easier",
+      "answer": "JQuery",
+      "choices": [
+        "JQuery"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Java is the full-highlighted programming language upheld by almost all internet browsers.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "JavaScript Function is a snippet of code intended to play out a specific task in JavaScript.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "JavaScript grants us to communicate with the database through objects within our program.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "javascript library that makes web scripting easier for us In jQuery the scr tag is use for linking.",
+      "answer": "jQuery",
+      "choices": [
+        "jQuery"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "jQuery gives us the if function, which permits us to test a selector against the current jQuery object.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "jQuery is a java library that makes web scripting easier for us.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Like most things in Node, the get function is nonconcurrent, so we need to deal with it a little carefully.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Look Up methods is very useful on getting pieces of data, one at a time particularly on multiple",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Many different rules comprise the HTML tags and determine the width property value.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Many rulesets are opposed, which implies that when applied to a specific element in the DOM, they follow the ancestors' ruleset.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "matches form validation rule checks 3 fields that should have an equal or same value.",
+      "answer": "False",
+      "choices": [
+        "False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Meaning of URL.",
+      "answer": "Uniform Resource Locator",
+      "choices": [
+        "Uniform Resource Locator"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Method that accepts 'secondary recipients' that receives the mail just to keep them informed",
+      "answer": "cc()",
+      "choices": [
+        "cc()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Method that accepts recipients that are not visible to the other recipients",
+      "answer": "Bcc()",
+      "choices": [
+        "Bcc()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Method that accepts the email's body or content",
+      "answer": "Message()",
+      "choices": [
+        "Message()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Method that accepts the email's title or heading text",
+      "answer": "Subject()",
+      "choices": [
+        "Subject()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Method that accepts the sender's email address",
+      "answer": "From()",
+      "choices": [
+        "From()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Method that triggers the sending of email",
+      "answer": "send()",
+      "choices": [
+        "send()"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Method will execute codes once the class is created or instantiated.",
+      "answer": "__construct",
+      "choices": [
+        "__construct"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "methods is very useful on getting pieces of data, one at a time particularly on multiple tables and databases",
+      "answer": "look up",
+      "choices": [
+        "look up"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "MongoDB allows us to pool resources with it totally in JavaScript.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Most web application frameworks are based on the model-view-controller (MVC) pat tern.",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "MVC is a software architecture and architectural. pattern used in software engineering",
+      "answer": "True",
+      "choices": [
+        "True"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Name the configuration file needed to set helper",
+      "answer": "autoload config",
+      "choices": [
+        "autoload config"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Null keywords should be written in",
+      "answer": "Uppercase",
+      "choices": [
+        "Uppercase"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Object characteristic as attributes can be used to include importance to the nonexclusiveand  tags.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Objects use the reference as placeholders.",
+      "answer": "null",
+      "choices": [
+        "string",
+        "null",
+        "float",
+        "variable"
+      ],
+      "wrongAnswers": [
+        "string",
+        "float",
+        "variable"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "On the off chance that everything has gone easily, our following procedure to do is to push our application to Cloud Foundry using the Push command.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Once the application is running, we ought to have the option to visit our application by opening Chrome and entering localhost: 8888/directory.html in the address bar.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "One fascinating result of the way that variables are first-class objects in JavaScript and that we can utilize different functions as inputs to functions.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "One regular use case for CSS Lint is altering how a connection is shown when a client hovers over it.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "One that determines the type of DOM element that it signifies is the original name of the tag.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    },
+    {
+      "question": "Organization that sponsors CI",
+      "answer": "Ellislab",
+      "choices": [
+        "Ellislab"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/application-development-and-emerging-technology-6200-ite"
+    }
+  ]
+}
