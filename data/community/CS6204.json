@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-03T21:24:20Z",
+  "updatedAt": "2026-10-03T21:25:39Z",
   "totalQuestions": 110,
   "questions": [
     {
@@ -244,12 +244,14 @@
         "a. Program counter",
         "b. Microprocessor",
         "c. Flash drive",
-        "d. Hard drive"
+        "d. Hard drive",
+        "a. Microprocessor",
+        "b. Hard drive"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:22:15Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -308,12 +310,14 @@
         "c. Interrupt",
         "d. Word length",
         "a. Cache memory",
-        "b. Bus"
+        "b. Bus",
+        "a. Word length",
+        "d. Cache memory"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:24:20Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -863,10 +867,10 @@
         "d. Intel Core i7"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -1142,12 +1146,13 @@
         "c. Low cost",
         "d. High-speed",
         "a. No right answer",
-        "c. Both low cost and high-speed"
+        "c. Both low cost and high-speed",
+        "c. High-speed"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:24:20Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "conflictHistory": [
         {
@@ -1177,12 +1182,13 @@
         "a. Supercomputers",
         "b. Microprocessor",
         "c. Miniprocessor",
-        "d. Desktop"
+        "d. Desktop",
+        "a. Desktop"
       ],
       "verified": true,
-      "confirmations": 34,
+      "confirmations": 35,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:24:20Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1222,12 +1228,13 @@
         "d. SISC",
         "a. CISC",
         "b. RISC",
-        "c. DISC"
+        "c. DISC",
+        "d. CISC"
       ],
       "verified": true,
-      "confirmations": 28,
+      "confirmations": 29,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:24:20Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1246,12 +1253,14 @@
         "a. Level-triggered interrupt",
         "b. Software interrupt",
         "c. Trigger methods",
-        "d. Edge-triggered interrupt"
+        "d. Edge-triggered interrupt",
+        "a. Edge-triggered interrupt",
+        "c. Level-triggered interrupt"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:24:20Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1307,12 +1316,14 @@
         "d. Spurious interrupt",
         "a. Software interrupt",
         "b. Spurious interrupt",
-        "d. True interrupt"
+        "d. True interrupt",
+        "a. False interrupt",
+        "c. Spurious interrupt"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:24:20Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1537,12 +1548,14 @@
         "c. Clock speed",
         "d. Word length",
         "c. Cache memory",
-        "d. High-speed"
+        "d. High-speed",
+        "a. Word length",
+        "d. Clock speed"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:22:15Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2356,12 +2369,14 @@
         "c. Non-maskable intersection",
         "d. Non-maskable interrupts",
         "a. Non-maskable interrupts",
-        "c. New microprocessor interrupt"
+        "c. New microprocessor interrupt",
+        "c. Net money income",
+        "d. New microprocessor interrupt"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-03T21:24:20Z",
+      "lastVerifiedAt": "2026-10-03T21:25:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
