@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T11:32:58Z",
+  "updatedAt": "2026-10-04T11:36:41Z",
   "totalQuestions": 98,
   "questions": [
     {
@@ -87,9 +87,9 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -113,12 +113,13 @@
         "a. Weaponization",
         "c. Exploitation",
         "b. Exploitation",
-        "d. Delivery"
+        "d. Delivery",
+        "a. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -875,9 +876,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1072,9 +1073,9 @@
         "c. System"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [
         "System"
@@ -1104,9 +1105,9 @@
         "a. Weaponization"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1173,7 +1174,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T07:34:35Z"
+      "lastEvidenceAt": "2026-10-04T11:36:41Z"
     },
     {
       "question": "Physical security consist in the closure of IT equipment in a dedicated space and the provision of access control.",
@@ -1196,9 +1197,9 @@
         "b. Recon"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1278,12 +1279,13 @@
         "a. Delivery",
         "a. Exploitation",
         "c. Weaponization",
-        "d. Reconnaissance"
+        "d. Reconnaissance",
+        "b. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1756,7 +1758,7 @@
     },
     {
       "question": "The infected file can be used by the self-execution facility to launch the malware code, or it can be executed by the user himself;",
-      "answer": "",
+      "answer": "Exploitation",
       "choices": [
         "a. Reconnaissance",
         "b. Exploitation",
@@ -1773,11 +1775,11 @@
         "a. Weaponization",
         "d. Reconnaissance"
       ],
-      "verified": false,
-      "confirmations": 2,
+      "verified": true,
+      "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
+      "source": "review_screen",
       "alternateAnswers": [
         {
           "answer": "Exploitation",
@@ -1843,9 +1845,9 @@
         "d. C2"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1935,12 +1937,13 @@
         "d. Installation",
         "c. Exploitation",
         "b. Exploitation",
-        "d. Command and Control"
+        "d. Command and Control",
+        "a. Installation"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2065,9 +2068,9 @@
         "b. Weaponization"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2089,7 +2092,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T07:34:35Z"
+      "lastEvidenceAt": "2026-10-04T11:36:41Z"
     },
     {
       "question": "What are the steps in intrusion model?",
@@ -2112,9 +2115,9 @@
         "a. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T11:32:58Z",
+      "lastVerifiedAt": "2026-10-04T11:36:41Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
