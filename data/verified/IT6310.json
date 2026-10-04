@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:17:32Z",
-  "totalQuestions": 96,
+  "updatedAt": "2026-10-04T11:19:13Z",
+  "totalQuestions": 97,
   "tier": "verified",
   "questions": [
     {
@@ -17,9 +17,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
       "source": "review_screen",
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
@@ -201,11 +201,13 @@
       "answer": "NTFS",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "How many key phases are there in an incident response plan ?",
@@ -281,14 +283,19 @@
       "choices": [
         "a. Service pack",
         "b. Patch",
-        "c. Security hot-fix"
+        "c. Security hot-fix",
+        "a. Patch",
+        "b. Security hot-fix",
+        "c. Service pack"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Is a service responsible for sending messages to other computers or users.",
@@ -297,14 +304,20 @@
         "a. Messenger service",
         "b. Workstation service",
         "c. Server service",
-        "d. Print Spooler service"
+        "d. Print Spooler service",
+        "a. Workstation service",
+        "b. Print Spooler service",
+        "c. Messenger service",
+        "d. Server service"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It can manipulate your system including the deletion of the important files on your computer.",
@@ -372,9 +385,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
       "source": "review_screen",
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
@@ -466,12 +479,13 @@
       "answer": "Group Policy",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "It is a model designed to guide policies for information security within an organization.",
@@ -543,14 +557,48 @@
         "a. Messenger service",
         "b. Workstation service",
         "c. Print Spooler service",
-        "d. Server service"
+        "d. Server service",
+        "c. Server service",
+        "d. Print Spooler service"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
+    },
+    {
+      "question": "It is a standard configuration that is approved by any company for a specific type of system or device for being secure",
+      "answer": "Security baseline",
+      "choices": [
+        "a. Configuration Baseline",
+        "b. File System",
+        "c. Security baseline",
+        "d. Security",
+        "a. File System",
+        "b. Security",
+        "c. Configuration Baseline",
+        "d. Security baseline",
+        "a. Security baseline",
+        "b. Configuration Baseline",
+        "c. Security",
+        "d. File System"
+      ],
+      "wrongAnswers": [
+        "Configuration Baseline"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-04T11:16:57Z"
     },
     {
       "question": "It is a structured procedure for taking care of any security incidents, breaches, and network threats.",
@@ -898,11 +946,13 @@
       "answer": "File system",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "One example is when an employee intends to cause damage.",
@@ -1211,14 +1261,20 @@
         "a. Messenger service",
         "b. Print Spooler service",
         "c. Server service",
-        "d. Workstation service"
+        "d. Workstation service",
+        "a. Workstation service",
+        "b. Server service",
+        "c. Print Spooler service",
+        "d. Messenger service"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "True or False? 802.1X can be configured on all switch interfaces, including Layer-3 interfaces.",
@@ -1287,14 +1343,19 @@
         "a. Computer settings",
         "b. Account settings",
         "c. User settings",
-        "d. Security settings"
+        "d. Security settings",
+        "b. Security settings",
+        "c. Account settings",
+        "d. User settings"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Two different devices can communicate with each other regardless of the manufacturer as long as they have the same protocol.",
@@ -1417,14 +1478,18 @@
         "a. Uninstall Necessary Software",
         "b. Disable Unnecessary Services",
         "c. Patch System",
-        "d. Disable or Remove Unnecessary Accounts"
+        "d. Disable or Remove Unnecessary Accounts",
+        "c. Disable or Remove Unnecessary Accounts",
+        "d. Patch System"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following are the commands for disabling a port in a Network Switch. Choose any that Apply",
@@ -1433,7 +1498,13 @@
         "a. SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown",
         "b. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown",
         "c. SWITCH>enableSWITCH#configure terminalSWITCH(config)#interface f0/2SWITCH(config-if)#no shutdown",
-        "d. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#no shutdown"
+        "d. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#no shutdown",
+        "a. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#no shutdown",
+        "b. SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown",
+        "d. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown",
+        "a. SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown",
+        "b. SWITCH>enableSWITCH#configure terminalSWITCH(config)#interface f0/2SWITCH(config-if)#no shutdown",
+        "c. SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown"
       ],
       "verified": true,
       "confirmations": 2,
@@ -1447,7 +1518,18 @@
           "timestamp": "2026-09-23T14:39:58Z"
         }
       ],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown, SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown",
+          "timestamp": "2026-10-04T11:19:13Z"
+        },
+        {
+          "rejectedAnswer": "SWITCH 1>enableSWITCH 1#configure terminalSWITCH 1(config)#interface f0/2SWITCH 1(config-if)#shutdown, SWITCH>enableSWITCH#config termSWITCH(config)#interface range f0/4-8SWITCH(config-if-range)#shutdown",
+          "timestamp": "2026-10-04T11:19:13Z"
+        }
+      ]
     },
     {
       "question": "Which of these are not part of the reason why we need to secure our network?",
@@ -1494,14 +1576,19 @@
         "a. Print Spooler service",
         "b. Workstation service",
         "c. Messenger service",
-        "d. Server service"
+        "d. Server service",
+        "a. Workstation service",
+        "b. Messenger service",
+        "c. Print Spooler service"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:19:13Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Worms can be classified as a type of computer virus that needs a third party or a user to replicate and spread through the system.",
