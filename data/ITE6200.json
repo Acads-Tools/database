@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-04T06:07:22Z",
-  "totalQuestions": 115,
+  "updatedAt": "2026-10-04T06:12:31Z",
+  "totalQuestions": 123,
   "questions": [
     {
       "question": "$this->db->insert_id() inserts an id in the database.",
@@ -19,6 +19,23 @@
       "firstSeenAt": "2026-10-04T05:45:03Z",
       "lastVerifiedAt": "2026-10-04T05:45:03Z",
       "source": "review_screen"
+    },
+    {
+      "question": ".text() is used to get or set values from and to a non-input element like divs.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
     },
     {
       "question": "_________________________ justifies that GBV are main cause of international homicides and the record was set from Nepal and Bangladesh.",
@@ -191,6 +208,23 @@
       "firstSeenAt": "2026-10-04T05:26:42Z",
       "lastVerifiedAt": "2026-10-04T05:26:42Z",
       "source": "moodle_100_percent"
+    },
+    {
+      "question": "AJAX stands for Asynchronous Java",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -875,6 +909,34 @@
       "source": "review_screen"
     },
     {
+      "question": "IDENTIFICATION: [____: jQuery plugin] simply a new method that we use to extend jQuery's prototype object",
+      "answer": "jQuery plugin",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
+    },
+    {
+      "question": "IDENTIFICATION: [____: JQuery] javascript library that makes web scripting easier for us",
+      "answer": "JQuery",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
+    },
+    {
       "question": "IDENTIFICATION: [____: m] MaterializeCSS class prefix for tablet devices.",
       "answer": "m",
       "choices": [],
@@ -1042,6 +1104,34 @@
       "firstSeenAt": "2026-10-04T05:41:58Z",
       "lastVerifiedAt": "2026-10-04T05:41:58Z",
       "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION: CSS stands for",
+      "answer": "Cascading style sheets",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
+    },
+    {
+      "question": "IDENTIFICATION: Name the university that created MaterialDesign CSS",
+      "answer": "Carnegie Mellon University",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
     },
     {
       "question": "In 2011 and 2015, ________ has recorded 40,000 dowry-related deaths.",
@@ -1888,6 +1978,37 @@
       "firstSeenAt": "2026-10-04T05:33:16Z",
       "lastVerifiedAt": "2026-10-04T05:47:08Z",
       "source": "review_screen"
+    },
+    {
+      "question": "We used the base_url() function to return our domain or application path",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
+    },
+    {
+      "question": "Who first use the term AJAX?",
+      "answer": "Jesse James Garrett",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:12:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:12:31Z"
     }
   ]
 }
