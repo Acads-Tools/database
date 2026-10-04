@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:28:42Z",
-  "totalQuestions": 149,
+  "updatedAt": "2026-10-04T15:32:08Z",
+  "totalQuestions": 166,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -53,6 +53,25 @@
       "source": "community_contribution"
     },
     {
+      "question": "[Image: [moodle-asset:382147/q.png]] Refer to the exhibit shown above. A certified network administrator is troubleshooting the four routers that are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
+      "answer": "All of the routers have an OSPFv3 interface priority of 0.",
+      "choices": [
+        "a. The routers are using IPv6 link local addresses to communicate.",
+        "b. The routers are using IPv4 addresses for router IDs.",
+        "c. The network type has been set to BROADCAST instead of NBMA.",
+        "d. All of the routers have an OSPFv3 interface priority of 0."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
       "question": "[Image: [moodle-asset:382189/q.png]] Referring to the exhibit, the command “show ipv6 route can be issued on router R2 to verify the propagation of a static default router from R1 to R2\" As discussed in this chapter why is MD5 authentication is more secure than simple authentication of OSPF updates?a",
       "answer": "MD5 does not send the password to the neighbor router.",
       "choices": [
@@ -68,6 +87,25 @@
       "firstSeenAt": "2026-09-23T14:45:38Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "A certified network administrator of RMS Company has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
+      "answer": "Issue the clear ip ospf process privileged mode command.",
+      "choices": [
+        "a. Shutdown interfaces",
+        "b. Issue the clear ip ospf process privileged mode command.",
+        "c. Change the OSPFv2 process ID.",
+        "d. Configure the network statements."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "A network administrator configured an EtherChannel link with three interfaces between two switches. What is the result if one of the three interfaces is down?",
@@ -265,6 +303,25 @@
       "source": "community_contribution"
     },
     {
+      "question": "A network specialist of Avengers Corporation is troubleshooting an OSPFv2 network and discovers that two routers connected by a point-to-point WAN serial link are not establishing an adjacency. The OSPF routing process, network commands and area ID are all confirmed as correct, and the interfaces are not passive. Testing shows that the cabling is correct, that the link is up, and pings between the interfaces are successful. What is most likely the problem?",
+      "answer": "The subnet masks on the two connected serial interfaces do not match.",
+      "choices": [
+        "a. The OSPFv2 process IDs on each router do not match.",
+        "b. Ip addresses of the 2 serials are the same or conflict",
+        "c. The subnet masks on the two connected serial interfaces do not match.",
+        "d. A clock rate has not been set on the DCE interface of the serial link."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
       "question": "A network technician issues the following commands when configuring a router: R1(config)# router ospf 11 R1(config-router)# network 10.10.10.0 0.0.0.255 area 0 What does the number 11 represent?",
       "answer": "the OSPF process ID on R1",
       "choices": [
@@ -334,6 +391,23 @@
       "lastVerifiedAt": "2026-10-04T15:28:42Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A router with its interfaces attached to multiple areas is called ABR.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "A virtual [____: link] is a special OSPF transit area that is used to connect a remote OSPF network to Area 0.",
@@ -518,6 +592,25 @@
       "source": "community_contribution"
     },
     {
+      "question": "An ASBR generates what type of LSAs for each of its external routes and floods them into the area that it is connected to.",
+      "answer": "Type 5",
+      "choices": [
+        "a. Type 5",
+        "b. Type 1",
+        "c. Type 3",
+        "d. Type 2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
       "question": "An OSPF router has received type 3 summary LSAs that were flooded into an area. How are these LSAs identified in the routing table?",
       "answer": "O IA",
       "choices": [
@@ -548,6 +641,25 @@
       "firstSeenAt": "2026-09-23T14:45:38Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "As discussed in link state advertisement which two statements correctly describe OSPF type 3 LSAs? Type 3 LSAs are used to update routes between OSPF areas. Type 3 LSAs are known as router link entries​. Type 3 LSAs are used for routes to networks outside the OSPF autonomous system​. Type 3 LSAs are known as autonomous system external LSA entries.​ Type 3 LSAs are generated without requiring a full SPF calculation.​",
+      "answer": "1 & 5",
+      "choices": [
+        "a. 2 & 5",
+        "b. 2 & 4",
+        "c. 1 & 3",
+        "d. 1 & 5"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "As discussed in wireless LAN technologies and standards, what wireless LAN technology that is an IEEE 802.16 WWAN standard that provides wireless broadband access of up to 30mi (50km)?",
@@ -674,21 +786,63 @@
       "source": "community_contribution"
     },
     {
+      "question": "During checking of routing table, a network engineer notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route.",
+      "choices": [
+        "a. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
+        "b. The route is located two hops away.",
+        "c. This route is a propagated default route.",
+        "d. The metric for this route is 110."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
       "question": "During the checking a routing table, a network specialist notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
       "answer": "This route is a propagated default route.",
       "choices": [
         "a. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
         "b. This route is a propagated default route.",
         "c. The metric for this route is 110",
-        "d. The route is located two hops away."
+        "d. The route is located two hops away.",
+        "a. This route is a propagated default route.",
+        "b. The metric for this route is 110",
+        "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "During the investigation of routing table, the network administrator notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.10.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route.",
+      "choices": [
+        "a. The metric for this route is 110.",
+        "b. This route is a propagated default route.",
+        "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.10.3.",
+        "d. The route is located two hops away."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "How much traffic for a 12port gigabit switch capable of generating when operating at full wire speed?",
@@ -799,6 +953,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "If you planning to built a large network composed of datacenters, nationwide branches office, stores, remote overseas offices which of these works better for larger network such as this?",
+      "answer": "Multi-area OSPF",
+      "choices": [
+        "a. Multi-area OSPF",
+        "b. Single-area OSPF",
+        "c. Rip v1",
+        "d. Rip v2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
       "question": "If you want to disable STP on a port connected to a server, which command would you use?",
       "answer": "spanning-tree portfast",
       "choices": [
@@ -857,6 +1030,44 @@
       "firstSeenAt": "2026-09-23T14:45:38Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "In link state advertisement a type 3 LSA is required for every ________.",
+      "answer": "Subnet",
+      "choices": [
+        "a. Area",
+        "b. Router",
+        "c. Subnet",
+        "d. Backbone"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
+      "question": "In link state advertisement the type 1 LSAs are also refered to as:",
+      "answer": "Router link entries",
+      "choices": [
+        "a. Network link entries",
+        "b. IP link entries",
+        "c. Summary link entries",
+        "d. Router link entries"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "In managing Cisco devices, what are two ways to access a Cisco switch for out-of-band management?",
@@ -977,21 +1188,45 @@
       "questionType": "multichoice"
     },
     {
+      "question": "In OSPF networks discussion what router that has at least one interface that is attached to a non-OSPF network?",
+      "answer": "ASBR",
+      "choices": [
+        "a. Internal Router",
+        "b. ASBR",
+        "c. Backbone Router",
+        "d. ABR"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
       "question": "In single-area OSPF concepts which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
       "answer": "administrative distance",
       "choices": [
         "a. hop count",
         "b. link delay",
         "c. administrative distance",
-        "d. link bandwidth"
+        "d. link bandwidth",
+        "a. administrative distance",
+        "b. link bandwidth",
+        "c. hop count",
+        "d. link delay"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "In the understanding of wireless LAN technologies what wireless LAN technology that operates in the range of a few feet (Bluetooth)?",
@@ -1075,6 +1310,25 @@
       "firstSeenAt": "2026-10-04T15:16:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:16:10Z"
+    },
+    {
+      "question": "In troubleshooting OSPF issues which command is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?",
+      "answer": "show ip protocols",
+      "choices": [
+        "a. show ip mac-address",
+        "b. show ipospf interface",
+        "c. show ip route ospf",
+        "d. show ip protocols"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
@@ -1319,6 +1573,25 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Refer to the test result taken from our test labs. R1 and R2 are connected to the same LAN segment and are configured to run OSPFv3. They are not forming a neighbor adjacency. What is the cause of the problem?",
+      "answer": "The timer intervals of R1 and R2 do not match.",
+      "choices": [
+        "a. The priority value of both R1 and R2 is 1.",
+        "b. The OSPFv3 process IDs of R1 and R2 are different.",
+        "c. The timer intervals of R1 and R2 do not match.",
+        "d. The IPv6 addresses of R1 and R2 are not in the same subnet."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
@@ -1743,6 +2016,25 @@
       "lastVerifiedAt": "2026-10-04T15:16:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "What are the building blocks of OSPF?",
+      "answer": "LSA (Link State Advertisements)",
+      "choices": [
+        "a. Hello",
+        "b. LSA (Link State Advertisements)",
+        "c. Bandwidth",
+        "d. Backbone area"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "What does an O routing table entry mean?",
@@ -2378,6 +2670,25 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which describes a multiarea OSPF network?",
+      "answer": "It has a core backbone area with other areas connected to the backbone area.",
+      "choices": [
+        "a. It has a core backbone area with other areas connected to the backbone area.",
+        "b. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
+        "c. It requires a three-layer hierarchical network design approach.",
+        "d. It consists of multiple network areas that are daisy-chained together."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
       "question": "Which EIGRP parameter must match between all routers forming an EIGRP adjacency?",
       "answer": "autonomous system number",
       "choices": [
@@ -2818,6 +3129,25 @@
       "firstSeenAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:04:31Z"
+    },
+    {
+      "question": "Which two networks are part of the summary route 192.168.32.0/22? (Choose a letter)",
+      "answer": "2 & 3",
+      "choices": [
+        "a. 2 & 3",
+        "b. 5 & 6",
+        "c. 1 & 3",
+        "d. 2 & 6"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
       "question": "Which type of routing table entry would indicate that an external route was redistributed into the multiarea OSPF process?",
