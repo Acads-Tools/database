@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:16:20Z",
+  "updatedAt": "2026-10-04T11:16:41Z",
   "totalQuestions": 96,
   "tier": "verified",
   "questions": [
@@ -579,11 +579,13 @@
       "answer": "Attack",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "It is an advanced method of handling an error.",
@@ -618,11 +620,13 @@
       "answer": "Threat",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "It is considered as a crucial part of information systems",
@@ -742,14 +746,19 @@
         "a. Data Link Layer",
         "b. Session Layer",
         "c. Physical Layer",
-        "d. Network Layer"
+        "d. Network Layer",
+        "a. Session Layer",
+        "b. Physical Layer",
+        "c. Data Link Layer"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It uses available resources, such as passwords or scripts.",
@@ -1038,11 +1047,13 @@
       "answer": "Vulnerabilities",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "These layers work together to transmit the data from one person to another world wide.",
@@ -1145,14 +1156,18 @@
         "a. Physical Layer",
         "b. Transport Layer",
         "c. Data Link Layer",
-        "d. Session Layer"
+        "d. Session Layer",
+        "a. Session Layer",
+        "d. Physical Layer"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This layer is also called human-computer interaction layer.",
