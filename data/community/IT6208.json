@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-10-04T14:46:58Z",
-  "totalQuestions": 110,
+  "updatedAt": "2026-10-04T14:48:52Z",
+  "totalQuestions": 111,
   "questions": [
     {
       "question": "1st features of System Control Component",
@@ -428,9 +428,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -448,12 +448,13 @@
         "b. Properties",
         "d. Style",
         "c. Style",
-        "d. System"
+        "d. System",
+        "b. System"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -683,9 +684,9 @@
       "answer": "Enterprise Application",
       "choices": [],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-10-04T14:41:47Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1167,9 +1168,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-10-04T14:45:17Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1227,15 +1228,19 @@
         "a. CAE",
         "b. CAD",
         "c. Design",
-        "d. CAM"
+        "d. CAM",
+        "a. Design",
+        "c. CAM",
+        "d. CAE"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-27T09:41:17Z",
-      "lastVerifiedAt": "2026-09-27T09:41:17Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Is the design upon which many general purpose computers are based.",
@@ -1422,12 +1427,13 @@
         "b. Software Architecture",
         "c. Control Modeling",
         "a. Control Modeling",
-        "b. Modular Decomposition"
+        "b. Modular Decomposition",
+        "d. Control Modeling"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-10-04T14:45:17Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1476,6 +1482,25 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "People who do similar tasks, have similar skills and/or jobs in an organization",
+      "answer": "Functional Stucture",
+      "choices": [
+        "a. Functional Stucture",
+        "b. Divisional Structure",
+        "c. Matrix Structure",
+        "d. Project Organization Structure"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T14:48:52Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z"
     },
     {
       "question": "Process for identifying the subsystems that make up a system",
@@ -1765,12 +1790,13 @@
         "c. System Thinking",
         "d. System Architecture",
         "a. System Thinking",
-        "b. System"
+        "b. System",
+        "d. System Integration"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-10-04T14:45:17Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1930,9 +1956,9 @@
         "d. Connectors"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2083,9 +2109,9 @@
       "answer": "Architecture",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T06:37:55Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:48:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
