@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:15:06Z",
+  "updatedAt": "2026-10-04T11:15:23Z",
   "totalQuestions": 96,
   "tier": "verified",
   "questions": [
@@ -69,7 +69,8 @@
       ],
       "wrongAnswers": [
         "Confidentiality",
-        "Availability"
+        "Availability",
+        "Integrity"
       ],
       "verified": true,
       "isAiSuggestion": false,
@@ -79,7 +80,7 @@
       "source": "review_screen",
       "questionType": "shortanswer",
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T11:15:06Z"
+      "lastEvidenceAt": "2026-10-04T11:15:23Z"
     },
     {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
