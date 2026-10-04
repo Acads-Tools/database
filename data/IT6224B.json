@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:16:10Z",
-  "totalQuestions": 140,
+  "updatedAt": "2026-10-04T15:25:27Z",
+  "totalQuestions": 144,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -103,15 +103,19 @@
         "a. This loopback interface may be advertised as a reachable network.",
         "b. OSPF routers must also be configured with a router priority value.",
         "c. Older routers do not recognize the router-id command.",
-        "d. The interface is not enabled for OSPF."
+        "d. The interface is not enabled for OSPF.",
+        "a. Older routers do not recognize the router-id command.",
+        "b. This loopback interface may be advertised as a reachable network.",
+        "c. OSPF routers must also be configured with a router priority value."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A network administrator is analyzing the differences between an EIGRP hold timer and EIGRP hello interval. What statement is valid about EIGRP hello and hold timers?",
@@ -120,15 +124,20 @@
         "a. EIGRP hello timers specify the maximum time that the router should wait to receive the next hello.?",
         "b. EIGRP hold timers specify the minimum time that the router should wait to send the next hello.",
         "c. EIGRP hello intervals and hold timers must match between EIGRP neighbors to form an EIGRP adjacency.",
-        "d. EIGRP hello intervals should be less than or equal to EIGRP hold timers."
+        "d. EIGRP hello intervals should be less than or equal to EIGRP hold timers.",
+        "a. EIGRP hello intervals and hold timers must match between EIGRP neighbors to form an EIGRP adjacency.",
+        "b. EIGRP hello intervals should be less than or equal to EIGRP hold timers.",
+        "c. EIGRP hello timers specify the maximum time that the router should wait to receive the next hello.?",
+        "d. EIGRP hold timers specify the minimum time that the router should wait to send the next hello."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement describes a feature that is associated with HSRP?",
@@ -261,15 +270,21 @@
         "b. the administrative distance that is manually assigned to R1",
         "c. the autonomous system number to which R1 belongs",
         "d. the area number where R1 is located",
-        "e. the cost of the link to R1"
+        "e. the cost of the link to R1",
+        "a. the area number where R1 is located",
+        "b. the autonomous system number to which R1 belongs",
+        "c. the cost of the link to R1",
+        "d. the administrative distance that is manually assigned to R1",
+        "e. the OSPF process ID on R1"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A protocol that allows multiple vlans to run in a single spanning-tree instance is called Rapid PVST.",
@@ -296,15 +311,21 @@
         "b. 170",
         "c. *",
         "d. EX",
-        "e. 90"
+        "e. 90",
+        "a. *",
+        "b. EX",
+        "c. 170",
+        "d. 90",
+        "e. D"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A virtual [____: link] is a special OSPF transit area that is used to connect a remote OSPF network to Area 0.",
@@ -1235,16 +1256,45 @@
       "source": "community_contribution"
     },
     {
+      "question": "OSPF features [____: Classless] OSPFv2 is classless by design; therefore, it supports IPv4 VLSM and CIDR.",
+      "answer": "Classless",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:25:27Z"
+    },
+    {
+      "question": "OSPF features, [____: Efficient] Routing changes trigger routing updates (no periodic updates). It uses the SPF algorithm to choose the best path.",
+      "answer": "Efficient",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:25:27Z"
+    },
+    {
       "question": "OSPF features, [____: fast convergence] It quickly propagates network changes",
       "answer": "fast convergence",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
@@ -1357,12 +1407,13 @@
       "answer": "process",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "The legacy standard for STP that runs all VLANs in a single spanning-tree instance is called MSTP.",
@@ -1419,27 +1470,33 @@
         "a. 60 seconds",
         "b. 30 seconds",
         "c. 15 seconds",
-        "d. 45 seconds"
+        "d. 45 seconds",
+        "a. 45 seconds",
+        "b. 60 seconds",
+        "c. 30 seconds",
+        "d. 15 seconds"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The OSPF Type 1 packet is the [____: Hello] packet.",
       "answer": "Hello",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "The router ID can be manually configured.",
@@ -1538,12 +1595,13 @@
       "answer": "0.0.15.255",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Two routers, R1 and R2, have established an EIGRP neighbor relationship, but there is still a connectivity problem. Which issue could be causing this problem??",
@@ -1552,15 +1610,20 @@
         "a. an authentication mismatch",
         "b. an access list that is blocking advertisements from other networks",
         "c. a process ID mismatch",
-        "d. automatic summarization that is disabled on both routers"
+        "d. automatic summarization that is disabled on both routers",
+        "a. an access list that is blocking advertisements from other networks",
+        "b. an authentication mismatch",
+        "c. automatic summarization that is disabled on both routers",
+        "d. a process ID mismatch"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Understanding EtherChannel technology, what is an advantage of using LACP?",
@@ -1741,15 +1804,18 @@
         "a. It prevents convergence of the routing table.",
         "b. It increases the number of routes in the routing table.",
         "c. It increases the size of routing updates.",
-        "d. It creates inconsistent routing when the network has discontiguous networks."
+        "d. It creates inconsistent routing when the network has discontiguous networks.",
+        "a. It increases the number of routes in the routing table.",
+        "b. It prevents convergence of the routing table."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is an accurate description of redundancy?",
@@ -1809,15 +1875,19 @@
         "a. 128 kbps",
         "b. 16 kbps",
         "c. 32 kbps",
-        "d. 64 kbps"
+        "d. 64 kbps",
+        "a. 32 kbps",
+        "c. 64 kbps",
+        "d. 128 kbps"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is the function of PoE pass-through?",
@@ -1872,15 +1942,20 @@
         "a. to reduce bandwidth consumption for traffic that is leaving the network",
         "b. to enhance security by hiding all internal networks that are included in a summary route",
         "c. to ensure that all traffic destined for individual subnets uses one single best path",
-        "d. to prevent routing loops for destination networks which do not actually exist but are included in a summary route"
+        "d. to prevent routing loops for destination networks which do not actually exist but are included in a summary route",
+        "a. to ensure that all traffic destined for individual subnets uses one single best path",
+        "b. to prevent routing loops for destination networks which do not actually exist but are included in a summary route",
+        "c. to enhance security by hiding all internal networks that are included in a summary route",
+        "d. to reduce bandwidth consumption for traffic that is leaving the network"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is the useof in-band device management and how it is done?",
@@ -2088,15 +2163,20 @@
         "a. when the connection is on a shared medium",
         "b. when there is a low bandwidth connection",
         "c. when the connection is serial instead of Ethernet",
-        "d. when the link is always busy"
+        "d. when the link is always busy",
+        "a. when the link is always busy",
+        "b. when the connection is on a shared medium",
+        "c. when there is a low bandwidth connection",
+        "d. when the connection is serial instead of Ethernet"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which among the listed below are the 2 functional parts of the network that can be combined to form a collapsed core design in Cisco Enterprise Architecture?",
@@ -2168,6 +2248,20 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Which command will limit the bandwidth that is used by EIGRP process 1 to 20%? [____: ip bandwidth-percent eigrp 1 20]",
+      "answer": "ip bandwidth-percent eigrp 1 20",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:25:27Z"
+    },
+    {
       "question": "Which command will start the process to bundle two physical interfaces to create an EtherChannel group via LACP?",
       "answer": "interface range GigabitEthernet 0/4 - 5",
       "choices": [
@@ -2216,15 +2310,21 @@
         "b. variance",
         "c. hello timer",
         "d. administrative distance",
-        "e. hold timer"
+        "e. hold timer",
+        "a. administrative distance",
+        "b. hello timer",
+        "c. variance",
+        "d. hold timer",
+        "e. autonomous system number"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which is the default STP operation mode on Cisco Catalyst switches?",
@@ -2444,15 +2544,18 @@
         "a. LSU",
         "b. DBD",
         "c. hello",
-        "d. LSR"
+        "d. LSR",
+        "a. DBD",
+        "b. LSU"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which PAgP mode forces the interface to channel without PAgP?",
@@ -2531,6 +2634,25 @@
       "firstSeenAt": "2026-09-23T14:45:38Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "Which statement is correct about multiarea OSPF?",
+      "answer": "Arranging routers into areas partitions a large autonomous system in order to lighten the load on routers.",
+      "choices": [
+        "a. Arranging routers into areas partitions a large autonomous system in order to lighten the load on routers.",
+        "b. OSPF can consolidate a fragmented OSPF area into one large area.",
+        "c. OSPF multiarea increases the frequency of SPF calculation.",
+        "d. All routers are in one area called the backbone area (area 0)."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:25:27Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:25:27Z"
     },
     {
       "question": "Which STP port role is adopted by a switch port if there is no other port with a lower cost to the root bridge?",
