@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:21:27Z",
+  "updatedAt": "2026-10-04T11:22:13Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -359,10 +359,11 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:52:27Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "It could be exploited because of an encryption key that was vulnerable to decoding.",
@@ -562,15 +563,20 @@
         "a. Cross-site scripting",
         "b. Java",
         "c. Cookies",
-        "d. Scripting"
+        "d. Scripting",
+        "a. Java",
+        "b. Cookies",
+        "c. Scripting",
+        "d. Cross-site scripting"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:52:27Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "It is a self-replicating program that is harmful to networks.",
@@ -718,10 +724,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:52:27Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "It is another term for a runtime error",
@@ -732,10 +739,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:52:27Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "It is anything that can disrupt the operation, functioning, integrity, or availability of a network or system",
@@ -1177,15 +1185,18 @@
         "a. handling errors",
         "b. try/catch block",
         "c. Exception handling",
-        "d. block syntax"
+        "d. block syntax",
+        "b. block syntax",
+        "d. try/catch block"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:52:27Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "These are created with malicious intent and sent by attackers.",
