@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:46:36Z",
+  "updatedAt": "2026-10-04T11:20:56Z",
   "totalQuestions": 98,
   "questions": [
     {
@@ -298,7 +298,10 @@
         "a. Integrity",
         "b. Confidentiality",
         "c. Availability",
-        "d. Security"
+        "d. Security",
+        "b. Security",
+        "c. Confidentiality",
+        "d. Availability"
       ],
       "verified": true,
       "confirmations": 1,
@@ -318,6 +321,10 @@
         {
           "answer": "Confidentiality",
           "timestamp": "2026-10-04T07:27:14Z"
+        },
+        {
+          "answer": "Confidentiality",
+          "timestamp": "2026-10-04T11:20:56Z"
         }
       ],
       "questionType": "multichoice"
@@ -334,12 +341,15 @@
         "b. Integrity",
         "d. Availability",
         "c. Availability",
-        "d. Confidentiality"
+        "d. Confidentiality",
+        "a. Availability",
+        "b. Confidentiality",
+        "c. Integrity"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -367,9 +377,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -383,9 +393,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -463,9 +473,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -502,9 +512,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -518,9 +528,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -534,9 +544,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -816,9 +826,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -900,9 +910,9 @@
       "answer": "Security",
       "choices": [],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -936,12 +946,16 @@
         "c. Availability",
         "d. Security",
         "c. Security",
-        "d. Availability"
+        "d. Availability",
+        "a. Security",
+        "b. Availability",
+        "c. Confidentiality",
+        "d. Integrity"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -952,9 +966,9 @@
       "answer": "Security",
       "choices": [],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1448,12 +1462,13 @@
         "a. Digital Underground, Underground Economy, System, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
         "b. Digital Underground, Virus, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
         "c. Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
-        "d. System, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet"
+        "d. System, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
+        "c. Digital Underground, Virus, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1885,12 +1900,14 @@
         "a. CyberSpace, Integrity and Availability",
         "b. Confidentiality, System and Availability",
         "c. Confidentiality, Integrity and Security",
-        "d. Confidentiality, Integrity and Availability"
+        "d. Confidentiality, Integrity and Availability",
+        "b. Confidentiality, Integrity and Security",
+        "d. CyberSpace, Integrity and Availability"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-04T07:27:14Z",
+      "lastVerifiedAt": "2026-10-04T11:20:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
