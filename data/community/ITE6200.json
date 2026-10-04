@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-04T06:22:39Z",
-  "totalQuestions": 136,
+  "updatedAt": "2026-10-04T06:41:48Z",
+  "totalQuestions": 138,
   "questions": [
     {
       "question": "$(document).ready() function calls if the browser contents has properly loaded its contents and is browsing.",
@@ -232,9 +232,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-04T06:21:22Z",
+      "lastVerifiedAt": "2026-10-04T06:41:48Z",
       "source": "review_screen"
     },
     {
@@ -831,6 +831,22 @@
       "source": "Google Gemini AI"
     },
     {
+      "question": "IDENTIFICATION: [____: $subject] Method that accepts the email's title or heading text",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "$subject"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:41:48Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-04T06:41:48Z"
+    },
+    {
       "question": "IDENTIFICATION: [____: Bcc()] Method that accepts recipients that are not visible to the other recipients",
       "answer": "Bcc()",
       "choices": [],
@@ -838,9 +854,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T05:33:16Z",
-      "lastVerifiedAt": "2026-10-04T06:22:39Z",
+      "lastVerifiedAt": "2026-10-04T06:41:48Z",
       "source": "review_screen"
     },
     {
@@ -955,9 +971,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-04T06:22:39Z",
+      "lastVerifiedAt": "2026-10-04T06:41:48Z",
       "source": "review_screen"
     },
     {
@@ -1095,6 +1111,22 @@
       "firstSeenAt": "2026-10-03T13:28:42Z",
       "lastVerifiedAt": "2026-10-04T05:26:42Z",
       "source": "Review"
+    },
+    {
+      "question": "IDENTIFICATION: [____: RCPT TO] Method that accepts the recipient's email address",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "RCPT TO"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:41:48Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-04T06:41:48Z"
     },
     {
       "question": "IDENTIFICATION: [____: s] MaterializeCSS class prefix for mobile devices.",
@@ -1397,9 +1429,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-04T06:21:22Z",
+      "lastVerifiedAt": "2026-10-04T06:41:48Z",
       "source": "review_screen"
     },
     {
@@ -1583,9 +1615,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-03T13:32:56Z",
-      "lastVerifiedAt": "2026-10-04T06:21:22Z",
+      "lastVerifiedAt": "2026-10-04T06:41:48Z",
       "source": "review_screen"
     },
     {
@@ -2197,9 +2229,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T05:33:16Z",
-      "lastVerifiedAt": "2026-10-04T05:47:08Z",
+      "lastVerifiedAt": "2026-10-04T06:41:48Z",
       "source": "review_screen"
     },
     {
