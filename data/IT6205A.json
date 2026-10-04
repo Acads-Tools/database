@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T11:31:12Z",
+  "updatedAt": "2026-10-04T11:32:58Z",
   "totalQuestions": 98,
   "questions": [
     {
@@ -87,9 +87,9 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -116,9 +116,9 @@
         "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -875,9 +875,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1082,7 +1082,7 @@
       "questionType": "multichoice",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T07:28:00Z"
+      "lastEvidenceAt": "2026-10-04T11:32:58Z"
     },
     {
       "question": "Making a malware application (for example, a computer trojan) that, combined with an exploitable security breach, allows remote access. Moreover, PDF (Portable Document Format) files or Microsoft Office suite-specific files can be regarded as weapons available to the attacker;",
@@ -1104,9 +1104,9 @@
         "a. Weaponization"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1162,9 +1162,9 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -1196,9 +1196,9 @@
         "b. Recon"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1281,9 +1281,9 @@
         "d. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1756,7 +1756,7 @@
     },
     {
       "question": "The infected file can be used by the self-execution facility to launch the malware code, or it can be executed by the user himself;",
-      "answer": "Installation",
+      "answer": "",
       "choices": [
         "a. Reconnaissance",
         "b. Exploitation",
@@ -1773,18 +1773,20 @@
         "a. Weaponization",
         "d. Reconnaissance"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 2,
       "firstSeenAt": "2026-09-14T14:57:10Z",
       "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "source": "moodle_review_elimination",
       "alternateAnswers": [
         {
           "answer": "Exploitation",
           "timestamp": "2026-09-14T14:57:51Z"
         }
       ],
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "Installation"
+      ],
       "questionType": "multichoice",
       "isAiSuggestion": false,
       "conflictHistory": [
@@ -1816,7 +1818,9 @@
           "rejectedAnswer": "Exploitation",
           "timestamp": "2026-10-04T07:36:32Z"
         }
-      ]
+      ],
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-04T11:32:58Z"
     },
     {
       "question": "The main ways of transport are e-mails (attachment of infected files), web platforms (running malware scripts), or removable USB memories;",
@@ -1839,9 +1843,9 @@
         "d. C2"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1934,9 +1938,9 @@
         "d. Command and Control"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2061,9 +2065,9 @@
         "b. Weaponization"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2074,9 +2078,9 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -2108,9 +2112,9 @@
         "a. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:36:32Z",
+      "lastVerifiedAt": "2026-10-04T11:32:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
