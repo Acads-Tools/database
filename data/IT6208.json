@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-10-04T14:38:33Z",
+  "updatedAt": "2026-10-04T14:40:27Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -11,15 +11,18 @@
         "a. Strong support for metadata management",
         "b. Directory Tools",
         "c. Management Tools",
-        "d. Commitment control management mechanisms"
+        "d. Commitment control management mechanisms",
+        "a. Commitment control management mechanisms",
+        "d. Strong support for metadata management"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:43:12Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "1st System Integration Life Cycle",
@@ -48,15 +51,19 @@
         "a. Directory Tools",
         "b. Management Tools",
         "c. Commitment control management",
-        "d. Strong support fr metadata management"
+        "d. Strong support fr metadata management",
+        "a. Commitment control management",
+        "b. Directory Tools",
+        "c. Management Tools"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "2nd System Integration Life Cycle",
@@ -87,15 +94,20 @@
         "a. Management Tools",
         "b. Directory Tools",
         "c. Commitment control management mechanism",
-        "d. Strong support fr metadata management"
+        "d. Strong support fr metadata management",
+        "a. Strong support fr metadata management",
+        "b. Commitment control management mechanism",
+        "c. Directory Tools",
+        "d. Management Tools"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "3rd System Integration Life Cycle",
@@ -128,15 +140,20 @@
         "a. Commitment control management mechanisms",
         "b. Management Tools",
         "c. Directory Tools",
-        "d. Strong support for metadata management"
+        "d. Strong support for metadata management",
+        "a. Strong support for metadata management",
+        "b. Commitment control management mechanisms",
+        "c. Management Tools",
+        "d. Directory Tools"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "4th System Integration Life Cycle",
@@ -330,12 +347,13 @@
       "answer": "Data Flow Diagram",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Acronym: MAR",
@@ -369,15 +387,18 @@
       "choices": [
         "a. Cost Effectiveness, System, Scability and Ability to deal with complex environment",
         "b. System, Time to market, Scability and Ability to deal with complex environment",
-        "c. Cost Effectiveness, Time to market, Scability and Ability to deal with complex environment"
+        "c. Cost Effectiveness, Time to market, Scability and Ability to deal with complex environment",
+        "a. System, Time to market, Scability and Ability to deal with complex environment",
+        "b. Cost Effectiveness, System, Scability and Ability to deal with complex environment"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Advantages of Object-Oriented approach: Allows flexibility in the design as it evolves over time",
@@ -578,96 +599,104 @@
       "answer": "Enterprise Application",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Definition: Enforce homogeneous solutions and enable “One system” to the users.",
       "answer": "Enterprise Application",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T07:11:52Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Definition: Implementation of information management",
       "answer": "Enterprise Application",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T07:16:28Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Definition: Its not technical",
       "answer": "Enterprise Application",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:43:12Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Definition: Knowing and managing the current situation, paving the road for the wanted one.",
       "answer": "Enterprise Application",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Definition: Message broker level",
       "answer": "Routing logic",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Definition: Queue level",
       "answer": "Routing logic",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:43:12Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Definition: Transverse view",
       "answer": "Enterprise Application",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T07:11:52Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Describes the proposed functionality of the new system",
@@ -1421,15 +1450,19 @@
         "a. EIA",
         "b. Business Rule Component",
         "c. EA",
-        "d. Routing Logic"
+        "d. Routing Logic",
+        "a. EA",
+        "b. EIA",
+        "c. Business Rule Component"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Repetitions of iterative development are referred to as sprints, which normally last thirty days.",
@@ -2083,15 +2116,19 @@
         "a. System Control Component",
         "b. System Development Component",
         "c. Data Acquisition Component",
-        "d. Business Rule Component"
+        "d. Business Rule Component",
+        "a. Data Acquisition Component",
+        "b. System Control Component",
+        "c. System Development Component"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "To allow programmers to design and test custom requirements - Design tools (for business process design, debugging, and testing)",
@@ -2100,15 +2137,19 @@
         "a. System Control Component",
         "b. Business Rule Component",
         "c. Data Acquisition Component",
-        "d. System Development Component"
+        "d. System Development Component",
+        "a. Data Acquisition Component",
+        "c. System Development Component",
+        "d. System Control Component"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "To allow the applications to understand your business processes.",
@@ -2117,15 +2158,18 @@
         "a. System Development Component",
         "b. Data Acquisition Component",
         "c. System Control Component",
-        "d. Business Rule Component"
+        "d. Business Rule Component",
+        "a. System Control Component",
+        "c. System Development Component"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is the symbol in Source or Destination of Data",
@@ -2137,12 +2181,13 @@
         "d. Square"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:43:12Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is the symbol name for Data Flow",
@@ -2151,15 +2196,19 @@
         "a. Arrow",
         "b. Open Rectangle",
         "c. Square",
-        "d. Circle"
+        "d. Circle",
+        "b. Square",
+        "c. Circle",
+        "d. Open Rectangle"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-09-29T15:35:49Z",
+      "lastVerifiedAt": "2026-10-04T14:40:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is the symbol name for process transforming data flow",
