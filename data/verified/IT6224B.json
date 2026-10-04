@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:04:31Z",
-  "totalQuestions": 52,
+  "updatedAt": "2026-10-04T15:06:39Z",
+  "totalQuestions": 54,
   "tier": "verified",
   "questions": [
     {
@@ -12,15 +12,19 @@
         "a. The EtherChannel fails.",
         "b. The remaining two interfaces become separate links between the two switches.",
         "c. The remaining two interfaces continue to load balance traffic.",
-        "d. One interface becomes an active link for data traffic and the other becomes a backup link."
+        "d. One interface becomes an active link for data traffic and the other becomes a backup link.",
+        "a. The remaining two interfaces continue to load balance traffic.",
+        "c. One interface becomes an active link for data traffic and the other becomes a backup link.",
+        "d. The EtherChannel fails."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement describes a feature that is associated with HSRP?",
@@ -29,15 +33,18 @@
         "a. It allows load balancing between a group of redundant routers.",
         "b. HSRP is nonproprietary.",
         "c. HSRP uses active and standby routers.",
-        "d. It uses ICMP messages in order to assign the default gateway to hosts."
+        "d. It uses ICMP messages in order to assign the default gateway to hosts.",
+        "b. HSRP uses active and standby routers.",
+        "c. HSRP is nonproprietary."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement is a feature that is associated with GLBP?",
@@ -46,15 +53,19 @@
         "a. It uses a virtual router master.",
         "b. It is nonproprietary.",
         "c. It works together with VRRP.",
-        "d. GLBP allows load balancing between routers."
+        "d. GLBP allows load balancing between routers.",
+        "a. GLBP allows load balancing between routers.",
+        "c. It uses a virtual router master.",
+        "d. It works together with VRRP."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A network administrator of Genesis Airlines issue a command of show cdp neigbors on a router, what do you think is the reason?",
@@ -132,15 +143,19 @@
         "a. Each switch will analyze the BID of all neighbors to reach the root and use the path through the lowest BID neighbors.",
         "b. Each switch will analyze the sum of all port costs to reach the root and use the path with the lowest cost.",
         "c. Each switch will analyze the sum of the hops to reach the root and use the path with the fewest hops.",
-        "d. Each switch will analyze the port states of all neighbors and use the designated ports to forward traffic to the root."
+        "d. Each switch will analyze the port states of all neighbors and use the designated ports to forward traffic to the root.",
+        "b. Each switch will analyze the port states of all neighbors and use the designated ports to forward traffic to the root.",
+        "c. Each switch will analyze the sum of all port costs to reach the root and use the path with the lowest cost.",
+        "d. Each switch will analyze the sum of the hops to reach the root and use the path with the fewest hops."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Among the choices below, which protocol specified by RFC 2281 provides network redundancy for IP networks, ensuring that user traffic immediately and transparently recovers from first-hop failures in network edge devices or access circuits?",
@@ -174,12 +189,13 @@
         "d. grouping multiple physical ports to increase bandwidth between two switches"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Core Layer is a design model layer that forwards traffic from/to different local networks.",
@@ -521,15 +537,19 @@
         "a. designing a network to use multiple paths between switches to ensure there is no single point of failure",
         "b. configuring a router with a complete MAC address database to ensure that all frames can be forwarded to the correct destination",
         "c. designing a network to use multiple virtual devices to ensure that all traffic uses the best path through the internetwork",
-        "d. configuring a switch with proper security to ensure that all traffic forwarded through an interface is filtered"
+        "d. configuring a switch with proper security to ensure that all traffic forwarded through an interface is filtered",
+        "a. configuring a router with a complete MAC address database to ensure that all frames can be forwarded to the correct destination",
+        "b. designing a network to use multiple virtual devices to ensure that all traffic uses the best path through the internetwork",
+        "c. designing a network to use multiple paths between switches to ensure there is no single point of failure"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is one way to correct a spanning tree failure?",
@@ -538,15 +558,20 @@
         "a. Manually remove redundant links in the switched network.",
         "b. Replace the cables on failed STP links.",
         "c. Insert redundant links to replace the failed STP links.",
-        "d. Replace all instances of STP with RSTP."
+        "d. Replace all instances of STP with RSTP.",
+        "a. Replace all instances of STP with RSTP.",
+        "b. Insert redundant links to replace the failed STP links.",
+        "c. Manually remove redundant links in the switched network.",
+        "d. Replace the cables on failed STP links."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is the function of PoE pass-through?",
@@ -555,15 +580,19 @@
         "a. allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
         "b. allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU",
         "c. allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
-        "d. allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops"
+        "d. allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops",
+        "a. allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU",
+        "b. allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops",
+        "d. allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is the purpose of Spanning Tree Protocol in a switched LAN as discussed in this chapter?",
@@ -631,15 +660,18 @@
         "a. desirable",
         "b. passive",
         "c. active",
-        "d. auto"
+        "d. auto",
+        "a. active",
+        "c. desirable"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When EtherChannel is configured, which mode will force an interface into a port channel without exchanging aggregation protocol packets?",
@@ -648,15 +680,19 @@
         "a. desirable",
         "b. on",
         "c. auto",
-        "d. active"
+        "d. active",
+        "a. active",
+        "b. desirable",
+        "d. on"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When EtherChannel is implemented, multiple physical interfaces are bundled into which type of logical connection?",
@@ -665,15 +701,20 @@
         "a. interface range",
         "b. loopback",
         "c. VLAN interface",
-        "d. port channel"
+        "d. port channel",
+        "a. port channel",
+        "b. VLAN interface",
+        "c. interface range",
+        "d. loopback"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When PVST is running over a switched network, which port state can participate in BPDU frame forwarding based on BPDUs received, but does not forward data frames?",
@@ -682,15 +723,18 @@
         "a. listening",
         "b. blocking",
         "c. disabled",
-        "d. forwarding"
+        "d. forwarding",
+        "c. forwarding",
+        "d. disabled"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which among the listed below are the 2 functional parts of the network that can be combined to form a collapsed core design in Cisco Enterprise Architecture?",
@@ -768,15 +812,18 @@
         "a. interface port-channel 2",
         "b. channel-group 1 mode desirable",
         "c. channel-group 2 mode auto",
-        "d. interface range GigabitEthernet 0/4 - 5"
+        "d. interface range GigabitEthernet 0/4 - 5",
+        "b. channel-group 2 mode auto",
+        "c. channel-group 1 mode desirable"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which is the default STP operation mode on Cisco Catalyst switches?",
@@ -786,15 +833,20 @@
         "b. MST",
         "c. PVST+",
         "d. MSTP",
-        "e. RSTP"
+        "e. RSTP",
+        "a. MST",
+        "b. MSTP",
+        "d. RSTP",
+        "e. Rapid PVST+"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which mode configuration setting would allow formation of an EtherChannel link between switches SW1 and SW2 without sending negotiation traffic?",
@@ -804,15 +856,19 @@
         "b. SW1: desirable SW2: desirable",
         "c. SW1: auto SW2: auto trunking enabled on both switches",
         "d. SW1: auto SW2: auto PortFast enabled on both switches",
-        "e. SW1: on SW2: on"
+        "e. SW1: on SW2: on",
+        "a. SW1: auto SW2: auto PortFast enabled on both switches",
+        "b. SW1: passive SW2: active",
+        "d. SW1: desirable SW2: desirable"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which network design solution among the choices listed below will best extend access layer connectivity to host devices?",
@@ -872,12 +928,13 @@
         "d. implementing wireless connectivity"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is a layer 2 protocol used to maintain a loop-free network?",
@@ -927,15 +984,56 @@
       "choices": [
         "a. On",
         "b. PAgP desirable",
+        "c. PAgP auto",
+        "b. PAgP auto",
+        "c. PAgP desirable"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Which PAgP mode mode places an interface in a passive negotiating state in which the interface responds to the PAgP packets that it receives, but does not initiate PAgP negotiation?",
+      "answer": "PAgP desirable",
+      "choices": [
+        "a. PAgP desirable",
+        "b. On",
         "c. PAgP auto"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Which STP port role is adopted by a switch port if there is no other port with a lower cost to the root bridge?",
+      "answer": "root port",
+      "choices": [
+        "a. disabled port",
+        "b. designated port",
+        "c. root port",
+        "d. alternate",
+        "a. designated port",
+        "b. alternate",
+        "d. disabled port"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:38:50Z",
+      "lastVerifiedAt": "2026-10-04T15:06:39Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation?",
