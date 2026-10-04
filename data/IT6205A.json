@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:27:14Z",
+  "updatedAt": "2026-10-04T07:28:00Z",
   "totalQuestions": 54,
   "questions": [
     {
@@ -58,10 +58,10 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
@@ -73,13 +73,16 @@
         "a. Exploitation",
         "b. Delivery",
         "c. Weaponization",
-        "d. Reconnaissance"
+        "d. Reconnaissance",
+        "b. Reconnaissance",
+        "c. Delivery",
+        "d. Weaponization"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -369,10 +372,10 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
@@ -524,21 +527,28 @@
     },
     {
       "question": "Logical security consists in software that are necessary to control the access to information and services of a system. The logical level is divided into two categories: access security level and service security level.",
-      "answer": "System",
+      "answer": "",
       "choices": [
         "a. Install",
         "b. Recon",
         "c. Prevent Cyber-Attacks",
-        "d. System"
+        "d. System",
+        "b. System",
+        "c. Recon",
+        "d. Prevent Cyber-Attacks"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 3,
       "firstSeenAt": "2026-09-14T14:57:10Z",
       "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
-      "wrongAnswers": [],
+      "source": "moodle_review_elimination",
+      "wrongAnswers": [
+        "System"
+      ],
       "questionType": "multichoice",
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-04T07:28:00Z"
     },
     {
       "question": "Making a malware application (for example, a computer trojan) that, combined with an exploitable security breach, allows remote access. Moreover, PDF (Portable Document Format) files or Microsoft Office suite-specific files can be regarded as weapons available to the attacker;",
@@ -547,13 +557,15 @@
         "a. Delivery",
         "b. Exploitation",
         "c. Reconnaissance",
-        "d. Weaponization"
+        "d. Weaponization",
+        "b. Weaponization",
+        "d. Exploitation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -581,10 +593,10 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
@@ -596,13 +608,17 @@
         "a. Recon",
         "b. System",
         "c. Prevent Cyber-Attacks",
-        "d. Install"
+        "d. Install",
+        "a. Prevent Cyber-Attacks",
+        "b. Install",
+        "c. Recon",
+        "d. System"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -670,13 +686,17 @@
         "a. Reconnaissance",
         "b. Exploitation",
         "c. Delivery",
-        "d. Weaponization"
+        "d. Weaponization",
+        "a. Weaponization",
+        "b. Delivery",
+        "c. Reconnaissance",
+        "d. Exploitation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -827,7 +847,10 @@
         "a. Reconnaissance",
         "b. Exploitation",
         "c. Installation",
-        "d. Weaponization"
+        "d. Weaponization",
+        "b. Weaponization",
+        "c. Exploitation",
+        "d. Installation"
       ],
       "verified": true,
       "confirmations": 2,
@@ -842,7 +865,13 @@
       ],
       "wrongAnswers": [],
       "questionType": "multichoice",
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Exploitation",
+          "timestamp": "2026-10-04T07:28:00Z"
+        }
+      ]
     },
     {
       "question": "The main ways of transport are e-mails (attachment of infected files), web platforms (running malware scripts), or removable USB memories;",
@@ -851,13 +880,17 @@
         "a. Install",
         "b. Recon",
         "c. C2",
-        "d. Delivery"
+        "d. Delivery",
+        "a. C2",
+        "b. Delivery",
+        "c. Recon",
+        "d. Install"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -869,13 +902,17 @@
         "a. Command and Control",
         "b. Installation",
         "c. Action on objective",
-        "d. Exploitation"
+        "d. Exploitation",
+        "a. Exploitation",
+        "b. Command and Control",
+        "c. Installation",
+        "d. Action on objective"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -926,13 +963,15 @@
         "a. Exploitation",
         "b. Delivery",
         "c. Weaponization",
-        "d. Reconnaissance"
+        "d. Reconnaissance",
+        "a. Reconnaissance",
+        "d. Exploitation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -942,10 +981,10 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
@@ -957,13 +996,16 @@
         "a. System, Weaponise, Deliver, Exploit, Install, C2 and Action",
         "b. Recon, Weaponise, Deliver, Exploit, Install, System and Action",
         "c. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action",
-        "d. Recon, Weaponise, Deliver, System, Install, C2 and Action"
+        "d. Recon, Weaponise, Deliver, System, Install, C2 and Action",
+        "a. Recon, Weaponise, Deliver, System, Install, C2 and Action",
+        "b. System, Weaponise, Deliver, Exploit, Install, C2 and Action",
+        "d. Recon, Weaponise, Deliver, Exploit, Install, System and Action"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
