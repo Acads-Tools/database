@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6206",
   "subjectName": "Information Assurance and Security 2",
-  "updatedAt": "2026-10-04T13:46:17Z",
+  "updatedAt": "2026-10-04T13:46:31Z",
   "totalQuestions": 121,
   "questions": [
     {
@@ -1374,7 +1374,13 @@
       "source": "community_contribution",
       "wrongAnswers": [],
       "isAiSuggestion": false,
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "data evaluation business, cyber risk management, fusion, information security professional, physical access controls",
+          "timestamp": "2026-10-04T13:46:31Z"
+        }
+      ]
     },
     {
       "question": "may prevent people from doing unauthorized things but cannot prevent them from doing things that their job functions entitle them to do.",
