@@ -38,7 +38,11 @@ data/
 Both source tiers are refreshed by `scripts/refresh_study_guides.py` and
 `.github/workflows/refresh-study-guides.yml`. The workflow refreshes courses
 already present in the primary `data/` directory, throttles source requests,
-and preserves snapshots on missing sources or parse failures.
+and preserves snapshots on missing sources or parse failures. On course access,
+the toolkit checks each tier's source timestamp and requests a course-specific
+refresh through the relay when a snapshot is absent or at least 30 days old.
+The relay queues only the course code; its issue workflow fetches source data
+server-side and writes only to the appropriate unverified source tier.
 
 ---
 

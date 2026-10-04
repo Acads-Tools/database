@@ -11,7 +11,7 @@
  */
 
 const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
-const LATEST_VERSION = "1.9.1";
+const LATEST_VERSION = "1.11.0";
 const SHARED_POOL_WINDOW_MS = 60_000;
 const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 1;
 const SHARED_POOL_MAX_REQUESTS_GLOBAL = 20;
@@ -1005,6 +1005,110 @@ async function handleTelemetryStats(request, env, corsHeaders) {
   }
 }
 
+async function handleStudyGuideRefreshRequest(request, env, corsHeaders) {
+  if (!env.DB || !env.GITHUB_BOT_TOKEN) {
+    return jsonResponse({ error: "Study-guide refresh queue is not configured" }, 503, corsHeaders);
+  }
+  const contentLength = Number(request.headers.get("Content-Length") || 0);
+  if (contentLength > 1_024) return jsonResponse({ error: "Request is too large" }, 413, corsHeaders);
+
+  let payload;
+  try {
+    const body = await request.text();
+    if (body.length > 1_024) return jsonResponse({ error: "Request is too large" }, 413, corsHeaders);
+    payload = JSON.parse(body);
+  } catch (_) {
+    return jsonResponse({ error: "Invalid JSON request" }, 400, corsHeaders);
+  }
+  const subjectCode = String(payload.subjectCode || "").trim().toUpperCase();
+  const installationId = request.headers.get("X-AMAES-Installation") || "";
+  if (!/^[A-Z0-9_-]{2,16}$/.test(subjectCode) ||
+      !/^[A-Za-z0-9_-]{16,128}$/.test(installationId)) {
+    return jsonResponse({ error: "Valid course code and anonymous installation ID are required" }, 400, corsHeaders);
+  }
+
+  try {
+    const courseResponse = await fetch(
+      `https://raw.githubusercontent.com/${env.REPO_OWNER || "Acads-Tools"}/${env.REPO_NAME || "database"}/main/data/${subjectCode}.json`
+    );
+    if (!courseResponse.ok) return jsonResponse({ error: "Unknown course code" }, 404, corsHeaders);
+    const course = await courseResponse.json();
+    if (!course || course.subjectCode !== subjectCode) {
+      return jsonResponse({ error: "Unknown course code" }, 404, corsHeaders);
+    }
+
+    await env.DB.prepare(`CREATE TABLE IF NOT EXISTS study_guide_refresh_requests (
+      installation_hash TEXT NOT NULL,
+      subject_code TEXT NOT NULL,
+      requested_at INTEGER NOT NULL,
+      issue_number INTEGER,
+      PRIMARY KEY (installation_hash, subject_code)
+    )`).run();
+    const installationHash = await hashOwnerToken(installationId);
+    const now = Date.now();
+    const recent = await env.DB.prepare(
+      `SELECT requested_at, issue_number FROM study_guide_refresh_requests
+       WHERE subject_code = ? AND ((installation_hash = ? AND requested_at > ?) OR requested_at > ?)
+       ORDER BY requested_at DESC LIMIT 1`
+    ).bind(subjectCode, installationHash, now - 30 * 24 * 60 * 60 * 1000, now - 15 * 60 * 1000).first();
+    if (recent) {
+      return jsonResponse({
+        success: true,
+        queued: true,
+        duplicate: true,
+        issueNumber: recent.issue_number || null
+      }, 200, corsHeaders);
+    }
+
+    const owner = env.REPO_OWNER || "Acads-Tools";
+    const repo = env.REPO_NAME || "database";
+    const labelResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/labels`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${env.GITHUB_BOT_TOKEN}`,
+        "User-Agent": "AMAES-Study-Guide-Refresh-Relay",
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        name: "study-guide-refresh-request",
+        color: "1f6feb",
+        description: "Automated request to refresh unverified study-guide source snapshots"
+      })
+    });
+    if (!labelResponse.ok && labelResponse.status !== 422) {
+      return jsonResponse({ error: "Could not prepare study-guide refresh queue" }, 502, corsHeaders);
+    }
+    const issueResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${env.GITHUB_BOT_TOKEN}`,
+        "User-Agent": "AMAES-Study-Guide-Refresh-Relay",
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        title: `[Study Guide Refresh] ${subjectCode}`,
+        body: `<!-- automated-study-guide-refresh -->\n${JSON.stringify({ subjectCode })}`,
+        labels: ["study-guide-refresh-request"]
+      })
+    });
+    if (!issueResponse.ok) {
+      return jsonResponse({ error: "Could not queue study-guide refresh" }, 502, corsHeaders);
+    }
+    const issue = await issueResponse.json();
+    await env.DB.prepare(
+      `INSERT INTO study_guide_refresh_requests (installation_hash, subject_code, requested_at, issue_number)
+       VALUES (?, ?, ?, ?)
+       ON CONFLICT(installation_hash, subject_code) DO UPDATE SET
+         requested_at = excluded.requested_at, issue_number = excluded.issue_number`
+    ).bind(installationHash, subjectCode, now, issue.number).run();
+    return jsonResponse({ success: true, queued: true, issueNumber: issue.number }, 202, corsHeaders);
+  } catch (_) {
+    return jsonResponse({ error: "Study-guide refresh request failed" }, 503, corsHeaders);
+  }
+}
+
 export default {
   async fetch(request, env) {
     const corsHeaders = {
@@ -1035,6 +1139,10 @@ export default {
 
     if (request.method === "POST" && (path === "/unknown-question" || path === "/telemetry/unknown-question")) {
       return handleUnknownQuestionTelemetry(request, env, corsHeaders);
+    }
+
+    if (request.method === "POST" && path === "/study-guides/refresh") {
+      return handleStudyGuideRefreshRequest(request, env, corsHeaders);
     }
 
     if (request.method === "POST" && path === "/keys/register") {
@@ -1186,6 +1294,7 @@ export default {
             contributorDelete: "POST /keys/delete",
             contributorActivity: "POST /keys/activity",
             unknownQuestion: "POST /unknown-question",
+            studyGuideRefresh: "POST /study-guides/refresh",
             bugReport: "POST /report-bug"
           }
         }, null, 2), {

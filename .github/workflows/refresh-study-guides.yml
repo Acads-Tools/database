@@ -27,7 +27,10 @@ jobs:
           python-version: "3.11"
 
       - name: Test refresh parsers
-        run: python -m unittest discover -s tests -p 'test_refresh_study_guides.py'
+        run: |
+          python -m unittest discover -s tests -p 'test_refresh_study_guides.py'
+          node relay/test_study_guide_refresh.mjs
+          node relay/test_contributor_sharing.mjs
 
       - name: Refresh source snapshots
         run: python scripts/refresh_study_guides.py

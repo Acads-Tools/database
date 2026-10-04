@@ -62,23 +62,36 @@ not enabled by this lightweight rollout.
 
 ---
 
-## Study-guide source snapshots
+## Study-guide source snapshots and on-access refresh
 
 With source-owner permission reported by the repository maintainer, the monthly
 [`refresh-study-guides.yml`](.github/workflows/refresh-study-guides.yml) workflow
-refreshes only courses already represented by a primary `data/{SUBJECT}.json`
-file. It checks for exact course-code/title matches, observes a 1.5-second
-minimum interval between source requests and preserves existing snapshots when
-a source is unavailable or yields no parseable rows; source errors fail the
-workflow so the next scheduled run can retry. Every imported row is marked
-`verified: false` with source attribution; these files never become ground truth
-by being scraped or refreshed. Existing legacy AMAUOED tier files containing
-verified rows are preserved rather than replaced by fresh unverified candidates.
+refreshes courses already represented by a primary `data/{SUBJECT}.json` file.
+The toolkit also checks each source tier when a course is accessed. Fresh shared
+snapshots are cached locally using the source's update timestamp; if a source
+snapshot is missing or older than 30 days, the client uses a fresh local copy
+while queuing a shared refresh, or discovers the source live if its local copy
+is stale too. AMAUOED and Jenny suggestions remain separate and equally
+unverified. Existing legacy AMAUOED tier files containing verified rows are
+preserved rather than replaced by fresh unverified candidates.
+
+The relay accepts only a course code plus a random installation identifier and
+opens a deduplicated refresh-request issue. It does not accept or store scraped
+questions from the browser. The
+[`refresh-requested-study-guide.yml`](.github/workflows/refresh-requested-study-guide.yml)
+workflow validates the request, fetches the public sources itself, and updates
+the separate source-tier snapshots. A 15-minute client retry cooldown plus
+per-installation and global relay rate limits reduce repeated requests. Failed
+source requests preserve existing snapshots and leave the issue available for
+retry.
+The updated `relay/worker.js` must be deployed to Cloudflare for on-access
+requests to reach this queue; until deployment, clients still perform source
+lookups and cache results locally, but shared writes remain on the monthly job.
 
 Jenny discovery uses Blogger's feed endpoint, not the `/search` path disallowed
-by that site's `robots.txt`. The workflow has no student-level access tracking:
-the existing course files are the explicit refresh allowlist. Manual runs are
-available from GitHub Actions via `workflow_dispatch`.
+by that site's `robots.txt`. Course requests are checked against existing
+primary course files; unsupported or unknown course codes are rejected by the
+refresh script. Manual monthly runs are available via `workflow_dispatch`.
 
 ---
 

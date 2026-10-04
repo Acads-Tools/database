@@ -91,6 +91,10 @@ class StudyGuideRefreshTests(unittest.TestCase):
             self.assertIsNone(result)
             self.assertEqual(json.loads(path.read_text(encoding="utf-8")), existing)
 
+    def test_course_filter_rejects_unknown_course_without_falling_back_to_all(self):
+        self.assertEqual(refresh.load_courses("IT6205A")[0]["subjectCode"], "IT6205A")
+        self.assertEqual(refresh.load_courses("NOTACOURSE"), [])
+
 
 if __name__ == "__main__":
     unittest.main()

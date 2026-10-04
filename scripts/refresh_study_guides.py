@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import argparse
 import html
 from html.parser import HTMLParser
 from io import StringIO
@@ -318,7 +319,7 @@ def crawl_jenny(course: dict) -> tuple[str, list[dict]] | None:
     return None
 
 
-def load_courses() -> list[dict]:
+def load_courses(subject_code: str | None = None) -> list[dict]:
     courses = []
     for path in sorted(COURSE_DIR.glob("*.json")):
         try:
@@ -326,6 +327,8 @@ def load_courses() -> list[dict]:
         except (OSError, json.JSONDecodeError):
             continue
         if data.get("subjectCode") and isinstance(data.get("questions"), list):
+            if subject_code and data["subjectCode"].upper() != subject_code:
+                continue
             courses.append({"subjectCode": data["subjectCode"], "subjectName": data.get("subjectName") or data["subjectCode"]})
     return courses
 
@@ -366,9 +369,16 @@ def write_tier(directory: Path, course: dict, source_name: str, source_url: str,
 
 
 def main() -> int:
-    courses = load_courses()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--course-code", help="Refresh only this course code")
+    args = parser.parse_args()
+    subject_code = args.course_code.upper() if args.course_code else None
+    if subject_code and not re.fullmatch(r"[A-Z0-9_-]{2,16}", subject_code):
+        print("Invalid course code.", file=sys.stderr)
+        return 2
+    courses = load_courses(subject_code)
     if not courses:
-        print("No primary course files found; refusing an empty refresh.", file=sys.stderr)
+        print("No matching primary course file found; refusing an empty refresh.", file=sys.stderr)
         return 1
 
     catalog = []
