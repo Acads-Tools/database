@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:28:00Z",
+  "updatedAt": "2026-10-04T07:28:51Z",
   "totalQuestions": 54,
   "tier": "verified",
   "questions": [
@@ -59,9 +59,9 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -77,12 +77,16 @@
         "d. Reconnaissance",
         "b. Reconnaissance",
         "c. Delivery",
-        "d. Weaponization"
+        "d. Weaponization",
+        "a. Delivery",
+        "b. Weaponization",
+        "c. Reconnaissance",
+        "d. Exploitation"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -373,9 +377,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -528,7 +532,7 @@
     },
     {
       "question": "Logical security consists in software that are necessary to control the access to information and services of a system. The logical level is divided into two categories: access security level and service security level.",
-      "answer": "",
+      "answer": "Prevent Cyber-Attacks",
       "choices": [
         "a. Install",
         "b. Recon",
@@ -536,13 +540,16 @@
         "d. System",
         "b. System",
         "c. Recon",
-        "d. Prevent Cyber-Attacks"
+        "d. Prevent Cyber-Attacks",
+        "a. System",
+        "b. Install",
+        "d. Recon"
       ],
-      "verified": false,
-      "confirmations": 3,
+      "verified": true,
+      "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "System"
       ],
@@ -560,12 +567,14 @@
         "c. Reconnaissance",
         "d. Weaponization",
         "b. Weaponization",
-        "d. Exploitation"
+        "d. Exploitation",
+        "a. Exploitation",
+        "b. Delivery"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -598,9 +607,13 @@
       "firstSeenAt": "2026-09-14T14:57:10Z",
       "lastVerifiedAt": "2026-10-04T07:28:00Z",
       "source": "review_screen",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "command"
+      ],
       "questionType": "shortanswer",
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-04T07:28:51Z"
     },
     {
       "question": "Physical security consist in the closure of IT equipment in a dedicated space and the provision of access control.",
@@ -613,12 +626,14 @@
         "a. Prevent Cyber-Attacks",
         "b. Install",
         "c. Recon",
-        "d. System"
+        "d. System",
+        "a. Install",
+        "b. Prevent Cyber-Attacks"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -691,12 +706,15 @@
         "a. Weaponization",
         "b. Delivery",
         "c. Reconnaissance",
-        "d. Exploitation"
+        "d. Exploitation",
+        "b. Weaponization",
+        "c. Exploitation",
+        "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -851,7 +869,10 @@
         "d. Weaponization",
         "b. Weaponization",
         "c. Exploitation",
-        "d. Installation"
+        "d. Installation",
+        "a. Installation",
+        "c. Reconnaissance",
+        "d. Exploitation"
       ],
       "verified": true,
       "confirmations": 2,
@@ -871,6 +892,10 @@
         {
           "rejectedAnswer": "Exploitation",
           "timestamp": "2026-10-04T07:28:00Z"
+        },
+        {
+          "rejectedAnswer": "Exploitation",
+          "timestamp": "2026-10-04T07:28:51Z"
         }
       ]
     },
@@ -885,12 +910,14 @@
         "a. C2",
         "b. Delivery",
         "c. Recon",
-        "d. Install"
+        "d. Install",
+        "a. Delivery",
+        "b. C2"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -907,12 +934,15 @@
         "a. Exploitation",
         "b. Command and Control",
         "c. Installation",
-        "d. Action on objective"
+        "d. Action on objective",
+        "b. Action on objective",
+        "c. Command and Control",
+        "d. Installation"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -966,12 +996,15 @@
         "c. Weaponization",
         "d. Reconnaissance",
         "a. Reconnaissance",
-        "d. Exploitation"
+        "d. Exploitation",
+        "b. Exploitation",
+        "c. Delivery",
+        "d. Weaponization"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -986,9 +1019,13 @@
       "firstSeenAt": "2026-09-14T14:57:10Z",
       "lastVerifiedAt": "2026-10-04T07:28:00Z",
       "source": "review_screen",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "command"
+      ],
       "questionType": "shortanswer",
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-04T07:28:51Z"
     },
     {
       "question": "What are the steps in intrusion model?",
@@ -1000,12 +1037,14 @@
         "d. Recon, Weaponise, Deliver, System, Install, C2 and Action",
         "a. Recon, Weaponise, Deliver, System, Install, C2 and Action",
         "b. System, Weaponise, Deliver, Exploit, Install, C2 and Action",
-        "d. Recon, Weaponise, Deliver, Exploit, Install, System and Action"
+        "d. Recon, Weaponise, Deliver, Exploit, Install, System and Action",
+        "b. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action",
+        "c. Recon, Weaponise, Deliver, Exploit, Install, System and Action"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:28:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
