@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6206",
   "subjectName": "Information Assurance and Security 2",
-  "updatedAt": "2026-09-27T08:12:53Z",
-  "totalQuestions": 118,
+  "updatedAt": "2026-10-04T11:56:56Z",
+  "totalQuestions": 115,
   "tier": "verified",
   "questions": [
     {
@@ -580,14 +580,18 @@
       "question": "Disruptions in their day-to-day business: Time is money.",
       "answer": "True",
       "choices": [
-        "True"
+        "True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-23T14:42:49Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Early disclosure may jeopardize [____: competitive] advantage, but disclosure just before the intended announcement may be insignificant.",
@@ -630,97 +634,18 @@
       "question": "Feeling confident about their organization's security level: When information security community members participated in the Cybersecurity Trends Report, they were asked how positive they felt about their security stance.",
       "answer": "True",
       "choices": [
-        "True"
+        "True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T07:53:22Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
-    },
-    {
-      "question": "Fifth Reason why investing in information security is significant",
-      "answer": "Regulatory compliance's",
-      "choices": [
-        "Regulatory compliance's"
-      ],
-      "verified": true,
-      "confirmations": 1,
-      "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-17T16:43:14Z",
-      "source": "community_contribution",
-      "alternateAnswers": [
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T04:54:01Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:07:14Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:08:29Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:08:29Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:10:05Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:17:22Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:19:16Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:21:54Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-22T05:23:37Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-23T10:28:17Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-23T10:28:17Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-23T14:42:49Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-23T14:42:49Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-27T07:43:23Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-27T07:50:00Z"
-        },
-        {
-          "answer": "REGULATORY COMPLIANCES",
-          "timestamp": "2026-09-27T07:53:22Z"
-        }
-      ],
-      "wrongAnswers": [
-        "Regulatory compliance's",
-        "regulatory compliance"
-      ]
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "First Reason why investing in information security is significant",
@@ -729,12 +654,13 @@
         "Rising cost of breaches"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "For a [____: national defense system] , the chief concern may be ensuring the confidentiality of classified information, whereas a funds transfer system may require strong integrity controls.",
@@ -773,60 +699,6 @@
       "lastVerifiedAt": "2026-09-23T14:42:49Z",
       "source": "community_contribution",
       "wrongAnswers": []
-    },
-    {
-      "question": "Fourth Reason why investing in information security is significant",
-      "answer": "Funded hackers and wide availability of hacking tool",
-      "choices": [
-        "Funded hackers and wide availability of hacking tool"
-      ],
-      "verified": true,
-      "confirmations": 1,
-      "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-17T16:43:14Z",
-      "source": "community_contribution",
-      "alternateAnswers": [
-        {
-          "answer": "Founded hackers and wide availability of hacking tools",
-          "timestamp": "2026-09-22T04:54:01Z"
-        },
-        {
-          "answer": "wide availability of hacking tools",
-          "timestamp": "2026-09-22T05:08:29Z"
-        },
-        {
-          "answer": "Suggested (Verified DB): wide availability of hacking tools Filled",
-          "timestamp": "2026-09-22T05:10:34Z"
-        },
-        {
-          "answer": "Suggested (Verified DB): Suggested (Verified DB): wide availability of hacking tools Filled",
-          "timestamp": "2026-09-23T10:27:40Z"
-        },
-        {
-          "answer": "Suggested (Verified DB): Suggested (Verified DB): wide availability of hacking tools Filled",
-          "timestamp": "2026-09-23T14:42:49Z"
-        },
-        {
-          "answer": "Suggested (Verified DB): wide availability of hacking tools Filled",
-          "timestamp": "2026-09-23T14:42:49Z"
-        },
-        {
-          "answer": "Founded hackers and wide availability of hacking tools",
-          "timestamp": "2026-09-23T14:42:49Z"
-        },
-        {
-          "answer": "Suggested (Verified DB): Suggested (Verified DB): wide availability of hacking tools Filled",
-          "timestamp": "2026-09-23T14:42:49Z"
-        }
-      ],
-      "wrongAnswers": [
-        "Suggested (Verified DB): wide availability of hacking tools",
-        "wide availability of hacking tools",
-        "Founded hackers wide availability of hacking tools",
-        "Funded hackers and wide availability of hacking tool",
-        "Founded hackers",
-        "Suggested (Verified DB): wide availability of hacking toolsFilled"
-      ]
     },
     {
       "question": "If you feel vulnerable do not ask Police or Security to escort you to your car",
@@ -1259,132 +1131,6 @@
       "wrongAnswers": []
     },
     {
-      "question": "Second Reason why investing in information security is significant",
-      "answer": "Increasingly sophisticated attacker",
-      "choices": [
-        "Increasingly sophisticated attacker"
-      ],
-      "verified": true,
-      "confirmations": 1,
-      "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-17T16:43:14Z",
-      "source": "community_contribution",
-      "alternateAnswers": [
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T04:54:01Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:07:14Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:08:29Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:08:29Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:10:05Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:17:22Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:19:16Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:21:54Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:23:37Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:41:01Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:43:11Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:44:54Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:47:11Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:48:04Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-22T05:50:14Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-23T10:28:17Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-23T10:28:17Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-23T14:42:49Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-23T14:42:49Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-23T14:53:03Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-27T07:43:23Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-27T07:50:00Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-27T07:53:22Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-27T08:02:57Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-27T08:06:46Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-27T08:09:17Z"
-        },
-        {
-          "answer": "increasing sophisticated attackers",
-          "timestamp": "2026-09-27T08:10:32Z"
-        }
-      ],
-      "wrongAnswers": [
-        "Increasingly sophisticated attacker",
-        "the rise of increasingly sophisticated attackers"
-      ]
-    },
-    {
       "question": "security measures to establish the validity of a transmission, message, or originator.",
       "answer": "Authentication",
       "choices": [
@@ -1477,14 +1223,18 @@
       "question": "The need for skilled workers and allocation of funds for security within their budget: Companies are making the effort to allocate more funds in their budgets for security.",
       "answer": "True",
       "choices": [
-        "True"
+        "True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-23T14:42:49Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "The process to protect that data requires more advanced",
@@ -1593,12 +1343,13 @@
         "Proliferation of IoT devices"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "timely, reliable access to data and information services for authorized users.",
@@ -1659,12 +1410,13 @@
         "Software developer"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "What jobs in information security is this? Salary: $104,000 Responsibilities: Create an in-office network for a small business or a cloud infrastructure for a business with corporate locations in cities on opposite coasts",
@@ -1677,8 +1429,13 @@
       "firstSeenAt": "2026-09-17T16:43:14Z",
       "lastVerifiedAt": "2026-09-27T07:53:22Z",
       "source": "review_screen",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "wrongAnswers": [
+        "Computer Network Architect"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "shortanswer",
+      "lastEvidenceAt": "2026-10-04T11:56:56Z"
     },
     {
       "question": "What jobs in information security is this? Salary: $139,000 Responsibilities: Information systems managers work toward ensuring a company's tech is capable of meeting their IT goals.",
@@ -1687,10 +1444,10 @@
         "Computer and Information Systems Managers"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-23T14:42:49Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
+      "source": "review_screen",
       "conflictHistory": [
         {
           "rejectedAnswer": "Information Systems Managers",
@@ -1718,9 +1475,10 @@
         }
       ],
       "wrongAnswers": [
-        "Information Systems Managers",
-        "Computer and Information Systems Managers"
-      ]
+        "Information Systems Managers"
+      ],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "What jobs in information security is this? Salary: $95,510 Responsibilities: Information security analysts monitor their companies' computer networks to combat hackers and compile reports of security breaches.",
@@ -1729,12 +1487,13 @@
         "Information Security Analyst"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "While you are walking, keep your mind on what is going on around you.",

@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6206",
   "subjectName": "Information Assurance and Security 2",
-  "updatedAt": "2026-09-27T08:12:53Z",
+  "updatedAt": "2026-10-04T11:56:56Z",
   "totalQuestions": 118,
   "questions": [
     {
@@ -579,14 +579,18 @@
       "question": "Disruptions in their day-to-day business: Time is money.",
       "answer": "True",
       "choices": [
-        "True"
+        "True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-23T14:42:49Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Early disclosure may jeopardize [____: competitive] advantage, but disclosure just before the intended announcement may be insignificant.",
@@ -629,27 +633,30 @@
       "question": "Feeling confident about their organization's security level: When information security community members participated in the Cybersecurity Trends Report, they were asked how positive they felt about their security stance.",
       "answer": "True",
       "choices": [
-        "True"
+        "True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T07:53:22Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Fifth Reason why investing in information security is significant",
-      "answer": "Regulatory compliance's",
+      "answer": "",
       "choices": [
         "Regulatory compliance's"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:43:14Z",
       "lastVerifiedAt": "2026-09-17T16:43:14Z",
-      "source": "community_contribution",
+      "source": "moodle_review_elimination",
       "alternateAnswers": [
         {
           "answer": "REGULATORY COMPLIANCES",
@@ -719,7 +726,11 @@
       "wrongAnswers": [
         "Regulatory compliance's",
         "regulatory compliance"
-      ]
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "shortanswer",
+      "lastEvidenceAt": "2026-10-04T11:56:56Z"
     },
     {
       "question": "First Reason why investing in information security is significant",
@@ -728,12 +739,13 @@
         "Rising cost of breaches"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "For a [____: national defense system] , the chief concern may be ensuring the confidentiality of classified information, whereas a funds transfer system may require strong integrity controls.",
@@ -775,15 +787,15 @@
     },
     {
       "question": "Fourth Reason why investing in information security is significant",
-      "answer": "Funded hackers and wide availability of hacking tool",
+      "answer": "",
       "choices": [
         "Funded hackers and wide availability of hacking tool"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:43:14Z",
       "lastVerifiedAt": "2026-09-17T16:43:14Z",
-      "source": "community_contribution",
+      "source": "moodle_review_elimination",
       "alternateAnswers": [
         {
           "answer": "Founded hackers and wide availability of hacking tools",
@@ -825,7 +837,11 @@
         "Funded hackers and wide availability of hacking tool",
         "Founded hackers",
         "Suggested (Verified DB): wide availability of hacking toolsFilled"
-      ]
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "shortanswer",
+      "lastEvidenceAt": "2026-10-04T11:56:56Z"
     },
     {
       "question": "If you feel vulnerable do not ask Police or Security to escort you to your car",
@@ -1259,15 +1275,15 @@
     },
     {
       "question": "Second Reason why investing in information security is significant",
-      "answer": "Increasingly sophisticated attacker",
+      "answer": "",
       "choices": [
         "Increasingly sophisticated attacker"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:43:14Z",
       "lastVerifiedAt": "2026-09-17T16:43:14Z",
-      "source": "community_contribution",
+      "source": "moodle_review_elimination",
       "alternateAnswers": [
         {
           "answer": "increasing sophisticated attackers",
@@ -1381,7 +1397,11 @@
       "wrongAnswers": [
         "Increasingly sophisticated attacker",
         "the rise of increasingly sophisticated attackers"
-      ]
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "shortanswer",
+      "lastEvidenceAt": "2026-10-04T11:56:56Z"
     },
     {
       "question": "security measures to establish the validity of a transmission, message, or originator.",
@@ -1476,14 +1496,18 @@
       "question": "The need for skilled workers and allocation of funds for security within their budget: Companies are making the effort to allocate more funds in their budgets for security.",
       "answer": "True",
       "choices": [
-        "True"
+        "True",
+        "a. True",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-23T14:42:49Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "The process to protect that data requires more advanced",
@@ -1592,12 +1616,13 @@
         "Proliferation of IoT devices"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "timely, reliable access to data and information services for authorized users.",
@@ -1658,12 +1683,13 @@
         "Software developer"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "What jobs in information security is this? Salary: $104,000 Responsibilities: Create an in-office network for a small business or a cloud infrastructure for a business with corporate locations in cities on opposite coasts",
@@ -1676,8 +1702,13 @@
       "firstSeenAt": "2026-09-17T16:43:14Z",
       "lastVerifiedAt": "2026-09-27T07:53:22Z",
       "source": "review_screen",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "wrongAnswers": [
+        "Computer Network Architect"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "shortanswer",
+      "lastEvidenceAt": "2026-10-04T11:56:56Z"
     },
     {
       "question": "What jobs in information security is this? Salary: $139,000 Responsibilities: Information systems managers work toward ensuring a company's tech is capable of meeting their IT goals.",
@@ -1686,10 +1717,10 @@
         "Computer and Information Systems Managers"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-23T14:42:49Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
+      "source": "review_screen",
       "conflictHistory": [
         {
           "rejectedAnswer": "Information Systems Managers",
@@ -1717,9 +1748,10 @@
         }
       ],
       "wrongAnswers": [
-        "Information Systems Managers",
-        "Computer and Information Systems Managers"
-      ]
+        "Information Systems Managers"
+      ],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "What jobs in information security is this? Salary: $95,510 Responsibilities: Information security analysts monitor their companies' computer networks to combat hackers and compile reports of security breaches.",
@@ -1728,12 +1760,13 @@
         "Information Security Analyst"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-09-27T08:10:32Z",
+      "lastVerifiedAt": "2026-10-04T11:56:56Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "While you are walking, keep your mind on what is going on around you.",
