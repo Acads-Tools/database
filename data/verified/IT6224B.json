@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:12:44Z",
-  "totalQuestions": 54,
+  "updatedAt": "2026-10-04T15:14:18Z",
+  "totalQuestions": 64,
   "tier": "verified",
   "questions": [
     {
@@ -180,6 +180,45 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Among the 802.11 standards what is the frequency assigned for 802.11g?",
+      "answer": "2.4Ghz",
+      "choices": [
+        "a. 2.4Ghz",
+        "b. 3Ghz",
+        "c. 900Mhz",
+        "d. 5Ghz"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z"
+    },
+    {
+      "question": "Among the 802.11 standards what is the maximum speed of 802.11a?",
+      "answer": "54Mb/s",
+      "choices": [
+        "a. 2Mb/s",
+        "b. 54Mb/s",
+        "c. 600Mb/s",
+        "d. 64Mb/s",
+        "a. 600Mb/s",
+        "c. 2Mb/s"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "Among the choices below, which protocol specified by RFC 2281 provides network redundancy for IP networks, ensuring that user traffic immediately and transparently recovers from first-hop failures in network edge devices or access circuits?",
       "answer": "HSRP",
       "choices": [
@@ -200,6 +239,25 @@
       "lastVerifiedAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Among the listed below what organization that set or influence WLAN standards?",
+      "answer": "IEEE",
+      "choices": [
+        "a. IEEE",
+        "b. FBI",
+        "c. APEC",
+        "d. AWG"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z"
     },
     {
       "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
@@ -298,6 +356,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "If a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+      "answer": "auto",
+      "choices": [
+        "a. auto",
+        "b. passive",
+        "c. on",
+        "d. desirable",
+        "a. passive",
+        "b. desirable",
+        "d. auto"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
       "answer": "Network edge routers",
       "choices": [
@@ -337,6 +416,27 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:44:45Z",
       "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "In implementing EtherChannel technology, which PAgP mode combination will establish an EtherChannel?",
+      "answer": "switch 1 set to desirable; switch 2 set to desirable.",
+      "choices": [
+        "a. switch 1 set to auto; switch 2 set to auto.",
+        "b. switch 1 set to desirable; switch 2 set to desirable.",
+        "c. switch 1 set to on; switch 2 set to desirable.",
+        "d. switch 1 set to auto; switch 2 set to on.",
+        "a. switch 1 set to auto; switch 2 set to on.",
+        "b. switch 1 set to auto; switch 2 set to auto.",
+        "d. switch 1 set to desirable; switch 2 set to desirable."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -434,6 +534,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "In the understanding of wireless LAN technologies what wireless LAN technology that operates in the range of a few feet (Bluetooth)?",
+      "answer": "WPAN",
+      "choices": [
+        "a. WLAN",
+        "b. WIMAX",
+        "c. WPAN",
+        "d. Wi-fi(Wireless Fidelity)",
+        "a. WIMAX",
+        "b. Wi-fi(Wireless Fidelity)",
+        "d. WLAN"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "In this chapter, what is the function of PoE pass-through?",
       "answer": "Allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
       "choices": [
@@ -477,6 +598,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "In wireless LAN technologies what wireless LAN technology that operates in the range of a few hundred feet?",
+      "answer": "WLAN",
+      "choices": [
+        "a. WIMAX",
+        "b. WLAN",
+        "c. Bluetooth",
+        "d. Wi-Fi"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z"
+    },
+    {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
       "answer": "True",
       "choices": [
@@ -508,6 +648,25 @@
       "firstSeenAt": "2026-09-23T13:58:50Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "The ALAB Communications Company network administrator is configuring an EtherChannel link between switches SW1 and SW2 by using the command SW1(config-if-range)# channel-group 1 mode passive. Which command must be used on SW2 to enable this EtherChannel?",
+      "answer": "c",
+      "choices": [
+        "a. w",
+        "b. c",
+        "c. w",
+        "d. w"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z"
     },
     {
       "question": "The legacy standard for STP that runs all VLANs in a single spanning-tree instance is called MSTP.",
@@ -543,6 +702,25 @@
       "lastVerifiedAt": "2026-10-04T15:04:31Z"
     },
     {
+      "question": "Understanding EtherChannel technology, what is an advantage of using LACP?",
+      "answer": "allows automatic formation of EtherChannel links",
+      "choices": [
+        "a. decreases the chance of a spanning-tree loop",
+        "b. allows automatic formation of EtherChannel links",
+        "c. provides a simulated environment for testing link aggregation",
+        "d. increases redundancy to Layer 3 devices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z"
+    },
+    {
       "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
       "answer": "Link aggregation",
       "choices": [
@@ -558,6 +736,26 @@
       "firstSeenAt": "2026-09-23T13:58:50Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "Using LACP, besides of being a multivendor protocol which among the listed below describes as it advantage?",
+      "answer": "allows automatic formation of EtherChannel links",
+      "choices": [
+        "a. provides a simulated environment for testing link aggregation",
+        "b. decreases the chance of a spanning-tree loop",
+        "c. increases redundancy to Layer 3 devices",
+        "d. allows automatic formation of EtherChannel links",
+        "a. increases redundancy to Layer 3 devices",
+        "c. provides a simulated environment for testing link aggregation"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-10-04T15:14:18Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is an accurate description of redundancy?",
