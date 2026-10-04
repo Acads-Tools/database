@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:15:23Z",
+  "updatedAt": "2026-10-04T11:15:41Z",
   "totalQuestions": 96,
   "tier": "verified",
   "questions": [
@@ -80,7 +80,7 @@
       "source": "review_screen",
       "questionType": "shortanswer",
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T11:15:23Z"
+      "lastEvidenceAt": "2026-10-04T11:15:41Z"
     },
     {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
@@ -973,7 +973,8 @@
       "answer": "Information",
       "choices": [],
       "wrongAnswers": [
-        "Data"
+        "Data",
+        "Information System"
       ],
       "verified": true,
       "isAiSuggestion": false,
@@ -981,7 +982,9 @@
       "firstSeenAt": "2026-09-23T14:39:58Z",
       "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
-      "questionType": "shortanswer"
+      "questionType": "shortanswer",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-04T11:15:41Z"
     },
     {
       "question": "The following codes is an example of?TryMessageBox.Show(cdbl(txtTotalValue.text) + cdbl(txtTotalVAT.text))Catch ex as InvalidCastExceptionMessageBox.Show(\"Please supply 2 numbers as input\")Catch ex as ExceptionMessageBox.Show(\"An error has occurred. Please try again.\")End Try",
