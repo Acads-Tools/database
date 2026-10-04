@@ -10,6 +10,8 @@ import re
 import sys
 from datetime import datetime, timezone
 
+ANSWER_SHARING_DISABLED_COURSES = {"GE6301"}
+
 def clean_text(text: str) -> str:
     """Strip dangerous characters, excessive whitespace, and HTML tags."""
     if not isinstance(text, str):
@@ -140,6 +142,10 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
         raise ValueError(f"Invalid subject code: '{subject_code}'. Must be 2-16 alphanumeric characters.")
 
     subject_code = str(subject_code).upper()
+    if subject_code in ANSWER_SHARING_DISABLED_COURSES:
+        raise ValueError(f"Answer sharing is disabled for {subject_code} because quiz review is restricted.")
+    if subject_code == "GE6301":
+        raise ValueError("Answer sharing is disabled for GE6301 because Gender and Society is designated non-reviewable.")
     incoming_questions = payload.get("questions")
     if not isinstance(incoming_questions, list) or len(incoming_questions) == 0:
         raise ValueError("Payload must contain a non-empty list of 'questions'.")
@@ -414,7 +420,8 @@ def update_readme_table(data_dir: str = "data"):
                         if not title or str(title).strip().upper() == code:
                             title = get_known_course_name(code)
                         count = data.get("totalQuestions", len(data.get("questions", [])))
-                        stats.append((code, title, count))
+                        status = "Answer sharing disabled (non-reviewable)" if data.get("answerSharingDisabled") else "Active"
+                        stats.append((code, title, count, status))
                 except Exception:
                     pass
 
@@ -426,8 +433,8 @@ def update_readme_table(data_dir: str = "data"):
         "| Subject Code | Course Title | Verified Questions | Status |",
         "| :--- | :--- | :---: | :--- |"
     ]
-    for code, title, count in stats:
-        table_rows.append(f"| `{code}` | {title} | **{count}** | Active |")
+    for code, title, count, status in stats:
+        table_rows.append(f"| `{code}` | {title} | **{count}** | {status} |")
     table_rows.append("")
     table_rows.append("Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).")
     table_rows.append("")

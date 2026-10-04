@@ -44,6 +44,7 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
           set -e
+          python -m unittest discover -s tests -p 'test_restricted_course_sharing.py'
           echo "$ISSUE_BODY" > /tmp/issue_payload.txt
           OUTPUT=$(python3 scripts/merge_contributions.py /tmp/issue_payload.txt)
           echo "$OUTPUT" > /tmp/merge_result.json

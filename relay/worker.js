@@ -11,7 +11,7 @@
  */
 
 const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
-const LATEST_VERSION = "1.11.0";
+const LATEST_VERSION = "1.11.1";
 const SHARED_POOL_WINDOW_MS = 60_000;
 const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 1;
 const SHARED_POOL_MAX_REQUESTS_GLOBAL = 20;
@@ -1007,6 +1007,32 @@ async function handleTelemetryStats(request, env, corsHeaders) {
 
 const COURSE_REVIEWABILITY_WINDOW_MS = 90 * 24 * 60 * 60 * 1000;
 const COURSE_REVIEWABILITY_MIN_REPORTS = 3;
+const ANSWER_SHARING_DISABLED_COURSES = new Set(["GE6301"]);
+
+async function getCourseReviewabilityReportSummary(env, subjectCode) {
+  if (!env.DB) throw new Error("Course reviewability database is not configured");
+  await env.DB.prepare(`CREATE TABLE IF NOT EXISTS course_reviewability_reports (
+    installation_hash TEXT NOT NULL,
+    subject_code TEXT NOT NULL,
+    reported_at INTEGER NOT NULL,
+    PRIMARY KEY (installation_hash, subject_code)
+  )`).run();
+  const result = await env.DB.prepare(`SELECT COUNT(*) AS report_count, MAX(reported_at) AS last_reported_at
+    FROM course_reviewability_reports
+    WHERE subject_code = ? AND reported_at >= ?`).bind(
+    subjectCode, Date.now() - COURSE_REVIEWABILITY_WINDOW_MS
+  ).first();
+  return {
+    reportCount: Number(result && result.report_count) || 0,
+    lastReportedAt: Number(result && result.last_reported_at) || null
+  };
+}
+
+async function isCourseAnswerSharingDisabled(env, subjectCode) {
+  if (ANSWER_SHARING_DISABLED_COURSES.has(subjectCode)) return true;
+  const summary = await getCourseReviewabilityReportSummary(env, subjectCode);
+  return summary.reportCount >= COURSE_REVIEWABILITY_MIN_REPORTS;
+}
 
 async function handleCourseReviewabilityReport(request, env, corsHeaders) {
   if (!env.DB) {
@@ -1064,27 +1090,16 @@ async function handleCourseReviewabilityStatus(request, env, corsHeaders) {
   }
 
   try {
-    await env.DB.prepare(`CREATE TABLE IF NOT EXISTS course_reviewability_reports (
-      installation_hash TEXT NOT NULL,
-      subject_code TEXT NOT NULL,
-      reported_at INTEGER NOT NULL,
-      PRIMARY KEY (installation_hash, subject_code)
-    )`).run();
-    const now = Date.now();
-    const result = await env.DB.prepare(`SELECT COUNT(*) AS report_count, MAX(reported_at) AS last_reported_at
-      FROM course_reviewability_reports
-      WHERE subject_code = ? AND reported_at >= ?`).bind(
-      subjectCode, now - COURSE_REVIEWABILITY_WINDOW_MS
-    ).first();
-    const reportCount = Number(result && result.report_count) || 0;
-    const lastReportedAt = Number(result && result.last_reported_at) || null;
+    const { reportCount, lastReportedAt } = await getCourseReviewabilityReportSummary(env, subjectCode);
+    const sharingDisabled = ANSWER_SHARING_DISABLED_COURSES.has(subjectCode);
     return new Response(JSON.stringify({
       subjectCode,
-      status: reportCount >= COURSE_REVIEWABILITY_MIN_REPORTS ? "restricted-reported" : "unknown",
+      status: sharingDisabled || reportCount >= COURSE_REVIEWABILITY_MIN_REPORTS ? "restricted-reported" : "unknown",
       reportCount,
       threshold: COURSE_REVIEWABILITY_MIN_REPORTS,
       windowDays: 90,
-      lastReportedAt
+      lastReportedAt,
+      answerSharingDisabled: sharingDisabled || reportCount >= COURSE_REVIEWABILITY_MIN_REPORTS
     }), {
       status: 200,
       headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
@@ -1432,6 +1447,17 @@ export default {
         return new Response(JSON.stringify({ error: "Invalid subject code format" }), {
           status: 400,
           headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" },
+        });
+      }
+
+      if (await isCourseAnswerSharingDisabled(env, subjectCode)) {
+        return new Response(JSON.stringify({
+          error: "Answer sharing is disabled for courses with restricted quiz review",
+          subjectCode,
+          code: "course_reviewability_restricted"
+        }), {
+          status: 403,
+          headers: { ...corsHeaders, "Content-Type": "application/json" }
         });
       }
 

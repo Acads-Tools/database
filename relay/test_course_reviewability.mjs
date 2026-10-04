@@ -70,6 +70,11 @@ async function status(subjectCode) {
   ), env, { corsHeaders });
 }
 
+const forcedRestrictedStatus = await (await status("GE6301")).json();
+assert.equal(forcedRestrictedStatus.status, "restricted-reported",
+  "Maintainer-confirmed non-reviewable courses must show the shared warning immediately");
+assert.equal(forcedRestrictedStatus.answerSharingDisabled, true);
+
 for (const installationId of ["installation-identifier-0001", "installation-identifier-0002"]) {
   const response = await worker.fetch(reportRequest("GE6106", installationId), env, { corsHeaders });
   assert.equal(response.status, 202);
@@ -94,6 +99,21 @@ assert.equal((await (await status("GE6106")).json()).reportCount, 3,
   "A single installation must not count more than once for a course");
 assert.equal((await (await status("GE6107")).json()).reportCount, 0,
   "Reports must remain isolated by course code");
+
+const blockedContribution = await worker.fetch(new Request("https://relay.example/", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    "X-AMAES-Client-Version": "1.11.0"
+  },
+  body: JSON.stringify({
+    subjectCode: "GE6301",
+    questions: [{ question: "Question", answer: "Answer", verified: true }]
+  })
+}), env);
+assert.equal(blockedContribution.status, 403,
+  "Maintainer-confirmed restricted courses must reject new answer contributions");
+assert.equal((await blockedContribution.json()).code, "course_reviewability_restricted");
 
 assert.equal((await worker.fetch(
   reportRequest("GE6106", "installation-identifier-0004", true), env, { corsHeaders })).status, 400,
