@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:41:56Z",
-  "totalQuestions": 142,
+  "updatedAt": "2026-10-04T15:46:46Z",
+  "totalQuestions": 155,
   "tier": "verified",
   "questions": [
     {
@@ -25,13 +25,13 @@
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
-      "question": "[Image: [moodle-asset:382147/q.png]] Refer to the exhibit shown above. A certified network administrator is troubleshooting the four routers that are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
-      "answer": "All of the routers have an OSPFv3 interface priority of 0.",
+      "question": "[Image: [moodle-asset:382139/q.png]] As shown from the network diagram above, the command “show ipv6 route can be issued on router R2 to verify the propagation of static default router from R1 to R2\" Why is MD5 authentication is more secure than simple authentication of OSPF updates?",
+      "answer": "MD5 does not send the password to the neighbor router.",
       "choices": [
-        "a. The routers are using IPv6 link local addresses to communicate.",
-        "b. The routers are using IPv4 addresses for router IDs.",
-        "c. The network type has been set to BROADCAST instead of NBMA.",
-        "d. All of the routers have an OSPFv3 interface priority of 0."
+        "a. MD5 requires passwords that are at least 13 characters long.",
+        "b. MD5 does not send the password to the neighbor router.",
+        "c. MD5 employs IPsec to keep the updates from being intercepted.",
+        "d. MD5 uses both a username and a password to authenticate the neighbor."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -39,9 +39,50 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+    },
+    {
+      "question": "[Image: [moodle-asset:382144/q.png]] Refer to the test result above. These two routers are configured to run OSPFv3 but they are not forming a neighbor adjacency. What is the cause of the problem?",
+      "answer": "The routers are configured with the same router ID.",
+      "choices": [
+        "a. The routers are configured with the same router ID.",
+        "b. The routers have both been elected as the DR.",
+        "c. The routers have the same priority.",
+        "d. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+    },
+    {
+      "question": "[Image: [moodle-asset:382147/q.png]] Refer to the exhibit shown above. A certified network administrator is troubleshooting the four routers that are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
+      "answer": "All of the routers have an OSPFv3 interface priority of 0.",
+      "choices": [
+        "a. The routers are using IPv6 link local addresses to communicate.",
+        "b. The routers are using IPv4 addresses for router IDs.",
+        "c. The network type has been set to BROADCAST instead of NBMA.",
+        "d. All of the routers have an OSPFv3 interface priority of 0.",
+        "a. All of the routers have an OSPFv3 interface priority of 0.",
+        "b. The routers are using IPv6 link local addresses to communicate.",
+        "d. The routers are using IPv4 addresses for router IDs."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "[Image: [moodle-asset:382170/q.png]] Refer to the show command test result shown above. What is indicated by the O IA in the router output?",
@@ -61,6 +102,46 @@
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
+      "question": "[Image: [moodle-asset:382189/q.png]] Referring to the exhibit, the command “show ipv6 route can be issued on router R2 to verify the propagation of a static default router from R1 to R2\" As discussed in this chapter why is MD5 authentication is more secure than simple authentication of OSPF updates?a",
+      "answer": "MD5 does not send the password to the neighbor router.",
+      "choices": [
+        "a. MD5 does not send the password to the neighbor router.",
+        "b. MD5 employs IPsec to keep the updates from being intercepted.",
+        "c. MD5 uses both a username and a password to authenticate the neighbor.",
+        "d. MD5 requires passwords that are at least 8 characters long.",
+        "a. MD5 employs IPsec to keep the updates from being intercepted.",
+        "b. MD5 requires passwords that are at least 8 characters long.",
+        "d. MD5 does not send the password to the neighbor router."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "A CCIE network administrator is verifying a multi-area OSPF configuration by checking the routing table on a router in area 1. The administrator notices a route to a network that is connected to a router in area 2. Which code appears in front of this route in the routing table within area 1?",
+      "answer": "O IA",
+      "choices": [
+        "a. O",
+        "b. C",
+        "c. O IA",
+        "d. O E2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "A certified network administrator of RMS Company has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
@@ -254,17 +335,21 @@
         "a. The OSPFv2 process IDs on each router do not match.",
         "b. Ip addresses of the 2 serials are the same or conflict",
         "c. The subnet masks on the two connected serial interfaces do not match.",
-        "d. A clock rate has not been set on the DCE interface of the serial link."
+        "d. A clock rate has not been set on the DCE interface of the serial link.",
+        "a. Ip addresses of the 2 serials are the same or conflict",
+        "b. The OSPFv2 process IDs on each router do not match.",
+        "c. A clock rate has not been set on the DCE interface of the serial link.",
+        "d. The subnet masks on the two connected serial interfaces do not match."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "A network technician issues the following commands when configuring a router: R1(config)# router ospf 11 R1(config-router)# network 10.10.10.0 0.0.0.255 area 0 What does the number 11 represent?",
@@ -366,10 +451,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
@@ -589,6 +674,25 @@
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
+      "question": "As discussed in scaling networks what type of OSPF LSA is originated by ASBR routers to advertise external routes?",
+      "answer": "type 5",
+      "choices": [
+        "a. type 2",
+        "b. type 1",
+        "c. type 5",
+        "d. type 3"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+    },
+    {
       "question": "As discussed in this chapter which statement is true regarding OSPF multi-area adjacencies?",
       "answer": "One logical interface will be a primary link, and the other configured as a secondary link; the secondary link will be established as an unnumbered point-to-point interface.",
       "choices": [
@@ -626,6 +730,25 @@
       "lastVerifiedAt": "2026-10-04T15:16:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "As mentioned in chapter 6 type 3 LSA is required for every ________.",
+      "answer": "Subnet",
+      "choices": [
+        "a. Subnet",
+        "b. Backbone",
+        "c. Area",
+        "d. Router"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
@@ -870,6 +993,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "If all OSPF routers in a single area are configured with the same priority value, what value does a router use for the OSPF router ID in the absence of a loopback interface?",
+      "answer": "the highest IP address among its active interfaces",
+      "choices": [
+        "a. the lowest IP address among its active interfaces",
+        "b. the IP address of the console management interface",
+        "c. the IP address of the first Fast Ethernet interface",
+        "d. the highest IP address among its active interfaces"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+    },
+    {
       "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
       "answer": "Network edge routers",
       "choices": [
@@ -899,17 +1041,19 @@
         "a. Multi-area OSPF",
         "b. Single-area OSPF",
         "c. Rip v1",
-        "d. Rip v2"
+        "d. Rip v2",
+        "b. Rip v2",
+        "d. Single-area OSPF"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "If you want to disable STP on a port connected to a server, which command would you use?",
@@ -970,6 +1114,26 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-23T13:58:50Z",
       "lastVerifiedAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "In implementing OSPF authentication why is MD5 authentication more secure than simple authentication for OSPF updates?",
+      "answer": "MD5 does not send the password to the neighbor router.",
+      "choices": [
+        "a. MD5 uses both a username and a password to authenticate the neighbor.",
+        "b. MD5 employs IPsec to keep the updates from being intercepted.",
+        "c. MD5 requires passwords that are at least 8 characters long.",
+        "d. MD5 does not send the password to the neighbor router.",
+        "b. MD5 requires passwords that are at least 8 characters long.",
+        "c. MD5 employs IPsec to keep the updates from being intercepted."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1143,6 +1307,25 @@
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
     },
     {
+      "question": "In scaling networks what command pertains to propagating a default route?",
+      "answer": "Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
+      "choices": [
+        "a. Ip route 10.0.0.0 255.0.0.0 192.168.1.2",
+        "b. Ip route 10.0.0.0 0.0.0.255 Serial0",
+        "c. Ip route 192.0.0.0 255.0.0.0 192.168.1.2",
+        "d. Ip route 0.0.0.0 0.0.0.0 192.200.1.2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+    },
+    {
       "question": "In single-area OSPF concepts which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
       "answer": "administrative distance",
       "choices": [
@@ -1267,6 +1450,28 @@
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
+      "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
+      "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
+      "choices": [
+        "a. All serial interfaces default to a value of 1.544 Mb/s.",
+        "b. Each side of an OSPF serial link should be configured with a unique value.",
+        "c. OSPF uses the bandwidth value to compute routes for its routing table.",
+        "d. OSPF uses the bandwidth value to compute the router IDs",
+        "a. Each side of an OSPF serial link should be configured with a unique value.",
+        "b. OSPF uses the bandwidth value to compute the router IDs",
+        "c. All serial interfaces default to a value of 1.544 Mb/s.",
+        "d. OSPF uses the bandwidth value to compute routes for its routing table."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "In understanding concepts of OSPF which three statements describe the routing protocol OSPF? It supports VLSM. It is used to route between autonomous systems. It confines network instability to one area of the network. It increases routing overhead on the network. It allows extensive control of routing updates It is simpler to configure than RIPv2.",
@@ -1432,6 +1637,23 @@
       "questionType": "shortanswer"
     },
     {
+      "question": "OSPF type 2 LSA messages are only generated by the DR router to advertise routes in multiaccess networks.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+    },
+    {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
       "answer": "True",
       "choices": [
@@ -1473,17 +1695,21 @@
         "a. The priority value of both R1 and R2 is 1.",
         "b. The OSPFv3 process IDs of R1 and R2 are different.",
         "c. The timer intervals of R1 and R2 do not match.",
-        "d. The IPv6 addresses of R1 and R2 are not in the same subnet."
+        "d. The IPv6 addresses of R1 and R2 are not in the same subnet.",
+        "a. The IPv6 addresses of R1 and R2 are not in the same subnet.",
+        "b. The timer intervals of R1 and R2 do not match.",
+        "c. The priority value of both R1 and R2 is 1.",
+        "d. The OSPFv3 process IDs of R1 and R2 are different."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
@@ -1524,6 +1750,28 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T13:58:50Z",
       "lastVerifiedAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "The ABC Mining company network administrator has been asked to summarize the routes for a new OSPF area. The networks to be summarized are 172.16.8.0, 172.16.10.0, and 172.16.12.0 with subnet masks of 255.255.255.0 for each network. Which command should the administrator use to forward the summary route for area 15 into area 0?",
+      "answer": "network 172.16.8.0 0.0.7.255 area 15",
+      "choices": [
+        "a. network 172.16.8.0 0.0.7.255 area 0",
+        "b. network 172.16.8.0 0.0.0.7 area 15",
+        "c. network 172.16.8.0 0.0.7.255 area 15",
+        "d. network 172.16.8.0 0.0.0.7 area 0",
+        "a. network 172.16.8.0 0.0.0.7 area 0",
+        "b. network 172.16.8.0 0.0.7.255 area 15",
+        "c. network 172.16.8.0 0.0.0.7 area 15",
+        "d. network 172.16.8.0 0.0.7.255 area 0"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2470,17 +2718,20 @@
         "a. It has a core backbone area with other areas connected to the backbone area.",
         "b. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
         "c. It requires a three-layer hierarchical network design approach.",
-        "d. It consists of multiple network areas that are daisy-chained together."
+        "d. It consists of multiple network areas that are daisy-chained together.",
+        "a. It consists of multiple network areas that are daisy-chained together.",
+        "b. It has a core backbone area with other areas connected to the backbone area.",
+        "d. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "Which EIGRP parameter must match between all routers forming an EIGRP adjacency?",
@@ -2874,6 +3125,25 @@
       "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Which three steps in the design and implementation of a multiarea OSPF network are considered planning steps? (Choose a letter)",
+      "answer": "2, 4 & 5",
+      "choices": [
+        "a. 2, 4 & 5",
+        "b. 2, 4 & 6",
+        "c. 1 , 2 & 4",
+        "d. 2, 3 & 4"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:46:46Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
       "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation?",
