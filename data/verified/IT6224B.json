@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T14:59:31Z",
+  "updatedAt": "2026-10-04T15:00:11Z",
   "totalQuestions": 42,
   "tier": "verified",
   "questions": [
@@ -181,6 +181,10 @@
         {
           "answer": "b. False",
           "timestamp": "2026-09-25T09:35:34Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-04T15:00:11Z"
         }
       ],
       "isAiSuggestion": false,
@@ -218,12 +222,15 @@
         "c. Branch routers",
         "d. Modular routers",
         "a. Modular routers",
-        "d. Network edge routers"
+        "d. Network edge routers",
+        "a. Service provider routers",
+        "b. Branch routers",
+        "c. Modular routers"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -275,15 +282,20 @@
         "a. show ip route",
         "b. show interfaces",
         "c. show ip interface brief",
-        "d. show ip protocols"
+        "d. show ip protocols",
+        "a. show ip interface brief",
+        "b. show ip protocols",
+        "c. show interfaces",
+        "d. show ip route"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In networking term, port density refers to the number of ports available on a single switch.",
@@ -293,9 +305,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -324,15 +336,18 @@
         "a. Allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU",
         "b. Allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
         "c. Allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
-        "d. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops"
+        "d. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops",
+        "c. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops",
+        "d. Allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In today's current switch technology, Which statement describes a characteristic of Cisco Meraki switches?",
@@ -363,12 +378,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
@@ -482,15 +498,18 @@
         "a. The installation of only enterprise class equipment throughout the network",
         "b. The reduction in the number of redundant devices and connections in the network core",
         "c. The deployment of distribution layer switches in pairs and the division of access layer switch connections between them",
-        "d. The configuration of all access layer devices to share a single gateway"
+        "d. The configuration of all access layer devices to share a single gateway",
+        "a. The deployment of distribution layer switches in pairs and the division of access layer switch connections between them",
+        "c. The installation of only enterprise class equipment throughout the network"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-25T09:34:30Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP on a port only if the port receives LACP packets from another device?",
@@ -683,15 +702,20 @@
         "a. Dynamic routing implementation",
         "b. Implementing wireless connectivity",
         "c. Etherchannel implementation",
-        "d. Implementing redundancy"
+        "d. Implementing redundancy",
+        "a. Implementing redundancy",
+        "b. Etherchannel implementation",
+        "c. Dynamic routing implementation",
+        "d. Implementing wireless connectivity"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which network design solution below in the current technology today will extend access layer connectivity to user devices?",
@@ -702,12 +726,15 @@
         "c. Wireless connectivity implementation",
         "d. Redundancy implementation",
         "c. Redundancy implementation",
-        "d. Wireless connectivity implementation"
+        "d. Wireless connectivity implementation",
+        "a. Redundancy implementation",
+        "b. Routing protocol implementation",
+        "c. Implementing etherChannel implementation"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -756,12 +783,15 @@
         "d. To display line status and other information about directly connected Cisco devices",
         "a. To display routing table and other information about directly connected Cisco devices",
         "c. To display line status and other information about directly connected Cisco devices",
-        "d. To display router ID and other information about OSPF neighbors"
+        "d. To display router ID and other information about OSPF neighbors",
+        "b. To display line status and other information about directly connected Cisco devices",
+        "c. To display device ID and other information about directly connected Cisco devices",
+        "d. To display routing table and other information about directly connected Cisco devices"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "lastVerifiedAt": "2026-10-04T15:00:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
