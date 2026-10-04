@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:16:41Z",
+  "updatedAt": "2026-10-04T11:16:57Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -10,13 +10,18 @@
       "choices": [
         "Suggested (Verified DB): Security Templates Fill"
       ],
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "Group Policy"
+      ],
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
       "lastVerifiedAt": "2026-09-24T14:00:49Z",
-      "source": "review_screen"
+      "source": "review_screen",
+      "wrongAnswerEvidence": true,
+      "questionType": "shortanswer",
+      "lastEvidenceAt": "2026-10-04T11:16:57Z"
     },
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
@@ -390,13 +395,18 @@
       "choices": [
         "Suggested (Verified DB): Services running Fill"
       ],
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "Server hardening"
+      ],
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
       "lastVerifiedAt": "2026-09-24T14:00:49Z",
-      "source": "review_screen"
+      "source": "review_screen",
+      "wrongAnswerEvidence": true,
+      "questionType": "shortanswer",
+      "lastEvidenceAt": "2026-10-04T11:16:57Z"
     },
     {
       "question": "It ensures that the information in an information system is accurate.",
@@ -611,15 +621,24 @@
         "a. Configuration Baseline",
         "b. File System",
         "c. Security baseline",
-        "d. Security"
+        "d. Security",
+        "a. File System",
+        "b. Security",
+        "c. Configuration Baseline",
+        "d. Security baseline"
       ],
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "Configuration Baseline"
+      ],
       "verified": false,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-09-23T14:39:58Z",
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-04T11:16:57Z"
     },
     {
       "question": "It is a structured procedure for taking care of any security incidents, breaches, and network threats.",
