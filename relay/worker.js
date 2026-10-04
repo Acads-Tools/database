@@ -1005,6 +1005,95 @@ async function handleTelemetryStats(request, env, corsHeaders) {
   }
 }
 
+const COURSE_REVIEWABILITY_WINDOW_MS = 90 * 24 * 60 * 60 * 1000;
+const COURSE_REVIEWABILITY_MIN_REPORTS = 3;
+
+async function handleCourseReviewabilityReport(request, env, corsHeaders) {
+  if (!env.DB) {
+    return jsonResponse({ error: "Course reviewability reporting is not configured" }, 503, corsHeaders);
+  }
+
+  let payload;
+  try {
+    const body = await request.text();
+    if (body.length > 1_024) return jsonResponse({ error: "Request is too large" }, 413, corsHeaders);
+    payload = JSON.parse(body);
+  } catch (_) {
+    return jsonResponse({ error: "Invalid JSON request" }, 400, corsHeaders);
+  }
+
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
+    return jsonResponse({ error: "Invalid report payload" }, 400, corsHeaders);
+  }
+  const subjectCode = String(payload.subjectCode || "").trim().toUpperCase();
+  const installationId = request.headers.get("X-AMAES-Installation") || "";
+  if (!/^[A-Z0-9_-]{2,16}$/.test(subjectCode) ||
+      payload.reviewPermitted !== false ||
+      !/^[A-Za-z0-9_-]{16,128}$/.test(installationId)) {
+    return jsonResponse({ error: "A course code, explicit restricted-review result, and anonymous installation ID are required" }, 400, corsHeaders);
+  }
+
+  try {
+    await env.DB.prepare(`CREATE TABLE IF NOT EXISTS course_reviewability_reports (
+      installation_hash TEXT NOT NULL,
+      subject_code TEXT NOT NULL,
+      reported_at INTEGER NOT NULL,
+      PRIMARY KEY (installation_hash, subject_code)
+    )`).run();
+    const installationHash = await hashOwnerToken(installationId);
+    const now = Date.now();
+    await env.DB.prepare(`INSERT INTO course_reviewability_reports (installation_hash, subject_code, reported_at)
+      VALUES (?, ?, ?)
+      ON CONFLICT(installation_hash, subject_code) DO UPDATE SET reported_at = excluded.reported_at
+      WHERE course_reviewability_reports.reported_at < ?`).bind(
+      installationHash, subjectCode, now, now - COURSE_REVIEWABILITY_WINDOW_MS
+    ).run();
+    return jsonResponse({ success: true }, 202, corsHeaders);
+  } catch (_) {
+    return jsonResponse({ error: "Course reviewability report could not be saved" }, 503, corsHeaders);
+  }
+}
+
+async function handleCourseReviewabilityStatus(request, env, corsHeaders) {
+  if (!env.DB) {
+    return jsonResponse({ error: "Course reviewability status is not configured" }, 503, corsHeaders);
+  }
+  const subjectCode = String(new URL(request.url).searchParams.get("subjectCode") || "").trim().toUpperCase();
+  if (!/^[A-Z0-9_-]{2,16}$/.test(subjectCode)) {
+    return jsonResponse({ error: "A valid course code is required" }, 400, corsHeaders);
+  }
+
+  try {
+    await env.DB.prepare(`CREATE TABLE IF NOT EXISTS course_reviewability_reports (
+      installation_hash TEXT NOT NULL,
+      subject_code TEXT NOT NULL,
+      reported_at INTEGER NOT NULL,
+      PRIMARY KEY (installation_hash, subject_code)
+    )`).run();
+    const now = Date.now();
+    const result = await env.DB.prepare(`SELECT COUNT(*) AS report_count, MAX(reported_at) AS last_reported_at
+      FROM course_reviewability_reports
+      WHERE subject_code = ? AND reported_at >= ?`).bind(
+      subjectCode, now - COURSE_REVIEWABILITY_WINDOW_MS
+    ).first();
+    const reportCount = Number(result && result.report_count) || 0;
+    const lastReportedAt = Number(result && result.last_reported_at) || null;
+    return new Response(JSON.stringify({
+      subjectCode,
+      status: reportCount >= COURSE_REVIEWABILITY_MIN_REPORTS ? "restricted-reported" : "unknown",
+      reportCount,
+      threshold: COURSE_REVIEWABILITY_MIN_REPORTS,
+      windowDays: 90,
+      lastReportedAt
+    }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "no-store" }
+    });
+  } catch (_) {
+    return jsonResponse({ error: "Course reviewability status could not be read" }, 503, corsHeaders);
+  }
+}
+
 async function handleStudyGuideRefreshRequest(request, env, corsHeaders) {
   if (!env.DB || !env.GITHUB_BOT_TOKEN) {
     return jsonResponse({ error: "Study-guide refresh queue is not configured" }, 503, corsHeaders);
@@ -1143,6 +1232,14 @@ export default {
 
     if (request.method === "POST" && path === "/study-guides/refresh") {
       return handleStudyGuideRefreshRequest(request, env, corsHeaders);
+    }
+
+    if (request.method === "POST" && path === "/course-reviewability/report") {
+      return handleCourseReviewabilityReport(request, env, corsHeaders);
+    }
+
+    if (request.method === "GET" && path === "/course-reviewability") {
+      return handleCourseReviewabilityStatus(request, env, corsHeaders);
     }
 
     if (request.method === "POST" && path === "/keys/register") {
@@ -1295,6 +1392,8 @@ export default {
             contributorActivity: "POST /keys/activity",
             unknownQuestion: "POST /unknown-question",
             studyGuideRefresh: "POST /study-guides/refresh",
+            courseReviewabilityReport: "POST /course-reviewability/report",
+            courseReviewabilityStatus: "GET /course-reviewability?subjectCode=CS6204",
             bugReport: "POST /report-bug"
           }
         }, null, 2), {

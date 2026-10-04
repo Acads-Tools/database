@@ -46,6 +46,7 @@ jobs:
           python -m unittest discover -s tests -p 'test_refresh_study_guides.py'
           node relay/test_study_guide_refresh.mjs
           node relay/test_contributor_sharing.mjs
+          node relay/test_course_reviewability.mjs
 
       - name: Refresh requested course sources
         env:
