@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:10:22Z",
+  "updatedAt": "2026-10-04T15:12:44Z",
   "totalQuestions": 134,
   "questions": [
     {
@@ -84,14 +84,15 @@
         "c. The EtherChannel fails.",
         "d. The remaining two interfaces continue to load balance traffic.",
         "b. The EtherChannel fails.",
-        "d. The remaining two interfaces become separate links between the two switches."
+        "d. The remaining two interfaces become separate links between the two switches.",
+        "b. The remaining two interfaces continue to load balance traffic."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -140,14 +141,16 @@
         "b. HSRP uses active and standby routers.",
         "c. HSRP is nonproprietary.",
         "a. HSRP uses active and standby routers.",
-        "c. It allows load balancing between a group of redundant routers."
+        "c. It allows load balancing between a group of redundant routers.",
+        "c. It uses ICMP messages in order to assign the default gateway to hosts.",
+        "d. HSRP is nonproprietary."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -167,14 +170,15 @@
         "c. GLBP allows load balancing between routers.",
         "d. It is nonproprietary.",
         "a. It is nonproprietary.",
-        "b. GLBP allows load balancing between routers."
+        "b. GLBP allows load balancing between routers.",
+        "d. It uses a virtual router master."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -366,9 +370,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -504,14 +508,16 @@
         "b. providing redundant links that dynamically block or forward traffic",
         "c. grouping multiple physical ports to increase bandwidth between two switches",
         "d. providing redundant devices to allow traffic to flow in the event of device failure",
-        "c. providing redundant links that dynamically block or forward traffic"
+        "c. providing redundant links that dynamically block or forward traffic",
+        "a. providing redundant devices to allow traffic to flow in the event of device failure",
+        "b. grouping two devices to share a virtual IP address"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1551,7 +1557,8 @@
         "b. It requires Telnet, SSH, or HTTP to access a Cisco device.",
         "c. It requires at least one network interface on the device to be connected and operational.",
         "d. Out-of-band device management requires a direct connection to a network interface.",
-        "d. It requires Telnet, SSH, or HTTP to access a Cisco device."
+        "d. It requires Telnet, SSH, or HTTP to access a Cisco device.",
+        "a. Out-of-band device management requires a direct connection to a network interface."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1565,7 +1572,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-04T15:06:39Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-04T15:10:22Z"
+      "lastEvidenceAt": "2026-10-04T15:12:44Z"
     },
     {
       "question": "What is a disadvantage of using EIGRP automatic summarization?",
@@ -1597,14 +1604,15 @@
         "c. designing a network to use multiple paths between switches to ensure there is no single point of failure",
         "a. configuring a switch with proper security to ensure that all traffic forwarded through an interface is filtered",
         "d. configuring a router with a complete MAC address database to ensure that all frames can be forwarded to the correct destination",
-        "a. designing a network to use multiple virtual devices to ensure that all traffic uses the best path through the internetwork"
+        "a. designing a network to use multiple virtual devices to ensure that all traffic uses the best path through the internetwork",
+        "d. designing a network to use multiple paths between switches to ensure there is no single point of failure"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1622,14 +1630,15 @@
         "d. Replace the cables on failed STP links.",
         "b. Replace all instances of STP with RSTP.",
         "c. Replace the cables on failed STP links.",
-        "d. Insert redundant links to replace the failed STP links."
+        "d. Insert redundant links to replace the failed STP links.",
+        "b. Manually remove redundant links in the switched network."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1662,14 +1671,18 @@
         "b. allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops",
         "d. allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
         "c. allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU",
-        "d. allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links"
+        "d. allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
+        "a. allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops",
+        "b. allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
+        "c. allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
+        "d. allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1796,14 +1809,15 @@
         "b. desirable",
         "c. auto",
         "d. passive",
-        "d. desirable"
+        "d. desirable",
+        "b. auto"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1820,14 +1834,16 @@
         "d. on",
         "a. auto",
         "c. on",
-        "c. desirable"
+        "c. desirable",
+        "c. active",
+        "d. desirable"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1845,14 +1861,15 @@
         "d. loopback",
         "a. VLAN interface",
         "b. interface range",
-        "c. port channel"
+        "c. port channel",
+        "a. loopback"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1888,14 +1905,15 @@
         "c. blocking",
         "d. listening",
         "b. listening",
-        "d. blocking"
+        "d. blocking",
+        "a. disabled"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2003,9 +2021,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2064,14 +2082,16 @@
         "a. RSTP",
         "c. MSTP",
         "d. Rapid PVST+",
-        "e. PVST+"
+        "e. PVST+",
+        "a. MSTP",
+        "b. RSTP"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2126,14 +2146,18 @@
         "e. SW1: auto SW2: auto PortFast enabled on both switches",
         "c. SW1: passive SW2: active",
         "d. SW1: on SW2: on",
-        "e. SW1: auto SW2: auto trunking enabled on both switches"
+        "e. SW1: auto SW2: auto trunking enabled on both switches",
+        "a. SW1: auto SW2: auto trunking enabled on both switches",
+        "b. SW1: auto SW2: auto PortFast enabled on both switches",
+        "d. SW1: passive SW2: active",
+        "e. SW1: desirable SW2: desirable"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2201,9 +2225,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2281,9 +2305,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2304,9 +2328,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2358,14 +2382,16 @@
         "d. designated port",
         "a. alternate",
         "c. disabled port",
-        "d. root port"
+        "d. root port",
+        "b. root port",
+        "c. designated port"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-04T15:10:22Z",
+      "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
