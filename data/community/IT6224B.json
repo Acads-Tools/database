@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:00:53Z",
-  "totalQuestions": 129,
+  "updatedAt": "2026-10-04T15:04:31Z",
+  "totalQuestions": 133,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -244,6 +244,23 @@
       "source": "community_contribution"
     },
     {
+      "question": "A protocol that allows multiple vlans to run in a single spanning-tree instance is called Rapid PVST.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
+    },
+    {
       "question": "A router is running an EIGRP process and obtaining updates from other routers. What is an indication within the routing table that a route is a candidate for a default route?",
       "answer": "*",
       "choices": [
@@ -361,15 +378,20 @@
         "a. HSRP",
         "b. ICMP",
         "c. IRDP",
-        "d. STP"
+        "d. STP",
+        "a. ICMP",
+        "b. STP",
+        "c. HSRP",
+        "d. IRDP"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-09-23T14:44:45Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "An administrator is troubleshooting a switch and wants to verify if it is a root bridge. What command can be used to do this?",
@@ -661,15 +683,18 @@
         "a. spanning-tree portfast",
         "b. disable spanning-tree",
         "c. spanning-tree off",
-        "d. spanning-tree security"
+        "d. spanning-tree security",
+        "b. spanning-tree security",
+        "d. disable spanning-tree"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-09-23T14:44:45Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "In implementing EtherChannel technology, which PAgP mode combination will establish an EtherChannel?",
@@ -1171,12 +1196,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-09-23T14:44:45Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The network engineer of Stark Industries has manually configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?",
@@ -1313,6 +1339,23 @@
       "firstSeenAt": "2026-09-23T14:45:38Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "The spanning-tree mode rapid-pvst global configuration command is used to enable Rapid PVST+.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
     },
     {
       "question": "The wildcard mask that is used to advertise exactly the network 192.168.160.0 with subnet mask 255.255.240.0 is [____: 0.0.15.255]",
@@ -1541,6 +1584,25 @@
       "firstSeenAt": "2026-09-23T14:38:50Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "What is the purpose of Spanning Tree Protocol in a switched LAN as discussed in this chapter?",
+      "answer": "To prevent switching loops in networks with redundant switched paths",
+      "choices": [
+        "a. To prevent switching loops in networks with redundant switched paths",
+        "b. To manage the VLAN database across multiple switches",
+        "c. To prevent routing loops in networks with redundant paths",
+        "d. To provide a mechanism for network monitoring in switched environments"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
     },
     {
       "question": "What is the purpose of the EIGRP Null0 summary route?",
@@ -1998,15 +2060,18 @@
         "a. STP",
         "b. VTP",
         "c. PORTFAST",
-        "d. CDP"
+        "d. CDP",
+        "c. CDP",
+        "d. PORTFAST"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-09-23T14:44:45Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following statement is true?",
@@ -2015,15 +2080,20 @@
         "a. A switch creates separate collision domains and separate broadcast domains. A router provides separate collision domains.",
         "b. A switch creates a single collision domain and separate broadcast domains. A router provides a separate broadcast domain as well.",
         "c. A switch creates a single collision domain and a single broadcast domain. A router creates a single collision domain.",
-        "d. A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain."
+        "d. A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.",
+        "a. A switch creates a single collision domain and a single broadcast domain. A router creates a single collision domain.",
+        "b. A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.",
+        "c. A switch creates separate collision domains and separate broadcast domains. A router provides separate collision domains.",
+        "d. A switch creates a single collision domain and separate broadcast domains. A router provides a separate broadcast domain as well."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-09-23T14:44:45Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which OPSF packet contains the different types of link-state advertisements?",
@@ -2126,6 +2196,25 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation?",
+      "answer": "redundant links between Layer 2 switches & removing single point of failure with multiple Layer 2 switches",
+      "choices": [
+        "a. link-state dynamic routing that provides redundant routes & static default routes",
+        "b. redundant links between Layer 2 switches & removing single point of failure with multiple Layer 2 switches",
+        "c. static default routes & implementing VLANs to contain broadcasts",
+        "d. implementing VLANs to contain broadcasts & redundant links between Layer 2 switches"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
+    },
+    {
       "question": "Which type of routing table entry would indicate that an external route was redistributed into the multiarea OSPF process?",
       "answer": "O E2",
       "choices": [
@@ -2209,15 +2298,19 @@
         "a. Switch# spanning-tree mode 802.1w",
         "b. Switch# spanning-tree mode rapid-pvst",
         "c. Switch(config)# spanning-tree mode 802.1w",
-        "d. Switch(config)# spanning-tree mode rapid-pvst"
+        "d. Switch(config)# spanning-tree mode rapid-pvst",
+        "a. Switch(config)# spanning-tree mode rapid-pvst",
+        "b. Switch# spanning-tree mode 802.1w",
+        "d. Switch# spanning-tree mode rapid-pvst"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-09-23T14:44:45Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     }
   ]
 }

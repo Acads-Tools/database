@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:00:53Z",
-  "totalQuestions": 42,
+  "updatedAt": "2026-10-04T15:04:31Z",
+  "totalQuestions": 52,
   "tier": "verified",
   "questions": [
     {
@@ -77,6 +77,23 @@
       "questionType": "multichoice"
     },
     {
+      "question": "A protocol that allows multiple vlans to run in a single spanning-tree instance is called Rapid PVST.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
+    },
+    {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
       "answer": "True",
       "choices": [
@@ -124,6 +141,28 @@
       "firstSeenAt": "2026-09-23T14:38:50Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "Among the choices below, which protocol specified by RFC 2281 provides network redundancy for IP networks, ensuring that user traffic immediately and transparently recovers from first-hop failures in network edge devices or access circuits?",
+      "answer": "HSRP",
+      "choices": [
+        "a. HSRP",
+        "b. ICMP",
+        "c. IRDP",
+        "d. STP",
+        "a. ICMP",
+        "b. STP",
+        "c. HSRP",
+        "d. IRDP"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
@@ -234,6 +273,26 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
+      "questionType": "multichoice"
+    },
+    {
+      "question": "If you want to disable STP on a port connected to a server, which command would you use?",
+      "answer": "spanning-tree portfast",
+      "choices": [
+        "a. spanning-tree portfast",
+        "b. disable spanning-tree",
+        "c. spanning-tree off",
+        "d. spanning-tree security",
+        "b. spanning-tree security",
+        "d. disable spanning-tree"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
       "questionType": "multichoice"
     },
     {
@@ -406,6 +465,39 @@
       "source": "community_contribution"
     },
     {
+      "question": "The legacy standard for STP that runs all VLANs in a single spanning-tree instance is called MSTP.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "The spanning-tree mode rapid-pvst global configuration command is used to enable Rapid PVST+.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
+    },
+    {
       "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
       "answer": "Link aggregation",
       "choices": [
@@ -472,6 +564,25 @@
       "firstSeenAt": "2026-09-23T14:38:50Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "What is the purpose of Spanning Tree Protocol in a switched LAN as discussed in this chapter?",
+      "answer": "To prevent switching loops in networks with redundant switched paths",
+      "choices": [
+        "a. To prevent switching loops in networks with redundant switched paths",
+        "b. To manage the VLAN database across multiple switches",
+        "c. To prevent routing loops in networks with redundant paths",
+        "d. To provide a mechanism for network monitoring in switched environments"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
     },
     {
       "question": "What is the useof in-band device management and how it is done?",
@@ -769,6 +880,48 @@
       "source": "community_contribution"
     },
     {
+      "question": "Which of the following is a layer 2 protocol used to maintain a loop-free network?",
+      "answer": "STP",
+      "choices": [
+        "a. STP",
+        "b. VTP",
+        "c. PORTFAST",
+        "d. CDP",
+        "c. CDP",
+        "d. PORTFAST"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Which of the following statement is true?",
+      "answer": "A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.",
+      "choices": [
+        "a. A switch creates separate collision domains and separate broadcast domains. A router provides separate collision domains.",
+        "b. A switch creates a single collision domain and separate broadcast domains. A router provides a separate broadcast domain as well.",
+        "c. A switch creates a single collision domain and a single broadcast domain. A router creates a single collision domain.",
+        "d. A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.",
+        "a. A switch creates a single collision domain and a single broadcast domain. A router creates a single collision domain.",
+        "b. A switch creates separate collision domains but one broadcast domain. A router provides a separate broadcast domain.",
+        "c. A switch creates separate collision domains and separate broadcast domains. A router provides separate collision domains.",
+        "d. A switch creates a single collision domain and separate broadcast domains. A router provides a separate broadcast domain as well."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "Which PAgP mode forces the interface to channel without PAgP?",
       "answer": "On",
       "choices": [
@@ -783,6 +936,25 @@
       "firstSeenAt": "2026-09-23T14:38:50Z",
       "lastVerifiedAt": "2026-09-23T14:45:38Z",
       "source": "community_contribution"
+    },
+    {
+      "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation?",
+      "answer": "redundant links between Layer 2 switches & removing single point of failure with multiple Layer 2 switches",
+      "choices": [
+        "a. link-state dynamic routing that provides redundant routes & static default routes",
+        "b. redundant links between Layer 2 switches & removing single point of failure with multiple Layer 2 switches",
+        "c. static default routes & implementing VLANs to contain broadcasts",
+        "d. implementing VLANs to contain broadcasts & redundant links between Layer 2 switches"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z"
     },
     {
       "question": "Why would a network administrator of RMS Defence Contractor company issue the show cdp neigbors command on a router especially if a network problem occurs?",
@@ -807,6 +979,27 @@
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
+      "questionType": "multichoice"
+    },
+    {
+      "question": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
+      "answer": "Switch(config)# spanning-tree mode rapid-pvst",
+      "choices": [
+        "a. Switch# spanning-tree mode 802.1w",
+        "b. Switch# spanning-tree mode rapid-pvst",
+        "c. Switch(config)# spanning-tree mode 802.1w",
+        "d. Switch(config)# spanning-tree mode rapid-pvst",
+        "a. Switch(config)# spanning-tree mode rapid-pvst",
+        "b. Switch# spanning-tree mode 802.1w",
+        "d. Switch# spanning-tree mode rapid-pvst"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "source": "review_screen",
       "questionType": "multichoice"
     }
   ]
