@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-10-04T14:19:07Z",
+  "updatedAt": "2026-10-04T14:25:48Z",
   "totalQuestions": 109,
   "tier": "verified",
   "questions": [
@@ -326,12 +326,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "An architectural style represents a family of related systems",
@@ -340,15 +341,19 @@
         "a. Properties",
         "b. Style",
         "c. System",
-        "d. Connectors"
+        "d. Connectors",
+        "a. Connectors",
+        "b. Properties",
+        "d. Style"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Are more complex in that they group people in two different ways: by the function they perform and by the product team they are working with.",
@@ -438,15 +443,19 @@
         "a. Constraints",
         "b. Style",
         "c. System",
-        "d. Post"
+        "d. Post",
+        "b. System",
+        "c. Post",
+        "d. Style"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Data flow or control flow diagrams",
@@ -585,15 +594,18 @@
         "a. System",
         "b. Properties",
         "c. Use Case",
-        "d. Style"
+        "d. Style",
+        "b. Use Case",
+        "c. Properties"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Description of the steps taken to carry out the use case",
@@ -602,15 +614,20 @@
         "a. Scenarios Diagram",
         "b. Constraint",
         "c. Activity Diagram",
-        "d. Scenarios"
+        "d. Scenarios",
+        "a. Activity Diagram",
+        "b. Scenarios Diagram",
+        "c. Scenarios",
+        "d. Constraint"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Description of the system output by architectural design",
@@ -746,9 +763,14 @@
         {
           "answer": "True",
           "timestamp": "2026-09-29T15:23:16Z"
+        },
+        {
+          "answer": "True",
+          "timestamp": "2026-10-04T14:25:48Z"
         }
       ],
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice"
     },
     {
       "question": "Ensures that specific hardware/software components fit together smoothly in a stated configuration",
@@ -772,15 +794,19 @@
         "a. Properties",
         "b. Components",
         "c. System",
-        "d. Connectors"
+        "d. Connectors",
+        "b. Connectors",
+        "c. Components",
+        "d. System"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Identified subsystems decomposed into modules",
@@ -878,15 +904,19 @@
         "a. Style",
         "b. Sequence Diagram",
         "c. Use Case Model",
-        "d. Scenarios Diagram"
+        "d. Scenarios Diagram",
+        "a. Use Case Model",
+        "b. Style",
+        "c. Sequence Diagram"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Is essential to the development of large, complex engineered systems.",
@@ -1032,15 +1062,19 @@
         "a. Constraints",
         "b. Sequence Diagram",
         "c. Activity Diagram",
-        "d. Scenario Diagram"
+        "d. Scenario Diagram",
+        "a. Sequence Diagram",
+        "b. Scenario Diagram",
+        "d. Constraints"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is assumed that, translation from human needs to final design invariably involves the experience, intuition, skill, and creativity of the designer or design team.",
@@ -1109,15 +1143,19 @@
         "a. Components",
         "b. Properties",
         "c. System",
-        "d. Connectors"
+        "d. Connectors",
+        "a. Properties",
+        "b. System",
+        "c. Components"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Model of control relationships among system components is established",
@@ -1234,15 +1272,20 @@
         "a. System",
         "b. Connectors",
         "c. Properties",
-        "d. Components"
+        "d. Components",
+        "a. Properties",
+        "b. Components",
+        "c. System",
+        "d. Connectors"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Requires the coordination of preexisting and coexisting system components with newly developed ones",
@@ -1268,15 +1311,19 @@
         "a. Sequence Diagram",
         "b. Scenarios Diagram",
         "c. Style",
-        "d. Use Case Model"
+        "d. Use Case Model",
+        "a. Use Case Model",
+        "c. Sequence Diagram",
+        "d. Style"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Shows major system components",
@@ -1401,15 +1448,20 @@
         "a. Connectors",
         "b. Style",
         "c. Components",
-        "d. System"
+        "d. System",
+        "a. Components",
+        "b. Connectors",
+        "c. System",
+        "d. Style"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The concept of the design is understood to involve: finally, the selection, implementation, and testing of the most preferred alternative",
@@ -1481,12 +1533,13 @@
         "d. Components"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The fundamental organization of a system embodied in its components, their relationships to each other and to the environment and the principles guiding its design and evolution",
@@ -1495,15 +1548,19 @@
         "a. Architecture",
         "b. Connectors",
         "c. System Architecture",
-        "d. Components"
+        "d. Components",
+        "a. System Architecture",
+        "c. Components",
+        "d. Architecture"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The organizational structure of a system of CSCIs, identifying its components, their interfaces and a concept of execution among them",
@@ -1512,15 +1569,20 @@
         "a. Architecture",
         "b. Connectors",
         "c. Systems",
-        "d. Properties"
+        "d. Properties",
+        "a. Properties",
+        "b. Systems",
+        "c. Connectors",
+        "d. Architecture"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The ranking of design alternatives and the ultimate selection of the most preferred design involves the selection of the best parameterization of the best conceptual design.",
@@ -1558,15 +1620,19 @@
       "choices": [
         "a. Synthesis Phase",
         "b. Evaluation Phase",
-        "c. Analysis Phase"
+        "c. Analysis Phase",
+        "a. Evaluation Phase",
+        "b. Analysis Phase",
+        "c. Synthesis Phase"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The static representatives of the functional and physical",
@@ -1575,15 +1641,19 @@
         "a. Analysis Phase",
         "b. Synthesis Phase",
         "c. Evaluation Phase",
-        "d. System"
+        "d. System",
+        "a. Evaluation Phase",
+        "c. System",
+        "d. Analysis Phase"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The teams are put together based on the number of members needed to produce the product or complete the project.",
@@ -1630,12 +1700,13 @@
       "answer": "Architecture",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T06:37:55Z",
-      "lastVerifiedAt": "2026-09-29T15:23:16Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "These are the formal rules an limitations that a use case operates under, and includes pre-post and invariant conditions.",
@@ -1644,15 +1715,18 @@
         "a. Post",
         "b. Contraints",
         "c. Sequence Diagram",
-        "d. Activity Diagram"
+        "d. Activity Diagram",
+        "b. Sequence Diagram",
+        "c. Contraints"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "lastVerifiedAt": "2026-10-04T14:25:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "These design concepts need to be converted into detailed designs for all components and subsystems.",
