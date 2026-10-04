@@ -11,7 +11,7 @@
  */
 
 const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
-const LATEST_VERSION = "1.11.1";
+const LATEST_VERSION = "1.11.9";
 const SHARED_POOL_WINDOW_MS = 60_000;
 const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 1;
 const SHARED_POOL_MAX_REQUESTS_GLOBAL = 20;
@@ -27,6 +27,7 @@ const CONTRIBUTOR_KEY_DAILY_LIMIT = 20;
 const COMMUNITY_KEY_DAILY_LIMIT = 10;
 const CONTRIBUTOR_MAX_IN_FLIGHT_PER_KEY = 1;
 const CONTRIBUTOR_MAX_PROMPT_LENGTH = 12_000;
+const ACCOUNT_TRANSFER_MAX_BODY_BYTES = 90 * 1024;
 const sharedPoolState = {
   windowStartedAt: 0,
   globalRequests: 0,
@@ -39,6 +40,118 @@ function jsonResponse(body, status, corsHeaders) {
     status,
     headers: { ...corsHeaders, "Content-Type": "application/json" }
   });
+}
+
+async function readBoundedJson(request, maxBytes) {
+  const contentLength = Number(request.headers.get("Content-Length") || 0);
+  if (contentLength > maxBytes) return { tooLarge: true };
+  if (!request.body) return { payload: null };
+  const reader = request.body.getReader();
+  const chunks = [];
+  let total = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > maxBytes) {
+      await reader.cancel();
+      return { tooLarge: true };
+    }
+    chunks.push(value);
+  }
+  const body = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) {
+    body.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+  try {
+    return { payload: JSON.parse(new TextDecoder().decode(body)) };
+  } catch (_) {
+    return { invalidJson: true };
+  }
+}
+
+async function handleAccountTransfer(request, env, corsHeaders, action) {
+  if (!env.DB) return jsonResponse({ error: "Secure transfer is not configured" }, 503, corsHeaders);
+  const parsed = await readBoundedJson(request, ACCOUNT_TRANSFER_MAX_BODY_BYTES);
+  if (parsed.tooLarge) return jsonResponse({ error: "Transfer request is too large" }, 413, corsHeaders);
+  if (parsed.invalidJson || !parsed.payload || typeof parsed.payload !== "object" || Array.isArray(parsed.payload)) {
+    return jsonResponse({ error: "Invalid transfer request" }, 400, corsHeaders);
+  }
+  const payload = parsed.payload;
+  if (!/^[A-Za-z0-9_-]{43}$/.test(payload.lookupHash || "")) {
+    return jsonResponse({ error: "Invalid transfer request" }, 400, corsHeaders);
+  }
+  if (action === "create") {
+    if (Object.keys(payload).some(key => !["lookupHash", "iv", "ciphertext"].includes(key)) ||
+        !/^[A-Za-z0-9_-]{16}$/.test(payload.iv || "") ||
+        typeof payload.ciphertext !== "string" ||
+        payload.ciphertext.length < 22 || payload.ciphertext.length > 87_403 ||
+        !/^[A-Za-z0-9_-]+$/.test(payload.ciphertext)) {
+      return jsonResponse({ error: "Invalid encrypted transfer data" }, 400, corsHeaders);
+    }
+  } else if (Object.keys(payload).some(key => key !== "lookupHash")) {
+    return jsonResponse({ error: "Invalid transfer request" }, 400, corsHeaders);
+  }
+
+  const now = Date.now();
+  const installationId = request.headers.get("X-AMAES-Installation") || "";
+  if (!/^[A-Za-z0-9_-]{16,128}$/.test(installationId)) {
+    return jsonResponse({ error: "A valid anonymous installation ID is required" }, 400, corsHeaders);
+  }
+  try {
+    await env.DB.prepare(`CREATE TABLE IF NOT EXISTS account_transfers (
+      lookup_hash TEXT PRIMARY KEY,
+      iv TEXT NOT NULL,
+      ciphertext TEXT NOT NULL
+    )`).run();
+    await env.DB.prepare(`CREATE TABLE IF NOT EXISTS account_transfer_requests (
+      installation_hash TEXT NOT NULL,
+      action TEXT NOT NULL,
+      requested_at INTEGER NOT NULL
+    )`).run();
+    await env.DB.prepare(
+      "CREATE INDEX IF NOT EXISTS idx_account_transfer_requests_rate ON account_transfer_requests(installation_hash, action, requested_at)"
+    ).run();
+    await env.DB.prepare(
+      "CREATE INDEX IF NOT EXISTS idx_account_transfer_requests_expiry ON account_transfer_requests(requested_at)"
+    ).run();
+    const installationHash = await hashOwnerToken(installationId);
+    const limit = action === "create" ? 3 : 10;
+    const windowMs = action === "create" ? 60 * 60 * 1000 : 60 * 1000;
+    await env.DB.prepare(
+      "DELETE FROM account_transfer_requests WHERE requested_at < ?"
+    ).bind(now - 24 * 60 * 60 * 1000).run();
+    const recent = await env.DB.prepare(
+      "SELECT COUNT(*) AS request_count FROM account_transfer_requests WHERE installation_hash = ? AND action = ? AND requested_at > ?"
+    ).bind(installationHash, action, now - windowMs).first();
+    if (Number(recent?.request_count || 0) >= limit) {
+      return jsonResponse({ error: "Too many secure transfer requests. Try again later." }, 429, corsHeaders);
+    }
+    await env.DB.prepare(
+      "INSERT INTO account_transfer_requests (installation_hash, action, requested_at) VALUES (?, ?, ?)"
+    ).bind(installationHash, action, now).run();
+
+    if (action === "create") {
+      await env.DB.prepare(
+        "INSERT INTO account_transfers (lookup_hash, iv, ciphertext) VALUES (?, ?, ?)"
+      ).bind(payload.lookupHash, payload.iv, payload.ciphertext).run();
+      return jsonResponse({ success: true }, 201, corsHeaders);
+    }
+
+    const consumed = await env.DB.prepare(
+      `DELETE FROM account_transfers
+       WHERE lookup_hash = ?
+       RETURNING iv, ciphertext`
+    ).bind(payload.lookupHash).first();
+    if (!consumed) {
+      return jsonResponse({ error: "Transfer is unavailable or has already been used" }, 404, corsHeaders);
+    }
+    return jsonResponse({ iv: consumed.iv, ciphertext: consumed.ciphertext }, 200, corsHeaders);
+  } catch (_) {
+    return jsonResponse({ error: "Secure transfer request failed" }, 503, corsHeaders);
+  }
 }
 
 async function resolveFeatureFlags(env) {
@@ -1249,6 +1362,14 @@ export default {
       return handleStudyGuideRefreshRequest(request, env, corsHeaders);
     }
 
+    if (request.method === "POST" && path === "/transfer/create") {
+      return handleAccountTransfer(request, env, corsHeaders, "create");
+    }
+
+    if (request.method === "POST" && path === "/transfer/consume") {
+      return handleAccountTransfer(request, env, corsHeaders, "consume");
+    }
+
     if (request.method === "POST" && path === "/course-reviewability/report") {
       return handleCourseReviewabilityReport(request, env, corsHeaders);
     }
@@ -1407,6 +1528,8 @@ export default {
             contributorActivity: "POST /keys/activity",
             unknownQuestion: "POST /unknown-question",
             studyGuideRefresh: "POST /study-guides/refresh",
+            accountTransferCreate: "POST /transfer/create",
+            accountTransferConsume: "POST /transfer/consume",
             courseReviewabilityReport: "POST /course-reviewability/report",
             courseReviewabilityStatus: "GET /course-reviewability?subjectCode=CS6204",
             bugReport: "POST /report-bug"
@@ -1473,10 +1596,14 @@ export default {
         if (!q) return false;
         const ans = (q.answer || q.ansRaw || '').trim();
         const que = (q.question || q.qRaw || '').trim();
-        if (!ans || !que) return false;
+        if (!que || que.length > 2_000 || ans.length > 500) return false;
         const wrongList = Array.isArray(q.wrongAnswers) ? q.wrongAnswers : [];
-        const isWrong = wrongList.some(w => {
-          const wText = typeof w === 'string' ? w.trim().toLowerCase() : (w.text || '').trim().toLowerCase();
+        const isReviewElimination = payload.source === "review_screen" &&
+          q.evidenceType === "moodle_review_elimination" &&
+          wrongList.length > 0 && wrongList.length <= 50;
+        if (!ans && !isReviewElimination) return false;
+        const isWrong = Boolean(ans) && wrongList.some(w => {
+          const wText = typeof w === 'string' ? w.trim().toLowerCase() : String(w.text || '').trim().toLowerCase();
           return wText && (wText === ans.toLowerCase() || ans.toLowerCase().includes(wText) || wText.includes(ans.toLowerCase()));
         });
         return !isWrong;
@@ -1506,10 +1633,11 @@ export default {
         submittedAt: new Date().toISOString(),
         questions: validQuestions.map(q => ({
           question: q.question || q.qRaw,
-          answer: q.answer || q.ansRaw,
+          answer: q.answer ?? q.ansRaw ?? "",
           choices: q.choices || [],
           questionType: q.questionType || (Array.isArray(q.choices) && q.choices.length > 0 ? "multichoice" : "shortanswer"),
           wrongAnswers: q.wrongAnswers || [],
+          wrongAnswerEvidence: Boolean(q.wrongAnswerEvidence || q.evidenceType === "moodle_review_elimination"),
           verified: Boolean(q.verified),
           isAiSuggestion: Boolean(q.isAiSuggestion || (q.source && String(q.source).toLowerCase().includes('gemini'))),
           source: q.source || payload.source || "community_contribution",
@@ -1540,23 +1668,23 @@ export default {
         ? `\n*... and ${validQuestions.length - 25} more verified questions in this submission.*\n`
         : '';
 
-      const title = `New answer contribution — ${subjectCode} — ${validQuestions.length} answer${validQuestions.length === 1 ? '' : 's'}`;
+      const title = `New review evidence — ${subjectCode} — ${validQuestions.length} record${validQuestions.length === 1 ? '' : 's'}`;
       const body = [
-        `## New answer contribution: ${subjectCode}`,
+        `## New review evidence: ${subjectCode}`,
         ``,
-        `A student review supplied **${validQuestions.length} answer${validQuestions.length === 1 ? '' : 's'}** for the shared study database.`,
+        `A student review supplied **${validQuestions.length} answer/evidence record${validQuestions.length === 1 ? '' : 's'}** for the shared study database.`,
         `The automated validation pipeline will check the submission before anything is added to the database.`,
         ``,
         `### Summary`,
         `| Metric | Value |`,
         `| :--- | :--- |`,
         `| **Subject Code** | \`${subjectCode}\` |`,
-        `| **Verified Answers** | \`${validQuestions.length}\` |`,
+        `| **Evidence Records** | \`${validQuestions.length}\` |`,
         `| **Source** | ${payload.source || "Automatic quiz review"} |`,
         `| **Received** | ${new Date().toISOString().replace('T', ' ').replace(/\.\d{3}Z$/, ' UTC')} |`,
         ``,
-        `### Answer preview`,
-        `| # | Question | Answer | Type | Eliminated Choices |`,
+        `### Answer and elimination evidence`,
+        `| # | Question | Answer / evidence | Type | Eliminated Choices |`,
         `| :---: | :--- | :--- | :---: | :--- |`,
         questionRows,
         extraNote,
@@ -1629,6 +1757,9 @@ export default {
       await env.DB.prepare(
         "DELETE FROM contributor_owner_usage WHERE owner_hash NOT IN (SELECT DISTINCT owner_hash FROM contributor_gemini_keys)"
       ).run();
+      await env.DB.prepare(
+        "DELETE FROM account_transfer_requests WHERE requested_at < ?"
+      ).bind(Date.now() - 24 * 60 * 60 * 1000).run();
     } catch (_) {
       // Scheduled cleanup is best-effort; no key material or request data is logged.
     }

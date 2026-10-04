@@ -207,13 +207,24 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
 
         clean_q = clean_text(raw_q)
         clean_a = clean_text(raw_a)
+        incoming_wrong = [clean_text(w) for w in (item.get("wrongAnswers") or []) if clean_text(w)]
+        is_review_elimination = (
+            item.get("evidenceType") == "moodle_review_elimination"
+            and bool(incoming_wrong)
+        )
+        has_review_wrong_evidence = bool(
+            incoming_wrong and (
+                item.get("wrongAnswerEvidence")
+                or item.get("evidenceType") in ["moodle_review", "moodle_review_elimination"]
+            )
+        )
 
         # Anti-Sabotage Validation Checks:
         if len(clean_q) < 5 or len(clean_q) > 2000:
             rejected_count += 1
             continue
 
-        if len(clean_a) < 1 or len(clean_a) > 500:
+        if (len(clean_a) < 1 and not is_review_elimination) or len(clean_a) > 500:
             rejected_count += 1
             continue
 
@@ -228,15 +239,16 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
             continue
 
         sanitized_choices = [clean_text(c) for c in choices if clean_text(c)]
-        incoming_wrong = [clean_text(w) for w in (item.get("wrongAnswers") or []) if clean_text(w)]
-
-        # Safety Guard: If answer is listed in wrongAnswers, it was PROVEN WRONG! Never accept it.
-        if any(clean_a.lower() == w.lower() for w in incoming_wrong):
-            rejected_count += 1
-            continue
-
         is_ai_suggestion = bool(item.get("isAiSuggestion") or "gemini" in str(item.get("source", "")).lower() or item.get("evidenceType") == "ai_inference")
         is_verified_source = bool(item.get("verified") or item.get("evidenceType") in ["moodle_review", "official_review", "moodle_100_percent"])
+
+        # Safety Guard: If answer is listed in wrongAnswers, it was PROVEN WRONG! Never accept it.
+        if clean_a and any(clean_a.lower() == w.lower() for w in incoming_wrong):
+            if is_verified_source:
+                incoming_wrong = [w for w in incoming_wrong if w.lower() != clean_a.lower()]
+            else:
+                rejected_count += 1
+                continue
 
         if norm_key in existing_map:
             idx = existing_map[norm_key]
@@ -248,6 +260,14 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
             for w in incoming_wrong:
                 if not any(w.lower() == ew.lower() for ew in existing_wrong):
                     existing_wrong.append(w)
+            if any(curr_answer.lower() == w.lower() for w in incoming_wrong):
+                existing_item["answer"] = ""
+                existing_item["verified"] = False
+                existing_item["isAiSuggestion"] = False
+                existing_item["source"] = "moodle_review_elimination"
+                curr_answer = ""
+            if has_review_wrong_evidence:
+                existing_item["wrongAnswerEvidence"] = True
 
             # Merge choices pool (future-proofing against Moodle updating choice pools)
             existing_choices = existing_item.setdefault("choices", [])
@@ -259,9 +279,28 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
             if not existing_item.get("questionType"):
                 existing_item["questionType"] = item.get("questionType") or ("multichoice" if existing_choices else "shortanswer")
 
+            if is_review_elimination and not clean_a:
+                existing_item["wrongAnswerEvidence"] = True
+                existing_item["lastEvidenceAt"] = now_iso
+                updated_count += 1
+                continue
+
             # Safety Guard: If incoming answer matches any known wrong answer, reject
-            if any(clean_a.lower() == ew.lower() for ew in existing_wrong):
-                rejected_count += 1
+            if clean_a and any(clean_a.lower() == ew.lower() for ew in existing_wrong):
+                if is_verified_source:
+                    existing_wrong[:] = [ew for ew in existing_wrong if ew.lower() != clean_a.lower()]
+                else:
+                    rejected_count += 1
+                    continue
+
+            if clean_a and not curr_answer and is_verified_source:
+                existing_item["answer"] = clean_a
+                existing_item["verified"] = True
+                existing_item["isAiSuggestion"] = False
+                existing_item["source"] = item.get("source") or "moodle_review"
+                existing_item["confirmations"] = 1
+                existing_item["lastVerifiedAt"] = now_iso
+                updated_count += 1
                 continue
 
             if clean_a.lower() == curr_answer.lower():
@@ -317,13 +356,17 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                 "choices": sanitized_choices,
                 "questionType": item.get("questionType") or ("multichoice" if sanitized_choices else "shortanswer"),
                 "wrongAnswers": incoming_wrong,
+                "wrongAnswerEvidence": has_review_wrong_evidence,
                 "verified": not is_ai_suggestion and is_verified_source,
                 "isAiSuggestion": is_ai_suggestion,
                 "confirmations": 1,
                 "firstSeenAt": now_iso,
-                "lastVerifiedAt": now_iso,
                 "source": "Google Gemini AI" if is_ai_suggestion else (item.get("source") or "community_contribution")
             }
+            if clean_a:
+                new_entry["lastVerifiedAt"] = now_iso
+            else:
+                new_entry["lastEvidenceAt"] = now_iso
             existing_data["questions"].append(new_entry)
             existing_map[norm_key] = len(existing_data["questions"]) - 1
             merged_count += 1
