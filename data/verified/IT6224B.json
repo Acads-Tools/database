@@ -1,10 +1,29 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:34:12Z",
-  "totalQuestions": 127,
+  "updatedAt": "2026-10-04T15:41:56Z",
+  "totalQuestions": 142,
   "tier": "verified",
   "questions": [
+    {
+      "question": "[Image: [moodle-asset:382138/q.png]] Refer to the network topology diagram above. A certified network expert has configured the OSPF timers to the values that are shown in the graphic. What is the result of having those manually configured timers?",
+      "answer": "The R1 dead timer expires between hello packets from R2.",
+      "choices": [
+        "a. The hello timer on R2 expires every ten seconds.",
+        "b. The R1 dead timer expires between hello packets from R2.",
+        "c. The neighbor adjacency has formed.",
+        "d. R1 automatically adjusts its own timers to match the R2 timers."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
     {
       "question": "[Image: [moodle-asset:382147/q.png]] Refer to the exhibit shown above. A certified network administrator is troubleshooting the four routers that are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
       "answer": "All of the routers have an OSPFv3 interface priority of 0.",
@@ -23,6 +42,25 @@
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
+      "question": "[Image: [moodle-asset:382170/q.png]] Refer to the show command test result shown above. What is indicated by the O IA in the router output?",
+      "answer": "The route was learned from another area.",
+      "choices": [
+        "a. The route was learned from within the area.",
+        "b. The route was learned from outside the internetwork.",
+        "c. The route was manually configured.",
+        "d. The route was learned from another area."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "A certified network administrator of RMS Company has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
@@ -169,6 +207,25 @@
       "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A network administrator is implementing OSPF in a portion of the network and must ensure that only specific routes are advertised via OSPF. Which network statement would configure the OSPF process for networks 192.168.4.0, 192.168.5.0, 192.168.6.0, and 192.168.7.0, now located in the backbone area, and inject them into the OSPF domain?",
+      "answer": "c",
+      "choices": [
+        "a. w",
+        "b. c",
+        "c. w",
+        "d. w"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "A network administrator of Genesis Airlines issue a command of show cdp neigbors on a router, what do you think is the reason?",
@@ -494,6 +551,44 @@
       "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
+      "question": "As discussed in OSPF chapters what happens when a router has two network statements in different areas?",
+      "answer": "It becomes ABR",
+      "choices": [
+        "a. It becomes BDR",
+        "b. It becomes ASBR",
+        "c. It becomes DR",
+        "d. It becomes ABR"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
+      "question": "As discussed in Scaling Network course when OSPFv2 neighbors are establishing adjacencies, in which state do they elect a DR and BDR router?",
+      "answer": "Two-Way state",
+      "choices": [
+        "a. Init state",
+        "b. Loading state",
+        "c. Two-Way state",
+        "d. Exchange state"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
       "question": "As discussed in this chapter which statement is true regarding OSPF multi-area adjacencies?",
       "answer": "One logical interface will be a primary link, and the other configured as a secondary link; the secondary link will be established as an unnumbered point-to-point interface.",
       "choices": [
@@ -632,7 +727,30 @@
         "a. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
         "b. The route is located two hops away.",
         "c. This route is a propagated default route.",
-        "d. The metric for this route is 110."
+        "d. The metric for this route is 110.",
+        "a. The metric for this route is 110.",
+        "b. This route is a propagated default route.",
+        "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
+        "d. The route is located two hops away."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
+      "question": "During router configuration what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
+      "answer": "type 2",
+      "choices": [
+        "a. type 0",
+        "b. type 1",
+        "c. type 2",
+        "d. type 3"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -640,9 +758,9 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "During the checking a routing table, a network specialist notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
@@ -654,14 +772,17 @@
         "d. The route is located two hops away.",
         "a. This route is a propagated default route.",
         "b. The metric for this route is 110",
-        "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3."
+        "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
+        "a. The route is located two hops away.",
+        "b. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
+        "d. This route is a propagated default route."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -685,6 +806,25 @@
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
+    },
+    {
+      "question": "During the testing and troubleshooting, the senior network administrator investigates and notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
+      "answer": "This route is a propagated default route.",
+      "choices": [
+        "a. The metric for this route is 110",
+        "b. The route is located two hops away.",
+        "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3",
+        "d. This route is a propagated default route."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "How much traffic for a 12port gigabit switch capable of generating when operating at full wire speed?",
@@ -790,6 +930,25 @@
       "lastVerifiedAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "In configuring OSPF authentication which two pieces of information are used by the OSPF MD5 algorithm to generate a signature?",
+      "answer": "secret key & OSPF message",
+      "choices": [
+        "a. interface IP address & secret key",
+        "b. OSPF router ID & loopback interface",
+        "c. router hostname & mac-address",
+        "d. secret key & OSPF message"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "In implementing EtherChannel technology, which PAgP mode combination will establish an EtherChannel?",
@@ -1110,6 +1269,25 @@
       "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
+      "question": "In understanding concepts of OSPF which three statements describe the routing protocol OSPF? It supports VLSM. It is used to route between autonomous systems. It confines network instability to one area of the network. It increases routing overhead on the network. It allows extensive control of routing updates It is simpler to configure than RIPv2.",
+      "answer": "1, 3, 5",
+      "choices": [
+        "a. 1, 2, 3",
+        "b. 1, 3, 5",
+        "c. 2, 3, 6",
+        "d. 4, 5, 6"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
       "question": "In understanding in OSPF networks what does an O E1 or E2 routing table entry mean?",
       "answer": "External route",
       "choices": [
@@ -1270,6 +1448,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Refer to the series of ip addresses below. A network specialist has been asked to summarize the networks shown in the exhibit as part of a multiarea OSPF implementation. All addresses are using a subnet mask of 255.255.255.0. What is the correct summarization for these eight networks? 10.0.4.0 10.0.8.0 10.0.5.0 10.0.9.0 10.0.6.0 10.0.10.0 10.0.7.0 10.0.11.0",
+      "answer": "10.0.0.0 255.255.240.0",
+      "choices": [
+        "a. 10.0.4.0 255.255.0.0",
+        "b. 10.0. 8.0 255.255.248.0",
+        "c. 10.0.0.0 255.255.240.0",
+        "d. 10.0.4.0 255.255.248.0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
       "question": "Refer to the test result taken from our test labs. R1 and R2 are connected to the same LAN segment and are configured to run OSPFv3. They are not forming a neighbor adjacency. What is the cause of the problem?",
       "answer": "The timer intervals of R1 and R2 do not match.",
       "choices": [
@@ -1348,6 +1545,23 @@
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:14:18Z"
+    },
+    {
+      "question": "The backbone area interconnects with all other OSPF area types.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "The command clear ip ospf [____: process] forces a router with a new or changed router ID to form new adjacencies.",
@@ -1483,6 +1697,25 @@
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
     },
     {
+      "question": "This will appear on the certification exam. As discussed in multiarea OSPF which command can be used to verify the contents of the LSDB in an OSPF area?",
+      "answer": "show ip ospf database",
+      "choices": [
+        "a. show ip ospf database",
+        "b. show ip ospf interface",
+        "c. show running-config",
+        "d. show ip route ospf"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
       "question": "Two routers, R1 and R2, have established an EIGRP neighbor relationship, but there is still a connectivity problem. Which issue could be causing this problem??",
       "answer": "an access list that is blocking advertisements from other networks",
       "choices": [
@@ -1609,6 +1842,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "What happens when a router has two network statements in different areas?",
+      "answer": "It becomes ABR",
+      "choices": [
+        "a. It becomes DR",
+        "b. It becomes ABR",
+        "c. It becomes ASBR",
+        "d. It becomes BDR"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
       "question": "What is a disadvantage of using EIGRP automatic summarization?",
       "answer": "It creates inconsistent routing when the network has discontiguous networks.",
       "choices": [
@@ -1654,6 +1906,31 @@
       "lastVerifiedAt": "2026-10-04T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "What is one advantage of using multiarea OSPF?",
+      "answer": "It improves the routing efficiency by reducing the routing table and link-state update overhead.",
+      "choices": [
+        "a. It allows OSPFv2 and OSPFv3 to be running together.",
+        "b. It enables multiple routing protocols to be running in a large network.",
+        "c. It increases the routing performance by dividing the neighbor table into separate smaller ones.",
+        "d. It does improves the routing efficiency by reducing the routing table and link-state update overhead.",
+        "a. It increases the routing performance by dividing the neighbor table into separate smaller ones.",
+        "c. It allows OSPFv2 and OSPFv3 to be running together.",
+        "d. It improves the routing efficiency by reducing the routing table and link-state update overhead."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "It enables multiple routing protocols to be running in a large network."
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:34:12Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-04T15:34:12Z",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "What is one way to correct a spanning tree failure?",
@@ -2018,6 +2295,28 @@
       "lastVerifiedAt": "2026-10-04T15:25:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Which 3 features are OSPF routing protocol?",
+      "answer": "Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors.",
+      "choices": [
+        "a. Use highiest ip address, OSPF is a classful routing protocol & OSPF does not allow authentication",
+        "b. Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors.",
+        "c. Converge quickly, Identify the best router by the use of hops & OSPF routers identify directly connected devices",
+        "d. Allows authentication, uses concept of area which helps for route summarization and dependent to hop counts.",
+        "a. Converge quickly, Identify the best router by the use of hops & OSPF routers identify directly connected devices",
+        "c. Allows authentication, uses concept of area which helps for route summarization and dependent to hop counts.",
+        "d. Use highiest ip address, OSPF is a classful routing protocol & OSPF does not allow authentication"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
       "question": "Which algorithm is used by the OSPF routing process to construct the SPF tree on a router?",
