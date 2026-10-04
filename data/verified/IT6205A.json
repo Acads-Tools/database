@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:31:48Z",
+  "updatedAt": "2026-10-04T07:33:46Z",
   "totalQuestions": 54,
   "tier": "verified",
   "questions": [
@@ -59,9 +59,9 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -83,12 +83,14 @@
         "c. Reconnaissance",
         "d. Exploitation",
         "a. Weaponization",
-        "c. Exploitation"
+        "c. Exploitation",
+        "b. Exploitation",
+        "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -379,9 +381,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -546,12 +548,15 @@
         "a. System",
         "b. Install",
         "d. Recon",
-        "d. Install"
+        "d. Install",
+        "a. Recon",
+        "b. Prevent Cyber-Attacks",
+        "c. System"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [
         "System"
@@ -576,12 +581,13 @@
         "a. Reconnaissance",
         "c. Exploitation",
         "c. Weaponization",
-        "d. Reconnaissance"
+        "d. Reconnaissance",
+        "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -621,7 +627,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T07:30:34Z"
+      "lastEvidenceAt": "2026-10-04T07:33:46Z"
     },
     {
       "question": "Physical security consist in the closure of IT equipment in a dedicated space and the provision of access control.",
@@ -639,12 +645,13 @@
         "b. Prevent Cyber-Attacks",
         "d. Recon",
         "a. System",
-        "c. Install"
+        "c. Install",
+        "d. Prevent Cyber-Attacks"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -721,12 +728,15 @@
         "b. Weaponization",
         "c. Exploitation",
         "d. Delivery",
-        "a. Delivery"
+        "a. Delivery",
+        "a. Exploitation",
+        "c. Weaponization",
+        "d. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -920,6 +930,10 @@
         {
           "rejectedAnswer": "Exploitation",
           "timestamp": "2026-10-04T07:31:48Z"
+        },
+        {
+          "rejectedAnswer": "Exploitation",
+          "timestamp": "2026-10-04T07:33:46Z"
         }
       ]
     },
@@ -938,12 +952,14 @@
         "a. Delivery",
         "b. C2",
         "a. Recon",
-        "c. Delivery"
+        "c. Delivery",
+        "b. Install",
+        "d. Recon"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -965,12 +981,13 @@
         "c. Command and Control",
         "d. Installation",
         "c. Exploitation",
-        "b. Exploitation"
+        "b. Exploitation",
+        "d. Command and Control"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1033,9 +1050,9 @@
         "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1057,7 +1074,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T07:30:34Z"
+      "lastEvidenceAt": "2026-10-04T07:33:46Z"
     },
     {
       "question": "What are the steps in intrusion model?",
@@ -1078,9 +1095,9 @@
         "d. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:33:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
