@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-10-04T14:48:52Z",
-  "totalQuestions": 111,
+  "updatedAt": "2026-10-04T14:49:36Z",
+  "totalQuestions": 112,
   "questions": [
     {
       "question": "1st features of System Control Component",
@@ -352,9 +352,9 @@
       "answer": "Current Instruction Register",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-10-04T14:32:51Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -540,9 +540,9 @@
         "b. Segments, Connectors, Systems, Properties, Styles"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-10-04T14:46:58Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -591,9 +591,9 @@
         "d. Dynamic Process Model"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-10-04T14:45:17Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -819,12 +819,13 @@
         "b. Problem Definition",
         "c. System Integration",
         "b. System Design",
-        "d. Problem Definition"
+        "d. Problem Definition",
+        "c. Problem Definition"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T07:01:09Z",
-      "lastVerifiedAt": "2026-10-04T14:38:33Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1000,9 +1001,9 @@
         "d. Components"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1364,9 +1365,9 @@
         "c. Interface Model"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-10-04T14:46:20Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1402,12 +1403,14 @@
         "c. Components",
         "a. Connectors",
         "c. Properties",
-        "d. Components"
+        "d. Components",
+        "b. Connectors",
+        "d. System"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1748,6 +1751,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Team members are given more autonomy and expected to take more responsibility for their work.",
+      "answer": "Matrix Structure",
+      "choices": [
+        "a. Matrix Structure",
+        "b. Functional Structure",
+        "c. Project Organization Structure",
+        "d. Divisional Structure"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T14:49:36Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z"
+    },
+    {
       "question": "The advantages of this kind of structure include quick decision making because the group members are able to communicate easily with each other.",
       "answer": "Functional Structure",
       "choices": [
@@ -2022,12 +2044,13 @@
         "a. Evaluation Phase",
         "b. Analysis Phase",
         "c. Synthesis Phase",
-        "c. Evaluation Phase"
+        "c. Evaluation Phase",
+        "a. Analysis Phase"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2377,9 +2400,9 @@
         "d. Efficient, Project and Matrix"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-10-04T14:46:58Z",
+      "lastVerifiedAt": "2026-10-04T14:49:36Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
