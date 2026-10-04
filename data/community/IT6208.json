@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-10-04T14:28:41Z",
+  "updatedAt": "2026-10-04T14:30:58Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -212,12 +212,13 @@
       "answer": "Accumulator",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Acronym: CAE",
@@ -258,12 +259,13 @@
       "answer": "Current Instruction Register",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Acronym: DFD",
@@ -282,24 +284,26 @@
       "answer": "Memory Address Register",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Acronym: MDR",
       "answer": "Memory Data Register",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Advantages of EAI",
@@ -411,15 +415,19 @@
       "choices": [
         "a. System, Openness, Concurrency, Scalable, Fault Tolerant and Transparent",
         "b. Resource Sharing, Openness, Concurrency, Scalable, Fault Tolerant and Transparent",
-        "c. Resource Sharing, Personal System, Concurrency, Scalable, Fault Tolerant and Transparent"
+        "c. Resource Sharing, Personal System, Concurrency, Scalable, Fault Tolerant and Transparent",
+        "a. Resource Sharing, Personal System, Concurrency, Scalable, Fault Tolerant and Transparent",
+        "b. System, Openness, Concurrency, Scalable, Fault Tolerant and Transparent",
+        "c. Resource Sharing, Openness, Concurrency, Scalable, Fault Tolerant and Transparent"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:43:12Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Components expected to demonstrate a product engineering include",
@@ -467,15 +475,18 @@
         "a. Relationship Model",
         "b. Dynamic Process Model",
         "c. Interface Model",
-        "d. System"
+        "d. System",
+        "a. Dynamic Process Model",
+        "b. Relationship Model"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Defines subsystem interfaces",
@@ -484,15 +495,19 @@
         "a. Control Modeling",
         "b. Interface Model",
         "c. Dynamic Process Model",
-        "d. System Structuring"
+        "d. System Structuring",
+        "a. Dynamic Process Model",
+        "b. Control Modeling",
+        "c. Interface Model"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Definition: Aligning IT to business",
@@ -646,15 +661,20 @@
         "a. Software Architecture",
         "b. Architectural Design",
         "c. System Structuring",
-        "d. Control Modeling"
+        "d. Control Modeling",
+        "a. Control Modeling",
+        "b. System Structuring",
+        "c. Architectural Design",
+        "d. Software Architecture"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Design is the essence of engineering.",
@@ -693,15 +713,19 @@
         "a. Interface Model",
         "b. Personal System",
         "c. Dynamic Process Model",
-        "d. Personal Integrated System"
+        "d. Personal Integrated System",
+        "a. Dynamic Process Model",
+        "c. Personal Integrated System",
+        "d. Interface Model"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Developers program in pairs and must write the tests for their own code.",
@@ -832,15 +856,18 @@
         "a. Control Modeling",
         "b. Modular Decomposition",
         "c. System Structuring",
-        "d. Software Architecture"
+        "d. Software Architecture",
+        "a. System Structuring",
+        "c. Control Modeling"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In a divisional structure, the company will coordinate inter-group relationships to create a work team that can readily meet the needs of a certain customer or group of customers",
@@ -1036,15 +1063,19 @@
         "a. Blase Pascal Architecture",
         "b. Von Neumann Architecture",
         "c. Blaise Pascal Architecture",
-        "d. Von Neuman Architecture"
+        "d. Von Neuman Architecture",
+        "a. Von Neuman Architecture",
+        "c. Blase Pascal Architecture",
+        "d. Blaise Pascal Architecture"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Is the mix of between related components to accomplish a typical goal.",
@@ -1131,15 +1162,20 @@
         "a. Interface Model",
         "b. System",
         "c. Relationship Model",
-        "d. Embedded System"
+        "d. Embedded System",
+        "a. System",
+        "b. Interface Model",
+        "c. Embedded System",
+        "d. Relationship Model"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Measures of performance (MOP) and measures of effectiveness (MOE) are obtained",
@@ -1189,15 +1225,19 @@
         "a. Software Architecture",
         "b. Control Modeling",
         "c. Modular Decomposition",
-        "d. System Structuring"
+        "d. System Structuring",
+        "a. Modular Decomposition",
+        "c. System Structuring",
+        "d. Software Architecture"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "No distinctions made between clients and servers",
@@ -1206,15 +1246,18 @@
         "a. Dynamic Process model",
         "b. Personal System",
         "c. Client/Server",
-        "d. Distributed Object"
+        "d. Distributed Object",
+        "b. Client/Server",
+        "c. Personal System"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:40:55Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Offer distributed services which may be called by clients",
@@ -1223,15 +1266,18 @@
         "a. Personal System",
         "b. Client/Server",
         "c. Dynamic System",
-        "d. System"
+        "d. System",
+        "b. System",
+        "d. Client/Server"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Process for identifying the subsystems that make up a system",
@@ -1240,15 +1286,19 @@
         "a. Architectural Design",
         "b. System Structuring",
         "c. Control Modeling",
-        "d. Software Architecture"
+        "d. Software Architecture",
+        "a. Software Architecture",
+        "b. Architectural Design",
+        "d. System Structuring"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Provides the means to share data between different applications without writing custom interfaces",
@@ -1361,15 +1411,18 @@
         "a. Dynamic Process Model",
         "b. Static Structural Model",
         "c. Interface Model",
-        "d. Relationships Model"
+        "d. Relationships Model",
+        "c. Relationships Model",
+        "d. Interface Model"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Shows process structure of the system",
@@ -1378,15 +1431,19 @@
         "a. Dynamic Process Model",
         "b. Interface Model",
         "c. Relationship Model",
-        "d. Control Modeling"
+        "d. Control Modeling",
+        "a. Interface Model",
+        "b. Control Modeling",
+        "d. Dynamic Process Model"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "System decomposed into several subsystems",
@@ -1395,15 +1452,20 @@
         "a. Software Architecture",
         "b. Architectural Design",
         "c. Control Modeling",
-        "d. System Structuring"
+        "d. System Structuring",
+        "a. System Structuring",
+        "b. Control Modeling",
+        "c. Software Architecture",
+        "d. Architectural Design"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:38:36Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "System software runs on loosely integrated group of cooperating processors linked by a network",
@@ -1412,15 +1474,19 @@
         "a. Personal System",
         "b. Distributed System",
         "c. System",
-        "d. Embedded System"
+        "d. Embedded System",
+        "b. System",
+        "c. Embedded System",
+        "d. Distributed System"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-09-29T15:29:04Z",
+      "lastVerifiedAt": "2026-10-04T14:30:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The advantages of this kind of structure include quick decision making because the group members are able to communicate easily with each other.",
