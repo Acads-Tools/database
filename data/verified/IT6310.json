@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:36:16Z",
-  "totalQuestions": 107,
+  "updatedAt": "2026-10-04T11:49:47Z",
+  "totalQuestions": 108,
   "tier": "verified",
   "questions": [
     {
@@ -1493,25 +1493,53 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:51:02Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:49:47Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "True or False? MSCHAPv2 may be used to perform machine authentication with an LDAP connection to Active Directory.",
       "answer": "False",
       "choices": [
         "a. False",
-        "b. True"
+        "b. True",
+        "a. True",
+        "b. False"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:49:47Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "True or False? The supplicant is required to trust the certificate of the authentication server before it will form the TLS tunnel within which the EAP transaction will occur.",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:51:02Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:49:47Z",
+      "source": "review_screen",
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-09-24T13:51:02Z"
+        }
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "Two Categories of a Group Policy. Choose any that apply.",
@@ -1604,15 +1632,20 @@
         "a. Shadow credential file (SCF)",
         "b. Private authorization credential (PAC)",
         "c. Protected access credential (PAC)",
-        "d. Protected password file (PPF)"
+        "d. Protected password file (PPF)",
+        "a. Protected password file (PPF)",
+        "b. Protected access credential (PAC)",
+        "c. Shadow credential file (SCF)",
+        "d. Private authorization credential (PAC)"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:51:02Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:49:47Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is the purpose of adding a user with the username radiustest password password command?",
@@ -1764,15 +1797,18 @@
         "a. Windows Native Supplicant",
         "b. Odyssey Client",
         "c. Cisco Secure Services Client (CSSC)",
-        "d. Cisco AnyConnect NAM"
+        "d. Cisco AnyConnect NAM",
+        "b. Cisco Secure Services Client (CSSC)",
+        "c. Odyssey Client"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T13:51:02Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:49:47Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Without this service on your environment, you won't be able to share any of your resources",
