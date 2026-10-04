@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:49:47Z",
-  "totalQuestions": 108,
+  "updatedAt": "2026-10-04T11:50:23Z",
+  "totalQuestions": 109,
   "tier": "verified",
   "questions": [
     {
@@ -1458,15 +1458,18 @@
       "answer": "False",
       "choices": [
         "a. True",
-        "b. False"
+        "b. False",
+        "a. False",
+        "b. True"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T04:44:25Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:50:23Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "True or False? Cisco switches should be configured in production to send syslog messages to the ISE MNT node.",
@@ -1478,10 +1481,11 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T04:44:25Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:50:23Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "True or False? IEEE 802.1X may use TACACS+ to communicate the EAP identity to the authentication server.",
@@ -1654,15 +1658,18 @@
         "a. The switch can send periodic RADIUS Access-Requests to the AAA servers to verify whether they are still alive. The username and password will be used for that test.",
         "b. The username and password are used for the supplicant’s outer identity to authenticate against the switch local user database.",
         "c. The username and password are used for the local RADIUS server available in the switch, which is used in WAN down scenarios.",
-        "d. Without the local username and password in the configuration, an administrator can be locked out of the switch when the RADIUS server is unavailable."
+        "d. Without the local username and password in the configuration, an administrator can be locked out of the switch when the RADIUS server is unavailable.",
+        "b. Without the local username and password in the configuration, an administrator can be locked out of the switch when the RADIUS server is unavailable.",
+        "d. The username and password are used for the supplicant’s outer identity to authenticate against the switch local user database."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T04:44:25Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:50:23Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When configuring a Cisco Wireless LAN Controller (WLC) for communication with ISE, what must be configured for the wireless LAN (WLAN)? (Choose two.)",
@@ -1671,15 +1678,18 @@
         "a. The authentication and authorization RADIUS servers can be pointed to the same ISE PSN.",
         "b. The WLAN must be configured for RADIUS NAC.",
         "c. The WLAN must be configured for SNMP NAC.",
-        "d. The authentication and authorization RADIUS servers can be pointed to different ISE PSNs, as long as those PSNs are part of a node group."
+        "d. The authentication and authorization RADIUS servers can be pointed to different ISE PSNs, as long as those PSNs are part of a node group.",
+        "b. The WLAN must be configured for SNMP NAC.",
+        "c. The WLAN must be configured for RADIUS NAC."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T04:44:25Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:50:23Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following are not part of OSI Layer?",
@@ -1768,6 +1778,27 @@
           "timestamp": "2026-10-04T11:21:27Z"
         }
       ]
+    },
+    {
+      "question": "Which of the following technologies enables an administrator to maintain the same configuration on all access ports, on all switches, regardless of the type of device connecting to the network?",
+      "answer": "Flex-Auth",
+      "choices": [
+        "a. Flex-Auth",
+        "b. Multi-Auth",
+        "c. Flex-Connect",
+        "d. AnyConnect",
+        "a. Multi-Auth",
+        "b. AnyConnect",
+        "d. Flex-Auth"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:50:23Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which of these are not part of the reason why we need to secure our network?",
