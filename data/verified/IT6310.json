@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:22:13Z",
-  "totalQuestions": 97,
+  "updatedAt": "2026-10-04T11:25:53Z",
+  "totalQuestions": 107,
   "tier": "verified",
   "questions": [
     {
@@ -66,6 +66,22 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "Always disable unnecessary features of the web server that are not going to be used",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "An information that is only accessed by an authorized person.",
@@ -195,6 +211,22 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "Developers should always implement validation at both the client and the server to obtain high level of security.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "File system that has a features like permissions, encryption, quotas, and auditing services.",
@@ -330,9 +362,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -511,6 +543,26 @@
       "questionType": "multichoice"
     },
     {
+      "question": "It is a restricted area with a resource that these Java applications can access.",
+      "answer": "Sandbox",
+      "choices": [
+        "a. ActiveX controls",
+        "b. Scripting",
+        "c. Sandbox",
+        "d. Java",
+        "b. Sandbox",
+        "c. Scripting"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "It is a security concern because most scripting languages can make some alteration to your system.",
       "answer": "Scripting",
       "choices": [
@@ -521,14 +573,17 @@
         "a. Java",
         "b. Cookies",
         "c. Scripting",
-        "d. Cross-site scripting"
+        "d. Cross-site scripting",
+        "a. Scripting",
+        "c. Cross-site scripting",
+        "d. Java"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -575,6 +630,28 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "It is a special system used in industrial environments and settings to monitor their operations",
+      "answer": "SCADA",
+      "choices": [
+        "a. Embedded",
+        "b. Android",
+        "c. Mainframe",
+        "d. SCADA",
+        "a. SCADA",
+        "b. Mainframe",
+        "c. Embedded",
+        "d. Android"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "It is a standard configuration that is approved by any company for a specific type of system or device for being secure",
@@ -661,9 +738,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -676,9 +753,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -730,6 +807,25 @@
         "Data"
       ],
       "questionType": "multichoice"
+    },
+    {
+      "question": "It is the idea of developing a database system to store and retrieve large volumes of data",
+      "answer": "NoSQL databases",
+      "choices": [
+        "Suggested (Verified DB): NoSQL databases Fill"
+      ],
+      "wrongAnswers": [
+        "Database management system (DBMS)",
+        "Database Management System",
+        "Feedback"
+      ],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "It is the network security solution by an institute to [____: detect] any malicious activity in a network.",
@@ -924,6 +1020,21 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Large volume of data is also known as",
+      "answer": "Big data",
+      "choices": [
+        "Suggested (Verified DB): Big data Fill"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
+    },
+    {
       "question": "Network security is the practice of preventing and protecting against unauthorized intrusion into corporate networks.",
       "answer": "True",
       "choices": [
@@ -987,6 +1098,22 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "SMTP and FTP are used to transfer information over a computer network.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Software designed to detect, disable, and remove viruses, worms, and Trojans.",
@@ -1077,14 +1204,16 @@
         "c. Exception handling",
         "d. block syntax",
         "b. block syntax",
-        "d. try/catch block"
+        "d. try/catch block",
+        "b. Exception handling",
+        "c. try/catch block"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1100,6 +1229,21 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "These are logon information from all the websites you visit and is stored in memory on computer",
+      "answer": "cookies",
+      "choices": [
+        "Suggested (Verified DB): cookies Fill"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "These are the events or attacks that remove, corrupt, deny access to, allow access to, or steal information.",
@@ -1288,6 +1432,22 @@
       "isAiSuggestion": false
     },
     {
+      "question": "To avoid and prevent this type of attack, users should always choose the “Remember Me” option when logging in to any web site.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "True or False? 802.1X can be configured on all switch interfaces, including Layer-3 interfaces.",
       "answer": "False",
       "choices": [
@@ -1392,6 +1552,22 @@
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
       "wrongAnswers": []
+    },
+    {
+      "question": "very single application must go through the options and check whether each application is configured in the most secure state.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What are the signs and symptoms that your device/s are getting infected by any malware. (Choose all that applies)",

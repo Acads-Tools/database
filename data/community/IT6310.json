@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-04T11:22:13Z",
+  "updatedAt": "2026-10-04T11:25:53Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -74,12 +74,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "An information that is only accessed by an authorized person.",
@@ -218,12 +219,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "File system that has a features like permissions, encryption, quotas, and auditing services.",
@@ -359,9 +361,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -546,15 +548,18 @@
         "a. ActiveX controls",
         "b. Scripting",
         "c. Sandbox",
-        "d. Java"
+        "d. Java",
+        "b. Sandbox",
+        "c. Scripting"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "It is a security concern because most scripting languages can make some alteration to your system.",
@@ -567,14 +572,17 @@
         "a. Java",
         "b. Cookies",
         "c. Scripting",
-        "d. Cross-site scripting"
+        "d. Cross-site scripting",
+        "a. Scripting",
+        "c. Cross-site scripting",
+        "d. Java"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -629,15 +637,20 @@
         "a. Embedded",
         "b. Android",
         "c. Mainframe",
-        "d. SCADA"
+        "d. SCADA",
+        "a. SCADA",
+        "b. Mainframe",
+        "c. Embedded",
+        "d. Android"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "It is a standard configuration that is approved by any company for a specific type of system or device for being secure",
@@ -724,9 +737,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -739,9 +752,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -805,12 +818,13 @@
         "Database Management System",
         "Feedback"
       ],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "It is the network security solution by an institute to [____: detect] any malicious activity in a network.",
@@ -1011,12 +1025,13 @@
         "Suggested (Verified DB): Big data Fill"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Network security is the practice of preventing and protecting against unauthorized intrusion into corporate networks.",
@@ -1091,12 +1106,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Software designed to detect, disable, and remove viruses, worms, and Trojans.",
@@ -1187,14 +1203,16 @@
         "c. Exception handling",
         "d. block syntax",
         "b. block syntax",
-        "d. try/catch block"
+        "d. try/catch block",
+        "b. Exception handling",
+        "c. try/catch block"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-04T11:22:13Z",
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1218,12 +1236,13 @@
         "Suggested (Verified DB): cookies Fill"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "These are the events or attacks that remove, corrupt, deny access to, allow access to, or steal information.",
@@ -1419,12 +1438,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "True or False? 802.1X can be configured on all switch interfaces, including Layer-3 interfaces.",
@@ -1563,12 +1583,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T11:25:53Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What are the signs and symptoms that your device/s are getting infected by any malware. (Choose all that applies)",
