@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T14:56:44Z",
-  "totalQuestions": 43,
+  "updatedAt": "2026-10-04T14:59:31Z",
+  "totalQuestions": 42,
   "tier": "verified",
   "questions": [
     {
@@ -100,11 +100,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "After the election of the root bridge has been completed, how will switches find the best paths to the root bridge?",
@@ -148,16 +150,17 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Distribution Layer is a design model layer that provides a high-speed backbone link between dispersed networks.",
-      "answer": "True",
+      "answer": "b. False",
       "choices": [
         "a. True",
         "b. False"
@@ -165,8 +168,8 @@
       "verified": true,
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "True"
       ],
@@ -179,7 +182,10 @@
           "answer": "b. False",
           "timestamp": "2026-09-25T09:35:34Z"
         }
-      ]
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice"
     },
     {
       "question": "How much traffic for a 12port gigabit switch capable of generating when operating at full wire speed?",
@@ -202,21 +208,6 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
-    },
-    {
-      "question": "How much traffic for a 24port Gbit switch at hand capable of generating when operating at full wire speed?",
-      "answer": "48 Gb/s, because of overhead requirements",
-      "choices": [
-        "a. 12 Gb/s, because of overhead requirements",
-        "b. 24 Gb/s, by providing full bandwidth to each port",
-        "c. 48 Gb/s, because this is the maximum forwarding rate on Cisco switches",
-        "d. 48 Gb/s, because of overhead requirements"
-      ],
-      "verified": true,
-      "confirmations": 1,
-      "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-22T08:07:16Z",
-      "source": "community_contribution"
     },
     {
       "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
@@ -248,11 +239,13 @@
         "d. A connection that uses the AUX and and Telnet"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "In network troubleshooting, which command can be issued on a router to verify that automatic summarization is enabled?",
@@ -261,15 +254,19 @@
         "a. show ip eigrp interfaces",
         "b. show ip protocols",
         "c. show ip interface brief",
-        "d. show ip eigrp neighbors"
+        "d. show ip eigrp neighbors",
+        "a. show ip eigrp neighbors",
+        "b. show ip eigrp interfaces",
+        "d. show ip protocols"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "In network troubleshooting, which command is used to display the bandwidth of an interface on an EIGRP-enabled router?",
@@ -296,11 +293,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "In networking world, \"Rack unit\" is the term used to express the thickness or height of a switch.",
@@ -310,12 +309,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "In this chapter, what is the function of PoE pass-through?",
@@ -462,15 +462,18 @@
         "a. It uses a direct connection to a console or AUX port.",
         "b. It is used for initial configuration or when a network connection is unavailable.",
         "c. It uses a terminal emulation client.",
-        "d. It is used to monitor and make configuration changes to a network device over a network connection."
+        "d. It is used to monitor and make configuration changes to a network device over a network connection.",
+        "c. It is used to monitor and make configuration changes to a network device over a network connection.",
+        "d. It uses a terminal emulation client."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What today's network design would contain the scope of disruptions on a network should a failure occur?",
@@ -607,14 +610,18 @@
         "a. It uses a direct connection to a console or AUX port.",
         "b. It uses a terminal emulation client.",
         "c. It is used to monitor and make configuration changes to a network device over a network connection.",
-        "d. It is used for initial configuration or when a network connection is unavailable."
+        "d. It is used for initial configuration or when a network connection is unavailable.",
+        "b. It is used to monitor and make configuration changes to a network device over a network connection.",
+        "c. It uses a terminal emulation client."
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which command will start the process to bundle two physical interfaces to create an EtherChannel group via LACP?",
