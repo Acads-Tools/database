@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T11:28:57Z",
+  "updatedAt": "2026-10-04T11:30:27Z",
   "totalQuestions": 98,
   "questions": [
     {
@@ -33,13 +33,17 @@
         "a. Risk transfer",
         "b. Trust mechanism",
         "c. Trust",
-        "d. The risk treatment"
+        "d. The risk treatment",
+        "a. Trust",
+        "b. Risk transfer",
+        "c. The risk treatment",
+        "d. Trust mechanism"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -147,13 +151,17 @@
         "a. Coding",
         "b. Trust",
         "c. Design",
-        "d. Trust mechanism"
+        "d. Trust mechanism",
+        "a. Design",
+        "b. Trust mechanism",
+        "c. Trust",
+        "d. Coding"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -921,13 +929,15 @@
         "a. The risk treatment",
         "b. Trust mechanism",
         "c. Risk transfer",
-        "d. Trust"
+        "d. Trust",
+        "a. Trust",
+        "d. The risk treatment"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -1121,13 +1131,17 @@
         "a. Risk Avoidance",
         "b. Risk transfer",
         "c. Risk mitigation",
-        "d. Risk Acceptance"
+        "d. Risk Acceptance",
+        "a. Risk mitigation",
+        "b. Risk Acceptance",
+        "c. Risk transfer",
+        "d. Risk Avoidance"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -1299,7 +1313,14 @@
         "f. Assess risks",
         "g. Assess threats",
         "h. Make risk management decisions",
-        "i. Assess assets"
+        "i. Assess assets",
+        "b. Assess assets",
+        "c. Assess threats",
+        "d. Make risk management decisions",
+        "f. Assess productivity",
+        "g. Assess vulnerabilities",
+        "h. Assess risks",
+        "i. Give feedback to production"
       ],
       "verified": true,
       "confirmations": 2,
@@ -1314,7 +1335,13 @@
       ],
       "wrongAnswers": [],
       "questionType": "multichoice",
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Assess assets, Assess threats, Make risk management decisions, Prioritize countermeasure options, Assess vulnerabilities, Assess risks",
+          "timestamp": "2026-10-04T11:30:27Z"
+        }
+      ]
     },
     {
       "question": "Risks not avoided or transferred are retained by the organization.",
@@ -1323,13 +1350,17 @@
         "a. Risk Acceptance",
         "b. Risk Transfer",
         "c. Risk mitigation",
-        "d. Risk Avoidance"
+        "d. Risk Avoidance",
+        "a. Risk Transfer",
+        "b. Risk mitigation",
+        "c. Risk Avoidance",
+        "d. Risk Acceptance"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -1457,13 +1488,15 @@
         "a. Requirements, Design, Coding, Testing, Deployment, Production and Decommission",
         "b. Requirements, Design, Trust Mechanism, Testing, Deployment, Production and Decommission",
         "c. Risk Transfer, Design, Coding, Testing, Deployment, Production and Decommission",
-        "d. Requirements, Trust, Coding, Testing, Deployment, Production and Decommission"
+        "d. Requirements, Trust, Coding, Testing, Deployment, Production and Decommission",
+        "b. Requirements, Trust, Coding, Testing, Deployment, Production and Decommission",
+        "d. Requirements, Design, Trust Mechanism, Testing, Deployment, Production and Decommission"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -1475,13 +1508,17 @@
         "a. Risk Acceptance",
         "b. Risk mitigation",
         "c. Risk Transfer",
-        "d. Risk avoidance"
+        "d. Risk avoidance",
+        "a. Risk mitigation",
+        "b. Risk Transfer",
+        "c. Risk avoidance",
+        "d. Risk Acceptance"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
@@ -1519,13 +1556,16 @@
         "a. Risk mitigation",
         "b. Risk Acceptance",
         "c. Risk Avoidance",
-        "d. Risk transfer"
+        "d. Risk transfer",
+        "a. Risk Avoidance",
+        "c. Risk transfer",
+        "d. Risk mitigation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-03T10:52:01Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-04T11:30:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
