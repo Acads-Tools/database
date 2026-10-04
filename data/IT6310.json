@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-09-24T14:01:47Z",
+  "updatedAt": "2026-10-04T11:14:52Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -86,10 +86,11 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
@@ -99,12 +100,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "any program design to damage specific file or computer system.",
@@ -126,15 +128,18 @@
       "choices": [
         "a. Detection",
         "b. Prevention",
-        "c. Response"
+        "c. Response",
+        "a. Prevention",
+        "b. Detection"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "As a philosophy, it complements midpoint security, which focuses on individual devices; preventive security instead focuses on how those devices interact, and on the connective tissue between them.",
@@ -157,12 +162,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Big corporations are not at risks to any form of security breach.",
@@ -172,12 +178,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Brute force attack are often successful because most of the users uses different ordinary words as their passwords.",
@@ -224,12 +231,13 @@
       "answer": "6",
       "choices": [],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "Human beings are inevitably the weakest security link. You need to implement technologies and processes to ensure that staffers don't deliberately or inadvertently send sensitive data outside the network.",
@@ -278,12 +286,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "is a crucial security update that you should always apply to your system",
@@ -350,12 +359,13 @@
       "answer": "Authorization",
       "choices": [],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "It disguises as useful software.",
@@ -390,15 +400,18 @@
       "choices": [
         "a. Availability",
         "b. Accountability",
-        "c. Integrity"
+        "c. Integrity",
+        "a. Accountability",
+        "b. Availability"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It has a vital role in an information system because it is the one that allows a company to link their computers and its users",
@@ -407,15 +420,18 @@
         "a. Network",
         "b. Router",
         "c. Switch",
-        "d. Internet"
+        "d. Internet",
+        "b. Switch",
+        "c. Router"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It has been developed by ISO in the year 1984.",
@@ -478,15 +494,20 @@
         "a. CIA Triad Information Security",
         "b. AAA of Information",
         "c. Security Trinity",
-        "d. Core Security Concepts"
+        "d. Core Security Concepts",
+        "a. Security Trinity",
+        "b. Core Security Concepts",
+        "c. AAA of Information",
+        "d. CIA Triad Information Security"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a restricted area with a resource that these Java applications can access.",
@@ -603,15 +624,18 @@
         "a. Detection",
         "b. Preventive",
         "c. Response",
-        "d. Planning"
+        "d. Planning",
+        "b. Response",
+        "c. Preventive"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a wireless security protocol created by Cisco to address the weaknesses in WEP and WPA.",
@@ -683,7 +707,9 @@
         "a. Security",
         "b. Information",
         "c. Data",
-        "d. Network"
+        "d. Network",
+        "a. Data",
+        "c. Security"
       ],
       "verified": true,
       "confirmations": 2,
@@ -698,12 +724,17 @@
         {
           "rejectedAnswer": "Security",
           "timestamp": "2026-09-23T14:39:58Z"
+        },
+        {
+          "rejectedAnswer": "Security",
+          "timestamp": "2026-10-04T11:14:52Z"
         }
       ],
       "wrongAnswers": [
         "Information",
         "Data"
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "It is the idea of developing a database system to store and retrieve large volumes of data",
@@ -728,26 +759,28 @@
       "answer": "detect",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "It is the process of taking preventative measures to keep the network infrastructure from any unauthorized access, misuse of important information",
       "answer": "Network security",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T11:51:23Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Prevention"
       ],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "shortanswer"
     },
     {
       "question": "It is the tangible parts of a computer system.",
@@ -755,15 +788,19 @@
       "choices": [
         "a. Hardware",
         "b. Peopleware",
-        "c. Software"
+        "c. Software",
+        "a. Peopleware",
+        "b. Software",
+        "c. Hardware"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It may contain phishing scams and malware.",
@@ -854,7 +891,11 @@
         "a. Security Trinity",
         "b. CIA Triad of Information",
         "c. Network Security",
-        "d. Network Administrator"
+        "d. Network Administrator",
+        "a. CIA Triad of Information",
+        "b. Network Security",
+        "c. Network Administrator",
+        "d. Security Trinity"
       ],
       "verified": true,
       "confirmations": 2,
@@ -885,11 +926,16 @@
         {
           "rejectedAnswer": "Security Trinity",
           "timestamp": "2026-09-24T13:52:39Z"
+        },
+        {
+          "rejectedAnswer": "Security Trinity",
+          "timestamp": "2026-10-04T11:14:52Z"
         }
       ],
       "wrongAnswers": [
         "CIA Triad of Information"
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "Large volume of data is also known as",
@@ -1032,15 +1078,18 @@
         "a. System Software",
         "b. Software",
         "c. Application",
-        "d. Application Software"
+        "d. Application Software",
+        "b. Application Software",
+        "d. Software"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "System that plays a vital part in Network security since it is the information that an organization is trying to protect and avoid from any unauthorized access",
@@ -1051,10 +1100,11 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
-      "source": "review_screen"
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "The following codes is an example of?TryMessageBox.Show(cdbl(txtTotalValue.text) + cdbl(txtTotalVAT.text))Catch ex as InvalidCastExceptionMessageBox.Show(\"Please supply 2 numbers as input\")Catch ex as ExceptionMessageBox.Show(\"An error has occurred. Please try again.\")End Try",
@@ -1580,15 +1630,19 @@
         "a. To keep your job",
         "b. To secure company asset",
         "c. To gain a competitive advantage",
-        "d. To exploit vulnerabilities in the system"
+        "d. To exploit vulnerabilities in the system",
+        "a. To exploit vulnerabilities in the system",
+        "b. To keep your job",
+        "d. To secure company asset"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-24T14:01:47Z",
+      "lastVerifiedAt": "2026-10-04T11:14:52Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which supplicant(s) is capable of EAP chaining?",
