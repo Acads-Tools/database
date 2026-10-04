@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:36:32Z",
-  "totalQuestions": 54,
+  "updatedAt": "2026-10-04T07:37:14Z",
+  "totalQuestions": 72,
   "tier": "verified",
   "questions": [
     {
@@ -792,6 +792,108 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Security architecture addresses non-normative flows through systems and among applications.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Security architecture calls for its own unique set of skills and competencies of the enterprise and IT architects.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Security architecture composes its own discrete views and viewpoints.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Security architecture has its own discrete security methodology.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Security architecture introduces its own normative flows through systems and among applications.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Security architecture introduces unique, single-purpose components in the design.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
       "question": "Security measures to establish the validity of a transmission, message, or originator.",
       "answer": "Authentication",
       "choices": [],
@@ -882,6 +984,101 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "The ability of the enterprise to function without service interruption or depletion despite abnormal or malicious events.",
+      "answer": "Availability",
+      "choices": [
+        "a. Availability",
+        "b. Audit",
+        "c. Authentication",
+        "d. Assurance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "The ability to add and change security policies, add or change how policies are implemented in the enterprise, and add or change the persons or entities related to the systems.",
+      "answer": "Administration",
+      "choices": [
+        "a. Assurance",
+        "b. Audit",
+        "c. Risk Management",
+        "d. Administration"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "The ability to provide forensic data attesting that the systems have been used in accordance with stated security policies.",
+      "answer": "Audit",
+      "choices": [
+        "a. Assurance",
+        "b. Authentication",
+        "c. Authorization",
+        "d. Audit"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "The ability to test and prove that the enterprise architecture has the security attributes required to uphold the stated security policies.",
+      "answer": "Assurance",
+      "choices": [
+        "a. Authorization",
+        "b. Audit",
+        "c. Authentication",
+        "d. Assurance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "The definition and enforcement of permitted capabilities for a person or entity whose identity has been established.",
+      "answer": "Authentication",
+      "choices": [
+        "a. Authentication",
+        "b. Audit",
+        "c. Assurance",
+        "d. Authorization"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
     },
     {
       "question": "The infected file can be used by the self-execution facility to launch the malware code, or it can be executed by the user himself;",
@@ -977,6 +1174,63 @@
       "isAiSuggestion": false
     },
     {
+      "question": "The organization's attitude and tolerance for risk.",
+      "answer": "Risk Management",
+      "choices": [
+        "a. Assurance",
+        "b. Risk Management",
+        "c. Assurance",
+        "d. Audit"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "The protection of information assets from loss or unintended disclosure, and resources from unauthorized and unintended use.",
+      "answer": "Asset Protection",
+      "choices": [
+        "a. Risk Management",
+        "b. Asset Protection",
+        "c. Administration",
+        "d. Audit"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "The substantiation of the identity of a person or entity related to the enterprise or system in some way.",
+      "answer": "Authentication",
+      "choices": [
+        "a. Authentication",
+        "b. Audit",
+        "c. Authorization",
+        "d. Assurance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
       "question": "These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
       "answer": "Action on objective",
       "choices": [
@@ -1003,6 +1257,62 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Those stakeholders who will be affected by security capabilities and who are in groups of communities",
+      "answer": "Identify communities involved",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Those units outside the scoped enterprise who will need to enhance their security architecture for interoperability purposes",
+      "answer": "Identify extended enterprise",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Those who are most affected and achieve most value from the security work",
+      "answer": "Identify core enterprise",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
+    },
+    {
+      "question": "Those who will see change to their capability and work with core units but are otherwise not directly affected",
+      "answer": "Identify soft enterprise",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:37:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:37:14Z"
     },
     {
       "question": "Three Features of Security",
