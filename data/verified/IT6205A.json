@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-03T10:52:01Z",
-  "totalQuestions": 37,
+  "updatedAt": "2026-10-04T07:22:47Z",
+  "totalQuestions": 54,
   "tier": "verified",
   "questions": [
     {
@@ -22,6 +22,37 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Accepted facts, principles, or rules of thumb that are useful for specific domains.",
+      "answer": "Knowledge",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
+      "question": "Actions taken that protect and defend information and information systems by ensuring their availability, integrity, authentication, confidentiality and non-repudiation",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
     },
     {
       "question": "After the first six phases, an attacker can act to achieve the goals. These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
@@ -73,6 +104,20 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Assurance that information is not disclosed to unauthorized persons",
+      "answer": "Confidentiality",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
       "question": "Assurance that information is shared only among authorized persons or organizations.",
       "answer": "Security",
       "choices": [
@@ -118,6 +163,20 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Assurance that the sender is provided with proof of a data delivery and recipient is provided with proof of the sender’s identity, so that neither can later deny having processed the data.",
+      "answer": "Non-repudiation",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
     },
     {
       "question": "Availability: Availability of information refers to ensuring that authorized parties are able to access the information when needed",
@@ -168,6 +227,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Converting data into information thus requires knowledge",
+      "answer": "Information",
+      "choices": [
+        "a. Noise",
+        "b. Information",
+        "c. Data",
+        "d. Knowledge"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
       "question": "Cyber security, also referred to as information technology security, focuses on protecting computers, networks, programs and data from unintended or unauthorized access, change or destruction.",
       "answer": "True",
       "choices": [
@@ -216,6 +294,44 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Data and data processing activities in physical space;",
+      "answer": "Physical",
+      "choices": [
+        "a. Physical",
+        "b. Personnel Security",
+        "c. IT Security",
+        "d. Physical Security"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
+      "question": "Four Security Domain",
+      "answer": "Physical Security, Personnel Security, IT Security and Operational Security",
+      "choices": [
+        "a. Physical Security, Personnel Security, IT Security and Operational Security",
+        "b. System, Personnel Security, IT Security and Operational Security",
+        "c. Physical Security, Virus, IT Security and Operational Security",
+        "d. Physical Security, Personnel Security, IT Security and Security"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
       "question": "In information security, data integrity means maintaining and assuring the accuracy and consistency of data over its entire life-cycle.",
       "answer": "True",
       "choices": [
@@ -243,6 +359,42 @@
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Information and data manipulation abilities in cyberspace;",
+      "answer": "Information Infrastructure",
+      "choices": [
+        "a. IT Security",
+        "b. Noise",
+        "c. Information Infrastructure",
+        "d. Physical Security"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
+      "question": "Information Assurance (IA) is the study of how to protect your information assets from destruction, degradation, manipulation and exploitation.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
     },
     {
       "question": "Is a generic term that implies a mechanism in place to provide a basis for confidence in the reliability/security of the system.",
@@ -276,6 +428,25 @@
       "questionType": "shortanswer"
     },
     {
+      "question": "Is data endowed with relevance and purpose.",
+      "answer": "Information",
+      "choices": [
+        "a. Information",
+        "b. Data",
+        "c. Knowledge",
+        "d. Noise"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
       "question": "Is roughly equivalent to privacy",
       "answer": "Confidentiality",
       "choices": [
@@ -307,6 +478,25 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "shortanswer"
+    },
+    {
+      "question": "It should be: accurate, timely, complete, verifiable, consistent, available.",
+      "answer": "Knowledge",
+      "choices": [
+        "a. Information",
+        "b. Data",
+        "c. Noise",
+        "d. Knowledge"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
     },
     {
       "question": "Logical security consists in software that are necessary to control the access to information and services of a system. The logical level is divided into two categories: access security level and service security level.",
@@ -394,6 +584,62 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Processed data",
+      "answer": "Information",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
+      "question": "Protection against unauthorized modification or destruction of information",
+      "answer": "Integrity",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
+      "question": "Raw facts with a known coding system",
+      "answer": "Data",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
+      "question": "Raw facts with an unknown coding system",
+      "answer": "Noise",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
+    },
+    {
       "question": "Research, target identification and selection: it may be looking for e-mail addresses, social relationships, or data about a particular technology, information displayed on various websites;",
       "answer": "Reconnaissance",
       "choices": [
@@ -457,6 +703,20 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Security measures to establish the validity of a transmission, message, or originator.",
+      "answer": "Authentication",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
     },
     {
       "question": "Seven Stages of lifecycle model",
@@ -612,6 +872,20 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Timely, reliable access to data and information services for authorized users;",
+      "answer": "Availability",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T07:22:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T07:22:47Z"
     },
     {
       "question": "Transmitting the weapon to the target environment.",
