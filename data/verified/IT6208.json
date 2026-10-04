@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6208",
   "subjectName": "System Integration and Architecture 1",
-  "updatedAt": "2026-10-04T14:46:20Z",
-  "totalQuestions": 109,
+  "updatedAt": "2026-10-04T14:46:58Z",
+  "totalQuestions": 110,
   "tier": "verified",
   "questions": [
     {
@@ -14,12 +14,14 @@
         "c. Management Tools",
         "d. Commitment control management mechanisms",
         "a. Commitment control management mechanisms",
-        "d. Strong support for metadata management"
+        "d. Strong support for metadata management",
+        "c. Strong support for metadata management",
+        "d. Management Tools"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T07:06:57Z",
-      "lastVerifiedAt": "2026-10-04T14:41:47Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -522,9 +524,9 @@
         "c. System, Openness, Concurrency, Scalable, Fault Tolerant and Transparent"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T06:42:48Z",
-      "lastVerifiedAt": "2026-10-04T14:32:51Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -538,9 +540,9 @@
         "b. Segments, Connectors, Systems, Properties, Styles"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-10-04T14:19:07Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -949,6 +951,10 @@
         {
           "answer": "True",
           "timestamp": "2026-10-04T14:28:41Z"
+        },
+        {
+          "answer": "True",
+          "timestamp": "2026-10-04T14:46:58Z"
         }
       ],
       "wrongAnswers": [],
@@ -1141,12 +1147,14 @@
         "a. System Integration",
         "b. CAM",
         "c. CIM",
-        "d. CAE"
+        "d. CAE",
+        "a. CAM",
+        "b. CAE"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T07:01:09Z",
-      "lastVerifiedAt": "2026-10-04T14:38:33Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1271,12 +1279,13 @@
         "d. System Integration",
         "a. System",
         "d. System Architecture",
-        "a. System Thinking"
+        "a. System Thinking",
+        "b. System Architecture"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-10-04T14:45:17Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1576,12 +1585,14 @@
         "c. Problem Definition",
         "d. Ranking and Selection",
         "a. System Integration",
-        "c. Parameterization"
+        "c. Parameterization",
+        "a. Problem Definition",
+        "b. Ranking and Selection"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T07:01:09Z",
-      "lastVerifiedAt": "2026-10-04T14:38:33Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1599,12 +1610,15 @@
         "c. Sequence Diagram",
         "d. Style",
         "a. Scenarios Diagram",
-        "b. Sequence Diagram"
+        "b. Sequence Diagram",
+        "a. Style",
+        "c. Use Case Model",
+        "d. Sequence Diagram"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-22T06:35:15Z",
-      "lastVerifiedAt": "2026-10-04T14:28:41Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2177,6 +2191,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "This kind of structure will ensure greater output of varieties of similar products.",
+      "answer": "Divisional Structure",
+      "choices": [
+        "a. Matrix Structure",
+        "b. Functional Structure",
+        "c. Project Organization Structure",
+        "d. Divisional Structure"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T14:46:58Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z"
+    },
+    {
       "question": "To allow access to the Data Source and Target Interfaces (i.e. Siebel, SAP, PeopleSoft, ODBC, Oracle, CICS, IMS) - note that the data acquisition component is crucial to EAI success. Most vendors refer to these interfaces as \"adapters“",
       "answer": "Data Acquisition Component",
       "choices": [
@@ -2314,12 +2347,14 @@
         "b. Functional, Project and Matrix",
         "d. Flexible, Project and Matrix",
         "a. Efficient, Project and Matrix",
-        "c. Functional, Accurate and Matrix"
+        "c. Functional, Accurate and Matrix",
+        "c. Functional, Project and Matrix",
+        "d. Efficient, Project and Matrix"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-22T06:31:13Z",
-      "lastVerifiedAt": "2026-10-04T14:19:07Z",
+      "lastVerifiedAt": "2026-10-04T14:46:58Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
