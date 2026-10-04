@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:30:34Z",
+  "updatedAt": "2026-10-04T07:31:48Z",
   "totalQuestions": 54,
   "tier": "verified",
   "questions": [
@@ -59,9 +59,9 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -86,9 +86,9 @@
         "c. Exploitation"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -379,9 +379,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -545,12 +545,13 @@
         "d. Prevent Cyber-Attacks",
         "a. System",
         "b. Install",
-        "d. Recon"
+        "d. Recon",
+        "d. Install"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [
         "System"
@@ -573,12 +574,14 @@
         "a. Exploitation",
         "b. Delivery",
         "a. Reconnaissance",
-        "c. Exploitation"
+        "c. Exploitation",
+        "c. Weaponization",
+        "d. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -607,9 +610,9 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -634,12 +637,14 @@
         "d. System",
         "a. Install",
         "b. Prevent Cyber-Attacks",
-        "d. Recon"
+        "d. Recon",
+        "a. System",
+        "c. Install"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -715,12 +720,13 @@
         "d. Exploitation",
         "b. Weaponization",
         "c. Exploitation",
-        "d. Delivery"
+        "d. Delivery",
+        "a. Delivery"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -880,7 +886,9 @@
         "c. Reconnaissance",
         "d. Exploitation",
         "b. Installation",
-        "c. Weaponization"
+        "c. Weaponization",
+        "a. Weaponization",
+        "d. Reconnaissance"
       ],
       "verified": true,
       "confirmations": 2,
@@ -908,6 +916,10 @@
         {
           "rejectedAnswer": "Exploitation",
           "timestamp": "2026-10-04T07:30:34Z"
+        },
+        {
+          "rejectedAnswer": "Exploitation",
+          "timestamp": "2026-10-04T07:31:48Z"
         }
       ]
     },
@@ -925,12 +937,13 @@
         "d. Install",
         "a. Delivery",
         "b. C2",
-        "a. Recon"
+        "a. Recon",
+        "c. Delivery"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -951,12 +964,13 @@
         "b. Action on objective",
         "c. Command and Control",
         "d. Installation",
-        "c. Exploitation"
+        "c. Exploitation",
+        "b. Exploitation"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1019,9 +1033,9 @@
         "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1032,9 +1046,9 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:28:00Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -1064,9 +1078,9 @@
         "d. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:30:34Z",
+      "lastVerifiedAt": "2026-10-04T07:31:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
