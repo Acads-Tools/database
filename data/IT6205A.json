@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T11:26:22Z",
+  "updatedAt": "2026-10-04T11:27:52Z",
   "totalQuestions": 98,
   "questions": [
     {
@@ -53,10 +53,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Actions taken that protect and defend information and information systems by ensuring their availability, integrity, authentication, confidentiality and non-repudiation",
@@ -70,10 +70,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "After the first six phases, an attacker can act to achieve the goals. These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
@@ -286,10 +286,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Assurance that information is shared only among authorized persons or organizations.",
@@ -373,10 +373,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Availability: Availability of information refers to ensuring that authorized parties are able to access the information when needed",
@@ -501,17 +501,18 @@
         "a. Data",
         "b. Noise",
         "c. Knowledge",
-        "d. Information"
+        "d. Information",
+        "b. Data"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Cyber security, also referred to as information technology security, focuses on protecting computers, networks, programs and data from unintended or unauthorized access, change or destruction.",
@@ -572,17 +573,18 @@
         "a. Personnel Security",
         "b. Physical Security",
         "c. Physical",
-        "d. IT Security"
+        "d. IT Security",
+        "b. IT Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Definition of relevant stakeholders and discovery of their concerns and objectives will require development of a high-level scenario. What phase is that?",
@@ -731,17 +733,20 @@
         "d. Physical Security, Personnel Security, IT Security and Security",
         "a. Physical Security, Virus, IT Security and Operational Security",
         "b. Physical Security, Personnel Security, IT Security and Operational Security",
-        "c. System, Personnel Security, IT Security and Operational Security"
+        "c. System, Personnel Security, IT Security and Operational Security",
+        "b. Physical Security, Virus, IT Security and Operational Security",
+        "c. Physical Security, Personnel Security, IT Security and Security",
+        "d. System, Personnel Security, IT Security and Operational Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "From the Baseline Security Architecture and the Enterprise Continuum, there will be existing security infrastructure and security building blocks that can be applied to the requirements derived from this architecture development engagement. What phase is that?",
@@ -867,17 +872,21 @@
         "a. Noise",
         "b. IT Security",
         "c. Physical Security",
-        "d. Information Infrastructure"
+        "d. Information Infrastructure",
+        "a. Information Infrastructure",
+        "b. Physical Security",
+        "c. Noise",
+        "d. IT Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Information Assurance (IA) is the study of how to protect your information assets from destruction, degradation, manipulation and exploitation.",
@@ -891,10 +900,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Is a generic term that implies a mechanism in place to provide a basis for confidence in the reliability/security of the system.",
@@ -934,17 +943,21 @@
         "a. Information",
         "b. Data",
         "c. Knowledge",
-        "d. Noise"
+        "d. Noise",
+        "a. Noise",
+        "b. Knowledge",
+        "c. Information",
+        "d. Data"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Is roughly equivalent to privacy",
@@ -993,17 +1006,18 @@
         "d. Knowledge",
         "a. Data",
         "b. Knowledge",
-        "d. Information"
+        "d. Information",
+        "b. Information"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Logical security consists in software that are necessary to control the access to information and services of a system. The logical level is divided into two categories: access security level and service security level.",
@@ -1160,10 +1174,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Protection against unauthorized modification or destruction of information",
@@ -1174,10 +1188,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Raw facts with a known coding system",
@@ -1188,10 +1202,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Raw facts with an unknown coding system",
@@ -1202,10 +1216,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Research, target identification and selection: it may be looking for e-mail addresses, social relationships, or data about a particular technology, information displayed on various websites;",
@@ -1417,10 +1431,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Seven Stages of lifecycle model",
@@ -1932,10 +1946,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T07:25:01Z"
+      "lastVerifiedAt": "2026-10-04T11:27:52Z"
     },
     {
       "question": "Transmitting the weapon to the target environment.",
