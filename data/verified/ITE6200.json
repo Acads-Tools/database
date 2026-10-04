@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-04T05:30:05Z",
-  "totalQuestions": 93,
+  "updatedAt": "2026-10-04T05:33:16Z",
+  "totalQuestions": 95,
   "tier": "verified",
   "questions": [
     {
@@ -475,10 +475,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-04T05:26:42Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-04T05:33:16Z",
+      "source": "review_screen"
     },
     {
       "question": "Form Helper method or code to return an HTML checkbox input type.",
@@ -675,6 +675,19 @@
       "source": "Review"
     },
     {
+      "question": "IDENTIFICATION: [____: Bcc()] Method that accepts recipients that are not visible to the other recipients",
+      "answer": "Bcc()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T05:33:16Z",
+      "lastVerifiedAt": "2026-10-04T05:33:16Z",
+      "source": "review_screen"
+    },
+    {
       "question": "IDENTIFICATION: [____: cc()] Method that accepts 'secondary recipients' that receives the mail just to keep them informed",
       "answer": "cc()",
       "choices": [],
@@ -708,10 +721,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-04T05:26:42Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-04T05:33:16Z",
+      "source": "review_screen"
     },
     {
       "question": "IDENTIFICATION: [____: Print_deb] Method that returns a string containing any server messages, email header and email message.",
@@ -842,10 +855,10 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-03T13:28:42Z",
-      "lastVerifiedAt": "2026-10-04T05:26:42Z",
-      "source": "Review"
+      "lastVerifiedAt": "2026-10-04T05:33:16Z",
+      "source": "review_screen"
     },
     {
       "question": "is_uniques form validation rule checks if the input is unique from the table.",
@@ -1594,6 +1607,22 @@
       "firstSeenAt": "2026-10-04T05:26:42Z",
       "lastVerifiedAt": "2026-10-04T05:26:42Z",
       "source": "moodle_100_percent"
+    },
+    {
+      "question": "We should subject a user for approval on registration.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T05:33:16Z",
+      "lastVerifiedAt": "2026-10-04T05:33:16Z",
+      "source": "review_screen"
     }
   ]
 }
