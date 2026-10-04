@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-09-25T09:35:34Z",
+  "updatedAt": "2026-10-04T14:56:44Z",
   "totalQuestions": 129,
   "questions": [
     {
@@ -178,15 +178,18 @@
         "a. To display router ID and other information about OSPF neighbors",
         "b. To display device ID and other information about directly connected Cisco devices",
         "c. To display routing table and other information about directly connected Cisco devices",
-        "d. To display line status and other information about directly connected Cisco devices"
+        "d. To display line status and other information about directly connected Cisco devices",
+        "b. To display line status and other information about directly connected Cisco devices",
+        "d. To display device ID and other information about directly connected Cisco devices"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:47:13Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "A network engineer connected 2 switches together with two crossover cables for redundancy, and STP is disabled. Which of the following will happen between the switches?",
@@ -278,12 +281,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Access Layer is the layer of which the hierarchical enterprise LAN design model would PoE for VoIP phones and access points be considered.",
@@ -543,15 +547,20 @@
         "a. 24 Gb/s, because this is the maximum forwarding rate on Cisco switches",
         "b. 26 Gb/s, because of overhead requirements",
         "c. 1 Gb/s, because data can only be forwarded from one port at a time",
-        "d. 12 Gb/s, by providing full bandwidth to each port"
+        "d. 12 Gb/s, by providing full bandwidth to each port",
+        "a. 1 Gb/s, because data can only be forwarded from one port at a time",
+        "b. 12 Gb/s, by providing full bandwidth to each port",
+        "c. 26 Gb/s, because of overhead requirements",
+        "d. 24 Gb/s, because this is the maximum forwarding rate on Cisco switches"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "How much traffic for a 24port Gbit switch at hand capable of generating when operating at full wire speed?",
@@ -609,15 +618,18 @@
         "a. Network edge routers",
         "b. Service provider routers",
         "c. Branch routers",
-        "d. Modular routers"
+        "d. Modular routers",
+        "a. Modular routers",
+        "d. Network edge routers"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "If you want to disable STP on a port connected to a server, which command would you use?",
@@ -688,18 +700,28 @@
     },
     {
       "question": "In managing Cisco devices, what is a characteristic of out-of-band device management?",
-      "answer": "It requires a terminal emulation client.",
+      "answer": "",
       "choices": [
         "a. It requires Telnet, SSH, or HTTP to access a Cisco device.",
         "b. It requires at least one network interface on the device to be connected and operational.",
         "c. It requires a terminal emulation client.",
-        "d. Out-of-band device management requires a direct connection to a network interface."
+        "d. Out-of-band device management requires a direct connection to a network interface.",
+        "b. Out-of-band device management requires a direct connection to a network interface.",
+        "c. It requires at least one network interface on the device to be connected and operational.",
+        "d. It requires a terminal emulation client."
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:09:58Z",
       "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "community_contribution"
+      "source": "moodle_review_elimination",
+      "wrongAnswers": [
+        "It requires a terminal emulation client."
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-04T14:56:44Z"
     },
     {
       "question": "In network troubleshooting, which command can be issued on a router to verify that automatic summarization is enabled?",
@@ -822,15 +844,19 @@
         "a. They promote infrastructure scalability, operational continuity, and transport flexibility.",
         "b. They are campus LAN switches that perform the same functions as Cisco 2960 switches.",
         "c. They are service provider switches that aggregate traffic at the edge of the network.",
-        "d. They are cloud-managed access switches that enable virtual stacking of switches."
+        "d. They are cloud-managed access switches that enable virtual stacking of switches.",
+        "a. They are cloud-managed access switches that enable virtual stacking of switches.",
+        "b. They promote infrastructure scalability, operational continuity, and transport flexibility.",
+        "d. They are campus LAN switches that perform the same functions as Cisco 2960 switches."
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
@@ -1667,14 +1693,20 @@
         "a. Enterprise edge and access layer",
         "b. Provider edge and access layer",
         "c. Access and distribution layer",
-        "d. Distribution and core layer"
+        "d. Distribution and core layer",
+        "a. Provider edge and access layer",
+        "b. Distribution and core layer",
+        "c. Enterprise edge and access layer",
+        "d. Access and distribution layer"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which among the listed below as discussed in Cisco Enterprise Architecture which two functional parts of the network are combined to form a collapsed core design?",
@@ -1683,14 +1715,19 @@
         "a. Enterprise edge and access layer",
         "b. Provider edge and access layer",
         "c. Core and distribution layer",
-        "d. Access and distribution layer"
+        "d. Access and distribution layer",
+        "a. Core and distribution layer",
+        "c. Access and distribution layer",
+        "d. Enterprise edge and access layer"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-23T14:46:30Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which among the listed below is a characteristic of in-band device management as discussed in this chapter?",
@@ -1854,15 +1891,18 @@
         "a. Routing protocol implementation",
         "b. Implementing etherChannel implementation",
         "c. Wireless connectivity implementation",
-        "d. Redundancy implementation"
+        "d. Redundancy implementation",
+        "c. Redundancy implementation",
+        "d. Wireless connectivity implementation"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-25T09:35:34Z",
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which network design solution will best extend access layer connectivity to host devices?",
@@ -2074,15 +2114,19 @@
         "a. To display router ID and other information about OSPF neighbors",
         "b. To display device ID and other information about directly connected Cisco devices",
         "c. To display routing table and other information about directly connected Cisco devices",
-        "d. To display line status and other information about directly connected Cisco devices"
+        "d. To display line status and other information about directly connected Cisco devices",
+        "a. To display routing table and other information about directly connected Cisco devices",
+        "c. To display line status and other information about directly connected Cisco devices",
+        "d. To display router ID and other information about OSPF neighbors"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-09-25T09:34:30Z",
+      "lastVerifiedAt": "2026-10-04T14:56:44Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
