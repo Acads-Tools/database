@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-04T15:14:18Z",
-  "totalQuestions": 139,
+  "updatedAt": "2026-10-04T15:16:10Z",
+  "totalQuestions": 140,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -527,15 +527,18 @@
         "a. WLAN",
         "b. WIMAX",
         "c. Satellite broadband",
-        "d. Cellular broadband"
+        "d. Cellular broadband",
+        "a. Cellular broadband",
+        "d. WLAN"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
@@ -796,14 +799,16 @@
         "d. switch 1 set to auto; switch 2 set to on.",
         "a. switch 1 set to auto; switch 2 set to on.",
         "b. switch 1 set to auto; switch 2 set to auto.",
-        "d. switch 1 set to desirable; switch 2 set to desirable."
+        "d. switch 1 set to desirable; switch 2 set to desirable.",
+        "c. switch 1 set to auto; switch 2 set to on.",
+        "d. switch 1 set to on; switch 2 set to desirable."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-04T15:14:18Z",
+      "lastVerifiedAt": "2026-10-04T15:16:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1024,6 +1029,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "In troubleshooting EtherChannels as shown in the diagram below. An EtherChannel was configured between switches S1 and S2, but the interfaces do not form an EtherChannel. What is the problem? [Image: [moodle-asset:382057/q.png]]",
+      "answer": "The EtherChannel was not configured with the same allowed range of VLANs on each interface.",
+      "choices": [
+        "a. The switch ports have to be configured as access ports with each port having a VLAN assigned.",
+        "b. The interface port-channel number has to be different on each switch.",
+        "c. The EtherChannel was not configured with the same allowed range of VLANs on each interface.",
+        "d. The switch ports were not configured with speed and duplex mode."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T15:16:10Z"
+    },
+    {
       "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
       "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
       "choices": [
@@ -1098,17 +1122,21 @@
         "a. WIMAX",
         "b. WLAN",
         "c. Bluetooth",
-        "d. Wi-Fi"
+        "d. Wi-Fi",
+        "a. WLAN",
+        "b. Bluetooth",
+        "c. Wi-Fi",
+        "d. WIMAX"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:14:18Z"
+      "lastVerifiedAt": "2026-10-04T15:16:10Z"
     },
     {
       "question": "Internal router is a router that has all of its interfaces in the same area.",
@@ -1132,15 +1160,19 @@
         "a. Distribution and core",
         "b. Network layer",
         "c. Access, distribution, and core",
-        "d. Access and distribution"
+        "d. Access and distribution",
+        "a. Access, distribution, and core",
+        "c. Access and distribution",
+        "d. Distribution and core"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-09-23T13:58:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "LSA type 1 including a list of directly attached network prefixes and link type",
@@ -1237,15 +1269,19 @@
         "a. PortFast",
         "b. HSRP",
         "c. EtherChannel",
-        "d. trunking"
+        "d. trunking",
+        "a. trunking",
+        "c. PortFast",
+        "d. EtherChannel"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Referring to the lab diagram shown below. The senior network administrator of ABC merchandize tried to create an EtherChannel between S1 and the other two switches via the commands that are shown, but was unsuccessful. What is the problem? [Image: [moodle-asset:382055/q.png]]",
@@ -1254,15 +1290,19 @@
         "a. Traffic cannot be sent to two different switches, but only to two different devices like an EtherChannel-enabled server and a switch.",
         "b. Traffic can only be sent to two different switches if EtherChannel is implemented on Layer 3 switches.",
         "c. Traffic cannot be sent to two different switches through the same EtherChannel link.",
-        "d. Traffic can only be sent to two different switches if EtherChannel is implemented on Gigabit Ethernet interfaces."
+        "d. Traffic can only be sent to two different switches if EtherChannel is implemented on Gigabit Ethernet interfaces.",
+        "a. Traffic cannot be sent to two different switches through the same EtherChannel link.",
+        "b. Traffic cannot be sent to two different switches, but only to two different devices like an EtherChannel-enabled server and a switch.",
+        "c. Traffic can only be sent to two different switches if EtherChannel is implemented on Layer 3 switches."
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-09-23T13:58:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The [____: default-information originate] command is used when configuring an OSPFv2 router to redistribute only a static default route.",
@@ -1529,17 +1569,21 @@
         "a. decreases the chance of a spanning-tree loop",
         "b. allows automatic formation of EtherChannel links",
         "c. provides a simulated environment for testing link aggregation",
-        "d. increases redundancy to Layer 3 devices"
+        "d. increases redundancy to Layer 3 devices",
+        "a. allows automatic formation of EtherChannel links",
+        "b. provides a simulated environment for testing link aggregation",
+        "c. increases redundancy to Layer 3 devices",
+        "d. decreases the chance of a spanning-tree loop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:14:18Z"
+      "lastVerifiedAt": "2026-10-04T15:16:10Z"
     },
     {
       "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
@@ -1612,14 +1656,17 @@
         "c. increases redundancy to Layer 3 devices",
         "d. allows automatic formation of EtherChannel links",
         "a. increases redundancy to Layer 3 devices",
-        "c. provides a simulated environment for testing link aggregation"
+        "c. provides a simulated environment for testing link aggregation",
+        "b. allows automatic formation of EtherChannel links",
+        "c. decreases the chance of a spanning-tree loop",
+        "d. increases redundancy to Layer 3 devices"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-04T15:14:18Z",
+      "lastVerifiedAt": "2026-10-04T15:16:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1899,15 +1946,19 @@
         "a. War Driving",
         "b. Packet Sniffing",
         "c. Man in the middle",
-        "d. Jamming"
+        "d. Jamming",
+        "b. Man in the middle",
+        "c. Jamming",
+        "d. Packet Sniffing"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-04T15:16:10Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP on a port only if the port receives LACP packets from another device?",
