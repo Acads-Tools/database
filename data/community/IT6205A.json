@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:34:35Z",
+  "updatedAt": "2026-10-04T07:36:32Z",
   "totalQuestions": 54,
   "questions": [
     {
@@ -58,9 +58,9 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -87,9 +87,9 @@
         "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -380,9 +380,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -553,9 +553,9 @@
         "c. System"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [
         "System"
@@ -585,9 +585,9 @@
         "a. Weaponization"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -616,9 +616,9 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -646,12 +646,13 @@
         "d. Recon",
         "a. System",
         "c. Install",
-        "d. Prevent Cyber-Attacks"
+        "d. Prevent Cyber-Attacks",
+        "b. Recon"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -734,9 +735,9 @@
         "d. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -938,6 +939,10 @@
         {
           "rejectedAnswer": "Exploitation",
           "timestamp": "2026-10-04T07:34:35Z"
+        },
+        {
+          "rejectedAnswer": "Exploitation",
+          "timestamp": "2026-10-04T07:36:32Z"
         }
       ]
     },
@@ -962,9 +967,9 @@
         "d. C2"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -990,9 +995,9 @@
         "d. Command and Control"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1055,12 +1060,13 @@
         "d. Delivery",
         "a. Delivery",
         "b. Reconnaissance",
-        "c. Exploitation"
+        "c. Exploitation",
+        "b. Weaponization"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1071,9 +1077,9 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:31:48Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -1101,12 +1107,13 @@
         "b. Recon, Weaponise, Deliver, System, Install, C2 and Action",
         "c. System, Weaponise, Deliver, Exploit, Install, C2 and Action",
         "d. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action",
-        "c. Recon, Weaponise, Deliver, System, Install, C2 and Action"
+        "c. Recon, Weaponise, Deliver, System, Install, C2 and Action",
+        "a. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:34:35Z",
+      "lastVerifiedAt": "2026-10-04T07:36:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
