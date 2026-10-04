@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6301",
   "subjectName": "Logic Design and Digital Computer Circuits",
-  "updatedAt": "2026-10-03T23:36:26Z",
-  "totalQuestions": 184,
+  "updatedAt": "2026-10-04T05:50:01Z",
+  "totalQuestions": 187,
   "tier": "verified",
   "questions": [
     {
@@ -446,14 +446,17 @@
         "a. Truth values",
         "b. Truth Table",
         "c. Algebraic Expression",
-        "d. K=f(X,Y,X)"
+        "d. K=f(X,Y,X)",
+        "a. K=f(X,Y,X)",
+        "b. Algebraic Expression",
+        "d. Truth Table"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-30T13:01:39Z",
-      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -820,6 +823,24 @@
       "wrongAnswers": []
     },
     {
+      "question": "How many AND gates are required for a 1-to-8 multiplexer?",
+      "answer": "8",
+      "choices": [
+        "a. 5",
+        "b. 8",
+        "c. 2",
+        "d. 6"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T05:50:01Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
+      "source": "review_screen"
+    },
+    {
       "question": "How many AND gates are required to realize the following expression Y=AB+BC?",
       "answer": "2",
       "choices": [
@@ -1011,15 +1032,37 @@
         "a. Enable pin",
         "b. Data inputs",
         "c. Select outputs",
-        "d. Select inputs"
+        "d. Select inputs",
+        "a. Select outputs",
+        "b. Enable pin",
+        "c. Data inputs"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:34:50Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
+    },
+    {
+      "question": "In a multiplexer, the selection of a particular input line is controlled by ___________",
+      "answer": "Selected lines",
+      "choices": [
+        "a. Both data controller and selected lines",
+        "b. Logic gates",
+        "c. Selected lines",
+        "d. Data controller"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T05:50:01Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
+      "source": "review_screen"
     },
     {
       "question": "In a NAND based S’-R’ latch, if S’=1 & R’=1 then the state of the latch is ____________",
@@ -1117,6 +1160,24 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "In the given 4-to-1 multiplexer, if c1 = 0 and c0 = 1 then the output M is ___________ [Image: [moodle-asset:207874/9.png]]",
+      "answer": "X1",
+      "choices": [
+        "a. X3",
+        "b. X2",
+        "c. X0",
+        "d. X1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T05:50:01Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
+      "source": "review_screen"
     },
     {
       "question": "In the IEEE floating point representation, the hexadecimal value 0 × 00000000 corresponds to",
@@ -2127,12 +2188,14 @@
         "c. truth table",
         "d. input logic function",
         "a. truth table",
-        "c. Boolean variable"
+        "c. Boolean variable",
+        "b. truth table",
+        "c. Boolean constant"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-06T01:22:28Z",
-      "lastVerifiedAt": "2026-10-03T23:28:36Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2610,9 +2673,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-10-03T23:36:26Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2731,9 +2794,9 @@
         "c. 8"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-03T21:58:39Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -3068,15 +3131,19 @@
         "a. Not change",
         "b. Change",
         "c. Toggle",
-        "d. Be invalid"
+        "d. Be invalid",
+        "a. Change",
+        "b. Be invalid",
+        "c. Not change",
+        "d. Toggle"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T14:13:05Z",
-      "lastVerifiedAt": "2026-09-30T14:13:05Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
       "source": "review_screen"
     },
     {
@@ -3102,15 +3169,19 @@
         "a. DeMultiplexer",
         "b. Data distributor",
         "c. Data Selector",
-        "d. Both data selector and data distributor"
+        "d. Both data selector and data distributor",
+        "b. Both data selector and data distributor",
+        "c. Data distributor",
+        "d. Data Selector"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:58:59Z",
-      "lastVerifiedAt": "2026-09-30T14:34:50Z",
+      "lastVerifiedAt": "2026-10-04T05:50:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which IC is used for the implementation of 1-to-16 DEMUX?",
