@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T07:33:46Z",
+  "updatedAt": "2026-10-04T07:34:35Z",
   "totalQuestions": 54,
   "tier": "verified",
   "questions": [
@@ -59,9 +59,9 @@
       "answer": "Action on Objective",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -88,9 +88,9 @@
         "d. Delivery"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -381,9 +381,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -554,9 +554,9 @@
         "c. System"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [
         "System"
@@ -582,12 +582,13 @@
         "c. Exploitation",
         "c. Weaponization",
         "d. Reconnaissance",
-        "d. Delivery"
+        "d. Delivery",
+        "a. Weaponization"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -627,7 +628,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T07:33:46Z"
+      "lastEvidenceAt": "2026-10-04T07:34:35Z"
     },
     {
       "question": "Physical security consist in the closure of IT equipment in a dedicated space and the provision of access control.",
@@ -649,9 +650,9 @@
         "d. Prevent Cyber-Attacks"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -734,9 +735,9 @@
         "d. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -934,6 +935,10 @@
         {
           "rejectedAnswer": "Exploitation",
           "timestamp": "2026-10-04T07:33:46Z"
+        },
+        {
+          "rejectedAnswer": "Exploitation",
+          "timestamp": "2026-10-04T07:34:35Z"
         }
       ]
     },
@@ -954,12 +959,13 @@
         "a. Recon",
         "c. Delivery",
         "b. Install",
-        "d. Recon"
+        "d. Recon",
+        "d. C2"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -985,9 +991,9 @@
         "d. Command and Control"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1047,12 +1053,15 @@
         "d. Weaponization",
         "a. Weaponization",
         "c. Reconnaissance",
-        "d. Delivery"
+        "d. Delivery",
+        "a. Delivery",
+        "b. Reconnaissance",
+        "c. Exploitation"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1074,7 +1083,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T07:33:46Z"
+      "lastEvidenceAt": "2026-10-04T07:34:35Z"
     },
     {
       "question": "What are the steps in intrusion model?",
@@ -1092,12 +1101,13 @@
         "a. Recon, Weaponise, Deliver, Exploit, Install, System and Action",
         "b. Recon, Weaponise, Deliver, System, Install, C2 and Action",
         "c. System, Weaponise, Deliver, Exploit, Install, C2 and Action",
-        "d. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action"
+        "d. Recon, Weaponise, Deliver, Exploit, Install, C2 and Action",
+        "c. Recon, Weaponise, Deliver, System, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-04T07:33:46Z",
+      "lastVerifiedAt": "2026-10-04T07:34:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
