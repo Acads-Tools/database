@@ -1,9 +1,28 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-04T06:12:31Z",
-  "totalQuestions": 123,
+  "updatedAt": "2026-10-04T06:19:17Z",
+  "totalQuestions": 131,
   "questions": [
+    {
+      "question": "$(document).ready() function calls if the browser contents has properly loaded its contents and is browsing.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
+    },
     {
       "question": "$this->db->insert_id() inserts an id in the database.",
       "answer": "False",
@@ -36,6 +55,25 @@
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T06:12:31Z"
+    },
+    {
+      "question": ".vals() It is used to get or set values from and to an input element particularly textboxes.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
     },
     {
       "question": "_________________________ justifies that GBV are main cause of international homicides and the record was set from Nepal and Bangladesh.",
@@ -210,6 +248,23 @@
       "source": "moodle_100_percent"
     },
     {
+      "question": "AJAX engine is an XMLHttpRequest object and jQuery makes it a lot more easier for us because of its AJAX development API.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
+    },
+    {
       "question": "AJAX stands for Asynchronous Java",
       "answer": "False",
       "choices": [
@@ -382,6 +437,23 @@
       "firstSeenAt": "2026-10-04T05:35:07Z",
       "lastVerifiedAt": "2026-10-04T05:45:03Z",
       "source": "review_screen"
+    },
+    {
+      "question": "DataTable jQuery plugin helps us enable sorting, pagination and search to our table data.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
     },
     {
       "question": "Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -1054,6 +1126,22 @@
       "source": "review_screen"
     },
     {
+      "question": "IDENTIFICATION: [____: slideLeft(interval)] JQuery method used to creates a sliding to the left transition within a given time on a selected element",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "slideLeft(interval)"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-04T06:19:17Z"
+    },
+    {
       "question": "IDENTIFICATION: [____: slideUp()] This command is used creates a sliding up transition within a given time on a selected element",
       "answer": "slideUp()",
       "choices": [],
@@ -1114,10 +1202,24 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:12:31Z"
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
+    },
+    {
+      "question": "IDENTIFICATION: It helps us enable sorting, pagination and search to our table data.",
+      "answer": "DataTable jQuery",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
     },
     {
       "question": "IDENTIFICATION: Name the university that created MaterialDesign CSS",
@@ -1341,6 +1443,25 @@
       "firstSeenAt": "2026-10-04T05:26:42Z",
       "lastVerifiedAt": "2026-10-04T05:26:42Z",
       "source": "moodle_100_percent"
+    },
+    {
+      "question": "jQuery is a java library that makes web scripting easier for us.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
     },
     {
       "question": "Match the correct answer:",
@@ -1654,6 +1775,23 @@
       "firstSeenAt": "2026-10-04T05:26:42Z",
       "lastVerifiedAt": "2026-10-04T05:26:42Z",
       "source": "moodle_100_percent"
+    },
+    {
+      "question": "Successful - this will be triggered upon the AJAX request and usually accepts the parameter response response contains the loaded content from the URL requested.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-04T06:19:17Z"
     },
     {
       "question": "Symbol used to combine 2 sting values to create one string.",
