@@ -759,6 +759,199 @@ async function handleUnknownQuestionTelemetry(request, env, corsHeaders) {
   }
 }
 
+const seenAnomalySignatures = new Set();
+
+async function handleAnomalyReport(request, env, corsHeaders) {
+  try {
+    const payload = await request.json().catch(() => ({}));
+    const repoOwner = env.REPO_OWNER || "Acads-Tools";
+    const repoName = env.REPO_NAME || "database";
+    const botToken = env.GITHUB_BOT_TOKEN;
+
+    const anomalyType = String(payload.anomalyType || "UNKNOWN_ANOMALY").slice(0, 60);
+    const subjectCode = String(payload.subjectCode || "GENERAL").toUpperCase().slice(0, 20);
+    const activityTitle = String(payload.activityTitle || "").slice(0, 100);
+    const questionRaw = String(payload.questionRaw || "").slice(0, 1000);
+    const questionNorm = String(payload.questionNorm || "").slice(0, 1000);
+    const domType = String(payload.domType || "unknown").slice(0, 30);
+    const submittedAnswer = String(payload.submittedAnswer || "").slice(0, 300);
+    const markScored = Number(payload.markScored || 0);
+    const maxMark = Number(payload.maxMark || 1);
+    const attemptHistory = Array.isArray(payload.attemptHistory) ? payload.attemptHistory.slice(0, 10) : [];
+    const dbCandidate = (payload.dbCandidate && typeof payload.dbCandidate === "object") ? payload.dbCandidate : null;
+    const clientVersion = String(payload.clientVersion || "unknown").slice(0, 20);
+    const contributorId = String(payload.contributorId || "anon").slice(0, 64);
+
+    if (!questionRaw) {
+      return new Response(JSON.stringify({ error: "Missing required questionRaw" }), {
+        status: 400,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const qShort = (questionNorm.length > 50 ? questionNorm.slice(0, 50) : questionRaw.slice(0, 50)).trim();
+    const signature = `${subjectCode}:${anomalyType}:${qShort}`;
+
+    if (seenAnomalySignatures.has(signature)) {
+      return new Response(JSON.stringify({ success: true, duplicate: true, message: "Anomaly already recorded in memory" }), {
+        status: 200,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    if (env.DB) {
+      try {
+        await env.DB.prepare(`CREATE TABLE IF NOT EXISTS reported_quiz_anomalies (
+          signature TEXT PRIMARY KEY,
+          anomaly_type TEXT NOT NULL,
+          subject_code TEXT NOT NULL,
+          activity_title TEXT,
+          question_raw TEXT NOT NULL,
+          dom_type TEXT,
+          submitted_answer TEXT,
+          mark_scored REAL,
+          max_mark REAL,
+          db_candidate TEXT,
+          client_version TEXT,
+          contributor_id TEXT,
+          reported_at TEXT
+        )`).run();
+
+        const existing = await env.DB.prepare(`SELECT signature FROM reported_quiz_anomalies WHERE signature = ?`).bind(signature).first();
+        if (existing) {
+          seenAnomalySignatures.add(signature);
+          return new Response(JSON.stringify({ success: true, duplicate: true, message: "Anomaly already logged in database" }), {
+            status: 200,
+            headers: { ...corsHeaders, "Content-Type": "application/json" }
+          });
+        }
+
+        await env.DB.prepare(`INSERT OR REPLACE INTO reported_quiz_anomalies (
+          signature, anomaly_type, subject_code, activity_title, question_raw, dom_type, submitted_answer, mark_scored, max_mark, db_candidate, client_version, contributor_id, reported_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`).bind(
+          signature, anomalyType, subjectCode, activityTitle, questionRaw, domType, submittedAnswer, markScored, maxMark,
+          dbCandidate ? JSON.stringify(dbCandidate) : null, clientVersion, contributorId, new Date().toISOString()
+        ).run();
+      } catch (_) {}
+    }
+
+    seenAnomalySignatures.add(signature);
+    if (seenAnomalySignatures.size > 200) {
+      const first = seenAnomalySignatures.values().next().value;
+      seenAnomalySignatures.delete(first);
+    }
+
+    if (!botToken) {
+      return new Response(JSON.stringify({ success: true, mode: "local_ack", message: "Anomaly telemetry received" }), {
+        status: 200,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const title = `🚨 [Anomaly: ${anomalyType}] ${subjectCode} — "${qShort.slice(0, 45)}..."`;
+    const candidateSection = dbCandidate
+      ? [
+          `- **DB Candidate Answer:** \`${dbCandidate.ansRaw || dbCandidate.answer || 'None'}\``,
+          `- **DB Question Type:** \`${dbCandidate.questionType || 'unknown'}\``,
+          `- **DB Verified Status:** \`${dbCandidate.verified ? 'true (CONFIRMED)' : 'false'}\``,
+          `- **DB Source:** \`${dbCandidate.source || 'unknown'}\``
+        ].join('\n')
+      : `*No direct matching candidate in active question cache.*`;
+
+    const historySection = attemptHistory.length > 0
+      ? [
+          `- **Prior Wrong Choices / Attempts:**`,
+          ...attemptHistory.map(h => `  - \`${h}\``)
+        ].join('\n')
+      : `*Single attempt recorded.*`;
+
+    const body = [
+      `## 🚨 Automated Quiz Answer Anomaly Detected`,
+      ``,
+      `A live quiz attempt or review session detected an anomaly requiring attention in course **${subjectCode}**.`,
+      ``,
+      `### Incident Metadata`,
+      `| Property | Value |`,
+      `| :--- | :--- |`,
+      `| **Subject Code** | \`${subjectCode}\` |`,
+      `| **Anomaly Type** | \`${anomalyType}\` |`,
+      `| **Activity** | ${activityTitle ? `\`${activityTitle}\`` : '*Not specified*'} |`,
+      `| **DOM Question Type** | \`${domType}\` |`,
+      `| **Submitted Answer** | \`${submittedAnswer || 'None'}\` |`,
+      `| **Score / Mark** | **${markScored} / ${maxMark}** (FAILED) |`,
+      `| **Client Version** | \`v${clientVersion}\` |`,
+      `| **Detected At** | ${new Date().toISOString()} |`,
+      ``,
+      `### Question Prompt`,
+      `> ${questionRaw.replace(/\r?\n/g, ' ')}`,
+      ``,
+      `### Database Candidate State`,
+      candidateSection,
+      ``,
+      `### Attempt History`,
+      historySection,
+      ``,
+      `### Recommended Action`,
+      `Inspect and update \`data/verified/${subjectCode}.json\` to fix or verify the answer key.`
+    ].join('\n');
+
+    let ghResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/issues`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${botToken}`,
+        "User-Agent": "AMAES-Cloudflare-Relay",
+        "Accept": "application/vnd.github.v3+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title: title,
+        body: body,
+        labels: ["bug", "anomaly", "data-quality"]
+      })
+    });
+
+    if (!ghResponse.ok && repoName !== (env.REPO_NAME || "database")) {
+      ghResponse = await fetch(`https://api.github.com/repos/${repoOwner}/${env.REPO_NAME || "database"}/issues`, {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${botToken}`,
+          "User-Agent": "AMAES-Cloudflare-Relay",
+          "Accept": "application/vnd.github.v3+json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          title: title,
+          body: body,
+          labels: ["bug", "anomaly", "data-quality"]
+        })
+      });
+    }
+
+    if (!ghResponse.ok) {
+      const ghErr = await ghResponse.text();
+      return new Response(JSON.stringify({ success: false, error: "Failed to create GitHub issue", details: ghErr }), {
+        status: 200,
+        headers: { ...corsHeaders, "Content-Type": "application/json" }
+      });
+    }
+
+    const issueData = await ghResponse.json();
+    return new Response(JSON.stringify({
+      success: true,
+      issueNumber: issueData.number,
+      issueUrl: issueData.html_url
+    }), {
+      status: 200,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ success: false, error: err.message }), {
+      status: 500,
+      headers: { ...corsHeaders, "Content-Type": "application/json" }
+    });
+  }
+}
+
 const bugReportRateLimitMap = new Map();
 
 async function handleUserBugReport(request, env, corsHeaders) {
@@ -1356,6 +1549,10 @@ export default {
 
     if (request.method === "POST" && (path === "/unknown-question" || path === "/telemetry/unknown-question")) {
       return handleUnknownQuestionTelemetry(request, env, corsHeaders);
+    }
+
+    if (request.method === "POST" && (path === "/telemetry/anomaly" || path === "/anomaly")) {
+      return handleAnomalyReport(request, env, corsHeaders);
     }
 
     if (request.method === "POST" && path === "/study-guides/refresh") {
