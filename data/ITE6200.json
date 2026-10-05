@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-04T06:47:30Z",
-  "totalQuestions": 141,
+  "updatedAt": "2026-10-05T12:33:49Z",
+  "totalQuestions": 143,
   "questions": [
     {
       "question": "$(document).ready() function calls if the browser contents has properly loaded its contents and is browsing.",
@@ -282,10 +282,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:20:47Z"
+      "lastVerifiedAt": "2026-10-05T12:33:49Z"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -456,10 +456,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:19:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:19:17Z"
+      "lastVerifiedAt": "2026-10-05T12:33:49Z"
     },
     {
       "question": "Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -1057,10 +1057,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:12:31Z"
+      "lastVerifiedAt": "2026-10-05T12:33:49Z"
     },
     {
       "question": "IDENTIFICATION: [____: JQuery] javascript library that makes web scripting easier for us",
@@ -1098,10 +1098,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:20:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:20:47Z"
+      "lastVerifiedAt": "2026-10-05T12:33:49Z"
     },
     {
       "question": "IDENTIFICATION: [____: Message()] Method that accepts the email's body or content",
@@ -1256,6 +1256,22 @@
       "lastEvidenceAt": "2026-10-04T06:19:17Z"
     },
     {
+      "question": "IDENTIFICATION: [____: slideLeft] JQuery method used to creates a sliding to the left transition within a given time on a selected element",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "slideLeft"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-05T12:33:49Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-05T12:33:49Z"
+    },
+    {
       "question": "IDENTIFICATION: [____: slideUp()] This command is used creates a sliding up transition within a given time on a selected element",
       "answer": "slideUp()",
       "choices": [],
@@ -1350,6 +1366,22 @@
       "lastVerifiedAt": "2026-10-04T06:19:17Z"
     },
     {
+      "question": "IDENTIFICATION: It is used to get or set values from and to an input element particularly textboxes.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-05T12:33:49Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-05T12:33:49Z"
+    },
+    {
       "question": "IDENTIFICATION: JQuery method used to hide selected element(s)",
       "answer": ".hide()",
       "choices": [],
@@ -1358,10 +1390,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:20:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:20:47Z"
+      "lastVerifiedAt": "2026-10-05T12:33:49Z"
     },
     {
       "question": "IDENTIFICATION: Name the university that created MaterialDesign CSS",
@@ -1372,10 +1404,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:20:47Z"
+      "lastVerifiedAt": "2026-10-05T12:33:49Z"
     },
     {
       "question": "In 2011 and 2015, ________ has recorded 40,000 dowry-related deaths.",
@@ -1622,7 +1654,13 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:19:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:19:17Z"
+      "lastVerifiedAt": "2026-10-04T06:19:17Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "False",
+          "timestamp": "2026-10-05T12:33:49Z"
+        }
+      ]
     },
     {
       "question": "Match the correct answer:",

@@ -115,7 +115,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `IT6224B` | Data Communications and Networking 3 | **205** | Active |
 | `IT6310` | Network Security | **109** | Active |
 | `IT6322A` | Mobile Application Development | **85** | Active |
-| `ITE6200` | Application Development and Emerging Technology | **141** | Active |
+| `ITE6200` | Application Development and Emerging Technology | **143** | Active |
 | `ITE6202` | ITE6202 | **42** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
 
