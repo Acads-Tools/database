@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-05T12:35:24Z",
-  "totalQuestions": 144,
+  "updatedAt": "2026-10-05T22:25:04.805Z",
+  "totalQuestions": 146,
   "questions": [
     {
       "question": "$(document).ready() function calls if the browser contents has properly loaded its contents and is browsing.",
@@ -1269,16 +1269,17 @@
     },
     {
       "question": "IDENTIFICATION: [____: slideLeft(interval)] JQuery method used to creates a sliding to the left transition within a given time on a selected element",
-      "answer": "",
+      "answer": "slideLeft()",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "slideLeft(interval)"
+        "slideLeft(interval)",
+        "animate"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:19:17Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T06:19:17Z"
@@ -2384,6 +2385,40 @@
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T06:12:31Z"
+    },
+    {
+      "question": "IDENTIFICATION: It is used to get or set values from and to an input element particularly textboxes.",
+      "answer": "val()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "b. False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-05T20:33:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-05T20:33:51Z"
+    },
+    {
+      "question": "IDENTIFICATION: JQuery method used to creates a sliding to the left transition within a given time on a selected element",
+      "answer": "slideLeft()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "slideLeft(interval)",
+        "animate",
+        "slideLeft"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-05T20:34:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-05T20:34:54Z"
     }
   ]
 }
