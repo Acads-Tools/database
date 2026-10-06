@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T09:54:14Z",
-  "totalQuestions": 167,
+  "updatedAt": "2026-10-06T09:58:24Z",
+  "totalQuestions": 171,
   "tier": "verified",
   "questions": [
     {
@@ -12,17 +12,20 @@
         "a. The hello timer on R2 expires every ten seconds.",
         "b. The R1 dead timer expires between hello packets from R2.",
         "c. The neighbor adjacency has formed.",
-        "d. R1 automatically adjusts its own timers to match the R2 timers."
+        "d. R1 automatically adjusts its own timers to match the R2 timers.",
+        "a. R1 automatically adjusts its own timers to match the R2 timers.",
+        "b. The hello timer on R2 expires every ten seconds.",
+        "d. The R1 dead timer expires between hello packets from R2."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "[Image: [moodle-asset:382139/q.png]] As shown from the network diagram above, the command “show ipv6 route can be issued on router R2 to verify the propagation of static default router from R1 to R2\" Why is MD5 authentication is more secure than simple authentication of OSPF updates?",
@@ -91,17 +94,21 @@
         "a. The route was learned from within the area.",
         "b. The route was learned from outside the internetwork.",
         "c. The route was manually configured.",
-        "d. The route was learned from another area."
+        "d. The route was learned from another area.",
+        "a. The route was manually configured.",
+        "b. The route was learned from another area.",
+        "c. The route was learned from outside the internetwork.",
+        "d. The route was learned from within the area."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "[Image: [moodle-asset:382189/q.png]] Referring to the exhibit, the command “show ipv6 route can be issued on router R2 to verify the propagation of a static default router from R1 to R2\" As discussed in this chapter why is MD5 authentication is more secure than simple authentication of OSPF updates?a",
@@ -359,6 +366,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "A network administrator of an international herbal company is verifying a multi-area OSPF configuration by checking the routing table on a router in area 1. The administrator notices a route to a network that is connected to a router in area 2. Which code appears in front of this route in the routing table within area 1?",
+      "answer": "O IA",
+      "choices": [
+        "a. O IA",
+        "b. O",
+        "c. C",
+        "d. O E2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:58:24Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+    },
+    {
       "question": "A network administrator of Genesis Airlines issue a command of show cdp neigbors on a router, what do you think is the reason?",
       "answer": "To display device ID and other information about directly connected Cisco devices",
       "choices": [
@@ -375,6 +401,26 @@
       "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
       "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "A network engineer of Genesis Industries is troubleshooting an OSPFv2 network and discovers that two routers connected by a point-to-point WAN serial link are not establishing an adjacency. The OSPF routing process, network commands and area ID are all confirmed as correct, and the interfaces are not passive. Testing shows that the cabling is correct, that the link is up, and pings between the interfaces are successful. What is most likely the problem?",
+      "answer": "The subnet masks on the two connected serial interfaces do not match.",
+      "choices": [
+        "a. Ip addresses of the 2 serials are the same or conflict",
+        "b. The subnet masks on the two connected serial interfaces do not match.",
+        "c. The OSPFv2 process IDs on each router do not match.",
+        "d. A clock rate has not been set on the DCE interface of the serial link.",
+        "b. The OSPFv2 process IDs on each router do not match.",
+        "c. The subnet masks on the two connected serial interfaces do not match."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T09:58:24Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -729,17 +775,20 @@
         "d. Type 2",
         "a. Type 3",
         "b. Type 5",
-        "c. Type 1"
+        "c. Type 1",
+        "a. Type 1",
+        "b. Type 2",
+        "d. Type 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "As discussed in link state advertisement which two statements correctly describe OSPF type 3 LSAs? Type 3 LSAs are used to update routes between OSPF areas. Type 3 LSAs are known as router link entries​. Type 3 LSAs are used for routes to networks outside the OSPF autonomous system​. Type 3 LSAs are known as autonomous system external LSA entries.​ Type 3 LSAs are generated without requiring a full SPF calculation.​",
@@ -767,17 +816,21 @@
         "a. It becomes BDR",
         "b. It becomes ASBR",
         "c. It becomes DR",
-        "d. It becomes ABR"
+        "d. It becomes ABR",
+        "a. It becomes ASBR",
+        "b. It becomes DR",
+        "c. It becomes ABR",
+        "d. It becomes BDR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "As discussed in Scaling Network course when OSPFv2 neighbors are establishing adjacencies, in which state do they elect a DR and BDR router?",
@@ -805,17 +858,20 @@
         "a. type 2",
         "b. type 1",
         "c. type 5",
-        "d. type 3"
+        "d. type 3",
+        "a. type 1",
+        "b. type 5",
+        "c. type 2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "As discussed in this chapter which statement is true regarding OSPF multi-area adjacencies?",
@@ -1053,14 +1109,16 @@
         "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
         "a. The route is located two hops away.",
         "b. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
-        "d. This route is a propagated default route."
+        "d. This route is a propagated default route.",
+        "c. The route is located two hops away.",
+        "d. The metric for this route is 110"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z",
+      "lastVerifiedAt": "2026-10-06T09:58:24Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1513,17 +1571,21 @@
         "a. Ip route 10.0.0.0 255.0.0.0 192.168.1.2",
         "b. Ip route 10.0.0.0 0.0.0.255 Serial0",
         "c. Ip route 192.0.0.0 255.0.0.0 192.168.1.2",
-        "d. Ip route 0.0.0.0 0.0.0.0 192.200.1.2"
+        "d. Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
+        "a. Ip route 10.0.0.0 0.0.0.255 Serial0",
+        "b. Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
+        "c. Ip route 10.0.0.0 255.0.0.0 192.168.1.2",
+        "d. Ip route 192.0.0.0 255.0.0.0 192.168.1.2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "In single-area OSPF concepts which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
@@ -1649,17 +1711,21 @@
         "a. show ip mac-address",
         "b. show ipospf interface",
         "c. show ip route ospf",
-        "d. show ip protocols"
+        "d. show ip protocols",
+        "a. show ip protocols",
+        "b. show ip route ospf",
+        "c. show ip mac-address",
+        "d. show ipospf interface"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
@@ -1690,17 +1756,21 @@
         "a. 1, 2, 3",
         "b. 1, 3, 5",
         "c. 2, 3, 6",
-        "d. 4, 5, 6"
+        "d. 4, 5, 6",
+        "a. 2, 3, 6",
+        "b. 4, 5, 6",
+        "c. 1, 2, 3",
+        "d. 1, 3, 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "In understanding in OSPF networks what does an O E1 or E2 routing table entry mean?",
@@ -1720,6 +1790,25 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
+    },
+    {
+      "question": "In understanding multiarea OSPF network which statement describes a multiarea OSPF network?",
+      "answer": "It has a core backbone area with other areas connected to the backbone area.",
+      "choices": [
+        "a. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area.",
+        "b. It requires a three-layer hierarchical network design approach.",
+        "c. It consists of multiple network areas that are daisy-chained together.",
+        "d. It has a core backbone area with other areas connected to the backbone area."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:58:24Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "In understanding of OSPF networks what is used to facilitate hierarchical routing in OSPF?",
@@ -1913,17 +2002,21 @@
         "a. 10.0.4.0 255.255.0.0",
         "b. 10.0. 8.0 255.255.248.0",
         "c. 10.0.0.0 255.255.240.0",
-        "d. 10.0.4.0 255.255.248.0"
+        "d. 10.0.4.0 255.255.248.0",
+        "a. 10.0.0.0 255.255.240.0",
+        "b. 10.0.4.0 255.255.248.0",
+        "c. 10.0.4.0 255.255.0.0",
+        "d. 10.0. 8.0 255.255.248.0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "Refer to the test result taken from our test labs. R1 and R2 are connected to the same LAN segment and are configured to run OSPFv3. They are not forming a neighbor adjacency. What is the cause of the problem?",
@@ -1936,17 +2029,18 @@
         "a. The IPv6 addresses of R1 and R2 are not in the same subnet.",
         "b. The timer intervals of R1 and R2 do not match.",
         "c. The priority value of both R1 and R2 is 1.",
-        "d. The OSPFv3 process IDs of R1 and R2 are different."
+        "d. The OSPFv3 process IDs of R1 and R2 are different.",
+        "c. The OSPFv3 process IDs of R1 and R2 are different."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "Referring to the diagram below of Chooks-to-Go office. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch? [Image: [moodle-asset:382050/q.png]]",
@@ -2001,14 +2095,16 @@
         "a. network 172.16.8.0 0.0.0.7 area 0",
         "b. network 172.16.8.0 0.0.7.255 area 15",
         "c. network 172.16.8.0 0.0.0.7 area 15",
-        "d. network 172.16.8.0 0.0.7.255 area 0"
+        "d. network 172.16.8.0 0.0.7.255 area 0",
+        "a. network 172.16.8.0 0.0.7.255 area 15",
+        "c. network 172.16.8.0 0.0.7.255 area 0"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z",
+      "lastVerifiedAt": "2026-10-06T09:58:24Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2095,6 +2191,27 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
+    },
+    {
+      "question": "The network engineer of Stark Industries has manually configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?",
+      "answer": "The dead interval will now be 60 seconds.",
+      "choices": [
+        "a. The dead interval will now be 15 seconds.",
+        "b. The dead interval will now be 30 seconds.",
+        "c. The dead interval will not change from the default value.",
+        "d. The dead interval will now be 60 seconds.",
+        "a. The dead interval will now be 60 seconds.",
+        "c. The dead interval will now be 15 seconds.",
+        "d. The dead interval will not change from the default value."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T09:58:24Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The OSPF hello timer has been set to 15 seconds on a router in a point-to-point network. By default, what is the dead interval on this router?",
@@ -2453,7 +2570,10 @@
         "d. It does improves the routing efficiency by reducing the routing table and link-state update overhead.",
         "a. It increases the routing performance by dividing the neighbor table into separate smaller ones.",
         "c. It allows OSPFv2 and OSPFv3 to be running together.",
-        "d. It improves the routing efficiency by reducing the routing table and link-state update overhead."
+        "d. It improves the routing efficiency by reducing the routing table and link-state update overhead.",
+        "b. It improves the routing efficiency by reducing the routing table and link-state update overhead.",
+        "c. It enables multiple routing protocols to be running in a large network.",
+        "d. It increases the routing performance by dividing the neighbor table into separate smaller ones."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2462,11 +2582,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T15:34:12Z",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "What is one way to correct a spanning tree failure?",
@@ -3060,17 +3180,19 @@
         "d. It consists of multiple network areas that are daisy-chained together.",
         "a. It consists of multiple network areas that are daisy-chained together.",
         "b. It has a core backbone area with other areas connected to the backbone area.",
-        "d. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area"
+        "d. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
+        "c. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
+        "d. It requires a three-layer hierarchical network design approach."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
       "question": "Which EIGRP parameter must match between all routers forming an EIGRP adjacency?",
