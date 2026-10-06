@@ -118,6 +118,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `ITE6200` | Application Development and Emerging Technology | **146** | Active |
 | `ITE6202` | ITE6202 | **42** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
+| `PHYED6200` | PHYED6200 | **8** | Active |
 
 Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
 
