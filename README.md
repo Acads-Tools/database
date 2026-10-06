@@ -109,7 +109,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
 | `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
 | `IT6205A` | Information Assurance and Security 1 | **98** | Active |
-| `IT6206` | Information Assurance and Security 2 | **124** | Active |
+| `IT6206` | Information Assurance and Security 2 | **125** | Active |
 | `IT6208` | System Integration and Architecture 1 | **112** | Active |
 | `IT6209` | Introduction to Multimedia | **120** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **205** | Active |

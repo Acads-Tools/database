@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6206",
   "subjectName": "Information Assurance and Security 2",
-  "updatedAt": "2026-10-06T08:07:53Z",
-  "totalQuestions": 124,
+  "updatedAt": "2026-10-06T08:26:25Z",
+  "totalQuestions": 125,
   "questions": [
     {
       "question": "20 different risk markers grouped under five main categories",
@@ -37,9 +37,9 @@
       "answer": "Confidential Information",
       "choices": [],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-22T05:21:54Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -665,17 +665,18 @@
         "b. Security, Government, Political, Environmental and Infrastructural Risks",
         "d. System , Medical, Political, Environmental and Infrastructural Risks",
         "a. Security, Medical, Political, Environmental and Infrastructural Risks",
-        "c. System , Medical, Political, Environmental and Infrastructural Risks"
+        "c. System , Medical, Political, Environmental and Infrastructural Risks",
+        "d. Security, Government, Political, Environmental and Infrastructural Risks"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-04T12:54:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z"
+      "lastVerifiedAt": "2026-10-06T08:26:25Z"
     },
     {
       "question": "Disruptions in their day-to-day business: Time is money.",
@@ -746,10 +747,10 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 41,
+      "confirmations": 42,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
-      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
@@ -761,9 +762,9 @@
         "Regulatory compliance's"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-04T13:10:28Z",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -847,9 +848,9 @@
         "Rising cost of breaches"
       ],
       "verified": true,
-      "confirmations": 56,
+      "confirmations": 57,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -975,12 +976,13 @@
         "Funded hackers and wide available of hacking tools",
         "Funded hackers and wide availabilities of hacking tools",
         "Funded hacker and wide availabilities of hacking tool",
-        "Funded hackers & wide availability of hacking tools"
+        "Funded hackers & wide availability of hacking tools",
+        "Compliance with laws and regulations"
       ],
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
-      "lastEvidenceAt": "2026-10-04T13:10:28Z"
+      "lastEvidenceAt": "2026-10-06T08:26:25Z"
     },
     {
       "question": "If you feel vulnerable do not ask Police or Security to escort you to your car",
@@ -1146,6 +1148,22 @@
       "firstSeenAt": "2026-10-04T13:30:32Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T13:30:32Z"
+    },
+    {
+      "question": "Information is one of the most significant [____: organizational] resources.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "organizational"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T08:26:25Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-06T08:26:25Z"
     },
     {
       "question": "Information is one of the most significant ______ resources.",
@@ -1509,9 +1527,9 @@
         "Increasingly sophisticated attacker"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -1922,9 +1940,9 @@
         "Proliferation of IoT devices"
       ],
       "verified": true,
-      "confirmations": 56,
+      "confirmations": 57,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1997,9 +2015,9 @@
         "Software developer"
       ],
       "verified": true,
-      "confirmations": 57,
+      "confirmations": 58,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2019,12 +2037,13 @@
       "wrongAnswers": [
         "Computer Network Architect",
         "Network Security Architect",
-        "Network Security"
+        "Network Security",
+        "Network Architect"
       ],
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
-      "lastEvidenceAt": "2026-10-04T12:54:46Z"
+      "lastEvidenceAt": "2026-10-06T08:26:25Z"
     },
     {
       "question": "What jobs in information security is this? Salary: $139,000 Responsibilities: Information systems managers work toward ensuring a company's tech is capable of meeting their IT goals.",
@@ -2065,12 +2084,13 @@
       ],
       "wrongAnswers": [
         "Information Systems Managers",
-        "Computer"
+        "Computer",
+        "Information Systems Manager"
       ],
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-04T13:43:00Z"
+      "lastEvidenceAt": "2026-10-06T08:26:25Z"
     },
     {
       "question": "What jobs in information security is this? Salary: $95,510 Responsibilities: Information security analysts monitor their companies' computer networks to combat hackers and compile reports of security breaches.",
@@ -2079,9 +2099,9 @@
         "Information Security Analyst"
       ],
       "verified": true,
-      "confirmations": 57,
+      "confirmations": 58,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:26:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
