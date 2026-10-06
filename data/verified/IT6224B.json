@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T09:44:39Z",
+  "updatedAt": "2026-10-06T09:45:10Z",
   "totalQuestions": 156,
   "tier": "verified",
   "questions": [
@@ -480,9 +480,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -802,9 +802,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -841,6 +841,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-05T13:58:40Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-06T09:45:10Z"
         }
       ],
       "isAiSuggestion": false,
@@ -1057,12 +1061,14 @@
         "d. Network edge routers",
         "a. Service provider routers",
         "b. Branch routers",
-        "c. Modular routers"
+        "c. Modular routers",
+        "b. Network edge routers",
+        "d. Branch routers"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1283,9 +1289,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1420,12 +1426,14 @@
         "c. Allows a switch to disable redundant Layer 2 paths in the topology to prevent Layer 2 loops",
         "d. Allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
         "b. Allows switches, phones, and wireless access points to receive power over existing Ethernet cables from an upstream switch",
-        "d. Allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links"
+        "d. Allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
+        "a. Allows multiple physical switch ports to be aggregated together and act as a single logical link to increase bandwidth on trunk links",
+        "d. Allows a multilayer switch to forward IP packets at a rate close to that of Layer 2 switching by bypassing the CPU"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1441,12 +1449,15 @@
         "d. They are cloud-managed access switches that enable virtual stacking of switches.",
         "a. They are cloud-managed access switches that enable virtual stacking of switches.",
         "b. They promote infrastructure scalability, operational continuity, and transport flexibility.",
-        "d. They are campus LAN switches that perform the same functions as Cisco 2960 switches."
+        "d. They are campus LAN switches that perform the same functions as Cisco 2960 switches.",
+        "a. They are campus LAN switches that perform the same functions as Cisco 2960 switches.",
+        "c. They are cloud-managed access switches that enable virtual stacking of switches.",
+        "d. They are service provider switches that aggregate traffic at the edge of the network."
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2900,12 +2911,13 @@
         "b. Etherchannel implementation",
         "c. Dynamic routing implementation",
         "d. Implementing wireless connectivity",
-        "b. Implementing redundancy"
+        "b. Implementing redundancy",
+        "a. Etherchannel implementation"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2928,9 +2940,9 @@
         "d. Implementing etherChannel implementation"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3240,12 +3252,15 @@
         "b. To display line status and other information about directly connected Cisco devices",
         "c. To display device ID and other information about directly connected Cisco devices",
         "d. To display routing table and other information about directly connected Cisco devices",
-        "c. To display router ID and other information about OSPF neighbors"
+        "c. To display router ID and other information about OSPF neighbors",
+        "a. To display line status and other information about directly connected Cisco devices",
+        "b. To display routing table and other information about directly connected Cisco devices",
+        "d. To display device ID and other information about directly connected Cisco devices"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
