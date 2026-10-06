@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-06T10:36:52Z",
+  "updatedAt": "2026-10-06T10:38:00Z",
   "totalQuestions": 42,
   "questions": [
     {
@@ -116,9 +116,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -266,9 +266,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -279,9 +279,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -313,9 +313,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -362,14 +362,18 @@
       "question": "It is the data left behind by users of electronic media",
       "answer": "digital footprint",
       "choices": [],
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "IT Manager"
+      ],
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:47:58Z",
       "lastVerifiedAt": "2026-10-06T10:36:52Z",
       "source": "review_screen",
-      "questionType": "shortanswer"
+      "questionType": "shortanswer",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-06T10:38:00Z"
     },
     {
       "question": "It is the harassment, torment, humiliation, or threatening of one minor by another minor or group of minors via the Internet or cell phone",
@@ -383,14 +387,17 @@
         "b. Online Predator",
         "c. Cyberbullying",
         "d. Uploading of Inappropriate Material",
-        "c. Cyberstalking"
+        "c. Cyberstalking",
+        "b. Cyberstalking",
+        "c. Uploading of Inappropriate Material",
+        "d. Online Predator"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -411,9 +418,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -424,9 +431,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -606,9 +613,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:48:47Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -697,14 +704,15 @@
         "c. All of the Above",
         "d. I, II, III",
         "b. All of the Above",
-        "c. IV, I"
+        "c. IV, I",
+        "a. I, II, III"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:47:58Z",
-      "lastVerifiedAt": "2026-10-06T10:36:52Z",
+      "lastVerifiedAt": "2026-10-06T10:38:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
