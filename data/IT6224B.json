@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T09:47:58Z",
-  "totalQuestions": 210,
+  "updatedAt": "2026-10-06T09:48:31Z",
+  "totalQuestions": 211,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -776,14 +776,16 @@
         "a. 600Mb/s",
         "c. 2Mb/s",
         "b. 2Mb/s",
-        "c. 54Mb/s"
+        "c. 54Mb/s",
+        "b. 64Mb/s",
+        "d. 54Mb/s"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:47:58Z",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1361,14 +1363,16 @@
         "b. desirable",
         "d. auto",
         "a. on",
-        "c. passive"
+        "c. passive",
+        "c. desirable",
+        "d. on"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-06T09:47:58Z",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1505,14 +1509,18 @@
         "b. switch 1 set to auto; switch 2 set to auto.",
         "d. switch 1 set to desirable; switch 2 set to desirable.",
         "c. switch 1 set to auto; switch 2 set to on.",
-        "d. switch 1 set to on; switch 2 set to desirable."
+        "d. switch 1 set to on; switch 2 set to desirable.",
+        "a. switch 1 set to on; switch 2 set to desirable.",
+        "b. switch 1 set to auto; switch 2 set to on.",
+        "c. switch 1 set to desirable; switch 2 set to desirable.",
+        "d. switch 1 set to auto; switch 2 set to auto."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1790,14 +1798,17 @@
         "d. Wi-fi(Wireless Fidelity)",
         "a. WIMAX",
         "b. Wi-fi(Wireless Fidelity)",
-        "d. WLAN"
+        "d. WLAN",
+        "a. Wi-fi(Wireless Fidelity)",
+        "b. WPAN",
+        "c. WIMAX"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-05T14:01:32Z",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2038,14 +2049,16 @@
         "a. Bluetooth",
         "b. WLAN",
         "c. None of the choices",
-        "d. Wi-Fi"
+        "d. Wi-Fi",
+        "c. Wi-Fi",
+        "d. None of the choices"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-06T09:47:58Z",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2097,14 +2110,17 @@
         "d. Access and distribution",
         "a. Access, distribution, and core",
         "c. Access and distribution",
-        "d. Distribution and core"
+        "d. Distribution and core",
+        "b. Access and distribution",
+        "c. Distribution and core",
+        "d. Network layer"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2690,17 +2706,19 @@
         "a. allows automatic formation of EtherChannel links",
         "b. provides a simulated environment for testing link aggregation",
         "c. increases redundancy to Layer 3 devices",
-        "d. decreases the chance of a spanning-tree loop"
+        "d. decreases the chance of a spanning-tree loop",
+        "a. increases redundancy to Layer 3 devices",
+        "c. allows automatic formation of EtherChannel links"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z"
+      "lastVerifiedAt": "2026-10-06T09:48:31Z"
     },
     {
       "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
@@ -2709,15 +2727,20 @@
         "a. Redundant links",
         "b. Network diameter",
         "c. Link aggregation",
-        "d. Convergence"
+        "d. Convergence",
+        "a. Network diameter",
+        "b. Redundant links",
+        "c. Convergence",
+        "d. Link aggregation"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Use the show ip ospf database command to verify the contents of the OSPFv2 LSDB.",
@@ -3213,16 +3236,37 @@
         "d. Jamming",
         "b. Man in the middle",
         "c. Jamming",
-        "d. Packet Sniffing"
+        "d. Packet Sniffing",
+        "a. Packet Sniffing",
+        "d. War Driving"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "When a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+      "answer": "auto",
+      "choices": [
+        "a. active",
+        "b. desirable",
+        "c. passive",
+        "d. auto"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:48:31Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:48:31Z"
     },
     {
       "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP on a port only if the port receives LACP packets from another device?",
