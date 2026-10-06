@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-06T10:16:37Z",
+  "updatedAt": "2026-10-06T10:18:50Z",
   "totalQuestions": 109,
   "questions": [
     {
@@ -57,14 +57,23 @@
         "a. Spyware",
         "b. Ransomware",
         "c. Adware",
-        "d. Advertising-supported software"
+        "d. Advertising-supported software",
+        "c. Advertising-supported software",
+        "d. Adware"
       ],
       "verified": true,
       "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
       "lastVerifiedAt": "2026-09-23T14:39:58Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Advertising-supported software",
+          "timestamp": "2026-10-06T10:18:50Z"
+        }
+      ]
     },
     {
       "question": "Always disable unnecessary features of the web server that are not going to be used",
@@ -127,11 +136,13 @@
         "b. Virus"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Areas of Security Trinity where they need to have a good security measures to avoid hackers from getting access to the network.",
@@ -205,11 +216,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Developers should always implement validation at both the client and the server to obtain high level of security.",
@@ -471,14 +484,19 @@
         "a. OS1 Reference Model",
         "b. ISO Reference Model",
         "c. OSI Reference Model",
-        "d. 0SI Reference Model"
+        "d. 0SI Reference Model",
+        "a. OSI Reference Model",
+        "b. OS1 Reference Model",
+        "c. ISO Reference Model"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It helps keep data and equipment safe by giving only the appropriate people access.",
@@ -607,11 +625,13 @@
       "answer": "Protocol",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a software service that manages the process of printing in the Windows environment.",
@@ -724,9 +744,9 @@
       "answer": "Attack",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -767,9 +787,9 @@
       "answer": "Threat",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -883,11 +903,13 @@
       "answer": "Spam",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "It pretends to be a legitimate programs in order to gain access to a system.",
@@ -896,14 +918,18 @@
         "a. Virus",
         "b. Worms",
         "c. Trojan Horse",
-        "d. Adware"
+        "d. Adware",
+        "a. Worms",
+        "b. Virus"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It provides data routing paths where data will take for network communication.",
@@ -918,9 +944,9 @@
         "c. Data Link Layer"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1143,14 +1169,19 @@
         "a. Structured Query Lanquage",
         "b. Structure Query Language",
         "c. Structured Query Language",
-        "d. Structure Query Languaqe"
+        "d. Structure Query Languaqe",
+        "b. Structure Query Languaqe",
+        "c. Structure Query Language",
+        "d. Structured Query Language"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Stephen Northcutt wrote an essay on the basics of network security for CS) online last year.",
@@ -1273,9 +1304,9 @@
       "answer": "Vulnerabilities",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1288,14 +1319,19 @@
         "a. ISO Layer",
         "b. OS1 Layer",
         "c. OSI Layer",
-        "d. 0SI Layer"
+        "d. 0SI Layer",
+        "a. OS1 Layer",
+        "b. OSI Layer",
+        "c. ISO Layer"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This is a networking infrastructure company.",
@@ -1384,12 +1420,15 @@
         "c. Data Link Layer",
         "d. Session Layer",
         "a. Session Layer",
-        "d. Physical Layer"
+        "d. Physical Layer",
+        "b. Data Link Layer",
+        "c. Session Layer",
+        "d. Transport Layer"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-04T11:16:41Z",
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1400,11 +1439,13 @@
       "answer": "Application Layer",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "This refers to the events or attacks that steal, damage, or destroy equipment.",
@@ -1578,22 +1619,26 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Type of malware that may contain an attachment to an email that loads malware onto your computer system.",
       "answer": "Phishing",
       "choices": [],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "shortanswer",
+      "isAiSuggestion": false
     },
     {
       "question": "very single application must go through the options and check whether each application is configured in the most secure state.",
@@ -1618,7 +1663,11 @@
         "a. Slower computer performance",
         "b. Appearance of strange desktop icons",
         "c. Software freezes or crashes",
-        "d. Increased CPU usage"
+        "d. Increased CPU usage",
+        "a. Appearance of strange desktop icons",
+        "b. Increased CPU usage",
+        "c. Slower computer performance",
+        "d. Software freezes or crashes"
       ],
       "verified": true,
       "confirmations": 1,
@@ -1630,8 +1679,13 @@
         {
           "answer": "Appearance of strange desktop icons, Software freezes or crashes, Slower computer performance, Increased CPU usage",
           "timestamp": "2026-09-23T14:39:58Z"
+        },
+        {
+          "answer": "Appearance of strange desktop icons, Increased CPU usage, Slower computer performance, Software freezes or crashes",
+          "timestamp": "2026-10-06T10:18:50Z"
         }
-      ]
+      ],
+      "questionType": "multichoice"
     },
     {
       "question": "What is the name of the “secure cookie” used with EAP-FAST that can be used in lieu of a certificate, or even in addition to a certificate?",
@@ -1702,14 +1756,18 @@
         "a. Presentation Layer",
         "b. Session Layer",
         "c. Transfer Layer",
-        "d. Physical Layer"
+        "d. Physical Layer",
+        "b. Transfer Layer",
+        "c. Session Layer"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following are not part of the steps in order to harden your system. Choose only one.",
@@ -1874,11 +1932,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
-      "source": "community_contribution",
-      "wrongAnswers": []
+      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     }
   ]
 }
