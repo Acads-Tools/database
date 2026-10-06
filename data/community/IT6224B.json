@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T10:03:20Z",
-  "totalQuestions": 228,
+  "updatedAt": "2026-10-06T10:04:45Z",
+  "totalQuestions": 232,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -495,17 +495,18 @@
         "c. w",
         "d. w",
         "a. c",
-        "b. w"
+        "b. w",
+        "d. c"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "A network administrator is overseeing the implementation of first hop redundancy protocols. Which two protocols will not be able to function with multivendor devices?",
@@ -594,14 +595,17 @@
         "c. The OSPFv2 process IDs on each router do not match.",
         "d. A clock rate has not been set on the DCE interface of the serial link.",
         "b. The OSPFv2 process IDs on each router do not match.",
-        "c. The subnet masks on the two connected serial interfaces do not match."
+        "c. The subnet masks on the two connected serial interfaces do not match.",
+        "a. The OSPFv2 process IDs on each router do not match.",
+        "c. A clock rate has not been set on the DCE interface of the serial link.",
+        "d. Ip addresses of the 2 serials are the same or conflict"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z",
+      "lastVerifiedAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -761,10 +765,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "A router with its interfaces attached to multiple areas is called ABR.",
@@ -1076,6 +1080,25 @@
       "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
+      "question": "As discussed in most OSPF topics what does an O E1 or E2 routing table entry mean?",
+      "answer": "External route",
+      "choices": [
+        "a. Inter-area route",
+        "b. internal route",
+        "c. Intra-area route",
+        "d. External route"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:04:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+    },
+    {
       "question": "As discussed in OSPF chapters what happens when a router has two network statements in different areas?",
       "answer": "It becomes ABR",
       "choices": [
@@ -1155,10 +1178,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "As discussed in this chapter multiarea OSPF what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
@@ -1281,17 +1304,21 @@
         "a. External",
         "b. Internal",
         "c. Default",
-        "d. internet"
+        "d. internet",
+        "a. internet",
+        "b. External",
+        "c. Internal",
+        "d. Default"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "Autonomous System Boundary Router (ASBR) is a router that has at least one interface attached to an external internetwork.",
@@ -1790,17 +1817,21 @@
         "a. Network link entries",
         "b. IP link entries",
         "c. Summary link entries",
-        "d. Router link entries"
+        "d. Router link entries",
+        "a. Router link entries",
+        "b. Summary link entries",
+        "c. Network link entries",
+        "d. IP link entries"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "In managing Cisco devices, what are two ways to access a Cisco switch for out-of-band management?",
@@ -1928,6 +1959,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "In OSPF configuration understanding which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
+      "answer": "administrative distance",
+      "choices": [
+        "a. administrative distance",
+        "b. hop count",
+        "c. link bandwidth",
+        "d. link delay"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:04:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+    },
+    {
       "question": "In OSPF discussions what is used to facilitate hierarchical routing in OSPF?",
       "answer": "the use of multiple areas",
       "choices": [
@@ -2036,6 +2086,25 @@
       "lastVerifiedAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "In Single-area OSPF discussion which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
+      "answer": "administrative distance",
+      "choices": [
+        "a. link bandwidth",
+        "b. link delay",
+        "c. administrative distance",
+        "d. hop count"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:04:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "In the understanding of wireless LAN technologies what wireless LAN technology that operates in the range of a few feet (Bluetooth)?",
@@ -2285,7 +2354,9 @@
         "c. They are required to perform any summarization or redistribution tasks.",
         "d. They are required to reload frequently and quickly in order to update the LSDB.",
         "a. They usually have many local networks attached.",
-        "b. They both run multiple routing protocols simultaneously."
+        "b. They both run multiple routing protocols simultaneously.",
+        "a. They are required to perform any summarization or redistribution tasks.",
+        "c. They both run multiple routing protocols simultaneously."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2294,11 +2365,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T15:34:12Z",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "In understanding OSPF concepts which parameter or parameters are used to calculate OSPF cost in Cisco routers?",
@@ -2491,17 +2562,21 @@
         "a. The routers have both been elected as the DR.",
         "b. The routers have the same priority.",
         "c. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces.",
-        "d. The routers are configured with the same router ID."
+        "d. The routers are configured with the same router ID.",
+        "a. The routers are configured with the same router ID.",
+        "b. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces.",
+        "c. The routers have the same priority.",
+        "d. The routers have both been elected as the DR."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:00:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "OSPF features [____: Classless] OSPFv2 is classless by design; therefore, it supports IPv4 VLSM and CIDR.",
@@ -2696,9 +2771,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z",
+      "lastVerifiedAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2733,10 +2808,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "The command clear ip ospf [____: process] forces a router with a new or changed router ID to form new adjacencies.",
@@ -3240,14 +3315,16 @@
         "a. internal route",
         "d. Inter-area route",
         "c. internal route",
-        "d. External route"
+        "d. External route",
+        "b. Inter-area route",
+        "d. Intra-area route"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z",
+      "lastVerifiedAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3264,17 +3341,20 @@
         "a. It becomes ABR",
         "d. It becomes DR",
         "a. It becomes ASBR",
-        "c. It becomes ABR"
+        "c. It becomes ABR",
+        "a. It becomes BDR",
+        "b. It becomes DR",
+        "d. It becomes ASBR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "What is a benefit of multiarea OSPF routing?",
@@ -3620,17 +3700,21 @@
         "a. O IA",
         "b. O",
         "c. O E2",
-        "d. O E1"
+        "d. O E1",
+        "a. O",
+        "b. O IA",
+        "c. O E1",
+        "d. O E2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "What today's network design would contain the scope of disruptions on a network should a failure occur?",
@@ -4016,6 +4100,25 @@
       "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
+      "question": "Which command statement below will a network engineer issue to verify the configured hello and dead timer intervals on a point-to-point WAN link between two routers that are running OSPFv2?",
+      "answer": "show ip ospf interface serial 0/0/0",
+      "choices": [
+        "a. show ip ospf interface serial 0/0/0",
+        "b. show ip ospf interface fastethernet 0/1",
+        "c. show ip ospf neighbor",
+        "d. show ipv6 ospf interface serial 0/0/0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:04:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+    },
+    {
       "question": "Which command will limit the bandwidth that is used by EIGRP process 1 to 20%? [____: ip bandwidth-percent eigrp 1 20]",
       "answer": "ip bandwidth-percent eigrp 1 20",
       "choices": [],
@@ -4086,17 +4189,18 @@
         "c. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
         "d. It requires a three-layer hierarchical network design approach.",
         "a. It requires a three-layer hierarchical network design approach.",
-        "c. It consists of multiple network areas that are daisy-chained together."
+        "c. It consists of multiple network areas that are daisy-chained together.",
+        "a. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "Which EIGRP parameter must match between all routers forming an EIGRP adjacency?",
@@ -4689,17 +4793,21 @@
         "d. 2 & 6",
         "a. 5 & 6",
         "b. 2 & 6",
-        "d. 2 & 3"
+        "d. 2 & 3",
+        "a. 1 & 3",
+        "b. 2 & 3",
+        "c. 2 & 6",
+        "d. 5 & 6"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
       "question": "Which two pieces of information are used by the OSPF MD5 algorithm to generate a signature?",
