@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T10:07:26Z",
+  "updatedAt": "2026-10-06T10:10:08Z",
   "totalQuestions": 236,
   "questions": [
     {
@@ -9,48 +9,52 @@
       "answer": "show ip ospf interface",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "[____: show ip ospf neighbor] Used to verify that the router has formed an OSPFv2 adjacency with its neighboring routers.",
       "answer": "show ip ospf neighbor",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "[____: show ip ospf] Used to examine the OSPFv2 process ID and router ID.",
       "answer": "show ip ospf",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "[____: show ip protocols] Used to verify vital OSPFv2 configuration information, including the OSPFv2 process ID, the router ID, networks the router is advertising, the neighbors the router is receiving updates from, and the default administrative distance, which is 110 for OSPF.",
       "answer": "show ip protocols",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "[Image: [moodle-asset:382137/q.png]] Refer to the exhibit. The network administrator of the company ABC Industries a subsidiary of the biggest beverage company in the Philippines is trying to configure R1 to run OSPFv3 but the neighbor adjacency is not forming with the router connected to Fa0/0. What is the cause of the problem?",
@@ -792,12 +796,13 @@
       "answer": "link",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "Access Layer is a design model layer that provides connectivity for the users.",
@@ -866,12 +871,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Among the 802.11 standards what is the frequency assigned for 802.11g?",
@@ -965,17 +971,19 @@
         "b. LSA type 1",
         "c. LSA type 4",
         "d. LSA type 3",
-        "e. LSA type 2"
+        "e. LSA type 2",
+        "b. LSA type 2",
+        "e. LSA type 1"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:07:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:07:26Z"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z"
     },
     {
       "question": "An administrator is troubleshooting a switch and wants to verify if it is a root bridge. What command can be used to do this?",
@@ -1053,14 +1061,17 @@
         "d. O IA",
         "a. O E2",
         "b. O",
-        "c. O E1"
+        "c. O E1",
+        "a. O IA",
+        "b. O E1",
+        "d. O E2"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1651,15 +1662,18 @@
         "a. the highest MAC address on a loopback interface",
         "b. the highest MAC address on any enabled interface",
         "c. the highest IPv4 address on a loopback interface",
-        "d. the lowest IPv4 address on any enabled interface"
+        "d. the lowest IPv4 address on any enabled interface",
+        "a. the highest MAC address on any enabled interface",
+        "b. the highest MAC address on a loopback interface"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "If all OSPF routers in a single area are configured with the same priority value, what value does a router use for the OSPF router ID in the absence of a loopback interface?",
@@ -2794,12 +2808,13 @@
       "answer": "default-information originate",
       "choices": [],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "shortanswer"
     },
     {
       "question": "The ABC Mining company network administrator has been asked to summarize the routes for a new OSPF area. The networks to be summarized are 172.16.8.0, 172.16.10.0, and 172.16.12.0 with subnet masks of 255.255.255.0 for each network. Which command should the administrator use to forward the summary route for area 15 into area 0?",
@@ -3029,12 +3044,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The show ip ospf interface command use to verify active RIP interfaces.",
@@ -3059,12 +3075,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The show ip protocols command use to verify the OSPFv2 settings.",
@@ -3089,12 +3106,13 @@
         "b. False"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "The spanning-tree mode rapid-pvst global configuration command is used to enable Rapid PVST+.",
@@ -3431,17 +3449,20 @@
         "a. networks reachable outside the OSPF domain",
         "b. the route to reach an ASBR",
         "c. networks reachable outside the local area",
-        "d. the router ID of the DR"
+        "d. the router ID of the DR",
+        "a. the route to reach an ASBR",
+        "b. networks reachable outside the local area",
+        "c. networks reachable outside the OSPF domain"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:07:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:07:26Z"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z"
     },
     {
       "question": "What is a benefit of multiarea OSPF routing?",
@@ -3453,14 +3474,18 @@
         "d.",
         "e. Automatic route summarization occurs by default between areas.",
         "b. Automatic route summarization occurs by default between areas.",
-        "e. Topology changes in one area do not cause SPF recalculations in other areas."
+        "e. Topology changes in one area do not cause SPF recalculations in other areas.",
+        "a. Topology changes in one area do not cause SPF recalculations in other areas.",
+        "c.",
+        "d. A backbone area is not required.",
+        "e. Routers in all areas share the same link-state database and have a complete picture of the entire network."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3759,9 +3784,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4396,14 +4421,16 @@
         "d. type 1",
         "b. type 1",
         "c. type 2",
-        "d. type 3"
+        "d. type 3",
+        "a. type 2",
+        "d. type 4"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4417,14 +4444,16 @@
         "d. type 2",
         "a. type 3",
         "c. type 2",
-        "d. type 4"
+        "d. type 4",
+        "a. type 1",
+        "b. type 3"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4698,15 +4727,19 @@
         "a. show ip ospf interface",
         "b. show interface",
         "c. show ip protocols",
-        "d. show ip ospf neighbor"
+        "d. show ip ospf neighbor",
+        "a. show ip protocols",
+        "c. show ip ospf neighbor",
+        "d. show ip ospf interface"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which show command is used to display the collection of OSPF link states?",
@@ -4943,16 +4976,24 @@
         "a. O E2",
         "b. C",
         "d. S",
-        "e. O IA"
+        "e. O IA",
+        "b. O IA",
+        "c. S",
+        "d. O",
+        "e. O E2"
       ],
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "O"
+      ],
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
       "lastVerifiedAt": "2026-10-06T10:07:26Z",
       "source": "review_screen",
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-06T10:10:08Z"
     },
     {
       "question": "Whichamong the listed below describes an EtherChannel implementation as mentioned in Link Aggregation chapter?",
