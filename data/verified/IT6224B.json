@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T10:10:08Z",
-  "totalQuestions": 224,
+  "updatedAt": "2026-10-06T10:12:16Z",
+  "totalQuestions": 232,
   "tier": "verified",
   "questions": [
     {
@@ -12,9 +12,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -25,9 +25,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -38,9 +38,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -51,9 +51,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -232,6 +232,23 @@
       "firstSeenAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:01:56Z"
+    },
+    {
+      "question": "A BDR is also elected in case the DR fails. If the DR stops producing Hello packets, the BDR promotes itself and assumes the role of DR.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z"
     },
     {
       "question": "A CCIE network administrator is verifying a multi-area OSPF configuration by checking the routing table on a router in area 1. The administrator notices a route to a network that is connected to a router in area 2. Which code appears in front of this route in the routing table within area 1?",
@@ -761,9 +778,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -836,9 +853,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1412,6 +1429,22 @@
       "questionType": "multichoice"
     },
     {
+      "question": "DR/BDR elections only occur in point-topoint networks and do not occur in multiaccessnetworks.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "During checking of routing table, a network engineer notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
       "answer": "This route is a propagated default route.",
       "choices": [
@@ -1612,14 +1645,17 @@
         "c. the highest IPv4 address on a loopback interface",
         "d. the lowest IPv4 address on any enabled interface",
         "a. the highest MAC address on any enabled interface",
-        "b. the highest MAC address on a loopback interface"
+        "b. the highest MAC address on a loopback interface",
+        "b. the lowest IPv4 address on any enabled interface",
+        "c. the highest MAC address on any enabled interface",
+        "d. the highest IPv4 address on a loopback interface"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2714,9 +2750,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -2886,6 +2922,22 @@
       "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
+      "question": "The OSPF Hello and Dead intervals are configurable on a per-interface basis.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "The OSPF hello timer has been set to 15 seconds on a router in a point-to-point network. By default, what is the dead interval on this router?",
       "answer": "60 seconds",
       "choices": [
@@ -2935,9 +2987,25 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "The show ip ospf interface command use to verify active RIP interfaces.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2951,9 +3019,25 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "The show ip protocols command use to verify the OSPFv2 settings.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2967,9 +3051,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2989,6 +3073,23 @@
       "firstSeenAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T09:46:13Z"
+    },
+    {
+      "question": "The the show ip interface brief command use to verify that interfaces are active.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z"
     },
     {
       "question": "The wildcard mask that is used to advertise exactly the network 192.168.160.0 with subnet mask 255.255.240.0 is [____: 0.0.15.255]",
@@ -4117,6 +4218,26 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Which configuration will prevent two directly connected Cisco routers from forming an OSPFv2 neighbor adjacency?",
+      "answer": "Configuring mismatched MTU values on two adjacent routers",
+      "choices": [
+        "a. Configuring mismatched OSPF process IDs on two adjacent routers",
+        "b. Configuring a router ID on two adjacent routers",
+        "c. Configuring a LAN interface connected to a switch as a passive interface",
+        "d. Configuring mismatched MTU values on two adjacent routers",
+        "c. Configuring mismatched MTU values on two adjacent routers",
+        "d. Configuring a LAN interface connected to a switch as a passive interface"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "Which describes a multiarea OSPF network?",
       "answer": "It has a core backbone area with other areas connected to the backbone area.",
       "choices": [
@@ -4551,14 +4672,17 @@
         "d. show ip ospf neighbor",
         "a. show ip protocols",
         "c. show ip ospf neighbor",
-        "d. show ip ospf interface"
+        "d. show ip ospf interface",
+        "b. show ip ospf neighbor",
+        "c. show ip ospf interface",
+        "d. show interface"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:10:08Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4586,6 +4710,28 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:01:56Z"
+    },
+    {
+      "question": "Which state will OSPF routers transition to when they have converged?",
+      "answer": "Full",
+      "choices": [
+        "a. ExStart",
+        "b. Init",
+        "c. Full",
+        "d. Loading",
+        "a. Full",
+        "b. ExStart",
+        "c. Loading",
+        "d. Init"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:12:16Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Which statement is correct about multiarea OSPF?",
