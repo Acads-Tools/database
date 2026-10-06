@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T10:01:56Z",
-  "totalQuestions": 181,
+  "updatedAt": "2026-10-06T10:03:20Z",
+  "totalQuestions": 188,
   "tier": "verified",
   "questions": [
     {
@@ -12,7 +12,11 @@
         "a. The OSPF process ID and area values are backwards in the interface configuration",
         "b. No router ID has been configured.",
         "c. A link-local address has not been configured on interface FastEthernet0/0.",
-        "d. FastEthernet0/0 has been configured as a passive interface."
+        "d. FastEthernet0/0 has been configured as a passive interface.",
+        "a. No router ID has been configured.",
+        "b. FastEthernet0/0 has been configured as a passive interface.",
+        "c. The OSPF process ID and area values are backwards in the interface configuration",
+        "d. A link-local address has not been configured on interface FastEthernet0/0."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -21,11 +25,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T15:46:46Z",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "[Image: [moodle-asset:382138/q.png]] Refer to the network topology diagram above. A certified network expert has configured the OSPF timers to the values that are shown in the graphic. What is the result of having those manually configured timers?",
@@ -56,17 +60,19 @@
         "a. MD5 requires passwords that are at least 13 characters long.",
         "b. MD5 does not send the password to the neighbor router.",
         "c. MD5 employs IPsec to keep the updates from being intercepted.",
-        "d. MD5 uses both a username and a password to authenticate the neighbor."
+        "d. MD5 uses both a username and a password to authenticate the neighbor.",
+        "c. MD5 uses both a username and a password to authenticate the neighbor.",
+        "d. MD5 employs IPsec to keep the updates from being intercepted."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "[Image: [moodle-asset:382144/q.png]] Refer to the test result above. These two routers are configured to run OSPFv3 but they are not forming a neighbor adjacency. What is the cause of the problem?",
@@ -198,6 +204,44 @@
       "lastVerifiedAt": "2026-10-06T10:00:09Z"
     },
     {
+      "question": "A certified network administrator is trying to add a new router into an established OSPF network. The networks attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
+      "answer": "The network wildcard mask is configured improperly.",
+      "choices": [
+        "a. The OSPF area is configured improperly.",
+        "b. The network wildcard mask is configured improperly.",
+        "c. The process id is configured improperly.",
+        "d. The network number is configured improperly."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:03:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
+      "question": "A certified network administrator of Gilas Medical Hospital has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
+      "answer": "Issue the clear ip ospf process privileged mode command.",
+      "choices": [
+        "a. Change the interface priority.",
+        "b. Change the OSPFv2 process ID.",
+        "c. Configure the network statements.",
+        "d. Issue the clear ip ospf process privileged mode command."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:03:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
       "question": "A certified network administrator of RMS Company has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
       "answer": "Issue the clear ip ospf process privileged mode command.",
       "choices": [
@@ -207,17 +251,20 @@
         "d. Configure the network statements.",
         "b. Configure the network statements.",
         "c. Issue the clear ip ospf process privileged mode command.",
-        "d. Change the OSPFv2 process ID."
+        "d. Change the OSPFv2 process ID.",
+        "a. Issue the clear ip ospf process privileged mode command.",
+        "b. Shutdown interfaces",
+        "c. Configure the network statements."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "A Cisco enhancement of RSTP to provide a spanning tree instance for each vlan is called STP.",
@@ -387,10 +434,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "A network administrator is overseeing the implementation of first hop redundancy protocols. Which two protocols will not be able to function with multivendor devices?",
@@ -817,6 +864,23 @@
       "questionType": "multichoice"
     },
     {
+      "question": "An ASBR generates type 5 LSAs for each of its external routes and floods them into the area that it is connected to.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:03:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
       "question": "An ASBR generates what type of LSAs for each of its external routes and floods them into the area that it is connected to.",
       "answer": "Type 5",
       "choices": [
@@ -889,6 +953,25 @@
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T09:58:24Z"
+    },
+    {
+      "question": "As discussed in our topic Scaling Networks chapter 6,which area is referred to as the \"backbone area\"?",
+      "answer": "Area 0",
+      "choices": [
+        "a. Area 0",
+        "b. Area 10",
+        "c. Area 1",
+        "d. Area 2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:03:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "As discussed in Scaling Network course when OSPFv2 neighbors are establishing adjacencies, in which state do they elect a DR and BDR router?",
@@ -1153,17 +1236,20 @@
         "a. The metric for this route is 110.",
         "b. This route is a propagated default route.",
         "c. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
-        "d. The route is located two hops away."
+        "d. The route is located two hops away.",
+        "b. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
+        "c. The route is located two hops away.",
+        "d. This route is a propagated default route."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "During router configuration what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
@@ -1172,17 +1258,21 @@
         "a. type 0",
         "b. type 1",
         "c. type 2",
-        "d. type 3"
+        "d. type 3",
+        "a. type 3",
+        "b. type 0",
+        "c. type 1",
+        "d. type 2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "During the checking a routing table, a network specialist notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
@@ -1470,14 +1560,16 @@
         "c. MD5 employs IPsec to keep the updates from being intercepted.",
         "a. MD5 employs IPsec to keep the updates from being intercepted.",
         "b. MD5 does not send the password to the neighbor router.",
-        "d. MD5 uses both a username and a password to authenticate the neighbor."
+        "d. MD5 uses both a username and a password to authenticate the neighbor.",
+        "a. MD5 requires passwords that are at least 8 characters long.",
+        "c. MD5 does not send the password to the neighbor router."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2154,10 +2246,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
@@ -2394,6 +2486,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The network specialist has manually configured the hello interval to 15 seconds on an interface of a router that is running OSPFv2. By default, how will the dead interval on the interface be affected?",
+      "answer": "The dead interval will now be 60 seconds.",
+      "choices": [
+        "a. The dead interval will now be 60 seconds.",
+        "b. The dead interval will now be 15 seconds.",
+        "c. The dead interval will not change from the default value.",
+        "d. The dead interval will now be 30 seconds."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:03:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
       "question": "The OSPF hello timer has been set to 15 seconds on a router in a point-to-point network. By default, what is the dead interval on this router?",
       "answer": "60 seconds",
       "choices": [
@@ -2625,17 +2736,20 @@
         "a. Inter-area route",
         "b. External route",
         "c. Intra-area route",
-        "d. Internal route"
+        "d. Internal route",
+        "a. Intra-area route",
+        "c. Internal route",
+        "d. Inter-area route"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "What does an O routing table entry mean?",
@@ -2670,17 +2784,19 @@
         "b. It becomes BDR",
         "d. It becomes ABR",
         "a. It becomes ABR",
-        "d. It becomes DR"
+        "d. It becomes DR",
+        "a. It becomes ASBR",
+        "c. It becomes ABR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "What is a characteristic of out-of-band device management?",
@@ -2971,17 +3087,18 @@
         "d. Backbone Router",
         "a. ABR",
         "b. Backbone Router",
-        "d. ASBR"
+        "d. ASBR",
+        "b. ASBR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "What routing table descriptor is used to identify OSPF summary networks that originate from an ABR?",
@@ -3371,17 +3488,19 @@
         "a. show ipospflsa database",
         "b. show ipospf database",
         "c. show ipospf neighbors",
-        "d. show ipospf link-state"
+        "d. show ipospf link-state",
+        "b. show ipospf link-state",
+        "d. show ipospf database"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:00:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "Which command will limit the bandwidth that is used by EIGRP process 1 to 20%? [____: ip bandwidth-percent eigrp 1 20]",
@@ -3902,6 +4021,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Which three statements describe the routing protocol OSPF? It supports VLSM. It is used to route between autonomous systems. It confines network instability to one area of the network. It increases routing overhead on the network. It allows extensive control of routing updates It is simpler to configure than RIPv2.",
+      "answer": "1, 3, 5",
+      "choices": [
+        "a. 2, 3, 6",
+        "b. 1, 3, 5",
+        "c. 4, 5, 6",
+        "d. 1, 2, 3"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:03:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
       "question": "Which three steps in the design and implementation of a multiarea OSPF network are considered planning steps? (Choose a letter)",
       "answer": "2, 4 & 5",
       "choices": [
@@ -3950,7 +4088,29 @@
         "a. 2 & 3",
         "b. 5 & 6",
         "c. 1 & 3",
-        "d. 2 & 6"
+        "d. 2 & 6",
+        "a. 5 & 6",
+        "b. 2 & 6",
+        "d. 2 & 3"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
+      "question": "Which two pieces of information are used by the OSPF MD5 algorithm to generate a signature?",
+      "answer": "Secret key & OSPF message",
+      "choices": [
+        "a. Interface ip address & secret key",
+        "b. OSPF router ID & loopback interface",
+        "c. Secret key & OSPF message",
+        "d. Router hostname & mac-address"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -3958,9 +4118,9 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-04T15:32:08Z",
+      "firstSeenAt": "2026-10-06T10:03:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
       "question": "Whichamong the listed below describes an EtherChannel implementation as mentioned in Link Aggregation chapter?",
