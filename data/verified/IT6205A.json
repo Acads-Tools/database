@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-06T11:23:55Z",
-  "totalQuestions": 105,
+  "updatedAt": "2026-10-06T11:24:59Z",
+  "totalQuestions": 106,
   "tier": "verified",
   "questions": [
     {
@@ -879,17 +879,21 @@
         "a. Remote Access Services,Terminal Services",
         "b. Remote Access Servers,Terminal Serve",
         "c. Remote Asset Servers, Terminal Services",
-        "d. Remote Access Servers,Terminal Services"
+        "d. Remote Access Servers,Terminal Services",
+        "a. Remote Access Servers,Terminal Services",
+        "b. Remote Asset Servers, Terminal Services",
+        "c. Remote Access Services,Terminal Services",
+        "d. Remote Access Servers,Terminal Serve"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "Identify the Semi Trusted Zone in Wireless Connectivity Zone",
@@ -898,17 +902,47 @@
         "a. Access Points, Authentication, Authorization, Administration Services",
         "b. Access Points, Authentically, Authorization, Administration Services",
         "c. Access Points, Authentication, Authorization, Administer Services",
-        "d. Assess Points, Authentication, Authorization, Administration Services"
+        "d. Assess Points, Authentication, Authorization, Administration Services",
+        "a. Access Points, Authentically, Authorization, Administration Services",
+        "b. Assess Points, Authentication, Authorization, Administration Services",
+        "c. Access Points, Authentication, Authorization, Administration Services",
+        "d. Access Points, Authentication, Authorization, Administer Services"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
+    },
+    {
+      "question": "Identify the Trusted Zone in User LAN Zone",
+      "answer": "Desktop Computers,Laptop Computers,Kioks",
+      "choices": [
+        "a. Laptop Computers,Laptop Computers,Kioks",
+        "b. Desktop Computers,Laptop Computers,Kioks",
+        "c. Desktop Computers,Laptop Computers,IOS",
+        "d. Desktop Computers,Tablet Computers,Kioks",
+        "a. Desktop Computers,Laptop Computers,IOS",
+        "b. Desktop Computers,Tablet Computers,Kioks",
+        "c. Desktop Computers,Laptop Computers,Kioks",
+        "d. Laptop Computers,Laptop Computers,Kioks"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Desktop Computers,Tablet Computers,Kioks"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastEvidenceAt": "2026-10-06T11:23:55Z",
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "Identify the Untrusted Zone in General Internet Connection Zone",
@@ -917,17 +951,20 @@
         "a. Proxy Servers, Mail Relay Servers, Forwarding DNS",
         "b. Proxy Service, Mail Relay Servers, Forwarding DNS",
         "c. Proxy Servers, Mail Relay Servers, Forwarding DSS",
-        "d. Proxy Servers, Mail Relay Service, Forwarding DNS"
+        "d. Proxy Servers, Mail Relay Service, Forwarding DNS",
+        "b. Proxy Servers, Mail Relay Service, Forwarding DNS",
+        "c. Proxy Service, Mail Relay Servers, Forwarding DNS",
+        "d. Proxy Servers, Mail Relay Servers, Forwarding DSS"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "Identify the Untrusted Zone in VPN Connection Zone",
@@ -936,17 +973,20 @@
         "a. Internet Ingress,Private Network VPN Ingress,Authentical,Authorization,Administration Services",
         "b. Internet Ingress,Private Network VPN Ingress,Authentication,Authorization,Administration Services",
         "c. Internet Ingress,Private VPN Ingress,Authentication,Authorization,Administration Services",
-        "d. Internet Conngress,Private Network VPN Ingress,Authentication,Authorization,Administration Services"
+        "d. Internet Conngress,Private Network VPN Ingress,Authentication,Authorization,Administration Services",
+        "b. Internet Conngress,Private Network VPN Ingress,Authentication,Authorization,Administration Services",
+        "c. Internet Ingress,Private Network VPN Ingress,Authentication,Authorization,Administration Services",
+        "d. Internet Ingress,Private VPN Ingress,Authentication,Authorization,Administration Services"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "In a phased implementation the new security components are usually part of the infrastructure in which the new system is implemented. The security infrastructure needs to be in a first or early phase to properly support the project. What phase is that?",
@@ -2264,10 +2304,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "True or FalseSecurity policies and procedures also should help the organization implement the elements needed to support the architecture.",
@@ -2281,10 +2321,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "True or FalseThe architecture also should be strategic it must be structured in a way that supports the organization’s business goals.",
@@ -2298,10 +2338,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "True or FalseTo align these components effectively, the security architecture need to be driven by policy stating management’s performance expectation.",
@@ -2315,10 +2355,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "True or FalseUnclear security roles and responsibilities need to be established for all company users.",
@@ -2332,10 +2372,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+      "lastVerifiedAt": "2026-10-06T11:24:59Z"
     },
     {
       "question": "Usually an infected host must be accessible outside of the local network to establish a command and control channel between the victim and the attacker. Once this bidirectional communication has been made, an attacker has access inside the target environment and can usually control the activity by manually launching commands;",
