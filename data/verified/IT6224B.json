@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T10:04:45Z",
-  "totalQuestions": 192,
+  "updatedAt": "2026-10-06T10:07:26Z",
+  "totalQuestions": 212,
   "tier": "verified",
   "questions": [
     {
@@ -846,6 +846,26 @@
       "lastVerifiedAt": "2026-10-05T14:01:32Z"
     },
     {
+      "question": "An ABR in a multiarea OSPF network receives LSAs from its neighbor that identify the neighbor as an ASBR with learned external networks from the Internet. Which LSA type would the ABR send to other areas to identify the ASBR, so that internal traffic that is destined for the Internet will be sent through the ASBR?",
+      "answer": "LSA type 5",
+      "choices": [
+        "a. LSA type 5",
+        "b. LSA type 1",
+        "c. LSA type 4",
+        "d. LSA type 3",
+        "e. LSA type 2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z"
+    },
+    {
       "question": "An administrator is troubleshooting a switch and wants to verify if it is a root bridge. What command can be used to do this?",
       "answer": "show spanning-tree",
       "choices": [
@@ -910,6 +930,43 @@
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:00:09Z"
+    },
+    {
+      "question": "An OSPF router has received type 3 summary LSAs that were flooded into an area. How are these LSAs identified in the routing table?",
+      "answer": "O IA",
+      "choices": [
+        "a. O E1",
+        "b. O E2",
+        "c. O",
+        "d. O IA",
+        "a. O E2",
+        "b. O",
+        "c. O E1"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Area Border Router (ABR) s is a router that has interfaces attached to multiple areas",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "As discussed in link state advertisement which two statements correctly describe OSPF type 3 LSAs? Type 3 LSAs are used to update routes between OSPF areas. Type 3 LSAs are known as router link entries​. Type 3 LSAs are used for routes to networks outside the OSPF autonomous system​. Type 3 LSAs are known as autonomous system external LSA entries.​ Type 3 LSAs are generated without requiring a full SPF calculation.​",
@@ -1175,6 +1232,22 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:04:45Z"
+    },
+    {
+      "question": "Autonomous System Boundary Router (ASBR) is a router that has at least one interface attached to an external internetwork.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Based on the discussion in this chapter, which command syntax will initiate EtherChannel interface configuration mode?",
@@ -2222,6 +2295,22 @@
       "lastVerifiedAt": "2026-10-05T14:01:52Z"
     },
     {
+      "question": "Internal router is a router that has all of its interfaces in the same area.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "Link aggregation should be implemented at which layer of the hierarchical network?",
       "answer": "Access, distribution, and core",
       "choices": [
@@ -2244,6 +2333,87 @@
       "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "LSA type 1 including a list of directly attached network prefixes and link type",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "LSA type 2 identifying the routers and the network address of the multiaccess link",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "LSA type 3 advertising networks from other areas by ABRs",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "LSA type 4 advertising an ASBR to other areas and providing a route to it",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "LSA type 5 advertising external (non-OSPF) network addresses",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z"
     },
     {
       "question": "Observe the exhibit shown above. These two routers are configured to run OSPFv3 but they are not forming a neighbor adjacency. What is the cause of the problem?",
@@ -2521,6 +2691,23 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The most common command used to verify a multiarea OSPFv2 configuration is the show ip route comman",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z"
+    },
+    {
       "question": "The network engineer of company XYZ has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
       "answer": "Issue the clear ipospf process privileged mode command.",
       "choices": [
@@ -2763,6 +2950,54 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Use the show ip ospf database command to verify the contents of the OSPFv2 LSDB.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Use the show ip ospf interface brief command to display concise OSPFv2-related information of OSPFv2-enabled interfaces.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Use the show ip protocols command to verify the OSPFv2 status.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "Using LACP, besides of being a multivendor protocol which among the listed below describes as it advantage?",
       "answer": "allows automatic formation of EtherChannel links",
       "choices": [
@@ -2877,6 +3112,46 @@
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:04:45Z"
+    },
+    {
+      "question": "What information is advertised in a type 4 LSA?",
+      "answer": "the route to reach an ASBR",
+      "choices": [
+        "a. networks reachable outside the OSPF domain",
+        "b. the route to reach an ASBR",
+        "c. networks reachable outside the local area",
+        "d. the router ID of the DR"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z"
+    },
+    {
+      "question": "What is a benefit of multiarea OSPF routing?",
+      "answer": "Topology changes in one area do not cause SPF recalculations in other areas.",
+      "choices": [
+        "a. Routers in all areas share the same link-state database and have a complete picture of the entire network.",
+        "b. Topology changes in one area do not cause SPF recalculations in other areas.",
+        "c. A backbone area is not required.",
+        "d.",
+        "e. Automatic route summarization occurs by default between areas.",
+        "b. Automatic route summarization occurs by default between areas.",
+        "e. Topology changes in one area do not cause SPF recalculations in other areas."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What is a characteristic of out-of-band device management?",
@@ -3156,6 +3431,28 @@
       "firstSeenAt": "2026-10-04T15:28:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T09:54:14Z"
+    },
+    {
+      "question": "What must all non-backbone OSPF areas connect to when deploying multiarea OSPF?",
+      "answer": "Area 0",
+      "choices": [
+        "a. a DR",
+        "b. an ASBR",
+        "c. Area 1",
+        "d. Area 0",
+        "a. an ASBR",
+        "b. Area 0",
+        "c. a DR",
+        "d. Area 1"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "What routerhas all of its interfaces in the same area and have identical LSDBs.",
@@ -3762,6 +4059,48 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Which LSA type advertises directly connected OSPF-enabled links to other OSPF routers within the OSPF area they originated?",
+      "answer": "type 1",
+      "choices": [
+        "a. type 4",
+        "b. type 2",
+        "c. type 3",
+        "d. type 1",
+        "b. type 1",
+        "c. type 2",
+        "d. type 3"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Which LSA type is flooded by a designated router to other OSPF routers within the same area?",
+      "answer": "type 2",
+      "choices": [
+        "a. type 4",
+        "b. type 1",
+        "c. type 3",
+        "d. type 2",
+        "a. type 3",
+        "c. type 2",
+        "d. type 4"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "Which mode configuration setting would allow formation of an EtherChannel link between switches SW1 and SW2 without sending negotiation traffic?",
       "answer": "SW1: on SW2: on",
       "choices": [
@@ -4229,6 +4568,29 @@
       "firstSeenAt": "2026-10-06T10:03:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
+      "question": "Which type of routing table entry would indicate that an external route was redistributed into the multiarea OSPF process?",
+      "answer": "O E2",
+      "choices": [
+        "a. C",
+        "b. O E2",
+        "c. O",
+        "d. O IA",
+        "e. S",
+        "a. O E2",
+        "b. C",
+        "d. S",
+        "e. O IA"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-06T10:07:26Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Whichamong the listed below describes an EtherChannel implementation as mentioned in Link Aggregation chapter?",
