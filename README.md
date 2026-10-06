@@ -111,7 +111,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `IT6205A` | Information Assurance and Security 1 | **98** | Active |
 | `IT6206` | Information Assurance and Security 2 | **135** | Active |
 | `IT6208` | System Integration and Architecture 1 | **113** | Active |
-| `IT6209` | Introduction to Multimedia | **120** | Active |
+| `IT6209` | Introduction to Multimedia | **126** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **205** | Active |
 | `IT6310` | Network Security | **109** | Active |
 | `IT6322A` | Mobile Application Development | **85** | Active |
