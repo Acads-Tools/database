@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-05T14:01:52Z",
-  "totalQuestions": 155,
+  "updatedAt": "2026-10-06T09:44:39Z",
+  "totalQuestions": 156,
   "tier": "verified",
   "questions": [
     {
@@ -464,9 +464,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-04T15:00:53Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -964,16 +964,46 @@
         "a. 1 Gb/s, because data can only be forwarded from one port at a time",
         "b. 12 Gb/s, by providing full bandwidth to each port",
         "c. 26 Gb/s, because of overhead requirements",
-        "d. 24 Gb/s, because this is the maximum forwarding rate on Cisco switches"
+        "d. 24 Gb/s, because this is the maximum forwarding rate on Cisco switches",
+        "a. 12 Gb/s, by providing full bandwidth to each port",
+        "c. 24 Gb/s, because this is the maximum forwarding rate on Cisco switches",
+        "d. 1 Gb/s, because data can only be forwarded from one port at a time"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-04T14:56:44Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "How much traffic for a 24port Gbit switch at hand capable of generating when operating at full wire speed?",
+      "answer": "24 Gb/s, by providing full bandwidth to each port",
+      "choices": [
+        "a. 12 Gb/s, because of overhead requirements",
+        "b. 24 Gb/s, by providing full bandwidth to each port",
+        "c. 48 Gb/s, because this is the maximum forwarding rate on Cisco switches",
+        "d. 48 Gb/s, because of overhead requirements",
+        "a. 48 Gb/s, because this is the maximum forwarding rate on Cisco switches",
+        "b. 12 Gb/s, because of overhead requirements",
+        "c. 24 Gb/s, by providing full bandwidth to each port",
+        "b. 48 Gb/s, because of overhead requirements",
+        "d. 12 Gb/s, because of overhead requirements"
+      ],
+      "verified": true,
+      "confirmations": 1,
+      "firstSeenAt": "2026-09-22T08:07:16Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
+      "source": "review_screen",
+      "wrongAnswers": [
+        "48 Gb/s, because of overhead requirements"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-04T14:59:31Z"
     },
     {
       "question": "If a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
@@ -1186,12 +1216,14 @@
         "a. A connection that uses the console and AUX port",
         "b. A connection that uses HTTP and HTTPs",
         "c. A connection that uses Telnet and SSH",
-        "d. A connection that uses the AUX and and Telnet"
+        "d. A connection that uses the AUX and and Telnet",
+        "b. A connection that uses Telnet and SSH",
+        "c. A connection that uses HTTP and HTTPs"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1207,14 +1239,17 @@
         "d. show ip eigrp neighbors",
         "a. show ip eigrp neighbors",
         "b. show ip eigrp interfaces",
-        "d. show ip protocols"
+        "d. show ip protocols",
+        "a. show ip protocols",
+        "c. show ip eigrp neighbors",
+        "d. show ip interface brief"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1266,9 +1301,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1665,9 +1700,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2390,14 +2425,16 @@
         "c. The deployment of distribution layer switches in pairs and the division of access layer switch connections between them",
         "d. The configuration of all access layer devices to share a single gateway",
         "a. The deployment of distribution layer switches in pairs and the division of access layer switch connections between them",
-        "c. The installation of only enterprise class equipment throughout the network"
+        "c. The installation of only enterprise class equipment throughout the network",
+        "c. The configuration of all access layer devices to share a single gateway",
+        "d. The installation of only enterprise class equipment throughout the network"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-25T09:34:30Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2627,12 +2664,14 @@
         "d. Enterprise edge and access layer",
         "a. Provider edge and access layer",
         "b. Core and distribution layer",
-        "c. Enterprise edge and access layer"
+        "c. Enterprise edge and access layer",
+        "b. Access and distribution layer",
+        "c. Provider edge and access layer"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-04T15:00:53Z",
+      "lastVerifiedAt": "2026-10-06T09:44:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
