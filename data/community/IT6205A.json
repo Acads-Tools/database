@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-06T11:20:40Z",
-  "totalQuestions": 98,
+  "updatedAt": "2026-10-06T11:23:55Z",
+  "totalQuestions": 108,
   "questions": [
     {
       "question": "A full inventory of architecture elements that implement security services must be compiled in preparation for a gap analysis. What phase is that?",
@@ -893,6 +893,103 @@
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T11:48:06Z"
+    },
+    {
+      "question": "Identify the Semi Trusted Zone in Dial up Connectivity Zone",
+      "answer": "Remote Access Servers,Terminal Services",
+      "choices": [
+        "a. Remote Access Services,Terminal Services",
+        "b. Remote Access Servers,Terminal Serve",
+        "c. Remote Asset Servers, Terminal Services",
+        "d. Remote Access Servers,Terminal Services"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "Identify the Semi Trusted Zone in Wireless Connectivity Zone",
+      "answer": "Access Points, Authentication, Authorization, Administration Services",
+      "choices": [
+        "a. Access Points, Authentication, Authorization, Administration Services",
+        "b. Access Points, Authentically, Authorization, Administration Services",
+        "c. Access Points, Authentication, Authorization, Administer Services",
+        "d. Assess Points, Authentication, Authorization, Administration Services"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "Identify the Trusted Zone in User LAN Zone",
+      "answer": "",
+      "choices": [
+        "a. Laptop Computers,Laptop Computers,Kioks",
+        "b. Desktop Computers,Laptop Computers,Kioks",
+        "c. Desktop Computers,Laptop Computers,IOS",
+        "d. Desktop Computers,Tablet Computers,Kioks"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Desktop Computers,Tablet Computers,Kioks"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "Identify the Untrusted Zone in General Internet Connection Zone",
+      "answer": "Proxy Servers, Mail Relay Servers, Forwarding DNS",
+      "choices": [
+        "a. Proxy Servers, Mail Relay Servers, Forwarding DNS",
+        "b. Proxy Service, Mail Relay Servers, Forwarding DNS",
+        "c. Proxy Servers, Mail Relay Servers, Forwarding DSS",
+        "d. Proxy Servers, Mail Relay Service, Forwarding DNS"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "Identify the Untrusted Zone in VPN Connection Zone",
+      "answer": "Internet Ingress,Private Network VPN Ingress,Authentication,Authorization,Administration Services",
+      "choices": [
+        "a. Internet Ingress,Private Network VPN Ingress,Authentical,Authorization,Administration Services",
+        "b. Internet Ingress,Private Network VPN Ingress,Authentication,Authorization,Administration Services",
+        "c. Internet Ingress,Private VPN Ingress,Authentication,Authorization,Administration Services",
+        "d. Internet Conngress,Private Network VPN Ingress,Authentication,Authorization,Administration Services"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
     },
     {
       "question": "In a phased implementation the new security components are usually part of the infrastructure in which the new system is implemented. The security infrastructure needs to be in a first or early phase to properly support the project. What phase is that?",
@@ -2220,6 +2317,91 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "True or FalseIdentity Management is an integrated system of company policies, processes, and technologies.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "True or FalseSecurity policies and procedures also should help the organization implement the elements needed to support the architecture.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "True or FalseThe architecture also should be strategic it must be structured in a way that supports the organization’s business goals.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "True or FalseTo align these components effectively, the security architecture need to be driven by policy stating management’s performance expectation.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
+    },
+    {
+      "question": "True or FalseUnclear security roles and responsibilities need to be established for all company users.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T11:23:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T11:23:55Z"
     },
     {
       "question": "Usually an infected host must be accessible outside of the local network to establish a command and control channel between the victim and the attacker. Once this bidirectional communication has been made, an attacker has access inside the target environment and can usually control the activity by manually launching commands;",
