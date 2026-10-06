@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T09:51:19Z",
+  "updatedAt": "2026-10-06T09:54:14Z",
   "totalQuestions": 211,
   "questions": [
     {
@@ -339,14 +339,15 @@
         "a. EIGRP hello intervals should be less than or equal to EIGRP hold timers.",
         "d. EIGRP hello intervals and hold timers must match between EIGRP neighbors to form an EIGRP adjacency.",
         "b. EIGRP hello timers specify the maximum time that the router should wait to receive the next hello.?",
-        "c. EIGRP hello intervals should be less than or equal to EIGRP hold timers."
+        "c. EIGRP hello intervals should be less than or equal to EIGRP hold timers.",
+        "a. EIGRP hold timers specify the minimum time that the router should wait to send the next hello."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -561,14 +562,17 @@
         "e. the autonomous system number to which R1 belongs",
         "b. the area number where R1 is located",
         "c. the administrative distance that is manually assigned to R1",
-        "d. the autonomous system number to which R1 belongs"
+        "d. the autonomous system number to which R1 belongs",
+        "a. the autonomous system number to which R1 belongs",
+        "b. the OSPF process ID on R1",
+        "c. the area number where R1 is located"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -633,9 +637,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2206,10 +2210,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:25:27Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "OSPF features, [____: Efficient] Routing changes trigger routing updates (no periodic updates). It uses the SPF algorithm to choose the best path.",
@@ -2220,10 +2224,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:25:27Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "OSPF features, [____: fast convergence] It quickly propagates network changes",
@@ -2232,9 +2236,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -2519,14 +2523,16 @@
         "d. 15 seconds",
         "a. 15 seconds",
         "b. 15 seconds",
-        "d. 60 seconds"
+        "d. 60 seconds",
+        "c. 60 seconds",
+        "d. 30 seconds"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2642,9 +2648,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -2701,14 +2707,16 @@
         "b. automatic summarization that is disabled on both routers",
         "d. an access list that is blocking advertisements from other networks",
         "a. automatic summarization that is disabled on both routers",
-        "c. an access list that is blocking advertisements from other networks"
+        "c. an access list that is blocking advertisements from other networks",
+        "b. a process ID mismatch",
+        "d. an authentication mismatch"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2946,14 +2954,17 @@
         "b. It increases the size of routing updates.",
         "c. It increases the number of routes in the routing table.",
         "c. It creates inconsistent routing when the network has discontiguous networks.",
-        "d. It increases the size of routing updates."
+        "d. It increases the size of routing updates.",
+        "a. It creates inconsistent routing when the network has discontiguous networks.",
+        "c. It prevents convergence of the routing table.",
+        "d. It increases the number of routes in the routing table."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3047,14 +3058,16 @@
         "d. 128 kbps",
         "b. 64 kbps",
         "c. 16 kbps",
-        "d. 32 kbps"
+        "d. 32 kbps",
+        "b. 32 kbps",
+        "d. 16 kbps"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3119,14 +3132,15 @@
         "d. to reduce bandwidth consumption for traffic that is leaving the network",
         "b. to reduce bandwidth consumption for traffic that is leaving the network",
         "c. to prevent routing loops for destination networks which do not actually exist but are included in a summary route",
-        "d. to enhance security by hiding all internal networks that are included in a summary route"
+        "d. to enhance security by hiding all internal networks that are included in a summary route",
+        "b. to ensure that all traffic destined for individual subnets uses one single best path"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3157,17 +3171,21 @@
         "a. split horizon",
         "b. loop guard",
         "c. poison reverse",
-        "d. gateway of last resort"
+        "d. gateway of last resort",
+        "a. gateway of last resort",
+        "b. poison reverse",
+        "c. loop guard",
+        "d. split horizon"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:28:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:28:42Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "What must all non-backbone OSPF areas connect to when deploying multiarea OSPF?",
@@ -3467,17 +3485,21 @@
         "a. DUAL algorithm",
         "b. Dijkstra's algorithm",
         "c. Bellman-Ford algorithm",
-        "d. path vector protocol"
+        "d. path vector protocol",
+        "a. Bellman-Ford algorithm",
+        "b. DUAL algorithm",
+        "c. path vector protocol",
+        "d. Dijkstra's algorithm"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:28:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:28:42Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "Which among the listed below are the 2 functional parts of the network that can be combined to form a collapsed core design in Cisco Enterprise Architecture?",
@@ -3557,17 +3579,21 @@
         "a. RIPv2",
         "b. OSPF",
         "c. EIGRP",
-        "d. RIPv1"
+        "d. RIPv1",
+        "a. RIPv1",
+        "b. RIPv2",
+        "c. OSPF",
+        "d. EIGRP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:28:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:28:42Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "Which command will limit the bandwidth that is used by EIGRP process 1 to 20%? [____: ip bandwidth-percent eigrp 1 20]",
@@ -3578,10 +3604,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:25:27Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "Which command will start the process to bundle two physical interfaces to create an EtherChannel group via LACP?",
@@ -3668,14 +3694,17 @@
         "e. variance",
         "a. hold timer",
         "c. administrative distance",
-        "d. autonomous system number"
+        "d. autonomous system number",
+        "a. variance",
+        "b. administrative distance",
+        "c. hold timer"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z",
+      "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3686,17 +3715,19 @@
         "a. OSPF",
         "b. EIGRP",
         "c. RIP",
-        "d. IS-IS"
+        "d. IS-IS",
+        "a. RIP",
+        "c. OSPF"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:28:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:28:42Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "Which is the default STP operation mode on Cisco Catalyst switches?",
@@ -4011,17 +4042,21 @@
         "a. OSPF",
         "b. BGP",
         "c. RIP",
-        "d. EIGRP"
+        "d. EIGRP",
+        "a. RIP",
+        "b. OSPF",
+        "c. EIGRP",
+        "d. BGP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:28:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:28:42Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "Which show command displays the administrative distance of the routing protocol that is being used?",
@@ -4087,17 +4122,21 @@
         "a. OSPF can consolidate a fragmented OSPF area into one large area.",
         "b. Arranging routers into areas partitions a large autonomous system in order to lighten the load on routers.",
         "c. All routers are in one area called the backbone area (area 0).",
-        "d. OSPF multiarea increases the frequency of SPF calculation."
+        "d. OSPF multiarea increases the frequency of SPF calculation.",
+        "a. OSPF multiarea increases the frequency of SPF calculation.",
+        "b. All routers are in one area called the backbone area (area 0).",
+        "c. OSPF can consolidate a fragmented OSPF area into one large area.",
+        "d. Arranging routers into areas partitions a large autonomous system in order to lighten the load on routers."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:25:27Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:51:19Z"
+      "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
       "question": "Which statement is correct as discussed in this chapter regarding the use of PAgP to create EtherChannels?",
