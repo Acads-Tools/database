@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T09:45:10Z",
-  "totalQuestions": 156,
+  "updatedAt": "2026-10-06T09:46:13Z",
+  "totalQuestions": 160,
   "tier": "verified",
   "questions": [
     {
@@ -166,6 +166,23 @@
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
     },
     {
+      "question": "A Cisco enhancement of RSTP to provide a spanning tree instance for each vlan is called STP.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:46:13Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:46:13Z"
+    },
+    {
       "question": "A network administrator configured an EtherChannel link with three interfaces between two switches. What is the result if one of the three interfaces is down?",
       "answer": "The remaining two interfaces continue to load balance traffic.",
       "choices": [
@@ -309,6 +326,28 @@
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
+      "question": "A network administrator is overseeing the implementation of first hop redundancy protocols. Which two protocols will not be able to function with multivendor devices?",
+      "answer": "GLBP & HSRP",
+      "choices": [
+        "a. IRDP & HSRP",
+        "b. GLBP & HSRP",
+        "c. HSRP & PVST",
+        "d. VRRP & GLBP",
+        "a. HSRP & PVST",
+        "b. IRDP & HSRP",
+        "c. VRRP & GLBP",
+        "d. GLBP & HSRP"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-06T09:46:13Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
       "question": "A network administrator of Genesis Airlines issue a command of show cdp neigbors on a router, what do you think is the reason?",
       "answer": "To display device ID and other information about directly connected Cisco devices",
       "choices": [
@@ -327,6 +366,25 @@
       "lastVerifiedAt": "2026-10-04T14:56:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A network problem occurs suddenly, what is the initial approach that should be used to troubleshoot a broadcast storm in a switched network?",
+      "answer": "Manually remove redundant links in the switched network.",
+      "choices": [
+        "a. Insert redundant links to replace the failed STP links.",
+        "b. Manually remove redundant links in the switched network.",
+        "c. Replace the cables on failed STP links.",
+        "d. Replace all instances of STP with RSTP."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:46:13Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:46:13Z"
     },
     {
       "question": "A network specialist of Avengers Corporation is troubleshooting an OSPFv2 network and discovers that two routers connected by a point-to-point WAN serial link are not establishing an adjacency. The OSPF routing process, network commands and area ID are all confirmed as correct, and the interfaces are not passive. Testing shows that the cabling is correct, that the link is up, and pings between the interfaces are successful. What is most likely the problem?",
@@ -390,10 +448,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:04:31Z"
+      "lastVerifiedAt": "2026-10-06T09:46:13Z"
     },
     {
       "question": "A router is running an EIGRP process and obtaining updates from other routers. What is an indication within the routing table that a route is a candidate for a default route?",
@@ -593,6 +651,28 @@
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-05T14:01:32Z"
+    },
+    {
+      "question": "An administrator is troubleshooting a switch and wants to verify if it is a root bridge. What command can be used to do this?",
+      "answer": "show spanning-tree",
+      "choices": [
+        "a. show cdp neigh",
+        "b. show running-config",
+        "c. show startup-config",
+        "d. show spanning-tree",
+        "a. show startup-config",
+        "b. show spanning-tree",
+        "c. show cdp neigh",
+        "d. show running-config"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:44:45Z",
+      "lastVerifiedAt": "2026-10-06T09:46:13Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "An ASBR generates what type of LSAs for each of its external routes and floods them into the area that it is connected to.",
@@ -1884,9 +1964,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "lastVerifiedAt": "2026-10-06T09:46:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1957,10 +2037,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:04:31Z"
+      "lastVerifiedAt": "2026-10-06T09:46:13Z"
     },
     {
       "question": "The wildcard mask that is used to advertise exactly the network 192.168.160.0 with subnet mask 255.255.240.0 is [____: 0.0.15.255]",
@@ -2979,14 +3059,16 @@
         "c. PORTFAST",
         "d. CDP",
         "c. CDP",
-        "d. PORTFAST"
+        "d. PORTFAST",
+        "b. PORTFAST",
+        "d. VTP"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "lastVerifiedAt": "2026-10-06T09:46:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3207,17 +3289,21 @@
         "a. link-state dynamic routing that provides redundant routes & static default routes",
         "b. redundant links between Layer 2 switches & removing single point of failure with multiple Layer 2 switches",
         "c. static default routes & implementing VLANs to contain broadcasts",
-        "d. implementing VLANs to contain broadcasts & redundant links between Layer 2 switches"
+        "d. implementing VLANs to contain broadcasts & redundant links between Layer 2 switches",
+        "a. implementing VLANs to contain broadcasts & redundant links between Layer 2 switches",
+        "b. link-state dynamic routing that provides redundant routes & static default routes",
+        "c. redundant links between Layer 2 switches & removing single point of failure with multiple Layer 2 switches",
+        "d. static default routes & implementing VLANs to contain broadcasts"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:04:31Z"
+      "lastVerifiedAt": "2026-10-06T09:46:13Z"
     },
     {
       "question": "Which two networks are part of the summary route 192.168.32.0/22? (Choose a letter)",
@@ -3276,14 +3362,16 @@
         "d. Switch(config)# spanning-tree mode rapid-pvst",
         "a. Switch(config)# spanning-tree mode rapid-pvst",
         "b. Switch# spanning-tree mode 802.1w",
-        "d. Switch# spanning-tree mode rapid-pvst"
+        "d. Switch# spanning-tree mode rapid-pvst",
+        "b. Switch(config)# spanning-tree mode 802.1w",
+        "c. Switch(config)# spanning-tree mode rapid-pvst"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-10-04T15:04:31Z",
+      "lastVerifiedAt": "2026-10-06T09:46:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     }
