@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6206",
   "subjectName": "Information Assurance and Security 2",
-  "updatedAt": "2026-10-06T08:57:19Z",
-  "totalQuestions": 131,
+  "updatedAt": "2026-10-06T08:59:21Z",
+  "totalQuestions": 133,
   "questions": [
     {
       "question": "20 different risk markers grouped under five main categories",
@@ -63,9 +63,9 @@
       "answer": "Confidentiality",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T05:30:01Z",
-      "lastVerifiedAt": "2026-10-06T08:57:19Z",
+      "lastVerifiedAt": "2026-10-06T08:59:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -212,6 +212,22 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "A [____: phishing] that must be restored within an hour after disruption represents, and requires, a more demanding set of policies and controls than does a similar system that need not be restored for two to three days.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "phishing"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T08:59:21Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-06T08:59:21Z"
     },
     {
       "question": "A [____: system] that must be restored within an hour after disruption represents, and requires, a more demanding set of policies and controls than does a similar system that need not be restored for two to three days.",
@@ -701,9 +717,9 @@
       "answer": "competitive",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T05:30:01Z",
-      "lastVerifiedAt": "2026-10-06T08:57:19Z",
+      "lastVerifiedAt": "2026-10-06T08:59:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1978,9 +1994,9 @@
       "answer": "circumstances",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T05:30:01Z",
-      "lastVerifiedAt": "2026-10-06T08:57:19Z",
+      "lastVerifiedAt": "2026-10-06T08:59:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -2236,6 +2252,22 @@
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
+    },
+    {
+      "question": "With [____: With [____] attacks, for example, even legitimate and honest users of an owner mechanism can be tricked into disclosing secret data. [Fill-in-the-Blank / Short Answer Question] [The blank is marked as [____] in the question text above.] [DETECTED ANSWER IN DATABASE]: - Suggested: Trojan horse (Verified • 100% Probability • community_contribution) Instructions: Answer ONLY with the exact word or phrase that fills the blank [____]. No explanation.] attacks, for example, even legitimate and honest users of an owner mechanism can be tricked into disclosing secret data.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "With [____] attacks, for example, even legitimate and honest users of an owner mechanism can be tricked into disclosing secret data. [Fill-in-the-Blank / Short Answer Question] [The blank is marked as [____] in the question text above.] [DETECTED ANSWER IN DATABASE]: - Suggested: Trojan horse (Verified • 100% Probability • community_contribution) Instructions: Answer ONLY with the exact word or phrase that fills the blank [____]. No explanation."
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T08:59:21Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-06T08:59:21Z"
     },
     {
       "question": "With __________ attacks, for example, even legitimate and honest users of an owner mechanism can be tricked into disclosing secret data.",
