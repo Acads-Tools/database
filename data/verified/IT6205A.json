@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-04T12:14:48Z",
+  "updatedAt": "2026-10-06T11:17:11Z",
   "totalQuestions": 96,
   "tier": "verified",
   "questions": [
@@ -46,12 +46,15 @@
         "d. Trust mechanism",
         "a. Trust mechanism",
         "b. The risk treatment",
-        "d. Risk transfer"
+        "d. Risk transfer",
+        "a. The risk treatment",
+        "c. Trust mechanism",
+        "d. Trust"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -172,12 +175,15 @@
         "d. Coding",
         "a. Trust mechanism",
         "c. Coding",
-        "d. Design"
+        "d. Design",
+        "a. Trust",
+        "b. Coding",
+        "c. Trust mechanism"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -981,9 +987,9 @@
         "d. Trust mechanism"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1190,12 +1196,14 @@
         "c. Risk transfer",
         "d. Risk Avoidance",
         "a. Risk Acceptance",
-        "b. Risk mitigation"
+        "b. Risk mitigation",
+        "a. Risk transfer",
+        "c. Risk Acceptance"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1388,7 +1396,11 @@
         "f. Prioritize countermeasure options",
         "g. Give feedback to production",
         "h. Assess assets",
-        "i. Assess threats"
+        "i. Assess threats",
+        "b. Assess threats",
+        "e. Assess assets",
+        "g. Assess profitable",
+        "i. Assess productivity"
       ],
       "verified": true,
       "confirmations": 2,
@@ -1412,6 +1424,10 @@
         {
           "rejectedAnswer": "Assess vulnerabilities, Make risk management decisions, Assess risks, Prioritize countermeasure options, Assess assets, Assess threats",
           "timestamp": "2026-10-04T11:31:12Z"
+        },
+        {
+          "rejectedAnswer": "Assess vulnerabilities, Assess threats, Make risk management decisions, Assess assets, Prioritize countermeasure options, Assess risks",
+          "timestamp": "2026-10-06T11:17:11Z"
         }
       ]
     },
@@ -1429,12 +1445,13 @@
         "d. Risk Acceptance",
         "b. Risk Avoidance",
         "c. Risk Transfer",
-        "d. Risk mitigation"
+        "d. Risk mitigation",
+        "a. Risk mitigation"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1569,12 +1586,14 @@
         "a. Requirements, Design, Trust Mechanism, Testing, Deployment, Production and Decommission",
         "b. Risk Transfer, Design, Coding, Testing, Deployment, Production and Decommission",
         "c. Requirements, Trust, Coding, Testing, Deployment, Production and Decommission",
-        "d. Requirements, Design, Coding, Testing, Deployment, Production and Decommission"
+        "d. Requirements, Design, Coding, Testing, Deployment, Production and Decommission",
+        "a. Requirements, Trust, Coding, Testing, Deployment, Production and Decommission",
+        "c. Requirements, Design, Trust Mechanism, Testing, Deployment, Production and Decommission"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1592,12 +1611,15 @@
         "b. Risk Transfer",
         "c. Risk avoidance",
         "d. Risk Acceptance",
-        "c. Risk mitigation"
+        "c. Risk mitigation",
+        "a. Risk avoidance",
+        "b. Risk Acceptance",
+        "d. Risk mitigation"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1641,12 +1663,13 @@
         "c. Risk transfer",
         "d. Risk mitigation",
         "b. Risk transfer",
-        "d. Risk Acceptance"
+        "d. Risk Acceptance",
+        "c. Risk mitigation"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-04T11:31:12Z",
+      "lastVerifiedAt": "2026-10-06T11:17:11Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
