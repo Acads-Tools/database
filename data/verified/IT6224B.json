@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T09:47:35Z",
-  "totalQuestions": 161,
+  "updatedAt": "2026-10-06T09:47:58Z",
+  "totalQuestions": 166,
   "tier": "verified",
   "questions": [
     {
@@ -441,6 +441,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "A newly hired network engineer has been instructed to implement EtherChannel in a corporate network. What does this configuration consist of?",
+      "answer": "grouping multiple physical ports to increase bandwidth between two switches",
+      "choices": [
+        "a. grouping two devices to share a virtual IP address",
+        "b. providing redundant devices to allow traffic to flow in the event of device failure",
+        "c. providing redundant links that dynamically block or forward traffic",
+        "d. grouping multiple physical ports to increase bandwidth between two switches"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:47:58Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z"
+    },
+    {
       "question": "A protocol that allows multiple vlans to run in a single spanning-tree instance is called Rapid PVST.",
       "answer": "False",
       "choices": [
@@ -605,14 +624,16 @@
         "c. 600Mb/s",
         "d. 64Mb/s",
         "a. 600Mb/s",
-        "c. 2Mb/s"
+        "c. 2Mb/s",
+        "b. 2Mb/s",
+        "c. 54Mb/s"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-05T14:01:32Z",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -805,14 +826,16 @@
         "c. Satellite broadband",
         "d. Cellular broadband",
         "a. Cellular broadband",
-        "d. WLAN"
+        "d. WLAN",
+        "b. Satellite broadband",
+        "c. WIMAX"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -879,6 +902,25 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
+    },
+    {
+      "question": "Based on the discussion in this chapter, which command syntax will initiate EtherChannel interface configuration mode?",
+      "answer": "interface port-channel interface-identifier",
+      "choices": [
+        "a. interface port-channel interface-identifier",
+        "b. interface range interface-identifier",
+        "c. interface interface-identifier",
+        "d. channel-group group-identifier"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:47:58Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z"
     },
     {
       "question": "Core Layer is a design model layer that forwards traffic from/to different local networks.",
@@ -1105,14 +1147,16 @@
         "d. desirable",
         "a. passive",
         "b. desirable",
-        "d. auto"
+        "d. auto",
+        "a. on",
+        "c. passive"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-05T14:01:32Z",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1556,17 +1600,19 @@
         "a. The switch ports have to be configured as access ports with each port having a VLAN assigned.",
         "b. The interface port-channel number has to be different on each switch.",
         "c. The EtherChannel was not configured with the same allowed range of VLANs on each interface.",
-        "d. The switch ports were not configured with speed and duplex mode."
+        "d. The switch ports were not configured with speed and duplex mode.",
+        "a. The EtherChannel was not configured with the same allowed range of VLANs on each interface.",
+        "c. The switch ports have to be configured as access ports with each port having a VLAN assigned."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:16:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z"
+      "lastVerifiedAt": "2026-10-06T09:47:58Z"
     },
     {
       "question": "In troubleshooting OSPF issues which command is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?",
@@ -1686,6 +1732,28 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:34:12Z"
+    },
+    {
+      "question": "In wireless LAN standards what wireless LAN technology that is an IEEE 802.15 WPAN standard; uses a device pairing process to communicate over distance up to .05 mile (100m)?",
+      "answer": "Bluetooth",
+      "choices": [
+        "a. None of the choices",
+        "b. Wi-Fi",
+        "c. Bluetooth",
+        "d. WLAN",
+        "a. Bluetooth",
+        "b. WLAN",
+        "c. None of the choices",
+        "d. Wi-Fi"
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "In wireless LAN technologies what wireless LAN technology that operates in the range of a few hundred feet?",
@@ -1862,9 +1930,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3287,6 +3355,25 @@
       "lastVerifiedAt": "2026-10-04T15:28:42Z"
     },
     {
+      "question": "Which statement is correct as discussed in this chapter regarding the use of PAgP to create EtherChannels?",
+      "answer": "It is Cisco proprietary.",
+      "choices": [
+        "a. It requires full duplex.",
+        "b. It is Cisco proprietary.",
+        "c. It increases the number of ports that are participating in spanning tree.",
+        "d. It requires more physical links than LACP does."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T09:47:58Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z"
+    },
+    {
       "question": "Which STP port role is adopted by a switch port if there is no other port with a lower cost to the root bridge?",
       "answer": "root port",
       "choices": [
@@ -3375,6 +3462,28 @@
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:32:08Z"
+    },
+    {
+      "question": "Whichamong the listed below describes an EtherChannel implementation as mentioned in Link Aggregation chapter?",
+      "answer": "A trunked port can be part of an EtherChannel bundle.",
+      "choices": [
+        "a. EtherChannel operates only at Layer 2.",
+        "b. EtherChannel can support up to a maximum of ten separate links.",
+        "c. PAgP cannot be used in conjunction with EtherChannel.",
+        "d. A trunked port can be part of an EtherChannel bundle.",
+        "a. PAgP cannot be used in conjunction with EtherChannel.",
+        "b. EtherChannel operates only at Layer 2.",
+        "c. A trunked port can be part of an EtherChannel bundle.",
+        "d. EtherChannel can support up to a maximum of ten separate links."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T13:58:50Z",
+      "lastVerifiedAt": "2026-10-06T09:47:58Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "Why would a network administrator of RMS Defence Contractor company issue the show cdp neigbors command on a router especially if a network problem occurs?",
