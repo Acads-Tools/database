@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6206",
   "subjectName": "Information Assurance and Security 2",
-  "updatedAt": "2026-10-06T08:47:24Z",
-  "totalQuestions": 125,
+  "updatedAt": "2026-10-06T08:48:27Z",
+  "totalQuestions": 127,
   "questions": [
     {
       "question": "20 different risk markers grouped under five main categories",
@@ -24,9 +24,9 @@
       "answer": "Availability",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T05:27:41Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:48:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -50,9 +50,9 @@
       "answer": "Confidentiality",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T05:27:41Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:48:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -102,9 +102,9 @@
       "answer": "Integrity",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-22T05:27:41Z",
-      "lastVerifiedAt": "2026-10-06T08:07:53Z",
+      "lastVerifiedAt": "2026-10-06T08:48:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -872,6 +872,22 @@
       "firstSeenAt": "2026-10-04T13:16:11Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T13:16:11Z"
+    },
+    {
+      "question": "For a [____: military system] , the chief concern may be ensuring the confidentiality of classified information, whereas a funds transfer system may require strong integrity controls.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "military system"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T08:48:27Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-06T08:48:27Z"
     },
     {
       "question": "For a [____: national defense system] , the chief concern may be ensuring the confidentiality of classified information, whereas a funds transfer system may require strong integrity controls.",
@@ -1862,6 +1878,22 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "shortanswer"
+    },
+    {
+      "question": "The requirements for applications that are connected to [____: the Internet] will differ from those for applications without such interconnection.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "the Internet"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T08:48:27Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-06T08:48:27Z"
     },
     {
       "question": "The requirements for applications that are connected to ________ will differ from those for applications without such interconnection.",
