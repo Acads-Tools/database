@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T10:00:09Z",
-  "totalQuestions": 217,
+  "updatedAt": "2026-10-06T10:01:56Z",
+  "totalQuestions": 221,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -122,17 +122,20 @@
         "a. The routers are configured with the same router ID.",
         "b. The routers have both been elected as the DR.",
         "c. The routers have the same priority.",
-        "d. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces."
+        "d. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces.",
+        "a. The routers have the same priority.",
+        "c. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces.",
+        "d. The routers are configured with the same router ID."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "[Image: [moodle-asset:382147/q.png]] Refer to the exhibit shown above. A certified network administrator is troubleshooting the four routers that are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
@@ -220,6 +223,25 @@
       "lastVerifiedAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "[Image: [moodle-asset:382205/q.png]] Refer to the exhibit shown. What command statement must be issued to complete the configuration at R1 for multiarea OSPF.",
+      "answer": "network 192.168.10.128 0.0.0.127 area 1",
+      "choices": [
+        "a. network 192.168.10.128 0.0.0.127 area 1",
+        "b. network 192.168.0 .0 0.0.127.255 area",
+        "c. network 192.168.1.128 255.255.255.128 area 1",
+        "d. network 192.168.10.128 0.0.0.127 area 0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:01:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "A CCIE network administrator is verifying a multi-area OSPF configuration by checking the routing table on a router in area 1. The administrator notices a route to a network that is connected to a router in area 2. Which code appears in front of this route in the routing table within area 1?",
@@ -709,10 +731,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "A virtual [____: link] is a special OSPF transit area that is used to connect a remote OSPF network to Area 0.",
@@ -974,17 +996,20 @@
         "c. 1 & 3",
         "d. 1 & 5",
         "a. 2 & 4",
-        "b. 2 & 5"
+        "b. 2 & 5",
+        "b. 1 & 3",
+        "c. 1 & 5",
+        "d. 2 & 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "As discussed in OSPF chapters what happens when a router has two network statements in different areas?",
@@ -1038,17 +1063,38 @@
         "d. type 3",
         "a. type 1",
         "b. type 5",
-        "c. type 2"
+        "c. type 2",
+        "a. type 3",
+        "d. type 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+    },
+    {
+      "question": "As discussed in this chapter multiarea OSPF what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
+      "answer": "type 2",
+      "choices": [
+        "a. type 3",
+        "b. type 4",
+        "c. type 2",
+        "d. type 1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:01:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "As discussed in this chapter which statement is true regarding OSPF multi-area adjacencies?",
@@ -1105,17 +1151,19 @@
         "d. Router",
         "a. Router",
         "b. Subnet",
-        "d. Backbone"
+        "d. Backbone",
+        "b. Area",
+        "c. Router"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
@@ -1610,14 +1658,17 @@
         "c. MD5 requires passwords that are at least 8 characters long.",
         "d. MD5 does not send the password to the neighbor router.",
         "b. MD5 requires passwords that are at least 8 characters long.",
-        "c. MD5 employs IPsec to keep the updates from being intercepted."
+        "c. MD5 employs IPsec to keep the updates from being intercepted.",
+        "a. MD5 employs IPsec to keep the updates from being intercepted.",
+        "b. MD5 does not send the password to the neighbor router.",
+        "d. MD5 uses both a username and a password to authenticate the neighbor."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z",
+      "lastVerifiedAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1810,17 +1861,20 @@
         "a. Internal Router",
         "b. ASBR",
         "c. Backbone Router",
-        "d. ABR"
+        "d. ABR",
+        "a. ABR",
+        "c. Internal Router",
+        "d. Backbone Router"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "In RMS University, the network admin is trying to add a new router into an established OSPF network. The network attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
@@ -1829,17 +1883,19 @@
         "a. The OSPF area is configured improperly.",
         "b. The network wildcard mask is configured improperly.",
         "c. The process id is configured improperly.",
-        "d. The network number is configured improperly."
+        "d. The network number is configured improperly.",
+        "b. The network number is configured improperly.",
+        "d. The network wildcard mask is configured improperly."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "In scaling networks what command pertains to propagating a default route?",
@@ -1877,14 +1933,15 @@
         "c. hop count",
         "d. link delay",
         "b. hop count",
-        "c. link bandwidth"
+        "c. link bandwidth",
+        "a. link bandwidth"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z",
+      "lastVerifiedAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2086,6 +2143,25 @@
       "firstSeenAt": "2026-10-06T09:58:24Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T09:58:24Z"
+    },
+    {
+      "question": "In understanding of multiarea OSPF where do inter-area route summarization be performed in an OSPF network?",
+      "answer": "ABR",
+      "choices": [
+        "a. ABR",
+        "b. ASBR",
+        "c. any router",
+        "d. DR"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:01:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "In understanding of OSPF networks what is used to facilitate hierarchical routing in OSPF?",
@@ -3021,6 +3097,25 @@
       "lastVerifiedAt": "2026-10-04T15:32:08Z"
     },
     {
+      "question": "What does an O IA routing table entry mean?",
+      "answer": "Inter-area route",
+      "choices": [
+        "a. Inter-area route",
+        "b. External route",
+        "c. Intra-area route",
+        "d. Internal route"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-06T10:01:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+    },
+    {
       "question": "What does an O routing table entry mean?",
       "answer": "Intra-area route",
       "choices": [
@@ -3051,17 +3146,19 @@
         "c. It becomes ASBR",
         "d. It becomes BDR",
         "b. It becomes BDR",
-        "d. It becomes ABR"
+        "d. It becomes ABR",
+        "a. It becomes ABR",
+        "d. It becomes DR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "What is a benefit of multiarea OSPF routing?",
@@ -3384,17 +3481,20 @@
         "a. ASBR",
         "b. ABR",
         "c. Internal Router",
-        "d. Backbone Router"
+        "d. Backbone Router",
+        "a. ABR",
+        "b. Backbone Router",
+        "d. ASBR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "What routing table descriptor is used to identify OSPF summary networks that originate from an ABR?",
@@ -3567,15 +3667,20 @@
         "a. Init state",
         "b. One-Way state",
         "c. Loading state",
-        "d. Two-Way state"
+        "d. Two-Way state",
+        "a. Loading state",
+        "b. Two-Way state",
+        "c. One-Way state",
+        "d. Init state"
       ],
       "wrongAnswers": [],
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-09-23T14:45:38Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
     },
     {
       "question": "When PVST is running over a switched network, which port state can participate in BPDU frame forwarding based on BPDUs received, but does not forward data frames?",
@@ -3641,17 +3746,19 @@
         "c. Allows authentication, uses concept of area which helps for route summarization and dependent to hop counts.",
         "d. Use highiest ip address, OSPF is a classful routing protocol & OSPF does not allow authentication",
         "b. Use highiest ip address, OSPF is a classful routing protocol & OSPF does not allow authentication",
-        "c. Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors."
+        "c. Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors.",
+        "a. Allows authentication, uses concept of area which helps for route summarization and dependent to hop counts.",
+        "d. Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "Which algorithm is used by the OSPF routing process to construct the SPF tree on a router?",
@@ -3858,17 +3965,19 @@
         "b. It has a core backbone area with other areas connected to the backbone area.",
         "d. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
         "c. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
-        "d. It requires a three-layer hierarchical network design approach."
+        "d. It requires a three-layer hierarchical network design approach.",
+        "a. It requires a three-layer hierarchical network design approach.",
+        "c. It consists of multiple network areas that are daisy-chained together."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "Which EIGRP parameter must match between all routers forming an EIGRP adjacency?",
@@ -4152,17 +4261,19 @@
         "a. Single-area OSPF",
         "b. Rip v2",
         "c. Multi-area OSPF",
-        "d. Rip v1"
+        "d. Rip v1",
+        "a. Rip v2",
+        "b. Single-area OSPF"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "Which OPSF packet contains the different types of link-state advertisements?",
@@ -4282,17 +4393,19 @@
         "a. show ip ospf neighbors",
         "b. show ip ospf lsa database",
         "c. show ip ospf database",
-        "d. show ip ospf link-state"
+        "d. show ip ospf link-state",
+        "a. show ip ospf lsa database",
+        "b. show ip ospf link-state"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
       "question": "Which state will OSPF routers transition to when they have converged?",
