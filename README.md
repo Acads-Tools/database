@@ -108,6 +108,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `CS6206` | Principles of Operating Systems | **165** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
 | `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
+| `IT6200` | IT6200 | **9** | Active |
 | `IT6205A` | Information Assurance and Security 1 | **108** | Active |
 | `IT6206` | Information Assurance and Security 2 | **135** | Active |
 | `IT6208` | System Integration and Architecture 1 | **113** | Active |
