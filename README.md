@@ -115,6 +115,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `IT6209` | Introduction to Multimedia | **137** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **238** | Active |
 | `IT6310` | Network Security | **109** | Active |
+| `IT6314` | IT6314 | **5** | Active |
 | `IT6322A` | Mobile Application Development | **85** | Active |
 | `ITE6200` | Application Development and Emerging Technology | **146** | Active |
 | `ITE6202` | ITE6202 | **42** | Active |
