@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-11T19:23:02Z",
-  "totalQuestions": 40,
+  "updatedAt": "2026-10-11T19:27:32Z",
+  "totalQuestions": 60,
   "questions": [
     {
       "question": "A 66.6% risk is considered as",
@@ -136,6 +136,25 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "Build & Fix Model is suitable for programming exercises of ___________ LOC (Line of Code).",
+      "answer": "100-200",
+      "choices": [
+        "a. 400-1000",
+        "b. 100-200",
+        "c. 200-400",
+        "d. above 1000"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
       "question": "Company has latest computers and state-of the- art software tools, so we shouldn’t worry about the quality of the product.",
       "answer": "False",
       "choices": [
@@ -151,6 +170,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "During this stage, the software design is realized as a set of programs or program units",
+      "answer": "Implementation and unit testing",
+      "choices": [
+        "a. Integration and system testing",
+        "b. System and software design",
+        "c. Requirements analysis and definition",
+        "d. Implementation and unit testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
       "question": "Efficiency in a software product does not include ________",
@@ -305,6 +343,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "It is a simplified representation of a software process. Each process represents a process from a particular perspective, and thus provides only partial information about that process.",
+      "answer": "Software process models",
+      "choices": [
+        "a. Software process models",
+        "b. Software Style",
+        "c. Software Planning Process",
+        "d. Software Mode"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
       "question": "It is a system composed of people and computers that processes or interprets information.",
@@ -514,6 +571,44 @@
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
+      "question": "RAD Model has",
+      "answer": "5 phases",
+      "choices": [
+        "a. 6 phases",
+        "b. 5 phases",
+        "c. 3 phases",
+        "d. 2 phases"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "RAD stands for",
+      "answer": "Rapid Application Development",
+      "choices": [
+        "a. Rapid Application Document",
+        "b. Rapid Application Development",
+        "c. None of the mentioned",
+        "d. Relative Application Development"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
       "question": "Resources include people, hardware, software, or other assets. Many different types of people, skill sets, and resources are needed to build a home.",
       "answer": "A project requires resources, often from various areas",
       "choices": [
@@ -552,6 +647,25 @@
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
+      "question": "SDLC stands for",
+      "answer": "Software Development Life Cycle",
+      "choices": [
+        "a. Software Development Life Cycle",
+        "b. System Design Life Cycle",
+        "c. System Development Life cycle",
+        "d. Software Design Life Cycle"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
       "question": "Select the incorrect statement: “Software engineers should",
       "answer": "be dependent on their colleagues.”",
       "choices": [
@@ -569,6 +683,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "The functionality of the software and constraints on its operation must be defined.",
+      "answer": "Software specification",
+      "choices": [
+        "a. Software validation",
+        "b. Software evolution",
+        "c. Software design and implementation",
+        "d. Software specification"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
       "question": "The process each manager follows during the life of a project is known as",
@@ -609,6 +742,82 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "The software must be validated to ensure that it does what the customer wants.",
+      "answer": "Software validation",
+      "choices": [
+        "a. Software validation",
+        "b. Software specification",
+        "c. Software design and implementation",
+        "d. Software evolution"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "The software must evolve to meet changing customer needs.",
+      "answer": "Software evolution",
+      "choices": [
+        "a. Software evolution",
+        "b. Software design and implementation",
+        "c. Software validation",
+        "d. Software specification"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "The software to meet the specification must be produced.",
+      "answer": "Software design and implementation",
+      "choices": [
+        "a. Software specification",
+        "b. Software validation",
+        "c. Software evolution",
+        "d. Software design and implementation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "The system’s services, constraints, and goals are established by consultation with system users. They are then defined in detail and serve as a system specification.",
+      "answer": "Requirements analysis and definition",
+      "choices": [
+        "a. System and software design",
+        "b. Implementation and unit testing",
+        "c. Integration and system testing",
+        "d. Requirements analysis and definition"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
       "question": "These are the policies that govern the operation of a computer system.",
       "answer": "Procedures",
       "choices": [
@@ -647,6 +856,44 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "This approach interleaves the activities of specification, development, and validation. The system is developed as a series of versions (increments), with each version adding functionality to the previous version.",
+      "answer": "Incremental development",
+      "choices": [
+        "a. Reuse-oriented software engineering",
+        "b. Incremental development",
+        "c. The waterfall model",
+        "d. RAD"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "This approach is based on the existence of a significant number of reusable components. The system development process focuses on integrating these components into a system rather than developing them from scratch",
+      "answer": "Reuse-oriented software engineering",
+      "choices": [
+        "a. RAD",
+        "b. The waterfall model",
+        "c. Incremental development",
+        "d. Reuse-oriented software engineering"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
       "question": "This category includes the computer itself, which is often referred to as the central processing unit (CPU), and all of its support equipment.",
       "answer": "Hardware",
       "choices": [
@@ -664,6 +911,84 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "This takes the fundamental process activities of specification, development, validation, and evolution and represents them as separate process phases such as requirements specification, software design, implementation, testing, and so on.",
+      "answer": "The waterfall model",
+      "choices": [
+        "a. Reuse-oriented software engineering",
+        "b. RAD",
+        "c. Incremental development",
+        "d. The waterfall model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "What is the major drawback of using RAD Model?",
+      "answer": "",
+      "choices": [
+        "a. Highly specialized & skilled developers/designers are required",
+        "b. Increases reusability of components",
+        "c. Increases reusability of components, Highly specialized & skilled developers/designers are required",
+        "d. Encourages customer/client feedback"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Increases reusability of components"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "Which is not one of the types of prototype of Prototyping Model?",
+      "answer": "Diagonal Prototype",
+      "choices": [
+        "a. Vertical Prototype",
+        "b. Horizontal Prototype",
+        "c. Diagonal Prototype",
+        "d. Domain Prototype"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "Which model can be selected if user is involved in all the phases of SDLC?",
+      "answer": "RAD Model",
+      "choices": [
+        "a. RAD Model",
+        "b. Waterfall Model",
+        "c. Prototyping Model",
+        "d. both Prototyping Model & RAD Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
       "question": "Which of the following is incorrect activity for the configuration management of a software system?",
@@ -740,6 +1065,63 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Which of the following statements regarding Build & Fix Model is wrong?",
+      "answer": "It scales up well to large projects",
+      "choices": [
+        "a. Code soon becomes unfixable & unchangeable",
+        "b. No room for structured design",
+        "c. Maintenance is practically not possible",
+        "d. It scales up well to large projects"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "Which one of the following is not a phase of Prototyping Model?",
+      "answer": "Coding",
+      "choices": [
+        "a. Engineer Product",
+        "b. Quick Design",
+        "c. Coding",
+        "d. Prototype Refinement"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "Which one of the following models is not suitable for accommodating any change?",
+      "answer": "Waterfall Model",
+      "choices": [
+        "a. RAD Model",
+        "b. Waterfall Model",
+        "c. Prototyping Model",
+        "d. Build & Fix Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:27:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
       "question": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",
