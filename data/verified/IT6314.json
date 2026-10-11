@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:37:10Z",
-  "totalQuestions": 81,
+  "updatedAt": "2026-10-11T20:38:11Z",
+  "totalQuestions": 87,
   "tier": "verified",
   "questions": [
     {
@@ -59,6 +59,24 @@
       "lastVerifiedAt": "2026-10-11T19:36:43Z"
     },
     {
+      "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName) VALUES ('Robert', 'Smith', '123-983-2929')\");",
+      "answer": "There are more values than fields",
+      "choices": [
+        "a. There are more fields than values",
+        "b. Nothing, everything is fine",
+        "c. There are more values than fields"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:38:11Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+    },
+    {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName, phoneNumber) VALUES ('Robert', 'Smith')\");",
       "answer": "There are more fields than values",
       "choices": [
@@ -75,6 +93,24 @@
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:37:10Z"
+    },
+    {
+      "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName, phoneNumber) VALUES ('Robert', 'Smith', '123-983-2929')\");",
+      "answer": "Nothing, everything is fine",
+      "choices": [
+        "a. There are more values than fields",
+        "b. There are more fields than values",
+        "c. Nothing, everything is fine"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:38:11Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
       "question": "Facebook, wordpress uses php as script language.",
@@ -403,10 +439,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
       "question": "If the variable $x = 11; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
@@ -708,7 +744,27 @@
         "a. improvement",
         "b. improved",
         "c. increase",
-        "d. improve"
+        "d. improve",
+        "a. increase",
+        "b. improvement",
+        "c. improved"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+    },
+    {
+      "question": "The \"mysql_close()\" function allows you to close a MySQL connection?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -716,9 +772,9 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
       "question": "The \"mysql_connect()\" function opens a MySQL connection?",
@@ -749,10 +805,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
       "question": "The \"mysql_select_db()\" function allows you to select a particular database ?",
@@ -948,10 +1004,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
       "question": "The logical operator && stands for?",
@@ -1015,6 +1071,25 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
+      "question": "This command sends active query to the database",
+      "answer": "mysql_query()",
+      "choices": [
+        "a. query();",
+        "b. mysql_query()",
+        "c. my_query();",
+        "d. mysql_queries();"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:38:11Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
       "question": "This is Employee table. [Image: [moodle-asset:151160/q8.PNG]] Select * from employee where employee_id>1009; Which of the following employee_id will be displayed?",
@@ -1480,6 +1555,44 @@
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:36:43Z"
+    },
+    {
+      "question": "Which one of the following methods is responsible for sending the query to the database?",
+      "answer": "query()",
+      "choices": [
+        "a. sendquery()",
+        "b. query_send()",
+        "c. query()",
+        "d. send_query()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:38:11Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+    },
+    {
+      "question": "Which one of the following statements should be used to include a file?",
+      "answer": "include 'filename';",
+      "choices": [
+        "a. #include ;",
+        "b. include 'filename';",
+        "c. @include 'filename';",
+        "d. #include ‘filename’;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:38:11Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",
