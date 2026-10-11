@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-11T18:29:56Z",
+  "updatedAt": "2026-10-11T18:30:59Z",
   "totalQuestions": 45,
   "tier": "verified",
   "questions": [
@@ -63,10 +63,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "An approach in parsing that starts with the start symbol and apply the productions until it arrives at the desired string.",
@@ -82,17 +82,19 @@
         "a. Middle-up",
         "b. Bottom-down",
         "c. Bottom-up Parsing",
-        "e. None of the Above"
+        "e. None of the Above",
+        "a. Bottom-up Parsing",
+        "d. Middle-up"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "Another approach in parsing that starts with the string and reduce it to the start symbol by applying the productions backwards",
@@ -108,17 +110,19 @@
         "d. Middle-up",
         "a. Top-Down",
         "b. Middle-up",
-        "d. Bottom-down"
+        "d. Bottom-down",
+        "b. Bottom-up Parsing",
+        "c. Bottom-down"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "Any expression that breaks down to either true or false is called a conditional, or _____",
@@ -155,10 +159,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "How would you write the \"Hello, world!\" program in Python?",
@@ -306,17 +310,22 @@
         "a. None of the above",
         "c. Analytical Parser",
         "d. Comparative Parser",
-        "e. Historical Parser"
+        "e. Historical Parser",
+        "a. Analytical Parser",
+        "b. Comparative Parser",
+        "c. Historical Parser",
+        "d. None of the above",
+        "e. Predictive Parser"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "It is the next symbol coming up in the input.",
@@ -329,17 +338,18 @@
         "a. None of the above",
         "b. Successor",
         "c. Lookahead",
-        "d. Predecessor"
+        "d. Predecessor",
+        "c. None of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "It’s a way to implement a non-backtracking top-down parser.",
@@ -354,17 +364,21 @@
         "b. Analytical Parser",
         "e. None of the Above",
         "c. Comparative Parsera. Comparative Parser",
-        "d. Historical Parser"
+        "d. Historical Parser",
+        "a. Comparative Parsera. Comparative Parser",
+        "c. None of the Above",
+        "d. Predictive Parser",
+        "e. Historical Parser"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "Multiple statements grouped together are called a _____",
@@ -401,10 +415,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "Programming can be defined as: converting ideas into _____ that a computer can understand",
@@ -521,10 +535,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:56Z"
+      "lastVerifiedAt": "2026-10-11T18:30:59Z"
     },
     {
       "question": "This if-else statement is written in _____if \"apples\" = \"apples\" puts \"You're comparing the same thing\" end",
