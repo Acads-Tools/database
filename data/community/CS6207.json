@@ -1,0 +1,811 @@
+{
+  "subjectCode": "CS6207",
+  "subjectName": "CS6207",
+  "updatedAt": "2026-10-11T18:13:44Z",
+  "totalQuestions": 36,
+  "questions": [
+    {
+      "question": "_____ is a command line interface that lets you run Unix commands to explore _____ is a command line interface that lets you run Unix commands to explore directories, execute scripts, and work with Python",
+      "answer": "Terminal",
+      "choices": [
+        "Script",
+        "PyCommand",
+        "None of the choices",
+        "Terminal"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Script",
+        "PyCommand",
+        "None of the choices"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "_____, a unique feature of VSCode, allows you to get code suggestions while you're typing",
+      "answer": "IntelliSense",
+      "choices": [
+        "TypingSense",
+        "IntelliSense",
+        "None of the choices",
+        "Code Completion"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "TypingSense",
+        "None of the choices",
+        "Code Completion"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Any expression that breaks down to either true or false is called a conditional, or _____",
+      "answer": "boolean expression",
+      "choices": [
+        "float expression",
+        "boolean expression",
+        "string expression",
+        "truthy expression"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "float expression",
+        "string expression",
+        "truthy expression"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "How would you write the \"Hello, world!\" program in Python?",
+      "answer": "print (\"Hello World!\")",
+      "choices": [
+        "put 'Hello, world!'",
+        "print (\"Hello World!\")",
+        "print \"Hello, world!\"",
+        "write(\"Hello, world!\")"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "put 'Hello, world!'",
+        "print \"Hello, world!\"",
+        "write(\"Hello, world!\")"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "If you execute the following expression, what is the output? >>> 3 + 5 * 2",
+      "answer": "13",
+      "choices": [
+        "13",
+        "10",
+        "11",
+        "16"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "10",
+        "11",
+        "16"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "If you were developing an application for an iPhone, which IDE would you use?",
+      "answer": "XCode",
+      "choices": [
+        "RubyMine",
+        "Android Studio",
+        "IPS",
+        "XCode"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "RubyMine",
+        "Android Studio",
+        "IPS"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "If you were writing your source code in the JavaScript programming language, what file extension would you use to save your file?",
+      "answer": "js",
+      "choices": [
+        "py",
+        "js",
+        "java",
+        "script"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "py",
+        "java",
+        "script"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "In programming, a crash is when your program stops early or freezes because something unexpected happened",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "In this function definition, the variable \"name\" is _____def hello(name): print(\"Hey,\", name)",
+      "answer": "a parameter",
+      "choices": [
+        "a parameter",
+        "a string",
+        "a function body",
+        "an argument"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "a string",
+        "a function body",
+        "an argument"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Multiple statements grouped together are called a _____",
+      "answer": "block",
+      "choices": [
+        "block",
+        "grouping",
+        "cluster",
+        "lists"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "grouping",
+        "cluster",
+        "lists"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Programming can be defined as: converting ideas into _____ that a computer can understand",
+      "answer": "instructions",
+      "choices": [
+        "recommendations",
+        "appeals",
+        "logic",
+        "instructions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "recommendations",
+        "appeals",
+        "logic"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Python treats all numbers the same, regardless of numerical value",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Source code is written in rich text",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "The _____ keyword is used to send back values from a Python function",
+      "answer": "return",
+      "choices": [
+        "receive",
+        "give",
+        "send",
+        "return"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "receive",
+        "give",
+        "send"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "The code that's contained inside of a function is often called the function's legs",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "This if-else statement is written in _____if \"apples\" = \"apples\" puts \"You're comparing the same thing\" end",
+      "answer": "Ruby",
+      "choices": [
+        "Ruby",
+        "Python",
+        "C++",
+        "Java"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Python",
+        "C++",
+        "Java"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "To get Python code suggestions, you need to tell VS Code which Python interpreter to use",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Typing \"What is 2 plus 2?\" into the Python prompt causes a _____",
+      "answer": "syntax error",
+      "choices": [
+        "syntax error",
+        "computer meltdown",
+        "system command",
+        "segmentation fault"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "computer meltdown",
+        "system command",
+        "segmentation fault"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "What does this expression evaluate to? 2 * 3 + 2 * 5",
+      "answer": "16",
+      "choices": [
+        "40",
+        "16",
+        "32",
+        "26"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "40",
+        "32",
+        "26"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "What does this expression evaluate to? 3 + 2 * 5",
+      "answer": "13",
+      "choices": [
+        "20",
+        "13",
+        "25",
+        "30"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "20",
+        "25",
+        "30"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "What is the output of the following program?defisEven(num): return num % 2 = 0 if isEven(3): print(\"3 is even\") else: print(\"3 is not even\")",
+      "answer": "3 is not even",
+      "choices": [
+        "3 is the final output",
+        "3 is even",
+        "3 is not even",
+        "There is no output"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "3 is the final output",
+        "3 is even",
+        "There is no output"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "What is the type of the following value: '12'?",
+      "answer": "str",
+      "choices": [
+        "bool",
+        "int",
+        "float",
+        "str"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "bool",
+        "int",
+        "float"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "What programming language is this function written in?defcalculate_check(hourly_rate) hourly_rate * 40 end",
+      "answer": "Ruby",
+      "choices": [
+        "Ruby",
+        "C++",
+        "Python",
+        "Java"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "C++",
+        "Python",
+        "Java"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "When working with the Terminal inside of VSCode, how can you expand the pane?",
+      "answer": "Click the up arrow",
+      "choices": [
+        "Click the trash can",
+        "Click the home button",
+        "Click the up arrow",
+        "Click the plus button"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Click the trash can",
+        "Click the home button",
+        "Click the plus button"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which command will start the Python prompt on your computer?",
+      "answer": "python3",
+      "choices": [
+        "open_python",
+        "pypy",
+        "python3",
+        "start_python"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "open_python",
+        "pypy",
+        "start_python"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which expression evaluates to 2?",
+      "answer": "5 % 3",
+      "choices": [
+        "2 / 4",
+        "5 % 3",
+        "2 % 6",
+        "5 // 3"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "2 / 4",
+        "2 % 6",
+        "5 // 3"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which if-else statement will not produce this output?is divisible by 3",
+      "answer": "num = 16 if num % 3 = 0: print(\"is divisible by 3\") else: print(\"is not divisible by 3\")",
+      "choices": [
+        "None of the choices",
+        "num = 16 if num % 3 = 0: print(\"is divisible by 3\") else: print(\"is not divisible by 3\")",
+        "num = 15 if num % 3 = 0: print(\"is divisible by 3\") else: print(\"is not divisible by 3\")",
+        "num = 36 if num % 3 = 0: print(\"is divisible by 3\") else: print(\"is not divisible by 3\")"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "None of the choices",
+        "num = 15 if num % 3 = 0: print(\"is divisible by 3\") else: print(\"is not divisible by 3\")",
+        "num = 36 if num % 3 = 0: print(\"is divisible by 3\") else: print(\"is not divisible by 3\")"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which is an example of a runtime error?",
+      "answer": "name = \"It's me!\" print(\"Hello\", Name)",
+      "choices": [
+        "name = \"It's me!\" print(\"Hello\", Name)",
+        "All of the choices",
+        "name = \"It's me!\" print(\"Hello\", name)",
+        "print(\"Hello\", \"It's me!)"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "All of the choices",
+        "print(\"Hello\", \"It's me!)"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which is an example of a syntax error?",
+      "answer": "2 (4*2)",
+      "choices": [
+        "2 / (4+2)",
+        "2 + (4*2)",
+        "2 (4*2)",
+        "2 + (4/0)"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "2 / (4+2)",
+        "2 + (4*2)",
+        "2 + (4/0)"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which of these is NOT a reason why we chose Python as the language for the course?",
+      "answer": "highly performant",
+      "choices": [
+        "relevant",
+        "beginner-friendly",
+        "popular",
+        "highly performant"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "relevant",
+        "beginner-friendly",
+        "popular"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which of these will not output:I'm learning a lot!",
+      "answer": "print('I'm learning a lot!')",
+      "choices": [
+        "All of the choices",
+        "message = \"I'm learning a lot!\" print(message)",
+        "print('I'm learning a lot!')",
+        "print(\"I'm learning a lot!\")"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "All of the choices",
+        "message = \"I'm learning a lot!\" print(message)",
+        "print(\"I'm learning a lot!\")"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which value is not an argument to the \"hello\" function?def hello(name): print(\"Hey,\", name) hello(\"John\") hello(\"Mya\")",
+      "answer": "\"Hey\"",
+      "choices": [
+        "\"Mya\"",
+        "\"John\"",
+        "\"Hey\"",
+        "None of the choices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "\"Mya\"",
+        "\"John\"",
+        "None of the choices"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Which variable name is valid in Python?",
+      "answer": "account_balance",
+      "choices": [
+        "None of the choices",
+        "3blindmice",
+        "account_balance",
+        "$money"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "None of the choices",
+        "3blindmice",
+        "$money"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Why doesn't a Python file execute when you double-click it?",
+      "answer": "Double-clicking does not run the Python Interpreter on the source code",
+      "choices": [
+        "You need to use the exe file extension",
+        "Python code needs to be compiled to bytecode before it can be executed",
+        "All of the choices",
+        "Double-clicking does not run the Python Interpreter on the source code"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "You need to use the exe file extension",
+        "Python code needs to be compiled to bytecode before it can be executed",
+        "All of the choices"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "Why is there no output for this program?def goodbye(): print(\"Bye\")",
+      "answer": "We never called the goodbye function",
+      "choices": [
+        "We didn't spell goodbye properly",
+        "It's so hard to say goodbye",
+        "bye doesn't go last",
+        "We never called the goodbye function"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "We didn't spell goodbye properly",
+        "It's so hard to say goodbye",
+        "bye doesn't go last"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    },
+    {
+      "question": "With if-else statements, we will always execute one of the code blocks depending on the result of the condition test",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": false,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:13:44Z",
+      "source": "amauoed",
+      "lastVerifiedAt": "2026-10-11T18:13:44Z"
+    }
+  ]
+}
