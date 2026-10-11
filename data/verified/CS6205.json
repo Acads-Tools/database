@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-11T18:45:32Z",
-  "totalQuestions": 86,
+  "updatedAt": "2026-10-11T18:47:19Z",
+  "totalQuestions": 97,
   "tier": "verified",
   "questions": [
     {
@@ -178,9 +178,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -197,6 +197,20 @@
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
+      "question": "A finite number of states",
+      "answer": "Q",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
     },
     {
       "question": "A formal language is a set of strings, each string composed of symbols from a finite set called [Dropdown 1: alphabet] .",
@@ -236,9 +250,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -256,15 +270,29 @@
       "questionType": "shortanswer"
     },
     {
+      "question": "A new symbol is added at the top.",
+      "answer": "Push",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+    },
+    {
       "question": "A parsing that starts from the top with the start-symbol and derives a string using a parsetree.",
       "answer": "top-down parser",
       "choices": [],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -278,9 +306,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -338,11 +366,25 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A set of accepting states (F ∈ Q)",
+      "answer": "F",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
     },
     {
       "question": "A set of rules, P: N → (N U T)*, it does have any right context or left context.",
@@ -390,6 +432,34 @@
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:38:40Z"
+    },
+    {
+      "question": "A stack symbols",
+      "answer": "Σ",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+    },
+    {
+      "question": "A transition function: Q × (Σ∪{ε}) × S × Q × S*",
+      "answer": "δ",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
     },
     {
       "question": "An automaton that produces outputs based on current input and/or previous state is called ____________.",
@@ -1123,6 +1193,34 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The initial stack top symbol (I ∈ S)",
+      "answer": "I",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+    },
+    {
+      "question": "The initial state (q0 ∈ Q)",
+      "answer": "q0",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+    },
+    {
       "question": "The instantaneous description (ID) of a PDA is represented by a triplet (q, w, s) where :",
       "answer": "Answer 1 Question 2, Answer 2 Question 2, Answer 3 Question 2",
       "choices": [
@@ -1225,6 +1323,20 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The stack contents",
+      "answer": "s",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+    },
+    {
       "question": "The stack head scans the top symbol of the stack. A stack does two operations:",
       "answer": "Answer 1 Question 4, Answer 2 Question 4",
       "choices": [
@@ -1276,6 +1388,34 @@
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:45:32Z"
+    },
+    {
+      "question": "The top symbol is read and removed.",
+      "answer": "Pop",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+    },
+    {
+      "question": "The unconsumed input",
+      "answer": "w",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
     },
     {
       "question": "There are 5 tuples in finite state machine.",
@@ -1331,6 +1471,20 @@
         }
       ],
       "questionType": "multichoice"
+    },
+    {
+      "question": "Unconsumed input",
+      "answer": "w",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:47:19Z"
     },
     {
       "question": "What is the final result after converting the following NFA-ε to NFA without Null move. [Image: [moodle-asset:39741/ndfa%20question.PNG]]",
