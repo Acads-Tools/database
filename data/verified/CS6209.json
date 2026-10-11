@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-11T19:27:32Z",
-  "totalQuestions": 58,
+  "updatedAt": "2026-10-11T19:32:33Z",
+  "totalQuestions": 78,
   "tier": "verified",
   "questions": [
     {
@@ -118,6 +118,25 @@
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
+      "question": "Arrange the given sequence to form a SRS Prototype outline as per IEEE SRS Standard.i. General descriptionii. Introductioniii. Indexiv. Appendicesv. Specific Requirements",
+      "answer": "ii, i, v, iv, iii",
+      "choices": [
+        "a. iii, i, ii,v, iv",
+        "b. iii, i, ii",
+        "c. iii, ii, i, v, iv",
+        "d. ii, i, v, iv, iii"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
       "question": "As per an IBM report, “31%of the project get cancelled before they are completed, 53% overrun their cost estimates by an average of 189% and for every 100 projects, there are 94 restarts”.What is the reason for these statistics ?",
       "answer": "Lack of adequate training in software engineering",
       "choices": [
@@ -171,6 +190,44 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "Consider the following Statement: “The data set will contain an end of file character.”What characteristic of SRS is being depicted here ?",
+      "answer": "Non-verifiable",
+      "choices": [
+        "a. Correct",
+        "b. Non-verifiable",
+        "c. Consistent",
+        "d. Ambiguous"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "Consider the following Statement: “The output of a program shall be given within 10 secs of event X 10% of the time.”What characteristic of SRS is being depicted here ?",
+      "answer": "Verifiable",
+      "choices": [
+        "a. Verifiable",
+        "b. Consistent",
+        "c. Correct",
+        "d. Non-verifiable"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
     },
     {
       "question": "During this stage, the software design is realized as a set of programs or program units",
@@ -306,6 +363,25 @@
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
+      "question": "In reference with top-down analysis, _________________ sub-divides the modules into further smaller units of code.",
+      "answer": "Structured Coding",
+      "choices": [
+        "a. Structured Coding",
+        "b. Functional Programming",
+        "c. Top-down analysis",
+        "d. Modular Programming"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
       "question": "It implies separating software into components according to functionality and responsibility.",
       "answer": "Modularity",
       "choices": [
@@ -323,6 +399,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "It is a method of evaluating the expression passed to a function as an argument.",
+      "answer": "Strict evaluation",
+      "choices": [
+        "a. λ-calculus",
+        "b. Recursion",
+        "c. Strict evaluation",
+        "d. Pure functions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
     },
     {
       "question": "It is a simplified representation of a software process. Each process represents a process from a particular perspective, and thus provides only partial information about that process.",
@@ -475,6 +570,25 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Most functional programming languages use ______________ as their type systems. λ-expressions are executed by evaluating them as they occur.",
+      "answer": "λ-calculus",
+      "choices": [
+        "a. λ-programming",
+        "b. λ-evaluation",
+        "c. λ-calculus",
+        "d. λ-function"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
     },
     {
       "question": "Most projects have many interested parties or stakeholders, but someone must take the primary role of sponsorship.",
@@ -779,6 +893,44 @@
       "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
+      "question": "The SRS document is also known as _____________ specification.",
+      "answer": "black-box",
+      "choices": [
+        "a. none of the mentioned",
+        "b. grey-box",
+        "c. black-box",
+        "d. white-box"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "The SRS is said to be consistent if and only if",
+      "answer": "no subset of individual requirements described in it conflict with each other",
+      "choices": [
+        "a. no subset of individual requirements described in it conflict with each other",
+        "b. every requirement stated therein is verifiable",
+        "c. its structure and style are such that any changes to the requirements can be made easily while retaining the style and structure",
+        "d. every requirement stated therein is one that the software shall meet"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
       "question": "The system’s services, constraints, and goals are established by consultation with system users. They are then defined in detail and serve as a system specification.",
       "answer": "Requirements analysis and definition",
       "choices": [
@@ -815,6 +967,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "These functions do not include destructive updates, that is, they do not affect any I/O or memory and if they are not in use, they can easily be removed without hampering the rest of the program.",
+      "answer": "Pure functions",
+      "choices": [
+        "a. Strict evaluation",
+        "b. Pure functions",
+        "c. λ-calculus",
+        "d. Recursion"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
     },
     {
       "question": "They deal with structures and algorithms without regard for the meaning or importance of the data that is involved.",
@@ -893,6 +1064,82 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "This is a programming technique where a function calls itself and repeats the program code in it unless some pre-defined condition matches.",
+      "answer": "Recursion",
+      "choices": [
+        "a. Pure functions",
+        "b. Strict evaluation",
+        "c. λ-calculus",
+        "d. Recursion"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "This is set of coding rules followed by all the programmers to write the code.",
+      "answer": "Programming style",
+      "choices": [
+        "a. Programming Variables",
+        "b. Programming style",
+        "c. Programming guidines",
+        "d. Programming code"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "This is style of programming language, which uses the concepts of mathematical functions.",
+      "answer": "Functional Programming",
+      "choices": [
+        "a. Top-down analysis",
+        "b. Modular Programming",
+        "c. Structured Coding",
+        "d. Functional Programming"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "This section defines how to name functions, variables, constants and global variables.",
+      "answer": "Naming conventions",
+      "choices": [
+        "a. Naming conventions",
+        "b. Whitespace",
+        "c. Variables",
+        "d. Indenting"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
       "question": "This takes the fundamental process activities of specification, development, validation, and evolution and represents them as separate process phases such as requirements specification, software design, implementation, testing, and so on.",
       "answer": "The waterfall model",
       "choices": [
@@ -910,6 +1157,25 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "Under __________________, the problem is broken down into small pieces where each one has some significance. Each problem is individually solved and steps are clearly stated about how to solve the problem.",
+      "answer": "Top-down analysis",
+      "choices": [
+        "a. Top-down analysis",
+        "b. Structured Coding",
+        "c. Functional Programming",
+        "d. Modular Programming"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
     },
     {
       "question": "Which is not one of the types of prototype of Prototyping Model?",
@@ -950,6 +1216,25 @@
       "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
+      "question": "Which of the following is included in SRS ?",
+      "answer": "Design Constraints",
+      "choices": [
+        "a. Staffing",
+        "b. Design Constraints",
+        "c. Delivery Schedule",
+        "d. Cost"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
       "question": "Which of the following is incorrect activity for the configuration management of a software system?",
       "answer": "Internship management",
       "choices": [
@@ -988,6 +1273,25 @@
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
+      "question": "Which of the following is not included in SRS ?",
+      "answer": "Design solutions",
+      "choices": [
+        "a. External Interfaces",
+        "b. Functionality",
+        "c. Performance",
+        "d. Design solutions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
       "question": "Which of the following is not project management goal?",
       "answer": "Avoiding customer complaints",
       "choices": [
@@ -1024,6 +1328,63 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Which of the following property does not correspond to a good Software Requirements Specification (SRS) ?",
+      "answer": "Ambiguous",
+      "choices": [
+        "a. Verifiable",
+        "b. Traceable",
+        "c. Ambiguous",
+        "d. Complete"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "Which of the following property of SRS is depicted by the statement : “Conformity to a standard is maintained” ?",
+      "answer": "Complete",
+      "choices": [
+        "a. Consistent",
+        "b. Modifiable",
+        "c. Complete",
+        "d. Correct"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "Which of the following statements about SRS is/are true ?i. SRS is written by customerii. SRS is written by a developeriii. SRS serves as a contract between customer and developer",
+      "answer": "All are true",
+      "choices": [
+        "a. Only i is true",
+        "b. All are true",
+        "c. Both ii and iii are true",
+        "d. None of the mentioned"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
     },
     {
       "question": "Which of the following statements regarding Build & Fix Model is wrong?",
@@ -1081,6 +1442,25 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "While programming, the code is broken down into smaller group of instructions. These groups are known as modules, subprograms, or subroutines.",
+      "answer": "Modular Programming",
+      "choices": [
+        "a. Structured Coding",
+        "b. Top-down analysis",
+        "c. Functional Programming",
+        "d. Modular Programming"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:32:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:32:33Z"
     },
     {
       "question": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",
