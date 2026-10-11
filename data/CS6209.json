@@ -1,9 +1,28 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-11T19:20:21Z",
-  "totalQuestions": 20,
+  "updatedAt": "2026-10-11T19:23:02Z",
+  "totalQuestions": 40,
   "questions": [
+    {
+      "question": "A 66.6% risk is considered as",
+      "answer": "high",
+      "choices": [
+        "a. low",
+        "b. high",
+        "c. very low",
+        "d. moderate"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
     {
       "question": "A field studying computers and algorithmic processes, including their principles, their software and hardware designs, their applications, and their impact on society, whereas IS emphasizes functionality over design.",
       "answer": "Computer information system",
@@ -24,6 +43,44 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "A project’s duration might be just one week or it might go on for years, but every project has an end date.",
+      "answer": "A project is temporary",
+      "choices": [
+        "a. A project is temporary",
+        "b. A project is an endeavor",
+        "c. A project is deliverable",
+        "d. All of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "A temporary endeavor undertaken to create a unique product, service, or result.",
+      "answer": "Project",
+      "choices": [
+        "a. Plan",
+        "b. Documentation",
+        "c. System",
+        "d. Project"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
       "question": "An ________________ process simplifies verification. If you develop software by adding small increments of functionality, then, for verification, you only need to deal with the added portion",
       "answer": "Incremental Development",
       "choices": [
@@ -41,6 +98,23 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "An independent relationship must exist between the attribute that can be measured and the external quality attribute.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
       "question": "As per an IBM report, “31%of the project get cancelled before they are completed, 53% overrun their cost estimates by an average of 189% and for every 100 projects, there are 94 restarts”.What is the reason for these statistics ?",
@@ -98,6 +172,25 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "Every project should have a well-defined objective. For example, many people hire firms to design and build a new house, but each house, like each person, is unique.",
+      "answer": "A project has a unique purpose.",
+      "choices": [
+        "a. A project is developed using progressive elaboration or in an iterative fashion.",
+        "b. A project has a unique purpose.",
+        "c. A project is temporary",
+        "d. A project requires resources, often from various areas."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
       "question": "Explain what is meant by PRODUCT with reference to one of the eight principles as per the ACM/IEEE Code of Ethics ?",
       "answer": "Software engineers shall ensure that their products and related modifications meet the highest professional standards possible",
       "choices": [
@@ -153,6 +246,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "Identify the sub-process of process improvement",
+      "answer": "Process analysis",
+      "choices": [
+        "a. Process analysis",
+        "b. De-processification",
+        "c. Process distribution",
+        "d. Process introduction"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
       "question": "in terms of Issues related to professional responsibility",
@@ -271,6 +383,175 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "It refers to the amount of time available to complete a project",
+      "answer": "Time constraints",
+      "choices": [
+        "a. Budget constraints",
+        "b. Cost constraints",
+        "c. Time constraints",
+        "d. Duration constraints"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "It refers to the budgeted amount available for the project.",
+      "answer": "Cost constraints",
+      "choices": [
+        "a. Cost constraints",
+        "b. Money constraints",
+        "c. Amount constraints",
+        "d. Budget constraints"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "It refers to what must be done to produce the project's end result",
+      "answer": "Scope constraints",
+      "choices": [
+        "a. Scope constraints",
+        "b. Limit constraints",
+        "c. Deliverable constraints",
+        "d. Output constraints"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Most projects have many interested parties or stakeholders, but someone must take the primary role of sponsorship.",
+      "answer": "A project should have a primary customer or sponsor",
+      "choices": [
+        "a. A project has a unique purpose",
+        "b. A project should have a primary customer or sponsor",
+        "c. A project involves uncertainty",
+        "d. A project is developed using progressive elaboration or in an iterative fashion."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Project managers have to assess the risks that may affect a project.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Projects are often defined broadly when they begin, and as time passes, the specific details of the project become clearer.",
+      "answer": "A project is developed using progressive elaboration or in an iterative fashion.",
+      "choices": [
+        "a. A project requires resources, often from various areas",
+        "b. A project involves uncertainty",
+        "c. A project should have a primary customer or sponsor.",
+        "d. A project is developed using progressive elaboration or in an iterative fashion."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Quality planning is the process of developing a quality plan for",
+      "answer": "project",
+      "choices": [
+        "a. project manager",
+        "b. team",
+        "c. customers",
+        "d. project"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Resources include people, hardware, software, or other assets. Many different types of people, skill sets, and resources are needed to build a home.",
+      "answer": "A project requires resources, often from various areas",
+      "choices": [
+        "a. A project involves uncertainty",
+        "b. A project should have a primary customer or sponsor",
+        "c. A project requires resources, often from various areas",
+        "d. A project has a unique purpose"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Resources, such as people and equipment, need to do work.",
+      "answer": "A project is an endeavor",
+      "choices": [
+        "a. A project is temporary",
+        "b. None of the above",
+        "c. A project is deliverable",
+        "d. A project is an endeavor"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
       "question": "Select the incorrect statement: “Software engineers should",
       "answer": "be dependent on their colleagues.”",
       "choices": [
@@ -288,6 +569,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "The process each manager follows during the life of a project is known as",
+      "answer": "Project Management Life Cycle",
+      "choices": [
+        "a. Project Management",
+        "b. All of the mentioned",
+        "c. Manager life cycle",
+        "d. Project Management Life Cycle"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
       "question": "The reason for software bugs and failures is due to",
@@ -364,6 +664,82 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "Which of the following is incorrect activity for the configuration management of a software system?",
+      "answer": "Internship management",
+      "choices": [
+        "a. System management",
+        "b. Internship management",
+        "c. Version management",
+        "d. Change management"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Which of the following is not considered as a risk in project management?",
+      "answer": "Testing",
+      "choices": [
+        "a. Specification delays",
+        "b. Product competition",
+        "c. Staff turnover",
+        "d. Testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Which of the following is not project management goal?",
+      "answer": "Avoiding customer complaints",
+      "choices": [
+        "a. Avoiding customer complaints",
+        "b. Keeping overall costs within budget",
+        "c. Maintaining a happy and well-functioning development team",
+        "d. Delivering the software to the customer at the agreed time"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Which of the following is/are main parameters that you should use when computing the costs of a software development project?",
+      "answer": "all of the mentioned",
+      "choices": [
+        "a. hardware and software costs",
+        "b. effort costs (the costs of paying software engineers and managers)",
+        "c. all of the mentioned",
+        "d. travel and training costs"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:23:02Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
       "question": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",
