@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:38:11Z",
-  "totalQuestions": 111,
+  "updatedAt": "2026-10-11T20:39:09Z",
+  "totalQuestions": 121,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -20,6 +20,23 @@
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "AJAX is a programming language",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -110,6 +127,25 @@
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:38:11Z"
+    },
+    {
+      "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
+      "answer": "123123",
+      "choices": [
+        "a. 246",
+        "b. 123123",
+        "c. 123246",
+        "d. Error"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
     },
     {
       "question": "Facebook, wordpress uses php as script language.",
@@ -627,6 +663,44 @@
       "lastVerifiedAt": "2026-10-11T20:08:35Z"
     },
     {
+      "question": "It refers to a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
+      "answer": "Ajax",
+      "choices": [
+        "a. HTML",
+        "b. jQuery",
+        "c. Ajax",
+        "d. PHP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+    },
+    {
+      "question": "Its a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
+      "answer": "AJAX",
+      "choices": [
+        "a. JavaScript",
+        "b. AJAX",
+        "c. PHP",
+        "d. HTML"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+    },
+    {
       "question": "Multiple choice. Select the best answer. What will be the output of the following PHP code ?",
       "answer": "*********",
       "choices": [
@@ -732,6 +806,25 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "Object is used to exchange data with a server behind the scenes.",
+      "answer": "XMLHttpRequest",
+      "choices": [
+        "a. HTML Request",
+        "b. HTTPXMLHttpRequest",
+        "c. XMLHttpRequests",
+        "d. XMLHttpRequest"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
@@ -859,6 +952,42 @@
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
+      "question": "Returns the status-number of a request if \"OK\"",
+      "answer": "200",
+      "choices": [
+        "a. 300",
+        "b. 400",
+        "c. 200",
+        "d. 500"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+    },
+    {
+      "question": "Security is not an issue with JavaScript",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+    },
+    {
       "question": "Select name, course_id from instructor, teaches where instructor_ID= teaches_ID; This Query can be replaced by which one of the following ?",
       "answer": "Select name, course_id from instructor natural join teaches;",
       "choices": [
@@ -880,6 +1009,25 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "Status 200 means",
+      "answer": "OK",
+      "choices": [
+        "a. Continue",
+        "b. Error",
+        "c. OK",
+        "d. Cancel"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
     },
     {
       "question": "The \"I\" in MySQLi stands for",
@@ -1152,6 +1300,25 @@
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:38:11Z"
+    },
+    {
+      "question": "The keystone of AJAX",
+      "answer": "XMLHttpRequest",
+      "choices": [
+        "a. XMLHttpRequests",
+        "b. XMLHttpRequest",
+        "c. XMLHttpsRequest",
+        "d. XMLsHttpRequest"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
     },
     {
       "question": "The logical operator && stands for?",
@@ -1475,6 +1642,25 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:33:34Z"
+    },
+    {
+      "question": "What is the original name of JavaScript?",
+      "answer": "LiveScript",
+      "choices": [
+        "a. LiveScript",
+        "b. LivesScript",
+        "c. LiveScripting",
+        "d. LiveScripts"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:39:09Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:39:09Z"
     },
     {
       "question": "What is the output of the following code snippet? $str = 'asdfghyo off on off'; $replace_pairs = array('a' => 'q', 's' => 'w', 'd' => 'e', 'f' => 'r', 'y' => 'z', 'o' => 'i', 'off' => 'on', 'on' => 'off'); echo strtr($str, $replace_pairs);",
