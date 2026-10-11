@@ -122,6 +122,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `ITE6202` | ITE6202 | **42** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
 | `NSTP6102` | National Service Training Program 2 | **25** | Active |
+| `PHYED6102` | PHYED6102 | **10** | Active |
 | `PHYED6200` | PHYED6200 | **8** | Active |
 
 Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
