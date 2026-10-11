@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-11T18:33:23Z",
+  "updatedAt": "2026-10-11T18:34:10Z",
   "totalQuestions": 46,
   "questions": [
     {
@@ -62,10 +62,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "An approach in parsing that starts with the start symbol and apply the productions until it arrives at the desired string.",
@@ -94,10 +94,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "Another approach in parsing that starts with the string and reduce it to the start symbol by applying the productions backwards",
@@ -116,17 +116,18 @@
         "d. Bottom-down",
         "b. Bottom-up Parsing",
         "c. Bottom-down",
-        "d. Bottom-up Parsing"
+        "d. Bottom-up Parsing",
+        "c. Top-Down"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "Any expression that breaks down to either true or false is called a conditional, or _____",
@@ -163,10 +164,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "How would you write the \"Hello, world!\" program in Python?",
@@ -322,17 +323,18 @@
         "e. Predictive Parser",
         "a. Comparative Parser",
         "b. Historical Parser",
-        "e. Analytical Parser"
+        "e. Analytical Parser",
+        "d. Historical Parser"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "It is the next symbol coming up in the input.",
@@ -347,17 +349,19 @@
         "c. Lookahead",
         "d. Predecessor",
         "c. None of the above",
-        "d. Successor"
+        "d. Successor",
+        "c. Predecessor",
+        "d. Lookahead"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "It’s a way to implement a non-backtracking top-down parser.",
@@ -377,17 +381,19 @@
         "c. None of the Above",
         "d. Predictive Parser",
         "e. Historical Parser",
-        "b. Predictive Parser"
+        "b. Predictive Parser",
+        "d. None of the Above",
+        "e. Comparative Parsera. Comparative Parser"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "Multiple statements grouped together are called a _____",
@@ -424,10 +430,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "Programming can be defined as: converting ideas into _____ that a computer can understand",
@@ -544,10 +550,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "These are seen in order appearance in the token stream.",
@@ -568,7 +574,8 @@
         "e. Terminal",
         "a. Terminal",
         "d. Nodes",
-        "e. Segments"
+        "e. Segments",
+        "a. None of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -580,11 +587,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T18:30:59Z",
-      "lastVerifiedAt": "2026-10-11T18:33:23Z"
+      "lastVerifiedAt": "2026-10-11T18:34:10Z"
     },
     {
       "question": "This if-else statement is written in _____if \"apples\" = \"apples\" puts \"You're comparing the same thing\" end",
