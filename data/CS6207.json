@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-11T18:15:48Z",
-  "totalQuestions": 36,
+  "updatedAt": "2026-10-11T18:25:54Z",
+  "totalQuestions": 46,
   "questions": [
     {
       "question": "_____ is a command line interface that lets you run Unix commands to explore _____ is a command line interface that lets you run Unix commands to explore directories, execute scripts, and work with Python",
@@ -51,6 +51,62 @@
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
     },
     {
+      "question": "A top-down parser is that a parse tree created by bottom to top.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
+    },
+    {
+      "question": "An approach in parsing that starts with the start symbol and apply the productions until it arrives at the desired string.",
+      "answer": "Top-Down",
+      "choices": [
+        "a. None of the Above",
+        "b. Top-Down",
+        "c. Bottom-down",
+        "d. Bottom-up Parsing",
+        "e. Middle-up"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
+    },
+    {
+      "question": "Another approach in parsing that starts with the string and reduce it to the start symbol by applying the productions backwards",
+      "answer": "Bottom-up Parsing",
+      "choices": [
+        "a. Bottom-up Parsing",
+        "b. Bottom-down",
+        "c. Middle-up",
+        "d. Top-Down"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
+    },
+    {
       "question": "Any expression that breaks down to either true or false is called a conditional, or _____",
       "answer": "boolean expression",
       "choices": [
@@ -72,6 +128,23 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
+    },
+    {
+      "question": "Bottom-down and Top-up are the two major parsing approaches in parsing.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
     },
     {
       "question": "How would you write the \"Hello, world!\" program in Python?",
@@ -208,6 +281,65 @@
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
     },
     {
+      "question": "It is characterized by its ability to choose the production to apply solely on the basis of the next input symbol and the current non-terminal being processed.",
+      "answer": "Predictive Parser",
+      "choices": [
+        "a. Historical Parser",
+        "b. Predictive Parser",
+        "c. None of the above",
+        "d. Analytical Parser",
+        "e. Comparative Parser"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
+    },
+    {
+      "question": "It is the next symbol coming up in the input.",
+      "answer": "Lookahead",
+      "choices": [
+        "a. Lookahead",
+        "b. Predecessor",
+        "c. Successor",
+        "d. None of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
+    },
+    {
+      "question": "It’s a way to implement a non-backtracking top-down parser.",
+      "answer": "Predictive Parser",
+      "choices": [
+        "a. Analytical Parser",
+        "b. None of the Above",
+        "c. Historical Parser",
+        "d. Comparative Parsera. Comparative Parser",
+        "e. Predictive Parser"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
+    },
+    {
       "question": "Multiple statements grouped together are called a _____",
       "answer": "block",
       "choices": [
@@ -229,6 +361,23 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
+    },
+    {
+      "question": "Placing some restrictions on how to process the input is done in creating a parser for a compiler.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
     },
     {
       "question": "Programming can be defined as: converting ideas into _____ that a computer can understand",
@@ -332,6 +481,45 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
+    },
+    {
+      "question": "The lexical analysis phase of a compiler verifies that the sequence of tokens extracted by the scanner represents a valid sentence in the grammar of the programming language",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:25:54Z"
+    },
+    {
+      "question": "These are seen in order appearance in the token stream.",
+      "answer": "",
+      "choices": [
+        "a. Segments",
+        "b. None of the above",
+        "c. Leaves",
+        "d. Terminal",
+        "e. Nodes"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Leaves"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:25:54Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:25:54Z"
     },
     {
       "question": "This if-else statement is written in _____if \"apples\" = \"apples\" puts \"You're comparing the same thing\" end",
