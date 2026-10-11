@@ -1,8 +1,8 @@
 {
   "subjectCode": "FILI6301",
   "subjectName": "FILI6301",
-  "updatedAt": "2026-10-11T19:50:54Z",
-  "totalQuestions": 79,
+  "updatedAt": "2026-10-11T19:51:12Z",
+  "totalQuestions": 87,
   "tier": "verified",
   "questions": [
     {
@@ -340,6 +340,23 @@
       "lastVerifiedAt": "2026-10-11T18:42:20Z"
     },
     {
+      "question": "Ang salin ng \"Once in aBlue Moon\" na Minsan sa asul na Buwan ay himig salin",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
+    },
+    {
       "question": "Ang sanaysay ay hindi nabibilang sa mga akdang pampanitikan na nasa anyong prosa.",
       "answer": "False",
       "choices": [
@@ -372,6 +389,23 @@
       "firstSeenAt": "2026-10-11T18:45:43Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:45:43Z"
+    },
+    {
+      "question": "Ang tagapagsalin ay nararapat na may kaalaman sa kultura ng bansa kung saan nagmula ang kanyang isasaling akda upang maisagawa ng wasto ang salin.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
     },
     {
       "question": "Ang tayutay ay bahagi ng pananalita na nagpapaganda sa isang tula",
@@ -943,17 +977,19 @@
         "a. Salita laban sa Salita",
         "b. Oktubre 25, 1968",
         "c. Salita laban sa Diwa",
-        "d. Oktubre 24, 1968"
+        "d. Oktubre 24, 1968",
+        "a. Oktubre 25, 1968",
+        "b. Salita laban sa Salita"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:42:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:42:20Z"
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
     },
     {
       "question": "Ito ang tinatawag na translation proper?",
@@ -1005,10 +1041,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:42:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:42:20Z"
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
     },
     {
       "question": "Kasama rin sa Ikaapaat na yugto ang pagsasalin ng mga akdang Afro-Asian.",
@@ -1047,6 +1083,44 @@
       "lastVerifiedAt": "2026-10-11T19:48:57Z"
     },
     {
+      "question": "Kung ang isang piyesa ay isinalin ng tagapagsalin ayon sa kanyang pandama alin sa mga salungatan sa paagsasalin ang kanyang kinaharap?",
+      "answer": "Istilo ng Manunulat laban sa Istilo ng Tagapagsalin",
+      "choices": [
+        "a. Himig Orihinal laban sa Himig Salin",
+        "b. Panahon ng Awtor laban sa Panahon ng Tagapagsalin",
+        "c. Salita laban sa Diwa",
+        "d. Istilo ng Manunulat laban sa Istilo ng Tagapagsalin"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
+    },
+    {
+      "question": "kung ang salitang mula sa ibag bansa ay hiniram mo buo at binaybay mo lamang sa Filipino anong paraan ng panghihiram ang isinagawa mo?",
+      "answer": "Tuwirang Panghihiram",
+      "choices": [
+        "a. Panghihiram Dayalektal",
+        "b. Ganap na Panghihiram",
+        "c. Tuwirang Panghihiram",
+        "d. Panghihiram Pulitikal"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
+    },
+    {
       "question": "kung ang tagapagsalin ay magsasalin ng isang akdang nagmula sa mga sinauang Tsina, ang tagapagsalin ay nararapat na may sapat na kaalaman sa ______________ ng bansang Tsina.",
       "answer": "Kultura",
       "choices": [
@@ -1083,6 +1157,25 @@
       "firstSeenAt": "2026-10-11T18:47:30Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:47:30Z"
+    },
+    {
+      "question": "Kung isang mag-aaral ng Pagsasaling Pampanitikan anong mga wika ang dakalasan mong nakakaharap sa tuwing magsasagawa ka ng pagsasalin?",
+      "answer": "Filipino at Ingles",
+      "choices": [
+        "a. Filipino at Dayalekto",
+        "b. Filipino at Ingles",
+        "c. Filipino at Filipino",
+        "d. Filipino at Kastila"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
     },
     {
       "question": "Mas mahirap maunawaan ang diwang nais ipahatid ng manunulat sapagkat bawat tula ay natataglay ng masidhing _________________ ng manunulat.",
@@ -1136,6 +1229,23 @@
       "firstSeenAt": "2026-10-11T18:39:51Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:50:54Z"
+    },
+    {
+      "question": "Naghihimig salin ang isang salin kung ito ay isinalin batay sa pagbibigay kahulugan sa mga salita at pahayag.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
     },
     {
       "question": "Nakadarahdag ng substansya sa pagsasalin ang paggamit ng katangiang konotatibo.",
@@ -1248,6 +1358,25 @@
       "lastVerifiedAt": "2026-10-11T18:39:51Z"
     },
     {
+      "question": "Sa isang pagsasalin ng ano mang akdang pampanitikan, ilang wika ang nasasangkot?",
+      "answer": "Dalawa",
+      "choices": [
+        "a. Tatlo",
+        "b. apat",
+        "c. Dalawa",
+        "d. Isa"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
+    },
+    {
       "question": "Sa lahat ng uri ng dayalektong Tagalog ano ang itinuturing na istandard na tagalog?",
       "answer": "Tagalog Maynila",
       "choices": [
@@ -1282,6 +1411,25 @@
       "firstSeenAt": "2026-10-11T18:45:43Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:45:43Z"
+    },
+    {
+      "question": "Sa pagsasalin mo ng akdang Pampanitikan na nagmula sa bayan ng Ilocos at gagamitin mo ang mga salitang sa kanila nagmula anong uri ng panghihiram ang ginamit mo?",
+      "answer": "Panghihiram Kultural",
+      "choices": [
+        "a. Panghihiram Pulitikal",
+        "b. Panghihiram Kultural",
+        "c. Panghihiram Dayalektal",
+        "d. Panghihiram Rehiyunal"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:51:12Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:51:12Z"
     },
     {
       "question": "Sa pagsasalin ng idyoma ang mga ______ ay maaring isalin sa literal na paraan.",
