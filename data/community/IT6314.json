@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T18:56:14Z",
-  "totalQuestions": 27,
+  "updatedAt": "2026-10-11T18:57:45Z",
+  "totalQuestions": 32,
   "questions": [
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -47,10 +47,24 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+      "lastVerifiedAt": "2026-10-11T18:57:45Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared within a function",
+      "answer": "Local variable",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:57:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:57:45Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -61,10 +75,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+      "lastVerifiedAt": "2026-10-11T18:57:45Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Element can be placed onto a web page in a pre-checked fashion by setting the checked attribute",
@@ -89,10 +103,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+      "lastVerifiedAt": "2026-10-11T18:57:45Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Inventor of PHP",
@@ -121,6 +135,52 @@
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.It allows us to collect data from the htm file and display to the php script.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Form"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:57:45Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:57:45Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.One of the main points of interaction between a user and a web site or application. They allow users to send data to the web site.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Form"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:57:45Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:57:45Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP variables starts with what symbol.",
+      "answer": "$",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:57:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:57:45Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP version currently in use on most websites and included several new features such as support for object-oriented programming",
@@ -179,6 +239,20 @@
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Symbol used to combine 2 sting values to create one string.",
+      "answer": ".",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:57:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:57:45Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Version of PHP that introduces the use of superglobals",
@@ -264,7 +338,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T18:56:14Z"
+      "lastEvidenceAt": "2026-10-11T18:57:45Z"
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
