@@ -72,7 +72,7 @@ const req1 = new Request("https://relay.example/telemetry/anomaly", {
       verified: true,
       source: "review_screen"
     },
-    clientVersion: "1.11.19",
+    clientVersion: "1.11.20",
     contributorId: "anon_test123"
   })
 });
