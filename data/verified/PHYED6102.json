@@ -1,10 +1,24 @@
 {
   "subjectCode": "PHYED6102",
   "subjectName": "PHYED6102",
-  "updatedAt": "2026-10-11T18:29:44Z",
-  "totalQuestions": 9,
+  "updatedAt": "2026-10-11T18:31:53Z",
+  "totalQuestions": 10,
   "tier": "verified",
   "questions": [
+    {
+      "question": "Exercises in gymnastics can help develop good [____: Posture] .",
+      "answer": "Posture",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:31:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:31:53Z"
+    },
     {
       "question": "Gymnastics training must be done at an early age to improve [____: Flexibility] .",
       "answer": "Flexibility",
@@ -131,17 +145,24 @@
         "c. Moderate arabesque",
         "d. Front scale",
         "e. Arabesque",
-        "f. Standing arch back"
+        "f. Standing arch back",
+        "a. One leg balance",
+        "b. Front scale",
+        "c. Lunge position",
+        "d. Bridge stand"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Lunge position"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:29:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:44Z"
+      "lastVerifiedAt": "2026-10-11T18:29:44Z",
+      "lastEvidenceAt": "2026-10-11T18:31:53Z"
     }
   ]
 }
