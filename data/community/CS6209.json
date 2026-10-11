@@ -1,9 +1,28 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-11T19:37:11Z",
-  "totalQuestions": 100,
+  "updatedAt": "2026-10-11T19:44:20Z",
+  "totalQuestions": 119,
   "questions": [
+    {
+      "question": "______________ measures the ability of a regression test selection technique to handle realistic applications.",
+      "answer": "Generality",
+      "choices": [
+        "a. Inclusiveness",
+        "b. Precision",
+        "c. Efficiency",
+        "d. Generality"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
     {
       "question": "A 66.6% risk is considered as",
       "answer": "high",
@@ -426,6 +445,44 @@
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
     },
     {
+      "question": "If any of the hardware and/or platform (such as operating system) of the target host changes, software changes are needed to keep adaptability.",
+      "answer": "Host Modifications",
+      "choices": [
+        "a. Organization Changes",
+        "b. Host Modifications",
+        "c. Client Requirements",
+        "d. Market Conditions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "If there is any business level change at client end, such as reduction of organization strength, acquiring another company, organization venturing into new business, need to modify in the original software may arise.",
+      "answer": "Organization Changes",
+      "choices": [
+        "a. Host Modifications",
+        "b. Market Conditions",
+        "c. Organization Changes",
+        "d. Client Requirements"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
       "question": "In reference with top-down analysis, _________________ sub-divides the modules into further smaller units of code.",
       "answer": "Structured Coding",
       "choices": [
@@ -483,6 +540,25 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
+    },
+    {
+      "question": "It involves activities pertaining to identification of requirement of modification or maintenance",
+      "answer": "Identification & Tracing",
+      "choices": [
+        "a. Design",
+        "b. Analysis",
+        "c. Identification & Tracing",
+        "d. Implementation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
     },
     {
       "question": "It is a method of evaluating the expression passed to a function as an argument.",
@@ -803,6 +879,25 @@
       "lastVerifiedAt": "2026-10-11T19:37:11Z"
     },
     {
+      "question": "Maintenance is classified into how many categories ?",
+      "answer": "four",
+      "choices": [
+        "a. four",
+        "b. five",
+        "c. three",
+        "d. two"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
       "question": "Maintenance testing is performed using which methodology?",
       "answer": "Breadth test and depth test",
       "choices": [
@@ -860,6 +955,44 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:23:02Z"
+    },
+    {
+      "question": "Over the time, customer may ask for new features or functions in the software.",
+      "answer": "Client Requirements",
+      "choices": [
+        "a. Host Modifications",
+        "b. Organization Changes",
+        "c. Market Conditions",
+        "d. Client Requirements"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "Policies, which changes over the time, such as taxation and newly introduced constraints like, how to maintain bookkeeping, may trigger need for modification.",
+      "answer": "Market Conditions",
+      "choices": [
+        "a. Host Modifications",
+        "b. Client Requirements",
+        "c. Market Conditions",
+        "d. Organization Changes"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
     },
     {
       "question": "Project managers have to assess the risks that may affect a project.",
@@ -955,6 +1088,23 @@
       "lastVerifiedAt": "2026-10-11T19:27:32Z"
     },
     {
+      "question": "Regression testing is a very expensive activity.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
       "question": "Resources include people, hardware, software, or other assets. Many different types of people, skill sets, and resources are needed to build a home.",
       "answer": "A project requires resources, often from various areas",
       "choices": [
@@ -1031,6 +1181,44 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "Selective retest techniques may be more economical than the “retest-all”technique.How many selective retest techniques are there?",
+      "answer": "three",
+      "choices": [
+        "a. two",
+        "b. three",
+        "c. four",
+        "d. five"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "Software Maintenance includes",
+      "answer": "All of the mentioned",
+      "choices": [
+        "a. Deletion of obsolete capabilities",
+        "b. All of the mentioned",
+        "c. Error corrections",
+        "d. Enhancements of capabilities"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
       "question": "The functionality of the software and constraints on its operation must be defined.",
       "answer": "Software specification",
       "choices": [
@@ -1092,6 +1280,50 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:37:11Z"
+    },
+    {
+      "question": "The modification of the software to match changes in the ever changing environment, falls under which category of software maintenance?",
+      "answer": "eight",
+      "choices": [
+        "a. Corrective",
+        "b. Adaptive",
+        "c. Preventive",
+        "d. Perfective",
+        "a. six",
+        "b. nine",
+        "c. eight",
+        "d. seven"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "The new modules are coded with the help of structured design created in the design step.",
+      "answer": "",
+      "choices": [
+        "a. Identification & Tracing",
+        "b. Implementation",
+        "c. Analysis",
+        "d. Design"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Implementation"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:44:20Z"
     },
     {
       "question": "The process each manager follows during the life of a project is known as",
@@ -1381,6 +1613,82 @@
       "lastVerifiedAt": "2026-10-11T19:20:21Z"
     },
     {
+      "question": "This includes modifications and updates done in order to keep the software usable over long period of time. It includes new features, new user requirements for refining the software and improve its reliability and performance.",
+      "answer": "Perfective Maintenance",
+      "choices": [
+        "a. Corrective Maintenance",
+        "b. Preventive Maintenance",
+        "c. Adaptive Maintenance",
+        "d. Perfective Maintenance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "This includes modifications and updations applied to keep the software product up-to date and tuned to the ever changing world of technology and business environment.",
+      "answer": "Adaptive Maintenance",
+      "choices": [
+        "a. Perfective Maintenance",
+        "b. Corrective Maintenance",
+        "c. Adaptive Maintenance",
+        "d. Preventive Maintenance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "This includes modifications and updations done in order to correct or fix problems, which are either discovered by user or concluded by user error reports.",
+      "answer": "Corrective Maintenance",
+      "choices": [
+        "a. Preventive Maintenance",
+        "b. Corrective Maintenance",
+        "c. Adaptive Maintenance",
+        "d. Perfective Maintenance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "This includes modifications and updations to prevent future problems of the software. It aims to attend problems, which are not significant at this moment but may cause serious issues in future.",
+      "answer": "Preventive Maintenance",
+      "choices": [
+        "a. Perfective Maintenance",
+        "b. Adaptive Maintenance",
+        "c. Corrective Maintenance",
+        "d. Preventive Maintenance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
       "question": "This is a programming technique where a function calls itself and repeats the program code in it unless some pre-defined condition matches.",
       "answer": "Recursion",
       "choices": [
@@ -1575,6 +1883,25 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "What type of software testing is generally used in Software Maintenance?",
+      "answer": "Regression Testing",
+      "choices": [
+        "a. System Testing",
+        "b. Integration Testing",
+        "c. Regression Testing",
+        "d. Unit Testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
     },
     {
       "question": "Which is not one of the types of prototype of Prototyping Model?",
@@ -1884,6 +2211,44 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:27:32Z"
+    },
+    {
+      "question": "Which regression test selection technique exposes faults caused by modifications?",
+      "answer": "Inclusiveness",
+      "choices": [
+        "a. Inclusiveness",
+        "b. Efficiency",
+        "c. Precision",
+        "d. Generality"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+    },
+    {
+      "question": "Which selective retest technique selects every test case that causes a modified program to produce a different output than its original version?",
+      "answer": "Safe",
+      "choices": [
+        "a. Coverage",
+        "b. Safe",
+        "c. Maximization",
+        "d. Minimization"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:44:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:44:20Z"
     },
     {
       "question": "While programming, the code is broken down into smaller group of instructions. These groups are known as modules, subprograms, or subroutines.",
