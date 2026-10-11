@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:39:09Z",
-  "totalQuestions": 121,
+  "updatedAt": "2026-10-11T20:40:14Z",
+  "totalQuestions": 126,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -37,6 +37,25 @@
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:39:09Z"
+    },
+    {
+      "question": "Ajax Stands for",
+      "answer": "Asynchronous JavaScript And XML.",
+      "choices": [
+        "a. Asynchronous JavaScript And XHML.",
+        "b. Asynchronous JavaScript And XMLs.",
+        "c. Asynchronous JavaScript And XML.",
+        "d. Asynchronous JavaScripts And XML."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:40:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -127,6 +146,27 @@
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:38:11Z"
+    },
+    {
+      "question": "Consider the following code snippet : [Image: [moodle-asset:151190/q8.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. 10",
+        "b. 13",
+        "c. 12",
+        "d. 14"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "13"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:40:14Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
@@ -669,17 +709,19 @@
         "a. HTML",
         "b. jQuery",
         "c. Ajax",
-        "d. PHP"
+        "d. PHP",
+        "b. PHP",
+        "d. jQuery"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "Its a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -699,6 +741,25 @@
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:39:09Z"
+    },
+    {
+      "question": "JavaScript Code can be called by using",
+      "answer": "Function/Method",
+      "choices": [
+        "a. Preprocessor",
+        "b. Event",
+        "c. Function/Method",
+        "d. Trigger"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:40:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "Multiple choice. Select the best answer. What will be the output of the following PHP code ?",
@@ -821,10 +882,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
@@ -958,17 +1019,21 @@
         "a. 300",
         "b. 400",
         "c. 200",
-        "d. 500"
+        "d. 500",
+        "a. 400",
+        "b. 500",
+        "c. 300",
+        "d. 200"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "Security is not an issue with JavaScript",
@@ -1009,6 +1074,25 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "Server command that calls itself",
+      "answer": "$_SERVER['PHP_SELF']",
+      "choices": [
+        "a. $_SERVER['PHP_SELF']",
+        "b. $_SERVER['PHP_SELFS']",
+        "c. $_SERVER['PHP_SELFIE']",
+        "d. $_SERVERS['PHP_SELF']"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:40:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "Status 200 means",
@@ -1308,17 +1392,21 @@
         "a. XMLHttpRequests",
         "b. XMLHttpRequest",
         "c. XMLHttpsRequest",
-        "d. XMLsHttpRequest"
+        "d. XMLsHttpRequest",
+        "a. XMLHttpsRequest",
+        "b. XMLsHttpRequest",
+        "c. XMLHttpRequest",
+        "d. XMLHttpRequests"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "The logical operator && stands for?",
@@ -1650,17 +1738,19 @@
         "a. LiveScript",
         "b. LivesScript",
         "c. LiveScripting",
-        "d. LiveScripts"
+        "d. LiveScripts",
+        "a. LiveScripting",
+        "c. LiveScript"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
       "question": "What is the output of the following code snippet? $str = 'asdfghyo off on off'; $replace_pairs = array('a' => 'q', 's' => 'w', 'd' => 'e', 'f' => 'r', 'y' => 'z', 'o' => 'i', 'off' => 'on', 'on' => 'off'); echo strtr($str, $replace_pairs);",
@@ -2258,6 +2348,25 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:53:46Z"
+    },
+    {
+      "question": "XMLHttpRequest object function that cancel request.",
+      "answer": "Abort()",
+      "choices": [
+        "a. Abort()",
+        "b. Stop()",
+        "c. Cancel()",
+        "d. Ignore()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:40:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:40:14Z"
     }
   ]
 }
