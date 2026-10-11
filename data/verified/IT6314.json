@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:33:34Z",
-  "totalQuestions": 51,
+  "updatedAt": "2026-10-11T19:36:43Z",
+  "totalQuestions": 55,
   "tier": "verified",
   "questions": [
     {
@@ -21,6 +21,25 @@
       "firstSeenAt": "2026-10-11T18:53:46Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:53:46Z"
+    },
+    {
+      "question": "Array values are keyed by ______ values (called indexed arrays) or using ______ values (called associative arrays). Of course, these key methods can be combined as well.",
+      "answer": "Integer, String",
+      "choices": [
+        "a. Float, String",
+        "b. Positive number, negative number",
+        "c. Integer, String",
+        "d. Even Number, String"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:36:43Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:36:43Z"
     },
     {
       "question": "Facebook, wordpress uses php as script language.",
@@ -357,19 +376,28 @@
         "a. no output",
         "b. infinite loop",
         "c. -3-4-5",
-        "d. -3-4"
+        "d. -3-4",
+        "a. After for loop",
+        "b. In for loopAfter for loop",
+        "a. *********",
+        "c. ***********",
+        "d. **********",
+        "b. no output",
+        "c. The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
+        "d. The number is: 0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "After for loop"
+        "After for loop",
+        "In for loop"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z",
+      "lastVerifiedAt": "2026-10-11T19:36:43Z",
       "alternateAnswers": [
         {
           "answer": "red green blue yellow",
@@ -382,6 +410,12 @@
         {
           "answer": "no output",
           "timestamp": "2026-10-11T19:33:34Z"
+        }
+      ],
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
+          "timestamp": "2026-10-11T19:36:43Z"
         }
       ]
     },
@@ -801,6 +835,44 @@
       "lastVerifiedAt": "2026-10-11T19:33:34Z"
     },
     {
+      "question": "What is the output of the following code snippet? $str = 'asdfghyo off on off'; $replace_pairs = array('a' => 'q', 's' => 'w', 'd' => 'e', 'f' => 'r', 'y' => 'z', 'o' => 'i', 'off' => 'on', 'on' => 'off'); echo strtr($str, $replace_pairs);",
+      "answer": "Qwerghzi on off on",
+      "choices": [
+        "a. Qwerghzi off offoff",
+        "b. Qwerghzi on off on",
+        "c. Qwerghzi on onon",
+        "d. Qwerghzo on off on"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:36:43Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:36:43Z"
+    },
+    {
+      "question": "What is the output of the following? echo substr(\"abcdef\", -2), ', '; echo substr(\"abcdef\", 4), ', '; echo substr(\"abcdef\", -3, -1), ', '; echo substr(\"abcdef\", 4, -2), ', '; echo substr(\"abcdef\", 2, -1)",
+      "answer": "Ef, ef, de, , cde",
+      "choices": [
+        "a. Ef, ef, de, e, cde",
+        "b. Ef, ef, de, , cde",
+        "c. Abcd, de, de, , cde",
+        "d. Ef, ef, de, , cdef"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:36:43Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:36:43Z"
+    },
+    {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151135/w6-q3.PNG]]",
       "answer": "abcd",
       "choices": [
@@ -875,6 +947,25 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:16:32Z"
+    },
+    {
+      "question": "Which one of the following is the right way of defining a function in PHP?",
+      "answer": "functionfumctionName(parameters) { function body }",
+      "choices": [
+        "a. function { function body }",
+        "b. data type functionName(parameters) { function body }",
+        "c. functionName(parameters) { function body }",
+        "d. functionfumctionName(parameters) { function body }"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:36:43Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:36:43Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",
