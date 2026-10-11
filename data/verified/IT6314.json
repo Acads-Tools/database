@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:04:05Z",
-  "totalQuestions": 34,
+  "updatedAt": "2026-10-11T19:06:05Z",
+  "totalQuestions": 38,
   "tier": "verified",
   "questions": [
     {
@@ -292,6 +292,25 @@
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
     },
     {
+      "question": "If the variable $x = 11; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
+      "answer": "12",
+      "choices": [
+        "a. 12",
+        "b. 10",
+        "c. 11",
+        "d. 13"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:06:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+    },
+    {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
       "answer": "False",
       "choices": [
@@ -413,6 +432,23 @@
       "lastVerifiedAt": "2026-10-11T18:53:46Z"
     },
     {
+      "question": "The following condition will return TRUE or FALSE ( (2 >= 2 && 8 3) )",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:06:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+    },
+    {
       "question": "The following condition will return TRUE or FALSE: (7 >= 7 && 9 < 2)",
       "answer": "a. True",
       "choices": [
@@ -429,7 +465,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+      "lastVerifiedAt": "2026-10-11T19:04:05Z",
+      "alternateAnswers": [
+        {
+          "answer": "True",
+          "timestamp": "2026-10-11T19:06:05Z"
+        }
+      ]
     },
     {
       "question": "The following example $x -= $y; is the same as?",
@@ -471,6 +513,10 @@
         {
           "answer": "NOT",
           "timestamp": "2026-10-11T19:04:05Z"
+        },
+        {
+          "answer": "OR",
+          "timestamp": "2026-10-11T19:06:05Z"
         }
       ]
     },
@@ -492,7 +538,7 @@
       "lastVerifiedAt": "2026-10-11T19:04:05Z"
     },
     {
-      "question": "True or False - The operator OR, when used to link two or concept terms will retrieve fewer records because both terms need not be present in each article.",
+      "question": "True or False - The operator NOT is another way to broaden a search or retrieve more records.",
       "answer": "False",
       "choices": [
         "a. True",
@@ -504,9 +550,43 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:06:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+    },
+    {
+      "question": "True or False - The operator OR, when used to link two or concept terms will retrieve fewer records because both terms need not be present in each article.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+    },
+    {
+      "question": "True or False - Using the operator AND to combine concept terms is a good way to increase the number of records retrieved in a search.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:06:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:06:05Z"
     },
     {
       "question": "Version 4 of php supports global variables $Get etc. (v4.1)",
