@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:35:55Z",
-  "totalQuestions": 71,
+  "updatedAt": "2026-10-11T20:37:10Z",
+  "totalQuestions": 81,
   "tier": "verified",
   "questions": [
     {
@@ -59,6 +59,24 @@
       "lastVerifiedAt": "2026-10-11T19:36:43Z"
     },
     {
+      "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName, phoneNumber) VALUES ('Robert', 'Smith')\");",
+      "answer": "There are more fields than values",
+      "choices": [
+        "a. There are more fields than values",
+        "b. Nothing, everything is fine",
+        "c. There are more values than fields"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+    },
+    {
       "question": "Facebook, wordpress uses php as script language.",
       "answer": "True",
       "choices": [
@@ -74,6 +92,24 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-09T06:21:45Z"
+    },
+    {
+      "question": "Function that select database.",
+      "answer": "mysql_select_db();",
+      "choices": [
+        "a. select_db();",
+        "b. my_db_select();",
+        "c. mysql_select_db();"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared outside a function.",
@@ -354,6 +390,23 @@
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:08:38Z"
+    },
+    {
+      "question": "If a PHP script opens a MySQL connection, the script will automatically close the connection after the script has finished executing?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
     },
     {
       "question": "If the variable $x = 11; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
@@ -649,6 +702,93 @@
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
+      "question": "The \"I\" in MySQLi stands for",
+      "answer": "improved",
+      "choices": [
+        "a. improvement",
+        "b. improved",
+        "c. increase",
+        "d. improve"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+    },
+    {
+      "question": "The \"mysql_connect()\" function opens a MySQL connection?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+    },
+    {
+      "question": "The \"mysql_error()\" function returns the error description for a MYSQL operation?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+    },
+    {
+      "question": "The \"mysql_select_db()\" function allows you to select a particular database ?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+    },
+    {
+      "question": "The \"or die()\" part of a MySQL command will execute if the connection fails?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+    },
+    {
       "question": "The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.",
       "answer": "Where, from",
       "choices": [
@@ -795,6 +935,23 @@
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:04:05Z"
+    },
+    {
+      "question": "The INSERT INTO statement is not used to add new records to a database table?",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
     },
     {
       "question": "The logical operator && stands for?",
@@ -1285,6 +1442,25 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "Which one of the following databases has PHP supported almost since the beginning?",
+      "answer": "MYSQL",
+      "choices": [
+        "a. Oracle Database",
+        "b. SQL+",
+        "c. SQL",
+        "d. MYSQL"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:37:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:37:10Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
