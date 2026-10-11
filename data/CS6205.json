@@ -1,9 +1,37 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-11T18:36:42Z",
-  "totalQuestions": 78,
+  "updatedAt": "2026-10-11T18:38:40Z",
+  "totalQuestions": 85,
   "questions": [
+    {
+      "question": "* Starts from tree leaves. It proceeds upward to the root which is the starting symbol S",
+      "answer": "Bottom-up Approach",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+    },
+    {
+      "question": "* Starts with the starting symbol S. It goes down to tree leaves using productions.",
+      "answer": "Top-down Approach",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+    },
     {
       "question": "[____: Sets] are collections of objects in which order of elements and duplication of elements do not matter.",
       "answer": "Sets",
@@ -64,9 +92,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -330,6 +358,22 @@
       "questionType": "multichoice"
     },
     {
+      "question": "A right-most derivation of a sentential form is one in which rules transforming the [____: right-most non-terminal] are always applied.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "right-most non-terminal"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:38:40Z"
+    },
+    {
       "question": "A set of final state/states of Q (F⊆Q).",
       "answer": "",
       "choices": [],
@@ -344,6 +388,20 @@
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T18:36:42Z"
+    },
+    {
+      "question": "A set of rules, P: N → (N U T)*, it does have any right context or left context.",
+      "answer": "P",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z"
     },
     {
       "question": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [Blank 1] .",
@@ -363,6 +421,36 @@
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
+      "question": "A set of terminals where N ∩ T = NULL.",
+      "answer": "T",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+    },
+    {
+      "question": "A set on non-terminal symbols.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "C"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:38:40Z"
     },
     {
       "question": "A transition function δ : Q × (Σ ∪ {ε}) → 2Q.",
@@ -454,14 +542,18 @@
         "a. vertex",
         "b. parse tree",
         "c. derivation tree",
-        "d. leaves"
+        "d. leaves",
+        "a. parse tree",
+        "b. vertex",
+        "c. leaves",
+        "d. derivation tree"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -475,9 +567,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -584,9 +676,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -807,9 +899,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -920,14 +1012,16 @@
         "a. Recursively Ennumerable Language",
         "b. Context Sensitive Language",
         "c. Regular Language",
-        "d. Context free Language"
+        "d. Context free Language",
+        "c. Context free Language",
+        "d. Regular Language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -989,14 +1083,17 @@
         "a. automata",
         "b. grammar",
         "c. data",
-        "d. tokens"
+        "d. tokens",
+        "a. data",
+        "c. tokens",
+        "d. automata"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1154,9 +1251,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1181,6 +1278,20 @@
         }
       ],
       "questionType": "multichoice"
+    },
+    {
+      "question": "The start symbol.",
+      "answer": "S",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z"
     },
     {
       "question": "There are 5 tuples in finite state machine.",
@@ -1247,14 +1358,17 @@
         "a. Recursively ennumerable language is the super set of regular language",
         "b. Context free language is the subset of context sensitive language",
         "c. Regular language is the subset of context sensitive language",
-        "d. Context sensitive language is a subset of context free language"
+        "d. Context sensitive language is a subset of context free language",
+        "a. Regular language is the subset of context sensitive language",
+        "b. Recursively ennumerable language is the super set of regular language",
+        "c. Context free language is the subset of context sensitive language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
