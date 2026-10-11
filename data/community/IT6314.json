@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T18:53:46Z",
-  "totalQuestions": 18,
+  "updatedAt": "2026-10-11T18:56:14Z",
+  "totalQuestions": 27,
   "questions": [
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -39,6 +39,62 @@
       "lastVerifiedAt": "2026-10-09T06:21:45Z"
     },
     {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared outside a function.",
+      "answer": "Global variable",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
+      "answer": "CSS",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Element can be placed onto a web page in a pre-checked fashion by setting the checked attribute",
+      "answer": "Checkbox",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Function is used to display structured information (type and value) about one or more variables.",
+      "answer": "var_dump()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Inventor of PHP",
       "answer": "Rasmus Lerdorf",
       "choices": [],
@@ -53,6 +109,20 @@
       "lastVerifiedAt": "2026-10-11T18:53:46Z"
     },
     {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Is a line that is not read/executed as part of the program.",
+      "answer": "Comment",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP version currently in use on most websites and included several new features such as support for object-oriented programming",
       "answer": "PHP 5",
       "choices": [],
@@ -65,6 +135,50 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Script use in every php code. (Note : No spaces needed)",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "<?php"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:56:14Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Storage of data in PHP",
+      "answer": "Variables",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Symbol use to append data or string",
+      "answer": ".",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:56:14Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Version of PHP that introduces the use of superglobals",
@@ -135,6 +249,22 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "Identification. Write your answer on the space provided. Two ways on how to print / display text on the screen (Note : Seperate answers with ;)",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "echo;print"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:56:14Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:56:14Z"
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
