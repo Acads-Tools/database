@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-11T18:34:27Z",
-  "totalQuestions": 56,
+  "updatedAt": "2026-10-11T18:36:42Z",
+  "totalQuestions": 70,
   "tier": "verified",
   "questions": [
     {
@@ -32,6 +32,20 @@
       "questionType": "shortanswer"
     },
     {
+      "question": "[Dropdown 1: Pumping Lemma] is to be applied to show that certain languages are not regular. It should never be used to show a language is regular.",
+      "answer": "[Pumping Lemma] is to be applied to show that certain languages are not regular. It should never be used to show a language is regular.",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
       "question": "A [____: graph] is a tree if it is connected and has no simple cycles.",
       "answer": "graph",
       "choices": [],
@@ -56,6 +70,24 @@
       "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "questionType": "shortanswer"
+    },
+    {
+      "question": "A compact textual representation of a set of strings representing a language.",
+      "answer": "regular expressions",
+      "choices": [
+        "a. regular expressions",
+        "b. context grammars",
+        "c. regular languages"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "A conceptual design for a machine consisting of a Mill, Store, Printer, and Readers.",
@@ -123,6 +155,34 @@
       "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A Finite Automaton with null moves (FA-ε) does transit not only after giving input from the alphabet set but also without any input symbol. This transition without input is called a [Dropdown 1: null move] .",
+      "answer": "A Finite Automaton with null moves (FA-ε) does transit not only after giving input from the alphabet set but also without any input symbol. This transition without input is called a [null move].",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
+      "question": "A formal language is a set of strings, each string composed of symbols from a finite set called [Dropdown 1: alphabet] .",
+      "answer": "A formal language is a set of strings, each string composed of symbols from a finite set called [alphabet] .",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "A general purpose, programmable, information processor with input and output.",
@@ -237,6 +297,25 @@
       "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [Blank 1] .",
+      "answer": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [(a+b)*].",
+      "choices": [
+        "a. (a+b)*",
+        "b. (a+b)*abb",
+        "c. (aa)*(bb)*b",
+        "d. (aa + ab + ba + bb)*"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "An automaton that produces outputs based on current input and/or previous state is called ____________.",
@@ -417,6 +496,40 @@
       "questionType": "multichoice"
     },
     {
+      "question": "For a regular expression ‘a’, we can construct the following FA: [Image: [moodle-asset:39744/FA-a.PNG]]",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
+      "question": "For every pair of regular expressions R and S, the languages denoted by R(SR)* and (RS)*R are the same.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
       "question": "Global Positioning System (GPS) calculates latitude and longitude from satellite signals.",
       "answer": "True",
       "choices": [
@@ -494,6 +607,20 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Increasing coverage, or recall",
+      "answer": "minimizing false negatives",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
       "question": "It is a unary operator on a set of symbols or strings, that gives the infinite set of all possible strings of all possible lengths.",
       "answer": "Σ *",
       "choices": [
@@ -515,6 +642,20 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It may be used wherever needed to influence the grouping of operators.",
+      "answer": "Parentheses",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "It process information in their efforts to eat, survive, and reproduce.",
@@ -560,6 +701,25 @@
       "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Let the class of language accepted by finite state machine be L1 and the class of languages represented by regular expressions be L2 then __________ .",
+      "answer": "L1=L2",
+      "choices": [
+        "a. L1=L2",
+        "b. L1>=L2",
+        "c. L1 U L2 = .*",
+        "d. L1<L2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "Living organisms [____: process] information in their efforts to eat, survive, and reproduce.",
@@ -643,6 +803,25 @@
       "lastVerifiedAt": "2026-10-03T04:45:01Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Regular expression Φ* is equivalent to _________ .",
+      "answer": "ϵ",
+      "choices": [
+        "a. 0",
+        "b. 1",
+        "c. Φ",
+        "d. ϵ"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "Regular sets are closed under union,concatenation and kleene closure.",
@@ -793,6 +972,20 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The language L contains all strings over the alphabet {a,b} that begin with [Dropdown 1: a] and end with [Dropdown 2: b]",
+      "answer": "The language L contains all strings over the alphabet {a,b} that begin with [a] and end with [b]",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+    },
+    {
       "question": "The number of edges attached to a node is called its [____: degree] .",
       "answer": "degree",
       "choices": [],
@@ -804,6 +997,25 @@
       "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
+    },
+    {
+      "question": "The number of elements in the set for the Language L={xϵ(∑r) *|length if x is at most 2} and ∑={0,1} is_________",
+      "answer": "7",
+      "choices": [
+        "a. 6",
+        "b. 8",
+        "c. 5",
+        "d. 7"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "The recursive inference procedure determines that string w is in the language of the variable A, A being the starting variable.",
@@ -880,6 +1092,26 @@
         }
       ],
       "questionType": "multichoice"
+    },
+    {
+      "question": "What is the final result after converting the following NFA-ε to NFA without Null move. [Image: [moodle-asset:39741/ndfa%20question.PNG]]",
+      "answer": "[Image: [moodle-asset:105496/final%20ndfa.PNG]]",
+      "choices": [
+        "a. [Image: [moodle-asset:105497/ndfa%20step%203.PNG]]",
+        "b. [Image: [moodle-asset:105496/final%20ndfa.PNG]]",
+        "c. [Image: [moodle-asset:105498/ndfa%20step%202.PNG]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "[Image: [moodle-asset:105497/ndfa%20step%203.PNG]]"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:36:42Z"
     },
     {
       "question": "Which of the following statement is false?",
