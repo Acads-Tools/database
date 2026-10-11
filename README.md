@@ -121,7 +121,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `IT6314` | IT6314 | **143** | Active |
 | `IT6322A` | Mobile Application Development | **85** | Active |
 | `ITE6200` | Application Development and Emerging Technology | **146** | Active |
-| `ITE6202` | ITE6202 | **42** | Active |
+| `ITE6202` | ITE6202 | **52** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
 | `NSTP6102` | National Service Training Program 2 | **25** | Active |
 | `PHYED6102` | PHYED6102 | **15** | Active |
