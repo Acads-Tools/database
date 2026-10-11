@@ -1,10 +1,27 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:08:35Z",
-  "totalQuestions": 67,
+  "updatedAt": "2026-10-11T20:35:55Z",
+  "totalQuestions": 71,
   "tier": "verified",
   "questions": [
+    {
+      "question": "A NULL value is treated as a blank or 0.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:35:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
       "answer": "False",
@@ -468,17 +485,20 @@
         "a. Unix, Linux, Windows and others",
         "b. Linux and Mac OS-X only",
         "c. Unix and Linux only",
-        "d. Any operating system at all"
+        "d. Any operating system at all",
+        "a. Any operating system at all",
+        "b. Unix, Linux, Windows and others",
+        "d. Linux and Mac OS-X only"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
@@ -612,7 +632,30 @@
         "a. Select name, course_id from instructor natural join teaches;",
         "b. Select name ,course_id from instructor;",
         "c. Select course_id from instructor join teaches;",
-        "d. Select name,course_id from teaches,instructor where instructor_id=course_id;"
+        "d. Select name,course_id from teaches,instructor where instructor_id=course_id;",
+        "a. Select name,course_id from teaches,instructor where instructor_id=course_id;",
+        "b. Select name, course_id from instructor natural join teaches;",
+        "c. Select name ,course_id from instructor;",
+        "d. Select course_id from instructor join teaches;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.",
+      "answer": "Where, from",
+      "choices": [
+        "a. Where, from",
+        "b. From, select",
+        "c. From, where",
+        "d. Select, from"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -620,9 +663,9 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
       "question": "The default file extension for PHP files is \".php\".",
@@ -823,17 +866,21 @@
         "a. 1009, 1001, 1018",
         "b. 1018",
         "c. 1009, 1018",
-        "d. 1001"
+        "d. 1001",
+        "a. 1018",
+        "b. 1001",
+        "c. 1009, 1001, 1018",
+        "d. 1009, 1018"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
       "question": "To remove duplicate rows from the result set of a SELECT use the following keyword:",
@@ -1158,13 +1205,13 @@
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
-      "question": "Which of the following statements contains an error?",
-      "answer": "Select empid where empid = 1009 and lastname = ‘JOHANN;",
+      "question": "Which of the following can add a row to a table?",
+      "answer": "Insert",
       "choices": [
-        "a. Select empid from emp;",
-        "b. Select * from emp where empid = 10003;",
-        "c. Select empid where empid = 1009 and lastname = ‘JOHANN;",
-        "d. Select empid from emp where empid = 10006;"
+        "a. Update",
+        "b. Insert",
+        "c. Alter",
+        "d. Add"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1172,9 +1219,49 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:35:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "Which of the following displays the unique values of the column. Select ________ dept_name from instructor;",
+      "answer": "Distinct",
+      "choices": [
+        "a. Name",
+        "b. Distinct",
+        "c. All",
+        "d. From"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:35:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "Which of the following statements contains an error?",
+      "answer": "Select empid where empid = 1009 and lastname = ‘JOHANN;",
+      "choices": [
+        "a. Select empid from emp;",
+        "b. Select * from emp where empid = 10003;",
+        "c. Select empid where empid = 1009 and lastname = ‘JOHANN;",
+        "d. Select empid from emp where empid = 10006;",
+        "a. Select * from emp where empid = 10003;",
+        "b. Select empid from emp;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
       "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:151153/q1.PNG]]",
@@ -1183,17 +1270,21 @@
         "a. Select name",
         "b. Select name from employee",
         "c. Select employee from name",
-        "d. elect employee"
+        "d. elect employee",
+        "a. elect employee",
+        "b. Select employee from name",
+        "c. Select name from employee",
+        "d. Select name"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
