@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:40:14Z",
-  "totalQuestions": 126,
+  "updatedAt": "2026-10-11T20:41:53Z",
+  "totalQuestions": 136,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -20,6 +20,27 @@
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "A subquery in an SQL SELECT statement",
+      "answer": "",
+      "choices": [
+        "a. can always be duplicated by a join.",
+        "b. cannot have its results sorted using ORDER BY.",
+        "c. can only be used with two tables.",
+        "d. has a distinct form that cannot be duplicated by a join."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "cannot have its results sorted using ORDER BY."
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T20:41:53Z"
     },
     {
       "question": "AJAX is a programming language",
@@ -203,6 +224,27 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-09T06:21:45Z"
+    },
+    {
+      "question": "Find the SQL statement below that is equal to the following: SELECT NAME FROM CUSTOMER WHERE STATE = 'VA';",
+      "answer": "SELECT NAME FROM CUSTOMER WHERE STATE IN ('VA');",
+      "choices": [
+        "a. SELECT NAME IN CUSTOMER WHERE STATE IN ('VA');",
+        "b. SELECT NAME FROM CUSTOMER WHERE STATE IN ('VA');",
+        "c. 'V';",
+        "d. 'VA';",
+        "e. SELECT NAME IN CUSTOMER WHERE STATE",
+        "f. SELECT NAME IN CUSTOMER WHERE STATE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
     },
     {
       "question": "Function that select database.",
@@ -1240,6 +1282,25 @@
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
+      "question": "The command to eliminate a table from a database is:",
+      "answer": "DROP TABLE CUSTOMER;",
+      "choices": [
+        "a. REMOVE TABLE CUSTOMER;",
+        "b. UPDATE TABLE CUSTOMER;",
+        "c. DROP TABLE CUSTOMER;",
+        "d. DELETE TABLE CUSTOMER;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
       "question": "The default file extension for PHP files is \".php\".",
       "answer": "True",
       "choices": [
@@ -1493,6 +1554,25 @@
       "lastVerifiedAt": "2026-10-11T20:08:35Z"
     },
     {
+      "question": "The SQL keyword(s) ________ is used with wildcards.",
+      "answer": "LIKE only",
+      "choices": [
+        "a. IN and NOT IN",
+        "b. LIKE only",
+        "c. IN only",
+        "d. NOT IN only"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
       "question": "There are three different kind of arrays:",
       "answer": "",
       "choices": [
@@ -1573,6 +1653,25 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
+      "question": "To remove duplicate rows from the results of an SQL SELECT statement, the ________ qualifier specified must be included.",
+      "answer": "DISTINCT",
+      "choices": [
+        "a. DISTINCT",
+        "b. SINGLE",
+        "c. UNIQUE",
+        "d. ONLY"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
     },
     {
       "question": "To use MySQL on your computer, you'll need?",
@@ -1694,6 +1793,25 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "What does SQL stand for?",
+      "answer": "Structured Query Language",
+      "choices": [
+        "a. Structured Question Language",
+        "b. Strong Question Language",
+        "c. None of the above",
+        "d. Structured Query Language"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
     },
     {
       "question": "What functions count elements in an array?",
@@ -2175,6 +2293,25 @@
       "lastEvidenceAt": "2026-10-11T19:33:34Z"
     },
     {
+      "question": "Which of the following are the five built-in functions provided by SQL?",
+      "answer": "COUNT, SUM, AVG, MAX, MIN",
+      "choices": [
+        "a. SUM, AVG, MULT, DIV, MIN",
+        "b. SUM, AVG, MIN, MAX, MULT",
+        "c. SUM, AVG, MIN, MAX, NAME",
+        "d. COUNT, SUM, AVG, MAX, MIN"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
       "question": "Which of the following can add a row to a table?",
       "answer": "Insert",
       "choices": [
@@ -2331,6 +2468,63 @@
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:38:11Z"
+    },
+    {
+      "question": "Which SQL statement is used to delete data from a database?",
+      "answer": "DELETE",
+      "choices": [
+        "a. COLLAPSE",
+        "b. REMOVE",
+        "c. DELETE",
+        "d. None of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
+      "question": "Which SQL statement is used to insert new data in a database?",
+      "answer": "INSERT INTO",
+      "choices": [
+        "a. INSERT INTO",
+        "b. ADD NEW",
+        "c. ADD RECORD",
+        "d. INSERT NEW"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
+      "question": "With SQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
+      "answer": "SELECT * FROM Persons WHERE FirstName='Peter'",
+      "choices": [
+        "a. SELECT * FROM Persons WHERE FirstName='Peter'",
+        "b. SELECT * FROM Persons WHERE FirstName 'Peter'",
+        "c. SELECT [all] FROM Persons WHERE FirstName='Peter'",
+        "d. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:41:53Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:41:53Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",
