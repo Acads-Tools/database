@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:41:53Z",
-  "totalQuestions": 110,
+  "updatedAt": "2026-10-11T20:42:51Z",
+  "totalQuestions": 117,
   "tier": "verified",
   "questions": [
     {
@@ -685,6 +685,25 @@
       ]
     },
     {
+      "question": "MYSQL can be used to:",
+      "answer": "All of the given choices can be done by MYSQL.",
+      "choices": [
+        "a. modify database data only",
+        "b. All of the given choices can be done by MYSQL.",
+        "c. create database structures only.",
+        "d. query database data only."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:42:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+    },
+    {
       "question": "MySQL is",
       "answer": "A Relational Database Management System",
       "choices": [
@@ -723,6 +742,25 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "MySQL was invented in the year:",
+      "answer": "1994",
+      "choices": [
+        "a. 1997",
+        "b. 1994",
+        "c. 1996",
+        "d. 1999"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:42:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
     },
     {
       "question": "Object is used to exchange data with a server behind the scenes.",
@@ -1347,6 +1385,25 @@
       "lastVerifiedAt": "2026-10-11T20:08:35Z"
     },
     {
+      "question": "The SQL keyword BETWEEN is used:",
+      "answer": "for ranges.",
+      "choices": [
+        "a. as a wildcard.",
+        "b. for ranges.",
+        "c. to limit the columns displayed.",
+        "d. None of the above is correct."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:42:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+    },
+    {
       "question": "The SQL keyword(s) ________ is used with wildcards.",
       "answer": "LIKE only",
       "choices": [
@@ -1433,17 +1490,19 @@
         "a. DISTINCT",
         "b. SINGLE",
         "c. UNIQUE",
-        "d. ONLY"
+        "d. ONLY",
+        "a. ONLY",
+        "d. DISTINCT"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
     },
     {
       "question": "To use MySQL on your computer, you'll need?",
@@ -1846,6 +1905,44 @@
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
     },
     {
+      "question": "Which of the following is the original purpose of SQL?",
+      "answer": "All of the above.",
+      "choices": [
+        "a. To define the data structures",
+        "b. To specify the syntax and semantics of SQL manipulation language",
+        "c. All of the above.",
+        "d. To specify the syntax and semantics of SQL data definition language"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:42:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+    },
+    {
+      "question": "Which of the following statement is not true about MySQL DROP command?",
+      "answer": "It can be used to delete only data but not structure of a table",
+      "choices": [
+        "a. It can be used to delete an index",
+        "b. It can be used to remove a database",
+        "c. It can be used to remove a table with all data",
+        "d. It can be used to delete only data but not structure of a table"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:42:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+    },
+    {
       "question": "Which of the following statements contains an error?",
       "answer": "Select empid where empid = 1009 and lastname = ‘JOHANN;",
       "choices": [
@@ -1947,6 +2044,25 @@
       "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
+      "question": "Which one of the following sorts rows in SQL?",
+      "answer": "ORDER BY",
+      "choices": [
+        "a. SORT BY",
+        "b. GROUP BY",
+        "c. ALIGN BY",
+        "d. ORDER BY"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:42:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+    },
+    {
       "question": "Which one of the following statements should be used to include a file?",
       "answer": "include 'filename';",
       "choices": [
@@ -2004,13 +2120,13 @@
       "lastVerifiedAt": "2026-10-11T20:41:53Z"
     },
     {
-      "question": "With SQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
-      "answer": "SELECT * FROM Persons WHERE FirstName='Peter'",
+      "question": "With SQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
+      "answer": "SELECT FirstName FROM Persons",
       "choices": [
-        "a. SELECT * FROM Persons WHERE FirstName='Peter'",
-        "b. SELECT * FROM Persons WHERE FirstName 'Peter'",
-        "c. SELECT [all] FROM Persons WHERE FirstName='Peter'",
-        "d. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'"
+        "a. EXTRACT FirstName FROM Persons",
+        "b. SELECT FirstName FROM Persons",
+        "c. None of the choices",
+        "d. SELECT Persons.FirstName"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2018,9 +2134,32 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:42:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+    },
+    {
+      "question": "With SQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
+      "answer": "SELECT * FROM Persons WHERE FirstName='Peter'",
+      "choices": [
+        "a. SELECT * FROM Persons WHERE FirstName='Peter'",
+        "b. SELECT * FROM Persons WHERE FirstName 'Peter'",
+        "c. SELECT [all] FROM Persons WHERE FirstName='Peter'",
+        "d. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+        "a. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+        "b. SELECT [all] FROM Persons WHERE FirstName='Peter'",
+        "c. SELECT * FROM Persons WHERE FirstName 'Peter'",
+        "d. SELECT * FROM Persons WHERE FirstName='Peter'"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-11T20:42:51Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",
