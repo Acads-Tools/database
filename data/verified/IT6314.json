@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:06:05Z",
-  "totalQuestions": 38,
+  "updatedAt": "2026-10-11T19:08:38Z",
+  "totalQuestions": 43,
   "tier": "verified",
   "questions": [
     {
@@ -292,6 +292,34 @@
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
     },
     {
+      "question": "Identification. Write your answer on the space provided. The basic assignment operator in PHP is [____: =]",
+      "answer": "=",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:08:38Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+    },
+    {
+      "question": "Identification. Write your answer on the space provided. Which operator will check if two variables are the same?",
+      "answer": "==",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:08:38Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+    },
+    {
       "question": "If the variable $x = 11; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
       "answer": "12",
       "choices": [
@@ -432,7 +460,7 @@
       "lastVerifiedAt": "2026-10-11T18:53:46Z"
     },
     {
-      "question": "The following condition will return TRUE or FALSE ( (2 >= 2 && 8 3) )",
+      "question": "The following comparison condition would return TRUE or FALSE [Image: sad - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/sad] 3 6)",
       "answer": "True",
       "choices": [
         "a. True",
@@ -444,9 +472,60 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:08:38Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+    },
+    {
+      "question": "The following condition will return TRUE or FALSE ( (2 >= 2 && 8 3) )",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+    },
+    {
+      "question": "The following condition will return TRUE or FALSE [Image: sad - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/sad] 7 >= 7 && 9 < 2)",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:08:38Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+    },
+    {
+      "question": "The following condition will return TRUE or FALSE: !(3 >= 3 || 8 < 1)",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:08:38Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:08:38Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE: (7 >= 7 && 9 < 2)",
@@ -517,6 +596,10 @@
         {
           "answer": "OR",
           "timestamp": "2026-10-11T19:06:05Z"
+        },
+        {
+          "answer": "OR",
+          "timestamp": "2026-10-11T19:08:38Z"
         }
       ]
     },
@@ -549,10 +632,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+      "lastVerifiedAt": "2026-10-11T19:08:38Z"
     },
     {
       "question": "True or False - The operator OR, when used to link two or concept terms will retrieve fewer records because both terms need not be present in each article.",
