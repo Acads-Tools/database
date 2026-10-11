@@ -1,7 +1,7 @@
 {
   "subjectCode": "FILI6301",
   "subjectName": "FILI6301",
-  "updatedAt": "2026-10-11T19:59:32Z",
+  "updatedAt": "2026-10-11T20:02:09Z",
   "totalQuestions": 122,
   "tier": "verified",
   "questions": [
@@ -199,14 +199,22 @@
         "b. False"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T18:48:46Z",
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-10-11T20:02:09Z"
+        }
+      ]
     },
     {
       "question": "Ang bawat wika ay mayroong magkatulad na pragmatik",
@@ -334,17 +342,20 @@
         "a. Akda",
         "b. Wika",
         "c. Mambabasa",
-        "d. Manunulat"
+        "d. Manunulat",
+        "a. Wika",
+        "b. Manunulat",
+        "d. Akda"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
       "question": "Ang LEDCO at SLATE ang nanguna sa pagsasagawa ng proyekto para sa mga pagsasalin ng akdang pampanitikan mula sa iba't ibang rehiyon.",
@@ -375,10 +386,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
       "question": "Ang mga akdang afro-Asian ay sinumulang isalin noong_______________.",
@@ -537,10 +548,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
       "question": "Ang pagsasalin ay inihahalintulad sa pagsasalin ng isang basong tubig sa ibang baso.",
@@ -567,14 +578,22 @@
         "b. False"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T18:48:46Z",
+      "alternateAnswers": [
+        {
+          "answer": "a. True",
+          "timestamp": "2026-10-11T20:02:09Z"
+        }
+      ]
     },
     {
       "question": "Ang pagsasaling teknikal ay may malaking ambag sa panahon ng Globalisyon,",
@@ -639,10 +658,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
       "question": "Ang sanaysay ay isang uri ng prosa",
@@ -1073,7 +1092,9 @@
         "c. Panimula",
         "d. Tunggalian",
         "a. Wika",
-        "b. Suliranin"
+        "b. Suliranin",
+        "b. Panimula",
+        "c. Suliranin"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1082,11 +1103,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T18:48:46Z",
-      "lastVerifiedAt": "2026-10-11T19:56:12Z"
+      "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
       "question": "Ginawang saligan ni Alfonso Santiago ang aklat ni _________________ na may pamagat na The Arts of Translation.",
@@ -1245,17 +1266,21 @@
         "a. Sanaysay",
         "b. Maikling Kwento",
         "c. Alamat",
-        "d. Tula"
+        "d. Tula",
+        "a. Alamat",
+        "b. Tula",
+        "c. Sanaysay",
+        "d. Maikling Kwento"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
       "question": "Isang gawaing mabusisi ngunit nakatutulong sa larangan ng pagsasalin.",
@@ -1264,17 +1289,20 @@
         "a. Segmentasyon",
         "b. Preperasyon",
         "c. Kultibasyon",
-        "d. Alterasyon"
+        "d. Alterasyon",
+        "b. Kultibasyon",
+        "c. Alterasyon",
+        "d. Preperasyon"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z"
+      "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
       "question": "Isang katangian ng tula kung saan itinatago ng manunulat ang kahulugan ng mga salita.",
