@@ -603,6 +603,47 @@ async function handleSharedAiRequest(request, env, corsHeaders) {
   }
 }
 
+async function handleJevProxyRequest(request, env, corsHeaders) {
+  let payload;
+  try {
+    payload = await request.json();
+  } catch (_) {
+    return jsonResponse({ error: "Invalid JSON request" }, 400, corsHeaders);
+  }
+
+  const typesafeKey = (env.TYPESAFE_API_KEY || "").trim();
+  if (typesafeKey) {
+    try {
+      const response = await fetch("https://api.typesafe.ai/v1/systemone", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${typesafeKey}`
+        },
+        body: JSON.stringify(payload),
+        signal: request.signal
+      });
+      const data = await response.json().catch(() => ({}));
+      return jsonResponse(data, response.status, corsHeaders);
+    } catch (err) {
+      return jsonResponse({ error: "Jev provider unavailable", details: err ? err.message : "" }, 503, corsHeaders);
+    }
+  }
+
+  if (env.AI && typeof env.AI.run === "function") {
+    try {
+      const aiResult = await env.AI.run("typesafe/jev", payload);
+      return jsonResponse(aiResult, 200, corsHeaders);
+    } catch (err) {
+      return jsonResponse({ error: "Workers AI Jev failure", details: err ? err.message : "" }, 503, corsHeaders);
+    }
+  }
+
+  return jsonResponse({
+    error: "Server-side Jev key not configured. Set TYPESAFE_API_KEY in worker secrets or provide it in client settings."
+  }, 501, corsHeaders);
+}
+
 function parseVersion(value) {
   const match = String(value || "").trim().replace(/^v/i, "").match(/^(\d+)\.(\d+)\.(\d+)$/);
   return match ? match.slice(1).map(Number) : null;
@@ -1609,6 +1650,10 @@ export default {
         return contributorAiRequest(request, env, corsHeaders);
       }
       return handleSharedAiRequest(request, env, corsHeaders);
+    }
+
+    if (request.method === "POST" && (path === "/ai/jev" || path === "/jev")) {
+      return handleJevProxyRequest(request, env, corsHeaders);
     }
 
     if (request.method === "POST" && (path === "/admin/flags" || path === "/admin/killswitch")) {
