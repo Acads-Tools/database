@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-11T19:06:40Z",
+  "updatedAt": "2026-10-11T19:08:25Z",
   "totalQuestions": 56,
   "questions": [
     {
@@ -81,10 +81,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "An approach in parsing that starts with the start symbol and apply the productions until it arrives at the desired string.",
@@ -116,10 +116,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "Another approach in parsing that starts with the string and reduce it to the start symbol by applying the productions backwards",
@@ -147,10 +147,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "Any expression that breaks down to either true or false is called a conditional, or _____",
@@ -225,10 +225,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "Finite Automation (FA) is an abstract machine that can be used to certain forms of computation.",
@@ -423,17 +423,18 @@
         "d. Predictive Parser",
         "e. None of the above",
         "a. Predictive Parser",
-        "b. Analytical Parser"
+        "b. Analytical Parser",
+        "b. None of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "It is the next symbol coming up in the input.",
@@ -450,17 +451,19 @@
         "c. None of the above",
         "d. Successor",
         "c. Predecessor",
-        "d. Lookahead"
+        "d. Lookahead",
+        "a. Successor",
+        "b. None of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "It’s a way to implement a non-backtracking top-down parser.",
@@ -491,10 +494,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "Multiple statements grouped together are called a _____",
@@ -531,10 +534,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "Programming can be defined as: converting ideas into _____ that a computer can understand",
@@ -682,10 +685,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:40Z"
+      "lastVerifiedAt": "2026-10-11T19:08:25Z"
     },
     {
       "question": "The scanner returns TOKEN NOT and will consume the put-back character on the next call to scan token.",
@@ -727,7 +730,10 @@
         "a. None of the above",
         "b. Leaves",
         "c. Nodes",
-        "a. Leaves"
+        "a. Leaves",
+        "b. Segments",
+        "c. Terminal",
+        "d. None of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -742,7 +748,7 @@
       "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:06:40Z",
+      "lastEvidenceAt": "2026-10-11T19:08:25Z",
       "lastVerifiedAt": "2026-10-11T18:35:02Z"
     },
     {
