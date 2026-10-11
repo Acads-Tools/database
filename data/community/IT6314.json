@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:08:38Z",
-  "totalQuestions": 52,
+  "updatedAt": "2026-10-11T19:09:33Z",
+  "totalQuestions": 53,
   "questions": [
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -319,10 +319,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+      "lastVerifiedAt": "2026-10-11T19:09:33Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. [____: Logical operators] are used to combine conditional statements",
@@ -385,7 +385,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:04:05Z"
+      "lastEvidenceAt": "2026-10-11T19:09:33Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. The basic assignment operator in PHP is [____: =]",
@@ -396,10 +396,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+      "lastVerifiedAt": "2026-10-11T19:09:33Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. The concatenation operator in PHP?",
@@ -615,10 +615,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+      "lastVerifiedAt": "2026-10-11T19:09:33Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE ( (2 >= 2 && 8 3) )",
@@ -649,10 +649,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+      "lastVerifiedAt": "2026-10-11T19:09:33Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE: !(3 >= 3 || 8 < 1)",
@@ -721,17 +721,23 @@
       "choices": [
         "a. AND",
         "b. NOT",
-        "c. OR"
+        "c. OR",
+        "a. OR",
+        "b. AND",
+        "c. NOT",
+        "a. NOT",
+        "b. OR",
+        "c. AND"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:04:05Z",
+      "lastVerifiedAt": "2026-10-11T19:09:33Z",
       "alternateAnswers": [
         {
           "answer": "NOT",
@@ -744,6 +750,12 @@
         {
           "answer": "OR",
           "timestamp": "2026-10-11T19:08:38Z"
+        }
+      ],
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "NOT",
+          "timestamp": "2026-10-11T19:09:33Z"
         }
       ]
     },
@@ -759,10 +771,27 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+      "lastVerifiedAt": "2026-10-11T19:09:33Z"
+    },
+    {
+      "question": "True or False - The operator AND, when used to link two concept terms (e.g. children and violence) will retrieve only those records that contain both concept terms.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:09:33Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:09:33Z"
     },
     {
       "question": "True or False - The operator NOT is another way to broaden a search or retrieve more records.",
