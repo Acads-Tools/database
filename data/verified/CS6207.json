@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-11T18:35:02Z",
-  "totalQuestions": 46,
+  "updatedAt": "2026-10-11T18:58:26Z",
+  "totalQuestions": 56,
   "tier": "verified",
   "questions": [
     {
@@ -50,6 +50,25 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
+    },
+    {
+      "question": "A hand-made scanner its basic approach is to ready one or more characters at a time.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
     },
     {
       "question": "A top-down parser is that a parse tree created by bottom to top.",
@@ -155,6 +174,44 @@
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
     },
     {
+      "question": "Are a language that is for expressing patterns that first described in the 1950s.",
+      "answer": "Regular Expressions",
+      "choices": [
+        "A. NOTA",
+        "B. Hand-made Scanner",
+        "C. Scanner",
+        "D. Regular Expressions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+    },
+    {
+      "question": "Backtracking come up in every stage of the compiler with an unexpected item that doesn't match the current objective, so it must be put back.",
+      "answer": "a. True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+    },
+    {
       "question": "Bottom-down and Top-up are the two major parsing approaches in parsing.",
       "answer": "False",
       "choices": [
@@ -170,6 +227,23 @@
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:35:02Z"
+    },
+    {
+      "question": "Finite Automation (FA) is an abstract machine that can be used to certain forms of computation.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
     },
     {
       "question": "How would you write the \"Hello, world!\" program in Python?",
@@ -193,6 +267,23 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
+    },
+    {
+      "question": "If the scanner encounters (!) that couldn't represent logical-not operation by itself or couldn't be the first character.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
     },
     {
       "question": "If you execute the following expression, what is the output? >>> 3 + 5 * 2",
@@ -484,6 +575,37 @@
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
     },
     {
+      "question": "Scanners is sometimes called lexical analyzer or lexers.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+    },
+    {
+      "question": "Some of the single character tokens are easy; if the scanner reads a * character then it immediately returns [Dropdown 1: TOKEN MULTIPLY] .",
+      "answer": "TOKEN MULTIPLY",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+    },
+    {
       "question": "Source code is written in rich text",
       "answer": "False",
       "choices": [
@@ -560,6 +682,23 @@
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:35:02Z"
+    },
+    {
+      "question": "The scanner returns TOKEN NOT and will consume the put-back character on the next call to scan token.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
     },
     {
       "question": "These are seen in order appearance in the token stream.",
@@ -667,6 +806,25 @@
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
     },
     {
+      "question": "What are the category on most languages have tokens?",
+      "answer": "All of the above",
+      "choices": [
+        "A. Numbers",
+        "B. Identifiers",
+        "C. All of the above",
+        "D. Keywords"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+    },
+    {
       "question": "What does this expression evaluate to? 2 * 3 + 2 * 5",
       "answer": "16",
       "choices": [
@@ -711,6 +869,25 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-11T18:15:48Z"
+    },
+    {
+      "question": "What is the definition of Scanning?",
+      "answer": "The process of identifying tokens from the raw text source code of a program.",
+      "choices": [
+        "A. The process of identifying tokens from the raw text source code of a program.",
+        "B. Are words in the language structure itself, like while or class or true.",
+        "C. Are literal character sequences that must be clearly distinguished from keywords or identifiers.",
+        "D. NOTA"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:58:26Z"
     },
     {
       "question": "What is the output of the following program?defisEven(num): return num % 2 = 0 if isEven(3): print(\"3 is even\") else: print(\"3 is not even\")",

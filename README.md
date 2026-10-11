@@ -106,7 +106,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `CS6204` | Computer Architecture and Organization | **110** | Active |
 | `CS6205` | Automata Theory and Formal Languages | **117** | Active |
 | `CS6206` | Principles of Operating Systems | **165** | Active |
-| `CS6207` | CS6207 | **46** | Active |
+| `CS6207` | CS6207 | **56** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
 | `FILI6301` | FILI6301 | **70** | Active |
 | `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
