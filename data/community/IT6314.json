@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T18:57:45Z",
-  "totalQuestions": 32,
+  "updatedAt": "2026-10-11T19:04:05Z",
+  "totalQuestions": 41,
   "questions": [
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -311,6 +311,36 @@
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
     },
     {
+      "question": "Identification. Write your answer on the space provided. &&, ||, ! are examples of what operator",
+      "answer": "Logical operators",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+    },
+    {
+      "question": "Identification. Write your answer on the space provided. If I wanted to concatenate a word to a string variable I would use which of these?",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "dot"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:04:05Z"
+    },
+    {
       "question": "Identification. Write your answer on the space provided. PHP version that enabled the filter extension by default Native JSON default",
       "answer": "PHP 5.2",
       "choices": [],
@@ -323,6 +353,38 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "Identification. Write your answer on the space provided. Symbol use as identical",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "=="
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:04:05Z"
+    },
+    {
+      "question": "Identification. Write your answer on the space provided. This are used with numeric values to perform common arithmetical operations, such as addition, subtraction, multiplication etc",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Arithmetic operators"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:04:05Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. Two ways on how to print / display text on the screen (Note : Seperate answers with ;)",
@@ -460,6 +522,102 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:53:46Z"
+    },
+    {
+      "question": "The following condition will return TRUE or FALSE: (7 >= 7 && 9 < 2)",
+      "answer": "a. True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+    },
+    {
+      "question": "The following example $x -= $y; is the same as?",
+      "answer": "$x = $x – $y;",
+      "choices": [
+        "a. $x = $y – $x;",
+        "b. y = $y – $x;",
+        "c. $y = $x – $y;",
+        "d. $x = $x – $y;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+    },
+    {
+      "question": "The logical operator && stands for?",
+      "answer": "AND",
+      "choices": [
+        "a. AND",
+        "b. NOT",
+        "c. OR"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:04:05Z",
+      "alternateAnswers": [
+        {
+          "answer": "NOT",
+          "timestamp": "2026-10-11T19:04:05Z"
+        }
+      ]
+    },
+    {
+      "question": "True or False - The following search statement will exclude any records that contain the term \"poodle.\" (dogs OR canines) NOT cats.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+    },
+    {
+      "question": "True or False - The operator OR, when used to link two or concept terms will retrieve fewer records because both terms need not be present in each article.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:04:05Z"
     },
     {
       "question": "Version 4 of php supports global variables $Get etc. (v4.1)",
