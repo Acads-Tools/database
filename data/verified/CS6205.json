@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-11T18:49:41Z",
-  "totalQuestions": 98,
+  "updatedAt": "2026-10-11T18:53:27Z",
+  "totalQuestions": 101,
   "tier": "verified",
   "questions": [
     {
@@ -173,14 +173,16 @@
       "choices": [
         "a. PDA",
         "b. NFA",
-        "c. NDFA"
+        "c. NDFA",
+        "a. NFA",
+        "b. PDA"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -207,10 +209,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "A formal language is a set of strings, each string composed of symbols from a finite set called [Dropdown 1: alphabet] .",
@@ -245,14 +247,16 @@
       "choices": [
         "a. intersection",
         "b. union",
-        "c. complement"
+        "c. complement",
+        "b. complement",
+        "c. union"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -278,10 +282,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "A parsing that starts from the top with the start-symbol and derives a string using a parsetree.",
@@ -290,9 +294,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -306,9 +310,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -368,9 +372,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -383,10 +387,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "A set of rules, P: N → (N U T)*, it does have any right context or left context.",
@@ -444,10 +448,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "A transition function: Q × (Σ∪{ε}) × S × Q × S*",
@@ -458,10 +462,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "An automaton that produces outputs based on current input and/or previous state is called ____________.",
@@ -904,6 +908,40 @@
       "lastVerifiedAt": "2026-10-11T18:49:41Z"
     },
     {
+      "question": "It starts from the bottom with the string and comes to the start symbol using a parse tree.",
+      "answer": "Bottom-Up Parser",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "top bottom parser"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+    },
+    {
+      "question": "It starts from the top with the start-symbol and derives a string using a parse tree.",
+      "answer": "Top-Down Parser",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Bottom-Up Parser"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+    },
+    {
       "question": "Language may be derived from other strings using the productions in a grammar.",
       "answer": "False",
       "choices": [
@@ -1212,10 +1250,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "The initial state (q0 ∈ Q)",
@@ -1226,10 +1264,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "The instantaneous description (ID) of a PDA is represented by a triplet (q, w, s) where :",
@@ -1338,14 +1376,17 @@
       "answer": "s",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "q"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z",
+      "lastEvidenceAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "The stack head scans the top symbol of the stack. A stack does two operations:",
@@ -1384,6 +1425,25 @@
       "lastVerifiedAt": "2026-10-11T18:38:40Z"
     },
     {
+      "question": "The state",
+      "answer": "q",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "u",
+        "i",
+        "s"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:47:19Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:53:27Z",
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+    },
+    {
       "question": "The tape head is positioned at one of the tape cells for scanning the input symbol from the input tape and initially the tape head points at the left most cell of the input tape.",
       "answer": "True",
       "choices": [
@@ -1409,10 +1469,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "The unconsumed input",
@@ -1423,10 +1483,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "There are 5 tuples in finite state machine.",
@@ -1505,14 +1565,17 @@
       "answer": "w",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "c"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z"
+      "lastVerifiedAt": "2026-10-11T18:47:19Z",
+      "lastEvidenceAt": "2026-10-11T18:53:27Z"
     },
     {
       "question": "What is the final result after converting the following NFA-ε to NFA without Null move. [Image: [moodle-asset:39741/ndfa%20question.PNG]]",
