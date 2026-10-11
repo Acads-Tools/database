@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:52:29Z",
-  "totalQuestions": 57,
+  "updatedAt": "2026-10-11T20:08:35Z",
+  "totalQuestions": 67,
   "tier": "verified",
   "questions": [
     {
@@ -358,6 +358,25 @@
       "lastVerifiedAt": "2026-10-11T19:06:05Z"
     },
     {
+      "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
+      "answer": "Values",
+      "choices": [
+        "a. Relation",
+        "b. Values",
+        "c. Table",
+        "d. Field"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
       "question": "Multiple choice. Select the best answer. What will be the output of the following PHP code ?",
       "answer": "*********",
       "choices": [
@@ -423,6 +442,43 @@
           "timestamp": "2026-10-11T19:52:29Z"
         }
       ]
+    },
+    {
+      "question": "MySQL is",
+      "answer": "A Relational Database Management System",
+      "choices": [
+        "a. A Relational Database Management System",
+        "b. A Programming language",
+        "c. A technique for writing reliable programs"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
+      "question": "MySQL runs on which operating systems?",
+      "answer": "Unix, Linux, Windows and others",
+      "choices": [
+        "a. Unix, Linux, Windows and others",
+        "b. Linux and Mac OS-X only",
+        "c. Unix and Linux only",
+        "d. Any operating system at all"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
@@ -548,6 +604,25 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
+    },
+    {
+      "question": "Select name, course_id from instructor, teaches where instructor_ID= teaches_ID; This Query can be replaced by which one of the following ?",
+      "answer": "Select name, course_id from instructor natural join teaches;",
+      "choices": [
+        "a. Select name, course_id from instructor natural join teaches;",
+        "b. Select name ,course_id from instructor;",
+        "c. Select course_id from instructor join teaches;",
+        "d. Select name,course_id from teaches,instructor where instructor_id=course_id;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
     },
     {
       "question": "The default file extension for PHP files is \".php\".",
@@ -721,6 +796,82 @@
           "timestamp": "2026-10-11T19:09:33Z"
         }
       ]
+    },
+    {
+      "question": "The result of a SELECT statement can contain duplicate rows.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
+      "question": "This is Employee table. [Image: [moodle-asset:151160/q8.PNG]] Select * from employee where employee_id>1009; Which of the following employee_id will be displayed?",
+      "answer": "1018",
+      "choices": [
+        "a. 1009, 1001, 1018",
+        "b. 1018",
+        "c. 1009, 1018",
+        "d. 1001"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
+      "question": "To remove duplicate rows from the result set of a SELECT use the following keyword:",
+      "answer": "DISTINCT",
+      "choices": [
+        "a. NO DUPLICATE",
+        "b. UNIQUE",
+        "c. None of the above",
+        "d. DISTINCT"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
+      "question": "To use MySQL on your computer, you'll need?",
+      "answer": "Some sort of client program to access the databases",
+      "choices": [
+        "a. A Browser",
+        "b. FTP and Telnet",
+        "c. Perl, PHP or Java",
+        "d. Some sort of client program to access the databases"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
     },
     {
       "question": "True or False - The following search statement will exclude any records that contain the term \"poodle.\" (dogs OR canines) NOT cats.",
@@ -1005,6 +1156,44 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
+    },
+    {
+      "question": "Which of the following statements contains an error?",
+      "answer": "Select empid where empid = 1009 and lastname = ‘JOHANN;",
+      "choices": [
+        "a. Select empid from emp;",
+        "b. Select * from emp where empid = 10003;",
+        "c. Select empid where empid = 1009 and lastname = ‘JOHANN;",
+        "d. Select empid from emp where empid = 10006;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+    },
+    {
+      "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:151153/q1.PNG]]",
+      "answer": "Select name from employee",
+      "choices": [
+        "a. Select name",
+        "b. Select name from employee",
+        "c. Select employee from name",
+        "d. elect employee"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T20:08:35Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
