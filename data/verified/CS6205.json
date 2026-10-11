@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-11T18:53:27Z",
+  "updatedAt": "2026-10-11T21:21:48Z",
   "totalQuestions": 101,
   "tier": "verified",
   "questions": [
@@ -482,9 +482,9 @@
         "b. transducer"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -510,9 +510,9 @@
         "b. Assembly Language"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -708,9 +708,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -851,9 +851,9 @@
         "a. Σ *"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1037,25 +1037,32 @@
         "b. none of the mentioned NO final state requires",
         "a. 3",
         "c. 1",
-        "d. 2"
+        "d. 2",
+        "a. none of the mentioned",
+        "b. 3",
+        "d. 1"
       ],
       "verified": true,
       "confirmations": 12,
       "firstSeenAt": "2026-09-16T01:21:50Z",
       "lastVerifiedAt": "2026-10-11T18:32:16Z",
       "source": "review_screen",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "1"
+      ],
       "isAiSuggestion": false,
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-11T21:21:48Z"
     },
     {
       "question": "Number of states require to accept string ends with 10.",
       "answer": "3",
       "choices": [],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1066,9 +1073,9 @@
       "answer": "ENIAC",
       "choices": [],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1230,12 +1237,14 @@
         "a. load",
         "b. process",
         "b. edit",
-        "d. process"
+        "d. process",
+        "a. compile",
+        "c. load"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1496,9 +1505,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1677,9 +1686,9 @@
         "d. [Image: [moodle-asset:105591/washing%20machine.PNG]]"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1690,9 +1699,9 @@
       "answer": "Alan Turing",
       "choices": [],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-16T01:21:50Z",
-      "lastVerifiedAt": "2026-10-11T18:32:16Z",
+      "lastVerifiedAt": "2026-10-11T21:21:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1776,6 +1785,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-04T00:37:41Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-11T21:21:48Z"
         }
       ],
       "questionType": "multichoice",
