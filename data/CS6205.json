@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-11T18:32:16Z",
-  "totalQuestions": 57,
+  "updatedAt": "2026-10-11T18:34:27Z",
+  "totalQuestions": 58,
   "questions": [
     {
       "question": "[____: Sets] are collections of objects in which order of elements and duplication of elements do not matter.",
@@ -11,9 +11,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -24,9 +24,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-25T14:27:17Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -37,9 +37,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -63,14 +63,18 @@
         "a. Analytic Engine",
         "b. Turing Machine",
         "c. Neumann Machine",
-        "d. Jacquard Loom"
+        "d. Jacquard Loom",
+        "a. Turing Machine",
+        "b. Analytic Engine",
+        "c. Jacquard Loom",
+        "d. Neumann Machine"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -126,9 +130,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -328,9 +332,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -457,6 +461,22 @@
       "questionType": "shortanswer"
     },
     {
+      "question": "If A = {3, 4, 6, 8} and B = { 1, 2, 3, 5, 6} then A ∩ B = [Dropdown 1: {4, 6}]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "{4, 6}"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:34:27Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:34:27Z"
+    },
+    {
       "question": "If A = {3, 4, 6, 8} and B = { 1, 2, 3, 5, 6} then A ∩ B = {3, 4, 6}{3, 5, 6}{3, 6}{4, 6}",
       "answer": "{3, 6}",
       "choices": [],
@@ -489,14 +509,18 @@
         "a. non-regular",
         "b. recursive",
         "c. regular",
-        "d. non-recursive"
+        "d. non-recursive",
+        "a. recursive",
+        "b. non-recursive",
+        "c. non-regular",
+        "d. regular"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -530,9 +554,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -562,9 +586,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -661,9 +685,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -677,9 +701,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -708,9 +732,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -720,14 +744,16 @@
       "choices": [
         "a. Abacus",
         "b. Pascaline",
-        "c. Tabulating machine"
+        "c. Tabulating machine",
+        "b. Tabulating machine",
+        "c. Pascaline"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -804,9 +830,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T15:14:23Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -944,9 +970,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T10:00:58Z",
-      "lastVerifiedAt": "2026-10-03T04:45:01Z",
+      "lastVerifiedAt": "2026-10-11T18:34:27Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
