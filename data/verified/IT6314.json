@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-09T06:21:45Z",
-  "totalQuestions": 5,
+  "updatedAt": "2026-10-11T18:52:15Z",
+  "totalQuestions": 13,
   "tier": "verified",
   "questions": [
     {
@@ -21,6 +21,79 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-09T06:21:45Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP version currently in use on most websites and included several new features such as support for object-oriented programming",
+      "answer": "PHP 5",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Version of PHP what uses namespace support late static binding",
+      "answer": "PHP 5.3",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Year that PHP 3 was released.",
+      "answer": "1998",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "Identification. Write your answer on the space provided. PHP version that enabled the filter extension by default Native JSON default",
+      "answer": "PHP 5.2",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
     },
     {
       "question": "PHP in now known as \"PHP: Hypertexts Preprocessor\"",
@@ -59,7 +132,7 @@
       "lastVerifiedAt": "2026-10-09T06:21:45Z"
     },
     {
-      "question": "Version 4 of php supports global variables $Get etc. (v4.1)",
+      "question": "PHP only runs in Apache web server.",
       "answer": "False",
       "choices": [
         "a. True",
@@ -71,9 +144,60 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "PHP runs on various platforms operating system such as apache and IIS",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "The default file extension for PHP files is \".php\".",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:52:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "Version 4 of php supports global variables $Get etc. (v4.1)",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-09T06:21:45Z"
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",
@@ -87,10 +211,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-09T06:21:45Z"
+      "lastVerifiedAt": "2026-10-11T18:52:15Z"
     }
   ]
 }
