@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:36:43Z",
-  "totalQuestions": 55,
+  "updatedAt": "2026-10-11T19:52:29Z",
+  "totalQuestions": 57,
   "tier": "verified",
   "questions": [
     {
@@ -384,7 +384,8 @@
         "d. **********",
         "b. no output",
         "c. The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
-        "d. The number is: 0"
+        "d. The number is: 0",
+        "d. 0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -416,6 +417,10 @@
         {
           "rejectedAnswer": "The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
           "timestamp": "2026-10-11T19:36:43Z"
+        },
+        {
+          "rejectedAnswer": "error",
+          "timestamp": "2026-10-11T19:52:29Z"
         }
       ]
     },
@@ -530,17 +535,19 @@
         "a. 2",
         "b. 1",
         "c. -1",
-        "d. 0"
+        "d. 0",
+        "c. 0",
+        "d. -1"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
       "question": "The default file extension for PHP files is \".php\".",
@@ -818,6 +825,25 @@
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
     },
     {
+      "question": "What functions count elements in an array?",
+      "answer": "count",
+      "choices": [
+        "a. array_count",
+        "b. count",
+        "c. count_array",
+        "d. counts"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:52:29Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:52:29Z"
+    },
+    {
       "question": "What is the function of the ucfirst and lcfirst functions?",
       "answer": "To make the string's first character uppercase or lowercase, respectively",
       "choices": [
@@ -879,17 +905,21 @@
         "a. no output",
         "b. b",
         "c. error",
-        "d. abcd"
+        "d. abcd",
+        "a. abcd",
+        "b. no output",
+        "c. b",
+        "d. error"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151141/w6-q9.PNG]]",
@@ -909,6 +939,31 @@
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:33:34Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151144/q2.PNG]]",
+      "answer": "1",
+      "choices": [
+        "a. Sum",
+        "b. 49",
+        "c. Error",
+        "d. 1",
+        "a. 49",
+        "b. Error",
+        "c. Sum"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "49"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:16:32Z",
+      "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151148/q6.PNG]]",
@@ -936,17 +991,20 @@
         "a. Array ( [0] => blue [1] => yellow )",
         "b. Array ( [0] => red [1] => green)",
         "c. Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
-        "d. Array ( [0] => blue [1] => yellow [2] => red [3] => green )"
+        "d. Array ( [0] => blue [1] => yellow [2] => red [3] => green )",
+        "a. Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
+        "c. Array ( [0] => blue [1] => yellow [2] => red [3] => green )",
+        "d. Array ( [0] => blue [1] => yellow )"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
