@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:16:32Z",
-  "totalQuestions": 63,
+  "updatedAt": "2026-10-11T19:33:34Z",
+  "totalQuestions": 68,
   "questions": [
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -489,17 +489,45 @@
         "a. infinite loop",
         "b. *********",
         "c. **********",
-        "d. ***********"
+        "d. ***********",
+        "a. error",
+        "b. red",
+        "c. no output",
+        "d. red green blue yellow",
+        "a. In for loopAfter for loop",
+        "b. After for loop",
+        "c. In for loop",
+        "d. infinite loop",
+        "a. no output",
+        "b. infinite loop",
+        "c. -3-4-5",
+        "d. -3-4"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "After for loop"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-11T19:16:32Z",
+      "alternateAnswers": [
+        {
+          "answer": "red green blue yellow",
+          "timestamp": "2026-10-11T19:33:34Z"
+        },
+        {
+          "answer": "no output",
+          "timestamp": "2026-10-11T19:33:34Z"
+        },
+        {
+          "answer": "no output",
+          "timestamp": "2026-10-11T19:33:34Z"
+        }
+      ]
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
@@ -911,10 +939,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-11T19:33:34Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151135/w6-q3.PNG]]",
@@ -936,13 +964,98 @@
       "lastVerifiedAt": "2026-10-11T19:16:32Z"
     },
     {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151137/w6-q5.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. -6-7",
+        "b. -6-7-8",
+        "c. no output",
+        "d. infinite loop"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "-6-7-8"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:33:34Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:33:34Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151139/w6-q7.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. JohannJeiven",
+        "b. Johann",
+        "c. No Output",
+        "d. Jeiven"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "No Output"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:33:34Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:33:34Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151141/w6-q9.PNG]]",
+      "answer": "Error",
+      "choices": [
+        "a. JohannJeiven",
+        "b. Jeiven",
+        "c. Error",
+        "d. Johann"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:33:34Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:33:34Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151142/w6-q10.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. The number is: 0",
+        "b. no Output",
+        "c. The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
+        "d. Error"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:33:34Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:33:34Z"
+    },
+    {
       "question": "What will be the output of the following PHP code ? [Image: w6-q1 - [moodle-asset:151133/w6-q1.PNG]]",
       "answer": "",
       "choices": [
         "a. infinite loop",
         "b. 0",
         "c. No output",
-        "d. Error"
+        "d. Error",
+        "a. 0",
+        "b. No output",
+        "c. infinite loop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -954,7 +1067,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:16:32Z"
+      "lastEvidenceAt": "2026-10-11T19:33:34Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: w6-q2 - [moodle-asset:151134/w6-q2.PNG]]",
@@ -1056,6 +1169,27 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:16:32Z"
+    },
+    {
+      "question": "What will happen in this function call? [Image: [moodle-asset:151149/q7.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. Type Hinting",
+        "b. Call By Reference",
+        "c. Call By Value",
+        "d. Default Argument Value"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Type Hinting"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:33:34Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:33:34Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",

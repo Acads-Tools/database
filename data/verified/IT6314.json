@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:16:32Z",
-  "totalQuestions": 50,
+  "updatedAt": "2026-10-11T19:33:34Z",
+  "totalQuestions": 51,
   "tier": "verified",
   "questions": [
     {
@@ -345,17 +345,45 @@
         "a. infinite loop",
         "b. *********",
         "c. **********",
-        "d. ***********"
+        "d. ***********",
+        "a. error",
+        "b. red",
+        "c. no output",
+        "d. red green blue yellow",
+        "a. In for loopAfter for loop",
+        "b. After for loop",
+        "c. In for loop",
+        "d. infinite loop",
+        "a. no output",
+        "b. infinite loop",
+        "c. -3-4-5",
+        "d. -3-4"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "After for loop"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-11T19:16:32Z",
+      "alternateAnswers": [
+        {
+          "answer": "red green blue yellow",
+          "timestamp": "2026-10-11T19:33:34Z"
+        },
+        {
+          "answer": "no output",
+          "timestamp": "2026-10-11T19:33:34Z"
+        },
+        {
+          "answer": "no output",
+          "timestamp": "2026-10-11T19:33:34Z"
+        }
+      ]
     },
     {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
@@ -767,10 +795,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-11T19:33:34Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151135/w6-q3.PNG]]",
@@ -790,6 +818,25 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:16:32Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151141/w6-q9.PNG]]",
+      "answer": "Error",
+      "choices": [
+        "a. JohannJeiven",
+        "b. Jeiven",
+        "c. Error",
+        "d. Johann"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:33:34Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:33:34Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151148/q6.PNG]]",
