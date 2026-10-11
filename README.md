@@ -104,7 +104,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | Subject Code | Course Title | Verified Questions | Status |
 | :--- | :--- | :---: | :--- |
 | `CS6204` | Computer Architecture and Organization | **110** | Active |
-| `CS6205` | Automata Theory and Formal Languages | **85** | Active |
+| `CS6205` | Automata Theory and Formal Languages | **103** | Active |
 | `CS6206` | Principles of Operating Systems | **165** | Active |
 | `CS6207` | CS6207 | **46** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
