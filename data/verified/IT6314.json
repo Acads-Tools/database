@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T19:09:33Z",
-  "totalQuestions": 44,
+  "updatedAt": "2026-10-11T19:16:32Z",
+  "totalQuestions": 50,
   "tier": "verified",
   "questions": [
     {
@@ -339,6 +339,25 @@
       "lastVerifiedAt": "2026-10-11T19:06:05Z"
     },
     {
+      "question": "Multiple choice. Select the best answer. What will be the output of the following PHP code ?",
+      "answer": "*********",
+      "choices": [
+        "a. infinite loop",
+        "b. *********",
+        "c. **********",
+        "d. ***********"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+    },
+    {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
       "answer": "False",
       "choices": [
@@ -441,6 +460,25 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "PHP's numerically indexed array begin with position __.",
+      "answer": "0",
+      "choices": [
+        "a. 2",
+        "b. 1",
+        "c. -1",
+        "d. 0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:16:32Z"
     },
     {
       "question": "The default file extension for PHP files is \".php\".",
@@ -716,6 +754,80 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:52:15Z"
+    },
+    {
+      "question": "What is the function of the ucfirst and lcfirst functions?",
+      "answer": "To make the string's first character uppercase or lowercase, respectively",
+      "choices": [
+        "a. To make the string's first word uppercase or lowercase, respectively.",
+        "b. To make the string's first character uppercase or lowercase, respectively"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151135/w6-q3.PNG]]",
+      "answer": "abcd",
+      "choices": [
+        "a. no output",
+        "b. b",
+        "c. error",
+        "d. abcd"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151148/q6.PNG]]",
+      "answer": "A",
+      "choices": [
+        "a. A",
+        "b. B",
+        "c. D",
+        "d. C"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151151/q9.PNG]]",
+      "answer": "Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
+      "choices": [
+        "a. Array ( [0] => blue [1] => yellow )",
+        "b. Array ( [0] => red [1] => green)",
+        "c. Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
+        "d. Array ( [0] => blue [1] => yellow [2] => red [3] => green )"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-11T19:16:32Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",
