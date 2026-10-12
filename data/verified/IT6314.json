@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:10:25Z",
-  "totalQuestions": 149,
+  "updatedAt": "2026-10-12T11:10:44Z",
+  "totalQuestions": 154,
   "tier": "verified",
   "questions": [
     {
@@ -246,17 +246,20 @@
         "c. 'V';",
         "d. 'VA';",
         "e. SELECT NAME IN CUSTOMER WHERE STATE",
-        "f. SELECT NAME IN CUSTOMER WHERE STATE"
+        "f. SELECT NAME IN CUSTOMER WHERE STATE",
+        "a. SELECT NAME FROM CUSTOMER WHERE STATE IN ('VA');",
+        "b. 'VA';",
+        "d. SELECT NAME IN CUSTOMER WHERE STATE IN ('VA');"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
     },
     {
       "question": "Function that select database.",
@@ -740,6 +743,25 @@
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:08:34Z"
+    },
+    {
+      "question": "In an SQL SELECT statement querying a single table, the asterisk (*) means that:",
+      "answer": "all columns of the table are to be returned.",
+      "choices": [
+        "a. all records with even partial criteria met are to be returned.",
+        "b. all records meeting the full criteria are to be returned.",
+        "c. all columns of the table are to be returned.",
+        "d. No correct answer"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:10:44Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
     },
     {
       "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
@@ -1962,6 +1984,25 @@
       "lastVerifiedAt": "2026-10-11T20:41:53Z"
     },
     {
+      "question": "The wildcard in a WHERE clause is useful when?",
+      "answer": "An exact match is not possible in a SELECT statement.",
+      "choices": [
+        "a. An exact match is not possible in a CREATE statement.",
+        "b. An exact match is not possible in a SELECT statement.",
+        "c. An exact match is necessary in a SELECT statement.",
+        "d. An exact match is necessary in a CREATE statement."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:10:44Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+    },
+    {
       "question": "There are three different kind of arrays:",
       "answer": "Numeric array, Associative array, Multidimensional array",
       "choices": [
@@ -2098,17 +2139,21 @@
         "c. UNIQUE",
         "d. ONLY",
         "a. ONLY",
-        "d. DISTINCT"
+        "d. DISTINCT",
+        "a. SINGLE",
+        "b. DISTINCT",
+        "c. ONLY",
+        "d. UNIQUE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
     },
     {
       "question": "To use MySQL on your computer, you'll need?",
@@ -2243,17 +2288,20 @@
         "a. Structured Question Language",
         "b. Strong Question Language",
         "c. None of the above",
-        "d. Structured Query Language"
+        "d. Structured Query Language",
+        "a. Strong Question Language",
+        "b. Structured Query Language",
+        "d. Structured Question Language"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
     },
     {
       "question": "What functions count elements in an array?",
@@ -2706,6 +2754,25 @@
       "lastVerifiedAt": "2026-10-12T11:08:34Z"
     },
     {
+      "question": "Which of the following is the correct order of keywords for SQL SELECT statements?",
+      "answer": "SELECT, FROM, WHERE",
+      "choices": [
+        "a. SELECT, FROM, WHERE",
+        "b. SELECT,WHERE,FROM",
+        "c. FROM, WHERE, SELECT",
+        "d. WHERE, FROM,SELECT"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:10:44Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+    },
+    {
       "question": "Which of the following is the original purpose of SQL?",
       "answer": "All of the above.",
       "choices": [
@@ -2820,6 +2887,25 @@
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:09:28Z"
+    },
+    {
+      "question": "Which one of the following denotes the difference between SELECT and USE command?",
+      "answer": "SELECT checks which database is currently selected, USE selects a database",
+      "choices": [
+        "a. None of the above",
+        "b. SELECT checks which database is currently selected, USE selects a database",
+        "c. SELECT is for querying a database, USE is for selecting the database.SELECT is for querying a database, USE is for selecting the database.",
+        "d. Both of them selects a database"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:10:44Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
@@ -3117,6 +3203,25 @@
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:10:01Z"
+    },
+    {
+      "question": "You can add a row using SQL in a database with which of the following?",
+      "answer": "INSERT",
+      "choices": [
+        "a. CREATE",
+        "b. INSERT",
+        "c. ADD",
+        "d. MAKE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:10:44Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:10:44Z"
     }
   ]
 }
