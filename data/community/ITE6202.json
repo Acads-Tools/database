@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-12T11:17:38Z",
+  "updatedAt": "2026-10-12T11:21:10Z",
   "totalQuestions": 62,
   "questions": [
     {
@@ -162,7 +162,8 @@
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Encryption",
-        "E-mail spam"
+        "E-mail spam",
+        "Trojan Horse"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -170,7 +171,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "computer programs",
@@ -268,7 +269,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "Pseudo identity"
+        "Pseudo identity",
+        "Exploits"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -277,7 +279,7 @@
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T09:49:36Z",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "Encryption and Authentication",
@@ -286,7 +288,8 @@
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Cryptography",
-        "Security"
+        "Security",
+        "Authentication"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -294,7 +297,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "Human Nature can result to a bias environment that AIs might learn from.",
@@ -696,10 +699,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:49:36Z",
+      "lastVerifiedAt": "2026-10-12T11:21:10Z",
       "lastEvidenceAt": "2026-10-12T11:17:38Z"
     },
     {
@@ -724,7 +727,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "Security"
+        "Security",
+        "Information security"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -733,7 +737,7 @@
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T09:49:36Z",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "reckless alteration",
@@ -792,7 +796,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "Secret-key Encryption",
@@ -800,7 +804,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "Anonymity"
+        "Anonymity",
+        "Encryption"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -809,7 +814,7 @@
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T09:49:36Z",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "Sensors, Security Lighting and Natural Trees",
@@ -817,7 +822,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "Security"
+        "Security",
+        "Electronic Access Controls"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -826,7 +832,7 @@
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T09:49:36Z",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "shapes and colors",
@@ -1100,7 +1106,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z"
+      "lastEvidenceAt": "2026-10-12T11:21:10Z"
     }
   ]
 }
