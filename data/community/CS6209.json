@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-12T12:32:24Z",
+  "updatedAt": "2026-10-12T12:33:50Z",
   "totalQuestions": 119,
   "questions": [
     {
@@ -44,17 +44,18 @@
         "c. high",
         "c. moderate",
         "d. very low",
-        "b. moderate"
+        "b. moderate",
+        "c. low"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "A field studying computers and algorithmic processes, including their principles, their software and hardware designs, their applications, and their impact on society, whereas IS emphasizes functionality over design.",
@@ -90,17 +91,18 @@
         "d. A project is an endeavor",
         "a. All of the above",
         "b. A project is deliverable",
-        "c. A project is temporary"
+        "c. A project is temporary",
+        "a. A project is an endeavor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "A temporary endeavor undertaken to create a unique product, service, or result.",
@@ -125,10 +127,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Alpha testing is done at",
@@ -191,10 +193,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z",
+      "lastVerifiedAt": "2026-10-12T12:33:50Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -443,17 +445,18 @@
         "a. A project has a unique purpose.",
         "d. A project is developed using progressive elaboration or in an iterative fashion.",
         "a. A project requires resources, often from various areas.",
-        "c. A project has a unique purpose."
+        "c. A project has a unique purpose.",
+        "b. A project requires resources, often from various areas."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Exhaustive testing is",
@@ -563,17 +566,20 @@
         "d. De-processification",
         "b. Process distribution",
         "c. De-processification",
-        "d. Process distribution"
+        "d. Process distribution",
+        "a. De-processification",
+        "b. Process introduction",
+        "d. Process analysis"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "If any of the hardware and/or platform (such as operating system) of the target host changes, software changes are needed to keep adaptability.",
@@ -1040,17 +1046,18 @@
         "b. Budget constraints",
         "d. Cost constraints",
         "b. Time constraints",
-        "c. Cost constraints"
+        "c. Cost constraints",
+        "d. Time constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "It refers to the budgeted amount available for the project.",
@@ -1064,7 +1071,8 @@
         "d. Money constraints",
         "a. Amount constraints",
         "c. Money constraints",
-        "d. Cost constraints"
+        "d. Cost constraints",
+        "b. Amount constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1074,10 +1082,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z",
+      "lastVerifiedAt": "2026-10-12T12:33:50Z",
       "lastEvidenceAt": "2026-10-12T12:32:24Z"
     },
     {
@@ -1102,10 +1110,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Lower and upper limits are present in which chart?",
@@ -1224,17 +1232,20 @@
         "a. A project involves uncertainty",
         "b. A project has a unique purpose",
         "c. A project is developed using progressive elaboration or in an iterative fashion.",
-        "d. A project should have a primary customer or sponsor"
+        "d. A project should have a primary customer or sponsor",
+        "a. A project is developed using progressive elaboration or in an iterative fashion.",
+        "c. A project should have a primary customer or sponsor",
+        "d. A project involves uncertainty"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Over the time, customer may ask for new features or functions in the software.",
@@ -1301,10 +1312,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z",
+      "lastVerifiedAt": "2026-10-12T12:33:50Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -1328,17 +1339,18 @@
         "d. A project involves uncertainty",
         "a. A project is developed using progressive elaboration or in an iterative fashion.",
         "b. A project should have a primary customer or sponsor.",
-        "d. A project requires resources, often from various areas"
+        "d. A project requires resources, often from various areas",
+        "a. A project involves uncertainty"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Quality planning is the process of developing a quality plan for",
@@ -1360,10 +1372,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "RAD Model has",
@@ -1451,10 +1463,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Resources, such as people and equipment, need to do work.",
@@ -1469,17 +1481,21 @@
         "c. None of the above",
         "d. A project is temporary",
         "a. A project is deliverable",
-        "b. A project is temporary"
+        "b. A project is temporary",
+        "a. None of the above",
+        "b. A project is an endeavor",
+        "c. A project is temporary",
+        "d. A project is deliverable"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "SDLC stands for",
@@ -1786,17 +1802,18 @@
         "c. Project Management",
         "b. Project Management Life Cycle",
         "c. All of the mentioned",
-        "d. Manager life cycle"
+        "d. Manager life cycle",
+        "a. Project Management Life Cycle"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "The reason for software bugs and failures is due to",
@@ -2638,17 +2655,18 @@
         "b. System management",
         "c. Internship management",
         "d. Version management",
-        "d. System management"
+        "d. System management",
+        "d. Internship management"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Which of the following is not considered as a risk in project management?",
@@ -2670,10 +2688,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Which of the following is not included in SRS ?",
@@ -2716,17 +2734,18 @@
         "c. Keeping overall costs within budget",
         "d. Maintaining a happy and well-functioning development team",
         "a. Keeping overall costs within budget",
-        "b. Maintaining a happy and well-functioning development team"
+        "b. Maintaining a happy and well-functioning development team",
+        "c. Avoiding customer complaints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Which of the following is/are main parameters that you should use when computing the costs of a software development project?",
@@ -2741,17 +2760,19 @@
         "c. hardware and software costs",
         "d. all of the mentioned",
         "a. travel and training costs",
-        "d. hardware and software costs"
+        "d. hardware and software costs",
+        "b. all of the mentioned",
+        "c. effort costs (the costs of paying software engineers and managers)"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:32:24Z"
+      "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
       "question": "Which of the following is/are White box technique?",
