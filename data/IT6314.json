@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:09:28Z",
-  "totalQuestions": 165,
+  "updatedAt": "2026-10-12T11:09:45Z",
+  "totalQuestions": 166,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -57,10 +57,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "Ajax Stands for",
@@ -69,17 +69,20 @@
         "a. Asynchronous JavaScript And XHML.",
         "b. Asynchronous JavaScript And XMLs.",
         "c. Asynchronous JavaScript And XML.",
-        "d. Asynchronous JavaScripts And XML."
+        "d. Asynchronous JavaScripts And XML.",
+        "a. Asynchronous JavaScript And XMLs.",
+        "b. Asynchronous JavaScript And XML.",
+        "c. Asynchronous JavaScript And XHML."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:40:14Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -201,11 +204,16 @@
         "a. 10",
         "b. 13",
         "c. 12",
-        "d. 14"
+        "d. 14",
+        "a. 12",
+        "b. 10",
+        "c. 14",
+        "d. 13"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "13"
+        "13",
+        "14"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -213,7 +221,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T20:40:14Z"
+      "lastEvidenceAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
@@ -222,17 +230,21 @@
         "a. 246",
         "b. 123123",
         "c. 123246",
-        "d. Error"
+        "d. Error",
+        "a. 123246",
+        "b. Error",
+        "c. 123123",
+        "d. 246"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "Facebook, wordpress uses php as script language.",
@@ -890,17 +902,19 @@
         "c. Ajax",
         "d. PHP",
         "b. PHP",
-        "d. jQuery"
+        "d. jQuery",
+        "b. Ajax",
+        "c. jQuery"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:40:14Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "Its a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -1407,17 +1421,20 @@
         "a. 400",
         "b. 500",
         "c. 300",
-        "d. 200"
+        "d. 200",
+        "b. 200",
+        "c. 500",
+        "d. 300"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:40:14Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "Security is not an issue with JavaScript",
@@ -1431,10 +1448,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "Select * from employee where salary>10000 and dept_id=101; Which of the following fields are displayed as output?",
@@ -2373,17 +2390,19 @@
         "c. LiveScripting",
         "d. LiveScripts",
         "a. LiveScripting",
-        "c. LiveScript"
+        "c. LiveScript",
+        "a. LiveScripts",
+        "d. LiveScripting"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:40:14Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     },
     {
       "question": "What is the output of the following code snippet? $str = 'asdfghyo off on off'; $replace_pairs = array('a' => 'q', 's' => 'w', 'd' => 'e', 'f' => 'r', 'y' => 'z', 'o' => 'i', 'off' => 'on', 'on' => 'off'); echo strtr($str, $replace_pairs);",
@@ -3333,6 +3352,25 @@
       "lastVerifiedAt": "2026-10-11T20:41:53Z"
     },
     {
+      "question": "Who is the original developer of JavaScript?",
+      "answer": "Brendan Eich",
+      "choices": [
+        "a. Brendan Eich",
+        "b. Wally Eich",
+        "c. Jason Eich",
+        "d. Brendan Smith"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:09:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
+    },
+    {
       "question": "With SQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
       "answer": "SELECT FirstName FROM Persons",
       "choices": [
@@ -3398,17 +3436,20 @@
         "a. Abort()",
         "b. Stop()",
         "c. Cancel()",
-        "d. Ignore()"
+        "d. Ignore()",
+        "a. Ignore()",
+        "c. Abort()",
+        "d. Cancel()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:40:14Z"
+      "lastVerifiedAt": "2026-10-12T11:09:45Z"
     }
   ]
 }
