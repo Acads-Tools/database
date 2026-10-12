@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-11T19:44:20Z",
-  "totalQuestions": 116,
+  "updatedAt": "2026-10-12T08:29:47Z",
+  "totalQuestions": 117,
   "tier": "verified",
   "questions": [
     {
@@ -31,17 +31,20 @@
         "a. low",
         "b. high",
         "c. very low",
-        "d. moderate"
+        "d. moderate",
+        "a. very low",
+        "b. low",
+        "c. high"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "A field studying computers and algorithmic processes, including their principles, their software and hardware designs, their applications, and their impact on society, whereas IS emphasizes functionality over design.",
@@ -69,17 +72,20 @@
         "a. A project is temporary",
         "b. A project is an endeavor",
         "c. A project is deliverable",
-        "d. All of the above"
+        "d. All of the above",
+        "a. A project is deliverable",
+        "b. A project is temporary",
+        "c. A project is an endeavor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "A temporary endeavor undertaken to create a unique product, service, or result.",
@@ -88,17 +94,19 @@
         "a. Plan",
         "b. Documentation",
         "c. System",
-        "d. Project"
+        "d. Project",
+        "b. System",
+        "c. Documentation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Alpha testing is done at",
@@ -128,17 +136,20 @@
         "a. Consistency",
         "b. Incremental Development",
         "c. Abstraction",
-        "d. Generality"
+        "d. Generality",
+        "b. Abstraction",
+        "c. Generality",
+        "d. Incremental Development"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "An independent relationship must exist between the attribute that can be measured and the external quality attribute.",
@@ -148,14 +159,22 @@
         "b. False"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "lastVerifiedAt": "2026-10-11T19:23:02Z",
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-10-12T08:29:47Z"
+        }
+      ]
     },
     {
       "question": "Arrange the given sequence to form a SRS Prototype outline as per IEEE SRS Standard.i. General descriptionii. Introductioniii. Indexiv. Appendicesv. Specific Requirements",
@@ -183,17 +202,21 @@
         "a. Management issues in the company",
         "b. All of the mentioned",
         "c. Lack of software ethics and understanding",
-        "d. Lack of adequate training in software engineering"
+        "d. Lack of adequate training in software engineering",
+        "a. All of the mentioned",
+        "b. Management issues in the company",
+        "c. Lack of adequate training in software engineering",
+        "d. Lack of software ethics and understanding"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Boundary value analysis belong to?",
@@ -248,10 +271,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Consider the following Statement: “The data set will contain an end of file character.”What characteristic of SRS is being depicted here ?",
@@ -317,17 +340,19 @@
         "a. memory utilization",
         "b. responsiveness",
         "c. processing time",
-        "d. licensing"
+        "d. licensing",
+        "b. processing time",
+        "c. responsiveness"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Every project should have a well-defined objective. For example, many people hire firms to design and build a new house, but each house, like each person, is unique.",
@@ -336,17 +361,20 @@
         "a. A project is developed using progressive elaboration or in an iterative fashion.",
         "b. A project has a unique purpose.",
         "c. A project is temporary",
-        "d. A project requires resources, often from various areas."
+        "d. A project requires resources, often from various areas.",
+        "b. A project is temporary",
+        "c. A project requires resources, often from various areas.",
+        "d. A project has a unique purpose."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Exhaustive testing is",
@@ -376,17 +404,20 @@
         "a. Software engineers shall ensure that their products and related modifications meet the highest professional standards possible",
         "b. It means that the product designed /created should be easily available",
         "c. Software engineers shall ensure that their products and related modifications satisfy the client",
-        "d. The product should be easy to use"
+        "d. The product should be easy to use",
+        "a. The product should be easy to use",
+        "c. Software engineers shall ensure that their products and related modifications meet the highest professional standards possible",
+        "d. Software engineers shall ensure that their products and related modifications satisfy the client"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Identify an ethical dilemma from the situations mentioned below:",
@@ -395,17 +426,20 @@
         "a. Your employer releases a safety-critical system without finishing the testing of the system",
         "b. Refusing to undertake a project",
         "c. Agreement in principle with the policies of senior management",
-        "d. All of the mentioned"
+        "d. All of the mentioned",
+        "a. Agreement in principle with the policies of senior management",
+        "b. Your employer releases a safety-critical system without finishing the testing of the system",
+        "c. Refusing to undertake a project"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Identify the correct statement: “Software engineers shall",
@@ -414,17 +448,21 @@
         "a. ensure that their products only meet the SRS.”",
         "b. act consistently with the public interest.”",
         "c. act in a manner that is in the best interests of his expertise and favour.”",
-        "d. all of the mentioned"
+        "d. all of the mentioned",
+        "a. act consistently with the public interest.”",
+        "b. act in a manner that is in the best interests of his expertise and favour.”",
+        "c. all of the mentioned",
+        "d. ensure that their products only meet the SRS.”"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Identify the sub-process of process improvement",
@@ -433,17 +471,21 @@
         "a. Process analysis",
         "b. De-processification",
         "c. Process distribution",
-        "d. Process introduction"
+        "d. Process introduction",
+        "a. Process distribution",
+        "b. Process analysis",
+        "c. Process introduction",
+        "d. De-processification"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "If any of the hardware and/or platform (such as operating system) of the target host changes, software changes are needed to keep adaptability.",
@@ -501,6 +543,31 @@
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:32:33Z"
+    },
+    {
+      "question": "in terms of Issues related to professional responsibility",
+      "answer": "Both Confidentiality & Intellectual property rights",
+      "choices": [
+        "a. Intellectual property rights",
+        "b. Confidentiality",
+        "c. Managing Client Relationships",
+        "d. Both Confidentiality & Intellectual property rights",
+        "a. Both Confidentiality & Intellectual property rights",
+        "c. Intellectual property rights",
+        "d. Managing Client Relationships"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Intellectual property rights"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:20:21Z",
+      "source": "Grades-Harvester",
+      "lastEvidenceAt": "2026-10-11T19:20:21Z",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "It implies separating software into components according to functionality and responsibility.",
@@ -585,17 +652,21 @@
         "a. Data System",
         "b. Data",
         "c. Information",
-        "d. Information System"
+        "d. Information System",
+        "a. Information System",
+        "b. Data System",
+        "c. Data",
+        "d. Information"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "It is also known as a bug, is a result of an error which can cause system to fail.",
@@ -665,17 +736,21 @@
         "a. Incremental Development",
         "b. Anticipation of Change",
         "c. Generality",
-        "d. Consistency"
+        "d. Consistency",
+        "a. Generality",
+        "b. Incremental Development",
+        "c. Consistency",
+        "d. Anticipation of Change"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "It is often easier to use if these two concerns are divided as much as possible into separate sets of client functions.",
@@ -767,17 +842,20 @@
         "a. Procedures",
         "b. People",
         "c. Software",
-        "d. Feedback"
+        "d. Feedback",
+        "a. People",
+        "b. Feedback",
+        "d. Procedures"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "It refers to the amount of time available to complete a project",
@@ -786,17 +864,20 @@
         "a. Budget constraints",
         "b. Cost constraints",
         "c. Time constraints",
-        "d. Duration constraints"
+        "d. Duration constraints",
+        "a. Time constraints",
+        "c. Duration constraints",
+        "d. Budget constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "It refers to the budgeted amount available for the project.",
@@ -824,17 +905,21 @@
         "a. Scope constraints",
         "b. Limit constraints",
         "c. Deliverable constraints",
-        "d. Output constraints"
+        "d. Output constraints",
+        "a. Limit constraints",
+        "b. Output constraints",
+        "c. Scope constraints",
+        "d. Deliverable constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Lower and upper limits are present in which chart?",
@@ -924,17 +1009,20 @@
         "a. A project has a unique purpose",
         "b. A project should have a primary customer or sponsor",
         "c. A project involves uncertainty",
-        "d. A project is developed using progressive elaboration or in an iterative fashion."
+        "d. A project is developed using progressive elaboration or in an iterative fashion.",
+        "a. A project should have a primary customer or sponsor",
+        "b. A project involves uncertainty",
+        "c. A project has a unique purpose"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Over the time, customer may ask for new features or functions in the software.",
@@ -982,14 +1070,22 @@
         "b. False"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "lastVerifiedAt": "2026-10-11T19:23:02Z",
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-10-12T08:29:47Z"
+        }
+      ]
     },
     {
       "question": "Projects are often defined broadly when they begin, and as time passes, the specific details of the project become clearer.",
@@ -998,17 +1094,20 @@
         "a. A project requires resources, often from various areas",
         "b. A project involves uncertainty",
         "c. A project should have a primary customer or sponsor.",
-        "d. A project is developed using progressive elaboration or in an iterative fashion."
+        "d. A project is developed using progressive elaboration or in an iterative fashion.",
+        "a. A project should have a primary customer or sponsor.",
+        "b. A project requires resources, often from various areas",
+        "c. A project involves uncertainty"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Quality planning is the process of developing a quality plan for",
@@ -1024,10 +1123,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "RAD Model has",
@@ -1091,17 +1190,20 @@
         "a. A project involves uncertainty",
         "b. A project should have a primary customer or sponsor",
         "c. A project requires resources, often from various areas",
-        "d. A project has a unique purpose"
+        "d. A project has a unique purpose",
+        "a. A project requires resources, often from various areas",
+        "c. A project has a unique purpose",
+        "d. A project involves uncertainty"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Resources, such as people and equipment, need to do work.",
@@ -1148,17 +1250,21 @@
         "a. be dependent on their colleagues.”",
         "b. not use your technical skills to misuse other people’s computers.”",
         "c. maintain integrity and independence in their professional judgment.”",
-        "d. not knowingly accept work that is outside your competence.”"
+        "d. not knowingly accept work that is outside your competence.”",
+        "a. not use your technical skills to misuse other people’s computers.”",
+        "b. be dependent on their colleagues.”",
+        "c. not knowingly accept work that is outside your competence.”",
+        "d. maintain integrity and independence in their professional judgment.”"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Selective retest techniques may be more economical than the “retest-all”technique.How many selective retest techniques are there?",
@@ -1291,17 +1397,20 @@
         "a. Project Management",
         "b. All of the mentioned",
         "c. Manager life cycle",
-        "d. Project Management Life Cycle"
+        "d. Project Management Life Cycle",
+        "b. Manager life cycle",
+        "c. Project Management Life Cycle",
+        "d. All of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "The reason for software bugs and failures is due to",
@@ -1310,17 +1419,19 @@
         "a. Both Software companies and Developers",
         "b. Software companies",
         "c. Software Developers",
-        "d. All of the mentioned"
+        "d. All of the mentioned",
+        "c. All of the mentioned",
+        "d. Software Developers"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "The software must be validated to ensure that it does what the customer wants.",
@@ -1464,17 +1575,19 @@
         "a. People",
         "b. Sofware",
         "c. Procedures",
-        "d. Hardware"
+        "d. Hardware",
+        "a. Sofware",
+        "b. People"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "These functions do not include destructive updates, that is, they do not affect any I/O or memory and if they are not in use, they can easily be removed without hampering the rest of the program.",
@@ -1559,17 +1672,20 @@
         "a. Software",
         "b. Procedures",
         "c. Hardware",
-        "d. Data"
+        "d. Data",
+        "a. Procedures",
+        "b. Data",
+        "d. Software"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "This includes modifications and updates done in order to keep the software usable over long period of time. It includes new features, new user requirements for refining the software and improve its reliability and performance.",
@@ -1912,10 +2028,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Which of the following is not considered as a risk in project management?",
@@ -1924,17 +2040,21 @@
         "a. Specification delays",
         "b. Product competition",
         "c. Staff turnover",
-        "d. Testing"
+        "d. Testing",
+        "a. Product competition",
+        "b. Specification delays",
+        "c. Testing",
+        "d. Staff turnover"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Which of the following is not included in SRS ?",
@@ -1962,17 +2082,20 @@
         "a. Avoiding customer complaints",
         "b. Keeping overall costs within budget",
         "c. Maintaining a happy and well-functioning development team",
-        "d. Delivering the software to the customer at the agreed time"
+        "d. Delivering the software to the customer at the agreed time",
+        "a. Maintaining a happy and well-functioning development team",
+        "c. Delivering the software to the customer at the agreed time",
+        "d. Avoiding customer complaints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Which of the following is/are main parameters that you should use when computing the costs of a software development project?",
@@ -1981,17 +2104,21 @@
         "a. hardware and software costs",
         "b. effort costs (the costs of paying software engineers and managers)",
         "c. all of the mentioned",
-        "d. travel and training costs"
+        "d. travel and training costs",
+        "a. effort costs (the costs of paying software engineers and managers)",
+        "b. travel and training costs",
+        "c. hardware and software costs",
+        "d. all of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     },
     {
       "question": "Which of the following is/are White box technique?",
@@ -2237,17 +2364,20 @@
         "a. Unauthorized access to computer material",
         "b. Unauthorized modification of computer material",
         "c. Dissemination of viruses or other malware",
-        "d. All of the mentioned"
+        "d. All of the mentioned",
+        "a. Dissemination of viruses or other malware",
+        "c. All of the mentioned",
+        "d. Unauthorized access to computer material"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:20:21Z"
+      "source": "Grades-Harvester",
+      "lastVerifiedAt": "2026-10-12T08:29:47Z"
     }
   ]
 }
