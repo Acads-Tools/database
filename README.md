@@ -110,7 +110,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `CS6207` | CS6207 | **57** | Active |
 | `CS6209` | Software Engineering 1 | **119** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
-| `FILI6201` | FILI6201 | **90** | Active |
+| `FILI6201` | FILI6201 | **150** | Active |
 | `FILI6301` | FILI6301 | **148** | Active |
 | `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
 | `IT6200` | IT6200 | **19** | Active |
