@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-12T11:25:34Z",
+  "updatedAt": "2026-10-12T11:31:15Z",
   "totalQuestions": 107,
   "tier": "verified",
   "questions": [
@@ -14,10 +14,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+      "lastVerifiedAt": "2026-10-12T11:31:15Z"
     },
     {
       "question": "* Starts with the starting symbol S. It goes down to tree leaves using productions.",
@@ -28,10 +28,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+      "lastVerifiedAt": "2026-10-12T11:31:15Z"
     },
     {
       "question": "[____: Sets] are collections of objects in which order of elements and duplication of elements do not matter.",
@@ -93,9 +93,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -454,10 +454,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+      "lastVerifiedAt": "2026-10-12T11:31:15Z"
     },
     {
       "question": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [Blank 1] .",
@@ -487,10 +487,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+      "lastVerifiedAt": "2026-10-12T11:31:15Z"
     },
     {
       "question": "A stack symbols",
@@ -616,14 +616,16 @@
         "a. parse tree",
         "b. vertex",
         "c. leaves",
-        "d. derivation tree"
+        "d. derivation tree",
+        "a. derivation tree",
+        "c. vertex"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -637,9 +639,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -730,9 +732,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1075,9 +1077,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1200,14 +1202,17 @@
         "c. Regular Language",
         "d. Context free Language",
         "c. Context free Language",
-        "d. Regular Language"
+        "d. Regular Language",
+        "a. Regular Language",
+        "b. Recursively Ennumerable Language",
+        "c. Context Sensitive Language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1291,14 +1296,17 @@
         "d. tokens",
         "a. data",
         "c. tokens",
-        "d. automata"
+        "d. automata",
+        "a. tokens",
+        "b. data",
+        "c. grammar"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1492,9 +1500,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1546,10 +1554,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:38:40Z"
+      "lastVerifiedAt": "2026-10-12T11:31:15Z"
     },
     {
       "question": "The state",
@@ -1787,14 +1795,15 @@
         "b. Context sensitive language is a subset of context free language",
         "d. Recursively ennumerable language is the super set of regular language",
         "a. Context sensitive language is a subset of context free language",
-        "d. Regular language is the subset of context sensitive language"
+        "d. Regular language is the subset of context sensitive language",
+        "a. Context free language is the subset of context sensitive language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z",
+      "lastVerifiedAt": "2026-10-12T11:31:15Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
