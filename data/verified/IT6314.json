@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:00:53Z",
-  "totalQuestions": 133,
+  "updatedAt": "2026-10-12T11:01:41Z",
+  "totalQuestions": 136,
   "tier": "verified",
   "questions": [
     {
@@ -17,10 +17,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
     },
     {
       "question": "AJAX is a programming language",
@@ -645,13 +645,13 @@
       "lastVerifiedAt": "2026-10-12T10:40:04Z"
     },
     {
-      "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
-      "answer": "Values",
+      "question": "In a LIKE clause, you can could ask for any value ending in \"qpt\" by writing",
+      "answer": "LIKE %qpt",
       "choices": [
-        "a. Relation",
-        "b. Values",
-        "c. Table",
-        "d. Field"
+        "a. LIKE ^.*ton$",
+        "b. LIKE ton$",
+        "c. LIKE *ton",
+        "d. LIKE %qpt"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -659,9 +659,30 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:01:41Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+    },
+    {
+      "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
+      "answer": "Values",
+      "choices": [
+        "a. Relation",
+        "b. Values",
+        "c. Table",
+        "d. Field",
+        "b. Table",
+        "c. Values"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
     },
     {
       "question": "It refers to a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -864,17 +885,21 @@
         "d. Any operating system at all",
         "a. Any operating system at all",
         "b. Unix, Linux, Windows and others",
-        "d. Linux and Mac OS-X only"
+        "d. Linux and Mac OS-X only",
+        "a. Linux and Mac OS-X only",
+        "b. Unix and Linux only",
+        "c. Any operating system at all",
+        "d. Unix, Linux, Windows and others"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
     },
     {
       "question": "MySQL was invented in the year:",
@@ -1204,17 +1229,20 @@
         "a. Select name,course_id from teaches,instructor where instructor_id=course_id;",
         "b. Select name, course_id from instructor natural join teaches;",
         "c. Select name ,course_id from instructor;",
-        "d. Select course_id from instructor join teaches;"
+        "d. Select course_id from instructor join teaches;",
+        "a. Select name ,course_id from instructor;",
+        "b. Select name,course_id from teaches,instructor where instructor_id=course_id;",
+        "c. Select name, course_id from instructor natural join teaches;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
     },
     {
       "question": "Server command that calls itself",
@@ -1379,6 +1407,25 @@
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z"
+    },
+    {
+      "question": "The ________ clause is used to list the attributes desired in the result of a query.",
+      "answer": "Select",
+      "choices": [
+        "a. Select",
+        "b. Distinct",
+        "c. From",
+        "d. Where"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:01:41Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
     },
     {
       "question": "The command to eliminate a table from a database is:",
@@ -1723,7 +1770,31 @@
         "a. 1018",
         "b. 1001",
         "c. 1009, 1001, 1018",
-        "d. 1009, 1018"
+        "d. 1009, 1018",
+        "a. 1001",
+        "b. 1009, 1018",
+        "d. 1018"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
+      "firstSeenAt": "2026-10-11T20:08:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+    },
+    {
+      "question": "To remove duplicate rows from the result set of a SELECT use the following keyword:",
+      "answer": "DISTINCT",
+      "choices": [
+        "a. NO DUPLICATE",
+        "b. UNIQUE",
+        "c. None of the above",
+        "d. DISTINCT",
+        "a. UNIQUE",
+        "b. NO DUPLICATE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1733,26 +1804,7 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
-    },
-    {
-      "question": "To remove duplicate rows from the result set of a SELECT use the following keyword:",
-      "answer": "DISTINCT",
-      "choices": [
-        "a. NO DUPLICATE",
-        "b. UNIQUE",
-        "c. None of the above",
-        "d. DISTINCT"
-      ],
-      "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
-      "verified": true,
-      "isAiSuggestion": false,
-      "confirmations": 1,
-      "firstSeenAt": "2026-10-11T20:08:35Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
     },
     {
       "question": "To remove duplicate rows from the results of an SQL SELECT statement, the ________ qualifier specified must be included.",
@@ -2223,6 +2275,24 @@
       "lastVerifiedAt": "2026-10-12T10:43:54Z"
     },
     {
+      "question": "Which function used to get the current time in mysql?",
+      "answer": "NOW()",
+      "choices": [
+        "a. NOW()",
+        "b. Time()",
+        "c. getTime()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:01:41Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+    },
+    {
       "question": "Which of the following are the five built-in functions provided by SQL?",
       "answer": "COUNT, SUM, AVG, MAX, MIN",
       "choices": [
@@ -2326,17 +2396,20 @@
         "c. Select empid where empid = 1009 and lastname = ‘JOHANN;",
         "d. Select empid from emp where empid = 10006;",
         "a. Select * from emp where empid = 10003;",
-        "b. Select empid from emp;"
+        "b. Select empid from emp;",
+        "a. Select empid from emp where empid = 10006;",
+        "c. Select * from emp where empid = 10003;",
+        "d. Select empid where empid = 1009 and lastname = ‘JOHANN;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-12T11:01:41Z"
     },
     {
       "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:151153/q1.PNG]]",
