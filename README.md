@@ -127,7 +127,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `ITE6202` | ITE6202 | **62** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
 | `MKTG6256` | MKTG6256 | **54** | Active |
-| `NSTP6102` | National Service Training Program 2 | **35** | Active |
+| `NSTP6102` | National Service Training Program 2 | **45** | Active |
 | `OFAD6303A` | OFAD6303A | **22** | Active |
 | `PHYED6102` | PHYED6102 | **30** | Active |
 | `PHYED6200` | PHYED6200 | **8** | Active |
