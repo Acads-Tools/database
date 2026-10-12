@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-12T11:21:10Z",
-  "totalQuestions": 55,
+  "updatedAt": "2026-10-12T11:25:59Z",
+  "totalQuestions": 57,
   "tier": "verified",
   "questions": [
     {
@@ -14,10 +14,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "AIs are able to automating parts of people‘s jobs and it wont affect the employment rate in a company",
@@ -155,6 +155,40 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "computer programs",
+      "answer": "Original works",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Copyright"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:59:22Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T09:51:29Z",
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
+    },
+    {
+      "question": "creative works",
+      "answer": "Copyright",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Original works"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:59:22Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T09:51:29Z",
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "Determinative Laws fixes ways of acting in accordance with natural law.",
@@ -310,10 +344,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "It enables an individual to capture life's best moments with thier phone’s camera or any other camera, and convert them into works of art.",
@@ -664,24 +698,27 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "reckless hindering",
       "answer": "System Interference",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Cybervandalism"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T09:51:29Z",
+      "lastEvidenceAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "reclusion and isolation",
@@ -692,10 +729,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "Secret-key Encryption",
@@ -742,10 +779,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "Since morality is culturally based, individuals are bound to live within the guidelines the society lives with.",
@@ -887,10 +924,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "unauthorized ways",
@@ -901,10 +938,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:59:22Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:51:29Z"
+      "lastVerifiedAt": "2026-10-12T11:25:59Z"
     },
     {
       "question": "Under what condition can data collections become an invasion of privacy?",
