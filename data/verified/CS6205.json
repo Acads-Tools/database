@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-12T11:38:38Z",
+  "updatedAt": "2026-10-12T11:40:00Z",
   "totalQuestions": 113,
   "tier": "verified",
   "questions": [
@@ -182,9 +182,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z",
+      "lastVerifiedAt": "2026-10-12T11:40:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -211,10 +211,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "A finite set of input symbols.",
@@ -285,14 +285,16 @@
         "b. union",
         "c. complement",
         "b. complement",
-        "c. union"
+        "c. union",
+        "a. complement",
+        "c. intersection"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z",
+      "lastVerifiedAt": "2026-10-12T11:40:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -318,10 +320,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "A parsing that starts from the top with the start-symbol and derives a string using a parsetree.",
@@ -330,9 +332,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z",
+      "lastVerifiedAt": "2026-10-12T11:40:00Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -346,9 +348,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z",
+      "lastVerifiedAt": "2026-10-12T11:40:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -410,9 +412,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-30T11:50:33Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z",
+      "lastVerifiedAt": "2026-10-12T11:40:00Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -425,10 +427,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "A set of final state/states of Q (F⊆Q).",
@@ -503,10 +505,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "A transition function δ : Q × (Σ ∪ {ε}) → 2Q.",
@@ -534,10 +536,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "An automaton that produces outputs based on current input and/or previous state is called ____________.",
@@ -1086,11 +1088,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T18:47:19Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "It starts from the top with the start-symbol and derives a string using a parse tree.",
@@ -1103,11 +1105,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T18:47:19Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "Language may be derived from other strings using the productions in a grammar.",
@@ -1495,10 +1497,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "The initial state (q0 ∈ Q)",
@@ -1509,10 +1511,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "The instantaneous description (ID) of a PDA is represented by a triplet (q, w, s) where :",
@@ -1630,10 +1632,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z",
+      "lastVerifiedAt": "2026-10-12T11:40:00Z",
       "lastEvidenceAt": "2026-10-11T18:53:27Z"
     },
     {
@@ -1685,11 +1687,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T18:53:27Z",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "The tape head is positioned at one of the tape cells for scanning the input symbol from the input tape and initially the tape head points at the left most cell of the input tape.",
@@ -1717,10 +1719,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "The unconsumed input",
@@ -1731,10 +1733,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:27Z"
+      "lastVerifiedAt": "2026-10-12T11:40:00Z"
     },
     {
       "question": "There are 5 tuples in finite state machine.",
@@ -1819,10 +1821,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:19Z",
+      "lastVerifiedAt": "2026-10-12T11:40:00Z",
       "lastEvidenceAt": "2026-10-11T18:53:27Z"
     },
     {
