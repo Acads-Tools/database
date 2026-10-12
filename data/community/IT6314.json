@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T10:57:01Z",
-  "totalQuestions": 154,
+  "updatedAt": "2026-10-12T10:58:42Z",
+  "totalQuestions": 155,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -906,7 +906,8 @@
       "questionType": "multichoice",
       "wrongAnswers": [
         "After for loop",
-        "In for loop"
+        "In for loop",
+        "infinite loop"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -954,7 +955,8 @@
           "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
           "timestamp": "2026-10-12T10:43:54Z"
         }
-      ]
+      ],
+      "lastEvidenceAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "MYSQL can be used to:",
@@ -2123,17 +2125,19 @@
       "answer": "To make the string's first character uppercase or lowercase, respectively",
       "choices": [
         "a. To make the string's first word uppercase or lowercase, respectively.",
-        "b. To make the string's first character uppercase or lowercase, respectively"
+        "b. To make the string's first character uppercase or lowercase, respectively",
+        "a. To make the string's first character uppercase or lowercase, respectively",
+        "b. To make the string's first word uppercase or lowercase, respectively."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:33:34Z"
+      "lastVerifiedAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "What is the original name of JavaScript?",
@@ -2182,11 +2186,16 @@
         "a. 1, 1, -1, 1",
         "b. 1, 0, -1, 1",
         "c. 1, -1, -1, -1",
-        "d. -1, -1, 1, -1"
+        "d. -1, -1, 1, -1",
+        "a. -1, -1, 1, -1",
+        "b. 1, -1, -1, -1",
+        "c. 1, 0, -1, 1",
+        "d. 1, 1, -1, 1"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "1, 1, -1, 1"
+        "1, 1, -1, 1",
+        "1, -1, -1, -1"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -2194,7 +2203,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:52:29Z"
+      "lastEvidenceAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "What is the output of the following? echo substr(\"abcdef\", -2), ', '; echo substr(\"abcdef\", 4), ', '; echo substr(\"abcdef\", -3, -1), ', '; echo substr(\"abcdef\", 4, -2), ', '; echo substr(\"abcdef\", 2, -1)",
@@ -2308,24 +2317,28 @@
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151139/w6-q7.PNG]]",
-      "answer": "",
+      "answer": "JohannJeiven",
       "choices": [
         "a. JohannJeiven",
         "b. Johann",
         "c. No Output",
-        "d. Jeiven"
+        "d. Jeiven",
+        "a. No Output",
+        "b. JohannJeiven",
+        "c. Johann"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "No Output"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:33:34Z"
+      "lastEvidenceAt": "2026-10-11T19:33:34Z",
+      "lastVerifiedAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151140/w6-q8.PNG]]",
@@ -2334,11 +2347,16 @@
         "a. Error",
         "b. Johann",
         "c. JohannJeiven",
-        "d. Jeiven"
+        "d. Jeiven",
+        "a. Jeiven",
+        "b. JohannJeiven",
+        "c. Error",
+        "d. Johann"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "Error"
+        "Error",
+        "JohannJeiven"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -2346,7 +2364,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:52:29Z"
+      "lastEvidenceAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151141/w6-q9.PNG]]",
@@ -2507,7 +2525,11 @@
         "a. -0.5",
         "b. 0",
         "c. 0.5",
-        "d. 1"
+        "d. 1",
+        "a. 0",
+        "b. 1",
+        "c. -0.5",
+        "d. 0.5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2519,7 +2541,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:36:43Z"
+      "lastEvidenceAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151147/q5.PNG]]",
@@ -2564,6 +2586,27 @@
       "lastVerifiedAt": "2026-10-12T10:43:54Z"
     },
     {
+      "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151150/q8.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. Array ( [3] => blue [4] => blue) Array ( [0] => red )",
+        "b. Array ( [4] => blue [5] => blue [6] => blue) Array ( [0] => red )",
+        "c. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()",
+        "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Array ( [3] => blue [4] => blue) Array ( [0] => red )"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T10:58:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T10:58:42Z"
+    },
+    {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151151/q9.PNG]]",
       "answer": "Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
       "choices": [
@@ -2573,38 +2616,44 @@
         "d. Array ( [0] => blue [1] => yellow [2] => red [3] => green )",
         "a. Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
         "c. Array ( [0] => blue [1] => yellow [2] => red [3] => green )",
-        "d. Array ( [0] => blue [1] => yellow )"
+        "d. Array ( [0] => blue [1] => yellow )",
+        "a. Array ( [0] => red [1] => green)",
+        "b. Array ( [0] => red [1] => green [2] => blue [3] => yellow )"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:52:29Z"
+      "lastVerifiedAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "What will happen in this function call? [Image: [moodle-asset:151149/q7.PNG]]",
-      "answer": "",
+      "answer": "Call By Value",
       "choices": [
         "a. Type Hinting",
         "b. Call By Reference",
         "c. Call By Value",
-        "d. Default Argument Value"
+        "d. Default Argument Value",
+        "b. Call By Value",
+        "c. Default Argument Value",
+        "d. Call By Reference"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "Type Hinting"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:33:34Z"
+      "lastEvidenceAt": "2026-10-11T19:33:34Z",
+      "lastVerifiedAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "What will the following script output? [Image: WebDev2 shortquiz6 - [moodle-asset:150759/vvz.png]]",
@@ -2790,17 +2839,19 @@
         "a. function { function body }",
         "b. data type functionName(parameters) { function body }",
         "c. functionName(parameters) { function body }",
-        "d. functionfumctionName(parameters) { function body }"
+        "d. functionfumctionName(parameters) { function body }",
+        "a. functionfumctionName(parameters) { function body }",
+        "d. function { function body }"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:36:43Z"
+      "lastVerifiedAt": "2026-10-12T10:58:42Z"
     },
     {
       "question": "Which one of the following methods is responsible for sending the query to the database?",
