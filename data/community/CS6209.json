@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-12T12:08:13Z",
+  "updatedAt": "2026-10-12T12:17:23Z",
   "totalQuestions": 119,
   "questions": [
     {
@@ -11,17 +11,20 @@
         "a. Inclusiveness",
         "b. Precision",
         "c. Efficiency",
-        "d. Generality"
+        "d. Generality",
+        "b. Generality",
+        "c. Precision",
+        "d. Efficiency"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "A 66.6% risk is considered as",
@@ -527,17 +530,20 @@
         "a. Organization Changes",
         "b. Host Modifications",
         "c. Client Requirements",
-        "d. Market Conditions"
+        "d. Market Conditions",
+        "a. Host Modifications",
+        "b. Client Requirements",
+        "c. Organization Changes"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "If there is any business level change at client end, such as reduction of organization strength, acquiring another company, organization venturing into new business, need to modify in the original software may arise.",
@@ -546,17 +552,21 @@
         "a. Host Modifications",
         "b. Market Conditions",
         "c. Organization Changes",
-        "d. Client Requirements"
+        "d. Client Requirements",
+        "a. Organization Changes",
+        "b. Host Modifications",
+        "c. Client Requirements",
+        "d. Market Conditions"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "In reference with top-down analysis, _________________ sub-divides the modules into further smaller units of code.",
@@ -636,17 +646,20 @@
         "a. Design",
         "b. Analysis",
         "c. Identification & Tracing",
-        "d. Implementation"
+        "d. Implementation",
+        "a. Implementation",
+        "b. Design",
+        "d. Analysis"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "It is a method of evaluating the expression passed to a function as an argument.",
@@ -1018,17 +1031,20 @@
         "a. four",
         "b. five",
         "c. three",
-        "d. two"
+        "d. two",
+        "a. five",
+        "b. three",
+        "c. four"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "Maintenance testing is performed using which methodology?",
@@ -1106,17 +1122,21 @@
         "a. Host Modifications",
         "b. Organization Changes",
         "c. Market Conditions",
-        "d. Client Requirements"
+        "d. Client Requirements",
+        "a. Organization Changes",
+        "b. Client Requirements",
+        "c. Host Modifications",
+        "d. Market Conditions"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "Policies, which changes over the time, such as taxation and newly introduced constraints like, how to maintain bookkeeping, may trigger need for modification.",
@@ -1125,17 +1145,21 @@
         "a. Host Modifications",
         "b. Client Requirements",
         "c. Market Conditions",
-        "d. Organization Changes"
+        "d. Organization Changes",
+        "a. Market Conditions",
+        "b. Organization Changes",
+        "c. Host Modifications",
+        "d. Client Requirements"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "Project managers have to assess the risks that may affect a project.",
@@ -1256,10 +1280,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "Resources include people, hardware, software, or other assets. Many different types of people, skill sets, and resources are needed to build a home.",
@@ -1355,17 +1379,20 @@
         "a. two",
         "b. three",
         "c. four",
-        "d. five"
+        "d. five",
+        "a. three",
+        "b. five",
+        "d. two"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "Software Maintenance includes",
@@ -1374,17 +1401,19 @@
         "a. Deletion of obsolete capabilities",
         "b. All of the mentioned",
         "c. Error corrections",
-        "d. Enhancements of capabilities"
+        "d. Enhancements of capabilities",
+        "a. All of the mentioned",
+        "b. Deletion of obsolete capabilities"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "The functionality of the software and constraints on its operation must be defined.",
@@ -1470,17 +1499,35 @@
         "a. six",
         "b. nine",
         "c. eight",
-        "d. seven"
+        "d. seven",
+        "a. seven",
+        "d. six",
+        "a. Adaptive",
+        "b. Perfective",
+        "c. Corrective",
+        "d. Preventive"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "seven"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-11T19:44:20Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Adaptive",
+          "timestamp": "2026-10-12T12:17:23Z"
+        },
+        {
+          "rejectedAnswer": "Adaptive",
+          "timestamp": "2026-10-12T12:17:23Z"
+        }
+      ]
     },
     {
       "question": "The new modules are coded with the help of structured design created in the design step.",
@@ -1489,7 +1536,11 @@
         "a. Identification & Tracing",
         "b. Implementation",
         "c. Analysis",
-        "d. Design"
+        "d. Design",
+        "a. Analysis",
+        "b. Identification & Tracing",
+        "c. Design",
+        "d. Implementation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1501,7 +1552,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:44:20Z"
+      "lastEvidenceAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "The process each manager follows during the life of a project is known as",
@@ -1842,17 +1893,21 @@
         "a. Corrective Maintenance",
         "b. Preventive Maintenance",
         "c. Adaptive Maintenance",
-        "d. Perfective Maintenance"
+        "d. Perfective Maintenance",
+        "a. Preventive Maintenance",
+        "b. Adaptive Maintenance",
+        "c. Perfective Maintenance",
+        "d. Corrective Maintenance"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "This includes modifications and updations applied to keep the software product up-to date and tuned to the ever changing world of technology and business environment.",
@@ -1861,17 +1916,19 @@
         "a. Perfective Maintenance",
         "b. Corrective Maintenance",
         "c. Adaptive Maintenance",
-        "d. Preventive Maintenance"
+        "d. Preventive Maintenance",
+        "a. Corrective Maintenance",
+        "b. Perfective Maintenance"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "This includes modifications and updations done in order to correct or fix problems, which are either discovered by user or concluded by user error reports.",
@@ -1880,17 +1937,21 @@
         "a. Preventive Maintenance",
         "b. Corrective Maintenance",
         "c. Adaptive Maintenance",
-        "d. Perfective Maintenance"
+        "d. Perfective Maintenance",
+        "a. Adaptive Maintenance",
+        "b. Perfective Maintenance",
+        "c. Preventive Maintenance",
+        "d. Corrective Maintenance"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "This includes modifications and updations to prevent future problems of the software. It aims to attend problems, which are not significant at this moment but may cause serious issues in future.",
@@ -1899,17 +1960,19 @@
         "a. Perfective Maintenance",
         "b. Adaptive Maintenance",
         "c. Corrective Maintenance",
-        "d. Preventive Maintenance"
+        "d. Preventive Maintenance",
+        "b. Corrective Maintenance",
+        "c. Adaptive Maintenance"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "This is a programming technique where a function calls itself and repeats the program code in it unless some pre-defined condition matches.",
@@ -2153,17 +2216,19 @@
         "a. System Testing",
         "b. Integration Testing",
         "c. Regression Testing",
-        "d. Unit Testing"
+        "d. Unit Testing",
+        "a. Regression Testing",
+        "c. System Testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "Which is not one of the types of prototype of Prototyping Model?",
@@ -2543,17 +2608,20 @@
         "a. Inclusiveness",
         "b. Efficiency",
         "c. Precision",
-        "d. Generality"
+        "d. Generality",
+        "a. Generality",
+        "c. Inclusiveness",
+        "d. Precision"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "Which selective retest technique selects every test case that causes a modified program to produce a different output than its original version?",
@@ -2562,17 +2630,23 @@
         "a. Coverage",
         "b. Safe",
         "c. Maximization",
-        "d. Minimization"
+        "d. Minimization",
+        "a. Maximization",
+        "c. Minimization",
+        "d. Coverage"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Maximization"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:44:20Z"
+      "lastVerifiedAt": "2026-10-11T19:44:20Z",
+      "lastEvidenceAt": "2026-10-12T12:17:23Z"
     },
     {
       "question": "While programming, the code is broken down into smaller group of instructions. These groups are known as modules, subprograms, or subroutines.",
