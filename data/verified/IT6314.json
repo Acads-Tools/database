@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T10:40:04Z",
-  "totalQuestions": 126,
+  "updatedAt": "2026-10-12T10:43:54Z",
+  "totalQuestions": 128,
   "tier": "verified",
   "questions": [
     {
@@ -718,7 +718,17 @@
         "b. no output",
         "c. The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
         "d. The number is: 0",
-        "d. 0"
+        "d. 0",
+        "c. After for loop",
+        "d. In for loop",
+        "b. -3-4",
+        "d. -3-4-5",
+        "a. 12345678910",
+        "c. 1234567891011",
+        "d. 123456789101112",
+        "a. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
+        "b. In for loopIn for loopIn for loopIn for loop……infinitely",
+        "d. After for loopAfter for loopAfter for loop……..infinitely"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -754,6 +764,22 @@
         {
           "rejectedAnswer": "error",
           "timestamp": "2026-10-11T19:52:29Z"
+        },
+        {
+          "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
+          "timestamp": "2026-10-12T10:43:54Z"
+        },
+        {
+          "rejectedAnswer": "no output",
+          "timestamp": "2026-10-12T10:43:54Z"
+        },
+        {
+          "rejectedAnswer": "infinite loop",
+          "timestamp": "2026-10-12T10:43:54Z"
+        },
+        {
+          "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
+          "timestamp": "2026-10-12T10:43:54Z"
         }
       ]
     },
@@ -1037,17 +1063,21 @@
         "c. -1",
         "d. 0",
         "c. 0",
-        "d. -1"
+        "d. -1",
+        "a. 0",
+        "b. -1",
+        "c. 1",
+        "d. 2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:52:29Z"
+      "lastVerifiedAt": "2026-10-12T10:43:54Z"
     },
     {
       "question": "php.org is the official php resource.",
@@ -1835,17 +1865,20 @@
         "a. array_count",
         "b. count",
         "c. count_array",
-        "d. counts"
+        "d. counts",
+        "a. counts",
+        "b. array_count",
+        "d. count"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:52:29Z"
+      "lastVerifiedAt": "2026-10-12T10:43:54Z"
     },
     {
       "question": "What is the function of the ucfirst and lcfirst functions?",
@@ -1947,6 +1980,32 @@
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151137/w6-q5.PNG]]",
+      "answer": "no output",
+      "choices": [
+        "a. -6-7",
+        "b. -6-7-8",
+        "c. no output",
+        "d. infinite loop",
+        "a. no output",
+        "b. infinite loop",
+        "c. -6-7",
+        "d. -6-7-8"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "-6-7-8"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:33:34Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:33:34Z",
+      "lastVerifiedAt": "2026-10-12T10:43:54Z"
+    },
+    {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151141/w6-q9.PNG]]",
       "answer": "Error",
       "choices": [
@@ -1997,17 +2056,19 @@
         "a. A",
         "b. B",
         "c. D",
-        "d. C"
+        "d. C",
+        "b. D",
+        "c. B"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:16:32Z"
+      "lastVerifiedAt": "2026-10-12T10:43:54Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151151/q9.PNG]]",
@@ -2030,6 +2091,25 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
+    },
+    {
+      "question": "What will the following script output? [Image: WebDev2 shortquiz6 - [moodle-asset:150759/vvz.png]]",
+      "answer": "78",
+      "choices": [
+        "a. 78",
+        "b. 68",
+        "c. 98",
+        "d. 88"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T10:43:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T10:43:54Z"
     },
     {
       "question": "Which of the following are the five built-in functions provided by SQL?",
