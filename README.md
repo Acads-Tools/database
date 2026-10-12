@@ -113,6 +113,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `FILI6201` | FILI6201 | **150** | Active |
 | `FILI6301` | FILI6301 | **148** | Active |
 | `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
+| `HMS6301` | HMS6301 | **10** | Active |
 | `IT6200` | IT6200 | **19** | Active |
 | `IT6205A` | Information Assurance and Security 1 | **108** | Active |
 | `IT6206` | Information Assurance and Security 2 | **135** | Active |
