@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:09:10Z",
+  "updatedAt": "2026-10-12T11:09:28Z",
   "totalQuestions": 146,
   "tier": "verified",
   "questions": [
@@ -144,10 +144,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName, phoneNumber) VALUES ('Robert', 'Smith', '123-983-2929')\");",
@@ -166,10 +166,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
@@ -1398,10 +1398,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "The \"mysql_close()\" function allows you to close a MySQL connection?",
@@ -1415,10 +1415,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "The \"mysql_connect()\" function opens a MySQL connection?",
@@ -1466,10 +1466,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "The \"or die()\" part of a MySQL command will execute if the connection fails?",
@@ -1483,10 +1483,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.",
@@ -1697,10 +1697,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "The keystone of AJAX",
@@ -1916,17 +1916,20 @@
         "a. query();",
         "b. mysql_query()",
         "c. my_query();",
-        "d. mysql_queries();"
+        "d. mysql_queries();",
+        "a. my_query();",
+        "b. query();",
+        "c. mysql_query()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "This function allows you to close the current connection.",
@@ -2726,17 +2729,18 @@
         "c. Oracle Database",
         "b. MYSQL",
         "c. SQL+",
-        "d. SQL"
+        "d. SQL",
+        "d. SQL+"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
@@ -2829,17 +2833,20 @@
         "a. CREATE TABLE table_name (column_typecolumn_name);",
         "b. CREATE table_name (column_typecolumn_name);",
         "c. CREATE table_name (column_namecolumn_type);",
-        "d. CREATE TABLE table_name (column_namecolumn_type);"
+        "d. CREATE TABLE table_name (column_namecolumn_type);",
+        "a. CREATE TABLE table_name (column_namecolumn_type);",
+        "b. CREATE TABLE table_name (column_typecolumn_name);",
+        "d. CREATE table_name (column_typecolumn_name);"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:07:49Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:28Z"
     },
     {
       "question": "Which one of the following statements should be used to include a file?",
