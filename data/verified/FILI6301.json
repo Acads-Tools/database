@@ -1,8 +1,8 @@
 {
   "subjectCode": "FILI6301",
   "subjectName": "FILI6301",
-  "updatedAt": "2026-10-12T09:00:41Z",
-  "totalQuestions": 139,
+  "updatedAt": "2026-10-12T09:02:24Z",
+  "totalQuestions": 144,
   "tier": "verified",
   "questions": [
     {
@@ -609,6 +609,25 @@
       "lastVerifiedAt": "2026-10-11T19:53:50Z"
     },
     {
+      "question": "Ang pagsasalin ng idyoma ay binubuo ng _______ pamamaraan.",
+      "answer": "3",
+      "choices": [
+        "a. 4",
+        "b. 2",
+        "c. 5",
+        "d. 3"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T09:02:24Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
+    },
+    {
       "question": "Ang pagsasalin ng tula ay nararapat lamang na nasa anyong patula din",
       "answer": "True",
       "choices": [
@@ -747,10 +766,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:56:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:56:12Z"
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
     },
     {
       "question": "Ang sapat na kaalaman sa Gramatika nng dalwang wika ay mahusay na batayan sa isang mahusay na pagsasalin",
@@ -781,10 +800,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:56:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:56:12Z"
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
     },
     {
       "question": "Ang simili ay bahagi ng tayutay na naghahamabing",
@@ -1303,10 +1322,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:56:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:56:12Z"
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
     },
     {
       "question": "Inilalahad sa Hellenizer na layunin ng tagapagsalin na panatilihin ang orihinal na diwa at katangian ng kanilang isinasalin",
@@ -1429,6 +1448,25 @@
       "lastVerifiedAt": "2026-10-11T19:48:57Z"
     },
     {
+      "question": "Isang akdang pamapanitikan na nasusulat sa nayong tuluyan na karaniwang tumatalakay panlipunang isyu.",
+      "answer": "sanaysay",
+      "choices": [
+        "a. tula",
+        "b. kuwento",
+        "c. talumpati",
+        "d. sanaysay"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T09:02:24Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
+    },
+    {
       "question": "Isang akdang tuluyan na maaring mabasa sa isang upuan lamang at nag-iiwan ng kakintalan sa mambabasa.",
       "answer": "Maikling Kwento",
       "choices": [
@@ -1518,17 +1556,19 @@
         "a. Maikling kwento",
         "b. Sanaysay",
         "c. Tula",
-        "d. Alamat"
+        "d. Alamat",
+        "b. Tula",
+        "c. Sanaysay"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:56:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:56:12Z"
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
     },
     {
       "question": "Isinasaad dito ang pinakamasidhing kawilihan, dito makakamtan ng tauhan ang tagumpay o kabiguan.",
@@ -1685,6 +1725,44 @@
       "firstSeenAt": "2026-10-11T19:50:54Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:50:54Z"
+    },
+    {
+      "question": "Ito ay karaniwang pabigkas ang pagkakalahad na naglalaman ng saloobin o pananaw kaugnay sa isang paksa.",
+      "answer": "Talumpati",
+      "choices": [
+        "a. Sanaysay",
+        "b. Maikling kwento",
+        "c. tula",
+        "d. Talumpati"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T09:02:24Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
+    },
+    {
+      "question": "Ito ay kilala sa tawag na essaier sa bansang pranses na may kahulugang, pagtatangka.",
+      "answer": "sanaysay",
+      "choices": [
+        "a. talumpati",
+        "b. kuwento.",
+        "c. tula",
+        "d. sanaysay"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T09:02:24Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
     },
     {
       "question": "Kailangan ayusin ang pagkakasunod-sunod ng mga segment upang maging gramatikal,natural at hindi himig-salin.",
@@ -2066,6 +2144,23 @@
       "firstSeenAt": "2026-10-11T18:39:51Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:50:54Z"
+    },
+    {
+      "question": "May tatlong paraan sa pagsasalin ng idyoma",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T09:02:24Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T09:02:24Z"
     },
     {
       "question": "Naghihimig salin ang isang salin kung ito ay isinalin batay sa pagbibigay kahulugan sa mga salita at pahayag.",
