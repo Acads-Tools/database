@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T10:16:29Z",
+  "updatedAt": "2026-10-12T10:18:50Z",
   "totalQuestions": 150,
   "questions": [
     {
@@ -276,10 +276,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T10:16:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:16:29Z"
+      "lastVerifiedAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared outside a function.",
@@ -304,10 +304,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:16:29Z"
+      "lastVerifiedAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -318,10 +318,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:57:45Z"
+      "lastVerifiedAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Element can be placed onto a web page in a pre-checked fashion by setting the checked attribute",
@@ -332,10 +332,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:16:29Z"
+      "lastVerifiedAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Function is used to display structured information (type and value) about one or more variables.",
@@ -385,7 +385,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "Form"
+        "Form",
+        "HTML"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -393,7 +394,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:16:29Z"
+      "lastEvidenceAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.One of the main points of interaction between a user and a web site or application. They allow users to send data to the web site.",
@@ -420,10 +421,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T10:16:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:16:29Z"
+      "lastVerifiedAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP variables starts with what symbol.",
@@ -508,14 +509,17 @@
       "answer": ".",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "dot"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:57:45Z"
+      "lastVerifiedAt": "2026-10-11T18:57:45Z",
+      "lastEvidenceAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Version of PHP that introduces the use of superglobals",
@@ -702,7 +706,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "echo;print"
+        "echo;print",
+        "echo; print"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -710,7 +715,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T18:57:45Z"
+      "lastEvidenceAt": "2026-10-12T10:18:50Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. Which operator will check if two variables are the same?",
