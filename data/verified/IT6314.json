@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:10:01Z",
-  "totalQuestions": 148,
+  "updatedAt": "2026-10-12T11:10:25Z",
+  "totalQuestions": 149,
   "tier": "verified",
   "questions": [
     {
@@ -206,17 +206,19 @@
         "a. 123246",
         "b. Error",
         "c. 123123",
-        "d. 246"
+        "d. 246",
+        "c. 246",
+        "d. 123123"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:45Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "Facebook, wordpress uses php as script language.",
@@ -775,17 +777,19 @@
         "b. PHP",
         "d. jQuery",
         "b. Ajax",
-        "c. jQuery"
+        "c. jQuery",
+        "a. jQuery",
+        "b. HTML"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "Its a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -794,17 +798,20 @@
         "a. JavaScript",
         "b. AJAX",
         "c. PHP",
-        "d. HTML"
+        "d. HTML",
+        "a. AJAX",
+        "b. PHP",
+        "c. JavaScript"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "JavaScript Code can be called by using",
@@ -1033,17 +1040,20 @@
         "d. XMLHttpRequest",
         "a. XMLHttpRequest",
         "b. HTML Request",
-        "d. HTTPXMLHttpRequest"
+        "d. HTTPXMLHttpRequest",
+        "b. XMLHttpRequests",
+        "c. HTTPXMLHttpRequest",
+        "d. HTML Request"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "Originally PHP is known as \"Personal Home Pages\"",
@@ -1285,6 +1295,25 @@
       "lastVerifiedAt": "2026-10-12T10:57:01Z"
     },
     {
+      "question": "Returns header information",
+      "answer": "getAllResponseHeaders()",
+      "choices": [
+        "a. getAllResponsesHeaders()",
+        "b. getAllResponseHeader()",
+        "c. getAllResponseHeaders()",
+        "d. getsAllResponseHeaders()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:10:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+    },
+    {
       "question": "Returns the status-number of a request if \"OK\"",
       "answer": "200",
       "choices": [
@@ -1298,17 +1327,18 @@
         "d. 200",
         "b. 200",
         "c. 500",
-        "d. 300"
+        "d. 300",
+        "a. 200"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "Security is not an issue with JavaScript",
@@ -1322,10 +1352,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:45Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "Select * from employee where salary>10000 and dept_id=101; Which of the following fields are displayed as output?",
@@ -1405,17 +1435,21 @@
         "a. Continue",
         "b. Error",
         "c. OK",
-        "d. Cancel"
+        "d. Cancel",
+        "a. OK",
+        "b. Continue",
+        "c. Cancel",
+        "d. Error"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:39:09Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "The \"I\" in MySQLi stands for",
@@ -2983,17 +3017,21 @@
         "c. Jason Eich",
         "d. Brendan Smith",
         "a. Jason Eich",
-        "c. Brendan Eich"
+        "c. Brendan Eich",
+        "a. Wally Eich",
+        "b. Jason Eich",
+        "c. Brendan Smith",
+        "d. Brendan Eich"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:09:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-12T11:10:25Z"
     },
     {
       "question": "With SQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
