@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:08:34Z",
-  "totalQuestions": 164,
+  "updatedAt": "2026-10-12T11:09:10Z",
+  "totalQuestions": 165,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -180,17 +180,19 @@
         "b. There are more fields than values",
         "c. Nothing, everything is fine",
         "a. Nothing, everything is fine",
-        "c. There are more values than fields"
+        "c. There are more values than fields",
+        "b. Nothing, everything is fine",
+        "c. There are more fields than values"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "Consider the following code snippet : [Image: [moodle-asset:151190/q8.PNG]]",
@@ -278,17 +280,19 @@
         "b. my_db_select();",
         "c. mysql_select_db();",
         "a. mysql_select_db();",
-        "c. select_db();"
+        "c. select_db();",
+        "a. my_db_select();",
+        "b. mysql_select_db();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. Can hold an unlimited number of characters, and the text renders in a fixed-width font",
@@ -1528,17 +1532,21 @@
         "d. improve",
         "a. increase",
         "b. improvement",
-        "c. improved"
+        "c. improved",
+        "a. improve",
+        "b. increase",
+        "c. improvement",
+        "d. improved"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "The \"mysql_close()\" function allows you to close a MySQL connection?",
@@ -1552,10 +1560,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "The \"mysql_connect()\" function opens a MySQL connection?",
@@ -1603,10 +1611,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:37:10Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "The \"or die()\" part of a MySQL command will execute if the connection fails?",
@@ -2067,24 +2075,29 @@
     },
     {
       "question": "This function allows you to close the current connection.",
-      "answer": "",
+      "answer": "close();",
       "choices": [
         "a. closed();",
         "b. close();",
         "c. close_database();",
-        "d. mysql_close();"
+        "d. mysql_close();",
+        "a. close();",
+        "b. close_database();",
+        "c. mysql_close();",
+        "d. closed();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "mysql_close();"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-12T11:07:49Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:07:49Z"
+      "lastEvidenceAt": "2026-10-12T11:07:49Z",
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "This is Employee table. [Image: [moodle-asset:151160/q8.PNG]] Select * from employee where employee_id>1009; Which of the following employee_id will be displayed?",
@@ -3113,17 +3126,20 @@
         "d. MYSQL",
         "a. SQL+",
         "b. SQL",
-        "c. Oracle Database"
+        "c. Oracle Database",
+        "b. MYSQL",
+        "c. SQL+",
+        "d. SQL"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
@@ -3147,6 +3163,25 @@
       "lastVerifiedAt": "2026-10-12T10:58:42Z"
     },
     {
+      "question": "Which one of the following method is used to retrieve the number of rows affected by an INSERT, UPDATE, or DELETE query",
+      "answer": "affected_rows()",
+      "choices": [
+        "a. changed_rows()",
+        "b. new_rows()",
+        "c. affected_rows()",
+        "d. num_rows()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:09:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+    },
+    {
       "question": "Which one of the following methods is responsible for sending the query to the database?",
       "answer": "query()",
       "choices": [
@@ -3157,17 +3192,19 @@
         "a. query_send()",
         "b. sendquery()",
         "c. send_query()",
-        "d. query()"
+        "d. query()",
+        "b. query()",
+        "d. query_send()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "Which one of the following sorts rows in SQL?",
@@ -3217,17 +3254,19 @@
         "d. #include ‘filename’;",
         "a. include 'filename';",
         "b. @include 'filename';",
-        "c. #include ;"
+        "c. #include ;",
+        "a. #include ‘filename’;",
+        "d. #include ;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
       "question": "Which SQL statement is used to delete data from a database?",
