@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:08:10Z",
-  "totalQuestions": 142,
+  "updatedAt": "2026-10-12T11:08:34Z",
+  "totalQuestions": 144,
   "tier": "verified",
   "questions": [
     {
@@ -691,17 +691,21 @@
         "a. LIKE ^.*ton$",
         "b. LIKE ton$",
         "c. LIKE *ton",
-        "d. LIKE %qpt"
+        "d. LIKE %qpt",
+        "a. LIKE %qpt",
+        "b. LIKE ^.*ton$",
+        "c. LIKE ton$",
+        "d. LIKE *ton"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
     },
     {
       "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
@@ -961,10 +965,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
     },
     {
       "question": "MySQL was invented in the year:",
@@ -1284,6 +1288,25 @@
       "lastVerifiedAt": "2026-10-11T20:39:09Z"
     },
     {
+      "question": "Select * from employee where salary>10000 and dept_id=101; Which of the following fields are displayed as output?",
+      "answer": "All the field of employee relation",
+      "choices": [
+        "a. Salary, dept_id",
+        "b. Salary",
+        "c. Employee",
+        "d. All the field of employee relation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:08:34Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+    },
+    {
       "question": "Select name, course_id from instructor, teaches where instructor_ID= teaches_ID; This Query can be replaced by which one of the following ?",
       "answer": "Select name, course_id from instructor natural join teaches;",
       "choices": [
@@ -1464,17 +1487,20 @@
         "a. Where, from",
         "b. From, select",
         "c. From, where",
-        "d. Select, from"
+        "d. Select, from",
+        "a. From, select",
+        "b. From, where",
+        "c. Where, from"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
     },
     {
       "question": "The ________ clause is used to list the attributes desired in the result of a query.",
@@ -1760,6 +1786,34 @@
       ]
     },
     {
+      "question": "The query given below will not give an error. Which one of the following has to be replaced to get the desired output? Select ID, name, dept name, sal * 1.1 where instructor;",
+      "answer": "WHERE",
+      "choices": [
+        "a. Instructor",
+        "b. sal *1.1",
+        "c. WHERE",
+        "d. ID",
+        "a. WHERE",
+        "b. Instructor",
+        "c. ID",
+        "d. sal *1.1",
+        "d. WHERE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Instructor",
+        "ID"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:35:55Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T11:05:43Z",
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+    },
+    {
       "question": "The result of a SELECT statement can contain duplicate rows.",
       "answer": "b. False",
       "choices": [
@@ -1776,7 +1830,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-11T20:08:35Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-12T11:08:34Z"
+        }
+      ]
     },
     {
       "question": "The SQL keyword BETWEEN is used:",
@@ -2501,10 +2561,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
     },
     {
       "question": "Which of the following displays the unique values of the column. Select ________ dept_name from instructor;",
@@ -2513,17 +2573,21 @@
         "a. Name",
         "b. Distinct",
         "c. All",
-        "d. From"
+        "d. From",
+        "a. All",
+        "b. Name",
+        "c. From",
+        "d. Distinct"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
     },
     {
       "question": "Which of the following is the original purpose of SQL?",
@@ -2575,17 +2639,19 @@
         "b. Select empid from emp;",
         "a. Select empid from emp where empid = 10006;",
         "c. Select * from emp where empid = 10003;",
-        "d. Select empid where empid = 1009 and lastname = ‘JOHANN;"
+        "d. Select empid where empid = 1009 and lastname = ‘JOHANN;",
+        "b. Select empid from emp where empid = 10006;",
+        "c. Select empid from emp;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-12T11:08:34Z"
     },
     {
       "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:151153/q1.PNG]]",
@@ -2601,14 +2667,17 @@
         "d. Select name"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Select name"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-11T20:35:55Z",
+      "lastEvidenceAt": "2026-10-12T11:08:34Z"
     },
     {
       "question": "Which one of the following databases has PHP supported almost since the beginning?",
