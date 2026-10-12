@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T10:13:25Z",
-  "totalQuestions": 122,
+  "updatedAt": "2026-10-12T10:16:29Z",
+  "totalQuestions": 124,
   "tier": "verified",
   "questions": [
     {
@@ -224,6 +224,20 @@
       "lastVerifiedAt": "2026-10-11T20:37:10Z"
     },
     {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. Can hold an unlimited number of characters, and the text renders in a fixed-width font",
+      "answer": "textarea",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T10:16:29Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T10:16:29Z"
+    },
+    {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared outside a function.",
       "answer": "Global variable",
       "choices": [],
@@ -232,10 +246,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:57:45Z"
+      "lastVerifiedAt": "2026-10-12T10:16:29Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared within a function",
@@ -246,10 +260,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:57:45Z"
+      "lastVerifiedAt": "2026-10-12T10:16:29Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -274,10 +288,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+      "lastVerifiedAt": "2026-10-12T10:16:29Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Function is used to display structured information (type and value) about one or more variables.",
@@ -316,10 +330,24 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+      "lastVerifiedAt": "2026-10-12T10:16:29Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Other term use for Option buttons?",
+      "answer": "Radio button",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T10:16:29Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T10:16:29Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP variables starts with what symbol.",
@@ -330,10 +358,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:57:45Z"
+      "lastVerifiedAt": "2026-10-12T10:16:29Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP version currently in use on most websites and included several new features such as support for object-oriented programming",
@@ -375,7 +403,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:56:14Z"
+      "lastVerifiedAt": "2026-10-11T18:56:14Z",
+      "alternateAnswers": [
+        {
+          "answer": "period",
+          "timestamp": "2026-10-12T10:16:29Z"
+        }
+      ]
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Symbol used to combine 2 sting values to create one string.",
