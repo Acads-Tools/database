@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:07:49Z",
+  "updatedAt": "2026-10-12T11:08:10Z",
   "totalQuestions": 142,
   "tier": "verified",
   "questions": [
@@ -17,10 +17,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "AJAX is a programming language",
@@ -712,17 +712,21 @@
         "c. Table",
         "d. Field",
         "b. Table",
-        "c. Values"
+        "c. Values",
+        "a. Values",
+        "b. Field",
+        "c. Relation",
+        "d. Table"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "It refers to a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -920,17 +924,19 @@
       "choices": [
         "a. A Relational Database Management System",
         "b. A Programming language",
-        "c. A technique for writing reliable programs"
+        "c. A technique for writing reliable programs",
+        "b. A technique for writing reliable programs",
+        "c. A Programming language"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "MySQL runs on which operating systems?",
@@ -946,17 +952,19 @@
         "a. Linux and Mac OS-X only",
         "b. Unix and Linux only",
         "c. Any operating system at all",
-        "d. Unix, Linux, Windows and others"
+        "d. Unix, Linux, Windows and others",
+        "a. Unix and Linux only",
+        "c. Unix, Linux, Windows and others"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "MySQL was invented in the year:",
@@ -1289,17 +1297,20 @@
         "d. Select course_id from instructor join teaches;",
         "a. Select name ,course_id from instructor;",
         "b. Select name,course_id from teaches,instructor where instructor_id=course_id;",
-        "c. Select name, course_id from instructor natural join teaches;"
+        "c. Select name, course_id from instructor natural join teaches;",
+        "b. Select course_id from instructor join teaches;",
+        "c. Select name,course_id from teaches,instructor where instructor_id=course_id;",
+        "d. Select name, course_id from instructor natural join teaches;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "Server command that calls itself",
@@ -1863,17 +1874,22 @@
         "d. 1009, 1018",
         "a. 1001",
         "b. 1009, 1018",
-        "d. 1018"
+        "d. 1018",
+        "b. 1009, 1001, 1018",
+        "c. 1001"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "1009, 1001, 1018"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:01:41Z",
+      "lastEvidenceAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "To remove duplicate rows from the result set of a SELECT use the following keyword:",
@@ -1930,17 +1946,19 @@
         "d. Some sort of client program to access the databases",
         "a. FTP and Telnet",
         "b. Perl, PHP or Java",
-        "c. A Browser"
+        "c. A Browser",
+        "b. Some sort of client program to access the databases",
+        "d. FTP and Telnet"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "True or False - The following search statement will exclude any records that contain the term \"poodle.\" (dogs OR canines) NOT cats.",
@@ -2431,17 +2449,19 @@
       "choices": [
         "a. NOW()",
         "b. Time()",
-        "c. getTime()"
+        "c. getTime()",
+        "b. getTime()",
+        "c. Time()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "Which of the following are the five built-in functions provided by SQL?",
@@ -2472,17 +2492,19 @@
         "d. Add",
         "a. Insert",
         "b. Add",
-        "d. Update"
+        "d. Update",
+        "b. Alter",
+        "c. Insert"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "Which of the following displays the unique values of the column. Select ________ dept_name from instructor;",
@@ -2560,10 +2582,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:08:10Z"
     },
     {
       "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:151153/q1.PNG]]",
