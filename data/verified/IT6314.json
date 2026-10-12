@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:05:25Z",
-  "totalQuestions": 137,
+  "updatedAt": "2026-10-12T11:05:43Z",
+  "totalQuestions": 138,
   "tier": "verified",
   "questions": [
     {
@@ -17,10 +17,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "AJAX is a programming language",
@@ -675,10 +675,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
@@ -696,10 +696,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "It refers to a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -1819,17 +1819,20 @@
         "c. None of the above",
         "d. DISTINCT",
         "a. UNIQUE",
-        "b. NO DUPLICATE"
+        "b. NO DUPLICATE",
+        "b. DISTINCT",
+        "c. UNIQUE",
+        "d. None of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "To remove duplicate rows from the results of an SQL SELECT statement, the ________ qualifier specified must be included.",
@@ -1859,17 +1862,20 @@
         "a. A Browser",
         "b. FTP and Telnet",
         "c. Perl, PHP or Java",
-        "d. Some sort of client program to access the databases"
+        "d. Some sort of client program to access the databases",
+        "a. FTP and Telnet",
+        "b. Perl, PHP or Java",
+        "c. A Browser"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:08:35Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "True or False - The following search statement will exclude any records that contain the term \"poodle.\" (dogs OR canines) NOT cats.",
@@ -2312,10 +2318,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "Which of the following are the five built-in functions provided by SQL?",
@@ -2343,17 +2349,20 @@
         "a. Update",
         "b. Insert",
         "c. Alter",
-        "d. Add"
+        "d. Add",
+        "a. Insert",
+        "b. Add",
+        "d. Update"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "Which of the following displays the unique values of the column. Select ________ dept_name from instructor;",
@@ -2369,10 +2378,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z"
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "Which of the following is the original purpose of SQL?",
@@ -2574,6 +2583,25 @@
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
+      "question": "Which SQL statement is used to insert a new data in a database?",
+      "answer": "INSERT INTO",
+      "choices": [
+        "a. INSERT NEW",
+        "b. ADD",
+        "c. INSERT INTO",
+        "d. UPDATE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:05:43Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:05:43Z"
     },
     {
       "question": "Which SQL statement is used to insert new data in a database?",
