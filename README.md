@@ -123,6 +123,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `ITE6200` | Application Development and Emerging Technology | **146** | Active |
 | `ITE6202` | ITE6202 | **62** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
+| `MKTG6256` | MKTG6256 | **31** | Active |
 | `NSTP6102` | National Service Training Program 2 | **25** | Active |
 | `PHYED6102` | PHYED6102 | **15** | Active |
 | `PHYED6200` | PHYED6200 | **8** | Active |
