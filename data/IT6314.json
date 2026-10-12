@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:11:37Z",
-  "totalQuestions": 180,
+  "updatedAt": "2026-10-12T11:13:47Z",
+  "totalQuestions": 183,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -310,17 +310,20 @@
         "c. 'VA';",
         "d. SELECT NAME IN CUSTOMER WHERE STATE",
         "e. SELECT NAME FROM CUSTOMER WHERE STATE IN ('VA');",
-        "f. 'V';"
+        "f. 'V';",
+        "b. SELECT NAME IN CUSTOMER WHERE STATE",
+        "d. 'V';",
+        "f. SELECT NAME IN CUSTOMER WHERE STATE IN ('VA');"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:21Z"
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "Function that select database.",
@@ -913,17 +916,21 @@
         "a. all records with even partial criteria met are to be returned.",
         "b. all records meeting the full criteria are to be returned.",
         "c. all columns of the table are to be returned.",
-        "d. No correct answer"
+        "d. No correct answer",
+        "a. all records meeting the full criteria are to be returned.",
+        "b. all columns of the table are to be returned.",
+        "c. No correct answer",
+        "d. all records with even partial criteria met are to be returned."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
@@ -1154,6 +1161,25 @@
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:11:21Z"
+    },
+    {
+      "question": "MySQL COUNT() function returns",
+      "answer": "a count of number of non-NULL values of a given expression",
+      "choices": [
+        "a. a count of number of non-NULL values of a given expression",
+        "b. None of the choices",
+        "c. a count of number of string values of a given expression",
+        "d. a count of number of values of a given expression"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:13:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "MySQL is",
@@ -1811,17 +1837,19 @@
         "c. DROP TABLE CUSTOMER;",
         "d. DELETE TABLE CUSTOMER;",
         "b. DELETE TABLE CUSTOMER;",
-        "d. UPDATE TABLE CUSTOMER;"
+        "d. UPDATE TABLE CUSTOMER;",
+        "a. DROP TABLE CUSTOMER;",
+        "c. REMOVE TABLE CUSTOMER;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:21Z"
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "The default file extension for PHP files is \".php\".",
@@ -1959,6 +1987,25 @@
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T10:40:04Z"
+    },
+    {
+      "question": "The HAVING clause does which of the following?",
+      "answer": "Acts like a WHERE clause but is used for groups rather than rows.",
+      "choices": [
+        "a. Acts like a WHERE clause but is used for groups rather than rows.",
+        "b. Acts like a WHERE clause but is used for columns rather than groups.",
+        "c. Acts like a WHERE clause but is used for rows rather than columns.",
+        "d. Acts EXACTLY like a WHERE clause."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:13:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "The INSERT INTO statement is not used to add new records to a database table?",
@@ -2132,17 +2179,19 @@
         "a. as a wildcard.",
         "b. for ranges.",
         "c. to limit the columns displayed.",
-        "d. None of the above is correct."
+        "d. None of the above is correct.",
+        "b. None of the above is correct.",
+        "d. for ranges."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "The SQL keyword(s) ________ is used with wildcards.",
@@ -2181,6 +2230,25 @@
       "firstSeenAt": "2026-10-12T11:11:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:11:21Z"
+    },
+    {
+      "question": "The SQL WHERE clause:",
+      "answer": "limits the row data that are returned.",
+      "choices": [
+        "a. limits the column data that are returned.",
+        "b. limits the row data that are returned.",
+        "c. Limits both the column data and row data returned.",
+        "d. No correct answer"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:13:47Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "The wildcard in a WHERE clause is useful when?",
@@ -2526,7 +2594,10 @@
         "a. It inserts all the rows into 'table2' table from the identical table 'table1'.",
         "b. None of the choices",
         "c. It creates 'table2' which is identical in structure only (no data) to table 'table1'.",
-        "d. It is not a valid MySQL command"
+        "d. It is not a valid MySQL command",
+        "a. None of the choices",
+        "b. It is not a valid MySQL command",
+        "d. It inserts all the rows into 'table2' table from the identical table 'table1'."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2538,7 +2609,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:10:44Z"
+      "lastEvidenceAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "What does the following command do? SELECT pub_name,LENGTH(pub_name) FROM publisher WHERE LENGTH(pub_name)>=20;",
@@ -3353,17 +3424,19 @@
         "a. To define the data structures",
         "b. To specify the syntax and semantics of SQL manipulation language",
         "c. All of the above.",
-        "d. To specify the syntax and semantics of SQL data definition language"
+        "d. To specify the syntax and semantics of SQL data definition language",
+        "a. To specify the syntax and semantics of SQL manipulation language",
+        "b. To define the data structures"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "Which of the following statement is not true about MySQL DROP command?",
@@ -3621,17 +3694,18 @@
         "d. None of the above",
         "a. REMOVE",
         "b. DELETE",
-        "c. COLLAPSE"
+        "c. COLLAPSE",
+        "c. REMOVE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:21Z"
+      "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
       "question": "Which SQL statement is used to insert a new data in a database?",
