@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:11:21Z",
-  "totalQuestions": 157,
+  "updatedAt": "2026-10-12T11:11:37Z",
+  "totalQuestions": 158,
   "tier": "verified",
   "questions": [
     {
@@ -34,10 +34,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:45Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "Ajax Stands for",
@@ -51,17 +51,18 @@
         "b. Asynchronous JavaScript And XML.",
         "c. Asynchronous JavaScript And XHML.",
         "b. Asynchronous JavaScripts And XML.",
-        "d. Asynchronous JavaScript And XHML."
+        "d. Asynchronous JavaScript And XHML.",
+        "d. Asynchronous JavaScript And XML."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "An object-oriented computer programming language commonly used to create interactive effects within web browsers",
@@ -848,17 +849,21 @@
         "a. Preprocessor",
         "b. Event",
         "c. Function/Method",
-        "d. Trigger"
+        "d. Trigger",
+        "a. Function/Method",
+        "b. Trigger",
+        "c. Event",
+        "d. Preprocessor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:40:14Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "Multiple choice. Select the best answer. What will be the output of the following PHP code ?",
@@ -1333,17 +1338,20 @@
         "a. getAllResponsesHeaders()",
         "b. getAllResponseHeader()",
         "c. getAllResponseHeaders()",
-        "d. getsAllResponseHeaders()"
+        "d. getsAllResponseHeaders()",
+        "b. getsAllResponseHeaders()",
+        "c. getAllResponseHeader()",
+        "d. getAllResponseHeaders()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:10:25Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "Returns the status-number of a request if \"OK\"",
@@ -1360,17 +1368,18 @@
         "b. 200",
         "c. 500",
         "d. 300",
-        "a. 200"
+        "a. 200",
+        "a. 500"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "Security is not an issue with JavaScript",
@@ -1384,10 +1393,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "Select * from employee where salary>10000 and dept_id=101; Which of the following fields are displayed as output?",
@@ -1448,17 +1457,19 @@
         "a. $_SERVER['PHP_SELFIE']",
         "b. $_SERVER['PHP_SELF']",
         "c. $_SERVERS['PHP_SELF']",
-        "d. $_SERVER['PHP_SELFS']"
+        "d. $_SERVER['PHP_SELFS']",
+        "b. $_SERVERS['PHP_SELF']",
+        "c. $_SERVER['PHP_SELF']"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "Status 200 means",
@@ -1471,17 +1482,18 @@
         "a. OK",
         "b. Continue",
         "c. Cancel",
-        "d. Error"
+        "d. Error",
+        "a. Cancel"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "The \"I\" in MySQLi stands for",
@@ -1824,17 +1836,18 @@
         "d. XMLHttpRequests",
         "a. XMLHttpRequest",
         "c. XMLHttpRequests",
-        "d. XMLHttpsRequest"
+        "d. XMLHttpsRequest",
+        "b. XMLHttpRequests"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "The logical operator && stands for?",
@@ -2294,6 +2307,23 @@
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T10:39:08Z"
+    },
+    {
+      "question": "True or False. JavaScript can be inserted into any web page regardless of the file extension.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:11:37Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
       "question": "Version 4 of php supports global variables $Get etc. (v4.1)",
