@@ -1,9 +1,25 @@
 {
   "subjectCode": "PHYED6102",
   "subjectName": "PHYED6102",
-  "updatedAt": "2026-10-11T18:32:45Z",
-  "totalQuestions": 15,
+  "updatedAt": "2026-10-12T12:02:14Z",
+  "totalQuestions": 21,
   "questions": [
+    {
+      "question": "[____: Floor skill] help improve control and coordination of the body parts besides enhancing grace, form and creativity in combining new body movements.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Floor skill"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T12:02:14Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T12:02:14Z"
+    },
     {
       "question": "[____: Rhythm] is a regular recurrence of accented and unaccented beats.",
       "answer": "Rhythm",
@@ -19,6 +35,42 @@
       "lastVerifiedAt": "2026-10-11T18:32:45Z"
     },
     {
+      "question": "A type of dumbbell that offer a more convenient way to adjust or change weights.",
+      "answer": "selectorized",
+      "choices": [
+        "a. fixed weight",
+        "b. selectorized",
+        "c. adjustable",
+        "d. all of the choices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T12:02:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:02:14Z"
+    },
+    {
+      "question": "Dumbbells can be made out of any wood, as well.",
+      "answer": "False",
+      "choices": [
+        "a. False",
+        "b. True"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T12:02:14Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:02:14Z"
+    },
+    {
       "question": "Exercises in gymnastics can help develop good [____: Posture] .",
       "answer": "Posture",
       "choices": [],
@@ -27,10 +79,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:31:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:31:53Z"
+      "lastVerifiedAt": "2026-10-12T12:02:14Z"
     },
     {
       "question": "Gymnastics training must be done at an early age to improve [____: Flexibility] .",
@@ -59,6 +111,22 @@
       "firstSeenAt": "2026-10-11T18:29:44Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:32:45Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A dumbbell consists of two [____: equal] weights attached to a handle.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "equal"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T12:02:14Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T12:02:14Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A dumbbell consists of two [____: Square] weights attached to a handle.",
@@ -105,6 +173,22 @@
       "lastEvidenceAt": "2026-10-11T18:32:45Z"
     },
     {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Using the wrong kind of dumbbell may [____: injure] the muscles.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "injure"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T12:02:14Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T12:02:14Z"
+    },
+    {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Wand exercises are ideal for [____: Flexibility] value in the aims and the shoulder girdle.",
       "answer": "Flexibility",
       "choices": [],
@@ -117,6 +201,22 @@
       "firstSeenAt": "2026-10-11T18:29:44Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:32:45Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Wands are made of hard wood or rattan of about [____: 30] inches long.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "30"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T12:02:14Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T12:02:14Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Wands are made of hard wood or rattan of about [____: 36 to 39] inches long.",
@@ -200,17 +300,20 @@
         "a. Arch jump",
         "b. Overead reach",
         "c. Crouch jump",
-        "d. Hops"
+        "d. Hops",
+        "a. Crouch jump",
+        "c. Hops",
+        "d. Arch jump"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:29:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:29:44Z"
+      "lastVerifiedAt": "2026-10-12T12:02:14Z"
     },
     {
       "question": "Which of the following is not an example of a floor exercise in standing position?",
@@ -225,7 +328,17 @@
         "a. One leg balance",
         "b. Front scale",
         "c. Lunge position",
-        "d. Bridge stand"
+        "d. Bridge stand",
+        "a. Standing arch back",
+        "b. Moderate arabesque",
+        "c. Supine arch",
+        "d. Straddle stand",
+        "e. Front scale",
+        "f. Arabesque",
+        "a. Arabesque",
+        "b. Lunge position",
+        "c. Bridge stand",
+        "d. One leg balance"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -238,7 +351,17 @@
       "firstSeenAt": "2026-10-11T18:29:44Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:29:44Z",
-      "lastEvidenceAt": "2026-10-11T18:31:53Z"
+      "lastEvidenceAt": "2026-10-11T18:31:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "Bridge stand",
+          "timestamp": "2026-10-12T12:02:14Z"
+        },
+        {
+          "answer": "Bridge stand",
+          "timestamp": "2026-10-12T12:02:14Z"
+        }
+      ]
     }
   ]
 }
