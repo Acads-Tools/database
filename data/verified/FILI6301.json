@@ -1,8 +1,8 @@
 {
   "subjectCode": "FILI6301",
   "subjectName": "FILI6301",
-  "updatedAt": "2026-10-12T09:05:29Z",
-  "totalQuestions": 144,
+  "updatedAt": "2026-10-12T09:05:49Z",
+  "totalQuestions": 145,
   "tier": "verified",
   "questions": [
     {
@@ -236,10 +236,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z",
+      "lastVerifiedAt": "2026-10-12T09:05:49Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -376,17 +376,19 @@
         "d. Manunulat",
         "a. Wika",
         "b. Manunulat",
-        "d. Akda"
+        "d. Akda",
+        "c. Wika",
+        "d. Mambabasa"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:02:09Z"
+      "lastVerifiedAt": "2026-10-12T09:05:49Z"
     },
     {
       "question": "Ang LEDCO at SLATE ang nanguna sa pagsasagawa ng proyekto para sa mga pagsasalin ng akdang pampanitikan mula sa iba't ibang rehiyon.",
@@ -417,10 +419,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:02:09Z"
+      "lastVerifiedAt": "2026-10-12T09:05:49Z"
     },
     {
       "question": "Ang mga akdang afro-Asian ay sinumulang isalin noong_______________.",
@@ -598,10 +600,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:02:09Z"
+      "lastVerifiedAt": "2026-10-12T09:05:49Z"
     },
     {
       "question": "Ang pagsasalin ay inihahalintulad sa pagsasalin ng isang basong tubig sa ibang baso.",
@@ -640,6 +642,33 @@
       "lastVerifiedAt": "2026-10-12T09:02:24Z"
     },
     {
+      "question": "Ang pagsasalin ng tula ay isang larangan na nalalagay sa pagbuo ng isang malayang tula, ito ay ipinaliwanag ni ______________.",
+      "answer": "New Mark",
+      "choices": [
+        "a. Santiago",
+        "b. Nida",
+        "c. New Mark",
+        "d. Savory",
+        "b. Savory",
+        "d. Nida",
+        "a. New Mark",
+        "c. Savory",
+        "d. Santiago"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Savory"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:48:46Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T20:02:09Z",
+      "lastVerifiedAt": "2026-10-12T09:05:49Z"
+    },
+    {
       "question": "Ang pagsasalin ng tula ay nararapat lamang na nasa anyong patula din",
       "answer": "True",
       "choices": [
@@ -653,10 +682,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:48:46Z",
+      "lastVerifiedAt": "2026-10-12T09:05:49Z",
       "alternateAnswers": [
         {
           "answer": "a. True",
@@ -761,10 +790,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:02:09Z"
+      "lastVerifiedAt": "2026-10-12T09:05:49Z"
     },
     {
       "question": "Ang sanaysay ay isang uri ng prosa",
@@ -1271,11 +1300,15 @@
         "a. Wika",
         "b. Suliranin",
         "b. Panimula",
-        "c. Suliranin"
+        "c. Suliranin",
+        "a. Tunggalian",
+        "c. Wika",
+        "d. Suliranin"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "Tunggalian"
+        "Tunggalian",
+        "Wika"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -1283,7 +1316,7 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T18:48:46Z",
+      "lastEvidenceAt": "2026-10-12T09:05:49Z",
       "lastVerifiedAt": "2026-10-11T20:02:09Z"
     },
     {
@@ -1489,17 +1522,19 @@
         "a. Alamat",
         "b. Tula",
         "c. Sanaysay",
-        "d. Maikling Kwento"
+        "d. Maikling Kwento",
+        "a. Maikling Kwento",
+        "d. Alamat"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:02:09Z"
+      "lastVerifiedAt": "2026-10-12T09:05:49Z"
     },
     {
       "question": "Isang gawaing mabusisi ngunit nakatutulong sa larangan ng pagsasalin.",
@@ -1511,17 +1546,21 @@
         "d. Alterasyon",
         "b. Kultibasyon",
         "c. Alterasyon",
-        "d. Preperasyon"
+        "d. Preperasyon",
+        "a. Kultibasyon",
+        "b. Alterasyon",
+        "c. Preperasyon",
+        "d. Segmentasyon"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:02:09Z"
+      "lastVerifiedAt": "2026-10-12T09:05:49Z"
     },
     {
       "question": "Isang katangian ng tula kung saan itinatago ng manunulat ang kahulugan ng mga salita.",
