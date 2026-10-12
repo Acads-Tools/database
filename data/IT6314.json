@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T10:39:08Z",
+  "updatedAt": "2026-10-12T10:40:04Z",
   "totalQuestions": 150,
   "questions": [
     {
@@ -640,19 +640,20 @@
     },
     {
       "question": "Identification. Write your answer on the space provided. Symbol use as identical",
-      "answer": "",
+      "answer": "===",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "=="
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:39:08Z"
+      "lastEvidenceAt": "2026-10-12T10:39:08Z",
+      "lastVerifiedAt": "2026-10-12T10:40:04Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. The basic assignment operator in PHP is [____: =]",
@@ -727,10 +728,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+      "lastVerifiedAt": "2026-10-12T10:40:04Z"
     },
     {
       "question": "If a PHP script opens a MySQL connection, the script will automatically close the connection after the script has finished executing?",
@@ -756,17 +757,19 @@
         "a. 12",
         "b. 10",
         "c. 11",
-        "d. 13"
+        "d. 13",
+        "b. 11",
+        "c. 10"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+      "lastVerifiedAt": "2026-10-12T10:40:04Z"
     },
     {
       "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
@@ -1575,6 +1578,10 @@
         {
           "answer": "True",
           "timestamp": "2026-10-11T19:06:05Z"
+        },
+        {
+          "answer": "True",
+          "timestamp": "2026-10-12T10:40:04Z"
         }
       ]
     },
@@ -1585,17 +1592,21 @@
         "a. $x = $y – $x;",
         "b. y = $y – $x;",
         "c. $y = $x – $y;",
-        "d. $x = $x – $y;"
+        "d. $x = $x – $y;",
+        "a. $x = $x – $y;",
+        "b. $y = $x – $y;",
+        "c. y = $y – $x;",
+        "d. $x = $y – $x;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:04:05Z"
+      "lastVerifiedAt": "2026-10-12T10:40:04Z"
     },
     {
       "question": "The INSERT INTO statement is not used to add new records to a database table?",
@@ -1656,10 +1667,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:39:08Z",
+      "lastVerifiedAt": "2026-10-12T10:40:04Z",
       "alternateAnswers": [
         {
           "answer": "NOT",
@@ -1686,6 +1697,14 @@
         {
           "rejectedAnswer": "OR",
           "timestamp": "2026-10-12T10:39:08Z"
+        },
+        {
+          "rejectedAnswer": "OR",
+          "timestamp": "2026-10-12T10:40:04Z"
+        },
+        {
+          "rejectedAnswer": "NOT",
+          "timestamp": "2026-10-12T10:40:04Z"
         }
       ]
     },
@@ -1901,10 +1920,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:09:33Z"
+      "lastVerifiedAt": "2026-10-12T10:40:04Z"
     },
     {
       "question": "True or False - The operator AND, when used to link two concept terms (e.g. children and violence) will retrieve only those records that contain both concept terms.",
