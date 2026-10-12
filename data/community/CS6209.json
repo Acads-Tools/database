@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-12T11:58:21Z",
+  "updatedAt": "2026-10-12T12:06:05Z",
   "totalQuestions": 119,
   "questions": [
     {
@@ -116,17 +116,19 @@
         "c. None of the mentioned",
         "d. User’s end",
         "a. None of the mentioned",
-        "c. Developer’s & User’s end"
+        "c. Developer’s & User’s end",
+        "c. User’s end",
+        "d. None of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "An ________________ process simplifies verification. If you develop software by adding small increments of functionality, then, for verification, you only need to deal with the added portion",
@@ -233,17 +235,19 @@
         "d. White Box & Black Box Testing",
         "a. None of the mentioned",
         "c. White Box & Black Box Testing",
-        "d. White Box Testing"
+        "d. White Box Testing",
+        "b. None of the mentioned",
+        "c. Black Box Testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "Build & Fix Model is suitable for programming exercises of ___________ LOC (Line of Code).",
@@ -402,17 +406,22 @@
         "c. practically possible",
         "d. always possible",
         "a. impractical but possible",
-        "b. impractical and impossible"
+        "b. impractical and impossible",
+        "b. always possible",
+        "d. impractical and impossible"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "impractical and impossible"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-11T19:37:11Z",
+      "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "Explain what is meant by PRODUCT with reference to one of the eight principles as per the ACM/IEEE Code of Ethics ?",
@@ -701,17 +710,19 @@
         "a. Bug",
         "b. Failure",
         "c. Fault",
-        "d. Corrupted"
+        "d. Corrupted",
+        "b. Fault",
+        "c. Failure"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "It is carried out to test functionality of the program and also called ‘Behavioral’ testing.",
@@ -729,10 +740,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "It is conducted to test program and its implementation, in order to improve code efficiency or structure. It is also known as ‘Structural’ testing.",
@@ -743,17 +754,20 @@
         "c. Black&White Testing",
         "d. Black-box Testing",
         "b. Black-box Testing",
-        "d. White-box Testing"
+        "d. White-box Testing",
+        "a. Black-box Testing",
+        "b. Black&White Testing",
+        "c. Blackout Testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "It is important in designing software that is free from unnatural restrictions and limitations.",
@@ -806,17 +820,20 @@
         "c. Checking",
         "d. Verification",
         "b. Verification",
-        "d. All of the above"
+        "d. All of the above",
+        "a. All of the above",
+        "b. Checking",
+        "c. Validation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "It is said to be the inability of the system to perform the desired task.",
@@ -827,17 +844,19 @@
         "c. Error",
         "d. Failure",
         "a. Bug",
-        "b. Fault"
+        "b. Fault",
+        "b. Failure",
+        "d. Bug"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "It is the process of confirming if the software is meeting the business requirements, and is developed adhering to the proper specifications and methodologies.",
@@ -849,17 +868,22 @@
         "d. Checking",
         "a. Validation",
         "c. Checking",
-        "d. Verification"
+        "d. Verification",
+        "b. Checking",
+        "d. All of the above"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "All of the above"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-11T19:37:11Z",
+      "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "It refers to computer programs and the manuals (if any) that support them.",
@@ -957,17 +981,22 @@
         "d. None of the mentioned",
         "a. Bar chart",
         "b. Control chart",
-        "c. Run chart"
+        "c. Run chart",
+        "a. None of the mentioned",
+        "d. Run chart"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Control chart"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-11T19:37:11Z",
+      "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "Maintenance is classified into how many categories ?",
@@ -997,17 +1026,20 @@
         "c. Sanity testing",
         "d. Retesting",
         "a. Retesting",
-        "d. Breadth test and depth test"
+        "d. Breadth test and depth test",
+        "a. Confirmation testing",
+        "b. Sanity testing",
+        "c. Breadth test and depth test"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "Most functional programming languages use ______________ as their type systems. λ-expressions are executed by evaluating them as they occur.",
@@ -1373,17 +1405,20 @@
         "d. Cause-effect graphing",
         "a. Equivalence class",
         "c. Cause-effect graphing",
-        "d. Boundary values"
+        "d. Boundary values",
+        "a. Pair-wise Testing",
+        "b. Boundary values",
+        "d. Equivalence class"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "The input is divided into similar classes. If one element of a class passes the test, it is assumed that all the class is passed.",
@@ -1395,17 +1430,20 @@
         "d. Pair-wise Testing",
         "b. Pair-wise Testing",
         "c. Equivalence class",
-        "d. Cause-effect graphing"
+        "d. Cause-effect graphing",
+        "a. Pair-wise Testing",
+        "b. Boundary values",
+        "d. Equivalence class"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "The modification of the software to match changes in the ever changing environment, falls under which category of software maintenance?",
@@ -1635,17 +1673,19 @@
         "c. Bug",
         "d. Fault",
         "a. Failure",
-        "b. Error"
+        "b. Error",
+        "b. Fault",
+        "d. Error"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "These are the policies that govern the operation of a computer system.",
@@ -1995,10 +2035,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "What are the various Testing Levels?",
@@ -2009,17 +2049,19 @@
         "c. System Testing",
         "d. Unit Testing",
         "c. Unit Testing",
-        "d. System Testing"
+        "d. System Testing",
+        "a. All of the mentioned",
+        "b. Integration Testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "What is Cyclomatic complexity?",
@@ -2032,17 +2074,19 @@
         "a. Yellow box testing",
         "b. Black box testing",
         "c. Green box testing",
-        "d. White box testing"
+        "d. White box testing",
+        "b. Yellow box testing",
+        "d. Green box testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "What is the major drawback of using RAD Model?",
@@ -2280,17 +2324,21 @@
         "d. Condition Coverage",
         "a. Condition Coverage",
         "c. All of the mentioned",
-        "d. Decision Testing"
+        "d. Decision Testing",
+        "a. Decision Testing",
+        "b. Condition Coverage",
+        "c. Statement Testing",
+        "d. All of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "Which of the following property does not correspond to a good Software Requirements Specification (SRS) ?",
@@ -2390,17 +2438,20 @@
         "c. None of the mentioned",
         "d. Finding broken code",
         "b. None of the mentioned",
-        "c. Evaluating deliverable to find errors"
+        "c. Evaluating deliverable to find errors",
+        "a. None of the mentioned",
+        "b. Finding broken code",
+        "d. A stage of all projects"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "Which one of the following is not a phase of Prototyping Model?",
@@ -2516,17 +2567,19 @@
         "a. Structural testing",
         "b. None of the mentioned",
         "c. Error guessing technique",
-        "d. Design based testing"
+        "d. Design based testing",
+        "a. Error guessing technique",
+        "d. None of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:37:11Z"
+      "lastVerifiedAt": "2026-10-12T12:06:05Z"
     },
     {
       "question": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",
