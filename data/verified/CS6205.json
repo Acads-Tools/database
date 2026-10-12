@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-12T11:31:15Z",
-  "totalQuestions": 107,
+  "updatedAt": "2026-10-12T11:38:38Z",
+  "totalQuestions": 113,
   "tier": "verified",
   "questions": [
     {
@@ -386,17 +386,19 @@
         "b. current state, unprocessed input, stack content",
         "c. unprocessed input, stack content, current state",
         "a. current state, unprocessed input, stack content",
-        "b. current state, stack content, unprocessed input"
+        "b. current state, stack content, unprocessed input",
+        "b. unprocessed input, stack content, current state",
+        "c. current state, unprocessed input, stack content"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "A pushdown automaton is a way to implement a context-free grammar in a similar way to design DFA for a regular grammar.",
@@ -646,6 +648,23 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Blank symbol",
+      "answer": "∆",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Q"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:45:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:49:41Z",
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
+    },
+    {
       "question": "Computers are general purpose because they can perform many different tasks.",
       "answer": "True",
       "choices": [
@@ -739,6 +758,42 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Finite set of input alphabets",
+      "answer": "∑",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Γ",
+        "q0"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:45:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:49:41Z",
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
+    },
+    {
+      "question": "Finite set of states",
+      "answer": "Q",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "F",
+        "∆"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:45:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:49:41Z",
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
+    },
+    {
       "question": "For a regular expression ‘a’, we can construct the following FA: [Image: [moodle-asset:39744/FA-a.PNG]]",
       "answer": "True",
       "choices": [
@@ -767,10 +822,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "For every pair of regular expressions R and S, the languages denoted by R(SR)* and (RS)*R are the same.",
@@ -911,17 +966,19 @@
         "a. Type-3 grammar",
         "b. Type-1 grammar",
         "c. Type-0 grammar",
-        "d. Type-2 grammars"
+        "d. Type-2 grammars",
+        "b. Type-3 grammar",
+        "d. Type-1 grammar"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "IT generate recursively enumerable languages. The productions have no restrictions and phase structure grammar including all formal grammars. They generate the languages that are recognized by a Turing machine.",
@@ -933,17 +990,19 @@
         "d. Type-0 grammars",
         "a. Type-2 grammars",
         "b. Type-3 grammars",
-        "c. Type-1 grammars"
+        "c. Type-1 grammars",
+        "b. Type-0 grammars",
+        "d. Type-1 grammars"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "It is a unary operator on a set of symbols or strings, that gives the infinite set of all possible strings of all possible lengths.",
@@ -1011,10 +1070,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "It starts from the bottom with the string and comes to the start symbol using a parse tree.",
@@ -1062,10 +1121,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "Languages that are generated by context-free grammars are regular languages",
@@ -1254,6 +1313,42 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Set of all tape symbols",
+      "answer": "Γ",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "δ",
+        "Q"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:45:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:49:41Z",
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
+    },
+    {
+      "question": "Set of final or accepting states",
+      "answer": "F",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "q0",
+        "∑"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:45:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:49:41Z",
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
+    },
+    {
       "question": "Sets are usually designated with small letters.",
       "answer": "False",
       "choices": [
@@ -1270,6 +1365,24 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Starting state",
+      "answer": "q0",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "∑",
+        "Q"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:45:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:49:41Z",
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
+    },
+    {
       "question": "The __________ of a Turing machine depends on the current state of finite control and the tape symbol present in the input tape.",
       "answer": "single move",
       "choices": [
@@ -1281,10 +1394,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "The entity which generate Language is termed as:",
@@ -1590,10 +1703,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "The top symbol is read and removed.",
@@ -1650,11 +1763,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T18:45:32Z",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "Turing hypothesis believed that a function is said to be computable if and only if it can be computed by a Turing machine.",
@@ -1668,10 +1781,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "Types of parser:",
@@ -1754,10 +1867,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "Which among the following is not a part of the Context free grammar tuple?",
@@ -1769,17 +1882,19 @@
         "d. Production",
         "a. Variable",
         "b. Production",
-        "d. Start symbol"
+        "d. Start symbol",
+        "b. End symbol",
+        "c. Start symbol"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:49:41Z"
+      "lastVerifiedAt": "2026-10-12T11:38:38Z"
     },
     {
       "question": "Which of the following statement is false?",
@@ -1796,14 +1911,16 @@
         "d. Recursively ennumerable language is the super set of regular language",
         "a. Context sensitive language is a subset of context free language",
         "d. Regular language is the subset of context sensitive language",
-        "a. Context free language is the subset of context sensitive language"
+        "a. Context free language is the subset of context sensitive language",
+        "b. Regular language is the subset of context sensitive language",
+        "c. Context sensitive language is a subset of context free language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-12T11:38:38Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
