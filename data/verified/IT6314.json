@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-11T20:42:51Z",
-  "totalQuestions": 117,
+  "updatedAt": "2026-10-12T10:00:26Z",
+  "totalQuestions": 120,
   "tier": "verified",
   "questions": [
     {
@@ -302,10 +302,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:53:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:46Z"
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Is a line that is not read/executed as part of the program.",
@@ -400,10 +400,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:53:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:46Z"
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Version of PHP what uses namespace support late static binding",
@@ -414,10 +414,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:46Z"
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.What year did PHP began its development?",
@@ -470,10 +470,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:52:15Z"
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. The basic assignment operator in PHP is [____: =]",
@@ -782,6 +782,25 @@
       "lastVerifiedAt": "2026-10-11T20:40:14Z"
     },
     {
+      "question": "Originally PHP is known as \"Personal Home Pages\"",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T10:00:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
+    },
+    {
       "question": "Originally PHP is known as PHP: Hypertext Preprocessor (Personal Home Page)",
       "answer": "False",
       "choices": [
@@ -831,6 +850,23 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:53:46Z"
+    },
+    {
+      "question": "PHP is one of the most widely used and recognizable web technology use on the internet.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T10:00:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "PHP is proprietary software.",
@@ -905,6 +941,23 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
+    },
+    {
+      "question": "php.org is the official php resource.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T10:00:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "Returns the status-number of a request if \"OK\"",
@@ -1164,10 +1217,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:46Z"
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "The following comparison condition would return TRUE or FALSE [Image: sad - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/sad] 3 6)",
@@ -2173,10 +2226,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:53:46Z"
+      "lastVerifiedAt": "2026-10-12T10:00:26Z"
     },
     {
       "question": "XMLHttpRequest object function that cancel request.",
