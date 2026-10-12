@@ -103,6 +103,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 
 | Subject Code | Course Title | Verified Questions | Status |
 | :--- | :--- | :---: | :--- |
+| `BAMM6301` | BAMM6301 | **59** | Active |
 | `CS6204` | Computer Architecture and Organization | **110** | Active |
 | `CS6205` | Automata Theory and Formal Languages | **122** | Active |
 | `CS6206` | Principles of Operating Systems | **165** | Active |
