@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-12T12:06:05Z",
+  "updatedAt": "2026-10-12T12:08:13Z",
   "totalQuestions": 117,
   "tier": "verified",
   "questions": [
@@ -188,11 +188,13 @@
         "d. ii, i, v, iv, iii",
         "a. iii, i, ii",
         "b. iii, ii, i, v, iv",
-        "c. iii, i, ii,v, iv"
+        "c. iii, i, ii,v, iv",
+        "a. iii, ii, i, v, iv"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "iii, ii, i, v, iv"
+        "iii, ii, i, v, iv",
+        "iii, i, ii,v, iv"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -201,7 +203,7 @@
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:32:33Z",
-      "lastEvidenceAt": "2026-10-12T11:58:21Z"
+      "lastEvidenceAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "As per an IBM report, “31%of the project get cancelled before they are completed, 53% overrun their cost estimates by an average of 189% and for every 100 projects, there are 94 restarts”.What is the reason for these statistics ?",
@@ -299,17 +301,20 @@
         "a. Consistent",
         "b. Ambiguous",
         "c. Non-verifiable",
-        "d. Correct"
+        "d. Correct",
+        "a. Ambiguous",
+        "c. Correct",
+        "d. Consistent"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "Consider the following Statement: “The output of a program shall be given within 10 secs of event X 10% of the time.”What characteristic of SRS is being depicted here ?",
@@ -321,17 +326,19 @@
         "d. Non-verifiable",
         "a. Consistent",
         "b. Non-verifiable",
-        "d. Verifiable"
+        "d. Verifiable",
+        "c. Consistent",
+        "d. Correct"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "During this stage, the software design is realized as a set of programs or program units",
@@ -563,17 +570,21 @@
         "a. Functional Programming",
         "b. Top-down analysis",
         "c. Modular Programming",
-        "d. Structured Coding"
+        "d. Structured Coding",
+        "a. Top-down analysis",
+        "b. Modular Programming",
+        "c. Structured Coding",
+        "d. Functional Programming"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "in terms of Issues related to professional responsibility",
@@ -648,17 +659,19 @@
         "d. Pure functions",
         "b. Strict evaluation",
         "c. Pure functions",
-        "d. Recursion"
+        "d. Recursion",
+        "a. Strict evaluation",
+        "b. λ-calculus"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "It is a simplified representation of a software process. Each process represents a process from a particular perspective, and thus provides only partial information about that process.",
@@ -1052,17 +1065,18 @@
         "d. λ-function",
         "a. λ-calculus",
         "b. λ-programming",
-        "c. λ-evaluation"
+        "c. λ-evaluation",
+        "a. λ-evaluation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "Most projects have many interested parties or stakeholders, but someone must take the primary role of sponsorship.",
@@ -1590,17 +1604,19 @@
         "d. white-box",
         "a. grey-box",
         "b. white-box",
-        "d. none of the mentioned"
+        "d. none of the mentioned",
+        "b. black-box",
+        "c. none of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "The SRS is said to be consistent if and only if",
@@ -1611,17 +1627,19 @@
         "c. its structure and style are such that any changes to the requirements can be made easily while retaining the style and structure",
         "d. every requirement stated therein is one that the software shall meet",
         "a. its structure and style are such that any changes to the requirements can be made easily while retaining the style and structure",
-        "c. no subset of individual requirements described in it conflict with each other"
+        "c. no subset of individual requirements described in it conflict with each other",
+        "a. every requirement stated therein is verifiable",
+        "b. no subset of individual requirements described in it conflict with each other"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "The system’s services, constraints, and goals are established by consultation with system users. They are then defined in detail and serve as a system specification.",
@@ -1697,17 +1715,21 @@
         "c. λ-calculus",
         "d. Recursion",
         "b. λ-calculus",
-        "c. Pure functions"
+        "c. Pure functions",
+        "a. Pure functions",
+        "b. Recursion",
+        "c. Strict evaluation",
+        "d. λ-calculus"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "They deal with structures and algorithms without regard for the meaning or importance of the data that is involved.",
@@ -1878,17 +1900,20 @@
         "c. λ-calculus",
         "d. Recursion",
         "a. Recursion",
-        "d. Pure functions"
+        "d. Pure functions",
+        "b. λ-calculus",
+        "c. Pure functions",
+        "d. Strict evaluation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "This is set of coding rules followed by all the programmers to write the code.",
@@ -1901,7 +1926,10 @@
         "a. Programming code",
         "b. Programming guidines",
         "c. Programming Variables",
-        "d. Programming style"
+        "d. Programming style",
+        "a. Programming guidines",
+        "b. Programming Variables",
+        "c. Programming style"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1910,10 +1938,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:32:33Z",
+      "lastVerifiedAt": "2026-10-12T12:08:13Z",
       "lastEvidenceAt": "2026-10-12T11:58:21Z"
     },
     {
@@ -1925,17 +1953,19 @@
         "c. Structured Coding",
         "d. Functional Programming",
         "b. Structured Coding",
-        "c. Modular Programming"
+        "c. Modular Programming",
+        "a. Modular Programming",
+        "b. Top-down analysis"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "This section defines how to name functions, variables, constants and global variables.",
@@ -1954,10 +1984,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "This takes the fundamental process activities of specification, development, validation, and evolution and represents them as separate process phases such as requirements specification, software design, implementation, testing, and so on.",
@@ -1991,17 +2021,19 @@
         "a. Structured Coding",
         "b. Modular Programming",
         "c. Top-down analysis",
-        "d. Functional Programming"
+        "d. Functional Programming",
+        "a. Functional Programming",
+        "d. Structured Coding"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "Verification ensures the product being developed is according to design specifications.",
@@ -2146,17 +2178,19 @@
         "c. Delivery Schedule",
         "d. Cost",
         "c. Cost",
-        "d. Delivery Schedule"
+        "d. Delivery Schedule",
+        "a. Delivery Schedule",
+        "d. Staffing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "Which of the following is incorrect activity for the configuration management of a software system?",
@@ -2211,17 +2245,18 @@
         "a. Design solutions",
         "b. Performance",
         "c. External Interfaces",
-        "d. Functionality"
+        "d. Functionality",
+        "a. Functionality"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "Which of the following is not project management goal?",
@@ -2304,17 +2339,19 @@
         "d. Complete",
         "a. Complete",
         "b. Verifiable",
-        "d. Traceable"
+        "d. Traceable",
+        "b. Ambiguous",
+        "c. Complete"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "Which of the following property of SRS is depicted by the statement : “Conformity to a standard is maintained” ?",
@@ -2346,7 +2383,10 @@
         "a. None of the mentioned",
         "b. Both ii and iii are true",
         "c. Only i is true",
-        "d. All are true"
+        "d. All are true",
+        "b. Only i is true",
+        "c. All are true",
+        "d. Both ii and iii are true"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2355,10 +2395,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:32:33Z",
+      "lastVerifiedAt": "2026-10-12T12:08:13Z",
       "lastEvidenceAt": "2026-10-12T11:58:21Z"
     },
     {
@@ -2498,17 +2538,18 @@
         "d. Modular Programming",
         "a. Functional Programming",
         "b. Structured Coding",
-        "c. Top-down analysis"
+        "c. Top-down analysis",
+        "c. Structured Coding"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:58:21Z"
+      "lastVerifiedAt": "2026-10-12T12:08:13Z"
     },
     {
       "question": "White Box techniques are also classified as",
