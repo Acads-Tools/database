@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:06:34Z",
+  "updatedAt": "2026-10-12T11:07:23Z",
   "totalQuestions": 161,
   "questions": [
     {
@@ -965,7 +965,10 @@
         "d. After for loopAfter for loopAfter for loop……..infinitely",
         "c. In for loopAfter for loop",
         "b. -3-4-5",
-        "c. -3-4"
+        "c. -3-4",
+        "c. 0",
+        "a. After for loopAfter for loopAfter for loop……..infinitely",
+        "d. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1021,6 +1024,14 @@
         {
           "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
           "timestamp": "2026-10-12T10:43:54Z"
+        },
+        {
+          "rejectedAnswer": "error",
+          "timestamp": "2026-10-12T11:07:23Z"
+        },
+        {
+          "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
+          "timestamp": "2026-10-12T11:07:23Z"
         }
       ],
       "lastEvidenceAt": "2026-10-12T11:06:34Z"
@@ -1963,24 +1974,28 @@
     },
     {
       "question": "There are three different kind of arrays:",
-      "answer": "",
+      "answer": "Numeric array, Associative array, Multidimensional array",
       "choices": [
         "a. Const array, Associative array, Multidimensional array",
         "b. Numeric array, String array, Multidimensional array",
         "c. Numeric array, Associative array, Multidimensional array",
-        "d. Numeric array, Associative array, Dimensional array"
+        "d. Numeric array, Associative array, Dimensional array",
+        "a. Numeric array, Associative array, Dimensional array",
+        "c. Const array, Associative array, Multidimensional array",
+        "d. Numeric array, Associative array, Multidimensional array"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "Const array, Associative array, Multidimensional array"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:52:29Z"
+      "lastEvidenceAt": "2026-10-11T19:52:29Z",
+      "lastVerifiedAt": "2026-10-12T11:07:23Z"
     },
     {
       "question": "This command sends active query to the database",
@@ -2251,10 +2266,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:58:42Z"
+      "lastVerifiedAt": "2026-10-12T11:07:23Z"
     },
     {
       "question": "What is the original name of JavaScript?",
@@ -2382,11 +2397,15 @@
         "a. 1234567891011",
         "b. 123456789101112",
         "c. 12345678910",
-        "d. error"
+        "d. error",
+        "a. 12345678910",
+        "b. 1234567891011",
+        "c. 123456789101112"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "12345678910"
+        "12345678910",
+        "1234567891011"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -2394,7 +2413,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:36:43Z"
+      "lastEvidenceAt": "2026-10-12T11:07:23Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151137/w6-q5.PNG]]",
@@ -2481,12 +2500,14 @@
         "a. Jeiven",
         "b. JohannJeiven",
         "c. Error",
-        "d. Johann"
+        "d. Johann",
+        "a. Johann"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "Error",
-        "JohannJeiven"
+        "JohannJeiven",
+        "Johann"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -2494,7 +2515,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:58:42Z"
+      "lastEvidenceAt": "2026-10-12T11:07:23Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151141/w6-q9.PNG]]",
@@ -2503,17 +2524,24 @@
         "a. JohannJeiven",
         "b. Jeiven",
         "c. Error",
-        "d. Johann"
+        "d. Johann",
+        "a. Jeiven",
+        "b. Error",
+        "c. Johann",
+        "d. JohannJeiven"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Johann"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:33:34Z"
+      "lastVerifiedAt": "2026-10-11T19:33:34Z",
+      "lastEvidenceAt": "2026-10-12T11:07:23Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151142/w6-q10.PNG]]",
@@ -2567,7 +2595,11 @@
         "a. ########",
         "b. ##########",
         "c. ############",
-        "d. No output"
+        "d. No output",
+        "a. No output",
+        "b. ########",
+        "c. ##########",
+        "d. ############"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2579,7 +2611,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:16:32Z"
+      "lastEvidenceAt": "2026-10-12T11:07:23Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151143/q1.PNG]]",
@@ -2729,7 +2761,10 @@
         "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )",
         "a. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )",
         "c. Array ( [3] => blue [4] => blue) Array ( [0] => red )",
-        "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()"
+        "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()",
+        "b. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()",
+        "c. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )",
+        "d. Array ( [4] => blue [5] => blue [6] => blue) Array ( [0] => red )"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2741,7 +2776,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-12T10:58:42Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:58:42Z",
+      "lastEvidenceAt": "2026-10-12T11:07:23Z",
       "lastVerifiedAt": "2026-10-12T11:06:34Z"
     },
     {
@@ -2800,17 +2835,20 @@
         "a. 78",
         "b. 68",
         "c. 98",
-        "d. 88"
+        "d. 88",
+        "a. 98",
+        "c. 88",
+        "d. 78"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T10:43:54Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:43:54Z"
+      "lastVerifiedAt": "2026-10-12T11:07:23Z"
     },
     {
       "question": "Which function used to get the current time in mysql?",
