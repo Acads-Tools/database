@@ -129,7 +129,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `MKTG6256` | MKTG6256 | **54** | Active |
 | `NSTP6102` | National Service Training Program 2 | **45** | Active |
 | `OFAD6303A` | OFAD6303A | **22** | Active |
-| `PHYED6102` | PHYED6102 | **60** | Active |
+| `PHYED6102` | PHYED6102 | **63** | Active |
 | `PHYED6200` | PHYED6200 | **8** | Active |
 
 Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
