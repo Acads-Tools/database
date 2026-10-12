@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-12T11:21:25Z",
-  "totalQuestions": 101,
+  "updatedAt": "2026-10-12T11:25:34Z",
+  "totalQuestions": 107,
   "tier": "verified",
   "questions": [
     {
@@ -68,10 +68,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "A [____: graph] is a tree if it is connected and has no simple cycles.",
@@ -105,17 +105,19 @@
       "choices": [
         "a. regular expressions",
         "b. context grammars",
-        "c. regular languages"
+        "c. regular languages",
+        "a. context grammars",
+        "b. regular expressions"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "A conceptual design for a machine consisting of a Mill, Store, Printer, and Readers.",
@@ -195,10 +197,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "A finite number of states",
@@ -215,6 +217,40 @@
       "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
+      "question": "A finite set of input symbols.",
+      "answer": "Σ",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "F"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:36:42Z",
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
+    },
+    {
+      "question": "A finite set of states",
+      "answer": "Q",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "q0"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:36:42Z",
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
+    },
+    {
       "question": "A formal language is a set of strings, each string composed of symbols from a finite set called [Dropdown 1: alphabet] .",
       "answer": "A formal language is a set of strings, each string composed of symbols from a finite set called [alphabet] .",
       "choices": [],
@@ -223,10 +259,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "A general purpose, programmable, information processor with input and output.",
@@ -393,6 +429,23 @@
       "lastVerifiedAt": "2026-10-11T18:53:27Z"
     },
     {
+      "question": "A set of final state/states of Q (F⊆Q).",
+      "answer": "F",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Σ"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:36:42Z",
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
+    },
+    {
       "question": "A set of rules, P: N → (N U T)*, it does have any right context or left context.",
       "answer": "P",
       "choices": [],
@@ -420,10 +473,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "A set of terminals where N ∩ T = NULL.",
@@ -452,6 +505,23 @@
       "firstSeenAt": "2026-10-11T18:47:19Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:53:27Z"
+    },
+    {
+      "question": "A transition function δ : Q × (Σ ∪ {ε}) → 2Q.",
+      "answer": "δ",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Q"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:36:42Z",
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "A transition function: Q × (Σ∪{ε}) × S × Q × S*",
@@ -517,6 +587,23 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "An initial state q0 ∈ Q",
+      "answer": "q0",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "ε"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:36:42Z",
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "An order rooted tree that graphically represents the semantic information a string derived from a context-free grammar.",
@@ -661,10 +748,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "For every CFL, G, there exists a PDA M such that L(G) = L(M) and vice versa.",
@@ -695,10 +782,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "Global Positioning System (GPS) calculates latitude and longitude from satellite signals.",
@@ -781,6 +868,23 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Increasing accuracy, or precision",
+      "answer": "minimizing false positives",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "maximizing false positives"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:36:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T18:36:42Z",
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
+    },
+    {
       "question": "Increasing coverage, or recall",
       "answer": "minimizing false negatives",
       "choices": [],
@@ -789,10 +893,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "It generate context-free languages. The productions must be in the form A → γ",
@@ -871,10 +975,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "It process information in their efforts to eat, survive, and reproduce.",
@@ -1007,10 +1111,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "Living organisms [____: process] information in their efforts to eat, survive, and reproduce.",
@@ -1114,17 +1218,19 @@
         "a. 0",
         "b. 1",
         "c. Φ",
-        "d. ϵ"
+        "d. ϵ",
+        "c. ϵ",
+        "d. Φ"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "Regular sets are closed under union,concatenation and kleene closure.",
@@ -1361,17 +1467,20 @@
         "a. 6",
         "b. 8",
         "c. 5",
-        "d. 7"
+        "d. 7",
+        "a. 7",
+        "b. 6",
+        "d. 8"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "The recursive inference procedure determines that string w is in the language of the variable A, A being the starting variable.",
@@ -1601,19 +1710,23 @@
       "choices": [
         "a. [Image: [moodle-asset:105497/ndfa%20step%203.PNG]]",
         "b. [Image: [moodle-asset:105496/final%20ndfa.PNG]]",
-        "c. [Image: [moodle-asset:105498/ndfa%20step%202.PNG]]"
+        "c. [Image: [moodle-asset:105498/ndfa%20step%202.PNG]]",
+        "a. [Image: [moodle-asset:105496/final%20ndfa.PNG]]",
+        "b. [Image: [moodle-asset:105498/ndfa%20step%202.PNG]]",
+        "c. [Image: [moodle-asset:105497/ndfa%20step%203.PNG]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "[Image: [moodle-asset:105497/ndfa%20step%203.PNG]]"
+        "[Image: [moodle-asset:105497/ndfa%20step%203.PNG]]",
+        "[Image: [moodle-asset:105498/ndfa%20step%202.PNG]]"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:36:42Z"
+      "lastVerifiedAt": "2026-10-12T11:25:34Z"
     },
     {
       "question": "Which among the following cannot be accepted by a regular grammar?",
