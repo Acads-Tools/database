@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:02:29Z",
-  "totalQuestions": 158,
+  "updatedAt": "2026-10-12T11:04:05Z",
+  "totalQuestions": 159,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -595,6 +595,20 @@
       "lastVerifiedAt": "2026-10-11T19:09:33Z"
     },
     {
+      "question": "Identification. Write your answer on the space provided. +, -, *, /, %, are all examples of what category of operators",
+      "answer": "arithmetic operators",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:04:05Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:04:05Z"
+    },
+    {
       "question": "Identification. Write your answer on the space provided. [____: Logical operators] are used to combine conditional statements",
       "answer": "",
       "choices": [],
@@ -617,7 +631,8 @@
       "questionType": "shortanswer",
       "wrongAnswers": [
         "dot",
-        "period"
+        "period",
+        ".-="
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -625,7 +640,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:06:05Z"
+      "lastEvidenceAt": "2026-10-12T11:04:05Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. PHP version that enabled the filter extension by default Native JSON default",
@@ -776,17 +791,19 @@
         "c. 11",
         "d. 13",
         "b. 11",
-        "c. 10"
+        "c. 10",
+        "a. 11",
+        "c. 12"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:40:04Z"
+      "lastVerifiedAt": "2026-10-12T11:04:05Z"
     },
     {
       "question": "In a LIKE clause, you can could ask for any value ending in \"qpt\" by writing",
@@ -1653,10 +1670,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:39:08Z"
+      "lastVerifiedAt": "2026-10-12T11:04:05Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE: !(3 >= 3 || 8 < 1)",
@@ -1670,10 +1687,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+      "lastVerifiedAt": "2026-10-12T11:04:05Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE: (7 >= 7 && 9 < 2)",
@@ -1824,6 +1841,14 @@
         {
           "rejectedAnswer": "NOT",
           "timestamp": "2026-10-12T10:40:04Z"
+        },
+        {
+          "rejectedAnswer": "NOT",
+          "timestamp": "2026-10-12T11:04:05Z"
+        },
+        {
+          "rejectedAnswer": "OR",
+          "timestamp": "2026-10-12T11:04:05Z"
         }
       ]
     },
@@ -2061,10 +2086,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:09:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:09:33Z"
+      "lastVerifiedAt": "2026-10-12T11:04:05Z"
     },
     {
       "question": "True or False - The operator NOT is another way to broaden a search or retrieve more records.",
@@ -2078,10 +2103,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:39:08Z"
+      "lastVerifiedAt": "2026-10-12T11:04:05Z"
     },
     {
       "question": "True or False - The operator OR, when used to link two or concept terms will retrieve fewer records because both terms need not be present in each article.",
