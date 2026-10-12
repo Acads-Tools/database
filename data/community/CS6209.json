@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-12T12:28:08Z",
+  "updatedAt": "2026-10-12T12:30:45Z",
   "totalQuestions": 119,
   "questions": [
     {
@@ -41,17 +41,19 @@
         "d. moderate",
         "a. very low",
         "b. low",
-        "c. high"
+        "c. high",
+        "c. moderate",
+        "d. very low"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "A field studying computers and algorithmic processes, including their principles, their software and hardware designs, their applications, and their impact on society, whereas IS emphasizes functionality over design.",
@@ -82,17 +84,19 @@
         "d. All of the above",
         "a. A project is deliverable",
         "b. A project is temporary",
-        "c. A project is an endeavor"
+        "c. A project is an endeavor",
+        "b. All of the above",
+        "d. A project is an endeavor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "A temporary endeavor undertaken to create a unique product, service, or result.",
@@ -103,17 +107,21 @@
         "c. System",
         "d. Project",
         "b. System",
-        "c. Documentation"
+        "c. Documentation",
+        "a. System",
+        "b. Plan",
+        "c. Project",
+        "d. Documentation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Alpha testing is done at",
@@ -176,10 +184,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -424,17 +432,19 @@
         "d. A project requires resources, often from various areas.",
         "b. A project is temporary",
         "c. A project requires resources, often from various areas.",
-        "d. A project has a unique purpose."
+        "d. A project has a unique purpose.",
+        "a. A project has a unique purpose.",
+        "d. A project is developed using progressive elaboration or in an iterative fashion."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Exhaustive testing is",
@@ -541,17 +551,19 @@
         "a. Process distribution",
         "b. Process analysis",
         "c. Process introduction",
-        "d. De-processification"
+        "d. De-processification",
+        "b. Process distribution",
+        "c. De-processification"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "If any of the hardware and/or platform (such as operating system) of the target host changes, software changes are needed to keep adaptability.",
@@ -1013,17 +1025,20 @@
         "d. Duration constraints",
         "a. Time constraints",
         "c. Duration constraints",
-        "d. Budget constraints"
+        "d. Budget constraints",
+        "a. Duration constraints",
+        "b. Budget constraints",
+        "d. Cost constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "It refers to the budgeted amount available for the project.",
@@ -1032,17 +1047,22 @@
         "a. Cost constraints",
         "b. Money constraints",
         "c. Amount constraints",
-        "d. Budget constraints"
+        "d. Budget constraints",
+        "b. Budget constraints",
+        "d. Money constraints"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Money constraints"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "lastVerifiedAt": "2026-10-11T19:23:02Z",
+      "lastEvidenceAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "It refers to what must be done to produce the project's end result",
@@ -1055,17 +1075,20 @@
         "a. Limit constraints",
         "b. Output constraints",
         "c. Scope constraints",
-        "d. Deliverable constraints"
+        "d. Deliverable constraints",
+        "a. Deliverable constraints",
+        "c. Limit constraints",
+        "d. Scope constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Lower and upper limits are present in which chart?",
@@ -1180,17 +1203,21 @@
         "d. A project is developed using progressive elaboration or in an iterative fashion.",
         "a. A project should have a primary customer or sponsor",
         "b. A project involves uncertainty",
-        "c. A project has a unique purpose"
+        "c. A project has a unique purpose",
+        "a. A project involves uncertainty",
+        "b. A project has a unique purpose",
+        "c. A project is developed using progressive elaboration or in an iterative fashion.",
+        "d. A project should have a primary customer or sponsor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Over the time, customer may ask for new features or functions in the software.",
@@ -1257,10 +1284,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -1278,17 +1305,20 @@
         "d. A project is developed using progressive elaboration or in an iterative fashion.",
         "a. A project should have a primary customer or sponsor.",
         "b. A project requires resources, often from various areas",
-        "c. A project involves uncertainty"
+        "c. A project involves uncertainty",
+        "b. A project is developed using progressive elaboration or in an iterative fashion.",
+        "c. A project requires resources, often from various areas",
+        "d. A project involves uncertainty"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Quality planning is the process of developing a quality plan for",
@@ -1297,17 +1327,21 @@
         "a. project manager",
         "b. team",
         "c. customers",
-        "d. project"
+        "d. project",
+        "a. customers",
+        "b. project",
+        "c. project manager",
+        "d. team"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "RAD Model has",
@@ -1384,17 +1418,19 @@
         "d. A project has a unique purpose",
         "a. A project requires resources, often from various areas",
         "c. A project has a unique purpose",
-        "d. A project involves uncertainty"
+        "d. A project involves uncertainty",
+        "a. A project should have a primary customer or sponsor",
+        "b. A project involves uncertainty"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Resources, such as people and equipment, need to do work.",
@@ -1403,17 +1439,21 @@
         "a. A project is temporary",
         "b. None of the above",
         "c. A project is deliverable",
-        "d. A project is an endeavor"
+        "d. A project is an endeavor",
+        "a. A project is an endeavor",
+        "b. A project is deliverable",
+        "c. None of the above",
+        "d. A project is temporary"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:23:02Z"
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "SDLC stands for",
@@ -1715,17 +1755,19 @@
         "d. Project Management Life Cycle",
         "b. Manager life cycle",
         "c. Project Management Life Cycle",
-        "d. All of the mentioned"
+        "d. All of the mentioned",
+        "a. Manager life cycle",
+        "c. Project Management"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "The reason for software bugs and failures is due to",
@@ -2562,17 +2604,21 @@
         "a. System management",
         "b. Internship management",
         "c. Version management",
-        "d. Change management"
+        "d. Change management",
+        "a. Change management",
+        "b. System management",
+        "c. Internship management",
+        "d. Version management"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Which of the following is not considered as a risk in project management?",
@@ -2585,17 +2631,19 @@
         "a. Product competition",
         "b. Specification delays",
         "c. Testing",
-        "d. Staff turnover"
+        "d. Staff turnover",
+        "b. Testing",
+        "d. Specification delays"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Which of the following is not included in SRS ?",
@@ -2632,17 +2680,21 @@
         "d. Delivering the software to the customer at the agreed time",
         "a. Maintaining a happy and well-functioning development team",
         "c. Delivering the software to the customer at the agreed time",
-        "d. Avoiding customer complaints"
+        "d. Avoiding customer complaints",
+        "a. Delivering the software to the customer at the agreed time",
+        "b. Avoiding customer complaints",
+        "c. Keeping overall costs within budget",
+        "d. Maintaining a happy and well-functioning development team"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Which of the following is/are main parameters that you should use when computing the costs of a software development project?",
@@ -2662,10 +2714,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
-      "source": "Grades-Harvester",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T12:30:45Z"
     },
     {
       "question": "Which of the following is/are White box technique?",
