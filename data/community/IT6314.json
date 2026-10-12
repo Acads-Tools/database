@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:05:43Z",
-  "totalQuestions": 160,
+  "updatedAt": "2026-10-12T11:06:34Z",
+  "totalQuestions": 161,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -116,6 +116,25 @@
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:36:43Z"
+    },
+    {
+      "question": "Assume you would like to sort an array in ascending order by value while preserving key associations. Which of the following PHP sorting functions would you use?",
+      "answer": "asort()",
+      "choices": [
+        "a. krsort()",
+        "b. sort()",
+        "c. ksort()",
+        "d. asort()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:06:34Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:06:34Z"
     },
     {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName) VALUES ('Robert', 'Smith', '123-983-2929')\");",
@@ -943,13 +962,19 @@
         "d. 123456789101112",
         "a. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
         "b. In for loopIn for loopIn for loopIn for loop……infinitely",
-        "d. After for loopAfter for loopAfter for loop……..infinitely"
+        "d. After for loopAfter for loopAfter for loop……..infinitely",
+        "c. In for loopAfter for loop",
+        "b. -3-4-5",
+        "c. -3-4"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "After for loop",
         "In for loop",
-        "infinite loop"
+        "infinite loop",
+        "In for loopAfter for loop",
+        "12345678910",
+        "-3-4-5"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -998,7 +1023,7 @@
           "timestamp": "2026-10-12T10:43:54Z"
         }
       ],
-      "lastEvidenceAt": "2026-10-12T10:58:42Z"
+      "lastEvidenceAt": "2026-10-12T11:06:34Z"
     },
     {
       "question": "MYSQL can be used to:",
@@ -2259,17 +2284,20 @@
         "a. Qwerghzi off offoff",
         "b. Qwerghzi on off on",
         "c. Qwerghzi on onon",
-        "d. Qwerghzo on off on"
+        "d. Qwerghzo on off on",
+        "a. Qwerghzi on off on",
+        "b. Qwerghzi on onon",
+        "c. Qwerghzi off offoff"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:36:43Z"
+      "lastVerifiedAt": "2026-10-12T11:06:34Z"
     },
     {
       "question": "What is the output of the following? echo strcmp('first', 'second'), \", \"; echo strcmp('44', '054'), \", \"; echo strcmp('0x80', 'a'), \", \"; echo strcmp('a', 'A');",
@@ -2304,17 +2332,20 @@
         "a. Ef, ef, de, e, cde",
         "b. Ef, ef, de, , cde",
         "c. Abcd, de, de, , cde",
-        "d. Ef, ef, de, , cdef"
+        "d. Ef, ef, de, , cdef",
+        "a. Abcd, de, de, , cde",
+        "b. Ef, ef, de, e, cde",
+        "c. Ef, ef, de, , cde"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:36:43Z"
+      "lastVerifiedAt": "2026-10-12T11:06:34Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151135/w6-q3.PNG]]",
@@ -2327,17 +2358,22 @@
         "a. abcd",
         "b. no output",
         "c. b",
-        "d. error"
+        "d. error",
+        "a. error",
+        "c. no output"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "no output"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:52:29Z"
+      "lastVerifiedAt": "2026-10-11T19:52:29Z",
+      "lastEvidenceAt": "2026-10-12T11:06:34Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151136/w6-q4.PNG]]",
@@ -2371,7 +2407,9 @@
         "a. no output",
         "b. infinite loop",
         "c. -6-7",
-        "d. -6-7-8"
+        "d. -6-7-8",
+        "b. -6-7",
+        "c. infinite loop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2380,11 +2418,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:33:34Z",
-      "lastVerifiedAt": "2026-10-12T10:43:54Z"
+      "lastVerifiedAt": "2026-10-12T11:06:34Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151138/w6-q6.PNG]]",
@@ -2574,11 +2612,15 @@
         "d. 1",
         "a. 49",
         "b. Error",
-        "c. Sum"
+        "c. Sum",
+        "a. Error",
+        "b. 1",
+        "d. 49"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "49"
+        "49",
+        "Sum"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -2586,7 +2628,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:16:32Z",
+      "lastEvidenceAt": "2026-10-12T11:06:34Z",
       "lastVerifiedAt": "2026-10-11T19:52:29Z"
     },
     {
@@ -2679,24 +2721,28 @@
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151150/q8.PNG]]",
-      "answer": "",
+      "answer": "Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )",
       "choices": [
         "a. Array ( [3] => blue [4] => blue) Array ( [0] => red )",
         "b. Array ( [4] => blue [5] => blue [6] => blue) Array ( [0] => red )",
         "c. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()",
-        "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )"
+        "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )",
+        "a. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )",
+        "c. Array ( [3] => blue [4] => blue) Array ( [0] => red )",
+        "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "Array ( [3] => blue [4] => blue) Array ( [0] => red )"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-12T10:58:42Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:58:42Z"
+      "lastEvidenceAt": "2026-10-12T10:58:42Z",
+      "lastVerifiedAt": "2026-10-12T11:06:34Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151151/q9.PNG]]",
