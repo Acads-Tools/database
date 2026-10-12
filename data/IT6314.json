@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:10:44Z",
-  "totalQuestions": 175,
+  "updatedAt": "2026-10-12T11:11:21Z",
+  "totalQuestions": 179,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -303,17 +303,23 @@
         "f. SELECT NAME IN CUSTOMER WHERE STATE",
         "a. SELECT NAME FROM CUSTOMER WHERE STATE IN ('VA');",
         "b. 'VA';",
-        "d. SELECT NAME IN CUSTOMER WHERE STATE IN ('VA');"
+        "d. SELECT NAME IN CUSTOMER WHERE STATE IN ('VA');",
+        "a. SELECT NAME IN CUSTOMER WHERE STATE",
+        "b. SELECT NAME IN CUSTOMER WHERE STATE IN ('VA');",
+        "c. 'VA';",
+        "d. SELECT NAME IN CUSTOMER WHERE STATE",
+        "e. SELECT NAME FROM CUSTOMER WHERE STATE IN ('VA');",
+        "f. 'V';"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "Function that select database.",
@@ -1128,17 +1134,21 @@
         "a. modify database data only",
         "b. All of the given choices can be done by MYSQL.",
         "c. create database structures only.",
-        "d. query database data only."
+        "d. query database data only.",
+        "a. query database data only.",
+        "b. modify database data only",
+        "c. All of the given choices can be done by MYSQL.",
+        "d. create database structures only."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "MySQL is",
@@ -1787,17 +1797,19 @@
         "a. REMOVE TABLE CUSTOMER;",
         "b. UPDATE TABLE CUSTOMER;",
         "c. DROP TABLE CUSTOMER;",
-        "d. DELETE TABLE CUSTOMER;"
+        "d. DELETE TABLE CUSTOMER;",
+        "b. DELETE TABLE CUSTOMER;",
+        "d. UPDATE TABLE CUSTOMER;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "The default file extension for PHP files is \".php\".",
@@ -2137,6 +2149,25 @@
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
+      "question": "The SQL statement that queries or reads data from a table is ________ .",
+      "answer": "SELECT",
+      "choices": [
+        "a. SELECT",
+        "b. READ",
+        "c. None of the above is correct.",
+        "d. QUERY"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:11:21Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "The wildcard in a WHERE clause is useful when?",
@@ -2499,6 +2530,25 @@
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:10:44Z"
+    },
+    {
+      "question": "What does the following MySQL command do? SELECT * FROM author WHERE auth_name LIKE 'W%';",
+      "answer": "Return those rows from the table author in which the name of the author starts with the character 'W'",
+      "choices": [
+        "a. None of the above",
+        "b. Return those rows from the table author in which the name of the author starts with the character 'W'",
+        "c. Return those rows from the table author in which the name of the author ends with the character 'W'",
+        "d. Return those rows from the table author in which the name of the author contains the character 'W' somewhere in the middle of the author name"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:11:21Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "What functions count elements in an array?",
@@ -3123,6 +3173,25 @@
       "lastVerifiedAt": "2026-10-12T11:07:23Z"
     },
     {
+      "question": "When three or more AND and OR conditions are combined, it is easier to use the SQL keyword(s):",
+      "answer": "Both IN and NOT IN.",
+      "choices": [
+        "a. Both IN and NOT IN.",
+        "b. NOT IN only.",
+        "c. IN only.",
+        "d. LIKE only"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:11:21Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
+    },
+    {
       "question": "Which function used to get the current time in mysql?",
       "answer": "NOW()",
       "choices": [
@@ -3184,6 +3253,26 @@
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:08:34Z"
+    },
+    {
+      "question": "Which of the following datatype's display format is YYYY-MM-DD HH:MM:SS",
+      "answer": "",
+      "choices": [
+        "a. TIMESTAMP",
+        "b. DATETIME",
+        "c. DATE None of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "TIMESTAMP"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:11:21Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "Which of the following displays the unique values of the column. Select ________ dept_name from instructor;",
@@ -3499,17 +3588,20 @@
         "a. COLLAPSE",
         "b. REMOVE",
         "c. DELETE",
-        "d. None of the above"
+        "d. None of the above",
+        "a. REMOVE",
+        "b. DELETE",
+        "c. COLLAPSE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "Which SQL statement is used to insert a new data in a database?",
@@ -3604,17 +3696,19 @@
         "a. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
         "b. SELECT [all] FROM Persons WHERE FirstName='Peter'",
         "c. SELECT * FROM Persons WHERE FirstName 'Peter'",
-        "d. SELECT * FROM Persons WHERE FirstName='Peter'"
+        "d. SELECT * FROM Persons WHERE FirstName='Peter'",
+        "c. SELECT [all] FROM Persons WHERE FirstName LIKE 'Peter'",
+        "d. SELECT * FROM Persons WHERE FirstName 'Peter'"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     },
     {
       "question": "Working locally you an access php script by using http://localhosts/filename.php",
@@ -3666,17 +3760,21 @@
         "a. CREATE",
         "b. INSERT",
         "c. ADD",
-        "d. MAKE"
+        "d. MAKE",
+        "a. ADD",
+        "b. MAKE",
+        "c. INSERT",
+        "d. CREATE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-12T11:11:21Z"
     }
   ]
 }
