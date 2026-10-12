@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-12T12:25:11Z",
+  "updatedAt": "2026-10-12T12:26:32Z",
   "totalQuestions": 119,
   "questions": [
     {
@@ -277,17 +277,20 @@
         "c. 200-400",
         "d. above 1000",
         "a. 200-400",
-        "c. 400-1000"
+        "c. 400-1000",
+        "b. above 1000",
+        "c. 100-200",
+        "d. 200-400"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Company has latest computers and state-of the- art software tools, so we shouldn’t worry about the quality of the product.",
@@ -372,17 +375,20 @@
         "d. Implementation and unit testing",
         "a. Requirements analysis and definition",
         "c. Implementation and unit testing",
-        "d. Integration and system testing"
+        "d. Integration and system testing",
+        "b. Implementation and unit testing",
+        "c. System and software design",
+        "d. Requirements analysis and definition"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Efficiency in a software product does not include ________",
@@ -736,17 +742,20 @@
         "c. Software Planning Process",
         "d. Software Mode",
         "a. Software Planning Process",
-        "c. Software process models"
+        "c. Software process models",
+        "b. Software Mode",
+        "c. Software Style",
+        "d. Software Planning Process"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "It is a system composed of people and computers that processes or interprets information.",
@@ -1304,17 +1313,18 @@
         "d. 2 phases",
         "a. 3 phases",
         "c. 2 phases",
-        "d. 6 phases"
+        "d. 6 phases",
+        "d. 3 phases"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "RAD stands for",
@@ -1323,17 +1333,19 @@
         "a. Rapid Application Document",
         "b. Rapid Application Development",
         "c. None of the mentioned",
-        "d. Relative Application Development"
+        "d. Relative Application Development",
+        "a. None of the mentioned",
+        "c. Rapid Application Document"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Regression testing is a very expensive activity.",
@@ -1404,17 +1416,19 @@
         "a. Software Design Life Cycle",
         "b. System Development Life cycle",
         "c. System Design Life Cycle",
-        "d. Software Development Life Cycle"
+        "d. Software Development Life Cycle",
+        "a. System Development Life cycle",
+        "c. Software Development Life Cycle"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Select the incorrect statement: “Software engineers should",
@@ -1504,17 +1518,19 @@
         "a. Software specification",
         "b. Software design and implementation",
         "c. Software evolution",
-        "d. Software validation"
+        "d. Software validation",
+        "b. Software validation",
+        "d. Software evolution"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "The input is divided into higher and lower end values. If these values pass the test, it is assumed that all values in between may pass too.",
@@ -1729,17 +1745,21 @@
         "d. Software evolution",
         "a. Software specification",
         "b. Software design and implementation",
-        "c. Software validation"
+        "c. Software validation",
+        "a. Software design and implementation",
+        "b. Software validation",
+        "c. Software evolution",
+        "d. Software specification"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "The software must evolve to meet changing customer needs.",
@@ -1752,17 +1772,20 @@
         "a. Software validation",
         "b. Software evolution",
         "c. Software specification",
-        "d. Software design and implementation"
+        "d. Software design and implementation",
+        "b. Software specification",
+        "c. Software design and implementation",
+        "d. Software evolution"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "The software to meet the specification must be produced.",
@@ -1775,17 +1798,19 @@
         "a. Software design and implementation",
         "b. Software evolution",
         "c. Software validation",
-        "d. Software specification"
+        "d. Software specification",
+        "a. Software evolution",
+        "c. Software specification"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "The SRS document is also known as _____________ specification.",
@@ -1850,17 +1875,20 @@
         "c. Integration and system testing",
         "d. Requirements analysis and definition",
         "a. Integration and system testing",
-        "c. System and software design"
+        "c. System and software design",
+        "b. Requirements analysis and definition",
+        "c. Implementation and unit testing",
+        "d. System and software design"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "These are actual coding mistakes made by developers. In addition, there is a difference in output of software and desired output is considered as ______.",
@@ -1970,17 +1998,21 @@
         "d. RAD",
         "a. RAD",
         "c. Reuse-oriented software engineering",
-        "d. The waterfall model"
+        "d. The waterfall model",
+        "a. The waterfall model",
+        "b. RAD",
+        "c. Incremental development",
+        "d. Reuse-oriented software engineering"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "This approach is based on the existence of a significant number of reusable components. The system development process focuses on integrating these components into a system rather than developing them from scratch",
@@ -1991,17 +2023,20 @@
         "c. Incremental development",
         "d. Reuse-oriented software engineering",
         "a. The waterfall model",
-        "b. RAD"
+        "b. RAD",
+        "a. Incremental development",
+        "c. Reuse-oriented software engineering",
+        "d. The waterfall model"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "This category includes the computer itself, which is often referred to as the central processing unit (CPU), and all of its support equipment.",
@@ -2256,17 +2291,20 @@
         "c. Incremental development",
         "d. The waterfall model",
         "b. Incremental development",
-        "c. RAD"
+        "c. RAD",
+        "a. The waterfall model",
+        "c. Reuse-oriented software engineering",
+        "d. RAD"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Under __________________, the problem is broken down into small pieces where each one has some significance. Each problem is individually solved and steps are clearly stated about how to solve the problem.",
@@ -2374,7 +2412,8 @@
         "a. Increases reusability of components",
         "b. Increases reusability of components, Highly specialized & skilled developers/designers are required",
         "c. Encourages customer/client feedback",
-        "d. Highly specialized & skilled developers/designers are required"
+        "d. Highly specialized & skilled developers/designers are required",
+        "a. Encourages customer/client feedback"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2387,7 +2426,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:51:14Z"
+      "lastEvidenceAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "What type of software testing is generally used in Software Maintenance?",
@@ -2428,7 +2467,8 @@
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "Domain Prototype"
+        "Domain Prototype",
+        "Horizontal Prototype"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -2437,7 +2477,7 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:27:32Z",
-      "lastEvidenceAt": "2026-10-12T11:51:14Z"
+      "lastEvidenceAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Which model can be selected if user is involved in all the phases of SDLC?",
@@ -2449,7 +2489,9 @@
         "d. both Prototyping Model & RAD Model",
         "a. both Prototyping Model & RAD Model",
         "b. RAD Model",
-        "d. Waterfall Model"
+        "d. Waterfall Model",
+        "b. Prototyping Model",
+        "c. Waterfall Model"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2458,10 +2500,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:27:32Z",
+      "lastVerifiedAt": "2026-10-12T12:26:32Z",
       "lastEvidenceAt": "2026-10-12T11:51:14Z"
     },
     {
@@ -2718,17 +2760,19 @@
         "d. It scales up well to large projects",
         "a. Maintenance is practically not possible",
         "c. It scales up well to large projects",
-        "d. Code soon becomes unfixable & unchangeable"
+        "d. Code soon becomes unfixable & unchangeable",
+        "b. It scales up well to large projects",
+        "c. No room for structured design"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Which of the following term describes testing?",
@@ -2767,17 +2811,18 @@
         "d. Prototype Refinement",
         "b. Prototype Refinement",
         "c. Quick Design",
-        "d. Coding"
+        "d. Coding",
+        "d. Quick Design"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Which one of the following models is not suitable for accommodating any change?",
@@ -2788,17 +2833,20 @@
         "c. Prototyping Model",
         "d. Build & Fix Model",
         "b. Prototyping Model",
-        "c. Waterfall Model"
+        "c. Waterfall Model",
+        "a. Build & Fix Model",
+        "c. RAD Model",
+        "d. Waterfall Model"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:51:14Z"
+      "lastVerifiedAt": "2026-10-12T12:26:32Z"
     },
     {
       "question": "Which regression test selection technique exposes faults caused by modifications?",
