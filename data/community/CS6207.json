@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-11T19:11:10Z",
-  "totalQuestions": 56,
+  "updatedAt": "2026-10-12T09:10:18Z",
+  "totalQuestions": 57,
   "questions": [
     {
       "question": "_____ is a command line interface that lets you run Unix commands to explore _____ is a command line interface that lets you run Unix commands to explore directories, execute scripts, and work with Python",
@@ -67,7 +67,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-11T18:58:26Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-12T09:10:18Z"
+        }
+      ]
     },
     {
       "question": "A top-down parser is that a parse tree created by bottom to top.",
@@ -183,17 +189,21 @@
         "A. NOTA",
         "B. Hand-made Scanner",
         "C. Scanner",
-        "D. Regular Expressions"
+        "D. Regular Expressions",
+        "A. Regular Expressions",
+        "B. NOTA",
+        "C. Hand-made Scanner",
+        "D. Scanner"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-12T09:10:18Z"
     },
     {
       "question": "Backtracking come up in every stage of the compiler with an unexpected item that doesn't match the current objective, so it must be put back.",
@@ -212,7 +222,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-11T18:58:26Z",
+      "alternateAnswers": [
+        {
+          "answer": "True",
+          "timestamp": "2026-10-12T09:10:18Z"
+        }
+      ]
     },
     {
       "question": "Bottom-down and Top-up are the two major parsing approaches in parsing.",
@@ -243,10 +259,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-12T09:10:18Z"
     },
     {
       "question": "How would you write the \"Hello, world!\" program in Python?",
@@ -283,10 +299,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-12T09:10:18Z"
     },
     {
       "question": "If you execute the following expression, what is the output? >>> 3 + 5 * 2",
@@ -601,10 +617,26 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-12T09:10:18Z"
+    },
+    {
+      "question": "Some of the single character tokens are easy; if the scanner reads a * character then it immediately returns [Dropdown 1: TOKEN IDENTIFIER] .",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "TOKEN IDENTIFIER"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T09:10:18Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T09:10:18Z"
     },
     {
       "question": "Some of the single character tokens are easy; if the scanner reads a * character then it immediately returns [Dropdown 1: TOKEN MULTIPLY] .",
@@ -710,10 +742,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-12T09:10:18Z"
     },
     {
       "question": "These are seen in order appearance in the token stream.",
@@ -831,17 +863,21 @@
         "A. Numbers",
         "B. Identifiers",
         "C. All of the above",
-        "D. Keywords"
+        "D. Keywords",
+        "A. All of the above",
+        "B. Keywords",
+        "C. Identifiers",
+        "D. Numbers"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-12T09:10:18Z"
     },
     {
       "question": "What does this expression evaluate to? 2 * 3 + 2 * 5",
@@ -903,10 +939,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:58:26Z"
+      "lastVerifiedAt": "2026-10-12T09:10:18Z"
     },
     {
       "question": "What is the output of the following program?defisEven(num): return num % 2 = 0 if isEven(3): print(\"3 is even\") else: print(\"3 is not even\")",
