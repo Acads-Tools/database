@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:13:47Z",
-  "totalQuestions": 161,
+  "updatedAt": "2026-10-12T11:16:35Z",
+  "totalQuestions": 162,
   "tier": "verified",
   "questions": [
     {
@@ -765,17 +765,21 @@
         "a. all records meeting the full criteria are to be returned.",
         "b. all columns of the table are to be returned.",
         "c. No correct answer",
-        "d. all records with even partial criteria met are to be returned."
+        "d. all records with even partial criteria met are to be returned.",
+        "a. No correct answer",
+        "b. all records with even partial criteria met are to be returned.",
+        "c. all records meeting the full criteria are to be returned.",
+        "d. all columns of the table are to be returned."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:13:47Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
@@ -995,17 +999,20 @@
         "a. query database data only.",
         "b. modify database data only",
         "c. All of the given choices can be done by MYSQL.",
-        "d. create database structures only."
+        "d. create database structures only.",
+        "a. All of the given choices can be done by MYSQL.",
+        "b. query database data only.",
+        "d. modify database data only"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:21Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "MySQL COUNT() function returns",
@@ -2083,17 +2090,20 @@
         "a. limits the column data that are returned.",
         "b. limits the row data that are returned.",
         "c. Limits both the column data and row data returned.",
-        "d. No correct answer"
+        "d. No correct answer",
+        "a. Limits both the column data and row data returned.",
+        "b. limits the column data that are returned.",
+        "c. limits the row data that are returned."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:13:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:13:47Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "The wildcard in a WHERE clause is useful when?",
@@ -2109,10 +2119,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "There are three different kind of arrays:",
@@ -2262,10 +2272,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "To use MySQL on your computer, you'll need?",
@@ -2822,17 +2832,19 @@
         "a. Both IN and NOT IN.",
         "b. NOT IN only.",
         "c. IN only.",
-        "d. LIKE only"
+        "d. LIKE only",
+        "a. IN only.",
+        "c. Both IN and NOT IN."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:11:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:21Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "Which function used to get the current time in mysql?",
@@ -2927,17 +2939,19 @@
         "a. SELECT, FROM, WHERE",
         "b. SELECT,WHERE,FROM",
         "c. FROM, WHERE, SELECT",
-        "d. WHERE, FROM,SELECT"
+        "d. WHERE, FROM,SELECT",
+        "a. FROM, WHERE, SELECT",
+        "c. SELECT, FROM, WHERE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "Which of the following is the original purpose of SQL?",
@@ -2967,17 +2981,19 @@
         "a. It can be used to delete an index",
         "b. It can be used to remove a database",
         "c. It can be used to remove a table with all data",
-        "d. It can be used to delete only data but not structure of a table"
+        "d. It can be used to delete only data but not structure of a table",
+        "a. It can be used to delete only data but not structure of a table",
+        "d. It can be used to delete an index"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "Which of the following statements contains an error?",
@@ -3148,17 +3164,21 @@
         "a. SORT BY",
         "b. GROUP BY",
         "c. ALIGN BY",
-        "d. ORDER BY"
+        "d. ORDER BY",
+        "a. ORDER BY",
+        "b. ALIGN BY",
+        "c. SORT BY",
+        "d. GROUP BY"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "Which one of the following statements is used to create a table?",
@@ -3310,6 +3330,25 @@
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:42:51Z"
+    },
+    {
+      "question": "With SQL, how do you select all the columns from a table named \"Persons\"?",
+      "answer": "SELECT * FROM Persons",
+      "choices": [
+        "a. SELECT [all] FROM Persons",
+        "b. SELECT * FROM Persons",
+        "c. SELECT Persons",
+        "d. SELECT *.Persons"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-12T11:16:35Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
       "question": "With SQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" is \"Peter\"?",
