@@ -1,0 +1,701 @@
+{
+  "subjectCode": "IT6201B",
+  "subjectName": "Data Structures and Algorithm Analysis",
+  "updatedAt": "2026-10-13T22:58:20Z",
+  "totalQuestions": 36,
+  "questions": [
+    {
+      "question": "A [____: Scalable] network is able to expand to accept new devices and applications without affecting performance.",
+      "answer": "Scalable",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "A data center has recently updated a physical server to host multiple operating systems on a single CPU. The data center can now provide each customer with a separate web server without having to allocate an actual discrete server for each customer. What is the network trend that is being implemented by the data center in this situation?",
+      "answer": "virtualization",
+      "choices": [
+        "a. online collaboration",
+        "b. maintaining communication integrity",
+        "c. BYOD",
+        "d. virtualization"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "A network administer has forgotten the argument of an IOS command. How would the administrator get help from the IOS CLI to complete the command correctly?",
+      "answer": "Type the command and then press the? key",
+      "choices": [
+        "a. Type the command and then press CTRL-C",
+        "b. Type help and press the Enter key at the prompt",
+        "c. Type the command and then press the Tab key",
+        "d. Type the command, type help, and press the Enter key.",
+        "e. Type the command and then press the? key"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "A technician configures a switch with these commands:SwitchA(config)# interface vlan 1 SwitchA(config-if)#ip address 192.168.1.1 255.255.255.0 SwitchA(config-if)# no shutdown What is the technician configuring?",
+      "answer": "SVI",
+      "choices": [
+        "a. Telnet access",
+        "b. password encryption",
+        "c. SVI",
+        "d. physical switchport access"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "An [____: intranet] is a private connection of LANs and WANs that belongs to an organization, and is designed to be accessible only by the members and employees of the organization, or others with authorization.",
+      "answer": "intranet",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "An administrator has just changed the IP address of an interface on an IOS device. What else must be done in order to apply those changes to the device?",
+      "answer": "Nothing must be done. Changes to the configuration on an IOS device take effect as soon as the command is typed correctly and the Enter key has been pressed.",
+      "choices": [
+        "a. Reload the device and type yes when prompted to save the configuration",
+        "b. Copy the running configuration to the startup configuration file.",
+        "c. Nothing must be done. Changes to the configuration on an IOS device take effect as soon as the command is typed correctly and the Enter key has been pressed.",
+        "d. Copy the information in the startup configuration file to the running configuration"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "During a routine inspection, a technician discovered that software that was installed on a computer was secretly collecting data about websites that were visited by users of the computer. Which type of threat is affecting this computer?",
+      "answer": "spyware",
+      "choices": [
+        "a. identity theft",
+        "b. spyware",
+        "c. zero – day attack",
+        "d. DoS attack"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "For which three reasons was a packet switched connectionless data communications technology used when developing the Internet (Choose three.)",
+      "answer": "Data packets can travel through the network using multiple different paths, it can rapidly adapt to the failure of network devices and communication links, Network devices dynamically decide on the best available path to forward each packet.",
+      "choices": [
+        "a. Data packets can travel through the network using multiple different paths",
+        "b. It requires that a data circuit between the source and destination be established before data can be transferred.",
+        "c. it can rapidly adapt to the failure of network devices and communication links",
+        "d. it allows for billing of network use by the amount of time a connection is established",
+        "e. Network devices dynamically decide on the best available path to forward each packet."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "How is the Cisco IOS generally accessed and navigated?",
+      "answer": "Through the CLI using a terminal emulator",
+      "choices": [
+        "a. Using a web browser",
+        "b. Through the CLI using a terminal emulator",
+        "c. By the use of a custom GUI",
+        "d. With a Cisco-proprietary application"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "In which scenario would the use of a WISP be recommended",
+      "answer": "a farm in rural area without wired broadband access",
+      "choices": [
+        "a. a farm in rural area without wired broadband access",
+        "b. an Internet cafe in a city",
+        "c. an apartment in a building with cable access to the Internet",
+        "d. any home with multiple wireless devices",
+        "a. a farm in a rural area without wired broadband access",
+        "b. an apartment in a building with cable access to the Internet",
+        "c. an Internet cafe in a city"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z",
+      "alternateAnswers": [
+        {
+          "answer": "a farm in a rural area without wired broadband access",
+          "timestamp": "2026-10-13T22:58:20Z"
+        }
+      ]
+    },
+    {
+      "question": "The farther you are from the central office when utilizing a DSL connection, the [____: slower] the connection speed",
+      "answer": "slower",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "To save time, IOS commands may be partially entered and then completed by typing which key or key combination?",
+      "answer": "Tab",
+      "choices": [
+        "a. Ctrl-N",
+        "b. Tab",
+        "c. Right Arrow",
+        "d. Up Arrow",
+        "e. Down Arrow",
+        "f. Ctrl-P"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What are the primary requirements of information security? (Choose three.)",
+      "answer": "Integrity, Confidentiality, Availability",
+      "choices": [
+        "a. QoS",
+        "b. Scalability",
+        "c. Integrity",
+        "d. Confidentiality",
+        "e. Availability"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What command will display a list of keywords available for viewing the status of an IOS switch?",
+      "answer": "Switch# show?",
+      "choices": [
+        "a. Switch# show?",
+        "b. Switch# help",
+        "c. Switch# status?",
+        "d. Switch# sh?"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is a converged network?",
+      "answer": "A network where voice, video, and data move over the same infrastructure",
+      "choices": [
+        "a. A network that makes use of both wired and wireless technology",
+        "b. A network that makes use of both wired and wireless technology",
+        "c. A network that makes use of both fiber-optic and copper connections",
+        "d. A network where voice, video, and data move over the same infrastructure"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is a fault-tolerant network?",
+      "answer": "A network that can reroute traffic in case of device failure",
+      "choices": [
+        "a. A network that offers secure transactions",
+        "b. A network that can reroute traffic in case of device failure",
+        "c. A network that can provide priority treatment of voice and video traffic",
+        "d. A network that is incapable of failing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is a group of web pages that groups of individuals can edit and view together called?",
+      "answer": "Wiki",
+      "choices": [
+        "a. Podcasting",
+        "b. Wiki",
+        "c. Access point",
+        "d. Instant messaging",
+        "e. Weblog (blog)",
+        "f. TelePresence endpoint"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is a network infrastructure that provides access to other networks over a wide geographic area?",
+      "answer": "",
+      "choices": [
+        "a. SAN",
+        "b. LAN",
+        "c. WLAN",
+        "d. WAN",
+        "e. MAN"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "WAN"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is a wiki?",
+      "answer": "a web page that groups of people can edit and review",
+      "choices": [
+        "a. a personal journal that is posted on the internet",
+        "b. an audio-based medium that is used to deliver information to a wide audience",
+        "c. an online meeting",
+        "d. a web page that groups of people can edit and review"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is encrypted with the enable secret command?",
+      "answer": "the privileged executive mode password",
+      "choices": [
+        "a. the consoled line password",
+        "b. all configured passwords",
+        "c. the privileged executive mode password",
+        "d. the VTY line password"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is initially entered at the CLI of the Cisco IOS when typing a command sequence?",
+      "answer": "Command",
+      "choices": [
+        "a. Command",
+        "b. Keyword",
+        "c. Argument",
+        "d. A space"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is the Cisco IOS?",
+      "answer": "The operating system for the Cisco network device",
+      "choices": [
+        "a. The memory for the Cisco network device",
+        "b. The operating system for the Cisco network device",
+        "c. The CPU for the Cisco network device",
+        "d. The configuration for the Cisco network device"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What is the primary defense against unauthorized remote access to network devices?",
+      "answer": "Configuring a VTY password",
+      "choices": [
+        "a. Configuring a default gateway",
+        "b. Configuring a VTY password",
+        "c. Configuring an IP address",
+        "d. Configuring a console password"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What type of connection to a Cisco IOS switch is used to make the initial configuration?",
+      "answer": "Console port",
+      "choices": [
+        "a. Console port",
+        "b. SSH",
+        "c. AUX port",
+        "d. Web interface",
+        "e. Telnet"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "What type of information would be found on a logical topology diagram?",
+      "answer": "IP addressing scheme",
+      "choices": [
+        "a. Length and type of all cable runs",
+        "b. IP addressing scheme",
+        "c. Location of departmental printer",
+        "d. Location of departmental switch"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "When the command “Switch(config)# hostname EaSt2+56” is entered in a Cisco IOS device using the CLI, what will be returned in the CLI?",
+      "answer": "EaSt-2+56(config)#",
+      "choices": [
+        "a. EaSt-2+56(config)#",
+        "b. % Invalid input detected",
+        "c. Switch(config)#",
+        "d. Switch EaSt-2+56(config)#",
+        "e. East-2+56(config)#",
+        "f. EaSt-58(config)#"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Where is the configuration used during startup on Cisco IOS devices located?",
+      "answer": "Startup config",
+      "choices": [
+        "a. Startup config",
+        "b. NVRAM",
+        "c. Running config",
+        "d. Terminal emulator"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Which device acts as gateway to allow hosts to send traffic to remote IP networks?",
+      "answer": "local router",
+      "choices": [
+        "a. local router",
+        "b. DNS server",
+        "c. local switch",
+        "d. DHCP server"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Which devices would be considered end devices on a network? (Choose four.)",
+      "answer": "Server, Tablet computer, Printer, IP phone",
+      "choices": [
+        "a. Server",
+        "b. Tablet computer",
+        "c. Printer",
+        "d. IP phone",
+        "e. Wireless access point",
+        "f. Switch"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Which statement describes a feature of an IOS host name configuration?",
+      "answer": "It does not allow spaces",
+      "choices": [
+        "a. Its maximum length is 255 characters.",
+        "b. It does not allow spaces",
+        "c. It cannot start with a number",
+        "d. It must be registered with a DNS server"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Which statement describes a network that supports QoS?",
+      "answer": "The network provides predictable levels of service to different types of traffic",
+      "choices": [
+        "a. Data sent over the network is not altered in transmission",
+        "b. The fewest possible devices are affected by a failure",
+        "c. The network should be able to expand to keep up with user demand",
+        "d. The network provides predictable levels of service to different types of traffic"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Which technology would be best to provide a home user with a highspeed, always-on Internet connection?",
+      "answer": "DSL",
+      "choices": [
+        "a. DSL",
+        "b. Satellite",
+        "c. Dial-up",
+        "d. Cellular"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Which type of network design combines voice, video, and data on the same communication channel?",
+      "answer": "a converged network",
+      "choices": [
+        "a. an extranet",
+        "b. a storage area network",
+        "c. a converged network",
+        "d. a traditional network"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Which type of traffic must receive the highest priority from QoS?",
+      "answer": "VoIP",
+      "choices": [
+        "a. Email",
+        "b. VoIP",
+        "c. Web traffic",
+        "d. Order processing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Why would a network administrator use the CLI of the Cisco IOS?",
+      "answer": "to add a password to a Cisco network device",
+      "choices": [
+        "a. to test the performance on a particular LAN",
+        "b. to provide automatic (unmanned) management of Cisco network devices",
+        "c. to monitor the number of times a device has been powered on and of",
+        "d. to add a password to a Cisco network device"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Why would a technician enter the command copy startup-config running config?",
+      "answer": "to copy an existing configuration into RAM",
+      "choices": [
+        "a. to make a changed configuration the new startup configuration",
+        "b. to copy an existing configuration into RAM",
+        "c. to remove all configuration from the switch",
+        "d. to save an active configuration to NVRAM"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T22:58:20Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    }
+  ]
+}
