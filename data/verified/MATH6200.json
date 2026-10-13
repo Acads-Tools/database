@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-13T23:05:55Z",
-  "totalQuestions": 19,
+  "updatedAt": "2026-10-13T23:08:05Z",
+  "totalQuestions": 20,
   "tier": "verified",
   "questions": [
     {
@@ -12,17 +12,20 @@
         "a. Data Mining",
         "b. Text Analytics",
         "c. data visualization",
-        "d. Statistics Analytics"
+        "d. Statistics Analytics",
+        "a. Text Analytics",
+        "b. data visualization",
+        "c. Data Mining"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "_____________ includes identifying groups of data record.",
@@ -31,17 +34,21 @@
         "a. Text Analytics",
         "b. Statistics Analytics",
         "c. Business Intelligence",
-        "d. Cluster analysis"
+        "d. Cluster analysis",
+        "a. Statistics Analytics",
+        "b. Business Intelligence",
+        "c. Cluster analysis",
+        "d. Text Analytics"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It extracts meaningful numerical indices from information and make it available to statistical and machine learning.",
@@ -50,17 +57,19 @@
         "a. business intelligence",
         "b. Text analytics",
         "c. data mining",
-        "d. data visualization"
+        "d. data visualization",
+        "a. data mining",
+        "c. business intelligence"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It has the goal of discovering useful information to support decision making.",
@@ -69,17 +78,47 @@
         "a. data analysis",
         "b. data visualization",
         "c. data mining",
-        "d. database"
+        "d. database",
+        "a. data mining",
+        "b. database",
+        "c. data visualization",
+        "d. data analysis"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-13T23:05:55Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
+    },
+    {
+      "question": "It includes identifying groups of data records.",
+      "answer": "cluster analysis",
+      "choices": [
+        "a. data analysis",
+        "b. database",
+        "c. data mining",
+        "d. cluster analysis",
+        "a. database",
+        "b. data mining",
+        "c. cluster analysis",
+        "d. data analysis"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "data mining"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastEvidenceAt": "2026-10-13T23:05:55Z",
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It is a free software programming language.",
@@ -88,17 +127,19 @@
         "a. WEKA",
         "b. R-programming",
         "c. Orange",
-        "d. Knime"
+        "d. Knime",
+        "b. Orange",
+        "c. R-programming"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It is a method for discovering patterns in large data sets.",
@@ -107,17 +148,21 @@
         "a. Business Intelligence",
         "b. Data Mining",
         "c. Text Analytics",
-        "d. Statistics Analytics"
+        "d. Statistics Analytics",
+        "a. Statistics Analytics",
+        "b. Text Analytics",
+        "c. Business Intelligence",
+        "d. Data Mining"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It is a powerful tool that shows the network of data.",
@@ -126,17 +171,21 @@
         "a. WEKA",
         "b. Knime",
         "c. Orange",
-        "d. Rapid Miner"
+        "d. Rapid Miner",
+        "a. Knime",
+        "b. Orange",
+        "c. Rapid Miner",
+        "d. WEKA"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It is used in organization’s strategic and tactical business decision making.",
@@ -145,17 +194,19 @@
         "a. data visualization",
         "b. text analytics",
         "c. data mining",
-        "d. business intelligence"
+        "d. business intelligence",
+        "a. text analytics",
+        "b. data visualization"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It makes complex data more understandable and usable.",
@@ -171,10 +222,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "It transforms data into actionable intelligence for business purposes.",
@@ -183,17 +234,19 @@
         "a. Statistics Analytics",
         "b. Data Mining",
         "c. Business Intelligence",
-        "d. Text Analytics"
+        "d. Text Analytics",
+        "c. Text Analytics",
+        "d. Business Intelligence"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "The following are artifacts used in data analysis EXCEPT:",
@@ -202,17 +255,21 @@
         "a. statistical tools",
         "b. graphs",
         "c. ANOVA",
-        "d. pivot tables"
+        "d. pivot tables",
+        "a. pivot tables",
+        "b. ANOVA",
+        "c. graphs",
+        "d. statistical tools"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "The following processes are used in data analysis EXCEPT:",
@@ -221,17 +278,20 @@
         "a. inspecting",
         "b. cleansing",
         "c. collecting",
-        "d. transforming"
+        "d. transforming",
+        "b. collecting",
+        "c. transforming",
+        "d. cleansing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "The goal is to transform raw data into understandable business information.",
@@ -240,17 +300,20 @@
         "a. data visualization",
         "b. text analytics",
         "c. Data mining",
-        "d. business intelligence"
+        "d. business intelligence",
+        "a. business intelligence",
+        "b. data visualization",
+        "d. text analytics"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "What is the process of deriving useful information from text?",
@@ -259,17 +322,20 @@
         "a. Data Mining",
         "b. Text Analytics",
         "c. Business Intelligence",
-        "d. Statistics Analytics"
+        "d. Statistics Analytics",
+        "b. Business Intelligence",
+        "c. Statistics Analytics",
+        "d. Text Analytics"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "What programming language doe Orange use?",
@@ -278,17 +344,21 @@
         "a. JAVA",
         "b. Cobol",
         "c. Fortran",
-        "d. python"
+        "d. python",
+        "a. Cobol",
+        "b. Fortran",
+        "c. python",
+        "d. JAVA"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "Which of the following data mining techniques is predictive?",
@@ -297,17 +367,21 @@
         "a. classification",
         "b. clustering",
         "c. tracking pattern",
-        "d. outlier detection"
+        "d. outlier detection",
+        "a. tracking pattern",
+        "b. outlier detection",
+        "c. clustering",
+        "d. classification"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "Which of the following is NOT a goal in data mining?",
@@ -316,17 +390,21 @@
         "a. discovering useful information",
         "b. collecting data",
         "c. aids in business decision making",
-        "d. evaluating data"
+        "d. evaluating data",
+        "a. collecting data",
+        "b. evaluating data",
+        "c. discovering useful information",
+        "d. aids in business decision making"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "Which of the following is NOT a method used in data analysis?",
@@ -335,17 +413,21 @@
         "a. Text Analytics",
         "b. Data Mining",
         "c. Business Intelligence",
-        "d. Statistics Analytics"
+        "d. Statistics Analytics",
+        "a. Data Mining",
+        "b. Text Analytics",
+        "c. Statistics Analytics",
+        "d. Business Intelligence"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     },
     {
       "question": "Which of the following type of text is processed in text analytics?",
@@ -354,17 +436,20 @@
         "a. unstructured",
         "b. structured",
         "c. unorganized",
-        "d. raw"
+        "d. raw",
+        "b. unorganized",
+        "c. raw",
+        "d. structured"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-13T23:05:55Z"
+      "lastVerifiedAt": "2026-10-13T23:08:05Z"
     }
   ]
 }
