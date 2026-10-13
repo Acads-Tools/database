@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-13T23:51:35Z",
+  "updatedAt": "2026-10-13T23:53:14Z",
   "totalQuestions": 112,
   "questions": [
     {
@@ -47,12 +47,13 @@
         "d. DRAM",
         "d. CDRAM",
         "a. CDROM",
-        "c. DRAM"
+        "c. DRAM",
+        "b. CDROM"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -80,9 +81,9 @@
         "c. SRAM"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -173,6 +174,10 @@
         {
           "rejectedAnswer": "Hard Drive",
           "timestamp": "2026-10-13T23:51:35Z"
+        },
+        {
+          "rejectedAnswer": "Hard Drive",
+          "timestamp": "2026-10-13T23:53:14Z"
         }
       ],
       "questionType": "multichoice"
@@ -402,12 +407,13 @@
         "c. Increment",
         "a. Subtract",
         "b. Decrement",
-        "d. Add"
+        "d. Add",
+        "d. Subtract"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -460,12 +466,13 @@
         "a. Desktop",
         "b. Keyboard",
         "b. Monitor",
-        "d. Desktop"
+        "d. Desktop",
+        "c. Keyboard"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -514,9 +521,9 @@
         "d. Binary"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -622,9 +629,9 @@
         "c. Calculation pipeline"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -666,12 +673,14 @@
         "d. False",
         "a. Maybe",
         "b. Maybe",
-        "c. False"
+        "c. False",
+        "a. I don't know",
+        "b. False"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -695,9 +704,9 @@
         "d. Calculation pipeline"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -743,12 +752,13 @@
         "d. Calculation pipeline",
         "a. Calculation pipeline",
         "a. Arithmetic logic",
-        "b. Binary logic"
+        "b. Binary logic",
+        "c. Combinational Logic"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -951,9 +961,9 @@
         "d. Magnetic & Optical"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-12T07:52:25Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Magnetic"
@@ -1369,9 +1379,9 @@
         "a. Desktop"
       ],
       "verified": true,
-      "confirmations": 39,
+      "confirmations": 40,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1542,9 +1552,9 @@
         "c. Direct mapping"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1692,9 +1702,9 @@
         "b. File System"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2000,7 +2010,7 @@
       "isAiSuggestion": false,
       "questionType": "multichoice",
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-12T07:52:25Z"
+      "lastEvidenceAt": "2026-10-13T23:53:14Z"
     },
     {
       "question": "The data channel is an independent I/O module with its own processor and instruction set",
@@ -2067,12 +2077,13 @@
         "b. Rotate through carry",
         "c. Rotate",
         "d. Logical shift",
-        "b. Arithmetic shift"
+        "b. Arithmetic shift",
+        "d. Arithmetic shift"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2092,12 +2103,14 @@
         "d. Rotate",
         "c. Logical shift",
         "d. Arithmetic shift",
-        "b. Rotate"
+        "b. Rotate",
+        "a. Arithmetic shift",
+        "c. Rotate"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2152,9 +2165,9 @@
         "c. Output"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2479,9 +2492,9 @@
         "d. Binary Integer Representation"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2568,9 +2581,9 @@
         "d. Internet"
       ],
       "verified": true,
-      "confirmations": 34,
+      "confirmations": 35,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-13T23:53:14Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internet and Network"
