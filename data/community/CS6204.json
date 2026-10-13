@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-12T07:52:25Z",
-  "totalQuestions": 110,
+  "updatedAt": "2026-10-13T23:48:35Z",
+  "totalQuestions": 112,
   "questions": [
     {
       "question": "______ are used to correct the error(s) present in the received data (bit stream) so that, we will get the original data.",
@@ -418,6 +418,22 @@
       "questionType": "shortanswer"
     },
     {
+      "question": "A [____: Network] is a communication pathway connecting two or more devices",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Network"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T23:48:35Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-13T23:48:35Z"
+    },
+    {
       "question": "A _________ usually comprises the display device, circuitry, casing, and power supply.",
       "answer": "Monitor",
       "choices": [
@@ -510,12 +526,14 @@
         "a. Bus network",
         "b. Bus line",
         "a. Bus structure",
-        "c. Bus line"
+        "c. Bus line",
+        "b. Bus structure",
+        "c. Bus interconnection"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -811,12 +829,14 @@
         "d. 1989",
         "b. 1989",
         "c. 1994",
-        "b. 2004"
+        "b. 2004",
+        "a. 1984",
+        "c. 1989"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -887,9 +907,9 @@
         "Suggested (Verified DB): Input Fill"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1212,9 +1232,9 @@
         "Suggested (Verified DB): PCI Fill"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1448,9 +1468,9 @@
         "Suggested (Verified DB): Memory Fill"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1527,12 +1547,13 @@
         "a. Bus line",
         "c. Address line",
         "d. Data line",
-        "a. Control line"
+        "a. Control line",
+        "d. Bus line"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1593,9 +1614,9 @@
         "Suggested (Verified DB): Processor Fill"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1831,9 +1852,9 @@
         "Suggested (Verified DB): Power pin Fill"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1855,12 +1876,13 @@
         "c. RAM",
         "b. RAM",
         "d. Processor",
-        "d. Videocard"
+        "d. Videocard",
+        "b. Information"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1887,12 +1909,14 @@
         "c. CPU",
         "a. Processor",
         "c. Memory",
-        "d. I/O modules"
+        "d. I/O modules",
+        "b. Processor",
+        "d. CPU"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:42:05Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2072,9 +2096,9 @@
         "d. 64"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2175,12 +2199,14 @@
         "a. 1992",
         "b. 1990",
         "c. 1991",
-        "c. 1993"
+        "c. 1993",
+        "a. 1993",
+        "d. 1990"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2223,12 +2249,13 @@
         "b. Address Line",
         "d. Data line",
         "c. Control Line",
-        "d. Network Line"
+        "d. Network Line",
+        "a. Network Line"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2306,6 +2333,22 @@
       "lastVerifiedAt": "2026-10-11T18:21:40Z",
       "source": "review_screen",
       "questionType": "shortanswer"
+    },
+    {
+      "question": "These lines, collectively, are called the [____: Transmission media] .",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Transmission media"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-13T23:48:35Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-13T23:48:35Z"
     },
     {
       "question": "These lines, collectively, are called the Answer Question 14.",
@@ -2490,9 +2533,9 @@
         "d. Internet"
       ],
       "verified": true,
-      "confirmations": 32,
+      "confirmations": 33,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-12T07:52:25Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internet and Network"
@@ -2507,9 +2550,9 @@
         "Suggested (Verified DB): Control line Fill"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2564,9 +2607,9 @@
         "d. Peripheral Component Interconnect"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:21:40Z",
+      "lastVerifiedAt": "2026-10-13T23:48:35Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
