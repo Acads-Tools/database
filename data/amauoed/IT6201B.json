@@ -1,0 +1,3928 @@
+{
+  "subjectCode": "IT6201B",
+  "subjectName": "Data Structures and Algorithm Analysis",
+  "updatedAt": "2026-10-14T09:26:12Z",
+  "refreshedAt": "2026-10-14T09:26:12Z",
+  "tier": "study_guide",
+  "sourceName": "AMAUOED",
+  "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite",
+  "sourceFormat": "AMAUOED course answer cards",
+  "verified": false,
+  "totalQuestions": 226,
+  "questions": [
+    {
+      "question": "___________ sorting algorithm is frequently used when n is small, where n is the total number of elements.",
+      "answer": "Insertion",
+      "choices": [
+        "Heap",
+        "Quick",
+        "Bubble",
+        "Insertion"
+      ],
+      "wrongAnswers": [
+        "Heap",
+        "Quick",
+        "Bubble"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "_____________ order is the best possible for array sorting algorithm which sorts n item.",
+      "answer": "O(n+logn)",
+      "choices": [
+        "O(n+logn)",
+        "O(n logn)",
+        "O(n2)",
+        "O(logn)"
+      ],
+      "wrongAnswers": [
+        "O(n2)",
+        "O(logn)"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "____________________ is not the component of data structure.",
+      "answer": "None of these",
+      "choices": [
+        "None of these"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "____________________ level is where the model becomes compatible executable code.",
+      "answer": "Implementation level",
+      "choices": [
+        "Implementation level"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "\"The elements are removal from a stack in _________ order. \"",
+      "answer": "Reverse",
+      "choices": [
+        "Reverse"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "\"This form of access is used to add/remove nodes from a stack. \"",
+      "answer": "Dequeue",
+      "choices": [
+        "Dequeue"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A _______________ is a data structure that organizes data similar to a line in the supermarket, where the first one in line is the first one out.",
+      "answer": "Queue linked list",
+      "choices": [
+        "Queue linked list"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A bank simulation of its teller operation to see how waiting times would be affected by adding another teller.",
+      "answer": "Queue",
+      "choices": [
+        "Queue"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A binary search cannot be applied to a tree.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A binary search tree is another name for a binary tree.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A binary search tree whose left subtree and right subtree differ in height by at most 1 unit is called ____________________.",
+      "answer": "AVL tree",
+      "choices": [
+        "AVL tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A binary tree is a tree in which each node can have zero, one, or two children.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A Binary Tree that stores a collection of elementswith their associated keys at its nodes.",
+      "answer": "Heap",
+      "choices": [
+        "Hash map",
+        "Complete Binary Tree",
+        "Priority Queue",
+        "Heap"
+      ],
+      "wrongAnswers": [
+        "Hash map",
+        "Complete Binary Tree",
+        "Priority Queue"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A connected graph T without any cycles is called ________________.",
+      "answer": "free graph",
+      "choices": [
+        "no cycle graph",
+        "circular graph",
+        "free graph",
+        "non-cycle graph"
+      ],
+      "wrongAnswers": [
+        "no cycle graph",
+        "circular graph",
+        "non-cycle graph"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A connected graph T without any cycles is called a ____________.",
+      "answer": "all of these",
+      "choices": [
+        "Free tree",
+        "all of these",
+        "A tree",
+        "A tree graph"
+      ],
+      "wrongAnswers": [
+        "Free tree",
+        "A tree",
+        "A tree graph"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A Data Structure that can be accessed only at one of its ends for storing and retrieving data.",
+      "answer": "Stacks",
+      "choices": [
+        "Arrays",
+        "Stacks",
+        "Queues",
+        "Linked Lists"
+      ],
+      "wrongAnswers": [
+        "Arrays",
+        "Queues",
+        "Linked Lists"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A dictionary of words used by a spelling checker to be built and maintained.",
+      "answer": "Binary search tree",
+      "choices": [
+        "Binary search tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A hierarchical data structure",
+      "answer": "Trees",
+      "choices": [
+        "Trees",
+        "Stacks",
+        "Lists",
+        "Queues"
+      ],
+      "wrongAnswers": [
+        "Stacks",
+        "Lists",
+        "Queues"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A leaf in a tree is a node with no children.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A linear list in which the last node points to the first node.",
+      "answer": "circular linked list",
+      "choices": [
+        "circular linked list",
+        "none of these",
+        "doubly linked list",
+        "singly linked list"
+      ],
+      "wrongAnswers": [
+        "none of these",
+        "doubly linked list",
+        "singly linked list"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A linear list in which the pointer points only to the successive node.",
+      "answer": "singly linked list",
+      "choices": [
+        "singly linked list"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A list may be linear or nonlinear, depending on its implementation.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A NULL pointer does not always mean empty.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A pointer variable which contains the location at the top element of the stack.",
+      "answer": "Top",
+      "choices": [
+        "Top"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A program keeping track of where canned goods are located on a shelf.",
+      "answer": "Stack",
+      "choices": [
+        "Stack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A program to keep track of patients as they check into a medical clinic, assigning patients to doctors on a first-come, first-served basis.",
+      "answer": "Queue",
+      "choices": [
+        "Queue"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A program to keep track of the soccer teams in a city tournament",
+      "answer": "Tree",
+      "choices": [
+        "Tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A program to maintain the routes in an airline.",
+      "answer": "Graph",
+      "choices": [
+        "Graph"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A program to receive data that is to be saved and processed in the reverse order.",
+      "answer": "Stack",
+      "choices": [
+        "Stack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A queue abstract data structure is a list of collection with the restriction that insertion and deletion can perform at the same end",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A queue applies FIFO ordering",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A queue displays LIFO behavior.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A simple sorting algorithm that works the way we sort playing cards in our hands.",
+      "answer": "Insertion",
+      "choices": [
+        "Searching",
+        "Deletion",
+        "Traversal",
+        "Insertion"
+      ],
+      "wrongAnswers": [
+        "Searching",
+        "Deletion",
+        "Traversal"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A stack and a queue are different names for the same ADT.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A stack displays FIFO behavior.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A structure that is showing some descendants is also a tree.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A tree can not be empty with no nodes",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A tree is an example of a linear data structure",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "A word processor to have a PF key that causes the preceding command to be redisplayed. Every time the PF key is pressed, the program is to show the command that preceded the one currently displayed",
+      "answer": "Stack",
+      "choices": [
+        "Stack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Accessing a linked list from head node until the last node of the list is",
+      "answer": "Traversing",
+      "choices": [
+        "Updating",
+        "Inserting",
+        "Traversing",
+        "Searching"
+      ],
+      "wrongAnswers": [
+        "Updating",
+        "Inserting",
+        "Searching"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "after creating a Max Heap we then swap the first node to the last node and delete ________________.",
+      "answer": "last node",
+      "choices": [
+        "both nodes",
+        "last node",
+        "all nodes",
+        "first node"
+      ],
+      "wrongAnswers": [
+        "both nodes",
+        "all nodes",
+        "first node"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Algorithm that finds the location of the smallest element in the unsorted portion of the list and moves it to the top of the unsorted portion of the list",
+      "answer": "Selection Sort",
+      "choices": [
+        "Insertion Sort",
+        "Selection Sort",
+        "Merge Sort",
+        "Bubble Sort"
+      ],
+      "wrongAnswers": [
+        "Insertion Sort",
+        "Merge Sort",
+        "Bubble Sort"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Algorithms that use a list must know whether the list is array based or linked.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "An Abstract Data Type that stores elements hierarchically.",
+      "answer": "Trees",
+      "choices": [
+        "Stacks",
+        "Trees",
+        "Root",
+        "Linked Lists"
+      ],
+      "wrongAnswers": [
+        "Stacks",
+        "Root",
+        "Linked Lists"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "An electronic address book ordered by name",
+      "answer": "Binary search tree",
+      "choices": [
+        "Binary search tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Another name for directed graph.",
+      "answer": "Digraph",
+      "choices": [
+        "Diregraph",
+        "Dir-graph",
+        "Direct graph",
+        "Digraph"
+      ],
+      "wrongAnswers": [
+        "Diregraph",
+        "Dir-graph",
+        "Direct graph"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Any node of a tree that has child node",
+      "answer": "internal nodes",
+      "choices": [
+        "internal nodes",
+        "prime nodes",
+        "external nodes",
+        "head nodes"
+      ],
+      "wrongAnswers": [
+        "prime nodes",
+        "external nodes",
+        "head nodes"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Any node that does not have child nodes are also called",
+      "answer": "leaf nodes",
+      "choices": [
+        "empty nodes",
+        "internal nodes",
+        "leaf nodes",
+        "single nodes"
+      ],
+      "wrongAnswers": [
+        "empty nodes",
+        "internal nodes",
+        "single nodes"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Binary search algorithm cannot be applied to _______________.",
+      "answer": "pointer array",
+      "choices": [
+        "sorted linear array",
+        "sorted linked list",
+        "sorted binary trees",
+        "pointer array"
+      ],
+      "wrongAnswers": [
+        "sorted linear array",
+        "sorted linked list",
+        "sorted binary trees"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Binary search trees are ordered.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "C++ Stack Operation to push the element on the top of the stack",
+      "answer": "push(el)",
+      "choices": [
+        "pushEL()",
+        "top(el)",
+        "topEL()",
+        "push(el)"
+      ],
+      "wrongAnswers": [
+        "pushEL()",
+        "top(el)",
+        "topEL()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Clr() is used to clear the stack.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Compare to Queue, In Heap you can __________ the whole collection.",
+      "answer": "Access",
+      "choices": [
+        "Retrieve",
+        "Access",
+        "Return",
+        "Add"
+      ],
+      "wrongAnswers": [
+        "Retrieve",
+        "Return",
+        "Add"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Deleting an element is only allowed in a singly linked list",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Deletion operation is done using __________ in a queue.",
+      "answer": "front",
+      "choices": [
+        "front"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "dequeue() takes the last element from the queue.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Describe the following code",
+      "answer": "A function that will insert a node in an arbitrary position",
+      "choices": [
+        "None of the choices",
+        "A function that will insert a node in an arbitrary position",
+        "Identifies the current and previous data element in the linked list",
+        "Traverse a linked list"
+      ],
+      "wrongAnswers": [
+        "None of the choices",
+        "Identifies the current and previous data element in the linked list",
+        "Traverse a linked list"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Doubly linked list should have maximum size to managed the last node of the list",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Each node in a linked list must contain at least ___________________.",
+      "answer": "Two fields",
+      "choices": [
+        "Three fields",
+        "Five fields",
+        "Two fields",
+        "Four fields"
+      ],
+      "wrongAnswers": [
+        "Three fields",
+        "Five fields",
+        "Four fields"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Each node in singly linked list has _______ fields.",
+      "answer": "2",
+      "choices": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "wrongAnswers": [
+        "4",
+        "1",
+        "3"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Enqueue is also called push",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Every node (except the last node) contains the _____________________?",
+      "answer": "address of the next node",
+      "choices": [
+        "element of the next node",
+        "link of the next node",
+        "address of the next node",
+        "data of the next node"
+      ],
+      "wrongAnswers": [
+        "element of the next node",
+        "link of the next node",
+        "data of the next node"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Every node N in a binary tree T except the root has a unique parent called the ________ of N.",
+      "answer": "Predecessor",
+      "choices": [
+        "Precursor",
+        "Antecedents",
+        "Forerunner",
+        "Predecessor"
+      ],
+      "wrongAnswers": [
+        "Precursor",
+        "Antecedents",
+        "Forerunner"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Explode is used to delete an element from the stack",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Given an empty array with 5 in size and the following operations have been executedEnqueue(8)Enqueue(1)Enqueue(7)Enqueue(2)Enqueue(6)What will happen if an attempt to execute enqueue(3)?",
+      "answer": "A queue overflow error will occur",
+      "choices": [
+        "The element will be added into the rear of the array",
+        "The element will be added in front of the array",
+        "None of the choices",
+        "A queue overflow error will occur"
+      ],
+      "wrongAnswers": [
+        "The element will be added into the rear of the array",
+        "The element will be added in front of the array",
+        "None of the choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Given the code, the program will ____________",
+      "answer": "Create a node",
+      "choices": [
+        "Delete a node",
+        "Create a node",
+        "Store same value to head and tail of the linked list",
+        "Set null value to the next node"
+      ],
+      "wrongAnswers": [
+        "Delete a node",
+        "Store same value to head and tail of the linked list",
+        "Set null value to the next node"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Given the following code which contains THREE pushes and ONE POP, what will be output of the stack?stack<int> s;spush(1);spush(2);spush(3);cout<<spop;",
+      "answer": "12",
+      "choices": [
+        "3",
+        "123",
+        "1233",
+        "12"
+      ],
+      "wrongAnswers": [
+        "3",
+        "123",
+        "1233"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Given the stack with elements AMAOED, D being the top of the stack What element(s) will remain in the stack after applying pop() four times?",
+      "answer": "AM",
+      "choices": [
+        "AMAO",
+        "AM",
+        "ED",
+        "DEOA"
+      ],
+      "wrongAnswers": [
+        "AMAO",
+        "ED",
+        "DEOA"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Graph G is _____________ if for any pair u, v of nodes in G, there is a path from u to v or path from v to u.",
+      "answer": "Unliterally connected",
+      "choices": [
+        "Directly connected",
+        "Widely connected",
+        "Literally connected",
+        "Unliterally connected"
+      ],
+      "wrongAnswers": [
+        "Directly connected",
+        "Widely connected",
+        "Literally connected"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Graphs consists of the following :",
+      "answer": "vertices and edges",
+      "choices": [
+        "vertices and edges",
+        "none of the choices",
+        "headers and tails",
+        "pointers and arrays"
+      ],
+      "wrongAnswers": [
+        "none of the choices",
+        "headers and tails",
+        "pointers and arrays"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Herder node is used as sentinel in __________________.",
+      "answer": "Binary tree",
+      "choices": [
+        "Binary tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Identify the data structure which allows deletions at both ends of the list but insertion at only one end.",
+      "answer": "Input restricted dequeue",
+      "choices": [
+        "Input restricted dequeue"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "If a graph has a directional flow, the graph is defined to be ______________",
+      "answer": "directed",
+      "choices": [
+        "connected",
+        "directed",
+        "not connected",
+        "undirected"
+      ],
+      "wrongAnswers": [
+        "connected",
+        "not connected",
+        "undirected"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "If a linked list is unordered, we can insert a new item at either the end or the beginning.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "If Priority queues can be implemented by Heaps, Heaps can be implemented by ___________?",
+      "answer": "Array",
+      "choices": [
+        "Array",
+        "Queues",
+        "Lists",
+        "Stacks"
+      ],
+      "wrongAnswers": [
+        "Queues",
+        "Lists",
+        "Stacks"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "If the integers 3,6,9,12 are enqueued onto a queue in that order, what will be the result of the queue after running a dequeue?",
+      "answer": "6,9,12",
+      "choices": [
+        "6,9,12",
+        "12",
+        "3",
+        "3,6,9"
+      ],
+      "wrongAnswers": [
+        "12",
+        "3",
+        "3,6,9"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "If the number of records to be sorted is small, then __________ sorting can be efficient.",
+      "answer": "Selection",
+      "choices": [
+        "Selection",
+        "Heap",
+        "Merge",
+        "Bubble"
+      ],
+      "wrongAnswers": [
+        "Heap",
+        "Merge",
+        "Bubble"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "in _____________ the parent should always be greater or equal than the child nodes.",
+      "answer": "max heap",
+      "choices": [
+        "min heap",
+        "max heap",
+        "up-heap",
+        "low-heap"
+      ],
+      "wrongAnswers": [
+        "min heap",
+        "up-heap",
+        "low-heap"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In a 2-tree, nodes with 0 children are called ___________.",
+      "answer": "external node",
+      "choices": [
+        "outside node",
+        "outer node",
+        "exterior node",
+        "external node"
+      ],
+      "wrongAnswers": [
+        "outside node",
+        "outer node",
+        "exterior node"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In a graph, if E=(u,v), it means _____________.",
+      "answer": "e begins at processor u and ends at successor v",
+      "choices": [
+        "u is adjacent to v but v is not adjacent to u",
+        "e begins at processor u and ends at successor v",
+        "e begins at processor v and ends at successor u",
+        "v is adjacent to u but u is not adjacent to v"
+      ],
+      "wrongAnswers": [
+        "u is adjacent to v but v is not adjacent to u",
+        "e begins at processor v and ends at successor u",
+        "v is adjacent to u but u is not adjacent to v"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In a graph, if e=[u,v], then u and v are called _______________",
+      "answer": "All of the choices",
+      "choices": [
+        "Adjacent nodes",
+        "Neighbors",
+        "All of the choices",
+        "End points of e"
+      ],
+      "wrongAnswers": [
+        "Adjacent nodes",
+        "Neighbors",
+        "End points of e"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In a graph, the vertices represent the items being modeled.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In a linked list, the ____________ contains the address of next element in the list.",
+      "answer": "Link field",
+      "choices": [
+        "Info field",
+        "Start field",
+        "Next element field",
+        "Link field"
+      ],
+      "wrongAnswers": [
+        "Info field",
+        "Start field",
+        "Next element field"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In an extended binary tree, nodes with 2 children are called _________________.",
+      "answer": "Internal node",
+      "choices": [
+        "Interior node",
+        "Internal node",
+        "Inner node",
+        "Domestic node"
+      ],
+      "wrongAnswers": [
+        "Interior node",
+        "Inner node",
+        "Domestic node"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In binary trees, nodes with no successor are called _______________.",
+      "answer": "Terminal nodes",
+      "choices": [
+        "Final nodes",
+        "End nodes",
+        "Terminal nodes",
+        "Last nodes"
+      ],
+      "wrongAnswers": [
+        "Final nodes",
+        "End nodes",
+        "Last nodes"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In C++ using positions() means to Return a position list of all the nodes of the tree.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In C++ using size() means to Return the number/size of nodes in the tree.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In data structure, a pop is when you remove an element in the stack",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In linked lists, there are no NULL links in ______________",
+      "answer": "circular linked list",
+      "choices": [
+        "linear doubly linked list",
+        "circular linked list",
+        "single linked list",
+        "linked list"
+      ],
+      "wrongAnswers": [
+        "linear doubly linked list",
+        "single linked list",
+        "linked list"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In linked representation of stack, ___________ fields hold the elements of the stack.",
+      "answer": "INFO",
+      "choices": [
+        "TOP",
+        "LINK",
+        "NULL",
+        "INFO"
+      ],
+      "wrongAnswers": [
+        "TOP",
+        "LINK",
+        "NULL"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In linked representation of stack, the null pointer of the last node in the list signals ____________",
+      "answer": "Bottom of the stack",
+      "choices": [
+        "Bottom of the stack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In order to indicate that an object is not present in the map, we  assume that there exists a special sentinel ___________ called end.",
+      "answer": "iterator",
+      "choices": [
+        "marker",
+        "iterator",
+        "terminator",
+        "indicator"
+      ],
+      "wrongAnswers": [
+        "marker",
+        "terminator",
+        "indicator"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In priority queue, items are removed according to time they entered",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In sequential implementation, the stack stored in a one-dimensional array",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In the linked representation of the stack, __________ pointer behaves as the top pointer variable of stack.",
+      "answer": "Start",
+      "choices": [
+        "Begin",
+        "Stop",
+        "Avail",
+        "Start"
+      ],
+      "wrongAnswers": [
+        "Begin",
+        "Stop",
+        "Avail"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "In the stack, if the user try to remove element from the empty stack then it is called as",
+      "answer": "Underflow of stack",
+      "choices": [
+        "Overflow of stack",
+        "Null operation",
+        "Empty collection",
+        "Underflow of stack"
+      ],
+      "wrongAnswers": [
+        "Overflow of stack",
+        "Null operation",
+        "Empty collection"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Indexing the ________________ element in the list is not possible in linked lists.",
+      "answer": "middle",
+      "choices": [
+        "middle"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Indicate which structure would be a more suitable choice for each of the following applications.",
+      "answer": "Tree, Binary search tree",
+      "choices": [
+        "Tree, Binary search tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Inserting an item into the stack when stack is not full is called ____________ while operation and deletion of item from the stack, when stack is not empty is called ________________ operation.",
+      "answer": "push, pop",
+      "choices": [
+        "push, pop"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "It doesn't require a binary tree to be traverse when using insertion or deletion.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "It is a pile in which items are added at one end and removed from the other.",
+      "answer": "queue",
+      "choices": [
+        "queue"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "It uses a hash function to compute an index into an array of buckets",
+      "answer": "Hash table",
+      "choices": [
+        "Hash",
+        "Hash table",
+        "Maps",
+        "Bucket Array"
+      ],
+      "wrongAnswers": [
+        "Hash",
+        "Maps",
+        "Bucket Array"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "LINK is the pointer pointing to the ____________________.",
+      "answer": "predecessor node",
+      "choices": [
+        "predecessor node"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Linked lists are best suited _____________________.",
+      "answer": "for the size of the structure and the data in the structure are constantly changing",
+      "choices": [
+        "for the size of the structure and the data in the structure are constantly changing"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Linked representation of binary tree needs ______ parallel arrays.",
+      "answer": "3",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "wrongAnswers": [
+        "4",
+        "2",
+        "5"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Maps allows us to store elements so they can be located quickly using _________.",
+      "answer": "keys",
+      "choices": [
+        "keys",
+        "arrays",
+        "search",
+        "coordinates"
+      ],
+      "wrongAnswers": [
+        "arrays",
+        "search",
+        "coordinates"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Marked the birth of graph theory",
+      "answer": "Ko\"nigsberg bridge problem",
+      "choices": [
+        "Kneiphof path",
+        "Preger river problem",
+        "Eularpath",
+        "Ko\"nigsberg bridge problem"
+      ],
+      "wrongAnswers": [
+        "Kneiphof path",
+        "Preger river problem",
+        "Eularpath"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Moving from one node to another is called _______________",
+      "answer": "Link hopping or pointer hopping",
+      "choices": [
+        "Traversing",
+        "Link hopping",
+        "Link hopping or pointer hopping",
+        "Pointer hopping"
+      ],
+      "wrongAnswers": [
+        "Traversing",
+        "Link hopping",
+        "Pointer hopping"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "New nodes are added to the ________ of the queue.",
+      "answer": "Back",
+      "choices": [
+        "Front",
+        "Middle",
+        "Front and Back",
+        "Back"
+      ],
+      "wrongAnswers": [
+        "Front",
+        "Middle",
+        "Front and Back"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Nodes of a binary tree is in particular order",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "On average, searching in a binary search tree is faster than searching in a list.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Partition and exchange sort is ____________.",
+      "answer": "quick sort",
+      "choices": [
+        "tree sort",
+        "quick sort",
+        "heap sort",
+        "bubble sort"
+      ],
+      "wrongAnswers": [
+        "tree sort",
+        "heap sort",
+        "bubble sort"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "pop() takes the first element of the stack.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Sequential implementation is represented as a linear list",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Sorting algorithm can be characterized as ________________.",
+      "answer": "Both of the choices",
+      "choices": [
+        "Both of the choices",
+        "Simple algorithm which require the order of n2 comparisons to sort n items",
+        "Sophisticated algorithms that require the O(nlog2n) comparisons to sort items",
+        "None of these"
+      ],
+      "wrongAnswers": [
+        "Simple algorithm which require the order of n2 comparisons to sort n items",
+        "Sophisticated algorithms that require the O(nlog2n) comparisons to sort items",
+        "None of these"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Stack and Queue is a linear data structure.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Stack consists of five basic operations",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Stack follows the strategy of ________________.",
+      "answer": "LIFO",
+      "choices": [
+        "LRU",
+        "RANDOM",
+        "LIFO",
+        "FIFO"
+      ],
+      "wrongAnswers": [
+        "LRU",
+        "RANDOM",
+        "FIFO"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Stack imposes the discipline of First In First Out",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Stack is also called the ________________.",
+      "answer": "Last in, first out",
+      "choices": [
+        "Last in, first out"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Stack is stored in a single dimensional array",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "stack() creates an empty stack.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Stacks can only be implemented using a linked list",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "State True or False for internal sorting algorithms. i. Internal sorting are applied when the entire collection if data to be sorted is small enough that the sorting can take place within main memory. ii. The time required to read or write is considered significant in evaluating the performance of internal sorting.",
+      "answer": "True, False",
+      "choices": [
+        "True, False"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "State True or False for internal sorting algorithms.i. Internal sorting are applied when the entire collection if data to be sorted is small enough that the sorting can take place within main memory.ii. The time required to read or write is considered significant in evaluating the performance of internal sorting.",
+      "answer": "True, False",
+      "choices": [
+        "True, True",
+        "False, True",
+        "True, False",
+        "False, False"
+      ],
+      "wrongAnswers": [
+        "True, True",
+        "False, True",
+        "False, False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The address of the first node in the list is stored in a separate location called",
+      "answer": "head",
+      "choices": [
+        "linker",
+        "head",
+        "initial",
+        "main"
+      ],
+      "wrongAnswers": [
+        "linker",
+        "initial",
+        "main"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "the association of keys and values defines a ____________.",
+      "answer": "mapping",
+      "choices": [
+        "searching",
+        "mapping",
+        "pairing",
+        "traversing"
+      ],
+      "wrongAnswers": [
+        "searching",
+        "pairing",
+        "traversing"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The average case occurs in linear search algorithm _______________.",
+      "answer": "when item is somewhere in the middle of the array",
+      "choices": [
+        "when item is not the array at all",
+        "when item is somewhere in the middle of the array",
+        "when item is the last element in the array",
+        "item is the last element in the array or item is not there at all"
+      ],
+      "wrongAnswers": [
+        "when item is not the array at all",
+        "when item is the last element in the array",
+        "item is the last element in the array or item is not there at all"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The complexity of bubble sort algorithm.",
+      "answer": "O(n2)",
+      "choices": [
+        "O(n)",
+        "O(n2)",
+        "O(logn)",
+        "O(n logn)"
+      ],
+      "wrongAnswers": [
+        "O(n)",
+        "O(logn)",
+        "O(n logn)"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The complexity of linear search algorithm.",
+      "answer": "O(n)",
+      "choices": [
+        "O(logn)",
+        "O(n logn)",
+        "O(n)",
+        "O(n2)"
+      ],
+      "wrongAnswers": [
+        "O(logn)",
+        "O(n logn)",
+        "O(n2)"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The complexity of merge sort algorithm.",
+      "answer": "O(n logn)",
+      "choices": [
+        "O(logn)",
+        "O(n)",
+        "O(n logn)",
+        "O(n2)"
+      ],
+      "wrongAnswers": [
+        "O(logn)",
+        "O(n)",
+        "O(n2)"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The complexity of sorting algorithm measures the __________ as a function of the number n of items to be shorter.",
+      "answer": "running time",
+      "choices": [
+        "average-case complexity",
+        "average time",
+        "case-complexity",
+        "running time"
+      ],
+      "wrongAnswers": [
+        "average-case complexity",
+        "average time",
+        "case-complexity"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The converse notion of a child, an immediate ancestor",
+      "answer": "Parent",
+      "choices": [
+        "Parent",
+        "Head",
+        "Ancestral",
+        "Top"
+      ],
+      "wrongAnswers": [
+        "Head",
+        "Ancestral",
+        "Top"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The data structure that consists of finite set of _____________which are also called nodes.",
+      "answer": "vertices",
+      "choices": [
+        "edges",
+        "links",
+        "vertices",
+        "references"
+      ],
+      "wrongAnswers": [
+        "edges",
+        "links",
+        "references"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The data structure that stores data in the form of key and value pairs where every key is unique.",
+      "answer": "Map",
+      "choices": [
+        "Map",
+        "Tree",
+        "Graph",
+        "Heap"
+      ],
+      "wrongAnswers": [
+        "Tree",
+        "Graph",
+        "Heap"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The delete operation in the slack is called?",
+      "answer": "Pop",
+      "choices": [
+        "Push",
+        "Pop",
+        "Remove",
+        "Erase"
+      ],
+      "wrongAnswers": [
+        "Push",
+        "Remove",
+        "Erase"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The depth of complete binary tree is given by ________________.",
+      "answer": "Dn = log2n+1",
+      "choices": [
+        "Dn = n log2n",
+        "Dn = n log2n+1",
+        "Dn = log2n",
+        "Dn = log2n+1"
+      ],
+      "wrongAnswers": [
+        "Dn = n log2n",
+        "Dn = n log2n+1",
+        "Dn = log2n"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The dummy header in linked list contains ____________________.",
+      "answer": "first record of the actual data",
+      "choices": [
+        "middle record of the actual data",
+        "pointer to the last record of the actual data",
+        "first record of the actual data",
+        "last record of the actual data"
+      ],
+      "wrongAnswers": [
+        "middle record of the actual data",
+        "pointer to the last record of the actual data",
+        "last record of the actual data"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The elements are removal from a stack in _________ order.",
+      "answer": "Reverse",
+      "choices": [
+        "Hierarchical",
+        "Alternative",
+        "Reverse",
+        "Sequential"
+      ],
+      "wrongAnswers": [
+        "Hierarchical",
+        "Alternative",
+        "Sequential"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The following are some of the applications of heaps except",
+      "answer": "Stacks",
+      "choices": [
+        "Priority Queue",
+        "Stacks",
+        "Heap Sort",
+        "Graph Algorithms"
+      ],
+      "wrongAnswers": [
+        "Priority Queue",
+        "Heap Sort",
+        "Graph Algorithms"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The following code illustrates __________________",
+      "answer": "Traversing the linked list",
+      "choices": [
+        "Set value to the header of the linked list",
+        "Traversing the linked list",
+        "Creating an element",
+        "Check the next element in the linked list"
+      ],
+      "wrongAnswers": [
+        "Set value to the header of the linked list",
+        "Creating an element",
+        "Check the next element in the linked list"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The heap is an efficient implementation of an abstract data type called _______________",
+      "answer": "priority queue",
+      "choices": [
+        "linked lists",
+        "Heap-order",
+        "none of the choices",
+        "priority queue"
+      ],
+      "wrongAnswers": [
+        "linked lists",
+        "Heap-order",
+        "none of the choices"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The item search, insertion, and deletion operations all require the binary tree to be traversed.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The last step when inserting an element at the tail of a singly linked list is to assign a tail reference itself to the new created node",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The method used by card sorter.",
+      "answer": "Radix sort",
+      "choices": [
+        "Insertion",
+        "Heap",
+        "Radix sort",
+        "Quick"
+      ],
+      "wrongAnswers": [
+        "Insertion",
+        "Heap",
+        "Quick"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The most important properties of Heap is that its _________________ is at its root.",
+      "answer": "lowest element",
+      "choices": [
+        "child element",
+        "parent element",
+        "lowest element",
+        "highest element"
+      ],
+      "wrongAnswers": [
+        "child element",
+        "parent element",
+        "highest element"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The operation commonly performed in graphs that store the graph in computer memory using a particular graph representation is called ________________",
+      "answer": "Create the graph",
+      "choices": [
+        "Traverse the graph",
+        "Clear the graph",
+        "Determine the graph if empty",
+        "Create the graph"
+      ],
+      "wrongAnswers": [
+        "Traverse the graph",
+        "Clear the graph",
+        "Determine the graph if empty"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The operation of processing each element in the list is known as ________________.",
+      "answer": "traversal",
+      "choices": [
+        "traversal"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The ordering of a linked list follows the rule ________________",
+      "answer": "Follow the leader",
+      "choices": [
+        "First come first serve",
+        "First IN Last OUT",
+        "Follow the leader",
+        "First IN First Out"
+      ],
+      "wrongAnswers": [
+        "First come first serve",
+        "First IN Last OUT",
+        "First IN First Out"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The rearranging of pairs of elements which are out of order, until no such pairs remain.",
+      "answer": "Exchange",
+      "choices": [
+        "Distribution",
+        "Selection",
+        "Exchange",
+        "Insertion"
+      ],
+      "wrongAnswers": [
+        "Distribution",
+        "Selection",
+        "Insertion"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The retrieval of items in a stack is ___________ operation.",
+      "answer": "pop",
+      "choices": [
+        "pop"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The root of a tree is the node that has no ancestors.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The situation when in a linked list START=NULL is ____________________.",
+      "answer": "Underflow",
+      "choices": [
+        "Houseful",
+        "Overflow",
+        "Underflow",
+        "Saturated"
+      ],
+      "wrongAnswers": [
+        "Houseful",
+        "Overflow",
+        "Saturated"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The term push and pop is related to _____________",
+      "answer": "stacks",
+      "choices": [
+        "stacks"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The term used to insert an element into stack.",
+      "answer": "push",
+      "choices": [
+        "pop",
+        "pump",
+        "push",
+        "pull"
+      ],
+      "wrongAnswers": [
+        "pop",
+        "pump",
+        "pull"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The terms depth-first and breadth-first are two most common graph ______________ algorithm",
+      "answer": "traversal",
+      "choices": [
+        "traversal",
+        "generating",
+        "pairing",
+        "sorting"
+      ],
+      "wrongAnswers": [
+        "generating",
+        "pairing",
+        "sorting"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The top element of a tree is called the",
+      "answer": "root",
+      "choices": [
+        "main",
+        "root",
+        "initial",
+        "head"
+      ],
+      "wrongAnswers": [
+        "main",
+        "initial",
+        "head"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The tree ADT stores elements at the nodes of the tree.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The upward movement of the newly inserted entry by means of swapping",
+      "answer": "up-heap bubbling",
+      "choices": [
+        "up-heap swapping",
+        "up-heap sorting",
+        "up-heap traversing",
+        "up-heap bubbling"
+      ],
+      "wrongAnswers": [
+        "up-heap swapping",
+        "up-heap sorting",
+        "up-heap traversing"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "the upward movement of the newly inserted entry by means of swaps is conventionally called __________________",
+      "answer": "up-heap bubbling",
+      "choices": [
+        "up-heap transfer",
+        "up-heap adding",
+        "up-heap bubbling",
+        "up-heap sorting"
+      ],
+      "wrongAnswers": [
+        "up-heap transfer",
+        "up-heap adding",
+        "up-heap sorting"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The value in the left child of a node (if it exists) in a binary search tree will be greater than the value in the node itself.",
+      "answer": "FALSE",
+      "choices": [
+        "FALSE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The value in the right child of a node (if it exists) in a binary search tree will be greater than the value in the node itself.",
+      "answer": "TRUE",
+      "choices": [
+        "TRUE"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "The worst case occurs in linear search algorithm when ________________.",
+      "answer": "Item is the last element in the array or item is not there at all",
+      "choices": [
+        "Item is not in the array at all",
+        "Item is somewhere in the middle of the array",
+        "Item is the last element in the array or item is not there at all",
+        "Item is the last element in the array"
+      ],
+      "wrongAnswers": [
+        "Item is not in the array at all",
+        "Item is somewhere in the middle of the array",
+        "Item is the last element in the array"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "There are 3 auxiliary operations of a stack",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "There are two types of linked lists; sorted lists and unsorted lists.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This form of access is used to add and remove nodes from a queue.",
+      "answer": "FIFO, First In First Out",
+      "choices": [
+        "None of these",
+        "LIFO, Last In First Out",
+        "FIFO, First In First Out",
+        "Both of these"
+      ],
+      "wrongAnswers": [
+        "None of these",
+        "LIFO, Last In First Out",
+        "Both of these"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This form of access is used to add/remove nodes from a stack.",
+      "answer": "LIFO",
+      "choices": [
+        "None of these",
+        "FIFO",
+        "LIFO",
+        "Both of these"
+      ],
+      "wrongAnswers": [
+        "None of these",
+        "FIFO",
+        "Both of these"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This indicates the end of the list.",
+      "answer": "Sentinel",
+      "choices": [
+        "Guard",
+        "Last pointer",
+        "End pointer",
+        "Sentinel"
+      ],
+      "wrongAnswers": [
+        "Guard",
+        "Last pointer",
+        "End pointer"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This is a binary tree whose every node has either zero or two children.",
+      "answer": "extended binary tree",
+      "choices": [
+        "data structure",
+        "extended binary tree",
+        "complete binary tree",
+        "binary search tree"
+      ],
+      "wrongAnswers": [
+        "data structure",
+        "complete binary tree",
+        "binary search tree"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This is a linear list in which insertions and deletions are made to form either end of the structure.",
+      "answer": "Dequeue",
+      "choices": [
+        "Dequeue"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This is a terminal node in a binary tree.",
+      "answer": "Leaf",
+      "choices": [
+        "Branch",
+        "Child",
+        "Root",
+        "Leaf"
+      ],
+      "wrongAnswers": [
+        "Branch",
+        "Child",
+        "Root"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This is the insertion operation in the stack.",
+      "answer": "push",
+      "choices": [
+        "top",
+        "pop",
+        "insert",
+        "push"
+      ],
+      "wrongAnswers": [
+        "top",
+        "pop",
+        "insert"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This is the term used to delete an element from the stack.",
+      "answer": "Pop",
+      "choices": [
+        "Push",
+        "Pump",
+        "Pull",
+        "Pop"
+      ],
+      "wrongAnswers": [
+        "Push",
+        "Pump",
+        "Pull"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This is very useful in situation when data have to be stored and then retrieved in reverse order.",
+      "answer": "stack",
+      "choices": [
+        "stack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This may take place only when there is some minimum amount or no space left in free storage list.",
+      "answer": "Garbage collection",
+      "choices": [
+        "Garbage collection"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "This refers to a linear collection of data items.",
+      "answer": "List",
+      "choices": [
+        "List"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "To delete an element, we get the data from the first node",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "To make heap from range we used ____________",
+      "answer": "make_heap()",
+      "choices": [
+        "create()",
+        "makeheap()",
+        "make_heap()",
+        "heap()"
+      ],
+      "wrongAnswers": [
+        "create()",
+        "makeheap()",
+        "heap()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "To represent a graph (in computer memory), we can use _______________________.",
+      "answer": "adjacency matrices",
+      "choices": [
+        "linear",
+        "adjacent angles",
+        "circle and bar",
+        "adjacency matrices"
+      ],
+      "wrongAnswers": [
+        "linear",
+        "adjacent angles",
+        "circle and bar"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "To return the number of nodes of a Binary Tree ADT in C++ we use number()",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "To take the topmost element from a stack",
+      "answer": "pop()",
+      "choices": [
+        "clear()",
+        "push()",
+        "top()",
+        "pop()"
+      ],
+      "wrongAnswers": [
+        "clear()",
+        "push()",
+        "top()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Tree is usually visualized by connections between parents and children with straight lines.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "TREE[1]=NULL indicates tree is _________",
+      "answer": "Empty",
+      "choices": [
+        "Empty",
+        "Overflow",
+        "Full",
+        "Underflow"
+      ],
+      "wrongAnswers": [
+        "Overflow",
+        "Full",
+        "Underflow"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Trees are ________ if they are similar and have the same contents at corresponding nodes.",
+      "answer": "copies",
+      "choices": [
+        "duplicate",
+        "copies",
+        "carbon copy",
+        "replica"
+      ],
+      "wrongAnswers": [
+        "duplicate",
+        "carbon copy",
+        "replica"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Two nodes that are children of the same parents",
+      "answer": "siblings",
+      "choices": [
+        "siblings",
+        "Roots",
+        "group",
+        "child node"
+      ],
+      "wrongAnswers": [
+        "Roots",
+        "group",
+        "child node"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Unlike an array, inserting an element on a particular node is not allowed in a linked list",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Unsorted lists are elements arranged according to some criteria.",
+      "answer": "False",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "True"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Using put() can perform",
+      "answer": "replace key-value pair",
+      "choices": [
+        "replace key-value pair",
+        "iterator to first entry",
+        "find an entry with key",
+        "remove key-value pair"
+      ],
+      "wrongAnswers": [
+        "iterator to first entry",
+        "find an entry with key",
+        "remove key-value pair"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Value of first linked list index is _______________.",
+      "answer": "0",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "-1"
+      ],
+      "wrongAnswers": [
+        "1",
+        "2",
+        "-1"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "We can also define a binary tree in a recursive way",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "We use a ______________, which corresponds to a heap where the largest element is at the top.",
+      "answer": "Comparator",
+      "choices": [
+        "Comparator",
+        "Pointer",
+        "Root",
+        "Sort"
+      ],
+      "wrongAnswers": [
+        "Pointer",
+        "Root",
+        "Sort"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What are the basic operations performed on a stack?",
+      "answer": "Push and pop, initialize, and test",
+      "choices": [
+        "Initialize, insert, delete, recover",
+        "Test, initialize, insert, save",
+        "Push, insertm initialize, test",
+        "Push and pop, initialize, and test"
+      ],
+      "wrongAnswers": [
+        "Initialize, insert, delete, recover",
+        "Test, initialize, insert, save",
+        "Push, insertm initialize, test"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What does the sequential representation of binary trees use?",
+      "answer": "Array with pointers",
+      "choices": [
+        "Single linear array",
+        "Three dimensional arrays",
+        "Two dimensional arrays",
+        "Array with pointers"
+      ],
+      "wrongAnswers": [
+        "Single linear array",
+        "Three dimensional arrays",
+        "Two dimensional arrays"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What happens when you push a new node onto a stack?",
+      "answer": "The new node is placed at the front of the linked list",
+      "choices": [
+        "The new node is placed at the front of the linked list",
+        "No changes happen",
+        "The new node is placed at the back of the linked list",
+        "The new node is placed at the middle of the linked list"
+      ],
+      "wrongAnswers": [
+        "No changes happen",
+        "The new node is placed at the back of the linked list",
+        "The new node is placed at the middle of the linked list"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What is a queue?",
+      "answer": "FIFO",
+      "choices": [
+        "FIFO"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What is a run list?",
+      "answer": "small batches of records from a file",
+      "choices": [
+        "number of elements having same value",
+        "small batches of records from a file",
+        "number of files in external storage",
+        "number of records"
+      ],
+      "wrongAnswers": [
+        "number of elements having same value",
+        "number of files in external storage",
+        "number of records"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What is the 1st step in the algorithm for popping a data element?",
+      "answer": "Check if stack is empty",
+      "choices": [
+        "Check if memory is full",
+        "Check if stack is empty",
+        "Check the index of the element",
+        "Check the type of data structure"
+      ],
+      "wrongAnswers": [
+        "Check if memory is full",
+        "Check the index of the element",
+        "Check the type of data structure"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What is the minimum number of stacks needed to implement a queue?",
+      "answer": "2",
+      "choices": [
+        "0",
+        "2",
+        "1",
+        "-1"
+      ],
+      "wrongAnswers": [
+        "0",
+        "1",
+        "-1"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "What operation is used to check the number of objects in the queue?",
+      "answer": "size()",
+      "choices": [
+        "size()",
+        "length()",
+        "len()",
+        "objects()"
+      ],
+      "wrongAnswers": [
+        "length()",
+        "len()",
+        "objects()"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "When the largest element is at its root it's called",
+      "answer": "Max-heap",
+      "choices": [
+        "Priority queue",
+        "Max-heap",
+        "Min-heap",
+        "Heap pointer"
+      ],
+      "wrongAnswers": [
+        "Priority queue",
+        "Min-heap",
+        "Heap pointer"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "When using single inheritance, the inheritance relation between classes in a C++ program forms a tree.",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which data structure allows deleting data elements from and inserting at rear?",
+      "answer": "queues",
+      "choices": [
+        "queues"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which data structure is suitable to represent the hierarchal relationship between elements?",
+      "answer": "Tree",
+      "choices": [
+        "Tree"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which data structure is used in breadth first search of a graph to hold nodes?",
+      "answer": "Queue",
+      "choices": [
+        "Queue"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which indicates pre-order traversal?",
+      "answer": "Root, Left sub-tree, Right sub-tree",
+      "choices": [
+        "Root, Left sub-tree, Right sub-tree",
+        "Right sub-tree, Left sub-tree and root",
+        "Right sub-tree, Root, Left sub-tree",
+        "Left sub-tree, Right sub-tree and root"
+      ],
+      "wrongAnswers": [
+        "Right sub-tree, Left sub-tree and root",
+        "Right sub-tree, Root, Left sub-tree",
+        "Left sub-tree, Right sub-tree and root"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which is the pointer associated with the availability list?",
+      "answer": "AVAIL",
+      "choices": [
+        "TOP",
+        "AVAIL",
+        "FIRST",
+        "REAR"
+      ],
+      "wrongAnswers": [
+        "TOP",
+        "FIRST",
+        "REAR"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which is the pointer associated with the stack?",
+      "answer": "TOP",
+      "choices": [
+        "TOP",
+        "FIRST",
+        "FRONT",
+        "REAR"
+      ],
+      "wrongAnswers": [
+        "FIRST",
+        "FRONT",
+        "REAR"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following an application of a stack?",
+      "answer": "Base conversion",
+      "choices": [
+        "Finding factorial of a number",
+        "Solve an index into an array of slots",
+        "Base conversion",
+        "Check if a number is a prime"
+      ],
+      "wrongAnswers": [
+        "Finding factorial of a number",
+        "Solve an index into an array of slots",
+        "Check if a number is a prime"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following best describes the code apush(10);",
+      "answer": "The element 10 will be added in the stack",
+      "choices": [
+        "The element will be added 10 times in the stack",
+        "The element 10 will be stored in the memory variable s",
+        "The element 10 will be added in the stack",
+        "The element 10 will be delete in the stack"
+      ],
+      "wrongAnswers": [
+        "The element will be added 10 times in the stack",
+        "The element 10 will be stored in the memory variable s",
+        "The element 10 will be delete in the stack"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following best describes the code spop(10);",
+      "answer": "An error will occur",
+      "choices": [
+        "Element 10 will be added in the stack",
+        "Element will be added 10 in the stack",
+        "Element 10 will be deleted in the stack",
+        "An error will occur"
+      ],
+      "wrongAnswers": [
+        "Element 10 will be added in the stack",
+        "Element will be added 10 in the stack",
+        "Element 10 will be deleted in the stack"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following data structure can't store the non-homogeneous data elements?",
+      "answer": "Arrays",
+      "choices": [
+        "Arrays"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following data structure is non-linear type?",
+      "answer": "Graph",
+      "choices": [
+        "Graph"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following data structures is linear type?",
+      "answer": "Stack",
+      "choices": [
+        "Stack"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is a pros of a sequential implementation of a stack?",
+      "answer": "Easy to implement",
+      "choices": [
+        "Easy to implement",
+        "Implementation can grow",
+        "Memory allocation can shrink according to runtime",
+        "Implementation is static"
+      ],
+      "wrongAnswers": [
+        "Implementation can grow",
+        "Memory allocation can shrink according to runtime",
+        "Implementation is static"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is a two-way list?",
+      "answer": "List traversed in two directions",
+      "choices": [
+        "List traversed in two directions"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is an application of stack?",
+      "answer": "all of these",
+      "choices": [
+        "all of these"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is non-linear data structure?",
+      "answer": "Trees",
+      "choices": [
+        "Trees"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is not a limitation of binary search algorithm?",
+      "answer": "binary search algorithm is not efficient when the data elements more than 1500",
+      "choices": [
+        "there must be a mechanism to access middle element directly",
+        "must use a sorted array",
+        "binary search algorithm is not efficient when the data elements more than 1500",
+        "requirement of sorted array is expensive when a lot of insertion and deletions are needed"
+      ],
+      "wrongAnswers": [
+        "there must be a mechanism to access middle element directly",
+        "must use a sorted array",
+        "requirement of sorted array is expensive when a lot of insertion and deletions are needed"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is not the part of ADT description?",
+      "answer": "None of these",
+      "choices": [
+        "None of these"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is not the required condition for binary search algorithm?",
+      "answer": "There must be mechanism to delete and/or insert elements in list",
+      "choices": [
+        "The list must be sorted",
+        "There should be the direct access to the middle element in any sub list",
+        "Number values should only be present",
+        "There must be mechanism to delete and/or insert elements in list"
+      ],
+      "wrongAnswers": [
+        "The list must be sorted",
+        "There should be the direct access to the middle element in any sub list",
+        "Number values should only be present"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is two way lists?",
+      "answer": "List traversed in two directions",
+      "choices": [
+        "Linked list with header and trailer nodes",
+        "List traversed in two directions",
+        "Grounded header list",
+        "Circular header list"
+      ],
+      "wrongAnswers": [
+        "Linked list with header and trailer nodes",
+        "Grounded header list",
+        "Circular header list"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following is/are the levels of implementation of data structure?",
+      "answer": "All of these",
+      "choices": [
+        "All of these"
+      ],
+      "wrongAnswers": [],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following names does not relate to stacks?",
+      "answer": "FIFO lists",
+      "choices": [
+        "Push down lists",
+        "Piles",
+        "LIFO lists",
+        "FIFO lists"
+      ],
+      "wrongAnswers": [
+        "Push down lists",
+        "Piles",
+        "LIFO lists"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following sorting algorithm is of priority queue sorting type?",
+      "answer": "Selection sort",
+      "choices": [
+        "Insertion sort",
+        "Bubble sort",
+        "Selection sort",
+        "Merge sort"
+      ],
+      "wrongAnswers": [
+        "Insertion sort",
+        "Bubble sort",
+        "Merge sort"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "Which of the following you will use to remove an item to a queue?",
+      "answer": "Dequeue",
+      "choices": [
+        "Enqueue",
+        "RemoveItem",
+        "DeleteItem",
+        "Dequeue"
+      ],
+      "wrongAnswers": [
+        "Enqueue",
+        "RemoveItem",
+        "DeleteItem"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    },
+    {
+      "question": "You may insert an element in the middle of the linked list",
+      "answer": "True",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "wrongAnswers": [
+        "False"
+      ],
+      "verified": false,
+      "confirmations": 1,
+      "source": "amauoed",
+      "evidenceType": "study_guide_candidate",
+      "sourceUrl": "https://amauoed.com/courses/ite/data-structures-and-algorithm-analysis-6201-ite"
+    }
+  ]
+}
