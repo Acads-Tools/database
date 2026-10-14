@@ -105,7 +105,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | :--- | :--- | :---: | :--- |
 | `BAMM6301` | BAMM6301 | **59** | Active |
 | `CS6200` | CS6200 | **17** | Active |
-| `CS6204` | Computer Architecture and Organization | **112** | Active |
+| `CS6204` | Computer Architecture and Organization | **146** | Active |
 | `CS6205` | Automata Theory and Formal Languages | **124** | Active |
 | `CS6206` | Principles of Operating Systems | **165** | Active |
 | `CS6207` | CS6207 | **57** | Active |

@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-13T23:53:14Z",
-  "totalQuestions": 110,
+  "updatedAt": "2026-10-14T15:45:32Z",
+  "totalQuestions": 144,
   "tier": "verified",
   "questions": [
     {
@@ -238,6 +238,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "_________ may be called as the Internal Storage device.",
+      "answer": "Register",
+      "choices": [
+        "A. Flash Drive",
+        "B. USB port",
+        "C. Connector",
+        "D. Register"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "_________ queues are not an independent scheduling algorithm. They make use of other existing algorithms to group and schedule jobs with common characteristics.",
       "answer": "Multiple level",
       "choices": [
@@ -381,16 +402,39 @@
         "a. Cache memory",
         "b. Bus",
         "a. Word length",
-        "d. Cache memory"
+        "d. Cache memory",
+        "b. Word length",
+        "c. Bus"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:16:05Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "______________ stores the address of the next instruction to be executed.",
+      "answer": "Program counter",
+      "choices": [
+        "a. Hard drive",
+        "b. Database",
+        "c. Program counter",
+        "d. Personal computer"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "A (or B) is increased by one and the resulting value appears at Y.",
@@ -423,7 +467,10 @@
     {
       "question": "A [____: bus] is a communication pathway connecting two or more devices",
       "answer": "bus",
-      "choices": [],
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
@@ -431,7 +478,13 @@
       "firstSeenAt": "2026-09-24T13:53:31Z",
       "lastVerifiedAt": "2026-10-11T18:21:40Z",
       "source": "review_screen",
-      "questionType": "shortanswer"
+      "questionType": "shortanswer",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "True",
+          "timestamp": "2026-10-14T15:45:32Z"
+        }
+      ]
     },
     {
       "question": "A _________ usually comprises the display device, circuitry, casing, and power supply.",
@@ -533,9 +586,9 @@
         "c. Bus interconnection"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -643,6 +696,44 @@
       ]
     },
     {
+      "question": "A level-triggered interrupt is requested by holding the interrupt signal at its particular (high or low) active logic level.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "A microprocessor is an integrated circuit (IC) which incorporates core functions of a computer’s central processing unit (CPU).",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "A printer is an external hardware output device that takes the electronic data stored on a computer or other device and generates a soft copy of it.",
       "answer": "False",
       "choices": [
@@ -698,6 +789,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "A software interrupt is requested by the processor itself upon executing particular instructions or when certain conditions are met.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "A type of flash memory",
       "answer": "NOR-flash",
       "choices": [
@@ -724,6 +834,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "All the instructions that are fetched from memory are located in the Instruction register.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "An ALU is a ______________ circuit, meaning that its outputs will change asynchronously in response to input changes.",
       "answer": "Combinational Logic",
       "choices": [
@@ -748,6 +877,25 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "An edge-triggered interrupt is an interrupt signaled by a level transition on the interrupt line, either a falling edge (high to low) or a rising edge (low to high).",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "Any peripheral device that is not housed inside the computer cabinet.",
@@ -825,6 +973,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Blueberry released the first generation Macintosh, which was the first computer to come with a graphical user interface(GUI) and a mouse.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "Both PCI and PCI-X were superseded by PCI Express, which was introduced in?",
       "answer": "2004",
       "choices": [
@@ -840,16 +1007,37 @@
         "c. 1994",
         "b. 2004",
         "a. 1984",
-        "c. 1989"
+        "c. 1989",
+        "b. 1984",
+        "d. 1994"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Cache memory is a random access memory that is integrated into the hard disk drive.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "Capacity of true tape",
@@ -908,6 +1096,44 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Control signal transmit both commands and timing information between the modules",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "Control unit as the name specifies controls the flow of data and signals in the microprocessor",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "Driven by the motherboard, received by the PCI card",
@@ -1001,12 +1227,14 @@
         "d. Intel Core i7",
         "a. Intel Core i7",
         "b. Keyboard",
-        "d. Mouse"
+        "d. Mouse",
+        "b. Intel Core i7",
+        "c. Keyboard"
       ],
       "verified": true,
-      "confirmations": 28,
+      "confirmations": 29,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:16:05Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1122,6 +1350,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "In the 1960's two devices would be invented that would improve the computer field and set in motion the beginning of the computer revolution.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "In the 1960s, this is where you find the computer memory",
       "answer": "Cathode Ray Tubes",
       "choices": [
@@ -1138,6 +1385,65 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "In what year was the first microprocessor introduced?",
+      "answer": "1971",
+      "choices": [
+        "a. 1973",
+        "b. 1970",
+        "c. 1971",
+        "d. 1972"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "Intel’s 8086 was the first microprocessor to make it to Home computers.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "Interrupts may be implemented in hardware as a distinct component with control lines, or they may be integrated into the memory subsystem.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "It can be used as true cache.",
@@ -1162,6 +1468,27 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It generates the necessary control signals for various data that are fed to microprocessors.",
+      "answer": "Control unit",
+      "choices": [
+        "a. Computer control",
+        "b. Computer network",
+        "c. Computer unit",
+        "d. Control unit"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "It has multiple-bank internal architecture that improves opportunities for on-chip parallelism. Generally, it uses dual data banks internally. It starts access in one bank then next, and then receives data from first then second.",
@@ -1410,12 +1737,14 @@
         "a. CISC",
         "b. RISC",
         "c. DISC",
-        "d. CISC"
+        "d. CISC",
+        "a. SISC",
+        "d. RISC"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:16:05Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1437,12 +1766,14 @@
         "d. Edge-triggered interrupt",
         "a. Edge-triggered interrupt",
         "c. Level-triggered interrupt",
-        "b. Trigger methods"
+        "b. Trigger methods",
+        "b. Edge-triggered interrupt",
+        "d. Level-triggered interrupt"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:16:05Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1505,12 +1836,14 @@
         "d. True interrupt",
         "a. False interrupt",
         "c. Spurious interrupt",
-        "c. True interrupt"
+        "c. True interrupt",
+        "b. False interrupt",
+        "c. Software interrupt"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:16:05Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1745,6 +2078,44 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Microprocessors are very reliable, failure rate is very less as semiconductor technology is used.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "Microprocessors are very versatile, the same chip can be used for a number of applications by simply changing the program (instructions stored in the memory).",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "Microprocessors uses a clock signal to control the rate at which instructions are executed, synchronize other internal components and to control the data transfer between them.",
       "answer": "Clock speed",
       "choices": [
@@ -1798,6 +2169,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "PCI is a hardware bus used for adding internal components to a laptop.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "Princeton Institute for Advanced Studies (IAS) computer is the prototype for all subsequent general-purpose computers",
       "answer": "True",
       "choices": [
@@ -1812,6 +2202,44 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Processor to memory: The processor writes a unit of data to memory.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "Processors typically have an internal interrupt mask register which allows selective enabling and disabling of hardware interrupts.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "Production of dumps, traces, error messages, and other debugging and ____________",
@@ -1838,6 +2266,44 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Registers may be called as the Internal Storage device. Input data, Output data and various other binary data is stored in this unit for further processing.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "RISC is a type of microprocessor architecture which uses small, general purpose and highly optimized instruction set rather than more specialized set of instructions found in others.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "Short term scheduler is also called as _______",
@@ -1881,6 +2347,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The 1960s saw large mainframe computers become much more common in large industries and with the US military and space program.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "The ________ reads in instructions and data",
       "answer": "Processor",
       "choices": [
@@ -1900,9 +2385,9 @@
         "b. Information"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1934,9 +2419,9 @@
         "d. CPU"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:42:05Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2030,6 +2515,63 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The first microprocessor was introduced in the year 1972.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "The first substantial computer was the giant ENIAC machine by John W. Mauchly and J. Presper Eckert at the University of Pennsylvania.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "The hard disk drive forms the brain of the Central Processing Unit",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "The IC is a central termination point for data channels, CPU, and memory",
       "answer": "False",
       "choices": [
@@ -2118,12 +2660,14 @@
         "a. 62",
         "b. 64",
         "a. 60",
-        "d. 64"
+        "d. 64",
+        "a. 58",
+        "c. 64"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2231,13 +2775,32 @@
         "d. 1990"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Then during the year 1976, Intel introduced 8085 processors which is nothing but an update of 8080 processors.8080 processors are updated by adding two Enable/Disable Instructions, Three added interrupt pins and serial I/O pins.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "These are examples of an Operating System, except:",
@@ -2278,12 +2841,13 @@
         "d. Data line",
         "c. Control Line",
         "d. Network Line",
-        "a. Network Line"
+        "a. Network Line",
+        "c. Data line"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2442,6 +3006,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "This is an advantage of a microprocessor.",
+      "answer": "All of the above",
+      "choices": [
+        "a. High reliability",
+        "b. Cheap",
+        "c. Very small in size",
+        "d. All of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "This is in contrast to a floating-point unit (FPU), which operates on floating point numbers.",
       "answer": "Arithmetic Logic Unit",
       "choices": [
@@ -2561,6 +3146,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Typically, a memory module will consist of M words of equal length.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
       "question": "Used to control the access to and the use of the data and address lines",
       "answer": "Control line",
       "choices": [
@@ -2574,6 +3178,44 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Used to control the access to and the use of the data and address system",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "Vacuum Tubes (1950s) - one bit on the size of a thumb",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     },
     {
       "question": "What does EPROM stand for?",
@@ -2621,12 +3263,13 @@
         "d. Personal Computer Internet",
         "b. Peripheral Computer Interconnect",
         "a. Personal Computer Internet",
-        "d. Peripheral Component Interconnect"
+        "d. Peripheral Component Interconnect",
+        "c. Peripheral Component Internet"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-13T23:48:35Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2673,12 +3316,14 @@
         "a. Non-maskable interrupts",
         "c. New microprocessor interrupt",
         "c. Net money income",
-        "d. New microprocessor interrupt"
+        "d. New microprocessor interrupt",
+        "a. Non-maskable intersection",
+        "b. Net money income"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-11T18:16:05Z",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2701,6 +3346,46 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "What was the first substantial computer?",
+      "answer": "giant ENIAC machine",
+      "choices": [
+        "a. the big machine",
+        "b. giant ENIAC machine",
+        "c. Intel",
+        "d. megacomputer"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
+    },
+    {
+      "question": "Word Width is the number of bits in the internal data bus of a processor or it is the number of bits a processor can process at a time",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T15:45:32Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T15:45:32Z"
     }
   ]
 }
