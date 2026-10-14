@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:49:15Z",
-  "totalQuestions": 16,
+  "updatedAt": "2026-10-14T02:53:25Z",
+  "totalQuestions": 25,
   "tier": "verified",
   "questions": [
     {
@@ -23,6 +23,93 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 0} \\frac {cos 2x - 1}{cos x - 1} \\) Answer: [____: 4]",
+      "answer": "4",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 10} \\frac {\\sqrt {3x - 5}}{5} \\) Answer: [____: 1]",
+      "answer": "1",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 1} \\frac {x^{\\frac {1}{3}} - 1}{x^{\\frac {1}{4}} - 1} \\) Answer: [____: 4] / [____ 2: 3]",
+      "answer": "4, 3",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 3} \\frac {5x^2 - 8x - 13}{x^2 - 5} \\) Answer: [____: 2]",
+      "answer": "2",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 3} \\frac {x^4 - 81}{2x^2 - 5x - 3} \\) Answer: [____: 108] / [____ 2: 7]",
+      "answer": "108, 7",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "Every vertical line on the Cartesian plane intersects the x-axis.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
     },
     {
       "question": "Find the equation of the line passing through (-2,3) and perpendicular to the line 4x=9-2y. Use the general equation of the line for your final answer. Answer: x - [____: 2] y + [____ 2: 8] = 0",
@@ -229,6 +316,23 @@
       "lastVerifiedAt": "2026-10-14T02:49:15Z"
     },
     {
+      "question": "The sum of two prime numbers is a prime.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
       "question": "Which of the following are negation of the statement: f(x) and g(x) are polynomials.",
       "answer": "f(x) and g(x) are not polynomials, f(x) or g(x) is a polynomial",
       "choices": [
@@ -246,6 +350,39 @@
       "firstSeenAt": "2026-10-14T02:44:18Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:44:18Z"
+    },
+    {
+      "question": "Which values of x will make the statement x+5=3 or x²=9 true?",
+      "answer": "-2 or (3 and -3)",
+      "choices": [
+        "a. (-2 and 3) or -3",
+        "b. -2 and (3 or -3)",
+        "c. (-2 or 3) and -3",
+        "d. -2 or (3 and -3)"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "Write the contrapositive of the statement: I feel good when I jog. Answer: When I don't jog, I feel [____: Bad] .",
+      "answer": "Bad",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:53:25Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:53:25Z"
     }
   ]
 }
