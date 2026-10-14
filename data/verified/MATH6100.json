@@ -1,10 +1,41 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:56:06Z",
-  "totalQuestions": 33,
+  "updatedAt": "2026-10-14T02:58:26Z",
+  "totalQuestions": 43,
   "tier": "verified",
   "questions": [
+    {
+      "question": "A PL/SQL block must consist of declarative, executable and exception handling section.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
+      "question": "A subprogram that returns a value.",
+      "answer": "Function",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
     {
       "question": "Consider the equation below: [Image: [moodle-asset:120977/function.png]] After evaluating g(-4), g(-1) and g(3), choose which graph represents the given conditions.",
       "answer": "[Image: [moodle-asset:303155/graph1.png]]",
@@ -238,6 +269,51 @@
       "lastVerifiedAt": "2026-10-14T02:49:15Z"
     },
     {
+      "question": "INSTEAD OF triggers can be written only for views.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
+      "question": "It is a subprogram that does not return a value to the caller.",
+      "answer": "Procedure",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
+      "question": "It is automatically fired in response to a specified event.",
+      "answer": "Trigger",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
       "question": "Let f(x) = -x⁴-x-1, evaluate f(-1) and -2f(1). Answers: f(-1) = [____: -1] -2f(1) = [____ 2: 6]",
       "answer": "-1, 6",
       "choices": [],
@@ -378,6 +454,23 @@
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
     },
     {
+      "question": "The IN OUT parameter mode can be assigned a default value.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
       "question": "The persons playing the most important role in the selection of a DBMS are:",
       "answer": "Database administrators",
       "choices": [
@@ -426,6 +519,25 @@
       "firstSeenAt": "2026-10-14T02:53:25Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "What prevents this procedure from being created successfully? CREATE OR REPLACE PROCEDURE DELETE_PLAYER(V_ID IN NUMBER) IS BEGIN DELETE FROM PLAYER WHERE V_ID = 31; EXCEPTION WHEN STATS_EXIST_EXCEPTION THEN DBMS_OUTPUT.PUT_LINE(‘Cannot delete this player, child records exist in PLAYER_BAT_STAT table’); END;",
+      "answer": "The STATS_EXIST_EXCEPTION has not been declared as an exception.",
+      "choices": [
+        "A. The STATS_EXIST_EXCEPTION has not been declared as an exception.",
+        "B. A comma has been left off after the STATS_EXIST_EXCEPTION exception.",
+        "C. Only predefined exceptions are allowed in the EXCEPTION section.",
+        "D. The STATS_EXIST_EXCEPTION has not been declared as a number."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
     },
     {
       "question": "Which of the following are negation of the statement: f(x) and g(x) are polynomials.",
@@ -502,6 +614,65 @@
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:56:06Z"
+    },
+    {
+      "question": "Which of the following is TRUE about the parameter modes in subprograms?",
+      "answer": "All of the choices.",
+      "choices": [
+        "a. None of the choices.",
+        "b. An OUT parameter returns a value to the calling program.",
+        "c. All of the choices.",
+        "d. An IN OUT parameter passes an initial value to a subprogram and returns an updated value to the caller.",
+        "e. An IN parameter lets you pass a value to the subprogram. It is read-only parameter."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
+      "question": "Which of the following is true concerning a procedure?",
+      "answer": "They include procedural and SQL statements.",
+      "choices": [
+        "a. You do not create them with SQL.",
+        "b. They do not need to have a unique name.",
+        "c. They include procedural and SQL statements.",
+        "d. They are the same thing as a function.",
+        "e. All of the choices."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
+      "question": "Which statement will successfully invoke this procedure? CREATE OR REPLACE PROCEDURE INSERT_TEAM (V_ID IN NUMBER, V_CITY IN VARCHAR2 DEFAULT ‘AUSTIN’, V_NAME IN VARCHAR2) IS BEGIN INSERT INTO TEAM(ID, CITY, NAME) VALUES(V_ID, V_CITY, V_NAME); END;",
+      "answer": "EXECUTE INSERT_TEAM(3, V_NAME=>'LONGHORNS', V_CITY=>'AUSTIN');",
+      "choices": [
+        "A. EXECUTE INSERT_TEAM (V_ID := 3, V_NAME := 'LONGHORNS', V_CITY := 'AUSTIN');",
+        "B. EXECUTE INSERT_TEAM (3,'LONGHORNS');",
+        "C. EXECUTE INSERT_TEAM(3, V_NAME=>'LONGHORNS', V_CITY=>'AUSTIN');",
+        "D. EXECUTE INSERT_TEAM;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:58:26Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:58:26Z"
     },
     {
       "question": "Which values of x will make the statement x+5=3 or x²=9 true?",
