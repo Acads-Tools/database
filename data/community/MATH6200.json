@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-14T03:39:42Z",
-  "totalQuestions": 40,
+  "updatedAt": "2026-10-14T03:44:10Z",
+  "totalQuestions": 60,
   "questions": [
     {
       "question": "[Image: matrices1 - [moodle-asset:218982/matrices.png]] Matrix B is",
@@ -172,6 +172,139 @@
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
+      "question": "A bell shaped curve that is symmetric about a vertical line.",
+      "answer": "normal distribution",
+      "choices": [
+        "a. kurtic",
+        "b. standard distribution",
+        "c. skewed",
+        "d. normal distribution"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "A bell-shaped distribution that is symmetric about a vertical line?",
+      "answer": "normal",
+      "choices": [
+        "a. symmetric",
+        "b. normal",
+        "c. skewed",
+        "d. standard"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "A distribution where large distribution are displayed.",
+      "answer": "Grouped frequency distribution",
+      "choices": [
+        "a. Grouped frequency distribution",
+        "b. histogram",
+        "c. Relative frequency distribution",
+        "d. ogive"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "A graph used to indicate intervals in a frequency distribution is refereed to as a______________.",
+      "answer": "histogram",
+      "choices": [
+        "a. pie graph",
+        "b. ogive",
+        "c. histogram",
+        "d. bar graph"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "A score of 50 lies 2 standard deviations above a mean of 30.What is the value of the standard deviation?",
+      "answer": "10",
+      "choices": [
+        "a. 20",
+        "b. 10",
+        "c. 25",
+        "d. 15"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "A survey of 100 consumers said that the price charged for a kilo of rice could be approximated by a normal distribution with a mean of 35 and a standard deviation of 4.How many are less than 39?",
+      "answer": "84",
+      "choices": [
+        "a. 78",
+        "b. 84",
+        "c. 82",
+        "d. 80"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "A survey of 100 consumers said that the price charged for a kilo of rice could be approximated by a normal distribution with a mean of 35 and a standard deviation of 4.How many of them lie between 27 and 43?",
+      "answer": "95",
+      "choices": [
+        "a. 95",
+        "b. 90",
+        "c. 88",
+        "d. 92"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
       "question": "Addition and subtraction of matrices only is possible if two are more matrices.",
       "answer": "Have same sizes.",
       "choices": [
@@ -208,6 +341,63 @@
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "Empirical rule for a normal distribution lie ______% of data with 1 standard deviation below and above the mean.",
+      "answer": "68",
+      "choices": [
+        "a. 75",
+        "b. 64",
+        "c. 68",
+        "d. 79"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "Empirical rule for a normal distribution that is 2 standard deviations above and below the mean is ________% of data.",
+      "answer": "95",
+      "choices": [
+        "a. 85",
+        "b. 80",
+        "c. 90",
+        "d. 95"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "Empirical rule for a normal distribution that is 3 standard deviations above and below the mean covers ______% of the data.",
+      "answer": "99.7",
+      "choices": [
+        "a. 95",
+        "b. 99.7",
+        "c. 98",
+        "d. 92"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
       "question": "If A={ 2,3} B={4,5},which of the following is a Cartesian product of the two sets?",
@@ -483,6 +673,25 @@
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
     },
     {
+      "question": "Lists the percent of data in each distribution.",
+      "answer": "relative frequency distribution",
+      "choices": [
+        "a. relative frequency distribution",
+        "b. histogram",
+        "c. grouped frequency distribution",
+        "d. ogive"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
       "question": "ML means:",
       "answer": "Machine Learning",
       "choices": [
@@ -500,6 +709,25 @@
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "The area of the standard normal curve to the right of z=0.82 is _______.",
+      "answer": "0.206",
+      "choices": [
+        "a. 0.206",
+        "b. 0.295",
+        "c. 209",
+        "d. 0.294"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
       "question": "The following are artifacts used in data analysis EXCEPT:",
@@ -599,6 +827,25 @@
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "The normal distribution with a mean of 0 and standard deviation of 1.",
+      "answer": "Standard",
+      "choices": [
+        "a. Standard",
+        "b. skewed to the right",
+        "c. Skewed",
+        "d. kurtic"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
       "question": "The two sets If A={ 2,3} B={4,5} are said to be",
@@ -717,6 +964,25 @@
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
+      "question": "What is the mean for a standard normal distribution?",
+      "answer": "0",
+      "choices": [
+        "a. 5",
+        "b. 1",
+        "c. 2",
+        "d. 0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
       "question": "What is the process of deriving useful information from text?",
       "answer": "Text Analytics",
       "choices": [
@@ -762,6 +1028,63 @@
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
+      "question": "What is the value of the mean if a score of 110 is 3 standard deviation above the mean?",
+      "answer": "95",
+      "choices": [
+        "a. 90",
+        "b. 91",
+        "c. 85",
+        "d. 95"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "What is the value of the standard deviation in a standard normal distribution?",
+      "answer": "1",
+      "choices": [
+        "a. 0",
+        "b. 1",
+        "c. 5",
+        "d. 2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "What percent of data will lie within 2 standard deviation of the mean?",
+      "answer": "95",
+      "choices": [
+        "a. 95",
+        "b. 99",
+        "c. 68",
+        "d. 90"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
       "question": "What programming language doe Orange use?",
       "answer": "python",
       "choices": [
@@ -787,6 +1110,44 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "What range of values 3 SD below and above the mean in a normal distribution if the mean is 10 and standard deviation is 2?",
+      "answer": "4-16",
+      "choices": [
+        "a. 4-16",
+        "b. 10-14",
+        "c. 5-15",
+        "d. 8-14"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "What range of values lie between 3 standard deviations above and below the mean if the mean is 80 and the standard deviation is 3?",
+      "answer": "71-89",
+      "choices": [
+        "a. 71-89",
+        "b. 71-88",
+        "c. 70-89",
+        "d. 72-89"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
       "question": "Which is NOT a characteristic feature of data structure?",
@@ -885,6 +1246,25 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "Which of the following is TRUE when a distribution is normal?",
+      "answer": "Mean=Median=Mode",
+      "choices": [
+        "a. Mean < Median <Mode",
+        "b. Mean=Median=Mode",
+        "c. Mean >Mode >Median",
+        "d. Mean > Median >Mode"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:44:10Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
       "question": "Which of the following type of text is processed in text analytics?",
