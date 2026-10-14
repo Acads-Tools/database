@@ -130,6 +130,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `MATH6100` | Calculus 1 | **55** | Active |
 | `MATH6200` | MATH6200 | **80** | Active |
 | `MKTG6256` | MKTG6256 | **54** | Active |
+| `NSCI6100` | NSCI6100 | **19** | Active |
 | `NSTP6102` | National Service Training Program 2 | **45** | Active |
 | `OFAD6303A` | OFAD6303A | **22** | Active |
 | `PHYED6102` | PHYED6102 | **63** | Active |
