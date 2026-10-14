@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:58:26Z",
-  "totalQuestions": 48,
+  "updatedAt": "2026-10-14T03:03:59Z",
+  "totalQuestions": 53,
   "questions": [
     {
       "question": "A PL/SQL block must consist of declarative, executable and exception handling section.",
@@ -55,6 +55,20 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "At which values of x is the function from the graph shown continuous? State the answers from the least to the highest, if there would be more than one. [Image: [moodle-asset:120704/SQ9-1.JPG]] Answer: x = [____: -1]",
+      "answer": "-1",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:03:59Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:03:59Z"
     },
     {
       "question": "Consider the equation below: [Image: [moodle-asset:120977/function.png]] After evaluating g(-4), g(-1) and g(3), choose which graph represents the given conditions.",
@@ -577,6 +591,64 @@
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T02:56:06Z"
+    },
+    {
+      "question": "Use the Bisection Algorithm Method to find the root of the given function to an interval of length less than or equal to 0.1. Answer should be up to one decimal place only. f(x) = x² - 2 on [0,3] Answer: [____: 1.4]",
+      "answer": "1.4",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:03:59Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:03:59Z"
+    },
+    {
+      "question": "Use the function h defined by the graph as shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} h(2x - 2) \\)(b) \\(\\Large \\lim_{x \\rightarrow 2} h(1 + x) \\) [Image: [moodle-asset:121407/A8-2.JPG]] Answers: (a) [____: 1] (b) [____ 2: 1]",
+      "answer": "1, 1",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:03:59Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:03:59Z"
+    },
+    {
+      "question": "Use the function h defined by the graph below to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} {x + h(x)} \\)(b) \\(\\Large \\lim_{x \\rightarrow 3} h(\\frac {x}{2}) \\) [Image: [moodle-asset:121434/SQ8-3_4.JPG]] Answers: (a) [____: 3] (b) [____ 2: 3/4]",
+      "answer": "3, 3/4",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:03:59Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:03:59Z"
+    },
+    {
+      "question": "Use the functions f and g defined by the graphs as shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 1} ( f(x) x g(x)) \\)(b) \\(\\Large \\lim_{x \\rightarrow 1} f(g(x)) \\) [Image: [moodle-asset:121433/A8-1.JPG]] Answers: (a) [____: 2] (b) [____ 2: 2]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "2"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:03:59Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:03:59Z"
     },
     {
       "question": "What prevents this procedure from being created successfully? CREATE OR REPLACE PROCEDURE DELETE_PLAYER(V_ID IN NUMBER) IS BEGIN DELETE FROM PLAYER WHERE V_ID = 31; EXCEPTION WHEN STATS_EXIST_EXCEPTION THEN DBMS_OUTPUT.PUT_LINE(‘Cannot delete this player, child records exist in PLAYER_BAT_STAT table’); END;",
