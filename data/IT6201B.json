@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6201B",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-14T10:06:07Z",
+  "updatedAt": "2026-10-14T10:11:43Z",
   "totalQuestions": 104,
   "questions": [
     {
@@ -41,10 +41,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "A data center has recently updated a physical server to host multiple operating systems on a single CPU. The data center can now provide each customer with a separate web server without having to allocate an actual discrete server for each customer. What is the network trend that is being implemented by the data center in this situation?",
@@ -219,17 +219,20 @@
         "a. ROM",
         "b. flash",
         "c. RAM",
-        "d. NVRAM"
+        "d. NVRAM",
+        "a. NVRAM",
+        "c. ROM",
+        "d. RAM"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "During troubleshooting procedures, from which location will most Cisco routers load a limited IOS",
@@ -238,17 +241,19 @@
         "a. NVRAM",
         "b. ROM",
         "c. flash",
-        "d. RAM"
+        "d. RAM",
+        "a. RAM",
+        "d. NVRAM"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "For which three reasons was a packet switched connectionless data communications technology used when developing the Internet (Choose three.)",
@@ -277,17 +282,21 @@
         "a. The MTU is passed to the network layer by the data link layer",
         "b. To increase speed of delivery. The network layer ignores the MTU",
         "c. The network layer depends on the higher level layers to determine the MTU",
-        "d. The network layer depends on the data link layer to set the MTU, and adjusts the speed of transmission to accommodate it"
+        "d. The network layer depends on the data link layer to set the MTU, and adjusts the speed of transmission to accommodate it",
+        "a. To increase speed of delivery. The network layer ignores the MTU",
+        "b. The network layer depends on the data link layer to set the MTU, and adjusts the speed of transmission to accommodate it",
+        "c. The MTU is passed to the network layer by the data link layer",
+        "d. The network layer depends on the higher level layers to determine the MTU"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "How is the Cisco IOS generally accessed and navigated?",
@@ -372,10 +381,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "The 8-bit binary value for 41 is [____: 00101001]",
@@ -497,17 +506,20 @@
         "b. carrying data between processes that are running on source and destination hosts",
         "c. directing data packets to destination hosts on other networks",
         "d. providing dedicated end-to-end connections",
-        "e. placing data on the network medium"
+        "e. placing data on the network medium",
+        "b. placing data on the network medium",
+        "d. carrying data between processes that are running on source and destination hosts",
+        "e. providing dedicated end-to-end connections"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "What command will display a list of keywords available for viewing the status of an IOS switch?",
@@ -563,17 +575,21 @@
         "a. The FTP source host sends a query to the destination host",
         "b. The message is lost because FTP does not use a reliable delivery method",
         "c. The entire FTP message is re-sent",
-        "d. The part of the FTP message that was lost is re-sent"
+        "d. The part of the FTP message that was lost is re-sent",
+        "a. The part of the FTP message that was lost is re-sent",
+        "b. The FTP source host sends a query to the destination host",
+        "c. The message is lost because FTP does not use a reliable delivery method",
+        "d. The entire FTP message is re-sent"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "What happens to frames that are too long or too short for the channel used?",
@@ -745,17 +761,20 @@
         "a. UDP communication is more reliable",
         "b. UDP communication requires less overhead",
         "c. UDP acknowledges received data",
-        "d. UDP reorders segments that are received out of order"
+        "d. UDP reorders segments that are received out of order",
+        "a. UDP reorders segments that are received out of order",
+        "c. UDP communication is more reliable",
+        "d. UDP acknowledges received data"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "What is an advantage of using standards to develop and implement protocols?",
@@ -872,17 +891,19 @@
         "a. to release the assigned IP address",
         "b. to renew the default gateway",
         "c. to display the TCP sockets",
-        "d. to display the host routing table"
+        "d. to display the host routing table",
+        "c. to display the host routing table",
+        "d. to display the TCP sockets"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "What is the name given to a one-to-many message delivery option?",
@@ -1166,17 +1187,21 @@
         "a. a randomly generated destination port number",
         "b. the original source port number that was randomly generated by the client",
         "c. the original destination port number that was generated by the client",
-        "d. a destination port number of 80, referencing the service requested"
+        "d. a destination port number of 80, referencing the service requested",
+        "a. the original source port number that was randomly generated by the client",
+        "b. the original destination port number that was generated by the client",
+        "c. a destination port number of 80, referencing the service requested",
+        "d. a randomly generated destination port number"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "When the command “Switch(config)# hostname EaSt2+56” is entered in a Cisco IOS device using the CLI, what will be returned in the CLI?",
@@ -1211,17 +1236,21 @@
         "a. Differentiated Services",
         "b. Next Header",
         "c. Flow Label",
-        "d. Traffic Class"
+        "d. Traffic Class",
+        "a. Next Header",
+        "b. Traffic Class",
+        "c. Differentiated Services",
+        "d. Flow Label"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "Where is the configuration used during startup on Cisco IOS devices located?",
@@ -1252,17 +1281,20 @@
         "a. The client sends an ISN to the server to start the 3-way handshake",
         "b. The client sends a synchronization segment to begin the session",
         "c. The client randomly selects a source port number",
-        "d. The client sets the window size for the session"
+        "d. The client sets the window size for the session",
+        "a. The client randomly selects a source port number",
+        "c. The client sets the window size for the session",
+        "d. The client sends an ISN to the server to start the 3-way handshake"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "Which application layer protocol allows users on one network to reliably transfer files to and from a host on another network?",
@@ -1316,17 +1348,20 @@
         "b. 255.255.255.255",
         "c. FFFF.FFFF.FFFF",
         "d. AAAA.AAAA.AAAA",
-        "e. 0.0.0.0"
+        "e. 0.0.0.0",
+        "a. 0.0.0.0",
+        "b. the physical address of the destination host",
+        "e. 255.255.255.255"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "Which device acts as gateway to allow hosts to send traffic to remote IP networks?",
@@ -1389,17 +1424,22 @@
         "b. LANs",
         "c. servers",
         "d. a host an intermediary device",
-        "e. network media"
+        "e. network media",
+        "a. LANs",
+        "b. a host an intermediary device",
+        "c. network media",
+        "d. applications",
+        "e. servers"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "Which feature on a Cisco router permits the forwarding of traffic for which there is no specific route?",
@@ -1408,17 +1448,19 @@
         "a. outgoing interface",
         "b. route source",
         "c. gateway of last resort",
-        "d. next-hop"
+        "d. next-hop",
+        "a. gateway of last resort",
+        "c. outgoing interface"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "Which is a function of the Logical Link Control (LLC) sublayer?",
@@ -1933,17 +1975,20 @@
         "a. port density",
         "b. switching rate",
         "c. form factor",
-        "d. forwarding rate"
+        "d. forwarding rate",
+        "a. forwarding rate",
+        "c. port density",
+        "d. form factor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "Which three fields are used in a UDP segment header? (Choose three.)",
@@ -1954,7 +1999,11 @@
         "c. Acknowledgement Number",
         "d. Windows Size",
         "e. Length",
-        "f. Sequence Number"
+        "f. Sequence Number",
+        "a. Windows Size",
+        "b. Length",
+        "d. Checksum",
+        "e. Source Port"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1964,7 +2013,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T01:57:00Z",
+      "alternateAnswers": [
+        {
+          "answer": "Length, Checksum, Source Port",
+          "timestamp": "2026-10-14T10:11:43Z"
+        }
+      ]
     },
     {
       "question": "Which two components are added to the PDU at the network access layer? (Choose two.)",
@@ -2034,7 +2089,12 @@
         "b. POST",
         "c. running configuration",
         "d. IOS image",
-        "e. bootsrap program"
+        "e. bootsrap program",
+        "a. IOS image",
+        "b. running configuration",
+        "c. bootsrap program",
+        "d. startup configuration",
+        "e. POST"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2044,7 +2104,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T01:57:00Z",
+      "alternateAnswers": [
+        {
+          "answer": "IOS image, startup configuration",
+          "timestamp": "2026-10-14T10:11:43Z"
+        }
+      ]
     },
     {
       "question": "Which two functions or operations are performed by the MAC sublayer? (Choose two.)",
@@ -2190,17 +2256,19 @@
         "a. Header Length",
         "b. Differentiated Services",
         "c. Fragment Offset",
-        "d. Time-to-Live"
+        "d. Time-to-Live",
+        "b. Time-to-Live",
+        "d. Differentiated Services"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
       "question": "Why would a network administrator use the CLI of the Cisco IOS?",
@@ -2251,17 +2319,19 @@
         "a. A switch mush have a default gateway to be accessible by Telnet and SSH",
         "b. The default gateway address is used to forward packets originating from the switch to remote networks.",
         "c. It provides a next-hop address for all traffic that flows through the switch",
-        "d. Hosts that are connected to the switch can use the switch default gateway address to forward packets to a remote destination"
+        "d. Hosts that are connected to the switch can use the switch default gateway address to forward packets to a remote destination",
+        "a. It provides a next-hop address for all traffic that flows through the switch",
+        "c. A switch mush have a default gateway to be accessible by Telnet and SSH"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+      "lastVerifiedAt": "2026-10-14T10:11:43Z"
     }
   ]
 }
