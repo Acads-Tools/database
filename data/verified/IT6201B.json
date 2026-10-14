@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6201B",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-14T10:11:43Z",
+  "updatedAt": "2026-10-14T10:13:34Z",
   "totalQuestions": 103,
   "tier": "verified",
   "questions": [
@@ -102,17 +102,20 @@
         "a. The default gateway is overwhelmed by network traffic and the request is redirected to another router",
         "b. To notify the workstation, that another router on the same network, is the better default-gateway to reach the remote server",
         "c. The default gateway does not know a route to the destination",
-        "d. The network topology has changed and a new route toward the file server is available"
+        "d. The network topology has changed and a new route toward the file server is available",
+        "b. The network topology has changed and a new route toward the file server is available",
+        "c. To notify the workstation, that another router on the same network, is the better default-gateway to reach the remote server",
+        "d. The default gateway does not know a route to the destination"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "A technician configures a switch with these commands:SwitchA(config)# interface vlan 1 SwitchA(config-if)#ip address 192.168.1.1 255.255.255.0 SwitchA(config-if)# no shutdown What is the technician configuring?",
@@ -142,17 +145,19 @@
         "a. loopback",
         "b. experimental",
         "c. link-local",
-        "d. private"
+        "d. private",
+        "a. experimental",
+        "b. loopback"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "An [____: intranet] is a private connection of LANs and WANs that belongs to an organization, and is designed to be accessible only by the members and employees of the organization, or others with authorization.",
@@ -396,10 +401,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "The farther you are from the central office when utilizing a DSL connection, the [____: slower] the connection speed",
@@ -424,10 +429,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "The shortest compressed format of the IPv6 address 2001: 0DB8:0000:1470:0000:0000:0000:0200 is [____: 2001:DB8:0:1470::200]",
@@ -438,10 +443,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "To save time, IOS commands may be partially entered and then completed by typing which key or key combination?",
@@ -950,17 +955,20 @@
         "a. to assemble the segments that arrived out of order",
         "b. to keep track of multiple conversations between devices",
         "c. to inquire for a non received segment",
-        "d. to notify the remote device that the conversation is over"
+        "d. to notify the remote device that the conversation is over",
+        "a. to keep track of multiple conversations between devices",
+        "b. to notify the remote device that the conversation is over",
+        "d. to assemble the segments that arrived out of order"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "What is the transport layer PDU?",
@@ -1302,17 +1310,21 @@
         "b. SMTP",
         "c. Telnet",
         "d. HTTP",
-        "e. DHCP"
+        "e. DHCP",
+        "a. Telnet",
+        "c. DHCP",
+        "d. DNS queries",
+        "e. HTTP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "Which destination address is used in an ARP request frame?",
@@ -1534,17 +1546,19 @@
         "a. 192.168.1.1:80",
         "b. 01-23-45-67-89-AB",
         "c. 10.1.1.15",
-        "d. 21"
+        "d. 21",
+        "a. 10.1.1.15",
+        "c. 192.168.1.1:80"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "Which of the following are business-class Internet connection technologies normally supplied by a service provider? (Choose two.)",
@@ -1799,17 +1813,22 @@
         "b. Public IP addresses are only required to be unique within the local network",
         "c. Public IP addresses must be unique across the entire Internet",
         "d. Public addresses cannot be used within a private network",
-        "e. Network administrators are free to select any public addresses to use for network devices that access the Internet"
+        "e. Network administrators are free to select any public addresses to use for network devices that access the Internet",
+        "a. Public addresses cannot be used within a private network",
+        "b. Public IP addresses must be unique across the entire Internet",
+        "c. Public addresses can be duplicated only within a local network",
+        "d. Network administrators are free to select any public addresses to use for network devices that access the Internet",
+        "e. Public IP addresses are only required to be unique within the local network"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "Which statement describes a feature of an IOS host name configuration?",
@@ -1887,17 +1906,21 @@
         "a. A global unicast IPv6 address is dynamically configured on the interface",
         "b. IPv6 traffic-forwarding is enable on the interface",
         "c. Any IPv4 addresses that are assigned to the interface are replaced with an IPv6 address",
-        "d. A link-local IPv6 address is automatically"
+        "d. A link-local IPv6 address is automatically",
+        "a. IPv6 traffic-forwarding is enable on the interface",
+        "b. Any IPv4 addresses that are assigned to the interface are replaced with an IPv6 address",
+        "c. A link-local IPv6 address is automatically",
+        "d. A global unicast IPv6 address is dynamically configured on the interface"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+      "lastVerifiedAt": "2026-10-14T10:13:34Z"
     },
     {
       "question": "Which TCP/IP model layer is responsible for providing the best path through the network?",
