@@ -1,9 +1,104 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-14T03:33:10Z",
-  "totalQuestions": 20,
+  "updatedAt": "2026-10-14T03:39:42Z",
+  "totalQuestions": 40,
   "questions": [
+    {
+      "question": "[Image: matrices1 - [moodle-asset:218982/matrices.png]] Matrix B is",
+      "answer": "invertible",
+      "choices": [
+        "a. inverse",
+        "b. singular",
+        "c. invertible",
+        "d. transpose"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "[Image: matrix - [moodle-asset:218978/matrices.png]] Which of the matrices is singular?",
+      "answer": "A",
+      "choices": [
+        "a. A",
+        "b. C",
+        "c. B",
+        "d. none"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "[Image: matrix1 - [moodle-asset:218979/matrices.png]] Which of the following is the transpose of B?",
+      "answer": "[Image: a - [moodle-asset:556410/a.png]]",
+      "choices": [
+        "a. [Image: d - [moodle-asset:556413/dddd.png]]",
+        "b. [Image: c - [moodle-asset:556412/c.png]]",
+        "c. [Image: a - [moodle-asset:556410/a.png]]",
+        "d. [Image: b - [moodle-asset:556411/b.png]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "[Image: matrix2 - [moodle-asset:218980/matrices.png]] Which of the following is TRUE?",
+      "answer": "A + B = B+ A",
+      "choices": [
+        "a. AB is not possible",
+        "b. A + B = B+ A",
+        "c. AB=BA",
+        "d. BC=CB"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "[Image: matrix3 - [moodle-asset:218981/matrices.png]] 3A + B =",
+      "answer": "[Image: a - [moodle-asset:556418/matrix.png]]",
+      "choices": [
+        "a. [Image: d - [moodle-asset:556421/matrix%203.png]]",
+        "b. [Image: a - [moodle-asset:556418/matrix.png]]",
+        "c. [Image: b - [moodle-asset:556419/matrix%201.png]]",
+        "d. [Image: c - [moodle-asset:556420/matrix%202.png]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
     {
       "question": "___________ uses artifacts to present data visually.",
       "answer": "data visualization",
@@ -56,6 +151,82 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "_______________ is a data structure that every component has a unique processor and succesor.",
+      "answer": "linear",
+      "choices": [
+        "a. static",
+        "b. nonlinear",
+        "c. linear",
+        "d. dynamic"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "Addition and subtraction of matrices only is possible if two are more matrices.",
+      "answer": "Have same sizes.",
+      "choices": [
+        "a. Have same number of rows",
+        "b. Have same number of columns.",
+        "c. Are square matrices.",
+        "d. Have same sizes."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "An array is a good example of _________data structure.",
+      "answer": "static",
+      "choices": [
+        "a. linear",
+        "b. dynamic",
+        "c. nonlinear",
+        "d. static"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "If A={ 2,3} B={4,5},which of the following is a Cartesian product of the two sets?",
+      "answer": "{ (3,4) (3,5) (2,4 ) {2,5) }",
+      "choices": [
+        "a. { (3,4) (3,5) (2,4 ) {2,2) }",
+        "b. { (3,3) (3,5) (2,4 ) {2,5) }",
+        "c. { (3,4) (3,3) (2,4 ) {2,5) }",
+        "d. { (3,4) (3,5) (2,4 ) {2,5) }"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
       "question": "It extracts meaningful numerical indices from information and make it available to statistical and machine learning.",
@@ -268,6 +439,25 @@
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
     },
     {
+      "question": "It refers to a data structure that grows and shrinks at execution time.",
+      "answer": "dynamic",
+      "choices": [
+        "a. nonlinear",
+        "b. dynamic",
+        "c. static",
+        "d. linear"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
       "question": "It transforms data into actionable intelligence for business purposes.",
       "answer": "Business Intelligence",
       "choices": [
@@ -291,6 +481,25 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "ML means:",
+      "answer": "Machine Learning",
+      "choices": [
+        "a. Machine Learning",
+        "b. Math Learning",
+        "c. Machine Landscaping",
+        "d. Mobile Learning"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
       "question": "The following are artifacts used in data analysis EXCEPT:",
@@ -373,6 +582,141 @@
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
     },
     {
+      "question": "The intersection of the two sets A={ 2,3} B={4,5} is a",
+      "answer": "null set",
+      "choices": [
+        "a. null set",
+        "b. singleton",
+        "c. nonsingular",
+        "d. singular"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "The two sets If A={ 2,3} B={4,5} are said to be",
+      "answer": "disjoint",
+      "choices": [
+        "a. equal",
+        "b. adjoint",
+        "c. joint",
+        "d. disjoint"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "What is a data structure that has a fixed size?",
+      "answer": "static",
+      "choices": [
+        "a. linear",
+        "b. nonlinear",
+        "c. static",
+        "d. dynamic"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "What is an organized collection of information and set of information used to manage that operation?",
+      "answer": "ADT",
+      "choices": [
+        "a. data structure",
+        "b. ML",
+        "c. ADT",
+        "d. data science"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "What is the correct meaning of ADT?",
+      "answer": "Abstract Data Type",
+      "choices": [
+        "a. Adequate Data Type",
+        "b. Abstract Data Topography",
+        "c. Adequate Data Tautology",
+        "d. Abstract Data Type"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "What is the earlier name for data science?",
+      "answer": "",
+      "choices": [
+        "a. datatology",
+        "b. datology",
+        "c. dataology",
+        "d. datalogy"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "datology"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "What is the focus of data science?",
+      "answer": "manipulate data efficiently and effectively",
+      "choices": [
+        "a. organization of data",
+        "b. statistical computation",
+        "c. collection of data",
+        "d. manipulate data efficiently and effectively"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
       "question": "What is the process of deriving useful information from text?",
       "answer": "Text Analytics",
       "choices": [
@@ -397,6 +741,25 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "What is the size of the product of a 5x 6 and a 6x 8 matrices?",
+      "answer": "5x 8",
+      "choices": [
+        "a. 8x8",
+        "b. 5x5",
+        "c. 8x5",
+        "d. 5x 8"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
       "question": "What programming language doe Orange use?",
@@ -424,6 +787,25 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "Which is NOT a characteristic feature of data structure?",
+      "answer": "It contains a fixed structure.",
+      "choices": [
+        "a. Set of operations is on one or more component items.",
+        "b. It contains a fixed structure.",
+        "c. It defines as to how components relate to each other.",
+        "d. It contains component data"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
       "question": "Which of the following data mining techniques is predictive?",
