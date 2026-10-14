@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201B",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-14T02:08:50Z",
-  "totalQuestions": 103,
+  "updatedAt": "2026-10-14T10:06:07Z",
+  "totalQuestions": 104,
   "questions": [
     {
       "question": "A [____: loopback] address is defined as a reserved address that routes packets back to the host",
@@ -13,10 +13,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "A [____: Scalable] network is able to expand to accept new devices and applications without affecting performance.",
@@ -319,10 +319,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "In which scenario would the use of a WISP be recommended",
@@ -540,17 +540,21 @@
         "b. (config) # service password-encryption",
         "c. (config) # enable secret Secret_Password",
         "d. (config-line) # password secret",
-        "e. (config)# enable password secret"
+        "e. (config)# enable password secret",
+        "a. (config) # enable secret Secret_Password",
+        "b. (config)# enable password secret",
+        "c. (config) # service password-encryption",
+        "e. (config) # enable secret Encrypted_Password"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What happens if part of an FTP message is not delivered to the destination?",
@@ -579,17 +583,21 @@
         "b. They are delivered but much slower than proper-size frames.",
         "c. They are dropped.",
         "d. They are broken up into smaller pieces.",
-        "e. They clog the network and block the delivery of other frames."
+        "e. They clog the network and block the delivery of other frames.",
+        "a. They are delivered but much slower than proper-size frames.",
+        "b. They are returned to the sender.",
+        "c. They clog the network and block the delivery of other frames.",
+        "e. They are dropped."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What happens when two devices on the same subnet are communicating?",
@@ -598,17 +606,20 @@
         "a. The data link layer addresses are added to the IP header",
         "b. The sending device will use ARP to determine the IP address of the receiver",
         "c. The frame will be sent to the default gateway for delivery to the receiving device",
-        "d. The host portion of the IP addresses will be different"
+        "d. The host portion of the IP addresses will be different",
+        "b. The host portion of the IP addresses will be different",
+        "c. The sending device will use ARP to determine the IP address of the receiver",
+        "d. The frame will be sent to the default gateway for delivery to the receiving device"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What is a converged network?",
@@ -753,17 +764,21 @@
         "a. Different manufacturers are free to apply different requirements when implementing a protocol",
         "b. Products from different manufacturers can interoperate successfully",
         "c. Standard provide flexibility for manufacturers to create devices that comply with unique requirements",
-        "d. A particular protocol can only be implemented by one manufacturer"
+        "d. A particular protocol can only be implemented by one manufacturer",
+        "a. A particular protocol can only be implemented by one manufacturer",
+        "b. Standard provide flexibility for manufacturers to create devices that comply with unique requirements",
+        "c. Products from different manufacturers can interoperate successfully",
+        "d. Different manufacturers are free to apply different requirements when implementing a protocol"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What is and advantage of using standards to develop and implement protocols?",
@@ -772,17 +787,21 @@
         "a. Products from different manufacturers can interoperate successfully",
         "b. Standards provide flexibility for manufacturers to create devices that comply with unique requirements",
         "c. A particular protocol can be implemented by one manufacturer",
-        "d. Different manufacturers are free to apply different requirements when implementing a protocol"
+        "d. Different manufacturers are free to apply different requirements when implementing a protocol",
+        "a. Different manufacturers are free to apply different requirements when implementing a protocol",
+        "b. Products from different manufacturers can interoperate successfully",
+        "c. Standards provide flexibility for manufacturers to create devices that comply with unique requirements",
+        "d. A particular protocol can be implemented by one manufacturer"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What is encrypted with the enable secret command?",
@@ -872,17 +891,19 @@
         "a. Unicast",
         "b. Manycast",
         "c. Multicast",
-        "d. Broadcast"
+        "d. Broadcast",
+        "a. Broadcast",
+        "d. Unicast"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What is the primary defense against unauthorized remote access to network devices?",
@@ -912,17 +933,20 @@
         "a. providing the rules required for a specific type of communication to occur",
         "b. determining the electronic specifications to enable the communication",
         "c. specifying the device operating systems that will support the communication",
-        "d. specifying the bandwidth of the channel or medium for each type of communication"
+        "d. specifying the bandwidth of the channel or medium for each type of communication",
+        "a. determining the electronic specifications to enable the communication",
+        "b. specifying the device operating systems that will support the communication",
+        "c. providing the rules required for a specific type of communication to occur"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What is the purpose of using a source port number in a TCP communication?",
@@ -951,17 +975,21 @@
         "b. Bit",
         "c. Segment",
         "d. Data",
-        "e. Packet"
+        "e. Packet",
+        "a. Packet",
+        "c. Data",
+        "d. Segment",
+        "e. Frame"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What name is given to a group of interrelated protocols necessary to perform a communication function?",
@@ -970,17 +998,20 @@
         "a. Functional collection",
         "b. Functional protocol",
         "c. Protocol suite",
-        "d. Protocol stack"
+        "d. Protocol stack",
+        "a. Protocol stack",
+        "c. Functional collection",
+        "d. Protocol suite"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What organization is responsible for the overall management and development of Internet standards?",
@@ -990,17 +1021,21 @@
         "b. IAB",
         "c. IEEE",
         "d. IETF",
-        "e. IRTF"
+        "e. IRTF",
+        "a. IEEE",
+        "b. ISO",
+        "c. IETF",
+        "d. IAB"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What three functions are defined by network protocols to allow communication between known source and destination IP addresses? (Choose three.)",
@@ -1011,7 +1046,12 @@
         "c. delivery options",
         "d. media selection",
         "e. message size",
-        "f. end-device installation"
+        "f. end-device installation",
+        "b. media selection",
+        "c. end-device installation",
+        "d. message size",
+        "e. delivery options",
+        "f. data encoding"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1021,7 +1061,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T01:54:21Z",
+      "alternateAnswers": [
+        {
+          "answer": "message size, delivery options, data encoding",
+          "timestamp": "2026-10-14T10:06:07Z"
+        }
+      ]
     },
     {
       "question": "What type of connection to a Cisco IOS switch is used to make the initial configuration?",
@@ -1075,17 +1121,20 @@
         "a. Transport protocol",
         "b. Network access protocol",
         "c. Application protocol",
-        "d. Internet protocol"
+        "d. Internet protocol",
+        "a. Network access protocol",
+        "b. Internet protocol",
+        "d. Transport protocol"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "What will a network administrator use to modify a configuration on a Cisco router?",
@@ -1095,17 +1144,20 @@
         "b. IOS",
         "c. Windows Explorer",
         "d. a DHCP server",
-        "e. a control panel"
+        "e. a control panel",
+        "b. a control panel",
+        "d. IOS",
+        "e. a DHCP server"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "When a client connects to an HTTP server by the use of a randomly generated source port number, what destination port number will the HTTP server use when building a response?",
@@ -1220,17 +1272,21 @@
         "b. HTTP",
         "c. IMAP",
         "d. TFTP",
-        "e. FTP"
+        "e. FTP",
+        "b. IMAP",
+        "c. TFTP",
+        "d. FTP",
+        "e. HTTP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which application use UDP as the transport layer protocol?",
@@ -1371,17 +1427,21 @@
         "a. to accept segments and package them into data units that are called packets",
         "b. to provide data link layer addressing",
         "c. to define the media access processes that are performed by the hardware",
-        "d. to identify which network layer protocol is being used"
+        "d. to identify which network layer protocol is being used",
+        "a. to define the media access processes that are performed by the hardware",
+        "b. to accept segments and package them into data units that are called packets",
+        "c. to identify which network layer protocol is being used",
+        "d. to provide data link layer addressing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which logical address is used for delivery of data to a remote network?",
@@ -1391,17 +1451,21 @@
         "b. destination MAC address",
         "c. source MAC address",
         "d. destination port number",
-        "e. destination IP address"
+        "e. destination IP address",
+        "b. destination port number",
+        "c. destination IP address",
+        "d. source MAC address",
+        "e. destination MAC address"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which message delivery option is used when all devices need to receive the same message simultaneously?",
@@ -1410,17 +1474,19 @@
         "a. broadcast",
         "b. duplex",
         "c. multicast",
-        "d. unicast"
+        "d. unicast",
+        "a. unicast",
+        "d. broadcast"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which message timing factor impacts how much information can be sent and the speed at which it can be delivered?",
@@ -1429,17 +1495,21 @@
         "a. Response timeout",
         "b. Flow control",
         "c. Delay speed",
-        "d. Access method"
+        "d. Access method",
+        "a. Delay speed",
+        "b. Access method",
+        "c. Flow control",
+        "d. Response timeout"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which number or set of numbers represents a socket?",
@@ -1506,7 +1576,9 @@
         "a. ISO",
         "b. Novell NetWare",
         "c. AppleTalk",
-        "d. TCP/IP"
+        "d. TCP/IP",
+        "b. TCP/IP",
+        "d. Novell NetWare"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1516,7 +1588,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T01:54:21Z",
+      "alternateAnswers": [
+        {
+          "answer": "AppleTalk, Novell NetWare",
+          "timestamp": "2026-10-14T10:06:07Z"
+        }
+      ]
     },
     {
       "question": "Which of the following elements do both human and computer communication systems have in common? (Choose three.)",
@@ -1526,7 +1604,12 @@
         "b. Keyboard",
         "c. Source",
         "d. Channel",
-        "e. Receiver"
+        "e. Receiver",
+        "a. Keyboard",
+        "b. Receiver",
+        "c. Channel",
+        "d. Source",
+        "e. Default gateway"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1536,7 +1619,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T01:54:21Z",
+      "alternateAnswers": [
+        {
+          "answer": "Receiver, Channel, Source",
+          "timestamp": "2026-10-14T10:06:07Z"
+        }
+      ]
     },
     {
       "question": "Which of the following OSI model layers have the same functionality as the network access layer in the TCP/IP model? (Choose two.)",
@@ -1548,17 +1637,23 @@
         "d. Session",
         "e. Data link",
         "f. Transport",
-        "g. Presentation"
+        "g. Presentation",
+        "a. Presentation",
+        "b. Session",
+        "c. Application",
+        "d. Physical",
+        "e. Network",
+        "g. Data link"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which of the following TCP/IP protocols exist at the transport layer of the TCP/IP reference model? (Choose two.)",
@@ -1568,17 +1663,20 @@
         "b. HTTP",
         "c. FTP",
         "d. TCP",
-        "e. UDP"
+        "e. UDP",
+        "b. FTP",
+        "c. TCP",
+        "d. HTTP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which organization develops the 802 family of standard for wired and wireless LANs and MANs?",
@@ -1588,17 +1686,22 @@
         "b. IEEE",
         "c. ITU-T",
         "d. IANA",
-        "e. ISO"
+        "e. ISO",
+        "a. ISO",
+        "b. IANA",
+        "c. IEEE",
+        "d. ISOC",
+        "e. ITU-T"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which organization is responsible for developing communications standards for Voice over IP (VoIP) devices?",
@@ -1607,17 +1710,20 @@
         "a. The Electronics Industry Alliance (EIA)",
         "b. The Internet Corporation for Assigned Names and Numbers (ICANN)",
         "c. The Telecommunications Industry Association (TIA)",
-        "d. The International Telecommunications Union-Telecommunications Standardization Sector (ITU-T)"
+        "d. The International Telecommunications Union-Telecommunications Standardization Sector (ITU-T)",
+        "a. The Telecommunications Industry Association (TIA)",
+        "c. The International Telecommunications Union-Telecommunications Standardization Sector (ITU-T)",
+        "d. The Electronics Industry Alliance (EIA)"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which organization is responsible for the standard that defines Media Access Control for wired Ethernet?",
@@ -1627,17 +1733,21 @@
         "b. ISOC",
         "c. IETF",
         "d. IAB",
-        "e. IEEE"
+        "e. IEEE",
+        "b. IAB",
+        "c. IEEE",
+        "d. ISOC",
+        "e. IETF"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which OSI reference model layer is responsible for common representation of the data transferred between application layer services?",
@@ -1649,17 +1759,21 @@
         "d. Data link",
         "e. Transport",
         "f. Network",
-        "g. Application"
+        "g. Application",
+        "a. Presentation",
+        "b. Physical",
+        "c. Network",
+        "f. Session"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which statement accurately describes public IP addresses?",
@@ -1734,17 +1848,21 @@
         "a. They define how messages are exchanged between the sources and the destination",
         "b. They all function in the network access layer of TCP/IP",
         "c. Network protocols define the type of hardware that is used and how it is mounted in racks",
-        "d. They are only required for exchange of message between devices on remote network"
+        "d. They are only required for exchange of message between devices on remote network",
+        "a. Network protocols define the type of hardware that is used and how it is mounted in racks",
+        "b. They are only required for exchange of message between devices on remote network",
+        "c. They all function in the network access layer of TCP/IP",
+        "d. They define how messages are exchanged between the sources and the destination"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which statement is true about an interface that is configured with the IPv6 address command?",
@@ -1772,17 +1890,20 @@
         "a. Application",
         "b. Transport",
         "c. Network Access",
-        "d. Internet"
+        "d. Internet",
+        "a. Internet",
+        "c. Application",
+        "d. Network Access"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which technology would be best to provide a home user with a highspeed, always-on Internet connection?",
@@ -1853,7 +1974,12 @@
         "b. HTTP header",
         "c. TCP header",
         "d. Trailer",
-        "e. frame header"
+        "e. frame header",
+        "a. frame header",
+        "b. IP header",
+        "c. Trailer",
+        "d. TCP header",
+        "e. HTTP header"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1863,7 +1989,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T01:54:21Z",
+      "alternateAnswers": [
+        {
+          "answer": "frame header, Trailer",
+          "timestamp": "2026-10-14T10:06:07Z"
+        }
+      ]
     },
     {
       "question": "Which two factors influence the method that is used for media access control? (Choose two.)",
@@ -1873,7 +2005,10 @@
         "b. how connection between nodes appears to the data link layer",
         "c. how nodes share the media",
         "d. how data is generated by end devices applications",
-        "e. how the IP protocol forwards the packet to the destination"
+        "e. how the IP protocol forwards the packet to the destination",
+        "a. how data is generated by end devices applications",
+        "b. how signals are encoded by the NICs on end devices",
+        "d. how connection between nodes appears to the data link layer"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1883,7 +2018,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T01:54:21Z",
+      "alternateAnswers": [
+        {
+          "answer": "how nodes share the media, how connection between nodes appears to the data link layer",
+          "timestamp": "2026-10-14T10:06:07Z"
+        }
+      ]
     },
     {
       "question": "Which two files are loaded into RAM by the router when it boots? (Choose two.)",
@@ -1933,7 +2074,11 @@
         "b. encoding",
         "c. encapsulation",
         "d. response timeout",
-        "e. formatting"
+        "e. formatting",
+        "a. response timeout",
+        "c. formatting",
+        "d. encapsulation",
+        "e. flow control"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1943,7 +2088,33 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T01:54:21Z",
+      "alternateAnswers": [
+        {
+          "answer": "response timeout, flow control",
+          "timestamp": "2026-10-14T10:06:07Z"
+        }
+      ]
+    },
+    {
+      "question": "Which two statements are true of the deterministic access method?(Choose two.)",
+      "answer": "The throughput is predictable, Devices take turns transmitting",
+      "choices": [
+        "a. The throughput is predictable",
+        "b. Devices take turns transmitting",
+        "c. The order of transmission is dictated by the node that asks first for the token",
+        "d. It is a very efficient method because there are no collisions",
+        "e. Each device has to transmit before passing the token to the next device"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T10:06:07Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which two statements are true regarding the user EXEC mode? (Choose two.)",
@@ -1953,17 +2124,19 @@
         "b. Interfaces and routing protocols can be configured",
         "c. This is the default mode on an unconfigured router when first powered up.",
         "d. All router commands are available",
-        "e. Only some aspects of the router configuration can be viewed"
+        "e. Only some aspects of the router configuration can be viewed",
+        "c. All router commands are available",
+        "d. This is the default mode on an unconfigured router when first powered up."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T01:54:21Z"
+      "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
       "question": "Which type of network design combines voice, video, and data on the same communication channel?",
