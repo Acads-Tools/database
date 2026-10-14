@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201B",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-14T01:54:21Z",
-  "totalQuestions": 71,
+  "updatedAt": "2026-10-14T01:57:00Z",
+  "totalQuestions": 92,
   "tier": "verified",
   "questions": [
     {
@@ -32,6 +32,20 @@
       "firstSeenAt": "2026-10-13T22:58:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
+    },
+    {
+      "question": "A collision fragment, also known as a [____: runt] frame, is a frame of fewer than 64 bytes in length.",
+      "answer": "runt",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
       "question": "A data center has recently updated a physical server to host multiple operating systems on a single CPU. The data center can now provide each customer with a separate web server without having to allocate an actual discrete server for each customer. What is the network trend that is being implemented by the data center in this situation?",
@@ -162,6 +176,44 @@
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
     },
     {
+      "question": "During the boot process, in what memory location will the router bootstrap program look for the IOS image if a TFTP server is not used?",
+      "answer": "flash",
+      "choices": [
+        "a. ROM",
+        "b. flash",
+        "c. RAM",
+        "d. NVRAM"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
+      "question": "During troubleshooting procedures, from which location will most Cisco routers load a limited IOS",
+      "answer": "ROM",
+      "choices": [
+        "a. NVRAM",
+        "b. ROM",
+        "c. flash",
+        "d. RAM"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "For which three reasons was a packet switched connectionless data communications technology used when developing the Internet (Choose three.)",
       "answer": "Data packets can travel through the network using multiple different paths, it can rapidly adapt to the failure of network devices and communication links, Network devices dynamically decide on the best available path to forward each packet.",
       "choices": [
@@ -180,6 +232,25 @@
       "firstSeenAt": "2026-10-13T22:58:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "How does the network layer use the MTU value?",
+      "answer": "The MTU is passed to the network layer by the data link layer",
+      "choices": [
+        "a. The MTU is passed to the network layer by the data link layer",
+        "b. To increase speed of delivery. The network layer ignores the MTU",
+        "c. The network layer depends on the higher level layers to determine the MTU",
+        "d. The network layer depends on the data link layer to set the MTU, and adjusts the speed of transmission to accommodate it"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
       "question": "How is the Cisco IOS generally accessed and navigated?",
@@ -256,6 +327,20 @@
       ]
     },
     {
+      "question": "On Ethernet networks, the hexadecimal address FF-FF-FF-FF-FF-FF represent the [____: broadcast] MAC address.",
+      "answer": "broadcast",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "The farther you are from the central office when utilizing a DSL connection, the [____: slower] the connection speed",
       "answer": "slower",
       "choices": [],
@@ -326,6 +411,26 @@
       ]
     },
     {
+      "question": "What are two functions that are provided by the network layer? (Choose two.)",
+      "answer": "providing end devices with a unique network identifier, directing data packets to destination hosts on other networks",
+      "choices": [
+        "a. providing end devices with a unique network identifier",
+        "b. carrying data between processes that are running on source and destination hosts",
+        "c. directing data packets to destination hosts on other networks",
+        "d. providing dedicated end-to-end connections",
+        "e. placing data on the network medium"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "What command will display a list of keywords available for viewing the status of an IOS switch?",
       "answer": "Switch# show?",
       "choices": [
@@ -367,6 +472,25 @@
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
+    },
+    {
+      "question": "What happens if part of an FTP message is not delivered to the destination?",
+      "answer": "The part of the FTP message that was lost is re-sent",
+      "choices": [
+        "a. The FTP source host sends a query to the destination host",
+        "b. The message is lost because FTP does not use a reliable delivery method",
+        "c. The entire FTP message is re-sent",
+        "d. The part of the FTP message that was lost is re-sent"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
       "question": "What happens to frames that are too long or too short for the channel used?",
@@ -498,6 +622,25 @@
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
     },
     {
+      "question": "What is an advantage of UDP over TCP?",
+      "answer": "UDP communication requires less overhead",
+      "choices": [
+        "a. UDP communication is more reliable",
+        "b. UDP communication requires less overhead",
+        "c. UDP acknowledges received data",
+        "d. UDP reorders segments that are received out of order"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "What is an advantage of using standards to develop and implement protocols?",
       "answer": "Products from different manufacturers can interoperate successfully",
       "choices": [
@@ -596,6 +739,25 @@
       "firstSeenAt": "2026-10-13T22:58:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
+    },
+    {
+      "question": "What is the command netstat –r used for?",
+      "answer": "to display the host routing table",
+      "choices": [
+        "a. to release the assigned IP address",
+        "b. to renew the default gateway",
+        "c. to display the TCP sockets",
+        "d. to display the host routing table"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
       "question": "What is the name given to a one-to-many message delivery option?",
@@ -821,6 +983,25 @@
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
     },
     {
+      "question": "When a client connects to an HTTP server by the use of a randomly generated source port number, what destination port number will the HTTP server use when building a response?",
+      "answer": "the original source port number that was randomly generated by the client",
+      "choices": [
+        "a. a randomly generated destination port number",
+        "b. the original source port number that was randomly generated by the client",
+        "c. the original destination port number that was generated by the client",
+        "d. a destination port number of 80, referencing the service requested"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "When the command “Switch(config)# hostname EaSt2+56” is entered in a Cisco IOS device using the CLI, what will be returned in the CLI?",
       "answer": "EaSt-2+56(config)#",
       "choices": [
@@ -847,6 +1028,25 @@
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
     },
     {
+      "question": "When transporting data from real-time applications, such as streaming audio and video, which field in the IPv6 header can be used to inform the routers and switches to maintain the same path for the packets in the same conversation?",
+      "answer": "Flow Label",
+      "choices": [
+        "a. Differentiated Services",
+        "b. Next Header",
+        "c. Flow Label",
+        "d. Traffic Class"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "Where is the configuration used during startup on Cisco IOS devices located?",
       "answer": "Startup config",
       "choices": [
@@ -869,6 +1069,25 @@
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
     },
     {
+      "question": "Which action is performed by a client when establishing communication with a server via the use of UDP at the transport layer?",
+      "answer": "The client sends a synchronization segment to begin the session",
+      "choices": [
+        "a. The client sends an ISN to the server to start the 3-way handshake",
+        "b. The client sends a synchronization segment to begin the session",
+        "c. The client randomly selects a source port number",
+        "d. The client sets the window size for the session"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "Which application layer protocol allows users on one network to reliably transfer files to and from a host on another network?",
       "answer": "FTP",
       "choices": [
@@ -887,6 +1106,26 @@
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
+    },
+    {
+      "question": "Which destination address is used in an ARP request frame?",
+      "answer": "FFFF.FFFF.FFFF",
+      "choices": [
+        "a. the physical address of the destination host",
+        "b. 255.255.255.255",
+        "c. FFFF.FFFF.FFFF",
+        "d. AAAA.AAAA.AAAA",
+        "e. 0.0.0.0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
       "question": "Which device acts as gateway to allow hosts to send traffic to remote IP networks?",
@@ -940,6 +1179,45 @@
           "timestamp": "2026-10-14T01:49:46Z"
         }
       ]
+    },
+    {
+      "question": "Which entities are involve in a temporary communication that is established by the transport layer?",
+      "answer": "applications",
+      "choices": [
+        "a. applications",
+        "b. LANs",
+        "c. servers",
+        "d. a host an intermediary device",
+        "e. network media"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
+      "question": "Which feature on a Cisco router permits the forwarding of traffic for which there is no specific route?",
+      "answer": "gateway of last resort",
+      "choices": [
+        "a. outgoing interface",
+        "b. route source",
+        "c. gateway of last resort",
+        "d. next-hop"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
       "question": "Which is a function of the Logical Link Control (LLC) sublayer?",
@@ -1325,6 +1603,46 @@
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
     },
     {
+      "question": "Which term defines the processing capabilities of a switch by rating how much data can be processed per second?",
+      "answer": "forwarding rate",
+      "choices": [
+        "a. port density",
+        "b. switching rate",
+        "c. form factor",
+        "d. forwarding rate"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
+      "question": "Which three fields are used in a UDP segment header? (Choose three.)",
+      "answer": "Checksum, Source Port, Length",
+      "choices": [
+        "a. Checksum",
+        "b. Source Port",
+        "c. Acknowledgement Number",
+        "d. Windows Size",
+        "e. Length",
+        "f. Sequence Number"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "Which two components are added to the PDU at the network access layer? (Choose two.)",
       "answer": "Trailer, frame header",
       "choices": [
@@ -1363,6 +1681,46 @@
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
+    },
+    {
+      "question": "Which two files are loaded into RAM by the router when it boots? (Choose two.)",
+      "answer": "startup configuration, IOS image",
+      "choices": [
+        "a. startup configuration",
+        "b. POST",
+        "c. running configuration",
+        "d. IOS image",
+        "e. bootsrap program"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
+      "question": "Which two functions or operations are performed by the MAC sublayer? (Choose two.)",
+      "answer": "it adds a header and trailer to form an OSI Layer 2 PDU, It is responsible for Media Access Control",
+      "choices": [
+        "a. it adds a header and trailer to form an OSI Layer 2 PDU",
+        "b. it handles communication between upper and lower layers",
+        "c. it performs the function of NIC driver software",
+        "d. It is responsible for Media Access Control",
+        "e. it adds control information to network protocol layer data"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
       "question": "Which two message timing mechanisms are used in data communication? (Choose two.)",
@@ -1450,6 +1808,25 @@
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
     },
     {
+      "question": "Which value, that is contained in an IPv4 header field, is decremented by each router that receives a packet?",
+      "answer": "Time-to-Live",
+      "choices": [
+        "a. Header Length",
+        "b. Differentiated Services",
+        "c. Fragment Offset",
+        "d. Time-to-Live"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
+    },
+    {
       "question": "Why would a network administrator use the CLI of the Cisco IOS?",
       "answer": "to add a password to a Cisco network device",
       "choices": [
@@ -1490,6 +1867,25 @@
       "firstSeenAt": "2026-10-13T22:58:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
+    },
+    {
+      "question": "Within a production network, what is the purpose of configuring a switch with a default gateway address?",
+      "answer": "The default gateway address is used to forward packets originating from the switch to remote networks.",
+      "choices": [
+        "a. A switch mush have a default gateway to be accessible by Telnet and SSH",
+        "b. The default gateway address is used to forward packets originating from the switch to remote networks.",
+        "c. It provides a next-hop address for all traffic that flows through the switch",
+        "d. Hosts that are connected to the switch can use the switch default gateway address to forward packets to a remote destination"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T01:57:00Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T01:57:00Z"
     }
   ]
 }
