@@ -278,6 +278,10 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
             # Preserve/update questionType
             if not existing_item.get("questionType"):
                 existing_item["questionType"] = item.get("questionType") or ("multichoice" if existing_choices else "shortanswer")
+            if item.get("originType") and not existing_item.get("originType"):
+                existing_item["originType"] = item.get("originType")
+            if item.get("originLabel") and not existing_item.get("originLabel"):
+                existing_item["originLabel"] = item.get("originLabel")
 
             if is_review_elimination and not clean_a:
                 existing_item["wrongAnswerEvidence"] = True
@@ -361,7 +365,9 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
                 "isAiSuggestion": is_ai_suggestion,
                 "confirmations": 1,
                 "firstSeenAt": now_iso,
-                "source": "Google Gemini AI" if is_ai_suggestion else (item.get("source") or "community_contribution")
+                "source": "Google Gemini AI" if is_ai_suggestion else (item.get("source") or "community_contribution"),
+                "originType": item.get("originType") or "quiz",
+                "originLabel": item.get("originLabel") or item.get("quizTitle") or "Quiz"
             }
             if clean_a:
                 new_entry["lastVerifiedAt"] = now_iso

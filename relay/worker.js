@@ -11,7 +11,7 @@
  */
 
 const UPDATE_URL = "https://raw.githubusercontent.com/Acads-Tools/amaes-toolkit/main/amaes-toolkit.user.js";
-const LATEST_VERSION = "1.11.20";
+const LATEST_VERSION = "1.11.21";
 const SHARED_POOL_WINDOW_MS = 60_000;
 const SHARED_POOL_MAX_REQUESTS_PER_INSTALLATION = 1;
 const SHARED_POOL_MAX_REQUESTS_GLOBAL = 20;
@@ -1883,7 +1883,9 @@ export default {
           verified: Boolean(q.verified),
           isAiSuggestion: Boolean(q.isAiSuggestion || (q.source && String(q.source).toLowerCase().includes('gemini'))),
           source: q.source || payload.source || "community_contribution",
-          evidenceType: q.evidenceType || payload.evidenceType || "community_report"
+          evidenceType: q.evidenceType || payload.evidenceType || "community_report",
+          originType: q.originType || "quiz",
+          originLabel: q.originLabel || q.quizTitle || "Quiz"
         }))
       };
 
