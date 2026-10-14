@@ -1,7 +1,7 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-14T03:48:40Z",
+  "updatedAt": "2026-10-14T03:49:32Z",
   "totalQuestions": 80,
   "questions": [
     {
@@ -330,17 +330,21 @@
         "a. operation",
         "b. behaviour",
         "c. platform",
-        "d. time"
+        "d. time",
+        "a. platform",
+        "b. time",
+        "c. behaviour",
+        "d. operation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "An algorithm is said to be efficient when its function values are",
@@ -349,17 +353,20 @@
         "a. small",
         "b. enough",
         "c. big",
-        "d. sufficient"
+        "d. sufficient",
+        "a. big",
+        "c. sufficient",
+        "d. small"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "An array is a good example of _________data structure.",
@@ -583,17 +590,21 @@
         "a. logarithmic cost model",
         "b. exponential cost model",
         "c. variable cost model",
-        "d. uniform cost model"
+        "d. uniform cost model",
+        "a. uniform cost model",
+        "b. variable cost model",
+        "c. logarithmic cost model",
+        "d. exponential cost model"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "It extracts meaningful numerical indices from information and make it available to statistical and machine learning.",
@@ -761,17 +772,19 @@
         "a. Run-time behaviour",
         "b. Run-time cost",
         "c. Run-time average",
-        "d. Run-time analysis"
+        "d. Run-time analysis",
+        "b. Run-time average",
+        "c. Run-time cost"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "It is used in organization’s strategic and tactical business decision making.",
@@ -913,11 +926,16 @@
         "a. miiliseconds",
         "b. nanoseconds",
         "c. picoseconds",
-        "d. microseconds"
+        "d. microseconds",
+        "a. nanoseconds",
+        "b. microseconds",
+        "c. miiliseconds",
+        "d. picoseconds"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "miiliseconds"
+        "miiliseconds",
+        "microseconds"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -925,7 +943,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-14T03:48:40Z"
+      "lastEvidenceAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "The area of the standard normal curve to the right of z=0.82 is _______.",
@@ -1140,17 +1158,19 @@
         "a. Ronald Kunt",
         "b. Ronald Knut",
         "c. Donald Knot",
-        "d. Donald Knuth"
+        "d. Donald Knuth",
+        "c. Donald Knuth",
+        "d. Donald Knot"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "The two sets If A={ 2,3} B={4,5} are said to be",
@@ -1178,17 +1198,21 @@
         "a. input",
         "b. usage",
         "c. reaction",
-        "d. output"
+        "d. output",
+        "a. reaction",
+        "b. output",
+        "c. usage",
+        "d. input"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "What is a data structure that has a fixed size?",
@@ -1480,17 +1504,20 @@
         "a. software behavior",
         "b. software operation",
         "c. software profiling",
-        "d. software analysis"
+        "d. software analysis",
+        "a. software profiling",
+        "c. software analysis",
+        "d. software behavior"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "Which is a concatenation of α =babaa β =a^6b^8a which is α β ?",
@@ -1540,38 +1567,47 @@
         "a. output size",
         "b. sample size",
         "c. Input size",
-        "d. population size"
+        "d. population size",
+        "a. population size",
+        "b. Input size",
+        "c. output size",
+        "d. sample size"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "Which of the following algorithms is the fastest?",
-      "answer": "",
+      "answer": "linear search",
       "choices": [
         "a. binary search",
         "b. platform search",
         "c. linear search",
-        "d. software search"
+        "d. software search",
+        "a. software search",
+        "b. linear search",
+        "c. platform search",
+        "d. binary search"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "binary search"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-14T03:48:40Z"
+      "lastEvidenceAt": "2026-10-14T03:48:40Z",
+      "lastVerifiedAt": "2026-10-14T03:49:32Z"
     },
     {
       "question": "Which of the following data mining techniques is predictive?",
