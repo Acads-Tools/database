@@ -128,7 +128,7 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 | `ITE6200` | Application Development and Emerging Technology | **146** | Active |
 | `ITE6202` | ITE6202 | **62** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
-| `MATH6100` | Calculus 1 | **55** | Active |
+| `MATH6100` | Calculus 1 | **65** | Active |
 | `MATH6200` | MATH6200 | **80** | Active |
 | `MKTG6256` | MKTG6256 | **54** | Active |
 | `NSCI6100` | NSCI6100 | **94** | Active |
