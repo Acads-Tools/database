@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:37:40Z",
-  "totalQuestions": 11,
+  "updatedAt": "2026-10-14T02:44:18Z",
+  "totalQuestions": 15,
   "questions": [
     {
       "question": "An enrollment slip indicates a specific down payment based from the number of units enrolled by a student as follows: for number of units from 1 to 9, down payment is Php 5000; for number of units from 10 to 15, down payment is Php 10,000; and a down payment of Php 15,000 for units from 16 to 21. Which of the multiline functions define E(d), the down payment due on specific number of units enrolled. Unit is of integer type.",
@@ -143,6 +143,53 @@
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
     },
     {
+      "question": "Given g(t) = \\(\\frac {t + 5}{t - 1} \\), evaluate: (a) g(5) and (b) g(2s - 5) Answer: (a) g(5) = [____: 2.5] (b) g(2s-5) = [____ 2: s/(s−3)]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "5",
+        "s/(s−3)"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:44:18Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T02:44:18Z"
+    },
+    {
+      "question": "Let f(x) = -x⁴-x-1, evaluate f(-1) and -2f(1). Answers: f(-1) = [____: -1] -2f(1) = [____ 2: 6]",
+      "answer": "-1, 6",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:44:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:44:18Z"
+    },
+    {
+      "question": "Let f(x)=-1-x-2x², evaluate \\(\\Large \\frac {f (x + h) - f(x)}{h} \\) Factor out the negative sign for the final answer, if any.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "-1-2x-2h"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:44:18Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T02:44:18Z"
+    },
+    {
       "question": "Refer to the figure. Which of the following represents the graph drawn in red? [Image: [moodle-asset:120978/A4-5.png]]",
       "answer": "g(x)-1",
       "choices": [
@@ -174,6 +221,25 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "Which of the following are negation of the statement: f(x) and g(x) are polynomials.",
+      "answer": "f(x) and g(x) are not polynomials, f(x) or g(x) is a polynomial",
+      "choices": [
+        "a. f(x) and g(x) are not polynomials",
+        "b. f(x) or g(x) is a polynomial",
+        "c. g(x) is a polynomial",
+        "d. f(x) is a polynomial"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:44:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:44:18Z"
     }
   ]
 }

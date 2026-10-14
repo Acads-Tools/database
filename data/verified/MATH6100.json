@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:37:40Z",
-  "totalQuestions": 10,
+  "updatedAt": "2026-10-14T02:44:18Z",
+  "totalQuestions": 12,
   "tier": "verified",
   "questions": [
     {
@@ -123,6 +123,20 @@
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
     },
     {
+      "question": "Let f(x) = -x⁴-x-1, evaluate f(-1) and -2f(1). Answers: f(-1) = [____: -1] -2f(1) = [____ 2: 6]",
+      "answer": "-1, 6",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:44:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:44:18Z"
+    },
+    {
       "question": "Refer to the figure. Which of the following represents the graph drawn in red? [Image: [moodle-asset:120978/A4-5.png]]",
       "answer": "g(x)-1",
       "choices": [
@@ -154,6 +168,25 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "Which of the following are negation of the statement: f(x) and g(x) are polynomials.",
+      "answer": "f(x) and g(x) are not polynomials, f(x) or g(x) is a polynomial",
+      "choices": [
+        "a. f(x) and g(x) are not polynomials",
+        "b. f(x) or g(x) is a polynomial",
+        "c. g(x) is a polynomial",
+        "d. f(x) is a polynomial"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:44:18Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:44:18Z"
     }
   ]
 }
