@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-14T00:12:24Z",
-  "totalQuestions": 114,
+  "updatedAt": "2026-10-14T00:20:13Z",
+  "totalQuestions": 115,
   "tier": "verified",
   "questions": [
     {
@@ -14,10 +14,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z"
+      "lastVerifiedAt": "2026-10-14T00:20:13Z"
     },
     {
       "question": "* Starts with the starting symbol S. It goes down to tree leaves using productions.",
@@ -28,10 +28,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z"
+      "lastVerifiedAt": "2026-10-14T00:20:13Z"
     },
     {
       "question": "[____: Sets] are collections of objects in which order of elements and duplication of elements do not matter.",
@@ -93,9 +93,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -477,10 +477,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z"
+      "lastVerifiedAt": "2026-10-14T00:20:13Z"
     },
     {
       "question": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [Blank 1] .",
@@ -510,10 +510,28 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z"
+      "lastVerifiedAt": "2026-10-14T00:20:13Z"
+    },
+    {
+      "question": "A set on non-terminal symbols.",
+      "answer": "N",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "C",
+        "A"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:38:40Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z"
     },
     {
       "question": "A stack symbols",
@@ -646,9 +664,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -662,9 +680,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -772,9 +790,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1168,9 +1186,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1298,14 +1316,15 @@
         "d. Regular Language",
         "a. Regular Language",
         "b. Recursively Ennumerable Language",
-        "c. Context Sensitive Language"
+        "c. Context Sensitive Language",
+        "a. Context Sensitive Language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1448,14 +1467,16 @@
         "d. automata",
         "a. tokens",
         "b. data",
-        "c. grammar"
+        "c. grammar",
+        "a. grammar",
+        "b. tokens"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1650,9 +1671,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1704,10 +1725,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:31:15Z"
+      "lastVerifiedAt": "2026-10-14T00:20:13Z"
     },
     {
       "question": "The state",
@@ -1955,14 +1976,15 @@
         "a. Context free language is the subset of context sensitive language",
         "b. Regular language is the subset of context sensitive language",
         "c. Context sensitive language is a subset of context free language",
-        "d. Context free language is the subset of context sensitive language"
+        "d. Context free language is the subset of context sensitive language",
+        "c. Recursively ennumerable language is the super set of regular language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-12T11:42:30Z",
+      "lastVerifiedAt": "2026-10-14T00:20:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
