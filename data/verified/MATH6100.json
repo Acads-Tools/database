@@ -1,10 +1,29 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:18:03Z",
-  "totalQuestions": 5,
+  "updatedAt": "2026-10-14T02:37:40Z",
+  "totalQuestions": 10,
   "tier": "verified",
   "questions": [
+    {
+      "question": "Consider the equation below: [Image: [moodle-asset:120977/function.png]] After evaluating g(-4), g(-1) and g(3), choose which graph represents the given conditions.",
+      "answer": "[Image: [moodle-asset:303155/graph1.png]]",
+      "choices": [
+        "a. [Image: [moodle-asset:303158/graph4.png]]",
+        "b. [Image: [moodle-asset:303155/graph1.png]]",
+        "c. [Image: [moodle-asset:303156/graph2.png]]",
+        "d. [Image: [moodle-asset:303157/graph3.png]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:37:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
     {
       "question": "Find the equation of the line passing through (-2,3) and perpendicular to the line 4x=9-2y. Use the general equation of the line for your final answer. Answer: x - [____: 2] y + [____ 2: 8] = 0",
       "answer": "2, 8",
@@ -74,6 +93,67 @@
       "firstSeenAt": "2026-10-14T02:18:03Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:18:03Z"
+    },
+    {
+      "question": "For f(x) = 3x-2 and g(x) = x²+1, find the composite function defined by f o g(x) and g o f(x). Note: For exponential answer, express it like x^3 for x cubed. Use lowercase letters, and do not put spaces in your answer. Answer: f o g(x) = [____: 3x^2+1] g o f(x) = [____ 2: 9x^2-12x+5]",
+      "answer": "3x^2+1, 9x^2-12x+5",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:37:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "From the figure shown, A(x) is defined to be the area bounded by the x and y axes, the horizontal line y=3 and the vertical line at x. For example A(4)=12 is the area of the 4 by 3 rectangle. (a) Evaluate A(2.5) (b) Evaluate A(4) - A(1) [Image: [moodle-asset:121086/A6-3.JPG]] Answers: (a) A(2.5) = [____: 7.5] square units (b) A(4) - A(1) = [____ 2: 9] square units",
+      "answer": "7.5, 9",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:37:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "Refer to the figure. Which of the following represents the graph drawn in red? [Image: [moodle-asset:120978/A4-5.png]]",
+      "answer": "g(x)-1",
+      "choices": [
+        "a. g(x-1)",
+        "b. [ g(x) ]",
+        "c. | g(x) |",
+        "d. g(x)-1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:37:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "The figure shows the distance of a car from a measuring position located on the edge of a straight road. (a) What was the average velocity of the car from t=10 to t=30 seconds? (b) What was the average velocity of the car from t=20 to t=25 seconds? [Image: [moodle-asset:121085/A6-2.JPG]] Answers: (a) average velocity = [____: 10] feet/second (b) average velocity = [____ 2: -20] feet/second",
+      "answer": "10, -20",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:37:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:37:40Z"
     }
   ]
 }
