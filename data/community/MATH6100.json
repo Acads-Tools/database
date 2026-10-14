@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:53:25Z",
-  "totalQuestions": 28,
+  "updatedAt": "2026-10-14T02:56:06Z",
+  "totalQuestions": 38,
   "questions": [
     {
       "question": "An enrollment slip indicates a specific down payment based from the number of units enrolled by a student as follows: for number of units from 1 to 9, down payment is Php 5000; for number of units from 10 to 15, down payment is Php 10,000; and a down payment of Php 15,000 for units from 16 to 21. Which of the multiline functions define E(d), the down payment due on specific number of units enrolled. Unit is of integer type.",
@@ -306,6 +306,63 @@
       "lastVerifiedAt": "2026-10-14T02:49:15Z"
     },
     {
+      "question": "Locking may cause which of the following problems?",
+      "answer": "Deadlock",
+      "choices": [
+        "a. Deadlock",
+        "b. All of the above",
+        "c. Versioning",
+        "d. Erroneous updates"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
+    },
+    {
+      "question": "Performance analysis and tuning is which of the following?",
+      "answer": "Undertaken as an ongoing part of managing a database",
+      "choices": [
+        "a. Undertaken one time at the time of the implementation of a new application",
+        "b. Undertaken as an ongoing part of managing a database",
+        "c. Undertaken one time at the time of a DBMS installation",
+        "d. Undertaken as an ongoing part of the backup of a database"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
+    },
+    {
+      "question": "Poor data administration can lead to which of the following?",
+      "answer": "Missing data elements",
+      "choices": [
+        "a. Familiarity with existing data",
+        "b. A single definition of the same data entity",
+        "c. Missing data elements",
+        "d. All of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
+    },
+    {
       "question": "Refer to the figure. Which of the following represents the graph drawn in red? [Image: [moodle-asset:120978/A4-5.png]]",
       "answer": "g(x)-1",
       "choices": [
@@ -325,6 +382,25 @@
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
     },
     {
+      "question": "The distinction between data administration and database administration:",
+      "answer": "Is usually well-defined in large organizations",
+      "choices": [
+        "a. Is usually well-defined in small organizations",
+        "b. Is rarely well-defined in large organizations",
+        "c. Is always well-defined in all organizations",
+        "d. Is usually well-defined in large organizations"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
+    },
+    {
       "question": "The figure shows the distance of a car from a measuring position located on the edge of a straight road. (a) What was the average velocity of the car from t=10 to t=30 seconds? (b) What was the average velocity of the car from t=20 to t=25 seconds? [Image: [moodle-asset:121085/A6-2.JPG]] Answers: (a) average velocity = [____: 10] feet/second (b) average velocity = [____ 2: -20] feet/second",
       "answer": "10, -20",
       "choices": [],
@@ -337,6 +413,25 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "The persons playing the most important role in the selection of a DBMS are:",
+      "answer": "Database administrators",
+      "choices": [
+        "a. Database designers",
+        "b. Database administrators",
+        "c. Application programmers",
+        "d. Data administrators"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
     },
     {
       "question": "The slope of the line through (5,15) and (x+8, x²-2x) is [____: x-5] .",
@@ -370,6 +465,27 @@
       "lastVerifiedAt": "2026-10-14T02:53:25Z"
     },
     {
+      "question": "The transaction log includes which of the following?",
+      "answer": "",
+      "choices": [
+        "a. The after-image of a record",
+        "b. The essential data of the record",
+        "c. The before-image of a record",
+        "d. The before and after-image of a record"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "The before and after-image of a record"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T02:56:06Z"
+    },
+    {
       "question": "Which of the following are negation of the statement: f(x) and g(x) are polynomials.",
       "answer": "f(x) and g(x) are not polynomials, f(x) or g(x) is a polynomial",
       "choices": [
@@ -387,6 +503,84 @@
       "firstSeenAt": "2026-10-14T02:44:18Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:44:18Z"
+    },
+    {
+      "question": "Which of the following could cause data to be unavailable?",
+      "answer": "All of the above",
+      "choices": [
+        "a. All of the above",
+        "b. The database server",
+        "c. Data becoming lost or inaccurate",
+        "d. Planned database maintenance activities"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
+    },
+    {
+      "question": "Which of the following is part of an administrative policy to secure a database?",
+      "answer": "All of the above",
+      "choices": [
+        "a. All of the above",
+        "b. Limiting particular areas within a building to only authorized people",
+        "c. Ensure appropriate responses rates are in external maintenance agreements",
+        "d. Authentication policies"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
+    },
+    {
+      "question": "Which of the following is the preferred way to recover a database after a system failure?",
+      "answer": "",
+      "choices": [
+        "a. Rollforward",
+        "b. Rollback",
+        "c. Reprocess transactions",
+        "d. Switch to duplicate database"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Rollforward"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T02:56:06Z"
+    },
+    {
+      "question": "Which of the following is the preferred way to recover a database after a transaction in progress terminates abnormally?",
+      "answer": "Rollback",
+      "choices": [
+        "a. Reprocess transactions",
+        "b. Rollback",
+        "c. Rollforward",
+        "d. Switch to duplicate database"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:56:06Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:56:06Z"
     },
     {
       "question": "Which values of x will make the statement x+5=3 or x²=9 true?",
