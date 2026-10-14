@@ -1,10 +1,30 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-14T16:18:09Z",
-  "totalQuestions": 144,
+  "updatedAt": "2026-10-14T16:29:45Z",
+  "totalQuestions": 173,
   "tier": "verified",
   "questions": [
+    {
+      "question": ". DVD is also known as ________________.",
+      "answer": "SUPER DENSITY DISK",
+      "choices": [
+        "a. SUPER DENSITY DICS",
+        "b. SUPER DISK DRIVE",
+        "c. SUPER DENSITY DISK"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
     {
       "question": "______ are used to correct the error(s) present in the received data (bit stream) so that, we will get the original data.",
       "answer": "Error correction codes",
@@ -19,12 +39,13 @@
         "a. Error correction codes",
         "b. Error detection parity",
         "c. Error correction parity",
-        "d. Error detection codes"
+        "d. Error detection codes",
+        "b. Error detection codes"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:23:17Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -52,9 +73,9 @@
         "b. CDROM"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -82,9 +103,9 @@
         "c. SRAM"
       ],
       "verified": true,
-      "confirmations": 28,
+      "confirmations": 29,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -92,7 +113,7 @@
     },
     {
       "question": "_______ are still used in many computers for situations where data must be read and written quickly.",
-      "answer": "Internal Drive",
+      "answer": "",
       "choices": [
         "a. Internal Drive",
         "b. External Drive",
@@ -110,11 +131,11 @@
         "c. External Drive",
         "a. Flash Drive"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 7,
       "firstSeenAt": "2026-09-15T03:04:15Z",
       "lastVerifiedAt": "2026-09-25T14:27:06Z",
-      "source": "community_contribution",
+      "source": "moodle_review_elimination",
       "wrongAnswers": [
         "Internal Drive"
       ],
@@ -181,7 +202,9 @@
           "timestamp": "2026-10-13T23:53:14Z"
         }
       ],
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "_______ are used in devices such as cameras, GPS systems and call phones.",
@@ -229,9 +252,9 @@
         "d. External memory"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-12T07:47:31Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -302,12 +325,14 @@
         "b. Read Only Memory",
         "c. Random Access Memory",
         "b. Random Access Machine",
-        "d. Read Only Memory"
+        "d. Read Only Memory",
+        "b. Central Processing Unit",
+        "d. Random Access Memory"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:22:39Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -356,12 +381,13 @@
         "d. Cache memory",
         "a. Random Access Memory",
         "b. Cache memory",
-        "b. Memory Cell"
+        "b. Memory Cell",
+        "a. Read Only Memory"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:22:39Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -650,13 +676,29 @@
         "d. Redundant Array of Dependent Disks"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-12T07:47:31Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "A group of 8 bits",
+      "answer": "Byte",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "A group of simple ALUs that calculates a square root in stages, with intermediate results passing through ALUs arranged like a factory production line.",
@@ -834,16 +876,39 @@
         "b. NER-flash",
         "d. NOR-flash",
         "a. NOR-flash",
-        "b. NIR-flash"
+        "b. NIR-flash",
+        "c. NOR-flash"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:22:39Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Accronym for RAID.",
+      "answer": "b. Redundant Arrays of Inference Disk",
+      "choices": [
+        "a. Redundant Array of Independent Disks",
+        "b. Redundant Arrays of Inference Disk",
+        "c. Redundant Array of Independent Disks"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Redundant Array of Independent Disks"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "All the instructions that are fetched from memory are located in the Instruction register.",
@@ -935,6 +1000,22 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Approximately a trillion (10 ) bytes.",
+      "answer": "Terabyte",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
       "question": "Architecture is concerned with how features (attributes) are implemented control signals, interfaces, memory technology",
       "answer": "False",
       "choices": [
@@ -949,6 +1030,27 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "As logic density has increased, it has become possible to have a cache on the same chip as the processor: the on-chip cache",
+      "answer": "Multilevel caches",
+      "choices": [
+        "a. Number of caches",
+        "b. Line size",
+        "c. Non-cacheable memory",
+        "d. Multilevel caches"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "Baer defines computer architecture as \"the design of the integrated system which provides a useful tool to the programmer\"",
@@ -983,6 +1085,22 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "bits make one [____: Nibble] .",
+      "answer": "Nibble",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "Blueberry released the first generation Macintosh, which was the first computer to come with a graphical user interface(GUI) and a mouse.",
@@ -1031,6 +1149,26 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Both static and dynamic RAM are considered _____________.",
+      "answer": "volatile",
+      "choices": [
+        "a. mutable",
+        "b. volatile",
+        "c. non-volatile"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "Cache memory is a random access memory that is integrated into the hard disk drive.",
@@ -1215,12 +1353,14 @@
         "a. SRAM",
         "b. RDRAM",
         "c. CDRAM",
-        "d. DRAM"
+        "d. DRAM",
+        "b. CDRAM",
+        "c. SRAM"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:23:17Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1253,6 +1393,47 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "I t is designed to store computer data in the form of text and graphics, as well as hi-fi stereo sound.",
+      "answer": "CD-ROM",
+      "choices": [
+        "a. CD-ROM",
+        "b. CD-R",
+        "c. CD-RW"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "If you have 4 bits, you make one ______",
+      "answer": "Nibble",
+      "choices": [
+        "a. Kilobyte",
+        "b. Nibble",
+        "c. Byte",
+        "d. Zettabyte"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "In 1950, ENIAC was first created The first general purpose computer",
@@ -1301,12 +1482,14 @@
         "b. SRAM",
         "d. DRAM",
         "c. None",
-        "a. DRAM"
+        "a. DRAM",
+        "c. SRAM",
+        "d. ROM"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:22:39Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1424,6 +1607,38 @@
       "lastVerifiedAt": "2026-10-14T16:18:09Z"
     },
     {
+      "question": "Information equal to 1000 exabytes or 10 bytes.",
+      "answer": "Zettabyte",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "Information equal to 1000 terabytes or 10 bytes",
+      "answer": "Petabyte",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
       "question": "Intel’s 8086 was the first microprocessor to make it to Home computers.",
       "answer": "False",
       "choices": [
@@ -1474,12 +1689,13 @@
         "d. CDRAM",
         "a. CDRAM",
         "c. SRAM",
-        "d. DRAM"
+        "d. DRAM",
+        "a. DRAM"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:23:17Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1531,6 +1747,47 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It includes most types of ROM and a type of flash memory called ___________.",
+      "answer": "NOR-FLASH",
+      "choices": [
+        "a. OR-FLASH",
+        "b. NOR-FLASH",
+        "c. FOR-FLASH"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "It is a compromise that exhibits the strengths of both the direct and associative approaches while reducing their disadvantages.",
+      "answer": "Set-associative mapping",
+      "choices": [
+        "a. Map controlling",
+        "b. Number of caches",
+        "c. Set-associative mapping",
+        "d. Direct mapping"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "It is a crucial function that manages the speed discrepancy that exists between the speed of transfer of data between the processor and memory and peripheral devices.",
@@ -1654,6 +1911,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "It is a temporary physical storage used to hold data during execution of process from one place to one another.",
+      "answer": "BUFFER",
+      "choices": [
+        "a. CACHE MEMORY",
+        "b. AUXILIARY MEMORY",
+        "c. VIRTUAL MEMORY",
+        "d. BUFFER"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
       "question": "It is an advantage of a microprocessor.",
       "answer": "Both low cost and high-speed",
       "choices": [
@@ -1731,16 +2009,40 @@
         "c. Binary Code",
         "a. Parity Code",
         "b. Odd Parity Code",
-        "d. Even Parity Code"
+        "d. Even Parity Code",
+        "a. Odd Parity Code",
+        "b. Even Parity Code",
+        "d. Parity Code"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:23:17Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It is from the external memory sources is done the same way as copying data to and from the existing hard drive.",
+      "answer": "copying data",
+      "choices": [
+        "a. Copy Data",
+        "b. solid-state disk",
+        "c. RAID",
+        "d. copying data"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "It is made to reduce the number of instructions per program, ignoring the number of cycles per instruction.",
@@ -1769,6 +2071,33 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It is made up of memory cell where each cell is composed of one transistor.",
+      "answer": "DRAM",
+      "choices": [
+        "a. SRAM",
+        "b. EDO RAM",
+        "c. DRAM",
+        "a. RANDON ACCESS MEMORY",
+        "b. MEMORY",
+        "c. SRAM",
+        "d. CACHE MEMORY"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "RANDON ACCESS MEMORY"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
+      "lastEvidenceAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "It is requested by holding the interrupt signal at its particular (high or low) active logic level.",
@@ -1890,9 +2219,9 @@
         "c. Direct mapping"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2017,6 +2346,63 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It stands for a Binary Digit. Which is either 0 or 1.",
+      "answer": "Bit",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "It stands for binary digit.",
+      "answer": "None",
+      "choices": [
+        "a. None",
+        "b. Nibble",
+        "c. Binary",
+        "d. Byte"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "It used to detect the error(s) present in the received data(bit stream).",
+      "answer": "error detection codes",
+      "choices": [
+        "a. parity codes",
+        "b. error correction codes",
+        "c. error detection codes"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "Keeps track of information, location, uses, status etc. The collective facilities are often known as ________",
@@ -2367,6 +2753,47 @@
       "questionType": "multichoice"
     },
     {
+      "question": "TB (Terabyte) is equal to?",
+      "answer": "1024 Gigabyte",
+      "choices": [
+        "a. 1024 Exabyte",
+        "b. 1024 Gigabyte",
+        "c. 1024 Petabyte",
+        "d. 1024 Megabyte"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "Term RAM refers solely to ________________",
+      "answer": "solid-state memory devices",
+      "choices": [
+        "a. solid-state memory devices",
+        "b. liquid-state memory devices",
+        "c. memory devices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
       "question": "The 1960s saw large mainframe computers become much more common in large industries and with the US military and space program.",
       "answer": "True",
       "choices": [
@@ -2384,6 +2811,26 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-14T16:18:09Z"
+    },
+    {
+      "question": "The ________ of a tape is the surface that can be magnetically manipulate by a tape head",
+      "answer": "Oxide side",
+      "choices": [
+        "a. Oxide side",
+        "b. Oxidation side",
+        "c. oxidate side"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "The ________ reads in instructions and data",
@@ -2607,6 +3054,46 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "The memory ________ is the fundamental building block of computer memory.",
+      "answer": "cell",
+      "choices": [
+        "a. card",
+        "b. plus",
+        "c. cell"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "The memory characterised on the basis of two key factors; _______ and _____________.",
+      "answer": "CAPACITY AND ACCESS TIME",
+      "choices": [
+        "a. REGISTER AND CACHE",
+        "b. CAPACITY AND ACCESS TIME",
+        "c. MEASUREMENT AND TIME BOUND"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "The operand is treated as a circular buffer of bits so its least and most significant bits are effectively adjacent.",
@@ -3125,6 +3612,26 @@
       "questionType": "multichoice"
     },
     {
+      "question": "This programmed with the use of very high voltages and exposure to apporoximately 20 minutes of intense UV light.",
+      "answer": "EPROM",
+      "choices": [
+        "a. EEPROM",
+        "b. EPROM",
+        "c. PROM"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
       "question": "Thomas Hobbes said \" Arithmetic and Logic are the same things You can do it using Addition and Subtraction\"",
       "answer": "True",
       "choices": [
@@ -3263,9 +3770,9 @@
         "d. Erasable Program Read-Only Memory"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-11T18:22:39Z",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3395,6 +3902,89 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-14T16:18:09Z"
+    },
+    {
+      "question": "Which is not belongs to optical storage devices?",
+      "answer": "none of these",
+      "choices": [
+        "a. DVD",
+        "b. Blu-ray Disc",
+        "c. CD",
+        "d. none of these"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "Which of the following is not belong to non-volatile memory?",
+      "answer": "NONE OF THESE",
+      "choices": [
+        "a. EPROM",
+        "b. PROM",
+        "c. EEPROM",
+        "d. NONE OF THESE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "Which of the following is not categorised in physical characteristics of a memory.",
+      "answer": "METAL",
+      "choices": [
+        "a. ELECTRONIC",
+        "b. MECHANICAL",
+        "c. METAL",
+        "d. MAGNETIC"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
+    },
+    {
+      "question": "Who was invented the magnetic tape for the purpose of recording?",
+      "answer": "Fritz Pfluemer",
+      "choices": [
+        "a. Fritz Pfluemer",
+        "b. Frits Pfluemer",
+        "c. Fritz Pleumer"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T16:29:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-14T16:29:45Z"
     },
     {
       "question": "Word Width is the number of bits in the internal data bus of a processor or it is the number of bits a processor can process at a time",
