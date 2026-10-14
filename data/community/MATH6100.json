@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T03:03:59Z",
-  "totalQuestions": 53,
+  "updatedAt": "2026-10-14T03:29:20Z",
+  "totalQuestions": 55,
   "questions": [
     {
       "question": "A PL/SQL block must consist of declarative, executable and exception handling section.",
@@ -65,10 +65,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:03:59Z"
+      "lastVerifiedAt": "2026-10-14T03:29:20Z"
     },
     {
       "question": "Consider the equation below: [Image: [moodle-asset:120977/function.png]] After evaluating g(-4), g(-1) and g(3), choose which graph represents the given conditions.",
@@ -601,10 +601,27 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:03:59Z"
+      "lastVerifiedAt": "2026-10-14T03:29:20Z"
+    },
+    {
+      "question": "Use the function f defined by the graph shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 1^+} f(x) \\)(b) \\(\\Large \\lim_{x \\rightarrow 1^-} f(x) \\) [Image: [moodle-asset:121432/SQ8-5%2B.JPG]] Answers: (a) [____: 1] (b) [____ 2: 0]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "1",
+        "0"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:29:20Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:29:20Z"
     },
     {
       "question": "Use the function h defined by the graph as shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} h(2x - 2) \\)(b) \\(\\Large \\lim_{x \\rightarrow 2} h(1 + x) \\) [Image: [moodle-asset:121407/A8-2.JPG]] Answers: (a) [____: 1] (b) [____ 2: 1]",
@@ -629,10 +646,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:03:59Z"
+      "lastVerifiedAt": "2026-10-14T03:29:20Z"
     },
     {
       "question": "Use the functions f and g defined by the graphs as shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 1} ( f(x) x g(x)) \\)(b) \\(\\Large \\lim_{x \\rightarrow 1} f(g(x)) \\) [Image: [moodle-asset:121433/A8-1.JPG]] Answers: (a) [____: 2] (b) [____ 2: 2]",
@@ -649,6 +666,23 @@
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T03:03:59Z"
+    },
+    {
+      "question": "Use the graph below to determine the right-hand limit of the function f(x) at: (a) x=-2 (b) x=10 [Image: [moodle-asset:121431/A8-5.JPG]] Answers: (a) [____: 3] (b) [____ 2: -1]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "3",
+        "-1"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:29:20Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:29:20Z"
     },
     {
       "question": "What prevents this procedure from being created successfully? CREATE OR REPLACE PROCEDURE DELETE_PLAYER(V_ID IN NUMBER) IS BEGIN DELETE FROM PLAYER WHERE V_ID = 31; EXCEPTION WHEN STATS_EXIST_EXCEPTION THEN DBMS_OUTPUT.PUT_LINE(‘Cannot delete this player, child records exist in PLAYER_BAT_STAT table’); END;",
