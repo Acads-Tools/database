@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T02:44:18Z",
-  "totalQuestions": 12,
+  "updatedAt": "2026-10-14T02:49:15Z",
+  "totalQuestions": 16,
   "tier": "verified",
   "questions": [
     {
@@ -81,6 +81,20 @@
       "lastVerifiedAt": "2026-10-14T02:18:03Z"
     },
     {
+      "question": "Find the slope of the line through (-5,3) and (x+1, x-2). Answer: m = [____: x-5/x+6]",
+      "answer": "x-5/x+6",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:49:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:49:15Z"
+    },
+    {
       "question": "Find the slope of the line which is tangent to the circle with center C(3,1) at the point P(8,13). Answer: slope of the tangent line = -5/ [____: 12]",
       "answer": "12",
       "choices": [],
@@ -123,6 +137,20 @@
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
     },
     {
+      "question": "Given g(t) = \\(\\frac {t + 5}{t - 1} \\), evaluate: (a) g(5) and (b) g(2s - 5) Answer: (a) g(5) = [____: 5/2] (b) g(2s-5) = [____ 2: s/s-3]",
+      "answer": "5/2, s/s-3",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:49:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:49:15Z"
+    },
+    {
       "question": "Let f(x) = -x⁴-x-1, evaluate f(-1) and -2f(1). Answers: f(-1) = [____: -1] -2f(1) = [____ 2: 6]",
       "answer": "-1, 6",
       "choices": [],
@@ -135,6 +163,23 @@
       "firstSeenAt": "2026-10-14T02:44:18Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:44:18Z"
+    },
+    {
+      "question": "Let f(x)=-1-x-2x², evaluate \\(\\Large \\frac {f (x + h) - f(x)}{h} \\) Factor out the negative sign for the final answer, if any.",
+      "answer": "-(4x+2h+1)",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "-1-2x-2h"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:44:18Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T02:44:18Z",
+      "lastVerifiedAt": "2026-10-14T02:49:15Z"
     },
     {
       "question": "Refer to the figure. Which of the following represents the graph drawn in red? [Image: [moodle-asset:120978/A4-5.png]]",
@@ -168,6 +213,20 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "The slope of the line through (5,15) and (x+8, x²-2x) is [____: x-5] .",
+      "answer": "x-5",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:49:15Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:49:15Z"
     },
     {
       "question": "Which of the following are negation of the statement: f(x) and g(x) are polynomials.",
