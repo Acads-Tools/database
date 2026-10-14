@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201B",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-14T01:57:00Z",
-  "totalQuestions": 93,
+  "updatedAt": "2026-10-14T02:08:50Z",
+  "totalQuestions": 103,
   "questions": [
     {
       "question": "A [____: loopback] address is defined as a reserved address that routes packets back to the host",
@@ -95,6 +95,25 @@
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
     },
     {
+      "question": "A network administrator notices that the default gateway devices sends an ICMP Redirect message to the workstation when the workstation tries to connect to file server on another network. What is the purpose for this ICMP message?",
+      "answer": "To notify the workstation, that another router on the same network, is the better default-gateway to reach the remote server",
+      "choices": [
+        "a. The default gateway is overwhelmed by network traffic and the request is redirected to another router",
+        "b. To notify the workstation, that another router on the same network, is the better default-gateway to reach the remote server",
+        "c. The default gateway does not know a route to the destination",
+        "d. The network topology has changed and a new route toward the file server is available"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+    },
+    {
       "question": "A technician configures a switch with these commands:SwitchA(config)# interface vlan 1 SwitchA(config-if)#ip address 192.168.1.1 255.255.255.0 SwitchA(config-if)# no shutdown What is the technician configuring?",
       "answer": "SVI",
       "choices": [
@@ -114,6 +133,25 @@
       "firstSeenAt": "2026-10-13T22:58:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
+    },
+    {
+      "question": "A user is unable to access the company server from a computer. On issuing the ipconfig command, the user finds that the IP address of the computer is displayed as 169.254.0.2. What type of address is this?",
+      "answer": "experimental",
+      "choices": [
+        "a. loopback",
+        "b. experimental",
+        "c. link-local",
+        "d. private"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
     },
     {
       "question": "An [____: intranet] is a private connection of LANs and WANs that belongs to an organization, and is designed to be accessible only by the members and employees of the organization, or others with authorization.",
@@ -340,6 +378,20 @@
       "lastVerifiedAt": "2026-10-14T01:57:00Z"
     },
     {
+      "question": "The 8-bit binary value for 41 is [____: 00101001]",
+      "answer": "00101001",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+    },
+    {
       "question": "The farther you are from the central office when utilizing a DSL connection, the [____: slower] the connection speed",
       "answer": "slower",
       "choices": [],
@@ -352,6 +404,34 @@
       "firstSeenAt": "2026-10-13T22:58:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:49:46Z"
+    },
+    {
+      "question": "The last host address on the 10.15.25.0/24 network is [____: 10.15.25.254]",
+      "answer": "10.15.25.254",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+    },
+    {
+      "question": "The shortest compressed format of the IPv6 address 2001: 0DB8:0000:1470:0000:0000:0000:0200 is [____: 2001:DB8:0:1470::200]",
+      "answer": "2001:DB8:0:1470::200",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
     },
     {
       "question": "To save time, IOS commands may be partially entered and then completed by typing which key or key combination?",
@@ -845,6 +925,25 @@
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
     },
     {
+      "question": "What is the purpose of using a source port number in a TCP communication?",
+      "answer": "to keep track of multiple conversations between devices",
+      "choices": [
+        "a. to assemble the segments that arrived out of order",
+        "b. to keep track of multiple conversations between devices",
+        "c. to inquire for a non received segment",
+        "d. to notify the remote device that the conversation is over"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+    },
+    {
       "question": "What is the transport layer PDU?",
       "answer": "Segment",
       "choices": [
@@ -1134,6 +1233,26 @@
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
     },
     {
+      "question": "Which application use UDP as the transport layer protocol?",
+      "answer": "SMTP",
+      "choices": [
+        "a. DNS queries",
+        "b. SMTP",
+        "c. Telnet",
+        "d. HTTP",
+        "e. DHCP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+    },
+    {
       "question": "Which destination address is used in an ARP request frame?",
       "answer": "FFFF.FFFF.FFFF",
       "choices": [
@@ -1321,6 +1440,25 @@
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
+    },
+    {
+      "question": "Which number or set of numbers represents a socket?",
+      "answer": "192.168.1.1:80",
+      "choices": [
+        "a. 192.168.1.1:80",
+        "b. 01-23-45-67-89-AB",
+        "c. 10.1.1.15",
+        "d. 21"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
     },
     {
       "question": "Which of the following are business-class Internet connection technologies normally supplied by a service provider? (Choose two.)",
@@ -1524,6 +1662,26 @@
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
     },
     {
+      "question": "Which statement accurately describes public IP addresses?",
+      "answer": "Public IP addresses must be unique across the entire Internet",
+      "choices": [
+        "a. Public addresses can be duplicated only within a local network",
+        "b. Public IP addresses are only required to be unique within the local network",
+        "c. Public IP addresses must be unique across the entire Internet",
+        "d. Public addresses cannot be used within a private network",
+        "e. Network administrators are free to select any public addresses to use for network devices that access the Internet"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
+    },
+    {
       "question": "Which statement describes a feature of an IOS host name configuration?",
       "answer": "It does not allow spaces",
       "choices": [
@@ -1587,6 +1745,25 @@
       "firstSeenAt": "2026-10-14T01:54:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T01:54:21Z"
+    },
+    {
+      "question": "Which statement is true about an interface that is configured with the IPv6 address command?",
+      "answer": "A link-local IPv6 address is automatically",
+      "choices": [
+        "a. A global unicast IPv6 address is dynamically configured on the interface",
+        "b. IPv6 traffic-forwarding is enable on the interface",
+        "c. Any IPv4 addresses that are assigned to the interface are replaced with an IPv6 address",
+        "d. A link-local IPv6 address is automatically"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:08:50Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T02:08:50Z"
     },
     {
       "question": "Which TCP/IP model layer is responsible for providing the best path through the network?",
