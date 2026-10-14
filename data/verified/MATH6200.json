@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-14T03:47:03Z",
-  "totalQuestions": 68,
+  "updatedAt": "2026-10-14T03:48:40Z",
+  "totalQuestions": 76,
   "tier": "verified",
   "questions": [
     {
@@ -325,6 +325,44 @@
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
+      "question": "Algorithms are independent of its",
+      "answer": "platform",
+      "choices": [
+        "a. operation",
+        "b. behaviour",
+        "c. platform",
+        "d. time"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+    },
+    {
+      "question": "An algorithm is said to be efficient when its function values are",
+      "answer": "small",
+      "choices": [
+        "a. small",
+        "b. enough",
+        "c. big",
+        "d. sufficient"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+    },
+    {
       "question": "An array is a good example of _________data structure.",
       "answer": "static",
       "choices": [
@@ -516,6 +554,25 @@
       "lastVerifiedAt": "2026-10-14T03:47:03Z"
     },
     {
+      "question": "It assigns a cost to every machine operation.",
+      "answer": "uniform cost model",
+      "choices": [
+        "a. logarithmic cost model",
+        "b. exponential cost model",
+        "c. variable cost model",
+        "d. uniform cost model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+    },
+    {
       "question": "It extracts meaningful numerical indices from information and make it available to statistical and machine learning.",
       "answer": "Text analytics",
       "choices": [
@@ -673,6 +730,25 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "It is a theoretical classification that estimates and anticipates the increase in running time (or run-",
+      "answer": "Run-time analysis",
+      "choices": [
+        "a. Run-time behaviour",
+        "b. Run-time cost",
+        "c. Run-time average",
+        "d. Run-time analysis"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
     },
     {
       "question": "It is used in organization’s strategic and tactical business decision making.",
@@ -1014,6 +1090,25 @@
       "lastVerifiedAt": "2026-10-14T03:47:03Z"
     },
     {
+      "question": "The term \"analysis of algorithms\" was coined by",
+      "answer": "Donald Knuth",
+      "choices": [
+        "a. Ronald Kunt",
+        "b. Ronald Knut",
+        "c. Donald Knot",
+        "d. Donald Knuth"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+    },
+    {
       "question": "The two sets If A={ 2,3} B={4,5} are said to be",
       "answer": "disjoint",
       "choices": [
@@ -1031,6 +1126,25 @@
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "Time needed to execute an algorithm is a function of its________.",
+      "answer": "input",
+      "choices": [
+        "a. input",
+        "b. usage",
+        "c. reaction",
+        "d. output"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
     },
     {
       "question": "What is a data structure that has a fixed size?",
@@ -1295,6 +1409,25 @@
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
+      "question": "What technique can be used to measure an algorithm's running time?",
+      "answer": "software profiling",
+      "choices": [
+        "a. software behavior",
+        "b. software operation",
+        "c. software profiling",
+        "d. software analysis"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
+    },
+    {
       "question": "Which is a concatenation of α =babaa β =a^6b^8a which is α β ?",
       "answer": "babaaaa^6b^8a",
       "choices": [
@@ -1334,6 +1467,25 @@
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "Which is usually denoted as n in algorithms?",
+      "answer": "Input size",
+      "choices": [
+        "a. output size",
+        "b. sample size",
+        "c. Input size",
+        "d. population size"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:48:40Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:48:40Z"
     },
     {
       "question": "Which of the following data mining techniques is predictive?",
