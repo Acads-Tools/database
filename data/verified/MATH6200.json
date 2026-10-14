@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-14T03:44:10Z",
-  "totalQuestions": 59,
+  "updatedAt": "2026-10-14T03:45:45Z",
+  "totalQuestions": 66,
   "tier": "verified",
   "questions": [
     {
@@ -344,6 +344,25 @@
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
+      "question": "Another term for an empty set.",
+      "answer": "null",
+      "choices": [
+        "a. cipher",
+        "b. singleton",
+        "c. zero",
+        "d. null"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
       "question": "Empirical rule for a normal distribution lie ______% of data with 1 standard deviation below and above the mean.",
       "answer": "68",
       "choices": [
@@ -418,6 +437,25 @@
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "If R= { (3,3), (3,6), (5,5),(5,10),(6.12)} is a binary relation in R which the domain is",
+      "answer": "{3,5,6}",
+      "choices": [
+        "a. {3,6}",
+        "b. {3,5,6,10,12}",
+        "c. {5,10,12}",
+        "d. {3,5,6}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
     },
     {
       "question": "It extracts meaningful numerical indices from information and make it available to statistical and machine learning.",
@@ -849,6 +887,63 @@
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
+      "question": "The range in R={ (3,3), (3,6), (5,5),(5,10),(6.12)} is a binary relation in R is",
+      "answer": "{3,5,6,10,12}",
+      "choices": [
+        "a. {3,6}",
+        "b. {3,5,6}",
+        "c. {5,10,12}",
+        "d. {3,5,6,10,12}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
+      "question": "The sets A= { x/x is a distinct letter in the word \"MATHEMATICS\"} and B={x/x is a distinct letter in the word \"STATISTICS\"} , the two sets are",
+      "answer": "joint",
+      "choices": [
+        "a. equal",
+        "b. disjoint",
+        "c. joint",
+        "d. equivalent"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
+      "question": "The symbol used to indicate strings with no elements.",
+      "answer": "λ",
+      "choices": [
+        "a. δ",
+        "b. α",
+        "c. β",
+        "d. λ"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
       "question": "The two sets If A={ 2,3} B={4,5} are said to be",
       "answer": "disjoint",
       "choices": [
@@ -1130,6 +1225,25 @@
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
+      "question": "Which is a concatenation of α =babaa β =a^6b^8a which is α β ?",
+      "answer": "babaaaa^6b^8a",
+      "choices": [
+        "a. babaaaa^6b^8a",
+        "b. babaa b^8a",
+        "c. babab^8a",
+        "d. a^6b^8ababba"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
       "question": "Which is NOT a characteristic feature of data structure?",
       "answer": "It contains a fixed structure.",
       "choices": [
@@ -1173,6 +1287,25 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "Which of the following is a set equal to the distinct letters of the word \"MISSISSIPI\"?",
+      "answer": "{I,M,S,P}",
+      "choices": [
+        "a. {I,L,M,P}",
+        "b. {I.M,S}",
+        "c. {I,M,S,P}",
+        "d. {I,M,P}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
     },
     {
       "question": "Which of the following is NOT a goal in data mining?",

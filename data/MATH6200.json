@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-14T03:44:10Z",
-  "totalQuestions": 60,
+  "updatedAt": "2026-10-14T03:45:45Z",
+  "totalQuestions": 70,
   "questions": [
     {
       "question": "[Image: matrices1 - [moodle-asset:218982/matrices.png]] Matrix B is",
@@ -343,6 +343,25 @@
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
+      "question": "Another term for an empty set.",
+      "answer": "null",
+      "choices": [
+        "a. cipher",
+        "b. singleton",
+        "c. zero",
+        "d. null"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
       "question": "Empirical rule for a normal distribution lie ______% of data with 1 standard deviation below and above the mean.",
       "answer": "68",
       "choices": [
@@ -400,6 +419,27 @@
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
+      "question": "If A= { x/x is a distinct letter in the word \"MATHEMATICS\"} AND B={x/x is a distinct letter in the word \"STATISTICS\"} then their intersection is",
+      "answer": "",
+      "choices": [
+        "a. {A,C,S,}",
+        "b. {C,I,S}",
+        "c. {A,C,I,S,T}",
+        "d. {A,C,I,S}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "{A,C,I,S}"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:45:45Z"
+    },
+    {
       "question": "If A={ 2,3} B={4,5},which of the following is a Cartesian product of the two sets?",
       "answer": "{ (3,4) (3,5) (2,4 ) {2,5) }",
       "choices": [
@@ -417,6 +457,67 @@
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
+    },
+    {
+      "question": "If R= { (3,3), (3,6), (5,5),(5,10),(6.12)} is a binary relation in R which the domain is",
+      "answer": "{3,5,6}",
+      "choices": [
+        "a. {3,6}",
+        "b. {3,5,6,10,12}",
+        "c. {5,10,12}",
+        "d. {3,5,6}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
+      "question": "If R={ (3,3), (3,6), (5,5),(5,10),(6.12) is a cartesian product of sets X and Y and x= {3,5,6} then Y=?",
+      "answer": "",
+      "choices": [
+        "a. {3,5,6,10,12}",
+        "b. {3,6}",
+        "c. {5,10,12}",
+        "d. {3,5,6}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "{5,10,12}"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:45:45Z"
+    },
+    {
+      "question": "In α =babaa β =a^6b^5bb, what is the length of the concatenation of the two strings?",
+      "answer": "",
+      "choices": [
+        "a. 15",
+        "b. 18",
+        "c. 16",
+        "d. 20"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "16"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:45:45Z"
     },
     {
       "question": "It extracts meaningful numerical indices from information and make it available to statistical and machine learning.",
@@ -848,6 +949,63 @@
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
+      "question": "The range in R={ (3,3), (3,6), (5,5),(5,10),(6.12)} is a binary relation in R is",
+      "answer": "{3,5,6,10,12}",
+      "choices": [
+        "a. {3,6}",
+        "b. {3,5,6}",
+        "c. {5,10,12}",
+        "d. {3,5,6,10,12}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
+      "question": "The sets A= { x/x is a distinct letter in the word \"MATHEMATICS\"} and B={x/x is a distinct letter in the word \"STATISTICS\"} , the two sets are",
+      "answer": "joint",
+      "choices": [
+        "a. equal",
+        "b. disjoint",
+        "c. joint",
+        "d. equivalent"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
+      "question": "The symbol used to indicate strings with no elements.",
+      "answer": "λ",
+      "choices": [
+        "a. δ",
+        "b. α",
+        "c. β",
+        "d. λ"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
       "question": "The two sets If A={ 2,3} B={4,5} are said to be",
       "answer": "disjoint",
       "choices": [
@@ -1150,6 +1308,25 @@
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
     },
     {
+      "question": "Which is a concatenation of α =babaa β =a^6b^8a which is α β ?",
+      "answer": "babaaaa^6b^8a",
+      "choices": [
+        "a. babaaaa^6b^8a",
+        "b. babaa b^8a",
+        "c. babab^8a",
+        "d. a^6b^8ababba"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
+    },
+    {
       "question": "Which is NOT a characteristic feature of data structure?",
       "answer": "It contains a fixed structure.",
       "choices": [
@@ -1193,6 +1370,25 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "Which of the following is a set equal to the distinct letters of the word \"MISSISSIPI\"?",
+      "answer": "{I,M,S,P}",
+      "choices": [
+        "a. {I,L,M,P}",
+        "b. {I.M,S}",
+        "c. {I,M,S,P}",
+        "d. {I,M,P}"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-14T03:45:45Z"
     },
     {
       "question": "Which of the following is NOT a goal in data mining?",
