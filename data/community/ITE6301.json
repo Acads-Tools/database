@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6301",
   "subjectName": "Technopreneurship",
-  "updatedAt": "2026-10-15T03:45:51Z",
+  "updatedAt": "2026-10-15T03:47:16Z",
   "totalQuestions": 200,
   "questions": [
     {
@@ -2477,7 +2477,8 @@
         "d. Character",
         "b. Capital",
         "c. Collateral",
-        "d. all of the above"
+        "d. all of the above",
+        "c. Capacity"
       ],
       "verified": true,
       "source": "review_screen",
@@ -2523,6 +2524,11 @@
         {
           "rejectedAnswer": "all of the above",
           "timestamp": "2026-10-15T03:43:20Z"
+        },
+        {
+          "rejectedAnswer": "all of the above",
+          "reason": "AI suggestion cannot overwrite verified answer",
+          "timestamp": "2026-10-15T03:47:16Z"
         }
       ],
       "wrongAnswers": [],
