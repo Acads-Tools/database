@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-15T12:21:11Z",
+  "updatedAt": "2026-10-15T12:23:42Z",
   "totalQuestions": 177,
   "questions": [
     {
@@ -79,9 +79,9 @@
         "b. CDROM"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:17:22Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -109,9 +109,9 @@
         "c. SRAM"
       ],
       "verified": true,
-      "confirmations": 32,
+      "confirmations": 33,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:16:18Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -139,9 +139,9 @@
         "b. Internal Drive"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internal Drive"
@@ -501,9 +501,9 @@
         "d. Subtract"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -573,9 +573,9 @@
         "c. Keyboard"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -621,12 +621,13 @@
         "c. Data",
         "d. Integer",
         "b. Data",
-        "d. Binary"
+        "d. Binary",
+        "a. Integer"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -753,9 +754,9 @@
         "c. Calculation pipeline"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -840,9 +841,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -863,12 +864,14 @@
         "a. Subtract with borrow",
         "a. Iterative calculation",
         "b. Calculation in a single clock",
-        "d. Calculation pipeline"
+        "d. Calculation pipeline",
+        "b. Iterative calculation",
+        "d. Subtract with borrow"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -982,12 +985,13 @@
         "a. Calculation pipeline",
         "a. Arithmetic logic",
         "b. Binary logic",
-        "c. Combinational Logic"
+        "c. Combinational Logic",
+        "c. Calculation pipeline"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1406,7 +1410,7 @@
       ],
       "questionType": "multichoice",
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-13T23:51:35Z"
+      "lastEvidenceAt": "2026-10-15T12:23:42Z"
     },
     {
       "question": "Entire data blocks are access and transferred out on a high-speed bus-like interface",
@@ -2095,9 +2099,9 @@
         "a. Desktop"
       ],
       "verified": true,
-      "confirmations": 41,
+      "confirmations": 42,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:07:44Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2343,9 +2347,9 @@
         "c. Direct mapping"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T02:34:41Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2566,9 +2570,9 @@
         "b. File System"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:21:11Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3094,9 +3098,9 @@
         "c. Rotate"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:51:35Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Rotate"
@@ -3278,9 +3282,9 @@
         "d. Arithmetic shift"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3302,12 +3306,13 @@
         "d. Arithmetic shift",
         "b. Rotate",
         "a. Arithmetic shift",
-        "c. Rotate"
+        "c. Rotate",
+        "a. Rotate through carry"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3364,9 +3369,9 @@
         "c. Output"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3761,9 +3766,9 @@
         "d. Binary Integer Representation"
       ],
       "verified": true,
-      "confirmations": 19,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-13T23:53:14Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3876,9 +3881,9 @@
         "d. Internet"
       ],
       "verified": true,
-      "confirmations": 36,
+      "confirmations": 37,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-15T12:23:42Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internet and Network"
