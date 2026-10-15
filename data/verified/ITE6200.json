@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-05T22:25:04.789Z",
-  "totalQuestions": 136,
+  "updatedAt": "2026-10-15T16:16:46Z",
+  "totalQuestions": 146,
   "tier": "verified",
   "questions": [
     {
@@ -1160,6 +1160,23 @@
       "source": "review_screen"
     },
     {
+      "question": "IDENTIFICATION: [____: slideLeft(interval)] JQuery method used to creates a sliding to the left transition within a given time on a selected element",
+      "answer": "slideLeft()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "slideLeft(interval)",
+        "animate"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-04T06:19:17Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-04T06:19:17Z"
+    },
+    {
       "question": "IDENTIFICATION: [____: slideUp()] This command is used creates a sliding up transition within a given time on a selected element",
       "answer": "slideUp()",
       "choices": [],
@@ -1252,6 +1269,40 @@
       "firstSeenAt": "2026-10-04T06:19:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-05T12:35:24Z"
+    },
+    {
+      "question": "IDENTIFICATION: It is used to get or set values from and to an input element particularly textboxes.",
+      "answer": "val()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "b. False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-05T20:33:51Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-05T20:33:51Z"
+    },
+    {
+      "question": "IDENTIFICATION: JQuery method used to creates a sliding to the left transition within a given time on a selected element",
+      "answer": "slideLeft()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "slideLeft(interval)",
+        "animate",
+        "slideLeft"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-05T20:34:54Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-05T20:34:54Z"
     },
     {
       "question": "IDENTIFICATION: JQuery method used to hide selected element(s)",
@@ -1371,6 +1422,22 @@
       "firstSeenAt": "2026-10-04T05:26:42Z",
       "lastVerifiedAt": "2026-10-04T05:26:42Z",
       "source": "moodle_100_percent"
+    },
+    {
+      "question": "is a javascript library that makes web scripting easier for us.",
+      "answer": "jQuery",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
     },
     {
       "question": "is_unique requires table and field name as parameter.",
@@ -1514,6 +1581,150 @@
       "firstSeenAt": "2026-10-04T05:26:42Z",
       "lastVerifiedAt": "2026-10-04T05:26:42Z",
       "source": "moodle_100_percent"
+    },
+    {
+      "question": "It is used creates a sliding to the left transition within a given time on a selected element",
+      "answer": ".slideLeft(interval)",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used creates a sliding to the right transition within a given time on a selected element",
+      "answer": ".slideRight(interval)",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used creates a sliding up transition within a given time on a selected element",
+      "answer": ".slideUp(interval)",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used to get or set values from and to a non-input element like divs.",
+      "answer": ".text()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used to get or set values from and to an input element particularly textboxes.",
+      "answer": ".val()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used to hide selected element(s)",
+      "answer": ".hide()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used to produce a fading in effect within a given time on a selected element",
+      "answer": ".fadeIn(interval)",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used to show selected element(s)",
+      "answer": ".show()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
+    },
+    {
+      "question": "It is used to toggle, switch or alternate the selected item’s visibility: show and hide",
+      "answer": ".toggle()",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:16:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:16:46Z"
     },
     {
       "question": "jQuery is a java library that makes web scripting easier for us.",
@@ -2199,40 +2410,6 @@
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T06:12:31Z"
-    },
-    {
-      "question": "IDENTIFICATION: It is used to get or set values from and to an input element particularly textboxes.",
-      "answer": "val()",
-      "choices": [],
-      "questionType": "shortanswer",
-      "wrongAnswers": [
-        "b. False"
-      ],
-      "wrongAnswerEvidence": true,
-      "verified": true,
-      "isAiSuggestion": false,
-      "confirmations": 2,
-      "firstSeenAt": "2026-10-05T20:33:51Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T20:33:51Z"
-    },
-    {
-      "question": "IDENTIFICATION: JQuery method used to creates a sliding to the left transition within a given time on a selected element",
-      "answer": "slideLeft()",
-      "choices": [],
-      "questionType": "shortanswer",
-      "wrongAnswers": [
-        "slideLeft(interval)",
-        "animate",
-        "slideLeft"
-      ],
-      "wrongAnswerEvidence": true,
-      "verified": true,
-      "isAiSuggestion": false,
-      "confirmations": 2,
-      "firstSeenAt": "2026-10-05T20:34:54Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T20:34:54Z"
     }
   ]
 }
