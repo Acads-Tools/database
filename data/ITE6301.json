@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6301",
   "subjectName": "Technopreneurship",
-  "updatedAt": "2026-10-15T03:33:22Z",
+  "updatedAt": "2026-10-15T03:43:20Z",
   "totalQuestions": 200,
   "questions": [
     {
@@ -414,14 +414,19 @@
       "question": "A written summary of an entrepreneur's proposed business venture, its operational and financial details, its marketing opportunities and strategy, and its managers' skills and abilities",
       "answer": "Business Plan",
       "choices": [
-        "Business Plan"
+        "Business Plan",
+        "a. Business Model",
+        "b. Business Plan",
+        "c. Marketing Strategy",
+        "d. Business Strategy"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "A ‘snapshot’ of a company’s assets, liabilities and capital at a particular point in time",
@@ -542,14 +547,19 @@
       "question": "Advantages of economic scale are not present and the capital requirements to enter are low",
       "answer": "New Entrants",
       "choices": [
-        "New Entrants"
+        "New Entrants",
+        "a. Rivalry",
+        "b. Suppliers",
+        "c. New Entrants",
+        "d. Buyers"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Also known as an angel investor. An individual who provides capital for a business start-up in return for a stake in the company.",
@@ -610,14 +620,19 @@
       "question": "An original, functional model of a new product that entrepreneurs can put into the hands of potential customers so they can see it, test it and use it",
       "answer": "prototype",
       "choices": [
-        "prototype"
+        "prototype",
+        "a. research",
+        "b. prototype",
+        "c. questionnaire",
+        "d. trial"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Any activity which is undertaken with an intention to earn profit is called __________",
@@ -710,7 +725,11 @@
       "question": "Company's general business goalsand the company's immediate objectives",
       "answer": "Business and Industry Profile",
       "choices": [
-        "Business and Industry Profile"
+        "Business and Industry Profile",
+        "a. Marketing Strategy",
+        "b. Business Strategy",
+        "c. Business and Industry Profile",
+        "d. Executive Summary"
       ],
       "verified": true,
       "source": "review_screen",
@@ -722,8 +741,13 @@
           "timestamp": "2026-09-15T02:39:18Z"
         }
       ],
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "wrongAnswers": [
+        "Business Strategy"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-15T03:43:20Z"
     },
     {
       "question": "Complete the flow of the Entrepreneurial Process",
@@ -751,14 +775,19 @@
       "question": "Description of production process, strategic raw materials, sources, costs",
       "answer": "Description of Product or Service",
       "choices": [
-        "Description of Product or Service"
+        "Description of Product or Service",
+        "a. Business and Industry Profile",
+        "b. Executive Summary",
+        "c. Description of Product or Service",
+        "d. Business Strategy"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 14,
-      "lastVerifiedAt": "2026-10-01T11:40:46Z",
+      "confirmations": 15,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Disruptive innovation creates substantial growth by offering a new performance trajectory and  inferior  performance of existing technologies  will never have an opportunity for growth",
@@ -907,14 +936,19 @@
       "question": "Existing or anticipated profitability of the industry",
       "answer": "Business and Industry Profile",
       "choices": [
-        "Business and Industry Profile"
+        "Business and Industry Profile",
+        "a. Business and Industry Profile",
+        "b. Executive Summary",
+        "c. Marketing Strategy",
+        "d. Business Strategy"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Failure is a natural part of the creative process",
@@ -1350,14 +1384,19 @@
       "question": "Number of competitors is large or few (less than 5)",
       "answer": "Rivalry",
       "choices": [
-        "Rivalry"
+        "Rivalry",
+        "a. Buyers",
+        "b. Suppliers",
+        "c. New Entrants",
+        "d. Rivalry"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Offices or real estate",
@@ -1435,14 +1474,19 @@
       "question": "Overview of industry or market segment",
       "answer": "Business and Industry Profile",
       "choices": [
-        "Business and Industry Profile"
+        "Business and Industry Profile",
+        "a. Business and Industry Profile",
+        "b. Executive Summary",
+        "c. Business Strategy",
+        "d. Marketing Strategy"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "People believe that their most basic abilities can be developed through dedication and hard work",
@@ -1545,14 +1589,19 @@
       "question": "Proving that a profitable market exists by showing customer interest and documenting market claims",
       "answer": "Marketing strategy",
       "choices": [
-        "Marketing strategy"
+        "Marketing strategy",
+        "a. Executive Summary",
+        "b. Business and Industry Profile",
+        "c. Business Strategy",
+        "d. Marketing strategy"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Quality _____ products are not readily  available=20and the prices of which are not lower",
@@ -1572,15 +1621,20 @@
         "a. substitute",
         "b. suppliers",
         "c. Rivalry",
-        "d. buyers"
+        "d. buyers",
+        "a. Rivalry",
+        "b. buyers",
+        "c. substitute",
+        "d. suppliers"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-15T02:39:18Z",
-      "lastVerifiedAt": "2026-10-01T11:40:46Z",
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Refers to a specific state of mind which orientates human conduct towards entrepreneurial activities and outcomes",
@@ -1843,12 +1897,16 @@
       "question": "The company's business model and basis for competitive edge",
       "answer": "Executive Summary",
       "choices": [
-        "Executive Summary"
+        "Executive Summary",
+        "a. Business Strategy",
+        "b. Business and Industry Profil",
+        "c. Executive Summary",
+        "d. Marketing Strategy"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 11,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 12,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "conflictHistory": [
         {
           "rejectedAnswer": "Business Strategy",
@@ -1856,18 +1914,23 @@
         }
       ],
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The company's target markets and the benefits its product or service will provide",
       "answer": "Executive Summary",
       "choices": [
-        "Executive Summary"
+        "Executive Summary",
+        "a. Business Strategy",
+        "b. Executive Summary",
+        "c. Marketing Strategy",
+        "d. Business and Industry Profil"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 8,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 9,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "conflictHistory": [
         {
           "rejectedAnswer": "Marketing Strategy",
@@ -1875,7 +1938,8 @@
         }
       ],
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The contract in which a business seller agrees not to compete with the buyer within a specific time and geographic area.",
@@ -2043,14 +2107,19 @@
       "question": "The process of determining whether an entrepreneur's idea is a viable foundation for creating a successful business",
       "answer": "Feasibility Analysis",
       "choices": [
-        "Feasibility Analysis"
+        "Feasibility Analysis",
+        "a. Marketing Strategy",
+        "b. Feasibility Analysis",
+        "c. Business strategy",
+        "d. Business Plan"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The purchase of a corporation by another corporation or investment group",
@@ -2078,27 +2147,41 @@
       "question": "The qualification of the founders and/or key employeesand the key financial highlights",
       "answer": "Executive Summary",
       "choices": [
-        "Executive Summary"
+        "Executive Summary",
+        "a. Executive Summary",
+        "b. Business Strategy",
+        "c. Marketing Strategy",
+        "d. Business and Industry Profile"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The switching costs to competitors is highand their numbers is large",
       "answer": "Buyers",
       "choices": [
-        "Buyers"
+        "Buyers",
+        "a. Buyers",
+        "b. Rivalry",
+        "c. New Entrants",
+        "d. Suppliers"
       ],
       "verified": true,
       "source": "review_screen",
       "confirmations": 13,
       "lastVerifiedAt": "2026-10-01T11:37:19Z",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "wrongAnswers": [
+        "Rivalry"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-15T03:43:20Z"
     },
     {
       "question": "The time for which profits are being calculated, normally months, quarters or years.",
@@ -2177,14 +2260,19 @@
       "question": "They sell a commodity product to the companies in it",
       "answer": "Suppliers",
       "choices": [
-        "Suppliers"
+        "Suppliers",
+        "a. Rivalry",
+        "b. New Entrants",
+        "c. Suppliers",
+        "d. Buyers"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 14,
-      "lastVerifiedAt": "2026-10-01T11:40:46Z",
+      "confirmations": 15,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "This influences financial products and services when they set their own cost of borrowing.",
@@ -2333,7 +2421,15 @@
       "question": "What Lenders and Investors Look for in a Business Plan?",
       "answer": "all of the choices",
       "choices": [
-        "all of the choices"
+        "all of the choices",
+        "a. all of the choices",
+        "b. collateral",
+        "c. Character",
+        "d. Conditions",
+        "a. Capacity",
+        "b. all of the above",
+        "c. Capital",
+        "d. Collateral"
       ],
       "verified": true,
       "source": "review_screen",
@@ -2371,10 +2467,19 @@
         {
           "rejectedAnswer": "all of the above",
           "timestamp": "2026-09-22T12:23:21Z"
+        },
+        {
+          "rejectedAnswer": "all of the above",
+          "timestamp": "2026-10-15T03:43:20Z"
+        },
+        {
+          "rejectedAnswer": "all of the above",
+          "timestamp": "2026-10-15T03:43:20Z"
         }
       ],
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is a NOT a definition of a social enterprise",
@@ -2724,40 +2829,69 @@
       "question": "which of the following is/are the Elements of a Business Plan?",
       "answer": "all of the above",
       "choices": [
-        "all of the above"
+        "all of the above",
+        "a. all of the above",
+        "b. Business Strategy",
+        "c. Business and Industry Profile",
+        "d. Company History",
+        "a. Title Page and Contents",
+        "b. Vision and Mission Statement",
+        "c. all of the above",
+        "d. Executive Summary",
+        "b. Marketing Strategy",
+        "c. Competitor Analysis",
+        "d. Description of the Firm’s Product or Service",
+        "b. Description of Management Team",
+        "c. Pro Forma Financial Statements",
+        "d. Plan of Operation"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 31,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 35,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "which of the following is/are the Elements of a Feasibility Analysis?",
       "answer": "all of the above",
       "choices": [
-        "all of the above"
+        "all of the above",
+        "a. Financial Feasibility",
+        "b. all of the above",
+        "c. Product or Service Feasibility",
+        "d. Industry and Market Feasibility"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 13,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 14,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "which of the following is/are the Elements of Marketing Strategy?",
       "answer": "all of the above",
       "choices": [
-        "all of the above"
+        "all of the above",
+        "a. Pricing",
+        "b. target market",
+        "c. all of the above",
+        "d. Distribution",
+        "a. Location",
+        "b. Market Size and trend",
+        "c. Advertising",
+        "d. all of the above"
       ],
       "verified": true,
       "source": "review_screen",
-      "confirmations": 19,
-      "lastVerifiedAt": "2026-10-01T11:37:19Z",
+      "confirmations": 21,
+      "lastVerifiedAt": "2026-10-15T03:43:20Z",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is/are the main forms of business organization?",
