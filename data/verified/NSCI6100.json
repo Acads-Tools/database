@@ -1,8 +1,8 @@
 {
   "subjectCode": "NSCI6100",
   "subjectName": "NSCI6100",
-  "updatedAt": "2026-10-15T22:39:26Z",
-  "totalQuestions": 106,
+  "updatedAt": "2026-10-15T22:43:11Z",
+  "totalQuestions": 109,
   "tier": "verified",
   "questions": [
     {
@@ -111,17 +111,47 @@
         "a. none of the choices",
         "b. Non-Concurrent Forces",
         "c. Forces",
-        "d. Parallel Forces"
+        "d. Parallel Forces",
+        "a. Forces",
+        "d. Non-Concurrent Forces"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
+    },
+    {
+      "question": "A 300-lb box is held at rest on a smooth plane by a force P inclined at an angle θ with the plane as shown in the figure. If θ = 45°, determine the value of P and the normal pressure N exerted by the plane.NOTE : see fig 7 from the LIST OF FIGURE in Week-1",
+      "answer": "P = 212.13 lb , N = 409.81 lb",
+      "choices": [
+        "a. P = 212.13 lb , N = 409.81 lb",
+        "b. P = 2121.3 lb , N = 40981 lb",
+        "c. P = 21213 lb , N = 40.981 lb",
+        "d. none of the choices",
+        "a. P = 2121.3 lb , N = 40981 lb",
+        "b. none of the choices",
+        "c. P = 212.13 lb , N = 409.81 lb",
+        "d. P = 21213 lb , N = 40.981 lb",
+        "a. none of the choices",
+        "d. P = 212.13 lb , N = 409.81 lb"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "none of the choices"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T04:10:41Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T04:11:25Z",
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "A bolt connecting the main and rear frame of a mountain bike requires of 15 N.m to tighten. If you are capable of applying 40N of force to a wrench in any given direction, what is the minimum length of the wrench that will result in the required torque?",
@@ -174,7 +204,10 @@
         "a. none of the choices",
         "b. P = 90.38 N , N = 41.860 lb",
         "c. P = 9038 N , N = 4186.0 lb",
-        "d. P = 0.9038 N , N = 418.60 lb"
+        "d. P = 0.9038 N , N = 418.60 lb",
+        "a. P = 90.38 N , N = 41.860 lb",
+        "b. P = 9038 N , N = 4186.0 lb",
+        "c. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -183,11 +216,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T04:10:41Z",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "A millimeter is about the thickness of a dime.",
@@ -422,17 +455,21 @@
         "d. none of the choices",
         "a. θ = 60 degrees",
         "b. none of the choices",
-        "d. θ = 70 degrees"
+        "d. θ = 70 degrees",
+        "a. none of the choices",
+        "b. θ = 70 degrees",
+        "c. θ = 60 degrees",
+        "d. θ = 76 degrees"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "Determine the magnitude of P and F necessary to keep the concurrent force system in the figure in equilibrium.NOTE : see fig-8 from the LIST OF FIGURE in week-1",
@@ -443,7 +480,10 @@
         "c. none of the choices",
         "d. P = -13.325 N, F = -86.37 N",
         "a. P = -13.325 N, F = -86.37 N",
-        "d. P = -133.25 N, F = 86.37 N"
+        "d. P = -133.25 N, F = 86.37 N",
+        "b. P = -13.325 N, F = -86.37 N",
+        "c. P = 133.25 N, F = -86.37 N",
+        "d. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -452,11 +492,38 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T04:10:41Z",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
+    },
+    {
+      "question": "Determine the resultant of the force system shown in the figure and its x and y intercepts.NOTE: see fig-3 from the LIST OF FIGURE in WEEK-1",
+      "answer": "161.314 lb",
+      "choices": [
+        "a. 163.114 lb",
+        "b. none of the choices",
+        "c. 161.314 lb",
+        "d. 164.311 lb",
+        "b. 164.311 lb",
+        "d. none of the choices",
+        "a. 161.314 lb",
+        "c. none of the choices",
+        "d. 163.114 lb"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "163.114 lb"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T04:10:41Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T04:11:25Z",
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "Determine the values of α and θ so that the forces shown in the figure will be in equilibrium.",
@@ -467,17 +534,19 @@
         "c. α =46.57 degrees and θ = 28.96 degrees",
         "d. none of the choices",
         "b. α =46.57 degrees and θ = 28.96 degrees",
-        "c. α =4.57 degrees and θ = 58.96 degrees"
+        "c. α =4.57 degrees and θ = 58.96 degrees",
+        "a. none of the choices",
+        "d. α =6.57 degrees and θ = 2.96 degrees"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "Equilibrium occurs when…",
@@ -609,10 +678,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "Free-falling objects always encounter air resistance.",
@@ -750,17 +819,19 @@
         "c. algebraic solution",
         "d. logical solution",
         "a. none of the choices",
-        "b. graphical solution"
+        "b. graphical solution",
+        "a. algebraic solution",
+        "c. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "If ∠A = 89 o and ∠C = 56o, find the value of ∠B.",
@@ -793,17 +864,21 @@
         "d. none of the choices",
         "a. 7 ft",
         "b. 6 ft",
-        "c. 8 ft"
+        "c. 8 ft",
+        "a. 8 ft",
+        "b. none of the choices",
+        "c. 6 ft",
+        "d. 7 ft"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "In order to add ______ quantities, one has merely to make the algebraic addition.",
@@ -1379,17 +1454,20 @@
         "d. logical method",
         "a. logical method",
         "b. algebraic method",
-        "d. none of the choices"
+        "d. none of the choices",
+        "a. none of the choices",
+        "b. graphical method",
+        "c. algebraic method"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "Quantities that are fully described by a magnitude.",
@@ -1432,6 +1510,34 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-15T22:39:26Z"
+    },
+    {
+      "question": "Since all of these forces are not entirely parallel, the position of the resultant can be established using the ________ or ________ methods.",
+      "answer": "graphical, algebraic",
+      "choices": [
+        "a. none of the choices",
+        "b. graphical, algebraic",
+        "c. graphical, logical",
+        "d. analytical, graphical",
+        "a. analytical, graphical",
+        "b. none of the choices",
+        "c. graphical, algebraic",
+        "d. graphical, logical",
+        "a. graphical, algebraic",
+        "c. analytical, graphical"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "analytical, graphical"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T04:10:41Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T04:11:25Z",
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "Standard unit of length in metric system.",
@@ -1520,17 +1626,21 @@
         "a. none of the choices",
         "b. F = 20.31 lb",
         "c. F = 205.31 lb",
-        "d. 5.31 lb"
+        "d. 5.31 lb",
+        "a. 5.31 lb",
+        "b. F = 205.31 lb",
+        "c. F = 20.31 lb",
+        "d. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "The ______ in simple harmonic motion is proportional and opposite to the displacement.",
@@ -1577,7 +1687,9 @@
         "c. T = 49.24 lb , C = 57.94 lb",
         "d. none of the choices",
         "b. T = 49.24 lb , C = 57.94 lb",
-        "c. T = 439.24 lb , C = 537.94 lb"
+        "c. T = 439.24 lb , C = 537.94 lb",
+        "a. T = 439.24 lb , C = 537.94 lb",
+        "c. T = 43.24 lb , C = 53.94 lb"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1586,11 +1698,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T04:10:41Z",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "The distance of the mass below or above from the center position, or rest position.",
@@ -1625,17 +1737,19 @@
         "d. P = 165.45 lb, F = 412.44 lb",
         "a. P = 265.45 lb, F = 472.44 lb",
         "b. none of the choices",
-        "c. P = 65.45 lb, F = 12.44 lb"
+        "c. P = 65.45 lb, F = 12.44 lb",
+        "c. P = 165.45 lb, F = 412.44 lb",
+        "d. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "The main advantages of the metric system is that it has many base unit for each physical quantity.",
@@ -1815,17 +1929,20 @@
         "a. speed, inclination, position",
         "b. magnitude, displacement, position",
         "c. none of the choices",
-        "d. magnitude, inclination, position"
+        "d. magnitude, inclination, position",
+        "a. none of the choices",
+        "b. magnitude, inclination, position",
+        "d. speed, inclination, position"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "The sum of the clockwise moments equals sum of the anticlockwise moments when the body is in equilibrium.",
@@ -1872,17 +1989,19 @@
         "a. F = 253.29 lb , P = 507.06 lb",
         "b. F = 2532.9 lb , P = 50.706 lb",
         "c. F = 25.329 lb , P = 507.06 lb",
-        "d. none of the choices"
+        "d. none of the choices",
+        "a. F = 25.329 lb , P = 507.06 lb",
+        "d. F = 2532.9 lb , P = 50.706 lb"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "The vectors are translated, to a common origin.",
@@ -2011,17 +2130,20 @@
         "a. none of the choices",
         "b. P = 90.14 kN, F = 64.03 kN",
         "c. P =9.14 kN, F = 6.03 kN",
-        "d. P = 900.14 kN, F = 4.03 kN"
+        "d. P = 900.14 kN, F = 4.03 kN",
+        "a. P = 90.14 kN, F = 64.03 kN",
+        "b. P = 900.14 kN, F = 4.03 kN",
+        "d. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:11:25Z"
+      "lastVerifiedAt": "2026-10-15T22:43:11Z"
     },
     {
       "question": "Types of Si units which is the simple measurement for time, length, mass, temperature, amount of substance, electric current, and light intensity.",
