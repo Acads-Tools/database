@@ -1,10 +1,31 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-15T16:33:01Z",
-  "totalQuestions": 86,
+  "updatedAt": "2026-10-15T16:35:08Z",
+  "totalQuestions": 90,
   "tier": "verified",
   "questions": [
+    {
+      "question": "_______ is the space between an element’s content and its border.",
+      "answer": "Padding",
+      "choices": [
+        "a. Dividend",
+        "b. Exponent",
+        "c. Quantifier",
+        "d. Padding"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:35:08Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z"
+    },
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
       "answer": "Eclipse",
@@ -34,15 +55,19 @@
         "a. Wrap_content",
         "b. Explicit Decision",
         "c. Name Package",
-        "d. match_parent"
+        "d. match_parent",
+        "a. match_parent",
+        "c. Wrap_content",
+        "d. Name Package"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "_____________ contain a local copy of the latest multi-version documentation for the Android framework API.",
@@ -81,12 +106,15 @@
         "c. Button",
         "a. Button",
         "b. Buttoning",
-        "d. Android"
+        "d. Android",
+        "a. Buttoning",
+        "b. Android",
+        "d. Image"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -189,9 +217,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T00:24:45Z",
-      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen"
     },
     {
@@ -202,9 +230,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -218,9 +246,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -266,9 +294,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -301,9 +329,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen"
     },
     {
@@ -314,9 +342,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -373,15 +401,18 @@
         "a. Varying",
         "b. Default",
         "c. Common",
-        "d. Fixed"
+        "d. Fixed",
+        "a. Common",
+        "b. Fixed",
+        "d. Varying"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen"
     },
     {
@@ -408,7 +439,7 @@
     },
     {
       "question": "In the early 2000s, Symbian, BlackBerry OS, Palm OS and ________ (now known as Windows Mobile) became increasingly popular. They are gadgets with capabilities such as email, fax, Web browsing, etc.",
-      "answer": "Pocket PC",
+      "answer": "",
       "choices": [
         "a. PocketPC2000",
         "b. PocketWifi",
@@ -418,12 +449,14 @@
         "c. PocketPC2000",
         "d. PocketCD"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:07:03Z",
       "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
-      "wrongAnswers": [],
+      "source": "moodle_review_elimination",
+      "wrongAnswers": [
+        "Pocket PC"
+      ],
       "isAiSuggestion": false,
       "questionType": "multichoice",
       "conflictHistory": [
@@ -431,7 +464,30 @@
           "rejectedAnswer": "PocketPC2000",
           "timestamp": "2026-10-02T00:21:33Z"
         }
-      ]
+      ],
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-15T16:35:08Z"
+    },
+    {
+      "question": "Is a drawable resource defined in XML that changes its image based on the current state of the button.",
+      "answer": "state list drawable",
+      "choices": [
+        "a. Relative Layout",
+        "b. state list drawable",
+        "c. ViewGroup",
+        "d. string resource"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:35:08Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z"
     },
     {
       "question": "It can display any kind of bitmap, and it takes care of basic alignment and scaling functionality.",
@@ -447,9 +503,9 @@
         "d. Relative Layout"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -472,6 +528,27 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "match_parent makes the element match the height and dimension of the parent element.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:35:08Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z"
     },
     {
       "question": "Menus are a common user interface component in many types of applications",
@@ -548,9 +625,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen"
     },
     {
@@ -614,12 +691,14 @@
         "c. Notes, Web Browsers and Games",
         "a. Notes, Emails and Games",
         "c. Notes, Fax Messaging and Games",
-        "d. Notes, Video Calls and Games"
+        "d. Notes, Video Calls and Games",
+        "b. Notes, Emails and Games",
+        "d. Notes, Web Browsers and Games"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -666,9 +745,9 @@
         "d. Quantifier"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -689,15 +768,17 @@
         "a. Eclipse Symposium",
         "b. Sprint Communications",
         "c. None of the Choices",
-        "d. Eclipse Consortium"
+        "d. Eclipse Consortium",
+        "a. Eclipse Consortium",
+        "c. Sprint Communications"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen"
     },
     {
@@ -708,9 +789,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -760,12 +841,16 @@
         "c. centerInside",
         "d. android:scaleType",
         "b. centerInside",
-        "c. ImageView"
+        "c. ImageView",
+        "a. centerInside",
+        "b. android:scaleType",
+        "c. Scaling Images",
+        "d. ImageView"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -782,9 +867,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen"
     },
     {
@@ -818,12 +903,15 @@
         "a. Federal Communications Council",
         "c. Federal Communications Conference",
         "d. Federal Communications Commission",
-        "b. Federal Communications Council"
+        "b. Federal Communications Council",
+        "a. Federal Communications Conference",
+        "b. Federal Communications Commission",
+        "d. Federal Communications Conglomeration"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -842,12 +930,13 @@
         "b. Netherlands",
         "c. Norway",
         "d. Finland",
-        "d. Norway"
+        "d. Norway",
+        "a. Finland"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -943,9 +1032,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -958,16 +1047,40 @@
         "a. True",
         "b. Text Views",
         "c. False",
-        "d. None of the choices"
+        "d. None of the choices",
+        "b. None of the choices",
+        "c. Text Views",
+        "d. False"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen"
+    },
+    {
+      "question": "The value of android:text is a reference to a ___________.",
+      "answer": "string resource",
+      "choices": [
+        "a. button",
+        "b. string resource",
+        "c. ViewGroup",
+        "d. Relative Layout"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:35:08Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z"
     },
     {
       "question": "The Windows Phone 8 is also known as the __________.",
@@ -984,12 +1097,13 @@
         "d. Apollo",
         "a. Apollo",
         "b. Anchovies",
-        "d. Achilles"
+        "d. Achilles",
+        "b. None of the choices"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1008,12 +1122,14 @@
         "a. Source Code, Postal Code, HTML",
         "b. Source Code, Auto Generated Code, Included Sections",
         "c. Source Code, Auto Generated Code, Included Libraries",
-        "d. Source Code, Auto Generated Code, HTML"
+        "d. Source Code, Auto Generated Code, HTML",
+        "b. Source Code, Auto Generated Code, Included Libraries",
+        "c. Source Code, Postal Code, HTML"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1031,12 +1147,13 @@
         "c. USB Drivers",
         "d. Android Platforms",
         "a. Android Platforms",
-        "d. USB Drivers"
+        "d. USB Drivers",
+        "c. Android App"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1052,12 +1169,13 @@
         "d. Borderless Button"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-30T15:16:59Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "This class namespace creates the initial package structure.",
@@ -1072,12 +1190,13 @@
         "d. Name Package",
         "a. Name of the Packages",
         "b. Names of Packages",
-        "c. Package Name"
+        "c. Package Name",
+        "b. Package Name"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1093,12 +1212,15 @@
         "d. match_parent",
         "a. match_parent",
         "b. Name Package",
-        "d. wrap_content"
+        "d. wrap_content",
+        "a. wrap_content",
+        "b. match_parent",
+        "d. Name Package"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1111,15 +1233,19 @@
         "a. wrap_content",
         "b. match_parent",
         "c. Explicit Decision",
-        "d. Name Package"
+        "d. Name Package",
+        "b. Explicit Decision",
+        "c. Name Package",
+        "d. match_parent"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "This defines the visual structure for a user interface (UI).",
@@ -1131,12 +1257,15 @@
         "d. Layout",
         "b. Layout",
         "c. Outer Space",
-        "d. Interface"
+        "d. Interface",
+        "a. Outer Space",
+        "b. None of the choices",
+        "c. Layout"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1150,9 +1279,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1214,12 +1343,14 @@
         "c. Desktop PC",
         "d. Ipod Touch",
         "b. Desktop PC",
-        "c. Tablet"
+        "c. Tablet",
+        "a. Desktop PC",
+        "b. Smartphone"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1238,12 +1369,13 @@
         "c. Mobile Telepathy Service",
         "d. Mobile Telecommunication Service",
         "b. Mobile Telecommunication Service",
-        "d. Mobile Telepathy Service"
+        "d. Mobile Telepathy Service",
+        "c. Mobile Telephone Service"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1265,14 +1397,15 @@
         "b. Important Mobile Telephone System",
         "c. None of the choices",
         "d. Improved Mobile Telephone System",
-        "a. None of the choices"
+        "a. None of the choices",
+        "d. Ingenious Mobile Telephone System"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1289,12 +1422,13 @@
         "b. 10 Billion units",
         "c. 1 Billion units",
         "a. 500 Million units",
-        "d. 10 Billion units"
+        "d. 10 Billion units",
+        "d. 100 Million units"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1314,14 +1448,15 @@
         "a. Blackberry OS",
         "c. Blueberry OS",
         "d. Strawberry OS",
-        "b. Blackberry OS"
+        "b. Blackberry OS",
+        "d. Raspberry OS"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1414,12 +1549,13 @@
         "b. Blackberry OS 5",
         "c. Blackberry OS 4",
         "b. Blackberry OS 3",
-        "d. Blackberry OS 4"
+        "d. Blackberry OS 4",
+        "c. Blackberry OS 3"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Blackberry OS 4"
@@ -1442,14 +1578,16 @@
         "c. Penelope",
         "d. Nokia 9000 Communicator",
         "a. Samsung Galaxy",
-        "b. IBM Simon Personal Communicator"
+        "b. IBM Simon Personal Communicator",
+        "b. Penelope",
+        "c. Nokia 9000 Communicator"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1470,9 +1608,9 @@
         "d. Project"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-02T00:21:33Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1496,12 +1634,13 @@
         "a. 1974",
         "b. None of the choices Dr. Martin Cooper was successfully able to call on a handheld mobile phone in 1973.",
         "d. 1971",
-        "c. 1974"
+        "c. 1974",
+        "d. 1977"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1521,14 +1660,15 @@
         "b. October 2007",
         "c. November 2007",
         "a. October 2007",
-        "c. December 2007"
+        "c. December 2007",
+        "d. November 2007"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1546,12 +1686,14 @@
         "b. 1979",
         "d. 1982",
         "b. 1980",
-        "c. 1982"
+        "c. 1982",
+        "c. 1981",
+        "d. 1979"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1564,16 +1706,23 @@
         "a. android:ofClick",
         "b. android:onClick",
         "c. android:inClick",
-        "d. android:onclicks"
+        "d. android:onclicks",
+        "a. android:onclicks",
+        "c. android:ofClick",
+        "d. android:inClick"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "android:inClick"
+      ],
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-02T00:24:45Z",
       "lastVerifiedAt": "2026-10-02T00:24:45Z",
-      "source": "review_screen"
+      "source": "review_screen",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-15T16:35:08Z"
     },
     {
       "question": "When you connect a device running Android 4.2.2. or higher to your computer, the system shows a dialog asking whether to accept an RSA key that allows debugging through the computer.",
@@ -1625,14 +1774,15 @@
         "b. Alan K",
         "a. Federal Communications Conference Alan Kay",
         "b. Alan Kaye",
-        "c. Alan K"
+        "c. Alan K",
+        "c. Alan Kate"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1662,9 +1812,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1715,12 +1865,14 @@
         "a. Wrap_content",
         "b. Image Partner",
         "c. Name Package",
-        "d. ImageView"
+        "d. ImageView",
+        "c. ImageView",
+        "d. Wrap_content"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-02T00:22:22Z",
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
