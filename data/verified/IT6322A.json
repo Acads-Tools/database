@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-02T00:24:45Z",
-  "totalQuestions": 85,
+  "updatedAt": "2026-10-15T16:32:14Z",
+  "totalQuestions": 86,
   "tier": "verified",
   "questions": [
     {
@@ -12,15 +12,18 @@
         "a. Measured Mobile",
         "b. Eclipse",
         "c. Microsoft Visual Studio",
-        "d. Apache"
+        "d. Apache",
+        "b. Microsoft Visual Studio",
+        "c. Eclipse"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "____________ can be measured in pixels (px), density-independent pixels, and scaled pixels based on preferred font size.",
@@ -50,15 +53,17 @@
         "a. Sources",
         "b. Online Tools",
         "c. Documentation",
-        "d. References"
+        "d. References",
+        "a. Documentation",
+        "b. References"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen"
     },
     {
@@ -162,12 +167,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "An Activity Life Cycle consists of the following six states: Created, Started, Ended, Paused, Stopped, Destroyed",
@@ -209,9 +215,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -292,9 +298,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-09-30T15:13:51Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen"
     },
     {
@@ -305,12 +311,13 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
+      "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Editable text field hints are one of the most important attributes to set.",
@@ -381,15 +388,17 @@
         "a. Android App",
         "b. Android TDK",
         "c. Android Notepad",
-        "d. Android SDK"
+        "d. Android SDK",
+        "b. Android SDK",
+        "d. Android TDK"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T00:20:01Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen"
     },
     {
@@ -594,15 +603,19 @@
         "a. Notes, Fax Messaging and Games",
         "b. Notes, Web Browsers and Games",
         "c. Notes, Video Calls and Games",
-        "d. Notes, Emails and Games"
+        "d. Notes, Emails and Games",
+        "a. Notes, Video Calls and Games",
+        "b. Notes, Fax Messaging and Games",
+        "c. Notes, Web Browsers and Games"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-09-30T15:12:12Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "The ________ is the Operating System of Microsoft based smartphones.",
@@ -615,12 +628,14 @@
         "a. Windows Mobile 2003 SE",
         "b. Pocket PC 2000",
         "c. Windows Mobile 2003",
-        "d. Windows Phone"
+        "d. Windows Phone",
+        "a. Windows Mobile 2003",
+        "c. Windows Mobile 2003 SE"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -659,15 +674,17 @@
         "c. Eclipse Consortium",
         "d. None of the Choices",
         "b. None of the Choices",
-        "d. Eclipse Symposium"
+        "d. Eclipse Symposium",
+        "b. Eclipse Consortium",
+        "c. Eclipse Symposium"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen"
     },
     {
@@ -685,6 +702,25 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "The Android SDK is your gateway to using the Android mobile operating system as an open source platform",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T16:32:14Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z"
     },
     {
       "question": "The android:inputType attribute lets you specify what kind of input you're expecting.",
@@ -765,12 +801,15 @@
         "a. Federal Communications Conglomeration",
         "b. Federal Communications Conference",
         "c. Federal Communications Commission",
-        "d. Federal Communications Council"
+        "d. Federal Communications Council",
+        "a. Federal Communications Council",
+        "c. Federal Communications Conference",
+        "d. Federal Communications Commission"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -785,12 +824,15 @@
         "c. Finland",
         "d. Fiji",
         "a. Fiji",
-        "d. Netherlands"
+        "d. Netherlands",
+        "b. Netherlands",
+        "c. Norway",
+        "d. Finland"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -840,9 +882,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -921,12 +963,15 @@
         "c. None of the choices",
         "d. Anchovies",
         "c. Anchovies",
-        "d. None of the choices"
+        "d. None of the choices",
+        "a. Anchovies",
+        "b. Achilles",
+        "d. Apollo"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -966,12 +1011,13 @@
         "d. Android App",
         "a. Android App",
         "c. USB Drivers",
-        "d. Android Platforms"
+        "d. Android Platforms",
+        "a. Android Platforms"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1150,9 +1196,9 @@
         "d. Ipod Touch"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1169,12 +1215,14 @@
         "a. Mobile Telephone Service",
         "b. Mobile Telephony Service",
         "c. Mobile Telepathy Service",
-        "d. Mobile Telecommunication Service"
+        "d. Mobile Telecommunication Service",
+        "b. Mobile Telecommunication Service",
+        "d. Mobile Telepathy Service"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1192,14 +1240,17 @@
         "b. None of the choices",
         "c. Ingenious Mobile Telephone System",
         "d. Important Mobile Telephone System",
-        "b. Ingenious Mobile Telephone System"
+        "b. Ingenious Mobile Telephone System",
+        "b. Important Mobile Telephone System",
+        "c. None of the choices",
+        "d. Improved Mobile Telephone System"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1212,12 +1263,14 @@
         "c. 10 Billion units",
         "d. 500 Million units",
         "a. 100 Million units",
-        "b. 1 Billion units"
+        "b. 1 Billion units",
+        "b. 10 Billion units",
+        "c. 1 Billion units"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1233,14 +1286,17 @@
         "d. Blackberry OS",
         "b. Raspberry OS",
         "c. Blackberry OS",
-        "d. Blueberry OS"
+        "d. Blueberry OS",
+        "a. Blackberry OS",
+        "c. Blueberry OS",
+        "d. Strawberry OS"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1257,12 +1313,13 @@
         "c. IOS",
         "d. Android",
         "b. Android",
-        "d. IOS"
+        "d. IOS",
+        "d. Windows Phone"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1278,12 +1335,15 @@
         "d. Froyo",
         "a. Froyo",
         "c. IceCream Sandwich",
-        "d. Lollipop"
+        "d. Lollipop",
+        "a. Lollipop",
+        "c. Froyo",
+        "d. IceCream Sandwich"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1299,12 +1359,14 @@
         "d. Blackberry OS",
         "b. Blackberry OS",
         "c. Samsung",
-        "d. Iphone"
+        "d. Iphone",
+        "a. Iphone",
+        "c. Nokia"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1312,20 +1374,27 @@
     },
     {
       "question": "What version did Java Support first appear in the Blackberry OS updates?",
-      "answer": "Blackberry OS 4",
+      "answer": "",
       "choices": [
         "a. Blackberry OS 5",
         "b. Blackberry OS 4",
         "c. Blackberry OS 5",
-        "d. Blackberry OS 3"
+        "d. Blackberry OS 3",
+        "b. Blackberry OS 5",
+        "c. Blackberry OS 4"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 4,
       "firstSeenAt": "2026-09-14T13:59:09Z",
       "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "community_contribution",
-      "wrongAnswers": [],
-      "isAiSuggestion": false
+      "source": "moodle_review_elimination",
+      "wrongAnswers": [
+        "Blackberry OS 4"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-15T16:32:14Z"
     },
     {
       "question": "What was the name of the first smartphone released in 1992?",
@@ -1334,14 +1403,18 @@
         "a. Penelope",
         "b. Nokia 9000 Communicator",
         "c. Samsung Galaxy",
-        "d. IBM Simon Personal Communicator"
+        "d. IBM Simon Personal Communicator",
+        "a. IBM Simon Personal Communicator",
+        "b. Samsung Galaxy",
+        "c. Penelope",
+        "d. Nokia 9000 Communicator"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:18:19Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1384,12 +1457,15 @@
         "d. 1974",
         "a. 1977",
         "b. 1971",
-        "c. None of the choices Dr. Martin Cooper was successfully able to call on a handheld mobile phone in 1973."
+        "c. None of the choices Dr. Martin Cooper was successfully able to call on a handheld mobile phone in 1973.",
+        "a. 1974",
+        "b. None of the choices Dr. Martin Cooper was successfully able to call on a handheld mobile phone in 1973.",
+        "d. 1971"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1407,14 +1483,16 @@
         "b. November 2007",
         "d. December 2007",
         "b. October 2007",
-        "c. November 2007"
+        "c. November 2007",
+        "a. October 2007",
+        "c. December 2007"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1427,12 +1505,15 @@
         "c. 1979",
         "d. 1981",
         "a. 1979",
-        "c. 1980"
+        "c. 1980",
+        "a. 1981",
+        "b. 1979",
+        "d. 1982"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-02T00:18:42Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1501,14 +1582,16 @@
         "b. Federal Communications Conference Alan Kay",
         "d. Alan Kate",
         "c. Federal Communications Conference Alan Kay",
-        "d. Alan Kaye"
+        "d. Alan Kaye",
+        "a. Alan Kate",
+        "b. Alan K"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-02T00:20:01Z",
+      "lastVerifiedAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
