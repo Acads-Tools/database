@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6301",
   "subjectName": "Technopreneurship",
-  "updatedAt": "2026-10-15T02:12:54Z",
+  "updatedAt": "2026-10-15T03:31:24Z",
   "totalQuestions": 200,
   "questions": [
     {
@@ -316,12 +316,19 @@
       "question": "A clearly defined vision __________",
       "answer": "all of the above",
       "choices": [
-        "all of the above"
+        "all of the above",
+        "a. Motivates people",
+        "b. Provides direction",
+        "c. all of the above",
+        "d. Determines decisions"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 17,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 18,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "A legal entity with an existence and life separate from its owners, who therefore are not personally liable for its debts",
@@ -1086,12 +1093,16 @@
     },
     {
       "question": "It involves developing a game plan to guide a company as it strives to accomplish its mission, goals , and objectives, and to keep it on its desired course",
-      "answer": "strategic plan",
+      "answer": "",
       "choices": [
-        "strategic plan"
+        "strategic plan",
+        "a. strategic plan",
+        "b. franchise",
+        "c. strategic management",
+        "d. competitive advantage"
       ],
-      "verified": true,
-      "source": "amauoed-ite6301",
+      "verified": false,
+      "source": "moodle_review_elimination",
       "confirmations": 15,
       "lastVerifiedAt": "2026-09-22T09:25:50Z",
       "conflictHistory": [
@@ -1103,35 +1114,56 @@
           "rejectedAnswer": "strategic management",
           "timestamp": "2026-09-22T09:52:28Z"
         }
-      ]
+      ],
+      "wrongAnswers": [
+        "strategic plan"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-15T03:31:24Z"
     },
     {
       "question": "It is a road map of the actions an entrepreneur draws up to achieve a company's mission, goals, and objectives",
       "answer": "strategy",
       "choices": [
-        "strategy"
+        "strategy",
+        "a. objectives",
+        "b. strategy",
+        "c. purpose",
+        "d. goals"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 17,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 18,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a written expression of how the company will reflect an entrepreneur's values, beliefs, and vision - more than just \"making money\"",
       "answer": "mission",
       "choices": [
-        "mission"
+        "mission",
+        "a. vision",
+        "b. objectives",
+        "c. goal",
+        "d. mission"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 16,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z",
+      "source": "review_screen",
+      "confirmations": 17,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
       "conflictHistory": [
         {
           "rejectedAnswer": "vision",
           "timestamp": "2026-09-15T03:03:32Z"
         }
-      ]
+      ],
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is called this because before people ventured to Australia, swans were assumed to only be white. No one had seen a black one until then",
@@ -1148,12 +1180,19 @@
       "question": "It is the result of an entrepreneur's dream of something that does not exist yet and the ability to paint a compelling picture of that dream for everyone to see",
       "answer": "vision",
       "choices": [
-        "vision"
+        "vision",
+        "a. objectives",
+        "b. vision",
+        "c. mission",
+        "d. goal"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 17,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 18,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It protects business buyer from the claims unpaid creditors might have against a company’s assets.",
@@ -1254,23 +1293,37 @@
       "question": "Negative external factors that inhibit the firm's ability to accomplish its mission, goals, and objectives",
       "answer": "threats",
       "choices": [
-        "threats"
+        "threats",
+        "a. strengths",
+        "b. weaknesses",
+        "c. threats",
+        "d. opportunities"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 17,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 18,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Negative internal factors that inhibit a company's ability to accomplish its mission, goals, and objectives",
       "answer": "weaknesses",
       "choices": [
-        "weaknesses"
+        "weaknesses",
+        "a. strengths",
+        "b. vision",
+        "c. weaknesses",
+        "d. mission"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 17,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 18,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Number of competitors is large or few (less than 5)",
@@ -1396,35 +1449,49 @@
       "question": "Positive external factors the company can exploit toaccomplish its mission, goals, and objectives",
       "answer": "opportunities",
       "choices": [
-        "opportunities"
+        "opportunities",
+        "a. opportunities",
+        "b. threats",
+        "c. weaknesses",
+        "d. strengths"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 16,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z",
+      "source": "review_screen",
+      "confirmations": 17,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
       "conflictHistory": [
         {
           "rejectedAnswer": "strengths",
           "timestamp": "2026-09-15T03:03:32Z"
         }
-      ]
+      ],
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Positive internal factors a company can draw on toaccomplish its mission, goals, and objectives",
       "answer": "strengths",
       "choices": [
-        "strengths"
+        "strengths",
+        "a. weaknesses",
+        "b. vision",
+        "c. mission",
+        "d. strengths"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 16,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z",
+      "source": "review_screen",
+      "confirmations": 17,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
       "conflictHistory": [
         {
           "rejectedAnswer": "weaknesses",
           "timestamp": "2026-09-15T03:03:32Z"
         }
-      ]
+      ],
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Property that has value owned by a company.",
@@ -1667,12 +1734,19 @@
       "question": "The aggregation of factors that sets a company apart from its competitors and gives it a unique position in the market that is superior to its competition",
       "answer": "competitive advantage",
       "choices": [
-        "competitive advantage"
+        "competitive advantage",
+        "a. competitive advantage",
+        "b. franchise",
+        "c. strategic plan",
+        "d. strategic management"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 17,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 18,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "The business organization in which a franchisor supplies the product concept to the franchisee, who sells the goods or services",
@@ -1858,7 +1932,11 @@
       "question": "The practice of gathering, organizing, and disseminating the collective wisdom and experience of a company's employees for the purpose of strengthening its competitive position",
       "answer": "objectives",
       "choices": [
-        "objectives"
+        "objectives",
+        "a. objectives",
+        "b. purpose",
+        "c. goals",
+        "d. strategy"
       ],
       "verified": true,
       "source": "amauoed-ite6301",
@@ -1904,8 +1982,14 @@
         {
           "rejectedAnswer": "purpose",
           "timestamp": "2026-09-22T09:52:28Z"
+        },
+        {
+          "rejectedAnswer": "purpose",
+          "timestamp": "2026-10-15T03:31:24Z"
         }
-      ]
+      ],
+      "wrongAnswers": [],
+      "questionType": "multichoice"
     },
     {
       "question": "The process by which a person or business takes advantage of the difference in price of a share or a currency.",
@@ -2325,12 +2409,19 @@
       "question": "which of the following is/are aspects of a small company?",
       "answer": "All of the above",
       "choices": [
-        "All of the above"
+        "All of the above",
+        "a. Service they provide",
+        "b. Products they sell",
+        "c. Pricing they offer",
+        "d. All of the above"
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 17,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 18,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following is/are disadvantage/s of Limited Liability company?",
@@ -2347,12 +2438,26 @@
       "question": "which of the following is/are Strategic Management Process?",
       "answer": "All of the above",
       "choices": [
-        "All of the above"
+        "All of the above",
+        "a. Develop a vision and translate it into a mission statement.",
+        "b. All of the above",
+        "c. Scan environment for opportunities and threats.",
+        "d. Assess strengths and weaknesses.",
+        "a. Analyze competition.",
+        "b. Identify key success factors.",
+        "c. Create goals and objectives.",
+        "d. All of the above",
+        "a. Establish accurate controls.",
+        "c. Translate plans into actions.",
+        "d. Formulate strategies."
       ],
       "verified": true,
-      "source": "amauoed-ite6301",
-      "confirmations": 37,
-      "lastVerifiedAt": "2026-09-22T09:52:28Z"
+      "source": "review_screen",
+      "confirmations": 40,
+      "lastVerifiedAt": "2026-10-15T03:31:24Z",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "which of the following is/are the Advantages of Buying a Business?",
