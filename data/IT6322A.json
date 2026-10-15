@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6322A",
   "subjectName": "Mobile Application Development",
-  "updatedAt": "2026-10-15T16:35:08Z",
+  "updatedAt": "2026-10-15T16:35:51Z",
   "totalQuestions": 90,
   "questions": [
     {
@@ -11,19 +11,22 @@
         "a. Dividend",
         "b. Exponent",
         "c. Quantifier",
-        "d. Padding"
+        "d. Padding",
+        "b. Quantifier",
+        "c. Padding",
+        "d. Exponent"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z"
+      "lastVerifiedAt": "2026-10-15T16:35:51Z"
     },
     {
       "question": "_________ is a Java-based open source platform that allows a software developer to create a customized integrated development environment (IDE) from plug-in components.",
@@ -36,12 +39,14 @@
         "b. Microsoft Visual Studio",
         "c. Eclipse",
         "a. Apache",
-        "d. Measured Mobile"
+        "d. Measured Mobile",
+        "a. Microsoft Visual Studio",
+        "c. Measured Mobile"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -57,12 +62,15 @@
         "d. match_parent",
         "a. match_parent",
         "c. Wrap_content",
-        "d. Name Package"
+        "d. Name Package",
+        "b. Name Package",
+        "c. Explicit Decision",
+        "d. Wrap_content"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -88,9 +96,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-30T15:13:51Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen"
     },
     {
@@ -108,12 +116,13 @@
         "d. Android",
         "a. Buttoning",
         "b. Android",
-        "d. Image"
+        "d. Image",
+        "a. Image"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -197,9 +206,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -216,9 +225,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-02T00:24:45Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen"
     },
     {
@@ -229,9 +238,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -293,9 +302,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -403,15 +412,16 @@
         "d. Fixed",
         "a. Common",
         "b. Fixed",
-        "d. Varying"
+        "d. Varying",
+        "c. Fixed"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen"
     },
     {
@@ -425,20 +435,24 @@
         "b. Android SDK",
         "d. Android TDK",
         "a. Android Notepad",
-        "c. Android App"
+        "c. Android App",
+        "a. Android SDK",
+        "b. Android Notepad",
+        "c. Android TDK",
+        "d. Android App"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-02T00:20:01Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen"
     },
     {
       "question": "In the early 2000s, Symbian, BlackBerry OS, Palm OS and ________ (now known as Windows Mobile) became increasingly popular. They are gadgets with capabilities such as email, fax, Web browsing, etc.",
-      "answer": "",
+      "answer": "PocketPC2000",
       "choices": [
         "a. PocketPC2000",
         "b. PocketWifi",
@@ -446,13 +460,17 @@
         "d. Pocket PC",
         "a. Pocket PC",
         "c. PocketPC2000",
-        "d. PocketCD"
+        "d. PocketCD",
+        "a. PocketWifi",
+        "b. PocketCD",
+        "c. Pocket PC",
+        "d. PocketPC2000"
       ],
-      "verified": false,
-      "confirmations": 4,
+      "verified": true,
+      "confirmations": 1,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-09-25T14:27:29Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "Pocket PC"
       ],
@@ -474,19 +492,22 @@
         "a. Relative Layout",
         "b. state list drawable",
         "c. ViewGroup",
-        "d. string resource"
+        "d. string resource",
+        "a. state list drawable",
+        "b. ViewGroup",
+        "c. Relative Layout"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z"
+      "lastVerifiedAt": "2026-10-15T16:35:51Z"
     },
     {
       "question": "It can display any kind of bitmap, and it takes care of basic alignment and scaling functionality.",
@@ -502,9 +523,9 @@
         "d. Relative Layout"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -547,7 +568,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z"
+      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-15T16:35:51Z"
+        }
+      ]
     },
     {
       "question": "Menus are a common user interface component in many types of applications",
@@ -624,9 +651,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen"
     },
     {
@@ -717,12 +744,13 @@
         "d. Windows Phone",
         "a. Windows Mobile 2003",
         "c. Windows Mobile 2003 SE",
-        "a. Pocket PC 2000"
+        "a. Pocket PC 2000",
+        "d. Windows Mobile 2003 SE"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -744,9 +772,9 @@
         "d. Quantifier"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -788,9 +816,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -808,12 +836,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-15T16:32:14Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z"
+      "lastVerifiedAt": "2026-10-15T16:35:51Z"
     },
     {
       "question": "The android:inputType attribute lets you specify what kind of input you're expecting.",
@@ -844,12 +872,13 @@
         "a. centerInside",
         "b. android:scaleType",
         "c. Scaling Images",
-        "d. ImageView"
+        "d. ImageView",
+        "d. Scaling Images"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -866,9 +895,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen"
     },
     {
@@ -908,9 +937,9 @@
         "d. Federal Communications Conglomeration"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -930,12 +959,14 @@
         "c. Norway",
         "d. Finland",
         "d. Norway",
-        "a. Finland"
+        "a. Finland",
+        "a. Norway",
+        "c. Fiji"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -985,9 +1016,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1031,9 +1062,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1049,15 +1080,18 @@
         "d. None of the choices",
         "b. None of the choices",
         "c. Text Views",
-        "d. False"
+        "d. False",
+        "b. False",
+        "c. None of the choices",
+        "d. Text Views"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-30T15:16:59Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen"
     },
     {
@@ -1067,19 +1101,23 @@
         "a. button",
         "b. string resource",
         "c. ViewGroup",
-        "d. Relative Layout"
+        "d. Relative Layout",
+        "a. string resource",
+        "b. button",
+        "c. Relative Layout",
+        "d. ViewGroup"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-15T16:35:08Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z"
+      "lastVerifiedAt": "2026-10-15T16:35:51Z"
     },
     {
       "question": "The Windows Phone 8 is also known as the __________.",
@@ -1123,12 +1161,13 @@
         "c. Source Code, Auto Generated Code, Included Libraries",
         "d. Source Code, Auto Generated Code, HTML",
         "b. Source Code, Auto Generated Code, Included Libraries",
-        "c. Source Code, Postal Code, HTML"
+        "c. Source Code, Postal Code, HTML",
+        "d. Source Code, Auto Generated Code, Included Sections"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1165,12 +1204,14 @@
         "a. Toggle Button",
         "b. android:onClick",
         "c. Custom Button",
-        "d. Borderless Button"
+        "d. Borderless Button",
+        "c. Borderless Button",
+        "d. Custom Button"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1190,12 +1231,14 @@
         "a. Name of the Packages",
         "b. Names of Packages",
         "c. Package Name",
-        "b. Package Name"
+        "b. Package Name",
+        "a. Names of Packages",
+        "d. Package Name"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1214,12 +1257,14 @@
         "d. wrap_content",
         "a. wrap_content",
         "b. match_parent",
-        "d. Name Package"
+        "d. Name Package",
+        "b. Explicit Decision",
+        "c. Name Package"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1238,9 +1283,9 @@
         "d. match_parent"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1259,12 +1304,15 @@
         "d. Interface",
         "a. Outer Space",
         "b. None of the choices",
-        "c. Layout"
+        "c. Layout",
+        "a. Layout",
+        "b. Interface",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1278,9 +1326,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1344,12 +1392,14 @@
         "b. Desktop PC",
         "c. Tablet",
         "a. Desktop PC",
-        "b. Smartphone"
+        "b. Smartphone",
+        "b. Ipod Touch",
+        "d. Tablet"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1372,9 +1422,9 @@
         "c. Mobile Telephone Service"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1397,14 +1447,15 @@
         "c. None of the choices",
         "d. Improved Mobile Telephone System",
         "a. None of the choices",
-        "d. Ingenious Mobile Telephone System"
+        "d. Ingenious Mobile Telephone System",
+        "c. Improved Mobile Telephone System"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1475,12 +1526,14 @@
         "d. IOS",
         "d. Windows Phone",
         "a. Windows Phone",
-        "c. Android"
+        "c. Android",
+        "a. IOS",
+        "c. Symbian"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1501,12 +1554,14 @@
         "c. Froyo",
         "d. IceCream Sandwich",
         "a. Kitkat",
-        "b. IceCream Sandwich"
+        "b. IceCream Sandwich",
+        "b. Froyo",
+        "c. Kitkat"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-14T14:17:14Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1529,9 +1584,9 @@
         "b. Nokia"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:33:01Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1579,14 +1634,15 @@
         "a. Samsung Galaxy",
         "b. IBM Simon Personal Communicator",
         "b. Penelope",
-        "c. Nokia 9000 Communicator"
+        "c. Nokia 9000 Communicator",
+        "d. Samsung Galaxy"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1604,12 +1660,13 @@
         "a. Document",
         "b. None of the Choices",
         "c. Reference",
-        "d. Project"
+        "d. Project",
+        "b. Document"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-14T14:07:03Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1637,9 +1694,9 @@
         "d. 1977"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T14:05:21Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1660,14 +1717,15 @@
         "c. November 2007",
         "a. October 2007",
         "c. December 2007",
-        "d. November 2007"
+        "d. November 2007",
+        "c. September 2007"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1690,9 +1748,9 @@
         "d. 1979"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-14T13:59:09Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1708,7 +1766,10 @@
         "d. android:onclicks",
         "a. android:onclicks",
         "c. android:ofClick",
-        "d. android:inClick"
+        "d. android:inClick",
+        "b. android:inClick",
+        "c. android:onClick",
+        "d. android:ofClick"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1716,9 +1777,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-02T00:24:45Z",
-      "lastVerifiedAt": "2026-10-02T00:24:45Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswerEvidence": true,
       "lastEvidenceAt": "2026-10-15T16:35:08Z"
@@ -1779,9 +1840,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-25T14:27:29Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1811,9 +1872,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1866,12 +1927,15 @@
         "c. Name Package",
         "d. ImageView",
         "c. ImageView",
-        "d. Wrap_content"
+        "d. Wrap_content",
+        "a. ImageView",
+        "b. Name Package",
+        "c. Image Partner"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-18T04:41:02Z",
-      "lastVerifiedAt": "2026-10-15T16:35:08Z",
+      "lastVerifiedAt": "2026-10-15T16:35:51Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
