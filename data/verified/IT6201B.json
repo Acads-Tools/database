@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201B",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-15T22:28:34Z",
-  "totalQuestions": 104,
+  "updatedAt": "2026-10-15T22:34:40Z",
+  "totalQuestions": 114,
   "tier": "verified",
   "questions": [
     {
@@ -284,6 +284,27 @@
       "firstSeenAt": "2026-10-13T22:58:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-13T22:58:20Z"
+    },
+    {
+      "question": "Frame flooding can occur in which circumstance?",
+      "answer": "The destination MAC address is missing from the CAM table",
+      "choices": [
+        "a. The source MAC address is missing from the CAM table",
+        "b. The source IP address is missing from the route table",
+        "c. The destination MAC address is missing from the CAM table",
+        "d. The destination IP address is missing from the route table"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
     },
     {
       "question": "How does the network layer use the MTU value?",
@@ -899,6 +920,48 @@
       "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
+      "question": "what is the easiest way to verify the Layer 3 path from a router to host 192.168.2.1?",
+      "answer": "Execute a traceroute from the router to host 192.168.2.1",
+      "choices": [
+        "a. Execute a ping from the router to host 192.168.2.1",
+        "b. Execute a traceroute from the router to host 192.168.2.1",
+        "c. Use Telnet to connect the router to host 192.168.2.1",
+        "d. Add a static route for host 192.168.2.1 to the routing table of the router"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
+    },
+    {
+      "question": "What is the minimum size of an Ethernet frame?",
+      "answer": "64 bytes",
+      "choices": [
+        "a. 1024 bytes",
+        "b. 64 bytes",
+        "c. 1500 bytes",
+        "d. 32 bytes"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
+    },
+    {
       "question": "What is the name given to a one-to-many message delivery option?",
       "answer": "Multicast",
       "choices": [
@@ -1333,6 +1396,27 @@
       "lastVerifiedAt": "2026-10-14T10:11:43Z"
     },
     {
+      "question": "Which adverse circumstance can occur when you connect when you connect full-duplex devices to a shared Ethernet hub?",
+      "answer": "excessive collisions",
+      "choices": [
+        "a. a duplex mismatch",
+        "b. native VLAN mismatches",
+        "c. alignment errors",
+        "d. excessive collisions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
+    },
+    {
       "question": "Which application layer protocol allows users on one network to reliably transfer files to and from a host on another network?",
       "answer": "FTP",
       "choices": [
@@ -1381,6 +1465,28 @@
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-15T22:28:34Z"
+    },
+    {
+      "question": "which commands should you enter to prevent a Cisco device from Sharing information with upstream device?",
+      "answer": "R1(config-if)#no cdp enable, R1(config)#no cdp run",
+      "choices": [
+        "a. R1(config)#no cdp enable",
+        "b. R1(config)#no cdp advertise-v2",
+        "c. R1(config-if)#no cdp run",
+        "d. R1(config-if)#no cdp enable",
+        "e. R1(config)#no cdp run"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
     },
     {
       "question": "Which destination address is used in an ARP request frame?",
@@ -1503,6 +1609,27 @@
       "firstSeenAt": "2026-10-14T01:57:00Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T10:11:43Z"
+    },
+    {
+      "question": "which IP address can send traffic to all hosts on network 10.101.0.0/16?",
+      "answer": "10.101.255.255",
+      "choices": [
+        "a. 10.101.255.255",
+        "b. 10.101.254.254",
+        "c. 10.101.0.1",
+        "d. 244.0.0.1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
     },
     {
       "question": "Which is a function of the Logical Link Control (LLC) sublayer?",
@@ -1876,6 +2003,28 @@
       "lastVerifiedAt": "2026-10-14T10:06:07Z"
     },
     {
+      "question": "Which pieces of information about a Cisco device can Cisco Discovery Protocol communicate?",
+      "answer": "native VLAN, VTP domain, trunking protocol",
+      "choices": [
+        "a. spanning-tree priority",
+        "b. native VLAN",
+        "c. VTP domain",
+        "d. trunking protocol",
+        "e. spanning tree protocol"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
+    },
+    {
       "question": "Which statement accurately describes public IP addresses?",
       "answer": "Public IP addresses must be unique across the entire Internet",
       "choices": [
@@ -1998,6 +2147,72 @@
       "firstSeenAt": "2026-10-14T02:08:50Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-15T22:28:34Z"
+    },
+    {
+      "question": "Which statements about exterior routing protocols are true?",
+      "answer": "They determine the optimal path between autonomous systems, Most modern networking supports both EGP and BGP for external routing, BGP is the current standard exterior routing protocol",
+      "choices": [
+        "a. Most modern network routes support both EGP and EIGRP for external routing",
+        "b. They determine the optimal path between autonomous systems",
+        "c. They determine the optimal path within an autonomous systems",
+        "d. Most modern networking supports both EGP and BGP for external routing",
+        "e. BGP is the current standard exterior routing protocol"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
+    },
+    {
+      "question": "Which statements about NTP operations are true?",
+      "answer": "NTP uses UDP over IP, Cisco routers can act as both NTP authoritative severs and NTP clients",
+      "choices": [
+        "a. Cisco routers can act only as NTP servers",
+        "b. Cisco routers can act only as NTP clients",
+        "c. NTP uses UDP over IP",
+        "d. NTP uses TCP over IP",
+        "e. Cisco routers can act as both NTP authoritative severs and NTP clients"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
+    },
+    {
+      "question": "Which statements about UTP cables are true?",
+      "answer": "Category 6a Ethernet cable can transmit up to 10 Gbps, Category 5e Ethernet cables support speeds up to 1000 Mbps",
+      "choices": [
+        "a. Category 5 Ethernet cables support speeds up to 1000 Mbps beyond 100m.",
+        "b. Category 6 Ethernet cables are appropriate for installations of up to 200m",
+        "c. Category 6a Ethernet cable can transmit up to 10 Gbps",
+        "d. Category 5e Ethernet cables support speeds up to 1000 Mbps",
+        "e. All Ethernet cable types from Category 1 through Category 6 are suitable for transmitting data m the appropriate environments"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-15T22:34:40Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-15T22:34:40Z"
     },
     {
       "question": "Which TCP/IP model layer is responsible for providing the best path through the network?",
