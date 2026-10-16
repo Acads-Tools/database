@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-16T11:01:14Z",
-  "totalQuestions": 157,
+  "updatedAt": "2026-10-16T11:01:33Z",
+  "totalQuestions": 159,
   "questions": [
     {
       "question": "$(document).ready() function calls if the browser contents has properly loaded its contents and is browsing.",
@@ -881,6 +881,24 @@
       "lastEvidenceAt": "2026-10-04T06:41:48Z"
     },
     {
+      "question": "IDENTIFICATION: [____: .val()] This command is used to get or set values from and to an input element particularly textboxes.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        ".val()"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-16T11:01:33Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-16T11:01:33Z"
+    },
+    {
       "question": "IDENTIFICATION: [____: animate] JQuery method used to creates a sliding to the left transition within a given time on a selected element",
       "answer": "",
       "choices": [],
@@ -934,6 +952,22 @@
       "firstSeenAt": "2026-10-04T05:41:58Z",
       "lastVerifiedAt": "2026-10-16T11:01:14Z",
       "source": "review_screen"
+    },
+    {
+      "question": "IDENTIFICATION: [____: Container-fluid] A materializeCSS class that extends up to 100% of the browser's width to hold page contents.",
+      "answer": "Container-fluid",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-16T11:01:33Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-16T11:01:33Z"
     },
     {
       "question": "IDENTIFICATION: [____: container] A materializeCSS class that provides a 70% space of the browser's full width and allows you to center the content horizontally.",
@@ -1008,9 +1042,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:02:11Z",
-      "lastVerifiedAt": "2026-10-04T06:02:11Z",
+      "lastVerifiedAt": "2026-10-16T11:01:33Z",
       "source": "review_screen"
     },
     {
@@ -1090,13 +1124,17 @@
       "answer": "hide()",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        ".hide()"
+      ],
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:02:11Z",
       "lastVerifiedAt": "2026-10-04T06:07:22Z",
-      "source": "review_screen"
+      "source": "review_screen",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-16T11:01:33Z"
     },
     {
       "question": "IDENTIFICATION: [____: jQuery plugin] simply a new method that we use to extend jQuery's prototype object",
@@ -1292,9 +1330,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T05:41:58Z",
-      "lastVerifiedAt": "2026-10-04T06:07:22Z",
+      "lastVerifiedAt": "2026-10-16T11:01:33Z",
       "source": "review_screen"
     },
     {
@@ -1318,9 +1356,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:07:22Z",
-      "lastVerifiedAt": "2026-10-16T11:01:14Z",
+      "lastVerifiedAt": "2026-10-16T11:01:33Z",
       "source": "review_screen"
     },
     {
@@ -1365,9 +1403,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T05:41:58Z",
-      "lastVerifiedAt": "2026-10-04T05:41:58Z",
+      "lastVerifiedAt": "2026-10-16T11:01:33Z",
       "source": "review_screen"
     },
     {
@@ -1418,9 +1456,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T05:41:58Z",
-      "lastVerifiedAt": "2026-10-16T11:01:14Z",
+      "lastVerifiedAt": "2026-10-16T11:01:33Z",
       "source": "review_screen"
     },
     {
