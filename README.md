@@ -121,7 +121,39 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 
 | Subject Code | Course Title | Verified Questions | Status |
 | :--- | :--- | :---: | :--- |
-| `ITE6200` | Application Development and Emerging Technology | **1** | Active |
+| `BAMM6301` | BAMM6301 | **59** | Active |
+| `CS6200` | CS6200 | **17** | Active |
+| `CS6204` | Computer Architecture and Organization | **177** | Active |
+| `CS6205` | Automata Theory and Formal Languages | **124** | Active |
+| `CS6206` | Principles of Operating Systems | **165** | Active |
+| `CS6207` | CS6207 | **57** | Active |
+| `CS6209` | Software Engineering 1 | **119** | Active |
+| `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
+| `FILI6201` | FILI6201 | **150** | Active |
+| `FILI6301` | FILI6301 | **148** | Active |
+| `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
+| `HMS6301` | HMS6301 | **10** | Active |
+| `IT6200` | IT6200 | **19** | Active |
+| `IT6201B` | Data Structures and Algorithm Analysis | **117** | Active |
+| `IT6205A` | Information Assurance and Security 1 | **108** | Active |
+| `IT6206` | Information Assurance and Security 2 | **135** | Active |
+| `IT6208` | System Integration and Architecture 1 | **113** | Active |
+| `IT6209` | Introduction to Multimedia | **137** | Active |
+| `IT6224B` | Data Communications and Networking 3 | **238** | Active |
+| `IT6310` | Network Security | **109** | Active |
+| `IT6314` | IT6314 | **184** | Active |
+| `IT6322A` | Mobile Application Development | **90** | Active |
+| `ITE6200` | Application Development and Emerging Technology | **170** | Active |
+| `ITE6202` | ITE6202 | **62** | Active |
+| `ITE6301` | Technopreneurship | **200** | Active |
+| `MATH6100` | Calculus 1 | **65** | Active |
+| `MATH6200` | MATH6200 | **80** | Active |
+| `MKTG6256` | MKTG6256 | **54** | Active |
+| `NSCI6100` | NSCI6100 | **112** | Active |
+| `NSTP6102` | National Service Training Program 2 | **45** | Active |
+| `OFAD6303A` | OFAD6303A | **22** | Active |
+| `PHYED6102` | PHYED6102 | **63** | Active |
+| `PHYED6200` | PHYED6200 | **8** | Active |
 
 Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
 
