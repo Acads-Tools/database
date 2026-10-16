@@ -2229,7 +2229,7 @@
     },
     {
       "question": "The following security specifics appropriate to the security architecture must be addressed within each phase in addition to the generic phase activities.",
-      "answer": "",
+      "answer": "Phase C: Information Systems Architecture",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
@@ -2245,16 +2245,17 @@
         "architecture continuum"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T07:41:04Z",
-      "source": "review_screen",
-      "lastEvidenceAt": "2026-10-16T12:07:55Z"
+      "source": "verified_curated",
+      "lastEvidenceAt": "2026-10-16T12:07:55Z",
+      "lastVerifiedAt": "2026-10-16T20:25:00Z"
     },
     {
       "question": "The following security specifics appropriate to the security architecture must be addressed within each phase in addition to the generic phase activities. What phase is that?",
-      "answer": "Phase A: Architecture Vision",
+      "answer": "Phase C: Information Systems Architecture",
       "choices": [
         "a. Phase A: Architecture Vision",
         "b. Phase D: Technology Architecture",
