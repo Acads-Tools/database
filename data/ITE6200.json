@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-16T11:17:19Z",
-  "totalQuestions": 169,
+  "updatedAt": "2026-10-16T11:18:20Z",
+  "totalQuestions": 170,
   "questions": [
     {
       "question": "$(document).ready() function calls if the browser contents has properly loaded its contents and is browsing.",
@@ -950,7 +950,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        ".val()"
+        ".val()",
+        "Val"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -960,7 +961,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-16T11:01:33Z"
+      "lastEvidenceAt": "2026-10-16T11:18:20Z"
     },
     {
       "question": "IDENTIFICATION: [____: animate] JQuery method used to creates a sliding to the left transition within a given time on a selected element",
@@ -1012,9 +1013,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T05:41:58Z",
-      "lastVerifiedAt": "2026-10-16T11:01:14Z",
+      "lastVerifiedAt": "2026-10-16T11:18:20Z",
       "source": "review_screen"
     },
     {
@@ -1041,9 +1042,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T05:41:58Z",
-      "lastVerifiedAt": "2026-10-04T06:02:11Z",
+      "lastVerifiedAt": "2026-10-16T11:18:20Z",
       "source": "review_screen"
     },
     {
@@ -1080,9 +1081,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:02:11Z",
-      "lastVerifiedAt": "2026-10-16T11:01:14Z",
+      "lastVerifiedAt": "2026-10-16T11:18:20Z",
       "source": "review_screen"
     },
     {
@@ -1093,9 +1094,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T06:07:22Z",
-      "lastVerifiedAt": "2026-10-04T06:07:22Z",
+      "lastVerifiedAt": "2026-10-16T11:18:20Z",
       "source": "review_screen"
     },
     {
@@ -1198,7 +1199,7 @@
       "lastVerifiedAt": "2026-10-04T06:07:22Z",
       "source": "review_screen",
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-16T11:01:33Z"
+      "lastEvidenceAt": "2026-10-16T11:18:20Z"
     },
     {
       "question": "IDENTIFICATION: [____: jQuery plugin] simply a new method that we use to extend jQuery's prototype object",
@@ -1247,6 +1248,24 @@
       "lastEvidenceAt": "2026-10-16T11:01:14Z"
     },
     {
+      "question": "IDENTIFICATION: [____: lg] MaterializeCSS class prefix for desktop or larger devices",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "lg"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-16T11:18:20Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-16T11:18:20Z"
+    },
+    {
       "question": "IDENTIFICATION: [____: m] MaterializeCSS class prefix for tablet devices.",
       "answer": "m",
       "choices": [],
@@ -1254,9 +1273,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T06:02:11Z",
-      "lastVerifiedAt": "2026-10-16T11:01:14Z",
+      "lastVerifiedAt": "2026-10-16T11:18:20Z",
       "source": "review_screen"
     },
     {
@@ -1394,9 +1413,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T05:41:58Z",
-      "lastVerifiedAt": "2026-10-16T11:01:33Z",
+      "lastVerifiedAt": "2026-10-16T11:18:20Z",
       "source": "review_screen"
     },
     {
@@ -1494,9 +1513,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:02:11Z",
-      "lastVerifiedAt": "2026-10-16T11:01:14Z",
+      "lastVerifiedAt": "2026-10-16T11:18:20Z",
       "source": "review_screen"
     },
     {
