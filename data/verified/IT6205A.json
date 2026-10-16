@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-16T12:07:55Z",
-  "totalQuestions": 106,
+  "updatedAt": "2026-10-16T13:27:24Z",
+  "totalQuestions": 107,
   "tier": "verified",
   "questions": [
     {
@@ -216,11 +216,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T12:06:34Z",
-      "lastVerifiedAt": "2026-10-16T12:07:55Z"
+      "lastVerifiedAt": "2026-10-16T13:27:24Z"
     },
     {
       "question": "Assess and baseline current security-specific architecture elements. What phase is that?",
@@ -262,10 +262,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T12:07:55Z"
+      "lastVerifiedAt": "2026-10-16T13:27:24Z"
     },
     {
       "question": "Assess and baseline current security-specific technologies. What phase is that?",
@@ -307,10 +307,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T12:07:55Z"
+      "lastVerifiedAt": "2026-10-16T13:27:24Z"
     },
     {
       "question": "Assess the impact of new security measures upon other new components or existing leveraged systems. What phase is that?",
@@ -712,10 +712,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T12:07:55Z"
+      "lastVerifiedAt": "2026-10-16T13:27:24Z"
     },
     {
       "question": "Determine who are the legitimate actors who will interact with the product/service/process. What phase is that?",
@@ -787,10 +787,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T12:07:55Z"
+      "lastVerifiedAt": "2026-10-16T13:27:24Z"
     },
     {
       "question": "Establish architecture artifact, design, and code reviews and define acceptance criteria for the successful implementation of the findings. What phase is that?",
@@ -931,7 +931,7 @@
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-16T12:07:05Z",
-      "lastEvidenceAt": "2026-10-16T12:07:55Z"
+      "lastEvidenceAt": "2026-10-16T13:27:24Z"
     },
     {
       "question": "Identify existing security services available for re-use. What phase is that?",
@@ -2216,7 +2216,9 @@
         "True",
         "TOG",
         "Phase A",
-        "Phase A – Architecture Vision"
+        "Phase A – Architecture Vision",
+        "architecture continuum",
+        "architecture phases"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -2224,7 +2226,7 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "verified_curated",
-      "lastEvidenceAt": "2026-10-12T10:53:47Z",
+      "lastEvidenceAt": "2026-10-16T13:27:24Z",
       "lastVerifiedAt": "2026-10-16T20:25:00Z"
     },
     {
