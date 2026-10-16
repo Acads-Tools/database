@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-16T11:16:05Z",
+  "updatedAt": "2026-10-16T11:17:19Z",
   "totalQuestions": 156,
   "tier": "verified",
   "questions": [
@@ -125,12 +125,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-16T11:16:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "____________________ the plugin. We can do this by adding a script attached to an event handler",
@@ -141,12 +141,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-16T11:16:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "_________________________ justifies that GBV are main cause of international homicides and the record was set from Nepal and Bangladesh.",
@@ -191,12 +191,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-16T11:16:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "A gender stereotype is known by many as a sex role. It is a social role encompassing a range of behaviors and attitudes that are generally unacceptable, inappropriate, or undesirable for a person based on that person's biological or perceived sex.",
@@ -504,12 +504,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-16T11:16:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "Database group configuration in CI is stored in a multi-dimensional array.",
@@ -1560,8 +1560,10 @@
       "answer": "DataTable jQuery",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Datatable"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -1569,7 +1571,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:16:05Z",
+      "lastEvidenceAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "is a javascript library that makes web scripting easier for us.",
@@ -2235,8 +2238,10 @@
       "answer": "jQuery library",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "DataTable jQuery"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -2244,7 +2249,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:16:05Z",
+      "lastEvidenceAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "The ___________________________ file must be linked inside the head of the html markup. This contains the css rules for the table design and links to controls images for the datatable.",
@@ -2255,12 +2261,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-16T11:16:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "The Australian Bureau of Statistics data shows that a third of all women in Australia have been assaulted physically and a fifth of all women have been assaulted sexually.",
@@ -2427,12 +2433,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-16T11:16:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-16T11:16:05Z"
+      "lastVerifiedAt": "2026-10-16T11:17:19Z"
     },
     {
       "question": "The third URI Segment",
