@@ -4,6 +4,20 @@ A verified, open-source question bank and study archive powering the [AMAES Tool
 
 ---
 
+## Ecosystem Metrics
+
+| Metric | Count / Status | Notes |
+| :--- | :--- | :--- |
+| **Active Subject Archives** | **33 Courses** | Primary structured JSON course databases in `data/` |
+| **Verified Questions** | **3,344 Questions** | 100% review-key confirmed ground truth |
+| **AMAUOED Study Guides** | **23 Snapshots** | Monthly refreshed study-guide source snapshots |
+| **Jenny's Online Guides** | **9 Snapshots** | Monthly refreshed study-guide source snapshots |
+| **Client Minimum Version** | **v1.7.5+** | Gateway enforced via Cloudflare Serverless Relay |
+| **Serverless Relay** | `amaes-community-relay` | Cloudflare Worker + D1 SQL consensus engine |
+| **Web Portal** | [amaestoolkit.pages.dev](https://amaestoolkit.pages.dev/) | Official fast web installer and status checker |
+
+---
+
 ## Client compatibility
 
 The current AMAES Toolkit policy allows client version **1.7.5 or newer**.
@@ -49,6 +63,43 @@ not enabled by this lightweight rollout.
 
 ---
 
+## Data Architecture & JSON Schema
+
+Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6204.json`):
+
+```json
+{
+  "subjectCode": "CS6204",
+  "subjectName": "Computer Architecture and Organization",
+  "updatedAt": "2026-10-16T12:00:00Z",
+  "totalQuestions": 177,
+  "questions": [
+    {
+      "question": "Which component of the CPU is responsible for arithmetic and logic operations?",
+      "type": "multichoice",
+      "answers": ["Arithmetic Logic Unit (ALU)"],
+      "choices": [
+        "Control Unit",
+        "Arithmetic Logic Unit (ALU)",
+        "Instruction Register",
+        "Memory Address Register"
+      ],
+      "verified": true,
+      "source": "review_key"
+    }
+  ]
+}
+```
+
+### Supported Question Formats:
+* `multichoice`: Single-selection and multi-selection choices.
+* `truefalse`: Standard boolean evaluations.
+* `shortanswer`: Inline text answers with normalized casing.
+* `match`: Matching pairs (`{ "prompt": "Row label", "answer": "Matching item" }`).
+* `gapselect`: Dropdown cloze / fill-in selections.
+
+---
+
 ## Repository Structure
 
 - `data/`: Active course question banks in structured JSON format.
@@ -59,6 +110,22 @@ not enabled by this lightweight rollout.
 - `docs/`: Technical specifications and architectural guides ([`docs/`](docs/)).
 - `relay/`: Cloudflare Worker source code for secure, rate-limited anonymous submissions.
 - `scripts/`: Automated anti-sabotage merge engine and validation utilities.
+
+---
+
+## Course Archives
+
+<details>
+<summary><b>View active subject archives (Click to expand)</b></summary>
+<br>
+
+| Subject Code | Course Title | Verified Questions | Status |
+| :--- | :--- | :---: | :--- |
+| `ITE6200` | Application Development and Emerging Technology | **1** | Active |
+
+Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
+
+</details>
 
 ---
 
@@ -95,51 +162,25 @@ refresh script. Manual monthly runs are available via `workflow_dispatch`.
 
 ---
 
-## Course Archives
+## Forking & Self-Hosting Guide
 
-<details>
-<summary><b>View active subject archives (Click to expand)</b></summary>
-<br>
+If you want to host an independent question repository for your own university or study community:
 
-| Subject Code | Course Title | Verified Questions | Status |
-| :--- | :--- | :---: | :--- |
-| `BAMM6301` | BAMM6301 | **59** | Active |
-| `CS6200` | CS6200 | **17** | Active |
-| `CS6204` | Computer Architecture and Organization | **177** | Active |
-| `CS6205` | Automata Theory and Formal Languages | **124** | Active |
-| `CS6206` | Principles of Operating Systems | **165** | Active |
-| `CS6207` | CS6207 | **57** | Active |
-| `CS6209` | Software Engineering 1 | **119** | Active |
-| `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
-| `FILI6201` | FILI6201 | **150** | Active |
-| `FILI6301` | FILI6301 | **148** | Active |
-| `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
-| `HMS6301` | HMS6301 | **10** | Active |
-| `IT6200` | IT6200 | **19** | Active |
-| `IT6201B` | Data Structures and Algorithm Analysis | **117** | Active |
-| `IT6205A` | Information Assurance and Security 1 | **108** | Active |
-| `IT6206` | Information Assurance and Security 2 | **135** | Active |
-| `IT6208` | System Integration and Architecture 1 | **113** | Active |
-| `IT6209` | Introduction to Multimedia | **137** | Active |
-| `IT6224B` | Data Communications and Networking 3 | **238** | Active |
-| `IT6310` | Network Security | **109** | Active |
-| `IT6314` | IT6314 | **184** | Active |
-| `IT6322A` | Mobile Application Development | **90** | Active |
-| `ITE6200` | Application Development and Emerging Technology | **170** | Active |
-| `ITE6202` | ITE6202 | **62** | Active |
-| `ITE6301` | Technopreneurship | **200** | Active |
-| `MATH6100` | Calculus 1 | **65** | Active |
-| `MATH6200` | MATH6200 | **80** | Active |
-| `MKTG6256` | MKTG6256 | **54** | Active |
-| `NSCI6100` | NSCI6100 | **112** | Active |
-| `NSTP6102` | National Service Training Program 2 | **45** | Active |
-| `OFAD6303A` | OFAD6303A | **22** | Active |
-| `PHYED6102` | PHYED6102 | **63** | Active |
-| `PHYED6200` | PHYED6200 | **8** | Active |
+### 1. Fork the Database Repository
+Fork `Acads-Tools/database` to your own GitHub organization or account. Questions can be added manually or automatically as structured JSON files inside `data/{SUBJECT_CODE}.json`.
 
-Course databases are stored in [`data/`](data/) as structured JSON files named by subject code (e.g., `CS6301.json`).
+### 2. Configure the Cloudflare Worker Relay
+The relay in `relay/` accepts anonymous contribution reports from students and opens issue tickets for the merge engine:
+```bash
+cd relay
 
-</details>
+# Edit wrangler.toml to set your repo owner and repo name
+# Deploy the worker to your Cloudflare account
+npx wrangler deploy
+```
+
+### 3. Automated Consensus Engine
+Contributions submitted via the relay are processed by GitHub Actions running `scripts/merge_contributions.py`. Confirmed answers from official reviews are deduplicated and merged into `data/{SUBJECT_CODE}.json` automatically.
 
 ---
 
@@ -157,4 +198,4 @@ Review the [Terms of Use](TERMS.md), [Security Policy](SECURITY.md), and [MIT Li
 
 ---
 
-**Links:** [AMAES Toolkit Repository](https://github.com/Acads-Tools/amaes-toolkit) • [Quick Install Site](https://acads-tools.github.io/amaes-toolkit/) • [Terms of Use](TERMS.md) • [Security Policy](SECURITY.md) • [Report an Issue](https://github.com/Acads-Tools/database/issues)
+**Links:** [AMAES Toolkit Repository](https://github.com/Acads-Tools/amaes-toolkit) • [Quick Install Site](https://amaestoolkit.pages.dev/) • [Terms of Use](TERMS.md) • [Security Policy](SECURITY.md) • [Report an Issue](https://github.com/Acads-Tools/database/issues)
