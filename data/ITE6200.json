@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6200",
   "subjectName": "Application Development and Emerging Technology",
-  "updatedAt": "2026-10-16T10:58:34Z",
+  "updatedAt": "2026-10-16T10:59:48Z",
   "totalQuestions": 155,
   "questions": [
     {
@@ -42,6 +42,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-16T10:58:34Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-16T10:59:48Z"
         }
       ]
     },
@@ -100,6 +104,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-16T10:58:34Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-16T10:59:48Z"
         }
       ]
     },
@@ -304,10 +312,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T12:33:49Z"
+      "lastVerifiedAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -478,10 +486,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:19:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T12:33:49Z"
+      "lastVerifiedAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -1095,10 +1103,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T10:58:34Z"
+      "lastVerifiedAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "IDENTIFICATION: [____: JQuery] javascript library that makes web scripting easier for us",
@@ -1109,10 +1117,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T06:20:47Z"
+      "lastVerifiedAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "IDENTIFICATION: [____: m] MaterializeCSS class prefix for tablet devices.",
@@ -1385,10 +1393,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T10:58:34Z"
+      "lastVerifiedAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "IDENTIFICATION: It helps us enable sorting, pagination and search to our table data.",
@@ -1399,10 +1407,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T06:19:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T12:35:24Z"
+      "lastVerifiedAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "IDENTIFICATION: It is used to get or set values from and to an input element particularly textboxes.",
@@ -1422,19 +1430,21 @@
     },
     {
       "question": "IDENTIFICATION: It is used to get or set values from and to an input element particularly textboxes.",
-      "answer": "val()",
+      "answer": "",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "b. False"
+        "b. False",
+        "val()"
       ],
       "wrongAnswerEvidence": true,
-      "verified": true,
+      "verified": false,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-05T20:33:51Z",
-      "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T20:33:51Z"
+      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-05T20:33:51Z",
+      "lastEvidenceAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "IDENTIFICATION: JQuery method used to creates a sliding to the left transition within a given time on a selected element",
@@ -2550,10 +2560,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T06:12:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T12:35:24Z"
+      "lastVerifiedAt": "2026-10-16T10:59:48Z"
     },
     {
       "question": "Who first use the term AJAX?",
