@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-17T16:13:27Z",
-  "totalQuestions": 178,
+  "updatedAt": "2026-10-17T16:35:12Z",
+  "totalQuestions": 186,
   "questions": [
     {
       "question": ". DVD is also known as ________________.",
@@ -140,9 +140,9 @@
         "b. Internal Drive"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internal Drive"
@@ -234,9 +234,9 @@
         "d. Memory Card"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -262,9 +262,9 @@
         "c. Magnetic tape"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -424,12 +424,13 @@
         "d. Cycle stealing mode",
         "c. PCI",
         "d. Burst mode",
-        "c. Transparent Mode"
+        "c. Transparent Mode",
+        "a. PCI"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -586,9 +587,9 @@
         "c. Keyboard"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:23:42Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -693,9 +694,9 @@
         "d. Mouse"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -722,9 +723,9 @@
         "d. Redundant Array of Independent Disks"
       ],
       "verified": true,
-      "confirmations": 24,
+      "confirmations": 25,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -854,9 +855,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:23:42Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1030,6 +1031,25 @@
       "lastVerifiedAt": "2026-10-17T15:42:45Z"
     },
     {
+      "question": "An input-output processor (IOP) is a processor with direct memory access capability.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z"
+    },
+    {
       "question": "Any peripheral device that is not housed inside the computer cabinet.",
       "answer": "External Devices",
       "choices": [
@@ -1047,13 +1067,32 @@
         "b. Hard Drive"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Any peripheral device that is not housed inside the computer cabinet. Monitors, keyboards, mice and printers are inherently internal devices.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z"
     },
     {
       "question": "Approximately a trillion (10 ) bytes.",
@@ -1313,9 +1352,9 @@
         "c. 185 EB"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1390,6 +1429,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-17T15:42:45Z"
+    },
+    {
+      "question": "Direct memory access (DMA) is a feature of computer systems that allows certain hardware subsystems to access main system memory (read-only memory), independent of the central processing unit (CPU).",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z"
     },
     {
       "question": "Driven by the motherboard, received by the PCI card",
@@ -1528,6 +1586,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-17T16:13:27Z"
+    },
+    {
+      "question": "I/O module stands for Input / Output module, which is a device that acts as the connective bridge between a computer system at one end and an I/O or peripheral device of some kind at the other, such as a mouse keypad, webcam or scanner.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z"
     },
     {
       "question": "If you have 4 bits, you make one ______",
@@ -1953,12 +2030,13 @@
         "d. Device communication",
         "a. Control and timing",
         "c. Data buffering",
-        "c. Device communication"
+        "c. Device communication",
+        "d. Control and timing"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2023,12 +2101,14 @@
         "b. I/O Processors",
         "d. I/O Modules",
         "a. Miniprocessors",
-        "c. Microprocessors"
+        "c. Microprocessors",
+        "b. Miniprocessors",
+        "c. I/O Processors"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2054,9 +2134,9 @@
         "d. Magnetic Disk"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2662,12 +2742,14 @@
         "d. 1950",
         "c. 1952",
         "c. 1951",
-        "d. 1949"
+        "d. 1949",
+        "a. 1951",
+        "b. 1949"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2689,12 +2771,13 @@
         "b. 1926",
         "a. 1928",
         "b. 1927",
-        "d. 1929"
+        "d. 1929",
+        "c. 1929"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2784,9 +2867,9 @@
         "c. Floppy Disk"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3142,12 +3225,14 @@
         "c. Mode of condition",
         "d. Burst mode",
         "b. Direct Memory Access",
-        "c. Cycle stealing mode"
+        "c. Cycle stealing mode",
+        "a. Cycle stealing mode",
+        "b. Mode of condition"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3197,6 +3282,27 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "The drives, network adapters and modems may also be internal devices.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z"
     },
     {
       "question": "The first computer was developed in 1964",
@@ -3251,6 +3357,51 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-17T15:42:45Z"
+    },
+    {
+      "question": "The following are I/O module's important functions, which one is not included:",
+      "answer": "",
+      "choices": [
+        "a. Data buffering",
+        "b. Processor communication",
+        "c. Control and timing",
+        "d. Database Mining",
+        "e. Error detection"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Processor communication"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T16:35:12Z"
+    },
+    {
+      "question": "The following are MODES OF OPERATION (DMA), except:",
+      "answer": "REITERATIVE MODE",
+      "choices": [
+        "a. REITERATIVE MODE",
+        "b. BURST MODE",
+        "c. TRANSPARENT MODE",
+        "d. CYCLE STEALING MODE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z"
     },
     {
       "question": "The hard disk drive forms the brain of the Central Processing Unit",
@@ -3473,9 +3624,9 @@
         "a. Hard Drive"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:18:39Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3758,12 +3909,14 @@
         "c. I/O Module",
         "d. Control and timing",
         "a. Device communication",
-        "b. Processor communication"
+        "b. Processor communication",
+        "c. Processor communication",
+        "d. Device communication"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3878,6 +4031,24 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "This major function enables a computer system to carry out its intended function, which is to communicate with the external world in whichever way it needs to.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Input/Output (I/O)"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:35:12Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T16:35:12Z"
     },
     {
       "question": "This person gave the TedTalk \"You should Learn to Program\"",
@@ -4122,9 +4293,9 @@
         "d. User Network Internet"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-15T12:19:43Z",
+      "lastVerifiedAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
