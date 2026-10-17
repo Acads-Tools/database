@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-17T16:56:05Z",
-  "totalQuestions": 112,
+  "updatedAt": "2026-10-17T17:07:01Z",
+  "totalQuestions": 115,
   "questions": [
     {
       "question": "A full inventory of architecture elements that implement security services must be compiled in preparation for a gap analysis. What phase is that?",
@@ -78,6 +78,27 @@
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-16T11:24:07Z"
+    },
+    {
+      "question": "Acronym for TCB?",
+      "answer": "Trusted Computing Base",
+      "choices": [
+        "a. Trusted Computer Based",
+        "b. Trusting Computing Based",
+        "c. Trusted Computing Base",
+        "d. Trusting Computer Based"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T17:07:01Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T17:07:01Z"
     },
     {
       "question": "Actions taken that protect and defend information and information systems by ensuring their availability, integrity, authentication, confidentiality and non-repudiation",
@@ -1364,6 +1385,44 @@
       "lastVerifiedAt": "2026-10-16T11:24:07Z"
     },
     {
+      "question": "Is it true or false. Storage the minimum required data online and maximum discretion in providing them to a third party (users, companies) is some basic steps in storing personal data.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T17:07:01Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T17:07:01Z"
+    },
+    {
+      "question": "Is it true or false. Using encrypted versions of protocols when sensitive information is exchanged so as to ensure data confidentiality and prevent identity theft is some basic steps in storing personal data.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T17:07:01Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T17:07:01Z"
+    },
+    {
       "question": "Is roughly equivalent to privacy",
       "answer": "Confidentiality",
       "choices": [
@@ -2443,9 +2502,9 @@
         "c. Install"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-16T11:36:30Z",
+      "lastVerifiedAt": "2026-10-17T17:07:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2844,9 +2903,9 @@
         "d. System, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-16T11:36:30Z",
+      "lastVerifiedAt": "2026-10-17T17:07:01Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
