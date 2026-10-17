@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-17T11:59:02Z",
-  "totalQuestions": 198,
+  "updatedAt": "2026-10-17T12:16:19Z",
+  "totalQuestions": 222,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -130,17 +130,21 @@
         "a. Float, String",
         "b. Positive number, negative number",
         "c. Integer, String",
-        "d. Even Number, String"
+        "d. Even Number, String",
+        "a. Positive number, negative number",
+        "b. Integer, String",
+        "c. Even Number, String",
+        "d. Float, String"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:36:43Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "Assume you would like to sort an array in ascending order by value while preserving key associations. Which of the following PHP sorting functions would you use?",
@@ -149,17 +153,20 @@
         "a. krsort()",
         "b. sort()",
         "c. ksort()",
-        "d. asort()"
+        "d. asort()",
+        "a. ksort()",
+        "c. asort()",
+        "d. krsort()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:06:34Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:06:34Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName) VALUES ('Robert', 'Smith', '123-983-2929')\");",
@@ -736,10 +743,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:25Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. [____: Logical operators] are used to combine conditional statements",
@@ -841,7 +848,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "period"
+        "period",
+        "dot operator"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -849,7 +857,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:06:05Z",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z",
       "lastVerifiedAt": "2026-10-12T10:39:08Z"
     },
     {
@@ -894,10 +902,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:25Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "If a PHP script opens a MySQL connection, the script will automatically close the connection after the script has finished executing?",
@@ -917,6 +925,27 @@
       "lastVerifiedAt": "2026-10-11T20:38:11Z"
     },
     {
+      "question": "If the variable $x = 10; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
+      "answer": "11",
+      "choices": [
+        "a. 10",
+        "b. 12",
+        "c. 9",
+        "d. 11"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
       "question": "If the variable $x = 11; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
       "answer": "12",
       "choices": [
@@ -927,17 +956,19 @@
         "b. 11",
         "c. 10",
         "a. 11",
-        "c. 12"
+        "c. 12",
+        "a. 13",
+        "d. 11"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:04:05Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "In a LIKE clause, you can could ask for any value ending in \"qpt\" by writing",
@@ -988,6 +1019,27 @@
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:16:35Z"
+    },
+    {
+      "question": "In which positions PHP's indexed array begin?",
+      "answer": "0",
+      "choices": [
+        "a. None",
+        "b. Start",
+        "c. 0",
+        "d. 1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "Insert into employee _____ (1002,Jeiven,2000); In the given query which of the keyword has to be inserted ?",
@@ -1233,16 +1285,21 @@
         "c. -3-4",
         "c. 0",
         "a. After for loopAfter for loopAfter for loop……..infinitely",
-        "d. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely"
+        "d. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
+        "b. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
+        "d. In for loopIn for loopIn for loopIn for loop……infinitely",
+        "c. infinite loop",
+        "b. 123456789101112",
+        "d. 1234567891011"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "After for loop",
         "In for loop",
         "infinite loop",
-        "In for loopAfter for loop",
         "12345678910",
-        "-3-4-5"
+        "-3-4-5",
+        "In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -1297,9 +1354,13 @@
         {
           "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
           "timestamp": "2026-10-12T11:07:23Z"
+        },
+        {
+          "rejectedAnswer": "In for loopAfter for loop",
+          "timestamp": "2026-10-17T12:16:19Z"
         }
       ],
-      "lastEvidenceAt": "2026-10-12T11:06:34Z"
+      "lastEvidenceAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "MYSQL can be used to:",
@@ -2034,6 +2095,37 @@
       "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
+      "question": "The following are examples of >, =, ==________ Operators",
+      "answer": "Comparison",
+      "choices": [
+        "a. Assignment",
+        "b. Comparison",
+        "c. Arithmetic",
+        "d. Logical",
+        "a. Bitwise",
+        "b. Escape Sequence",
+        "c. Equality",
+        "d. Arithmetic"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "alternateAnswers": [
+        {
+          "answer": "Equality",
+          "timestamp": "2026-10-17T12:16:19Z"
+        }
+      ]
+    },
+    {
       "question": "The following comparison condition would return TRUE or FALSE [Image: sad - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/sad] 3 6)",
       "answer": "True",
       "choices": [
@@ -2049,6 +2141,25 @@
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:05:25Z"
+    },
+    {
+      "question": "The following comparison condition would return TRUE or FALSE [Image: sad - https://semestralexam.amaes.com/2612/theme/image.php/boost/core/1786935029/s/sad] 4 7)",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE ( (2 >= 2 && 8 3) )",
@@ -2102,6 +2213,33 @@
       "lastVerifiedAt": "2026-10-12T11:05:25Z"
     },
     {
+      "question": "The following condition will return TRUE or FALSE: (4 >= 4 && 8 < 1)",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "alternateAnswers": [
+        {
+          "answer": "b. False",
+          "timestamp": "2026-10-17T12:16:19Z"
+        }
+      ]
+    },
+    {
       "question": "The following condition will return TRUE or FALSE: (7 >= 7 && 9 < 2)",
       "answer": "a. True",
       "choices": [
@@ -2141,17 +2279,19 @@
         "a. $x = $x – $y;",
         "b. $y = $x – $y;",
         "c. y = $y – $x;",
-        "d. $x = $y – $x;"
+        "d. $x = $y – $x;",
+        "a. $y = $x – $y;",
+        "b. $x = $y – $x;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:40:04Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "The HAVING clause does which of the following?",
@@ -2228,17 +2368,19 @@
         "c. NOT",
         "a. NOT",
         "b. OR",
-        "c. AND"
+        "c. AND",
+        "c. NOT MAYBE",
+        "d. MAYBE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:40:04Z",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
       "alternateAnswers": [
         {
           "answer": "NOT",
@@ -2281,8 +2423,43 @@
         {
           "rejectedAnswer": "OR",
           "timestamp": "2026-10-12T11:04:05Z"
+        },
+        {
+          "rejectedAnswer": "NOT",
+          "timestamp": "2026-10-17T12:16:19Z"
+        },
+        {
+          "rejectedAnswer": "OR",
+          "timestamp": "2026-10-17T12:16:19Z"
+        },
+        {
+          "rejectedAnswer": "NOT",
+          "timestamp": "2026-10-17T12:16:19Z"
+        },
+        {
+          "rejectedAnswer": "OR",
+          "timestamp": "2026-10-17T12:16:19Z"
         }
       ]
+    },
+    {
+      "question": "The PHP If Else Statement can execute the code within the if and else segments at the same time?",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "The query given below will not give an error. Which one of the following has to be replaced to get the desired output? Select ID, name, dept name, sal * 1.1 where instructor;",
@@ -2626,10 +2803,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:25Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "True or False - The operator AND, when used to link two concept terms (e.g. children and violence) will retrieve only those records that contain both concept terms.",
@@ -2643,10 +2820,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:09:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:04:05Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "True or False - The operator NOT is another way to broaden a search or retrieve more records.",
@@ -2660,10 +2837,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:25Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "True or False - The operator OR, when used to link two or concept terms will retrieve fewer records because both terms need not be present in each article.",
@@ -2677,10 +2854,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:06:05Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "True or False - Using the operator AND to combine concept terms is a good way to increase the number of records retrieved in a search.",
@@ -3026,8 +3203,73 @@
       "lastVerifiedAt": "2026-10-12T11:06:34Z"
     },
     {
-      "question": "What is the output of the following? echo strcmp('first', 'second'), \", \"; echo strcmp('44', '054'), \", \"; echo strcmp('0x80', 'a'), \", \"; echo strcmp('a', 'A');",
+      "question": "What is the output of the following code? $a=1; ++$a; $a*=$a; echo $a- -;",
+      "answer": "4",
+      "choices": [
+        "a. 3",
+        "b. 6",
+        "c. 5",
+        "d. 4"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What is the output of the following code? [Image: 16 - [moodle-asset:6335973/16.png]]",
+      "answer": "Infinitive",
+      "choices": [
+        "a. Infinitive",
+        "b. 10",
+        "c. 1",
+        "d. 5"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What is the output of the following code? [Image: 18 - [moodle-asset:6335975/18.png]]",
       "answer": "",
+      "choices": [
+        "a. 1",
+        "b. Syntax Error",
+        "c. 2",
+        "d. 5"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "5"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What is the output of the following? echo strcmp('first', 'second'), \", \"; echo strcmp('44', '054'), \", \"; echo strcmp('0x80', 'a'), \", \"; echo strcmp('a', 'A');",
+      "answer": "1, 0, -1, 1",
       "choices": [
         "a. 1, 1, -1, 1",
         "b. 1, 0, -1, 1",
@@ -3036,7 +3278,9 @@
         "a. -1, -1, 1, -1",
         "b. 1, -1, -1, -1",
         "c. 1, 0, -1, 1",
-        "d. 1, 1, -1, 1"
+        "d. 1, 1, -1, 1",
+        "a. 1, 0, -1, 1",
+        "b. -1, -1, 1, -1"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -3044,12 +3288,13 @@
         "1, -1, -1, -1"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:58:42Z"
+      "lastEvidenceAt": "2026-10-12T10:58:42Z",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "What is the output of the following? echo substr(\"abcdef\", -2), ', '; echo substr(\"abcdef\", 4), ', '; echo substr(\"abcdef\", -3, -1), ', '; echo substr(\"abcdef\", 4, -2), ', '; echo substr(\"abcdef\", 2, -1)",
@@ -3061,17 +3306,105 @@
         "d. Ef, ef, de, , cdef",
         "a. Abcd, de, de, , cde",
         "b. Ef, ef, de, e, cde",
-        "c. Ef, ef, de, , cde"
+        "c. Ef, ef, de, , cde",
+        "a. Ef, ef, de, , cde",
+        "b. Ef, ef, de, , cdef",
+        "c. Ef, ef, de, e, cde",
+        "d. Abcd, de, de, , cde"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:06:34Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be displayed in a browser when the following PHP code is executed [Image: 26 - [moodle-asset:6335981/26.png]]",
+      "answer": "Nothing Will Be Displayed",
+      "choices": [
+        "a. Nothing Will Be Displayed",
+        "b. Hello World"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be displayed in a browser when the following PHP code is executed. [Image: 25 - [moodle-asset:6335980/25.png]]",
+      "answer": "",
+      "choices": [
+        "a. Hello World Welcome to the USA",
+        "b. Welcome to the USA",
+        "c. Welcome to the USA Hello World",
+        "d. Tom is in love with Rose"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Welcome to the USA"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be displayed in a browser when the following PHP code is executed: [Image: 27 - [moodle-asset:6335982/27.png]]",
+      "answer": "Hello World",
+      "choices": [
+        "a. Hello World",
+        "b. Nothing Will Be Displayed"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be displayed in a browser when the following PHP code is executed: [Image: 28 - [moodle-asset:6335983/28.png]]",
+      "answer": "",
+      "choices": [
+        "a. Hello World",
+        "b. Hello World Hello YouTube",
+        "c. Hello YouTube",
+        "d. Nothing Will Be Displayed"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Hello World"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151135/w6-q3.PNG]]",
@@ -3276,6 +3609,138 @@
       "lastEvidenceAt": "2026-10-11T19:33:34Z"
     },
     {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336227/w6-q4.PNG]]",
+      "answer": "error",
+      "choices": [
+        "a. 123456789101112",
+        "b. 1234567891011",
+        "c. error",
+        "d. 12345678910"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336228/w6-q5.PNG]]",
+      "answer": "no output",
+      "choices": [
+        "a. -6-7-8",
+        "b. no output",
+        "c. -6-7",
+        "d. infinite loop"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336229/w6-q6.PNG]]",
+      "answer": "infinite loop",
+      "choices": [
+        "a. 1234567891011",
+        "b. infinite loop",
+        "c. 12345678910",
+        "d. 123456789101112"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336230/w6-q7.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. Jeiven",
+        "b. Johann",
+        "c. No Output",
+        "d. JohannJeiven"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "No Output"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336232/w6-q9.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. Johann",
+        "b. JohannJeiven",
+        "c. Error",
+        "d. Jeiven"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "JohannJeiven"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336233/w6-q10.PNG]]",
+      "answer": "",
+      "choices": [
+        "a. no Output",
+        "b. Error",
+        "c. The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
+        "d. The number is: 0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "no Output"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z"
+    },
+    {
       "question": "What will be the output of the following PHP code ? [Image: w6-q1 - [moodle-asset:151133/w6-q1.PNG]]",
       "answer": "",
       "choices": [
@@ -3298,6 +3763,27 @@
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:33:34Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code ? [Image: w6-q1 - [moodle-asset:6336224/w6-q1.PNG]]",
+      "answer": "Error",
+      "choices": [
+        "a. 0",
+        "b. Error",
+        "c. No output",
+        "d. infinite loop"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: w6-q2 - [moodle-asset:151134/w6-q2.PNG]]",
@@ -3515,6 +4001,27 @@
       "lastVerifiedAt": "2026-10-12T10:58:42Z"
     },
     {
+      "question": "What will be the output of the following PHP code? [Image: [moodle-asset:6336234/q1.PNG]]",
+      "answer": "Error",
+      "choices": [
+        "a. 0",
+        "b. 13",
+        "c. Error",
+        "d. 16"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
       "question": "What will happen in this function call? [Image: [moodle-asset:151149/q7.PNG]]",
       "answer": "Call By Value",
       "choices": [
@@ -3538,6 +4045,27 @@
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:33:34Z",
       "lastVerifiedAt": "2026-10-12T10:58:42Z"
+    },
+    {
+      "question": "What will happen in this function call? [Image: [moodle-asset:6336240/q7.PNG]]",
+      "answer": "Call By Value",
+      "choices": [
+        "a. Call By Value",
+        "b. Type Hinting",
+        "c. Call By Reference",
+        "d. Default Argument Value"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "What will the following script output? [Image: WebDev2 shortquiz6 - [moodle-asset:150759/vvz.png]]",
@@ -3601,6 +4129,27 @@
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:08:10Z"
+    },
+    {
+      "question": "Which is identified as a special variable, which can store multiple values in one single variable?",
+      "answer": "Array",
+      "choices": [
+        "a. Operator",
+        "b. Functions",
+        "c. Array",
+        "d. Variable"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "Which of the following are the five built-in functions provided by SQL?",
@@ -4042,6 +4591,26 @@
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:41:53Z"
+    },
+    {
+      "question": "Which statement will evaluate and include a file into the location where it is called.",
+      "answer": "include statement",
+      "choices": [
+        "a. include statement",
+        "b. require_one statement",
+        "c. inc statement"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
       "question": "Who is the original developer of JavaScript?",
