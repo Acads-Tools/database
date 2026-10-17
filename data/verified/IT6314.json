@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-17T12:16:19Z",
-  "totalQuestions": 194,
+  "updatedAt": "2026-10-17T13:20:55Z",
+  "totalQuestions": 210,
   "tier": "verified",
   "questions": [
     {
@@ -17,10 +17,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "AJAX is a programming language",
@@ -169,17 +169,19 @@
       "choices": [
         "a. There are more fields than values",
         "b. Nothing, everything is fine",
-        "c. There are more values than fields"
+        "c. There are more values than fields",
+        "a. Nothing, everything is fine",
+        "b. There are more fields than values"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName, phoneNumber) VALUES ('Robert', 'Smith', '123-983-2929')\");",
@@ -198,10 +200,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
@@ -227,6 +229,27 @@
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:10:25Z"
+    },
+    {
+      "question": "Converts text to uppercase",
+      "answer": "Upper()",
+      "choices": [
+        "a. UpperCases()",
+        "b. UCases()",
+        "c. UpperCase()",
+        "d. Upper()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Facebook, wordpress uses php as script language.",
@@ -279,6 +302,27 @@
       "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
+      "question": "Function is used to convert a human readable string to a Unix time.",
+      "answer": "strtotime()",
+      "choices": [
+        "a. totime()",
+        "b. strtime()",
+        "c. strtotime()",
+        "d. time()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
       "question": "Function that select database.",
       "answer": "mysql_select_db();",
       "choices": [
@@ -288,17 +332,39 @@
         "a. mysql_select_db();",
         "c. select_db();",
         "a. my_db_select();",
-        "b. mysql_select_db();"
+        "b. mysql_select_db();",
+        "c. my_db_select();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
+      "question": "Function trims all spaces from the right of a value",
+      "answer": "RTRIM()",
+      "choices": [
+        "a. Trim()",
+        "b. RightTrim()",
+        "c. RTRIM()",
+        "d. Trims()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. Area that can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.",
@@ -746,10 +812,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "If the variable $x = 10; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
@@ -815,10 +881,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "In an SQL SELECT statement querying a single table, the asterisk (*) means that:",
@@ -881,17 +947,37 @@
         "a. Values",
         "b. Field",
         "c. Relation",
-        "d. Table"
+        "d. Table",
+        "c. Field"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
+      "question": "Is the SQL statement correct or not. SELECT vend_name, prod_name, prod_price, vendors.vend_id, products.vend_id FROM vendors INNER JOINS products ON vendors.vend_id = products.vend_id;",
+      "answer": "No",
+      "choices": [
+        "a. No",
+        "b. Yes"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "It refers to a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -917,6 +1003,90 @@
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:10:25Z"
+    },
+    {
+      "question": "It's a function returns the Unix timestamp for a date.",
+      "answer": "mktime()",
+      "choices": [
+        "a. mktime()",
+        "b. date ()",
+        "c. dates()",
+        "d. d()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
+      "question": "It's a function that is used to convert a human readable string to a Unix time.",
+      "answer": "strtotime()",
+      "choices": [
+        "a. strtotime()",
+        "b. sttotime()",
+        "c. strstostime()",
+        "d. strtotimes()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
+      "question": "It's a text function that returns convert string to lowercase",
+      "answer": "Lower()",
+      "choices": [
+        "a. Lcase()",
+        "b. toLower()",
+        "c. Lower()",
+        "d. LowerCase()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
+      "question": "It's a time manipulation function that returns the current date.",
+      "answer": "CurDate()",
+      "choices": [
+        "a. CurDate()",
+        "b. datesnow()",
+        "c. currentdate()",
+        "d. date()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Its a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -962,6 +1132,27 @@
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:11:37Z"
+    },
+    {
+      "question": "Joining values together (by appending them to each other) to form a single long value.",
+      "answer": "concatenate",
+      "choices": [
+        "a. join",
+        "b. concatenate",
+        "c. appending",
+        "d. concatenations"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Multiple Choice. Select the best answer If a source file contains PHP code, what extension should be used?",
@@ -1242,17 +1433,19 @@
         "b. A Programming language",
         "c. A technique for writing reliable programs",
         "b. A technique for writing reliable programs",
-        "c. A Programming language"
+        "c. A Programming language",
+        "a. A Programming language",
+        "c. A Relational Database Management System"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "MySQL runs on which operating systems?",
@@ -1270,17 +1463,18 @@
         "c. Any operating system at all",
         "d. Unix, Linux, Windows and others",
         "a. Unix and Linux only",
-        "c. Unix, Linux, Windows and others"
+        "c. Unix, Linux, Windows and others",
+        "d. Unix and Linux only"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "MySQL was invented in the year:",
@@ -1325,6 +1519,27 @@
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:10:25Z"
+    },
+    {
+      "question": "One of the parameters to represent the day of the month",
+      "answer": "d",
+      "choices": [
+        "a. d",
+        "b. days",
+        "c. day",
+        "d. D"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Originally PHP is known as \"Personal Home Pages\"",
@@ -1639,17 +1854,20 @@
         "a. Salary, dept_id",
         "b. Salary",
         "c. Employee",
-        "d. All the field of employee relation"
+        "d. All the field of employee relation",
+        "b. All the field of employee relation",
+        "c. Salary",
+        "d. Employee"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:08:34Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Select name, course_id from instructor, teaches where instructor_ID= teaches_ID; This Query can be replaced by which one of the following ?",
@@ -1750,10 +1968,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The \"mysql_close()\" function allows you to close a MySQL connection?",
@@ -1767,10 +1985,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The \"mysql_connect()\" function opens a MySQL connection?",
@@ -1784,10 +2002,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:49Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The \"mysql_error()\" function returns the error description for a MYSQL operation?",
@@ -1801,10 +2019,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The \"mysql_select_db()\" function allows you to select a particular database ?",
@@ -1818,10 +2036,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The \"or die()\" part of a MySQL command will execute if the connection fails?",
@@ -1835,10 +2053,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.",
@@ -1850,17 +2068,20 @@
         "d. Select, from",
         "a. From, select",
         "b. From, where",
-        "c. Where, from"
+        "c. Where, from",
+        "b. Select, from",
+        "c. From, select",
+        "d. From, where"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The ________ clause is used to list the attributes desired in the result of a query.",
@@ -1869,17 +2090,20 @@
         "a. Select",
         "b. Distinct",
         "c. From",
-        "d. Where"
+        "d. Where",
+        "a. Where",
+        "b. Select",
+        "d. Distinct"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The command to eliminate a table from a database is:",
@@ -2151,10 +2375,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The keystone of AJAX",
@@ -2300,7 +2524,9 @@
         "b. Instructor",
         "c. ID",
         "d. sal *1.1",
-        "d. WHERE"
+        "d. WHERE",
+        "a. ID",
+        "c. Instructor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2310,11 +2536,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:05:43Z",
-      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "The result of a SELECT statement can contain duplicate rows.",
@@ -2338,6 +2564,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-12T11:08:34Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-17T13:20:55Z"
         }
       ]
     },
@@ -2467,6 +2697,27 @@
       "lastVerifiedAt": "2026-10-12T11:07:23Z"
     },
     {
+      "question": "This are functions that operate on a set of rows to calculate and return a single value.",
+      "answer": "Aggregate functions",
+      "choices": [
+        "a. AVG()",
+        "b. Aggregate functions",
+        "c. ABS()",
+        "d. COUNT()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
       "question": "This command sends active query to the database",
       "answer": "mysql_query()",
       "choices": [
@@ -2476,17 +2727,19 @@
         "d. mysql_queries();",
         "a. my_query();",
         "b. query();",
-        "c. mysql_query()"
+        "c. mysql_query()",
+        "b. mysql_queries();",
+        "d. query();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "This function allows you to close the current connection.",
@@ -2499,7 +2752,8 @@
         "a. close();",
         "b. close_database();",
         "c. mysql_close();",
-        "d. closed();"
+        "d. closed();",
+        "b. closed();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2508,11 +2762,32 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:07:49Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:07:49Z",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
+      "question": "This function allows you to connect to MySQL database",
+      "answer": "mysql_connect(),",
+      "choices": [
+        "a. mysql_connected();",
+        "b. mysql_connect(),",
+        "c. connect();",
+        "d. mysqlconnect(),"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "This is Employee table. [Image: [moodle-asset:151160/q8.PNG]] Select * from employee where employee_id>1009; Which of the following employee_id will be displayed?",
@@ -2546,6 +2821,27 @@
       "lastEvidenceAt": "2026-10-12T11:08:10Z"
     },
     {
+      "question": "This is Employee table. [Image: [moodle-asset:6336251/q8.PNG]] Select * from employee where employee_id>1009; Which of the following employee_id will be displayed?",
+      "answer": "1018",
+      "choices": [
+        "a. 1009, 1001, 1018",
+        "b. 1009, 1018",
+        "c. 1001",
+        "d. 1018"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
       "question": "To remove duplicate rows from the result set of a SELECT use the following keyword:",
       "answer": "DISTINCT",
       "choices": [
@@ -2557,17 +2853,21 @@
         "b. NO DUPLICATE",
         "b. DISTINCT",
         "c. UNIQUE",
-        "d. None of the above"
+        "d. None of the above",
+        "a. DISTINCT",
+        "b. None of the above",
+        "c. NO DUPLICATE",
+        "d. UNIQUE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "To remove duplicate rows from the results of an SQL SELECT statement, the ________ qualifier specified must be included.",
@@ -2606,17 +2906,18 @@
         "b. Perl, PHP or Java",
         "c. A Browser",
         "b. Some sort of client program to access the databases",
-        "d. FTP and Telnet"
+        "d. FTP and Telnet",
+        "d. Perl, PHP or Java"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "True or False - The following search statement will exclude any records that contain the term \"poodle.\" (dogs OR canines) NOT cats.",
@@ -3120,6 +3421,27 @@
       "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
+      "question": "What will be the output of the following code? If say date is 16/04/2017. [Image: [moodle-asset:6336265/q2.PNG]]",
+      "answer": "Today is April 16, 2017",
+      "choices": [
+        "a. Today is April 16, 2017",
+        "b. Today is 16April, 2017",
+        "c. Today is 16-04-2017",
+        "d. Today is 04-16-2017"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151135/w6-q3.PNG]]",
       "answer": "abcd",
       "choices": [
@@ -3537,10 +3859,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which is identified as a special variable, which can store multiple values in one single variable?",
@@ -3617,17 +3939,20 @@
         "a. All",
         "b. Name",
         "c. From",
-        "d. Distinct"
+        "d. Distinct",
+        "b. From",
+        "c. Distinct",
+        "d. All"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which of the following is the correct order of keywords for SQL SELECT statements?",
@@ -3672,6 +3997,27 @@
       "lastVerifiedAt": "2026-10-12T11:13:47Z"
     },
     {
+      "question": "Which of the following returns the numbers of rows in a column?",
+      "answer": "count()",
+      "choices": [
+        "a. return_count();",
+        "b. count()",
+        "c. counts()",
+        "d. counting()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
       "question": "Which of the following statement is not true about MySQL DROP command?",
       "answer": "It can be used to delete only data but not structure of a table",
       "choices": [
@@ -3706,17 +4052,18 @@
         "c. Select * from emp where empid = 10003;",
         "d. Select empid where empid = 1009 and lastname = ‘JOHANN;",
         "b. Select empid from emp where empid = 10006;",
-        "c. Select empid from emp;"
+        "c. Select empid from emp;",
+        "d. Select * from emp where empid = 10003;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:08:34Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:151153/q1.PNG]]",
@@ -3743,6 +4090,27 @@
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T20:35:55Z",
       "lastEvidenceAt": "2026-10-12T11:08:34Z"
+    },
+    {
+      "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:6336244/q1.PNG]]",
+      "answer": "Select name from employee",
+      "choices": [
+        "a. Select employee from name",
+        "b. Select name",
+        "c. elect employee",
+        "d. Select name from employee"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T13:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which one of the following databases has PHP supported almost since the beginning?",
@@ -3817,17 +4185,21 @@
         "a. changed_rows()",
         "b. new_rows()",
         "c. affected_rows()",
-        "d. num_rows()"
+        "d. num_rows()",
+        "a. affected_rows()",
+        "b. num_rows()",
+        "c. changed_rows()",
+        "d. new_rows()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:09:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which one of the following methods is responsible for sending the query to the database?",
@@ -3842,17 +4214,19 @@
         "c. send_query()",
         "d. query()",
         "b. query()",
-        "d. query_send()"
+        "d. query_send()",
+        "a. send_query()",
+        "c. sendquery()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which one of the following sorts rows in SQL?",
@@ -3887,17 +4261,20 @@
         "d. CREATE TABLE table_name (column_namecolumn_type);",
         "a. CREATE TABLE table_name (column_namecolumn_type);",
         "b. CREATE TABLE table_name (column_typecolumn_name);",
-        "d. CREATE table_name (column_typecolumn_name);"
+        "d. CREATE table_name (column_typecolumn_name);",
+        "a. CREATE table_name (column_typecolumn_name);",
+        "b. CREATE table_name (column_namecolumn_type);",
+        "c. CREATE TABLE table_name (column_typecolumn_name);"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:07:49Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:28Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which one of the following statements should be used to include a file?",
@@ -3911,17 +4288,19 @@
         "b. @include 'filename';",
         "c. #include ;",
         "a. #include ‘filename’;",
-        "d. #include ;"
+        "d. #include ;",
+        "b. #include ‘filename’;",
+        "d. @include 'filename';"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:09:10Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which SQL statement is used to delete data from a database?",
@@ -3953,17 +4332,19 @@
         "a. INSERT NEW",
         "b. ADD",
         "c. INSERT INTO",
-        "d. UPDATE"
+        "d. UPDATE",
+        "b. INSERT INTO",
+        "c. ADD"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:05:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:43Z"
+      "lastVerifiedAt": "2026-10-17T13:20:55Z"
     },
     {
       "question": "Which SQL statement is used to insert new data in a database?",
