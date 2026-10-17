@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-12T11:16:35Z",
-  "totalQuestions": 184,
+  "updatedAt": "2026-10-17T11:59:02Z",
+  "totalQuestions": 198,
   "questions": [
     {
       "question": "A NULL value is treated as a blank or 0.",
@@ -348,6 +348,22 @@
       "lastVerifiedAt": "2026-10-12T11:09:10Z"
     },
     {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. Area that can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.",
+      "answer": "Textarea",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. Can hold an unlimited number of characters, and the text renders in a fixed-width font",
       "answer": "textarea",
       "choices": [],
@@ -356,10 +372,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T10:16:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:00:53Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared outside a function.",
@@ -370,10 +386,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:02:29Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared within a function",
@@ -384,10 +400,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:18:50Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -412,10 +428,28 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:02:29Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Element represents a control that presents a menu of options.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "element"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Function is used to display structured information (type and value) about one or more variables.",
@@ -440,10 +474,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:53:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:00:26Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Is a line that is not read/executed as part of the program.",
@@ -454,10 +488,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:02:29Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.It allows us to collect data from the htm file and display to the php script.",
@@ -503,10 +537,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-12T10:16:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:02:29Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP variables starts with what symbol.",
@@ -531,10 +565,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:56:40Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Script use in every php code. (Note : No spaces needed)",
@@ -571,8 +605,10 @@
       "answer": ".",
       "choices": [],
       "questionType": "shortanswer",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Concatenation operator"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -584,7 +620,8 @@
           "answer": "period",
           "timestamp": "2026-10-12T10:16:29Z"
         }
-      ]
+      ],
+      "lastEvidenceAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Symbol used to combine 2 sting values to create one string.",
@@ -598,10 +635,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:00:53Z",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z",
       "lastEvidenceAt": "2026-10-12T11:02:29Z"
     },
     {
@@ -627,10 +664,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:00:26Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.What year did PHP began its development?",
@@ -659,6 +696,22 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T10:57:01Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Year that PHP was officially called Personal Home Page Tools.",
+      "answer": "1995",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. &&, ||, ! are examples of what operator",
@@ -746,10 +799,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T10:56:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:56:40Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. Symbol use as identical",
@@ -1030,6 +1083,111 @@
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:11:37Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer If a source file contains PHP code, what extension should be used?",
+      "answer": ".php",
+      "choices": [
+        "a. .psd",
+        "b. .php",
+        "c. .jpeg",
+        "d. .html"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer The PHP syntax is most similar to:",
+      "answer": "Perl and C",
+      "choices": [
+        "a. DotNet",
+        "b. Perl and C",
+        "c. JavaScript",
+        "d. VBScript"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer What does PHP stand for?",
+      "answer": "PHP: Hypertext Preprocessor",
+      "choices": [
+        "a. Private Hypertext Processor",
+        "b. PHP: Hypertext Preprocessor",
+        "c. Personal Hypertext Processor",
+        "d. Private Home Page"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer Which of the following is the incorrect way to declare a PHP variable?",
+      "answer": "$a Variable;",
+      "choices": [
+        "a. $AVariable;",
+        "b. $a Variable;",
+        "c. $aVariable;",
+        "d. $a_Variable = 9;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer Which one of these variables has an illegal name?",
+      "answer": "$my-Var",
+      "choices": [
+        "a. $myVar",
+        "b. $my_Var",
+        "c. $my_Vars",
+        "d. $my-Var"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "Multiple choice. Select the best answer. What will be the output of the following PHP code ?",
@@ -1351,10 +1509,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T10:13:25Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:56:40Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "PHP development began in 1995.",
@@ -1385,10 +1543,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:57:01Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "PHP is one of the most widely used and recognizable web technology use on the internet.",
@@ -1402,10 +1560,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T10:00:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:56:40Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "PHP is proprietary software.",
@@ -1870,10 +2028,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:57:01Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "The following comparison condition would return TRUE or FALSE [Image: sad - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/sad] 3 6)",
@@ -2542,6 +2700,107 @@
       "lastVerifiedAt": "2026-10-12T10:39:08Z"
     },
     {
+      "question": "True or False For maximum compatibility, you should use the shorthand form to create PHP scripts?",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "True or False PHP can be run on Microsoft Windows IIS(Internet Information Server):",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "True or False PHP variables are case-sensitive?",
+      "answer": "a. True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "True or False The echo command is a means of outputting text to the web browser?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "True or False When a variable is declared, it can only be used 1 time in your PHP source file?",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
       "question": "True or False. JavaScript can be inserted into any web page regardless of the file extension.",
       "answer": "True",
       "choices": [
@@ -2557,6 +2816,25 @@
       "firstSeenAt": "2026-10-12T11:11:37Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:11:37Z"
+    },
+    {
+      "question": "Using XAMPP server you can use SQL Server database.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
       "question": "Version 4 of php supports global variables $Get etc. (v4.1)",
