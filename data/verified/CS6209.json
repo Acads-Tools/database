@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-18T11:22:53Z",
-  "totalQuestions": 219,
+  "updatedAt": "2026-10-18T11:27:50Z",
+  "totalQuestions": 220,
   "tier": "verified",
   "questions": [
     {
@@ -182,7 +182,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "A project’s duration might be just one week or it might go on for years, but every project has an end date.",
@@ -231,7 +237,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "A software engineering principle that implies that a problem can be simplified by omitting irrelevant details.",
@@ -242,12 +254,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "A software is always made to perform some rational work. This rational work is known as problem in the software parlance.",
@@ -555,7 +567,12 @@
         "b. Sustainable",
         "c. Maintenance",
         "d. Transitional",
-        "e. Operational"
+        "e. Operational",
+        "a. Maintenance",
+        "b. Educational",
+        "c. Operational",
+        "d. Sustainable",
+        "e. Transitional"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -567,7 +584,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "Maintenance, Operational, Transitional",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "Choice of a particular operating system may be made depending upon, except:",
@@ -1110,19 +1133,24 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "If the software process were not based on scientific and engineering concepts, it would be easier to re-create new software than to scale an existing one.",
       "answer": "a. True",
       "choices": [
         "a. True",
-        "b. False"
+        "b. False",
+        "a. Dynamic Nature",
+        "b. Large Software",
+        "c. Quality Management",
+        "d. Scalability",
+        "e. Cost"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1136,7 +1164,17 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "Dynamic Nature, Large Software, Quality Management, Scalability, Cost",
+          "timestamp": "2026-10-18T11:27:50Z"
+        },
+        {
+          "answer": "True",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "If there is any business level change at client end, such as reduction of organization strength, acquiring another company, organization venturing into new business, need to modify in the original software may arise.",
@@ -1257,7 +1295,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "In reference with top-down analysis, _________________ sub-divides the modules into further smaller units of code.",
@@ -1307,7 +1351,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "in terms of Issues related to professional responsibility",
@@ -1605,19 +1655,24 @@
         "b. program",
         "c. Psedo-code",
         "d. binary",
-        "e. None of the above"
+        "e. None of the above",
+        "a. program",
+        "b. flowchart",
+        "c. binary",
+        "d. None of the above",
+        "e. Psedo-code"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "It is branch of discipline associated with the development of software product using well-defined scientific principles, methods and procedures.",
@@ -1627,19 +1682,21 @@
         "b. Coding",
         "c. Software Engineering",
         "d. None of the above",
-        "e. Programming"
+        "e. Programming",
+        "c. Programming",
+        "e. Software Engineering"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "It is carried out to test functionality of the program and also called ‘Behavioral’ testing.",
@@ -1697,19 +1754,22 @@
         "b. software product",
         "c. System product",
         "d. None of the above",
-        "e. utilities product"
+        "e. utilities product",
+        "a. None of the above",
+        "c. hardware product",
+        "d. System product"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "It is considered to be a collection of executable programming code, associated libraries and documentations.",
@@ -1719,19 +1779,24 @@
         "b. None of the above",
         "c. software",
         "d. system",
-        "e. hardware"
+        "e. hardware",
+        "a. software",
+        "b. system",
+        "c. hardware",
+        "d. None of the above",
+        "e. utilities"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "It is important in designing software that is free from unnatural restrictions and limitations.",
@@ -2676,7 +2741,12 @@
         "b. Confidentiality",
         "c. Computer misuse",
         "d. Competence",
-        "e. Intellectual Property Rights"
+        "e. Intellectual Property Rights",
+        "a. Computer misuse",
+        "b. Security",
+        "c. Intellectual Property Rights",
+        "d. Confidentiality",
+        "e. Competence"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2688,7 +2758,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "Computer misuse, Security, Intellectual Property Rights, Confidentiality, Competence",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "Software engineering helps to increase this programming complexity.",
@@ -2709,7 +2785,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "Software engineering is a branch of computer science, which uses well-defined engineering concepts required to produce efficient, durable, scalable, in-budget and on-time software products.",
@@ -2723,12 +2805,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "Software engineering principle whose main purpose is to consider only those aspects of the problem that are relevant for certain purpose and suppress other aspects that are not relevant for the given purpose",
@@ -2739,12 +2821,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "Software Maintenance includes",
@@ -2792,7 +2874,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "Spiral Model has high reliability requirements.",
@@ -2840,19 +2928,24 @@
         "b. Software Engineering",
         "c. Coding",
         "d. None of the above",
-        "e. Software Development"
+        "e. Software Development",
+        "a. None of the above",
+        "b. Software Development",
+        "c. Software Engineering",
+        "d. Coding",
+        "e. Programming"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "The following are Quality management along the product life-cycle except for:",
@@ -3091,12 +3184,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "The need of software engineering arises because of low rate of change in user requirements and environment on which the software is working.",
@@ -3117,7 +3210,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "The new modules are coded with the help of structured design created in the design step.",
@@ -3162,12 +3261,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T11:22:53Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "The process each manager follows during the life of a project is known as",
@@ -3717,6 +3816,28 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
+    },
+    {
+      "question": "These aspects briefs about how well software has the capabilities to maintain itself in the ever-changing environment: (select all correct answers)",
+      "answer": "Flexibility, Maintainability, Modularity, Scalability",
+      "choices": [
+        "a. Flexibility",
+        "b. Maintainability",
+        "c. None of the Above",
+        "d. Modularity",
+        "e. Scalability"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:27:50Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:27:50Z"
     },
     {
       "question": "These documentation explains how the software product should work and how it should be used to get the desired results. It may include software installation procedures, how-to guides, user-guides, uninstallation method and special references to get more information like license updation etc.",
@@ -4283,7 +4404,11 @@
         "b. abstraction",
         "c. automation",
         "d. decomposition",
-        "e. None of the above"
+        "e. None of the above",
+        "a. None of the above",
+        "b. decomposition",
+        "d. computerization",
+        "e. abstraction"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -4295,7 +4420,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+      "lastVerifiedAt": "2026-10-18T11:22:53Z",
+      "alternateAnswers": [
+        {
+          "answer": "decomposition, abstraction",
+          "timestamp": "2026-10-18T11:27:50Z"
+        }
+      ]
     },
     {
       "question": "Under __________________, the problem is broken down into small pieces where each one has some significance. Each problem is individually solved and steps are clearly stated about how to solve the problem.",
