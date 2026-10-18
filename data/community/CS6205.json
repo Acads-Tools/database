@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-17T18:03:16Z",
+  "updatedAt": "2026-10-18T14:28:18Z",
   "totalQuestions": 133,
   "questions": [
     {
@@ -17,10 +17,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T18:03:16Z"
+      "lastVerifiedAt": "2026-10-18T14:28:18Z"
     },
     {
       "question": "* Starts with the starting symbol S. It goes down to tree leaves using productions.",
@@ -35,10 +35,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T18:03:16Z"
+      "lastVerifiedAt": "2026-10-18T14:28:18Z"
     },
     {
       "question": "[____: Sets] are collections of objects in which order of elements and duplication of elements do not matter.",
@@ -587,21 +587,22 @@
     },
     {
       "question": "A right-most derivation of a sentential form is one in which rules transforming the [____] are always applied.",
-      "answer": "",
+      "answer": "right-most nonterminal",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "leftmost non-terminal"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-17T18:03:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-17T18:03:16Z"
+      "lastEvidenceAt": "2026-10-17T18:03:16Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z"
     },
     {
       "question": "A set of accepting states (F ∈ Q)",
@@ -646,16 +647,23 @@
     {
       "question": "A set of rules, P: N → (N U T)*, it does have any right context or left context.",
       "answer": "P",
-      "choices": [],
+      "choices": [
+        "C",
+        "S",
+        "P",
+        "N",
+        "A",
+        "T"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z"
+      "lastVerifiedAt": "2026-10-18T14:28:18Z"
     },
     {
       "question": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [Blank 1] .",
@@ -679,21 +687,35 @@
     {
       "question": "A set of terminals where N ∩ T = NULL.",
       "answer": "T",
-      "choices": [],
+      "choices": [
+        "C",
+        "S",
+        "P",
+        "N",
+        "A",
+        "T"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z"
+      "lastVerifiedAt": "2026-10-18T14:28:18Z"
     },
     {
       "question": "A set on non-terminal symbols.",
       "answer": "N",
-      "choices": [],
+      "choices": [
+        "C",
+        "S",
+        "P",
+        "N",
+        "A",
+        "T"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "C",
@@ -702,11 +724,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:31:15Z",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z"
+      "lastVerifiedAt": "2026-10-18T14:28:18Z"
     },
     {
       "question": "A stack symbols",
@@ -856,14 +878,15 @@
         "c. leaves",
         "d. derivation tree",
         "a. derivation tree",
-        "c. vertex"
+        "c. vertex",
+        "a. leaves"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -877,9 +900,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1035,9 +1058,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-17T18:03:16Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1490,9 +1513,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1657,14 +1680,16 @@
         "a. Regular Language",
         "b. Recursively Ennumerable Language",
         "c. Context Sensitive Language",
-        "a. Context Sensitive Language"
+        "a. Context Sensitive Language",
+        "b. Context free Language",
+        "c. Recursively Ennumerable Language"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1835,9 +1860,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-17T18:03:16Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2067,9 +2092,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2121,16 +2146,23 @@
     {
       "question": "The start symbol.",
       "answer": "S",
-      "choices": [],
+      "choices": [
+        "C",
+        "S",
+        "P",
+        "N",
+        "A",
+        "T"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:38:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T00:20:13Z"
+      "lastVerifiedAt": "2026-10-18T14:28:18Z"
     },
     {
       "question": "The state",
@@ -2403,9 +2435,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-30T10:43:07Z",
-      "lastVerifiedAt": "2026-10-17T18:03:16Z",
+      "lastVerifiedAt": "2026-10-18T14:28:18Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
