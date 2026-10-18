@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-18T08:00:31Z",
-  "totalQuestions": 200,
+  "updatedAt": "2026-10-18T11:22:53Z",
+  "totalQuestions": 222,
   "questions": [
     {
       "question": "___________ is probably the most important phase for long-term support as well as for the reputation of the company.",
@@ -190,6 +190,27 @@
       "lastEvidenceAt": "2026-10-12T12:40:01Z"
     },
     {
+      "question": "A good decomposition of a problem should maximize interactions among various components.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
       "question": "A project’s duration might be just one week or it might go on for years, but every project has an end date.",
       "answer": "A project is temporary",
       "choices": [
@@ -216,6 +237,43 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
+    },
+    {
+      "question": "A small program needs to be written using software engineering principles.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "A software engineering principle that implies that a problem can be simplified by omitting irrelevant details.",
+      "answer": "Abstraction",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "A software is always made to perform some rational work. This rational work is known as problem in the software parlance.",
@@ -514,6 +572,28 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "Characteristics of a good software: (select all correct answers)",
+      "answer": "Maintenance, Transitional, Operational",
+      "choices": [
+        "a. Educational",
+        "b. Sustainable",
+        "c. Maintenance",
+        "d. Transitional",
+        "e. Operational"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "Choice of a particular operating system may be made depending upon, except:",
@@ -1045,6 +1125,46 @@
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
     },
     {
+      "question": "If the different sub components are interrelated, then the different components cannot be solved separately and the desired reduction in complexity will not be realized.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "If the software process were not based on scientific and engineering concepts, it would be easier to re-create new software than to scale an existing one.",
+      "answer": "a. True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
       "question": "If there is any business level change at client end, such as reduction of organization strength, acquiring another company, organization venturing into new business, need to modify in the original software may arise.",
       "answer": "Organization Changes",
       "choices": [
@@ -1145,6 +1265,27 @@
       "lastVerifiedAt": "2026-10-18T07:26:06Z"
     },
     {
+      "question": "In industry, software engineering is usually needed to develop large programs to accommodate limited functions.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
       "question": "In reference with top-down analysis, _________________ sub-divides the modules into further smaller units of code.",
       "answer": "Structured Coding",
       "choices": [
@@ -1172,6 +1313,27 @@
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:25:11Z"
+    },
+    {
+      "question": "In software engineering, problem has to be decomposed such that each component of the decomposed problem can be solved dependently and then the solution of the different components can be combined to get the full solution.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "in terms of Issues related to professional responsibility",
@@ -1462,6 +1624,50 @@
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
     },
     {
+      "question": "It is an executable code, which serves some computational purpose.",
+      "answer": "program",
+      "choices": [
+        "a. flowchart",
+        "b. program",
+        "c. Psedo-code",
+        "d. binary",
+        "e. None of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "It is branch of discipline associated with the development of software product using well-defined scientific principles, methods and procedures.",
+      "answer": "Software Engineering",
+      "choices": [
+        "a. Software Development",
+        "b. Coding",
+        "c. Software Engineering",
+        "d. None of the above",
+        "e. Programming"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
       "question": "It is carried out to test functionality of the program and also called ‘Behavioral’ testing.",
       "answer": "Black-box Testing",
       "choices": [
@@ -1508,6 +1714,50 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
+    },
+    {
+      "question": "It is considered to be a collection of executable programming code, associated libraries and documentations made for a specific purpose.",
+      "answer": "software product",
+      "choices": [
+        "a. hardware product",
+        "b. software product",
+        "c. System product",
+        "d. None of the above",
+        "e. utilities product"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "It is considered to be a collection of executable programming code, associated libraries and documentations.",
+      "answer": "software",
+      "choices": [
+        "a. utilities",
+        "b. None of the above",
+        "c. software",
+        "d. system",
+        "e. hardware"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "It is important in designing software that is free from unnatural restrictions and limitations.",
@@ -2471,6 +2721,84 @@
       "lastVerifiedAt": "2026-10-18T08:00:31Z"
     },
     {
+      "question": "Software Engineering ethics includes: (select all correct answers)",
+      "answer": "Security, Confidentiality, Computer misuse, Competence, Intellectual Property Rights",
+      "choices": [
+        "a. Security",
+        "b. Confidentiality",
+        "c. Computer misuse",
+        "d. Competence",
+        "e. Intellectual Property Rights"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "Software engineering helps to increase this programming complexity.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "Software engineering is a branch of computer science, which uses well-defined engineering concepts required to produce efficient, durable, scalable, in-budget and on-time software products.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "Software engineering principle whose main purpose is to consider only those aspects of the problem that are relevant for certain purpose and suppress other aspects that are not relevant for the given purpose",
+      "answer": "abstraction",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
       "question": "Software Maintenance includes",
       "answer": "All of the mentioned",
       "choices": [
@@ -2496,6 +2824,27 @@
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
+    },
+    {
+      "question": "Software principles are absolutely necessary to achieve a good quality software cost effectively.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "Spiral Model has high reliability requirements.",
@@ -2534,6 +2883,28 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-18T07:26:06Z"
+    },
+    {
+      "question": "The application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software.",
+      "answer": "Software Engineering",
+      "choices": [
+        "a. Programming",
+        "b. Software Engineering",
+        "c. Coding",
+        "d. None of the above",
+        "e. Software Development"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "The following are Quality management along the product life-cycle except for:",
@@ -2761,6 +3132,46 @@
       "lastEvidenceAt": "2026-10-12T12:18:42Z"
     },
     {
+      "question": "The most significant factor in determining which software engineering methods and techniques are most important is the type of application that is being developed.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
+      "question": "The need of software engineering arises because of low rate of change in user requirements and environment on which the software is working.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
+    },
+    {
       "question": "The new modules are coded with the help of structured design created in the design step.",
       "answer": "Analysis",
       "choices": [
@@ -2790,6 +3201,25 @@
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T12:18:42Z",
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
+    },
+    {
+      "question": "The outcome of software engineering is an efficient and reliable software product.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "The process each manager follows during the life of a project is known as",
@@ -3896,6 +4326,28 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "Two important techniques of software engineering principles use to reduce problem complexity. (select all correct answers)",
+      "answer": "abstraction, decomposition",
+      "choices": [
+        "a. computerization",
+        "b. abstraction",
+        "c. automation",
+        "d. decomposition",
+        "e. None of the above"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T11:22:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T11:22:53Z"
     },
     {
       "question": "Typically each development platform consists of the following components, except:",
