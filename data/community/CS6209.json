@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-18T14:35:31Z",
+  "updatedAt": "2026-10-18T14:37:30Z",
   "totalQuestions": 223,
   "questions": [
     {
@@ -121,17 +121,18 @@
         "c. moderate",
         "d. very low",
         "b. moderate",
-        "c. low"
+        "c. low",
+        "a. moderate"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "A company is developing an advance version of their current software available in the market, what model approach would they prefer ?",
@@ -242,10 +243,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "A small program needs to be written using software engineering principles.",
@@ -330,17 +331,18 @@
         "d. Documentation",
         "a. Project",
         "c. Plan",
-        "d. System"
+        "d. System",
+        "b. Project"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "After defining architecture, software components and their interfaces, the next phase of development is the creation of __________________.",
@@ -435,10 +437,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z",
+      "lastVerifiedAt": "2026-10-18T14:37:30Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -858,10 +860,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Every time a new software is issued to the customer, developers have to maintain version and configuration related documentation.",
@@ -1122,10 +1124,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "If any of the hardware and/or platform (such as operating system) of the target host changes, software changes are needed to keep adaptability.",
@@ -2092,17 +2094,18 @@
         "d. Cost constraints",
         "b. Time constraints",
         "c. Cost constraints",
-        "d. Time constraints"
+        "d. Time constraints",
+        "b. Duration constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "It refers to the budgeted amount available for the project.",
@@ -2117,7 +2120,8 @@
         "a. Amount constraints",
         "c. Money constraints",
         "d. Cost constraints",
-        "b. Amount constraints"
+        "b. Amount constraints",
+        "c. Budget constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2127,10 +2131,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z",
+      "lastVerifiedAt": "2026-10-18T14:37:30Z",
       "lastEvidenceAt": "2026-10-12T12:32:24Z"
     },
     {
@@ -2148,17 +2152,18 @@
         "a. Deliverable constraints",
         "c. Limit constraints",
         "d. Scope constraints",
-        "c. Output constraints"
+        "c. Output constraints",
+        "a. Output constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Lower and upper limits are present in which chart?",
@@ -2292,10 +2297,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Narrative essay is one of the best types of specification document ?",
@@ -2423,10 +2428,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z",
+      "lastVerifiedAt": "2026-10-18T14:37:30Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -2458,10 +2463,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Quality planning is the process of developing a quality plan for",
@@ -2476,17 +2481,21 @@
         "c. project manager",
         "d. team",
         "c. project",
-        "d. customers"
+        "d. customers",
+        "a. project",
+        "b. customers",
+        "c. team",
+        "d. project manager"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "RAD Model has",
@@ -2612,17 +2621,19 @@
         "a. A project should have a primary customer or sponsor",
         "b. A project involves uncertainty",
         "b. A project requires resources, often from various areas",
-        "d. A project should have a primary customer or sponsor"
+        "d. A project should have a primary customer or sponsor",
+        "b. A project has a unique purpose",
+        "c. A project involves uncertainty"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Resources, such as people and equipment, need to do work.",
@@ -2641,17 +2652,18 @@
         "a. None of the above",
         "b. A project is an endeavor",
         "c. A project is temporary",
-        "d. A project is deliverable"
+        "d. A project is deliverable",
+        "c. A project is an endeavor"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "SDLC stands for",
@@ -3354,17 +3366,18 @@
         "b. Project Management Life Cycle",
         "c. All of the mentioned",
         "d. Manager life cycle",
-        "a. Project Management Life Cycle"
+        "a. Project Management Life Cycle",
+        "a. All of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "The process mapping is a ______ diagram",
@@ -4933,17 +4946,20 @@
         "c. Internship management",
         "d. Version management",
         "d. System management",
-        "d. Internship management"
+        "d. Internship management",
+        "a. Internship management",
+        "b. Change management",
+        "c. System management"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Which of the following is not considered as a risk in project management?",
@@ -4958,17 +4974,19 @@
         "c. Testing",
         "d. Staff turnover",
         "b. Testing",
-        "d. Specification delays"
+        "d. Specification delays",
+        "b. Staff turnover",
+        "c. Product competition"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Which of the following is not included in SRS ?",
@@ -5021,10 +5039,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Which of the following is responsible for the quality objective?",
@@ -5073,10 +5091,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:33:50Z"
+      "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
       "question": "Which of the following is/are White box technique?",
