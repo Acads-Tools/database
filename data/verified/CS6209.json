@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-12T13:39:43Z",
-  "totalQuestions": 119,
+  "updatedAt": "2026-10-18T07:19:05Z",
+  "totalQuestions": 166,
   "tier": "verified",
   "questions": [
     {
@@ -31,6 +31,27 @@
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
+    },
+    {
+      "question": "__________________ documents show the behavior or functionality of a software product on an abstract level.",
+      "answer": "Functional specification",
+      "choices": [
+        "a. Non-functional specification",
+        "b. Functional specification",
+        "c. Behavior specification",
+        "d. System product specification"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "A 66.6% risk is considered as",
@@ -141,6 +162,27 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
+    },
+    {
+      "question": "After defining architecture, software components and their interfaces, the next phase of development is the creation of __________________.",
+      "answer": "design documents",
+      "choices": [
+        "a. design documents",
+        "b. prototyping",
+        "c. layouting",
+        "d. coding"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "Alpha testing is done at",
@@ -283,6 +325,27 @@
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
     },
     {
+      "question": "Before you start selling any software product, it is officially released. This means that you create a state of the software in your repository, make sure that it has been tested for functionality and freeze the code.",
+      "answer": "Software Releases",
+      "choices": [
+        "a. Software Contract",
+        "b. Software Agreement",
+        "c. Software Releases",
+        "d. Software Concern"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "Boundary value analysis belong to?",
       "answer": "Black Box Testing",
       "choices": [
@@ -333,6 +396,27 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "Choice of a particular operating system may be made depending upon, except:",
+      "answer": "Development type",
+      "choices": [
+        "a. Cost",
+        "b. Development type",
+        "c. Availability of development tools",
+        "d. Hardware platform"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "Company has latest computers and state-of the- art software tools, so we shouldn’t worry about the quality of the product.",
@@ -408,6 +492,25 @@
       "lastVerifiedAt": "2026-10-12T12:25:11Z"
     },
     {
+      "question": "During the implementation process, developers must write enough comments inside the code so that if anybody starts working on the code later on, he/she is able to understand what has already been written.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "During this stage, the software design is realized as a set of programs or program units",
       "answer": "Implementation and unit testing",
       "choices": [
@@ -431,6 +534,25 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "Editors are the core development tools because they convert source code to executable form.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "Efficiency in a software product does not include ________",
@@ -541,6 +663,48 @@
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
     },
     {
+      "question": "How is Incremental Model different from Spiral Model?",
+      "answer": "Progress can be measured for Incremental Model",
+      "choices": [
+        "a. Progress can be measured for Incremental Model",
+        "b. Users can see the system early in Incremental Model",
+        "c. All of the mentioned",
+        "d. Changing requirements can be accommodated in Incremental Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "How is WINWIN Spiral Model different from Spiral Model?",
+      "answer": "It defines a set of negotiation activities at the beginning of each pass around the spiral",
+      "choices": [
+        "a. It defines tasks required to assess both technical and management risks",
+        "b. It defines a set of negotiation activities at the beginning of each pass around the spiral",
+        "c. It defines tasks required to define resources, timelines, and other project related information",
+        "d. It defines tasks required to construct, test, install, and provide user support"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "Identify an ethical dilemma from the situations mentioned below:",
       "answer": "Your employer releases a safety-critical system without finishing the testing of the system",
       "choices": [
@@ -593,6 +757,27 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
+    },
+    {
+      "question": "Identify the disadvantage of Spiral Model.",
+      "answer": "Doesn’t work well for smaller projects",
+      "choices": [
+        "a. Additional Functionality can be added at a later date",
+        "b. Strong approval and documentation control",
+        "c. Doesn’t work well for smaller projects",
+        "d. High amount of risk analysis"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "Identify the sub-process of process improvement",
@@ -678,6 +863,48 @@
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
+    },
+    {
+      "question": "If you were to create client/server applications, which model would you go for?",
+      "answer": "Concurrent Model",
+      "choices": [
+        "a. Concurrent Model",
+        "b. WINWIN Spiral Model",
+        "c. Spiral Model",
+        "d. Incremental Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "In almost all serious software development projects, a revision or version control system is used. This version control system keeps a record of changes in source code files and is usually built in a tree-like structure.",
+      "answer": "Branches",
+      "choices": [
+        "a. Branches",
+        "b. Features",
+        "c. Documentation",
+        "d. Release Note"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "In reference with top-down analysis, _________________ sub-divides the modules into further smaller units of code.",
@@ -819,6 +1046,27 @@
       "lastVerifiedAt": "2026-10-12T12:25:11Z"
     },
     {
+      "question": "It is a process done in some projects to carry out a test for a longer period of time. This type of testing is used to determine behavior of a product when used continuously over a period of time",
+      "answer": "Regression or Stress Testing",
+      "choices": [
+        "a. Regression or Stress Testing",
+        "b. Functional Testing",
+        "c. Unit Testing",
+        "d. Sanity Testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "It is a simplified representation of a software process. Each process represents a process from a particular perspective, and thus provides only partial information about that process.",
       "answer": "Software process models",
       "choices": [
@@ -872,6 +1120,48 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
+    },
+    {
+      "question": "It is a systematic approach to the production of software that takes into account practical cost, schedule, and dependability issues, as well as the needs of software customers and producers.",
+      "answer": "Software Engineering",
+      "choices": [
+        "a. Software Administrator",
+        "b. System Software",
+        "c. Software Engineering",
+        "d. Software Planning"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "It is a very basic check to see if all software components compile with each other without a problem.",
+      "answer": "Sanity Testing",
+      "choices": [
+        "a. Regression or Stress Testing",
+        "b. Unit Testing",
+        "c. Sanity Testing",
+        "d. Functional Testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "It is also known as a bug, is a result of an error which can cause system to fail.",
@@ -1053,6 +1343,27 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
+    },
+    {
+      "question": "It is testing one part or one component of the product. The developer usually does this when he/she has completed writing code for that part of the product.",
+      "answer": "Unit Testing",
+      "choices": [
+        "a. Regression or Stress Testing",
+        "b. Sanity Testing",
+        "c. Unit Testing",
+        "d. Functional Testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "It is the process of confirming if the software is meeting the business requirements, and is developed adhering to the proper specifications and methodologies.",
@@ -1685,6 +1996,25 @@
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
     },
     {
+      "question": "Spiral Model has user involvement in all its phases.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "The functionality of the software and constraints on its operation must be defined.",
       "answer": "Software specification",
       "choices": [
@@ -1709,6 +2039,48 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "The fundamental notions of software engineering does not account for ?",
+      "answer": "Software Validation",
+      "choices": [
+        "a. Software processes",
+        "b. Software Validation",
+        "c. Software Security",
+        "d. Software reuse"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "The Incremental Model is a result of combination of elements of which two models?",
+      "answer": "Linear Model & Prototyping Model",
+      "choices": [
+        "a. Linear Model & RAD Model",
+        "b. Waterfall Model & RAD Model",
+        "c. Build & FIX Model & Waterfall Model",
+        "d. Linear Model & Prototyping Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "The input is divided into higher and lower end values. If these values pass the test, it is assumed that all values in between may pass too.",
@@ -2001,6 +2373,48 @@
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
     },
     {
+      "question": "The spiral model has two dimensions namely _____________ and ____________",
+      "answer": "radial, angular",
+      "choices": [
+        "a. radial, angular",
+        "b. diagonal, angular",
+        "c. diagonal, perpendicular",
+        "d. radial, perpendicular"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "The spiral model was originally proposed by",
+      "answer": "Barry Boehm",
+      "choices": [
+        "a. Royce",
+        "b. Barry Boehm",
+        "c. Pressman",
+        "d. IBM"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "The SRS document is also known as _____________ specification.",
       "answer": "black-box",
       "choices": [
@@ -2105,6 +2519,174 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
+    },
+    {
+      "question": "These are application systems that run on a local computer, such as a PC.",
+      "answer": "Stand-alone applications.",
+      "choices": [
+        "a. Batch processing systems",
+        "b. Embedded control systems",
+        "c. Interactive transaction-based applications",
+        "d. Stand-alone applications."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "These are applications that execute on a remote computer and that are accessed by users from their own PCs or terminals.",
+      "answer": "Interactive transaction-based applications",
+      "choices": [
+        "a. Embedded control systems",
+        "b. Stand-alone applications",
+        "c. Interactive transaction-based applications",
+        "d. Batch processing systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "These are business systems that are designed to process data in large batches.",
+      "answer": "Batch processing systems",
+      "choices": [
+        "a. Embedded control systems",
+        "b. Interactive transaction-based applications",
+        "c. Batch processing systems",
+        "d. Stand-alone applications"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "These are software control systems that control and manage hardware devices.",
+      "answer": "Embedded control systems",
+      "choices": [
+        "a. Stand-alone applications",
+        "b. Interactive transaction-based applications",
+        "c. Embedded control systems",
+        "d. Batch processing systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "These are systems that are composed of a number of other software systems.",
+      "answer": "Systems of systems",
+      "choices": [
+        "a. Entertainment system",
+        "b. Systems for modeling and simulation.",
+        "c. Data collection systems",
+        "d. Systems of systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "These are systems that are developed by scientists and engineers to model physical processes or situations, which include many, separate, interacting objects.",
+      "answer": "Systems for modeling and simulation.",
+      "choices": [
+        "a. Data collection systems",
+        "b. Entertainment system",
+        "c. Systems of systems",
+        "d. Systems for modeling and simulation."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "These are systems that are primarily for personal use and which are intended to entertain the user.",
+      "answer": "Entertainment system",
+      "choices": [
+        "a. Systems for modeling and simulation.",
+        "b. Data collection systems",
+        "c. Entertainment system",
+        "d. Systems of systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "These are systems that collect data from their environment using a set of sensors and send that data to other systems for processing.",
+      "answer": "Data collection systems",
+      "choices": [
+        "a. Data collection systems",
+        "b. Entertainment system",
+        "c. Systems of systems",
+        "d. Systems for modeling and simulation."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "These are the policies that govern the operation of a computer system.",
@@ -2406,6 +2988,27 @@
       "lastVerifiedAt": "2026-10-12T12:25:11Z"
     },
     {
+      "question": "This is carried out to make sure that the software is doing exactly what it is supposed to do. This type of testing is a must before any software is released to customers.",
+      "answer": "Functional Testing",
+      "choices": [
+        "a. Functional Testing",
+        "b. Sanity Testing",
+        "c. Regression or Stress Testing",
+        "d. Unit Testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "This is set of coding rules followed by all the programmers to write the code.",
       "answer": "Programming style",
       "choices": [
@@ -2462,6 +3065,69 @@
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:25:11Z"
+    },
+    {
+      "question": "This is the tangible part of the development system.",
+      "answer": "Hardware platform",
+      "choices": [
+        "a. Documentation papers",
+        "b. Hardware platform",
+        "c. Developer",
+        "d. System Unit"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "This is usually the first part of any software product. This stage starts when you are thinking about developing software. In this phase, you meet customers or prospective customers, analyzing market requirements and features that are in demand.",
+      "answer": "Requirement Gathering",
+      "choices": [
+        "a. Planning",
+        "b. Writing functional specifications",
+        "c. Observation",
+        "d. Requirement Gathering"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "This is usually the longest phase in the product life cycle. Each developer has to write his/her own code and collaborate with other developers to make sure that different components can interoperate with each other.",
+      "answer": "Implementation and Coding",
+      "choices": [
+        "a. Maintenance",
+        "b. Implementation and Coding",
+        "c. Prototyping",
+        "d. Documentation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "This section defines how to name functions, variables, constants and global variables.",
@@ -2561,6 +3227,27 @@
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
     },
     {
+      "question": "What are attributes of good software ?",
+      "answer": "Software maintainability & functionality",
+      "choices": [
+        "a. Software maintainability & functionality",
+        "b. Software functionality",
+        "c. Software development",
+        "d. Software maintainability"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "What are the various Testing Levels?",
       "answer": "All of the mentioned",
       "choices": [
@@ -2582,6 +3269,27 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
+    },
+    {
+      "question": "What is a Software ?",
+      "answer": "Software is set of programs, documentation & configuration of data",
+      "choices": [
+        "a. Software is set of programs, documentation & configuration of data",
+        "b. Software is documentation and configuration of data",
+        "c. Software is set of programs",
+        "d. None of the mentioned"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "What is Cyclomatic complexity?",
@@ -2608,6 +3316,27 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
+    },
+    {
+      "question": "What is the major advantage of using Incremental Model?",
+      "answer": "Easier to test and debug & It is used when there is a need to get a product to the market early",
+      "choices": [
+        "a. Customer can respond to each increment",
+        "b. Easier to test and debug",
+        "c. Easier to test and debug & It is used when there is a need to get a product to the market early",
+        "d. It is used when there is a need to get a product to the market early"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "What is the major drawback of using RAD Model?",
@@ -3034,6 +3763,153 @@
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
     },
     {
+      "question": "Which of these are not among the eight principles followed by Software Engineering Code of Ethics and Professional Practice ?",
+      "answer": "ENVIRONMENT",
+      "choices": [
+        "a. PUBLIC",
+        "b. ENVIRONMENT",
+        "c. PROFESSION",
+        "d. PRODUCT"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "Which of these does not account for software failure ?",
+      "answer": "Increasing Supply",
+      "choices": [
+        "a. Less reliable and expensive",
+        "b. Low expectation",
+        "c. Increasing Demand",
+        "d. Increasing Supply"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "Which of these does not affect different types of software as a whole?",
+      "answer": "Flexibility",
+      "choices": [
+        "a. Flexibility",
+        "b. Heterogeneity",
+        "c. Security",
+        "d. Business and social change"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "Which of these is incorrect ?",
+      "answer": "Computer science belongs to Software engineering",
+      "choices": [
+        "a. Software engineering belongs to Computer science",
+        "b. Software engineering is concerned with the practicalities of developing and delivering useful software",
+        "c. Computer science belongs to Software engineering",
+        "d. Software engineering is a part of more general form of System Engineering"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "Which of these is not true ?",
+      "answer": "Web based systems have led to degradation of programming languages",
+      "choices": [
+        "a. Web based system should be developed and delivered incrementally",
+        "b. Web based systems have led to degradation of programming languages",
+        "c. Web brings concept of software as service",
+        "d. Web has led to availability of software services and possibility of developing highly distributed service based systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "Which of these is true ?",
+      "answer": "All of the mentioned",
+      "choices": [
+        "a. Customized products are commissioned by particular customer",
+        "b. Generic products and customized products are types of software products",
+        "c. Generic products are produced by organization and sold to open market",
+        "d. All of the mentioned"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "Which of these software engineering activities are not a part of software processes ?",
+      "answer": "Software dependence",
+      "choices": [
+        "a. Software validation",
+        "b. Software dependence",
+        "c. Software specification",
+        "d. Software development"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
       "question": "Which one of the following is not a phase of Prototyping Model?",
       "answer": "Coding",
       "choices": [
@@ -3057,6 +3933,27 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "Which one of the following is not an Evolutionary Process Model?",
+      "answer": "All of the mentioned",
+      "choices": [
+        "a. All of the mentioned",
+        "b. Concurrent Development Model",
+        "c. WINWIN Spiral Model",
+        "d. Incremental Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "Which one of the following models is not suitable for accommodating any change?",
@@ -3192,6 +4089,90 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:23:04Z"
+    },
+    {
+      "question": "You should be aware of local laws governing the use of intellectual property such as patents and copyright.",
+      "answer": "Intellectual property rights.",
+      "choices": [
+        "a. Intellectual property rights.",
+        "b. Computer misuse",
+        "c. Invading privacy rights",
+        "d. Privacy rights"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "You should normally respect the confidentiality of your employers or clients irrespective of whether or not a formal confidentiality agreement has been signed.",
+      "answer": "Confidentiality",
+      "choices": [
+        "a. Computer misuse",
+        "b. Confidentiality",
+        "c. Intellectual property rights.",
+        "d. Competence"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "You should not misrepresent your level of competence. You should not knowingly accept work that is outside your competence.",
+      "answer": "Competence",
+      "choices": [
+        "a. Competence",
+        "b. Intellectual property rights.",
+        "c. Confidentiality",
+        "d. Computer misuse"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
+    },
+    {
+      "question": "You should not use your technical skills to misuse other people’s computers.",
+      "answer": "Computer misuse",
+      "choices": [
+        "a. Computer misuse",
+        "b. Intellectual property rights",
+        "c. Computer Hacking",
+        "d. Invading Privacy"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:19:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:19:05Z"
     },
     {
       "question": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",
