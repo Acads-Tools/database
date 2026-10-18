@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-18T11:27:50Z",
+  "updatedAt": "2026-10-18T14:35:31Z",
   "totalQuestions": 220,
   "tier": "verified",
   "questions": [
@@ -148,7 +148,10 @@
         "b. Information Technology",
         "d. Computer information system",
         "a. Information System",
-        "c. Computer information system"
+        "c. Computer information system",
+        "a. Information Technology",
+        "b. Information System",
+        "d. Computer Science"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -157,10 +160,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z",
+      "lastVerifiedAt": "2026-10-18T14:35:31Z",
       "lastEvidenceAt": "2026-10-12T12:40:01Z"
     },
     {
@@ -379,17 +382,18 @@
         "d. Consistency",
         "a. Abstraction",
         "b. Consistency",
-        "c. Incremental Development"
+        "c. Incremental Development",
+        "a. Incremental Development"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "An independent relationship must exist between the attribute that can be measured and the external quality attribute.",
@@ -468,17 +472,18 @@
         "d. All of the mentioned",
         "c. All of the mentioned",
         "d. Management issues in the company",
-        "a. Lack of software ethics and understanding"
+        "a. Lack of software ethics and understanding",
+        "b. Lack of adequate training in software engineering"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "Before you start selling any software product, it is officially released. This means that you create a state of the software in your repository, make sure that it has been tested for functionality and freeze the code.",
@@ -629,10 +634,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "Consider the following Statement: “The data set will contain an end of file character.”What characteristic of SRS is being depicted here ?",
@@ -792,17 +797,18 @@
         "d. responsiveness",
         "a. processing time",
         "b. memory utilization",
-        "c. licensing"
+        "c. licensing",
+        "d. memory utilization"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "Every project should have a well-defined objective. For example, many people hire firms to design and build a new house, but each house, like each person, is unique.",
@@ -900,17 +906,18 @@
         "a. It means that the product designed /created should be easily available",
         "b. Software engineers shall ensure that their products and related modifications meet the highest professional standards possible",
         "c. The product should be easy to use",
-        "d. It means that the product designed /created should be easily available"
+        "d. It means that the product designed /created should be easily available",
+        "b. Software engineers shall ensure that their products and related modifications satisfy the client"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "from given below:",
@@ -1010,10 +1017,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "Identify the correct statement: “Software engineers shall",
@@ -1036,10 +1043,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "Identify the disadvantage of Spiral Model.",
@@ -1373,7 +1380,9 @@
         "c. Both Confidentiality & Intellectual property rights",
         "a. Managing Client Relationships",
         "b. Both Confidentiality & Intellectual property rights",
-        "d. Confidentiality"
+        "d. Confidentiality",
+        "b. Managing Client Relationships",
+        "c. Confidentiality"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1384,11 +1393,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:20:21Z",
-      "source": "Grades-Harvester",
+      "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T13:39:43Z",
-      "lastVerifiedAt": "2026-10-12T08:29:47Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "Inspections and testing are what kinds of Quality Costs?",
@@ -1431,17 +1440,18 @@
         "d. Abstraction",
         "a. Separation of Concerns",
         "d. Modularity",
-        "c. Modularity"
+        "c. Modularity",
+        "a. Abstraction"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "It involves activities pertaining to identification of requirement of modification or maintenance",
@@ -1561,17 +1571,18 @@
         "a. Information",
         "c. Data System",
         "d. Data",
-        "a. Data"
+        "a. Data",
+        "d. Data System"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "It is a systematic approach to the production of software that takes into account practical cost, schedule, and dependability issues, as well as the needs of software customers and producers.",
@@ -1813,17 +1824,19 @@
         "a. Consistency",
         "c. Incremental Development",
         "d. Generality",
-        "d. Incremental Development"
+        "d. Incremental Development",
+        "a. Anticipation of Change",
+        "b. Generality"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "It is often easier to use if these two concerns are divided as much as possible into separate sets of client functions.",
@@ -1838,7 +1851,10 @@
         "c. Modularity",
         "d. Abstraction",
         "a. Software Engineering Principles",
-        "b. data structure component"
+        "b. data structure component",
+        "b. Abstraction",
+        "c. data structure component",
+        "d. Modularity"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1848,10 +1864,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:40:01Z",
+      "lastVerifiedAt": "2026-10-18T14:35:31Z",
       "lastEvidenceAt": "2026-10-12T13:39:43Z"
     },
     {
@@ -2020,17 +2036,19 @@
         "c. Feedback",
         "d. Software",
         "a. Software",
-        "c. People"
+        "c. People",
+        "b. Procedures",
+        "d. People"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "It refers to the amount of time available to complete a project",
@@ -2634,10 +2652,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "Selection of a model is based on",
@@ -3330,17 +3348,19 @@
         "c. All of the mentioned",
         "d. Software Developers",
         "a. Software companies",
-        "b. Both Software companies and Developers"
+        "b. Both Software companies and Developers",
+        "a. Software Developers",
+        "c. Software companies"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "The software must be validated to ensure that it does what the customer wants.",
@@ -3805,17 +3825,19 @@
         "a. Procedures",
         "c. Sofware",
         "b. Procedures",
-        "c. People"
+        "c. People",
+        "c. Hardware",
+        "d. Sofware"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "These aspects briefs about how well software has the capabilities to maintain itself in the ever-changing environment: (select all correct answers)",
@@ -3961,17 +3983,18 @@
         "d. Programmer",
         "a. Software Engineer",
         "c. Database Administrator",
-        "c. Software developers"
+        "c. Software developers",
+        "c. Programmer"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "This approach interleaves the activities of specification, development, and validation. The system is developed as a series of versions (increments), with each version adding functionality to the previous version.",
@@ -4048,10 +4071,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
       "question": "This includes modifications and updates done in order to keep the software usable over long period of time. It includes new features, new user requirements for refining the software and improve its reliability and performance.",
@@ -5690,17 +5713,18 @@
         "b. Dissemination of viruses or other malware",
         "c. Unauthorized modification of computer material",
         "b. Unauthorized access to computer material",
-        "d. Unauthorized modification of computer material"
+        "d. Unauthorized modification of computer material",
+        "b. All of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T13:39:43Z"
+      "lastVerifiedAt": "2026-10-18T14:35:31Z"
     }
   ]
 }
