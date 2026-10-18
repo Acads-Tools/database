@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-18T07:26:06Z",
-  "totalQuestions": 169,
+  "updatedAt": "2026-10-18T07:57:27Z",
+  "totalQuestions": 200,
   "questions": [
     {
       "question": "___________ is probably the most important phase for long-term support as well as for the reputation of the company.",
@@ -59,6 +59,27 @@
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
     },
     {
+      "question": "________________ is the ability to encourage by \"push or pull\" technical people to produce to their best ability.",
+      "answer": "Motivation",
+      "choices": [
+        "a. Evaluating",
+        "b. Monitoring",
+        "c. None of the given",
+        "d. Motivation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "__________________ documents show the behavior or functionality of a software product on an abstract level.",
       "answer": "Functional specification",
       "choices": [
@@ -107,6 +128,29 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
+    },
+    {
+      "question": "A company is developing an advance version of their current software available in the market, what model approach would they prefer ?",
+      "answer": "",
+      "choices": [
+        "a. RAD",
+        "b. Spiral",
+        "c. Iterative Enhancement",
+        "d. Both RAD & Iterative Enhancement"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Iterative Enhancement"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "A field studying computers and algorithmic processes, including their principles, their software and hardware designs, their applications, and their impact on society, whereas IS emphasizes functionality over design.",
@@ -163,6 +207,27 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
+    },
+    {
+      "question": "A software is always made to perform some rational work. This rational work is known as problem in the software parlance.",
+      "answer": "Top-down analysis",
+      "choices": [
+        "a. Structured Coding",
+        "b. Structured Programming",
+        "c. Modular Programming",
+        "d. Top-down analysis"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "A temporary endeavor undertaken to create a unique product, service, or result.",
@@ -229,17 +294,18 @@
         "c. User’s end",
         "d. None of the mentioned",
         "b. Developer’s & User’s end",
-        "d. Developer’s end"
+        "d. Developer’s end",
+        "b. User’s end"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "An ________________ process simplifies verification. If you develop software by adding small increments of functionality, then, for verification, you only need to deal with the added portion",
@@ -309,7 +375,8 @@
         "d. iii, ii, i, v, iv",
         "a. ii, i, v, iv, iii",
         "b. iii, i, ii,v, iv",
-        "d. iii, i, ii"
+        "d. iii, i, ii",
+        "b. ii, i, v, iv, iii"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -320,10 +387,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z",
       "lastEvidenceAt": "2026-10-12T12:22:00Z"
     },
     {
@@ -393,17 +460,18 @@
         "d. White Box Testing",
         "b. None of the mentioned",
         "c. Black Box Testing",
-        "b. White Box & Black Box Testing"
+        "b. White Box & Black Box Testing",
+        "a. White Box & Black Box Testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Build & Fix Model is suitable for programming exercises of ___________ LOC (Line of Code).",
@@ -531,6 +599,27 @@
       "lastVerifiedAt": "2026-10-12T12:25:11Z"
     },
     {
+      "question": "Consider the following Statement: “The product should have a good human interface.”What characteristic of SRS is being depicted here ?",
+      "answer": "Non-Verifiable",
+      "choices": [
+        "a. Consistent",
+        "b. Correct",
+        "c. Non-Verifiable",
+        "d. Ambiguous"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "During the implementation process, developers must write enough comments inside the code so that if anybody starts working on the code later on, he/she is able to understand what has already been written.",
       "answer": "True",
       "choices": [
@@ -648,6 +737,27 @@
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
+      "question": "Every time a new software is issued to the customer, developers have to maintain version and configuration related documentation.",
+      "answer": "Version Management",
+      "choices": [
+        "a. Target-Host",
+        "b. Programming Style",
+        "c. Version Management",
+        "d. Code-reuse"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "Exhaustive testing is",
       "answer": "impractical but possible",
       "choices": [
@@ -659,7 +769,8 @@
         "b. impractical and impossible",
         "b. always possible",
         "d. impractical and impossible",
-        "a. always possible"
+        "a. always possible",
+        "d. impractical but possible"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -668,10 +779,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z",
       "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
@@ -700,6 +811,27 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
+    },
+    {
+      "question": "from given below:",
+      "answer": "Both RAD & Prototyping Model facilitates reusability of components",
+      "choices": [
+        "a. None",
+        "b. RAD Model Model facilitates reusability of components",
+        "c. Both RAD & Prototyping Model facilitates reusability of components",
+        "d. Prototyping Model facilitates reusability of components"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "How is Incremental Model different from Spiral Model?",
@@ -912,6 +1044,27 @@
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
     },
     {
+      "question": "If you were a lead developer of a software company and you are asked to submit a project/product within a stipulated time-frame with no cost barriers, which model would you select?",
+      "answer": "RAD",
+      "choices": [
+        "a. Incremental",
+        "b. RAD",
+        "c. Waterfall",
+        "d. Spiral"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "If you were to create client/server applications, which model would you go for?",
       "answer": "Concurrent Model",
       "choices": [
@@ -1017,6 +1170,29 @@
       "source": "Grades-Harvester",
       "lastEvidenceAt": "2026-10-12T13:39:43Z",
       "lastVerifiedAt": "2026-10-12T08:29:47Z"
+    },
+    {
+      "question": "Inspections and testing are what kinds of Quality Costs?",
+      "answer": "",
+      "choices": [
+        "a. Internal Failure",
+        "b. Prevention",
+        "c. Appraisal",
+        "d. External Failure"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Prevention"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "It implies separating software into components according to functionality and responsibility.",
@@ -1428,6 +1604,27 @@
       "lastVerifiedAt": "2026-10-18T07:26:06Z"
     },
     {
+      "question": "It is the ability of a set of inherent characteristics of a product, service, product component, or process to fulfill requirements of customers.",
+      "answer": "Quality",
+      "choices": [
+        "a. Quality Managenent",
+        "b. Quality",
+        "c. Standard",
+        "d. Management"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "It is the process of confirming if the software is meeting the business requirements, and is developed adhering to the proper specifications and methodologies.",
       "answer": "Verification",
       "choices": [
@@ -1454,6 +1651,27 @@
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:23:04Z",
       "lastEvidenceAt": "2026-10-12T12:06:05Z"
+    },
+    {
+      "question": "It is the sum of all planned systematic activities and processes for creating, controlling and assuring quality indicates how quality management relates to the typical product development.",
+      "answer": "Quality Management",
+      "choices": [
+        "a. Standard Management",
+        "b. Quality Management",
+        "c. System Management",
+        "d. Quality Control"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "It refers to computer programs and the manuals (if any) that support them.",
@@ -1579,7 +1797,9 @@
         "a. None of the mentioned",
         "d. Run chart",
         "c. Control chart",
-        "d. Bar chart"
+        "d. Bar chart",
+        "a. Run chart",
+        "b. Bar chart"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1588,10 +1808,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z",
       "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
@@ -1640,10 +1860,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Most functional programming languages use ______________ as their type systems. λ-expressions are executed by evaluating them as they occur.",
@@ -1698,6 +1918,44 @@
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
+      "question": "Narrative essay is one of the best types of specification document ?",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
+      "question": "One can choose Waterfall Model if the project development schedule is tight.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "Over the time, customer may ask for new features or functions in the software.",
       "answer": "Client Requirements",
       "choices": [
@@ -1747,6 +2005,27 @@
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
+    },
+    {
+      "question": "Programming interfaces of present-day languages are very sophisticated and are equipped huge library functions.",
+      "answer": "Code-reuse",
+      "choices": [
+        "a. Target-Host",
+        "b. Programming Style",
+        "c. Version Management",
+        "d. Code-reuse"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Project managers have to assess the risks that may affect a project.",
@@ -1850,6 +2129,25 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "RAD Model has high reliability requirements.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "RAD stands for",
@@ -2030,6 +2328,27 @@
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
     },
     {
+      "question": "Selection of a model is based on",
+      "answer": "All of the mentioned",
+      "choices": [
+        "a. Project type and associated risk",
+        "b. Development team & Users",
+        "c. All of the mentioned",
+        "d. Requirements"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "Selective retest techniques may be more economical than the “retest-all”technique.How many selective retest techniques are there?",
       "answer": "three",
       "choices": [
@@ -2055,6 +2374,46 @@
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
+    },
+    {
+      "question": "Software Design documentation contains the following except for:",
+      "answer": "Database management",
+      "choices": [
+        "a. Database management",
+        "b. Software design details",
+        "c. Data flow diagrams",
+        "d. High-level software architecture"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
+      "question": "Software documentation does not provides information about how to use the product. It only provides the functionality of the system.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Software Maintenance includes",
@@ -2084,6 +2443,25 @@
       "lastVerifiedAt": "2026-10-12T12:20:48Z"
     },
     {
+      "question": "Spiral Model has high reliability requirements.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "Spiral Model has user involvement in all its phases.",
       "answer": "False",
       "choices": [
@@ -2101,6 +2479,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-18T07:26:06Z"
+    },
+    {
+      "question": "The following are Quality management along the product life-cycle except for:",
+      "answer": "Deployment",
+      "choices": [
+        "a. Strategy",
+        "b. Evolution",
+        "c. Concept",
+        "d. Deployment"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "The functionality of the software and constraints on its operation must be defined.",
@@ -2363,6 +2762,27 @@
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
     },
     {
+      "question": "The process mapping is a ______ diagram",
+      "answer": "Workflow",
+      "choices": [
+        "a. Audit",
+        "b. Circular",
+        "c. Workflow",
+        "d. Data flow"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "The reason for software bugs and failures is due to",
       "answer": "Both Software companies and Developers",
       "choices": [
@@ -2437,6 +2857,27 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
+    },
+    {
+      "question": "The software program, which is being developed in the organization, needs to be designed for host machines at the customers end.",
+      "answer": "Target-Host",
+      "choices": [
+        "a. Programming Style",
+        "b. Code-reuse",
+        "c. Target-Host",
+        "d. Version Management"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "The software to meet the specification must be produced.",
@@ -2525,17 +2966,18 @@
         "c. none of the mentioned",
         "a. white-box",
         "d. grey-box",
-        "a. black-box"
+        "a. black-box",
+        "d. black-box"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "The SRS is said to be consistent if and only if",
@@ -2552,17 +2994,18 @@
         "b. its structure and style are such that any changes to the requirements can be made easily while retaining the style and structure",
         "c. every requirement stated therein is verifiable",
         "b. every requirement stated therein is one that the software shall meet",
-        "d. every requirement stated therein is verifiable"
+        "d. every requirement stated therein is verifiable",
+        "a. every requirement stated therein is one that the software shall meet"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "The system’s services, constraints, and goals are established by consultation with system users. They are then defined in detail and serve as a system specification.",
@@ -2830,6 +3273,71 @@
       "firstSeenAt": "2026-10-11T19:20:21Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T13:39:43Z"
+    },
+    {
+      "question": "These documentation explains how the software product should work and how it should be used to get the desired results. It may include software installation procedures, how-to guides, user-guides, uninstallation method and special references to get more information like license updation etc.",
+      "answer": "User documentation",
+      "choices": [
+        "a. Software Design documentation",
+        "b. Requirement documentation",
+        "c. User documentation",
+        "d. Technical documentation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
+      "question": "These documentations are maintained by the developers and actual coders. These documents, as a whole, represent information about the code.",
+      "answer": "Technical documentation",
+      "choices": [
+        "a. Requirement documentation",
+        "b. Software Design documentation",
+        "c. User documentation",
+        "d. Technical documentation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
+      "question": "These documentations contain all the necessary information, which are needed to build the software",
+      "answer": "",
+      "choices": [
+        "a. Requirement documentation",
+        "b. User documentation",
+        "c. Technical documentation",
+        "d. Software Design documentation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Software Design documentation"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "These functions do not include destructive updates, that is, they do not affect any I/O or memory and if they are not in use, they can easily be removed without hampering the rest of the program.",
@@ -3409,6 +3917,27 @@
       "lastVerifiedAt": "2026-10-18T07:26:06Z"
     },
     {
+      "question": "What are the Mandatory Quality Procedures?",
+      "answer": "All of these",
+      "choices": [
+        "a. Control of Production Equipment, tools and CNC programs",
+        "b. Control of documents",
+        "c. All of these",
+        "d. Control of records"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "What are the various Testing Levels?",
       "answer": "All of the mentioned",
       "choices": [
@@ -3419,17 +3948,19 @@
         "c. Unit Testing",
         "d. System Testing",
         "a. All of the mentioned",
-        "b. Integration Testing"
+        "b. Integration Testing",
+        "a. System Testing",
+        "c. Integration Testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "What is a Software ?",
@@ -3472,17 +4003,19 @@
         "d. White box testing",
         "b. Yellow box testing",
         "d. Green box testing",
-        "c. Yellow box testing"
+        "c. Yellow box testing",
+        "a. Black box testing",
+        "b. White box testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "What is the major advantage of using Incremental Model?",
@@ -3540,6 +4073,27 @@
       "lastVerifiedAt": "2026-10-12T12:28:08Z"
     },
     {
+      "question": "What should a project manager do or follow to ensure clear boundaries for project completion?",
+      "answer": "Completing a scope statement",
+      "choices": [
+        "a. Risk management plan",
+        "b. Scope definition",
+        "c. Scope verification",
+        "d. Completing a scope statement"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "What type of software testing is generally used in Software Maintenance?",
       "answer": "Regression Testing",
       "choices": [
@@ -3591,6 +4145,27 @@
       "lastEvidenceAt": "2026-10-12T12:26:32Z"
     },
     {
+      "question": "Which metric is related to the software maintenance",
+      "answer": "Software",
+      "choices": [
+        "a. Process",
+        "b. Software",
+        "c. Product",
+        "d. Development"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "Which model can be selected if user is involved in all the phases of SDLC?",
       "answer": "RAD Model",
       "choices": [
@@ -3631,17 +4206,19 @@
         "d. Delivery Schedule",
         "a. Delivery Schedule",
         "d. Staffing",
-        "a. Cost"
+        "a. Cost",
+        "b. Cost",
+        "c. Design Constraints"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Which of the following is incorrect activity for the configuration management of a software system?",
@@ -3706,17 +4283,19 @@
         "c. External Interfaces",
         "d. Functionality",
         "a. Functionality",
-        "b. External Interfaces"
+        "b. External Interfaces",
+        "b. Design solutions",
+        "d. External Interfaces"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Which of the following is not project management goal?",
@@ -3746,6 +4325,27 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T12:33:50Z"
+    },
+    {
+      "question": "Which of the following is responsible for the quality objective?",
+      "answer": "Top level management",
+      "choices": [
+        "a. Middle level management",
+        "b. Top level management",
+        "c. All of the above",
+        "d. Frontline management"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Which of the following is/are main parameters that you should use when computing the costs of a software development project?",
@@ -3789,17 +4389,39 @@
         "b. Condition Coverage",
         "c. Statement Testing",
         "d. All of the mentioned",
-        "a. Statement Testing"
+        "a. Statement Testing",
+        "b. Decision Testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
+      "question": "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
+      "answer": "Spiral",
+      "choices": [
+        "a. RAD",
+        "b. Waterfall",
+        "c. Spiral",
+        "d. Iterative Enhancement Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Which of the following property does not correspond to a good Software Requirements Specification (SRS) ?",
@@ -3822,10 +4444,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Which of the following property of SRS is depicted by the statement : “Conformity to a standard is maintained” ?",
@@ -3846,10 +4468,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Which of the following statements about SRS is/are true ?i. SRS is written by customerii. SRS is written by a developeriii. SRS serves as a contract between customer and developer",
@@ -3867,7 +4489,8 @@
         "c. All are true",
         "d. Both ii and iii are true",
         "d. Only i is true",
-        "b. None of the mentioned"
+        "b. None of the mentioned",
+        "a. All are true"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -3876,10 +4499,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z",
       "lastEvidenceAt": "2026-10-12T11:58:21Z"
     },
     {
@@ -3929,10 +4552,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "Which of these are not among the eight principles followed by Software Engineering Code of Ethics and Professional Practice ?",
@@ -4235,6 +4858,48 @@
       "lastEvidenceAt": "2026-10-12T12:17:23Z"
     },
     {
+      "question": "Which two models doesn’t allow defining requirements early in the cycle?",
+      "answer": "Prototyping & Spiral",
+      "choices": [
+        "a. Prototyping & Spiral",
+        "b. Waterfall & Spiral",
+        "c. Waterfall & RAD",
+        "d. Prototyping & RAD"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
+      "question": "Which two of the following models will not be able to give the desired outcome if user’s participation is not involved?",
+      "answer": "RAD & Prototyping",
+      "choices": [
+        "a. RAD & Prototyping",
+        "b. Waterfall & Spiral",
+        "c. RAD & Waterfall",
+        "d. RAD & Spiral"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-18T07:57:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
+    },
+    {
       "question": "While programming, the code is broken down into smaller group of instructions. These groups are known as modules, subprograms, or subroutines.",
       "answer": "Modular Programming",
       "choices": [
@@ -4250,17 +4915,19 @@
         "c. Modular Programming",
         "d. Functional Programming",
         "b. Modular Programming",
-        "d. Structured Coding"
+        "d. Structured Coding",
+        "a. Modular Programming",
+        "b. Structured Programming"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:32:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:25:11Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "White Box techniques are also classified as",
@@ -4285,10 +4952,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T12:23:04Z"
+      "lastVerifiedAt": "2026-10-18T07:57:27Z"
     },
     {
       "question": "You should be aware of local laws governing the use of intellectual property such as patents and copyright.",
