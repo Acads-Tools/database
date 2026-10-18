@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-18T14:52:31Z",
+  "updatedAt": "2026-10-18T14:55:33Z",
   "totalQuestions": 220,
   "tier": "verified",
   "questions": [
@@ -366,10 +366,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "An ________________ process simplifies verification. If you develop software by adding small increments of functionality, then, for verification, you only need to deal with the added portion",
@@ -536,10 +536,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "Build & Fix Model is suitable for programming exercises of ___________ LOC (Line of Code).",
@@ -896,10 +896,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z",
+      "lastVerifiedAt": "2026-10-18T14:55:33Z",
       "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
@@ -1671,10 +1671,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "It is an executable code, which serves some computational purpose.",
@@ -1738,17 +1738,20 @@
         "a. Black&White Testing",
         "b. Black-box Testing",
         "b. White-box testing",
-        "c. Black-box Testing"
+        "c. Black-box Testing",
+        "b. Black-out Testing",
+        "c. Black&White Testing",
+        "d. White-box testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "It is conducted to test program and its implementation, in order to improve code efficiency or structure. It is also known as ‘Structural’ testing.",
@@ -1773,10 +1776,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "It is considered to be a collection of executable programming code, associated libraries and documentations made for a specific purpose.",
@@ -1915,10 +1918,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "It is said to be the inability of the system to perform the desired task.",
@@ -1934,17 +1937,18 @@
         "d. Bug",
         "b. Error",
         "c. Fault",
-        "a. Failure"
+        "a. Failure",
+        "d. Error"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "It is testing one part or one component of the product. The developer usually does this when he/she has completed writing code for that part of the product.",
@@ -2006,7 +2010,11 @@
         "d. Verification",
         "b. Checking",
         "d. All of the above",
-        "c. Verification"
+        "c. Verification",
+        "a. Checking",
+        "b. Verification",
+        "c. All of the above",
+        "d. Validation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2015,10 +2023,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z",
+      "lastVerifiedAt": "2026-10-18T14:55:33Z",
       "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
@@ -2189,10 +2197,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z",
+      "lastVerifiedAt": "2026-10-18T14:55:33Z",
       "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
@@ -2245,10 +2253,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "Most functional programming languages use ______________ as their type systems. λ-expressions are executed by evaluating them as they occur.",
@@ -3122,17 +3130,18 @@
         "d. Equivalence class",
         "a. Cause-effect graphing",
         "b. Equivalence class",
-        "c. Pair-wise Testing"
+        "c. Pair-wise Testing",
+        "b. Cause-effect graphing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "The input is divided into similar classes. If one element of a class passes the test, it is assumed that all the class is passed.",
@@ -3149,17 +3158,19 @@
         "b. Boundary values",
         "d. Equivalence class",
         "a. Equivalence class",
-        "c. Pair-wise Testing"
+        "c. Pair-wise Testing",
+        "b. Cause-effect graphing",
+        "d. Boundary values"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "The modification of the software to match changes in the ever changing environment, falls under which category of software maintenance?",
@@ -3663,17 +3674,19 @@
         "a. Fault",
         "b. Bug",
         "c. Error",
-        "d. Failure"
+        "d. Failure",
+        "a. Bug",
+        "c. Fault"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "These are application systems that run on a local computer, such as a PC.",
@@ -4554,10 +4567,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "What are attributes of good software ?",
@@ -4625,17 +4638,18 @@
         "a. Unit Testing",
         "b. System Testing",
         "c. All of the mentioned",
-        "d. Integration Testing"
+        "d. Integration Testing",
+        "d. All of the mentioned"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "What is a Software ?",
@@ -4681,17 +4695,18 @@
         "c. Yellow box testing",
         "a. Black box testing",
         "b. White box testing",
-        "d. Black box testing"
+        "d. Black box testing",
+        "a. Green box testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "What is the major advantage of using Incremental Model?",
@@ -5095,10 +5110,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
@@ -5264,10 +5279,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "Which of these are not among the eight principles followed by Software Engineering Code of Ethics and Professional Practice ?",
@@ -5668,17 +5683,18 @@
         "b. Error guessing technique",
         "c. Design based testing",
         "d. Structural testing",
-        "c. None of the mentioned"
+        "c. None of the mentioned",
+        "a. Design based testing"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:48:52Z"
+      "lastVerifiedAt": "2026-10-18T14:55:33Z"
     },
     {
       "question": "You should be aware of local laws governing the use of intellectual property such as patents and copyright.",
