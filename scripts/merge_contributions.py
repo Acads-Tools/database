@@ -452,7 +452,12 @@ def validate_and_merge(payload: dict, data_dir: str = "data") -> dict:
 
 def update_readme_table(data_dir: str = "data"):
     """Update README.md table with live question counts."""
-    readme_path = "README.md"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(script_dir)
+    canonical_data_dir = os.path.join(repo_root, "data")
+    if os.path.abspath(data_dir) != canonical_data_dir:
+        return
+    readme_path = os.path.join(repo_root, "README.md")
     if not os.path.exists(readme_path):
         return
 
