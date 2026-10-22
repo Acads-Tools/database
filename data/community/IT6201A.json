@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:20:55Z",
-  "totalQuestions": 43,
+  "updatedAt": "2026-10-22T22:34:24Z",
+  "totalQuestions": 52,
   "questions": [
     {
       "question": "A system used to concatenate one column to another column.",
@@ -410,6 +410,29 @@
       "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
+      "question": "Suppose that the user wanted to add a new column name as CUST_NAME data type char size 6. What is the correct type of statement to use?",
+      "answer": "",
+      "choices": [
+        "a. UPDATE",
+        "b. INSERT",
+        "c. DELETE",
+        "d. ALTER"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "INSERT"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:34:24Z"
+    },
+    {
       "question": "Supposed that the user uses the ff SELECT statement: what will be the possible output. SELECT GRADE AS STUDENT MARK FROM GRADE_REPORT;",
       "answer": "Error because of missing “” mark.",
       "choices": [
@@ -754,6 +777,105 @@
       "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
+      "question": "True/False. Database is the term generally used to describe what was done by large mainframe computers from the late 1940's until the early 1980's.",
+      "answer": "False",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "True/False. Security is one of the characteristic of database that includes also the protection of the database from unauthorized access confidentiality and unauthorized changes.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "Which of the following is not part of advantage of database?",
+      "answer": "Database instance",
+      "choices": [
+        "a. Data independence",
+        "b. Efficient data access",
+        "c. Database instance",
+        "d. Data integrity and security"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "Which of the following is not part of basic SELECT statement",
+      "answer": "",
+      "choices": [
+        "a. Concat",
+        "b. Alias",
+        "c. Logical condition",
+        "d. Specific Column"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Alias"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "Which of the following is not part of characteristics of database?",
+      "answer": "Data Processing",
+      "choices": [
+        "a. Data Integrity",
+        "b. Data Persistence",
+        "c. Data Processing",
+        "d. Transactions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
       "question": "Which of the following is not part of data manipulation language?",
       "answer": "Alter",
       "choices": [
@@ -775,6 +897,50 @@
       "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
+      "question": "Which of the following is not part of DDL statement?",
+      "answer": "",
+      "choices": [
+        "a. DELETE",
+        "b. ALTER",
+        "c. None of the choices",
+        "d. CREATE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "None of the choices"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "Which of the following is not part of handling data?",
+      "answer": "Semi-Computerized",
+      "choices": [
+        "a. File Oriented Approach",
+        "b. Data Processing",
+        "c. Data Management Systems",
+        "d. Semi-Computerized"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
       "question": "Which of the following is not part of transaction control?",
       "answer": "CREATE",
       "choices": [
@@ -794,6 +960,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:04:07Z"
+    },
+    {
+      "question": "Which of the following is not the correct example of entity?",
+      "answer": "Phone_no",
+      "choices": [
+        "a. Phone_no",
+        "b. EMPLOYEES",
+        "c. STUDENT",
+        "d. ORDERS"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
     },
     {
       "question": "Which of the following is not true about writing SQL statements?",

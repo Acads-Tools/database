@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:20:55Z",
-  "totalQuestions": 38,
+  "updatedAt": "2026-10-22T22:34:24Z",
+  "totalQuestions": 43,
   "tier": "verified",
   "questions": [
     {
@@ -676,6 +676,64 @@
       "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
+      "question": "True/False. Database is the term generally used to describe what was done by large mainframe computers from the late 1940's until the early 1980's.",
+      "answer": "False",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "Which of the following is not part of advantage of database?",
+      "answer": "Database instance",
+      "choices": [
+        "a. Data independence",
+        "b. Efficient data access",
+        "c. Database instance",
+        "d. Data integrity and security"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "Which of the following is not part of characteristics of database?",
+      "answer": "Data Processing",
+      "choices": [
+        "a. Data Integrity",
+        "b. Data Persistence",
+        "c. Data Processing",
+        "d. Transactions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
       "question": "Which of the following is not part of data manipulation language?",
       "answer": "Alter",
       "choices": [
@@ -697,6 +755,27 @@
       "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
+      "question": "Which of the following is not part of handling data?",
+      "answer": "Semi-Computerized",
+      "choices": [
+        "a. File Oriented Approach",
+        "b. Data Processing",
+        "c. Data Management Systems",
+        "d. Semi-Computerized"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
       "question": "Which of the following is not part of transaction control?",
       "answer": "CREATE",
       "choices": [
@@ -716,6 +795,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:04:07Z"
+    },
+    {
+      "question": "Which of the following is not the correct example of entity?",
+      "answer": "Phone_no",
+      "choices": [
+        "a. Phone_no",
+        "b. EMPLOYEES",
+        "c. STUDENT",
+        "d. ORDERS"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:34:24Z"
     }
   ]
 }
