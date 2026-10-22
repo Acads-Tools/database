@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:49:08Z",
-  "totalQuestions": 58,
+  "updatedAt": "2026-10-22T22:51:45Z",
+  "totalQuestions": 68,
   "questions": [
     {
       "question": "A system used to concatenate one column to another column.",
@@ -165,6 +165,27 @@
       "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
+      "question": "Extracts a string of determined length.",
+      "answer": "SUBSTR",
+      "choices": [
+        "a. SUBSTR",
+        "b. INSTR",
+        "c. Length",
+        "d. Trim"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
+    },
+    {
       "question": "He proposed the relational model for database systems in 1970.",
       "answer": "Dr. E.F Codd",
       "choices": [
@@ -257,6 +278,27 @@
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-22T22:00:37Z",
       "lastVerifiedAt": "2026-10-22T22:43:23Z"
+    },
+    {
+      "question": "It is a table that is owned by the user SYS and can be accessed by all users.",
+      "answer": "Dual",
+      "choices": [
+        "a. Authors",
+        "b. Parts",
+        "c. Dual",
+        "d. Employees"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
     },
     {
       "question": "It is a unit of data – is a symbol or a set of symbols which is used to represent something.",
@@ -409,6 +451,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:02:52Z"
+    },
+    {
+      "question": "It is use to accept numeric input and return numeric values.",
+      "answer": "Number function",
+      "choices": [
+        "a. Multiple row function",
+        "b. Case manipulation function",
+        "c. Number function",
+        "d. Character function"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
     },
     {
       "question": "Suppose that the user wanted to add a new column name as CUST_NAME data type char size 6. What is the correct type of statement to use?",
@@ -600,6 +663,27 @@
       "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
+      "question": "This is use to accept character input and can return both character and number values.",
+      "answer": "Character function",
+      "choices": [
+        "a. Character function",
+        "b. Number function",
+        "c. Case manipulation function",
+        "d. Multiple row function"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
+    },
+    {
       "question": "This is use to create expression with number and date values.",
       "answer": "Arithmetic expression",
       "choices": [
@@ -619,6 +703,69 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
+      "question": "This is use to find the numeric position of a named character starting at character position n.",
+      "answer": "INSTR",
+      "choices": [
+        "a. INSTR",
+        "b. SUBSTR",
+        "c. Length",
+        "d. Trim"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
+    },
+    {
+      "question": "This is use to return one result per group of row.",
+      "answer": "Multiple row",
+      "choices": [
+        "a. Dual table",
+        "b. Single row",
+        "c. Number function",
+        "d. Multiple row"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
+    },
+    {
+      "question": "This is use to return one result per row.",
+      "answer": "Single row",
+      "choices": [
+        "a. Single row",
+        "b. Dual table",
+        "c. Number function",
+        "d. Multiple row"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
     },
     {
       "question": "This is use to Selects the columns in a table that are returned by a query. Selects a few or as many of the columns as required.",
@@ -661,6 +808,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
+      "question": "This is used to converts the first letter of each word to uppercase and the remaining letters to lowercase.",
+      "answer": "INITCAT",
+      "choices": [
+        "a. Upper case",
+        "b. INITCAT",
+        "c. Sentence case",
+        "d. lowercase"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
     },
     {
       "question": "This is used to display rows based on a range of values.",
@@ -768,6 +936,27 @@
       "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
+      "question": "Trims leading or trailing characters (or both) from a character string.",
+      "answer": "Trim",
+      "choices": [
+        "a. INSTR",
+        "b. Length",
+        "c. Trim",
+        "d. SUBSTR"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
+    },
+    {
       "question": "True/False. A null value means that the value is unavailable, unassigned, unknown, or inapplicable.",
       "answer": "True",
       "choices": [],
@@ -870,6 +1059,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:49:08Z"
+    },
+    {
+      "question": "What is the return value if the user try to do the following: SELECT TRUNC (65.73,-2) FROM DUAL;",
+      "answer": "0",
+      "choices": [
+        "a. 600",
+        "b. 0",
+        "c. 00",
+        "d. 60"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:51:45Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:51:45Z"
     },
     {
       "question": "Which of the following is not part of advantage of database?",
