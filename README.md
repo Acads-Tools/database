@@ -134,7 +134,7 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 | `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
 | `HMS6301` | HMS6301 | **10** | Active |
 | `IT6200` | IT6200 | **19** | Active |
-| `IT6201A` | Data Structures and Algorithm Analysis | **83** | Active |
+| `IT6201A` | Data Structures and Algorithm Analysis | **88** | Active |
 | `IT6201B` | Data Structures and Algorithm Analysis | **117** | Active |
 | `IT6205A` | Information Assurance and Security 1 | **126** | Active |
 | `IT6206` | Information Assurance and Security 2 | **135** | Active |

@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T23:02:46Z",
-  "totalQuestions": 83,
+  "updatedAt": "2026-10-22T23:04:57Z",
+  "totalQuestions": 88,
   "questions": [
     {
       "question": "A system used to concatenate one column to another column.",
@@ -165,13 +165,13 @@
       "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
-      "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56724/v.png]] Which of the following is the correct query that displays the MINIMUM salary of employees per job_id? Note job_id should be in lowercase.",
-      "answer": "SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
+      "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56723/v.png]] Which of the following is the correct query that displays the minimum lastname?",
+      "answer": "SELECT MIN(LASTNAME) FROM EMPLOYEES;",
       "choices": [
-        "a. SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES;",
-        "b. SELECT MIN(SALARY) AS LOWEST SALARY, LOWER(JOB_ID) FROM EMPLOYEES;",
-        "c. SELECT MIN(SALARY) AS LOWEST SALARY, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
-        "d. SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;"
+        "a. SELECT MIN(LASTNAME) FROM EMPLOYEES;",
+        "b. SELECT COUNT (MIN(LASTNAME)) FROM EMPLOYEES;",
+        "c. SELECT COUNT (DISCTINCT MIN(LASTNAME)) FROM EMPLOYEES;",
+        "d. SELECT MIN LASTNAME FROM EMPLOYEES;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -179,11 +179,35 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-22T23:04:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56724/v.png]] Which of the following is the correct query that displays the MINIMUM salary of employees per job_id? Note job_id should be in lowercase.",
+      "answer": "SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
+      "choices": [
+        "a. SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES;",
+        "b. SELECT MIN(SALARY) AS LOWEST SALARY, LOWER(JOB_ID) FROM EMPLOYEES;",
+        "c. SELECT MIN(SALARY) AS LOWEST SALARY, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
+        "d. SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
+        "a. SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;",
+        "c. SELECT MIN(SALARY) AS “LOWEST SALARY”, LOWER(JOB_ID) FROM EMPLOYEES;",
+        "d. SELECT MIN(SALARY) AS LOWEST SALARY, LOWER(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T23:00:39Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T23:00:39Z"
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56725/v.png]] Which of the following is the correct query that counts the number of ST_CLERK job_id? Rename the column as “Total no. of ST_CLERK”.",
@@ -192,19 +216,22 @@
         "a. SELECT COUNT(JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
         "b. SELECT COUNT(JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID != ‘ST_CLERK’;",
         "c. SELECT COUNT * (JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
-        "d. SELECT COUNT(JOB_ID), AS TOTAL NO. OF ST_CLERK FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;"
+        "d. SELECT COUNT(JOB_ID), AS TOTAL NO. OF ST_CLERK FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
+        "a. SELECT COUNT * (JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
+        "c. SELECT COUNT(JOB_ID), AS TOTAL NO. OF ST_CLERK FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;",
+        "d. SELECT COUNT(JOB_ID), AS “TOTAL NO. OF ST_CLERK” FROM EMPLOYEES WHERE JOB_ID = ‘ST_CLERK’;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T23:00:39Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T23:00:39Z"
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56726/v.png]] Which of the following is the correct that display distinct job_id and the the total number per distinct (unique) job_id.",
@@ -249,6 +276,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T23:02:46Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56728/v.png]] Which of the following is the correct query that displays the lowest salary rename as “LOWEST SALARY”, maximum salary rename as “HIGHEST SALARY” and department_id concatenated to job_id?",
+      "answer": "SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY JOB_ID,DEPARTMENT_ID;",
+      "choices": [
+        "a. SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY DEPARTMENT_ID;",
+        "b. SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY JOB_ID,DEPARTMENT_ID;",
+        "c. SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES;",
+        "d. SELECT CONCAT(DEPARTMENT_ID,JOB_ID),MIN(SALARY), MAX(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T23:04:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56729/v.png]] Which of the following is the correct report that display the smallest (minimum) Surname.. and apply the ff. functions: Get the average salary; Group the data per job_id; Get only job_id with a keyword “REP”; and Apply having clause, which the max salary per job_id is greater than 5000.",
@@ -297,6 +345,48 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-22T23:02:46Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56731/v.png]] Which of the following is the correct query that display the maximum lastname concatenated to firstname and rename the column as “Employees Name”, Job_id and apply the ff. functions: Count the Job_id; Apply where condition whose lastname ends with letter ‘N’; Group the job_id; and Apply having clause of employees having average salary that is greater than 10000.",
+      "answer": "SELECT MAX(LASTNAME||FIRSTNAME) AS \"EMPLOYEES NAME\", JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES WHERE LASTNAME LIKE '%N' GROUP BY JOB_ID HAVING AVG(SALARY)>10000;",
+      "choices": [
+        "a. SELECT MAX(LASTNAME||FIRSTNAME) AS \"EMPLOYEES NAME\", JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES GROUP BY JOB_ID WHERE LASTNAME LIKE '%N' HAVING AVG(SALARY)>10000;",
+        "b. SELECT MAX(LASTNAME||FIRSTNAME) AS \"EMPLOYEES NAME\", JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES WHERE LASTNAME LIKE '%N' GROUP BY JOB_ID HAVING AVG(SALARY)>10000;",
+        "c. SELECT MAX(LASTNAME||FIRSTNAME) AS \"EMPLOYEES NAME\", JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES WHERE LASTNAME LIKE '%N' GROUP BY JOB_ID HAVING AVG(SALARY)<10000;",
+        "d. SELECT MAX(LASTNAME||FIRSTNAME) AS EMPLOYEES NAME, JOB_ID, COUNT(JOB_ID) FROM EMPLOYEES WHERE LASTNAME LIKE '%N' GROUP BY JOB_ID HAVING AVG(SALARY)>10000;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T23:04:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on the table EMPLOYEES as shown below. Table 1.0 EMPLOYEES [Image: [moodle-asset:56732/v.png]] Which of the following is the correct query that displays the maximum salary?",
+      "answer": "SELECT MAX(SALARY) FROM EMPLOYEES;",
+      "choices": [
+        "a. SELECT MAX SALARY FROM EMPLOYEES;",
+        "b. SELECT MAX(SALARY) FROM EMPLOYEES;",
+        "c. SELECT COUNT (MAX(SALARY)) FROM EMPLOYEES;",
+        "d. SELECT COUNT (DISCTINCT MAX(SALARY)) FROM EMPLOYEES;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T23:04:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Extracts a string of determined length.",
@@ -1573,19 +1663,22 @@
       "choices": [
         "a. SELECT COUNT ALL FROM EMPLOYEES;",
         "b. SELECT * FROM EMPLOYEES;",
-        "c. SELECT COUNT(*) FROM EMPLOYEES;"
+        "c. SELECT COUNT(*) FROM EMPLOYEES;",
+        "a. SELECT COUNT(*) FROM EMPLOYEES;",
+        "b. SELECT COUNT ALL FROM EMPLOYEES;",
+        "c. SELECT * FROM EMPLOYEES;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T23:00:39Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T23:00:39Z"
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Which of the following query is correct which will display the same output as shown below? [Image: [moodle-asset:56737/v.png]]",
@@ -1594,19 +1687,23 @@
         "a. SELECT COUNT(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
         "b. SELECT COUNT(MANAGER_ID) NO. OF MANAGER_ID FROM EMPLOYEES;",
         "c. SELECT COUNTDISTINCT(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
-        "d. SELECT COUNT *(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;"
+        "d. SELECT COUNT *(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+        "a. SELECT COUNT *(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+        "b. SELECT COUNTDISTINCT(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;",
+        "c. SELECT COUNT(MANAGER_ID) NO. OF MANAGER_ID FROM EMPLOYEES;",
+        "d. SELECT COUNT(MANAGER_ID) AS \"NO. OF MANAGER_ID\" FROM EMPLOYEES;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T23:00:39Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T23:00:39Z"
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Which of the following query is correct which will display the same output as shown below? [Image: [moodle-asset:56738/v.png]]",
@@ -1615,19 +1712,22 @@
         "a. SELECT JOB_ID, COUNT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES;",
         "b. SELECT JOB_ID, COUNT*(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
         "c. SELECT JOB_ID, COUNTDISTINCT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
-        "d. SELECT JOB_ID, COUNT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;"
+        "d. SELECT JOB_ID, COUNT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+        "a. SELECT JOB_ID, COUNT*(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+        "b. SELECT JOB_ID, COUNT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES GROUP BY JOB_ID;",
+        "d. SELECT JOB_ID, COUNT(JOB_ID)\"NO. OF JOB_ID\", SUM(SALARY), AVG(SALARY) FROM EMPLOYEES;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T23:00:39Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T23:00:39Z"
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Which of the following query is correct which will display the same output as shown below? [Image: [moodle-asset:56739/v.png]]",
@@ -1676,6 +1776,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-22T23:02:46Z"
+    },
+    {
+      "question": "Which of the following query is correct which will display the same output as shown below? [Image: [moodle-asset:56741/v.png]]",
+      "answer": "SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN(90,50) GROUP BY DEPARTMENT_ID HAVING MIN(DEPARTMENT_ID)<=90;",
+      "choices": [
+        "a. SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES GROUP BY DEPARTMENT_ID WHERE DEPARTMENT_ID IN(90,50) HAVING MIN(DEPARTMENT_ID)<=90;",
+        "b. SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN(90,50) HAVING MIN(DEPARTMENT_ID)<=90;",
+        "c. SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN(90,50) GROUP BY DEPARTMENT_ID HAVING MIN(DEPARTMENT_ID)<=90;",
+        "d. SELECT MIN(LASTNAME||FIRSTNAME) AS NAME, DEPARTMENT_ID FROM EMPLOYEES WHERE DEPARTMENT_ID IN(90,50) GROUP BY DEPARTMENT_ID HAVING(DEPARTMENT_ID)<=90;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T23:04:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T23:04:57Z"
     },
     {
       "question": "Which of the following query is correct which will display the same output as shown below? [Image: [moodle-asset:56742/v.png]]",
