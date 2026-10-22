@@ -1,10 +1,68 @@
 {
   "subjectCode": "CS6200",
   "subjectName": "CS6200",
-  "updatedAt": "2026-10-14T09:31:52Z",
-  "totalQuestions": 17,
+  "updatedAt": "2026-10-22T21:45:13Z",
+  "totalQuestions": 24,
   "tier": "verified",
   "questions": [
+    {
+      "question": "________________ among users and computers happens at the user interface which includes both software and hardware.",
+      "answer": "Interaction",
+      "choices": [
+        "a. Interface",
+        "b. Design",
+        "c. Interaction",
+        "d. Development"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:45:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
+    },
+    {
+      "question": "A [____] software system is one that supports the effective and efficient completino of tasks in a given work context.",
+      "answer": "usable",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:45:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
+    },
+    {
+      "question": "Developers must attempt to ______________________ in order to produce computer systems with good usability.",
+      "answer": "achieve efficient, effective and safe interaction",
+      "choices": [
+        "a. achieve efficient, effective and safe interaction",
+        "b. easy to remember how to use",
+        "c. designed with little regard to usability",
+        "d. capabilities and preferences for conducting various tasks"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:45:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
+    },
     {
       "question": "Evaluation done during design to ensure that the product continues to meet the needs of users are known as __________ evaluation",
       "answer": "Formative",
@@ -30,6 +88,46 @@
       "firstSeenAt": "2026-10-14T09:27:49Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T09:31:52Z"
+    },
+    {
+      "question": "HCI encompasses three major parts within the framework, ____________, _______________ and _________________.",
+      "answer": "human, computer, interaction",
+      "choices": [
+        "a. user, computer, interface",
+        "b. human, machine, interface",
+        "c. human, computer, interaction",
+        "d. user, machine, interaction"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:45:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
+    },
+    {
+      "question": "HCI is about understanding and creating software and other technology that people will want to use, will be able to use, and will find effective when used.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:45:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
     },
     {
       "question": "Human and computer interaction focuses on human-machine interface _____________",
@@ -96,17 +194,19 @@
         "c. user and interaction",
         "b. human and machine",
         "c. user and interface",
-        "d. user and interaction"
+        "d. user and interaction",
+        "a. user and interaction",
+        "d. user and interface"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:27:49Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T09:31:52Z"
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
     },
     {
       "question": "In achieving the goal of designing HCI. _______________ plays an important role",
@@ -251,7 +351,8 @@
         "e. decreased user errors",
         "c. decreased user errors",
         "c. decreased user training time and cost",
-        "e. increased productivity"
+        "e. increased productivity",
+        "d. decreased accuracy of data input and data interpretation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -278,6 +379,10 @@
         {
           "rejectedAnswer": "decreased user errors, increased productivity",
           "timestamp": "2026-10-14T09:31:52Z"
+        },
+        {
+          "rejectedAnswer": "increased productivity, decreased user training time and cost, decreased user errors",
+          "timestamp": "2026-10-22T21:45:13Z"
         }
       ]
     },
@@ -305,6 +410,28 @@
       "firstSeenAt": "2026-10-14T09:27:49Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T09:31:52Z"
+    },
+    {
+      "question": "There are three broad categories of user. This category of users know well how to perform the tasks they need to perform frequently.",
+      "answer": "occasional users",
+      "choices": [
+        "a. all of the choices",
+        "b. expert users",
+        "c. novice users",
+        "d. none of the choices",
+        "e. occasional users"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:45:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
     },
     {
       "question": "What are the elements of the Gulf of Execution?",
@@ -384,6 +511,27 @@
       "firstSeenAt": "2026-10-14T09:27:49Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T09:31:52Z"
+    },
+    {
+      "question": "When humans communicate with _____________, they bring to the encounter a lifetime of",
+      "answer": "computer",
+      "choices": [
+        "a. experience",
+        "b. computer",
+        "c. machine",
+        "d. interface"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:45:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:45:13Z"
     },
     {
       "question": "Which of the following is the principles of HCI?",
