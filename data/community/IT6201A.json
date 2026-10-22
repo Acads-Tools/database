@@ -1,9 +1,30 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:04:07Z",
-  "totalQuestions": 23,
+  "updatedAt": "2026-10-22T22:08:28Z",
+  "totalQuestions": 33,
   "questions": [
+    {
+      "question": "A system used to concatenate one column to another column.",
+      "answer": "||",
+      "choices": [
+        "a. [Image: egg - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/egg]",
+        "b. *",
+        "c. AS",
+        "d. ||"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
     {
       "question": "Are applied to the table and form the logical schema.",
       "answer": "Constraints",
@@ -90,6 +111,27 @@
       "lastVerifiedAt": "2026-10-22T22:04:07Z"
     },
     {
+      "question": "It is a character, a number, or a date that is included in the SELECT statement.",
+      "answer": "Literal",
+      "choices": [
+        "a. Literal",
+        "b. Alias",
+        "c. Table name",
+        "d. String"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
       "question": "It is a collection of interrelated data and a set of programs to access those data.",
       "answer": "Database management system",
       "choices": [],
@@ -124,6 +166,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T21:57:47Z"
+    },
+    {
+      "question": "It is a value that is unavailable, unassigned, unknown, or inapplicable.",
+      "answer": "NULL",
+      "choices": [
+        "a. Zero",
+        "b. Blank",
+        "c. NULL",
+        "d. Space"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
     },
     {
       "question": "It is an association among several entities.",
@@ -240,6 +303,27 @@
       "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
+      "question": "Supposed that the user uses the ff SELECT statement: what will be the possible output. SELECT GRADE AS STUDENT MARK FROM GRADE_REPORT;",
+      "answer": "Error because of missing “” mark.",
+      "choices": [
+        "a. Will display all rows and columns.",
+        "b. Error because of the keyword AS.",
+        "c. Error because of missing “” mark.",
+        "d. Will display the column GRADE rename as STUDENT MARK"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
       "question": "The overall design of the database is called the",
       "answer": "Database schema",
       "choices": [],
@@ -270,6 +354,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:00:37Z"
+    },
+    {
+      "question": "This character is used to override the default precedence or to clarify the statement.",
+      "answer": "[Image: egg - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/egg]",
+      "choices": [
+        "a. AS",
+        "b. *",
+        "c. [Image: egg - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/egg]",
+        "d. ||"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
     },
     {
       "question": "This describes the database design at the logical level.",
@@ -358,6 +463,90 @@
       "lastEvidenceAt": "2026-10-22T22:02:52Z"
     },
     {
+      "question": "This is use to create expression with number and date values.",
+      "answer": "Arithmetic expression",
+      "choices": [
+        "a. Numerical Values",
+        "b. MDAS operator",
+        "c. Arithmetic expression",
+        "d. Logical Condition"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
+      "question": "This is use to Selects the columns in a table that are returned by a query. Selects a few or as many of the columns as required.",
+      "answer": "Projection",
+      "choices": [
+        "a. Selection",
+        "b. Joins",
+        "c. Inclusion",
+        "d. Projection"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
+      "question": "This is used to brings together data that is stored in different tables by specifying the link between them.",
+      "answer": "Joins",
+      "choices": [
+        "a. Joins",
+        "b. Inclusion",
+        "c. Selection",
+        "d. Projection"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
+      "question": "This is used to selects the rows in a table that are returned by a query. Various criteria can be used to restrict the rows that are retrieved.",
+      "answer": "Selection",
+      "choices": [
+        "a. Joins",
+        "b. Projection",
+        "c. Selection",
+        "d. Inclusion"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
       "question": "Which of the following is not part of data manipulation language?",
       "answer": "Alter",
       "choices": [
@@ -398,6 +587,29 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:04:07Z"
+    },
+    {
+      "question": "Which of the following is not true about writing SQL statements?",
+      "answer": "",
+      "choices": [
+        "a. Clauses are usually placed on separate lines for readability and ease of editing.",
+        "b. Keywords cannot be split across lines or abbreviated.",
+        "c. SQL statements are not case sensitive.",
+        "d. Indents should be used to make code more readable."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Indents should be used to make code more readable."
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:08:28Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:08:28Z"
     }
   ]
 }
