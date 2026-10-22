@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:40:22Z",
+  "updatedAt": "2026-10-22T22:43:23Z",
   "totalQuestions": 58,
   "questions": [
     {
@@ -50,12 +50,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:36:14Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "Choose the letter of the correct answer based on table PARTS as shown below [Image: [moodle-asset:56665/capture.PNG]] Which of the following is the correct report listing only the column PARTNUM, DESCRIPTION and PRICE of all PARTS where price is less than 500. Sort the PRICE in ascending order.Mark 1.00 out of 1.00",
@@ -210,12 +210,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:04:07Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "It is a character, a number, or a date that is included in the SELECT statement.",
@@ -250,13 +250,13 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-22T22:00:37Z",
-      "lastVerifiedAt": "2026-10-22T22:02:52Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "It is a unit of data – is a symbol or a set of symbols which is used to represent something.",
@@ -352,12 +352,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:04:07Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "It is the collection of basic objects.",
@@ -368,12 +368,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:36:14Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "It is the collection of information stored in the database at a particular moment is called",
@@ -386,13 +386,13 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-22T21:52:33Z",
-      "lastVerifiedAt": "2026-10-22T22:36:14Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "It is the term generally used to describe what was done by large mainframe computers from the late 1940's until the early 1980's.",
@@ -479,12 +479,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:36:14Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "This character is used to override the default precedence or to clarify the statement.",
@@ -552,12 +552,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:36:14Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "This is also known as facts that can be recorded and that have implicit meaning.",
@@ -568,16 +568,16 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:36:14Z"
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "This is formed by one or more than one attributes.",
-      "answer": "",
+      "answer": "Tuple",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
@@ -585,14 +585,15 @@
         "identifier"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-22T22:02:52Z"
+      "lastEvidenceAt": "2026-10-22T22:02:52Z",
+      "lastVerifiedAt": "2026-10-22T22:43:23Z"
     },
     {
       "question": "This is use to create expression with number and date values.",
