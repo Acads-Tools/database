@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:36:14Z",
-  "totalQuestions": 52,
+  "updatedAt": "2026-10-22T22:40:22Z",
+  "totalQuestions": 58,
   "questions": [
     {
       "question": "A system used to concatenate one column to another column.",
@@ -779,6 +779,24 @@
       "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
+      "question": "True/False. Database Architecture is the overall design of the database",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:40:22Z"
+    },
+    {
       "question": "True/False. Database is the term generally used to describe what was done by large mainframe computers from the late 1940's until the early 1980's.",
       "answer": "False",
       "choices": [],
@@ -793,6 +811,24 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "True/False. Database Management System is a collection of interrelated data and a set of programs to access those data.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "True/False. Security is one of the characteristic of database that includes also the protection of the database from unauthorized access confidentiality and unauthorized changes.",
@@ -811,6 +847,22 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "True/False. Table is known as the collection of data that contains information relevant to an enterprise.",
+      "answer": "False",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "Which of the following is not part of advantage of database?",
@@ -863,19 +915,21 @@
         "a. Data Integrity",
         "b. Data Persistence",
         "c. Data Processing",
-        "d. Transactions"
+        "d. Transactions",
+        "a. Transactions",
+        "d. Data Integrity"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T22:34:24Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "Which of the following is not part of data manipulation language?",
@@ -900,26 +954,73 @@
     },
     {
       "question": "Which of the following is not part of DDL statement?",
-      "answer": "",
+      "answer": "DELETE",
       "choices": [
         "a. DELETE",
         "b. ALTER",
         "c. None of the choices",
-        "d. CREATE"
+        "d. CREATE",
+        "a. ALTER",
+        "b. DELETE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "None of the choices"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-22T22:34:24Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-22T22:34:24Z"
+      "lastEvidenceAt": "2026-10-22T22:34:24Z",
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
+    },
+    {
+      "question": "Which of the following is not part of disadvantage of database?",
+      "answer": "Data integrity",
+      "choices": [
+        "a. Lower Efficiency",
+        "b. Qualified Personnel",
+        "c. Data integrity",
+        "d. Costs"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
+    },
+    {
+      "question": "Which of the following is not part of DML statement?",
+      "answer": "",
+      "choices": [
+        "a. CREATE table",
+        "b. INSERT",
+        "c. MERGER",
+        "d. UPDATE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "MERGER"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "Which of the following is not part of handling data?",
@@ -941,6 +1042,29 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:34:24Z"
+    },
+    {
+      "question": "Which of the following is not part of other Comparison Operator?",
+      "answer": "",
+      "choices": [
+        "a. IN",
+        "b. Between AND",
+        "c. IS NUL",
+        "d."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "IS NUL"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "Which of the following is not part of transaction control?",
@@ -970,19 +1094,21 @@
         "a. Phone_no",
         "b. EMPLOYEES",
         "c. STUDENT",
-        "d. ORDERS"
+        "d. ORDERS",
+        "c. ORDERS",
+        "d. STUDENT"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T22:34:24Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "Which of the following is not true about writing SQL statements?",

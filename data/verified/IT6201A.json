@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:36:14Z",
-  "totalQuestions": 45,
+  "updatedAt": "2026-10-22T22:40:22Z",
+  "totalQuestions": 48,
   "tier": "verified",
   "questions": [
     {
@@ -731,6 +731,22 @@
       "lastVerifiedAt": "2026-10-22T22:34:24Z"
     },
     {
+      "question": "True/False. Table is known as the collection of data that contains information relevant to an enterprise.",
+      "answer": "False",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
+    },
+    {
       "question": "Which of the following is not part of advantage of database?",
       "answer": "Database instance",
       "choices": [
@@ -758,19 +774,21 @@
         "a. Data Integrity",
         "b. Data Persistence",
         "c. Data Processing",
-        "d. Transactions"
+        "d. Transactions",
+        "a. Transactions",
+        "d. Data Integrity"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T22:34:24Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "Which of the following is not part of data manipulation language?",
@@ -792,6 +810,53 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:00:37Z"
+    },
+    {
+      "question": "Which of the following is not part of DDL statement?",
+      "answer": "DELETE",
+      "choices": [
+        "a. DELETE",
+        "b. ALTER",
+        "c. None of the choices",
+        "d. CREATE",
+        "a. ALTER",
+        "b. DELETE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "None of the choices"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:34:24Z",
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
+    },
+    {
+      "question": "Which of the following is not part of disadvantage of database?",
+      "answer": "Data integrity",
+      "choices": [
+        "a. Lower Efficiency",
+        "b. Qualified Personnel",
+        "c. Data integrity",
+        "d. Costs"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
     },
     {
       "question": "Which of the following is not part of handling data?",
@@ -842,19 +907,21 @@
         "a. Phone_no",
         "b. EMPLOYEES",
         "c. STUDENT",
-        "d. ORDERS"
+        "d. ORDERS",
+        "c. ORDERS",
+        "d. STUDENT"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T22:34:24Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+      "lastVerifiedAt": "2026-10-22T22:40:22Z"
     }
   ]
 }
