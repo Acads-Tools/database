@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:08:28Z",
-  "totalQuestions": 29,
+  "updatedAt": "2026-10-22T22:20:55Z",
+  "totalQuestions": 38,
   "tier": "verified",
   "questions": [
     {
@@ -57,6 +57,90 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:00:37Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on table PARTS as shown below [Image: [moodle-asset:56665/capture.PNG]] Which of the following is the correct report listing only the column PARTNUM, DESCRIPTION and PRICE of all PARTS where price is less than 500. Sort the PRICE in ascending order.Mark 1.00 out of 1.00",
+      "answer": "SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE < 500;",
+      "choices": [
+        "a. SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE < 500;",
+        "b. SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE > 500;",
+        "c. SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE <=500;",
+        "d. SELECT PARTNUN, DESCRIPTION, PRICE FROM PARTS WHERE PRICE >= 500;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on table PARTS as shown below [Image: [moodle-asset:56669/capture.PNG]] Which of the following is the correct report listing only the column DESCRIPTION, ONHAND, CLASS and PRICE of all price where the description ends with letter ‘N’.Mark 1.00 out of 1.00",
+      "answer": "SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘%N’;",
+      "choices": [
+        "a. SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘%N’;",
+        "b. SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘N%’;",
+        "c. SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION LIKE ‘%N%’;",
+        "d. SELECT DESCRIPTION, ONHAND, CLASSS FROM PARTS WHERE DESCRIPTION NOT LIKE ‘%N’;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on table PARTS as shown below [Image: [moodle-asset:56670/capture.PNG]] Which of the following is the correct report listing only the column DESCRIPTION, WAREHOUSE, CLASS and PRICE of all parts where the description contains keyword ‘SHE’.Mark 1.00 out of 1.00",
+      "answer": "SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘%SHE%’;",
+      "choices": [
+        "a. SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘%SHE%’;",
+        "b. SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘SHE%’;",
+        "c. SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘%SHE’;",
+        "d. SELECT DESCRIPTION, WAREHOUSE, CLASS, PRICE FROM PARTS WHERE DESCRIPTION LIKE ‘SHE’;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
+    },
+    {
+      "question": "Choose the letter of the correct answer based on table PARTS as shown below [Image: [moodle-asset:56677/capture.PNG]] Which of the following is the correct report that will display the DESCRIPTION, WAREHOUSE AND distinct value for CLASS.Mark 1.00 out of 1.00",
+      "answer": "SELECT DESCRIPTION, WAREHOUSE, DISTINCT (CLASS) FROM PARTS;",
+      "choices": [
+        "a. SELECT DESCRIPTION, WAREHOUSE, DISTINCT (CLASS) FROM PARTS;",
+        "b. SELECT DESCRIPTION, WAREHOUSE, CLASS FROM PARTS;",
+        "c. SELECT DISTINCT DESCRIPTION, WAREHOUSE, CLASS FROM PARTS;",
+        "d. SELECT DESCRIPTION, WAREHOUSE, DISTINCT ‘CLASS ‘ FROM PARTS;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
       "question": "He proposed the relational model for database systems in 1970.",
@@ -471,6 +555,69 @@
       "lastVerifiedAt": "2026-10-22T22:08:28Z"
     },
     {
+      "question": "This is used to display rows based on a range of values.",
+      "answer": "Between",
+      "choices": [
+        "a. Comparison",
+        "b. IN",
+        "c. Like",
+        "d. Between"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
+    },
+    {
+      "question": "This is used to in conditions that compare one expression with another value or expression.",
+      "answer": "Comparison",
+      "choices": [
+        "a. Logical Condition",
+        "b. Subtraction",
+        "c. Comparison",
+        "d. Add"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
+    },
+    {
+      "question": "This is used to restrict the rows that are returned by a query.",
+      "answer": "Where",
+      "choices": [
+        "a. Delete",
+        "b. Where",
+        "c. Select",
+        "d. Insert"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
+    },
+    {
       "question": "This is used to selects the rows in a table that are returned by a query. Various criteria can be used to restrict the rows that are retrieved.",
       "answer": "Selection",
       "choices": [
@@ -490,6 +637,43 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T22:08:28Z"
+    },
+    {
+      "question": "This is used to test for values in a specified set of values.",
+      "answer": "IN",
+      "choices": [
+        "a. Between",
+        "b. Like",
+        "c. Comparison",
+        "d. IN"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
+    },
+    {
+      "question": "True/False. A null value means that the value is unavailable, unassigned, unknown, or inapplicable.",
+      "answer": "True",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:20:55Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
       "question": "Which of the following is not part of data manipulation language?",
