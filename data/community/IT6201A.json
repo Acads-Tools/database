@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:00:37Z",
+  "updatedAt": "2026-10-22T22:02:52Z",
   "totalQuestions": 21,
   "questions": [
     {
@@ -13,12 +13,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "Are said to exhibit physical data independence if they do not depend on the physical schema.",
@@ -61,16 +61,16 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "It is a collection of interrelated data and a set of programs to access those data.",
-      "answer": "",
+      "answer": "Database management system",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
@@ -78,14 +78,15 @@
         "Database-management system"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-22T22:00:37Z"
+      "lastEvidenceAt": "2026-10-22T22:00:37Z",
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "It is a unit of data – is a symbol or a set of symbols which is used to represent something.",
@@ -112,12 +113,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:00:37Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "It is an interpreted data – data supplied with semantics.",
@@ -128,12 +129,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "It is collection of data that contains information relevant to an enterprise.",
@@ -160,12 +161,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "It is the collection of basic objects.",
@@ -210,12 +211,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:00:37Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "The overall design of the database is called the",
@@ -226,12 +227,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "The overall logical structure schema of a database can be expressed graphically by an [____] .",
@@ -258,12 +259,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "This describes the database design at the physical level.",
@@ -322,7 +323,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "instance of the database"
+        "instance of the database",
+        "identifier"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -332,7 +334,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-22T21:57:47Z"
+      "lastEvidenceAt": "2026-10-22T22:02:52Z"
     },
     {
       "question": "Which of the following is not part of data manipulation language?",
