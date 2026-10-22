@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T21:57:47Z",
-  "totalQuestions": 16,
+  "updatedAt": "2026-10-22T22:00:37Z",
+  "totalQuestions": 17,
   "tier": "verified",
   "questions": [
     {
@@ -30,12 +30,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "Is the underlying the structure of a database.",
@@ -46,12 +46,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "It is a bundle of actions which are done within a database to bring it from one consistent state to a new consistent state.",
@@ -94,12 +94,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "It is an interpreted data – data supplied with semantics.",
@@ -174,12 +174,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "The overall design of the database is called the",
@@ -206,12 +206,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "This describes the database design at the logical level.",
@@ -238,12 +238,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "This is also known as facts that can be recorded and that have implicit meaning.",
@@ -260,6 +260,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T21:52:33Z"
+    },
+    {
+      "question": "Which of the following is not part of data manipulation language?",
+      "answer": "Alter",
+      "choices": [
+        "a. merge",
+        "b. Insert",
+        "c. Update",
+        "d. Alter"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:00:37Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     }
   ]
 }

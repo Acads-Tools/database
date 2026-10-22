@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T21:57:47Z",
-  "totalQuestions": 20,
+  "updatedAt": "2026-10-22T22:00:37Z",
+  "totalQuestions": 21,
   "questions": [
     {
       "question": "Are applied to the table and form the logical schema.",
@@ -29,12 +29,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "Is the underlying the structure of a database.",
@@ -45,12 +45,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "It is a bundle of actions which are done within a database to bring it from one consistent state to a new consistent state.",
@@ -74,7 +74,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "Database-management system (DBMS)"
+        "Database-management system (DBMS)",
+        "Database-management system"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -84,7 +85,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-22T21:57:47Z"
+      "lastEvidenceAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "It is a unit of data – is a symbol or a set of symbols which is used to represent something.",
@@ -111,12 +112,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "It is an interpreted data – data supplied with semantics.",
@@ -209,12 +210,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "The overall design of the database is called the",
@@ -241,12 +242,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:52:33Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:52:33Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "This describes the database design at the logical level.",
@@ -270,7 +271,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "logical schema"
+        "logical schema",
+        "NOT identifier, primary key, Identifiers, Identifier"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -280,7 +282,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-22T21:52:33Z"
+      "lastEvidenceAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "This is a characteristic of database that includes also the protection of the database from unauthorized access confidentiality and unauthorized changes.",
@@ -291,12 +293,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T21:57:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     },
     {
       "question": "This is also known as facts that can be recorded and that have implicit meaning.",
@@ -331,6 +333,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-22T21:57:47Z"
+    },
+    {
+      "question": "Which of the following is not part of data manipulation language?",
+      "answer": "Alter",
+      "choices": [
+        "a. merge",
+        "b. Insert",
+        "c. Update",
+        "d. Alter"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:00:37Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:00:37Z"
     }
   ]
 }
