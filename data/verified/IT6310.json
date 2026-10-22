@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-06T10:32:15Z",
+  "updatedAt": "2026-10-22T14:19:29Z",
   "totalQuestions": 109,
   "tier": "verified",
   "questions": [
@@ -17,9 +17,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:22:47Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
@@ -32,11 +32,13 @@
         "WTLS"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "A tool (typically based on IPsec or SSL) that authenticates the communication between a device and a secure network, creating a secure, encrypted \"tunnel\" across the open internet",
@@ -45,11 +47,13 @@
         "VPN"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "A type of malware that automatically sends advertisements to the users.",
@@ -63,9 +67,9 @@
         "d. Adware"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -74,7 +78,8 @@
           "rejectedAnswer": "Advertising-supported software",
           "timestamp": "2026-10-06T10:18:50Z"
         }
-      ]
+      ],
+      "isAiSuggestion": false
     },
     {
       "question": "Always disable unnecessary features of the web server that are not going to be used",
@@ -86,9 +91,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -105,9 +110,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:16:37Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "shortanswer",
       "wrongAnswerEvidence": true,
@@ -121,9 +126,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -137,9 +142,9 @@
         "b. Virus"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -156,9 +161,9 @@
         "b. Detection"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -171,11 +176,13 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Availability refers to the ability of a network to protect its information from any unauthorized access.",
@@ -185,9 +192,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-06T10:16:37Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -201,9 +208,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-06T10:16:37Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -217,9 +224,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -235,9 +242,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -246,9 +253,9 @@
       "answer": "NTFS",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -259,9 +266,9 @@
       "answer": "6",
       "choices": [],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-06T10:16:37Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -274,11 +281,13 @@
         "Data Loss Prevention"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "If the network isn't a line or a point: it's a _____________.",
@@ -287,11 +296,13 @@
         "territory"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "If there's one common theme among security experts, it's that relying on one single line of defense is dangerous, because any single defensive tool can be defeated by a determined adversary.",
@@ -300,11 +311,13 @@
         "defense in depth strategy"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Internet is an example of a network.",
@@ -314,9 +327,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -335,9 +348,9 @@
         "a. Security hot-fix"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -360,9 +373,9 @@
         "d. Messenger service"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -379,9 +392,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -392,20 +405,22 @@
         "WEP 64"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It determines whether you are allowed to access a specific information or file.",
       "answer": "Authorization",
       "choices": [],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -418,11 +433,13 @@
         "trojan horse"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It ensure that the essential and vital services are only running on the system",
@@ -435,9 +452,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:22:47Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
@@ -454,9 +471,9 @@
         "b. Availability"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -474,9 +491,9 @@
         "c. Router"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -495,9 +512,9 @@
         "c. ISO Reference Model"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -510,11 +527,13 @@
         "network security"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It helps prevent attackers from monitoring or recording traffic between resources and computers.",
@@ -523,20 +542,22 @@
         "data encryption"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a core feature of Windows that allow the network administrator to enable and disable different features in Windows",
       "answer": "Group Policy",
       "choices": [],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:22:47Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -556,9 +577,9 @@
         "d. CIA Triad Information Security"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -586,9 +607,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -613,9 +634,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -626,20 +647,22 @@
         "worm"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a set of standards that are widely used as a basis for communication.",
       "answer": "Protocol",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -659,9 +682,9 @@
         "c. Messenger service"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -689,9 +712,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -717,9 +740,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswerEvidence": true,
       "questionType": "multichoice",
@@ -737,9 +760,9 @@
         "c. Preventive"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -752,20 +775,22 @@
         "LEAP"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is an act that exploits a vulnerability.",
       "answer": "Attack",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:19:36Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -780,9 +805,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -795,9 +820,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -806,9 +831,9 @@
       "answer": "Threat",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:19:36Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -826,9 +851,9 @@
         "c. Security"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-09-22T04:32:32Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
       "conflictHistory": [
         {
@@ -845,10 +870,10 @@
         }
       ],
       "wrongAnswers": [
-        "Information",
         "Data"
       ],
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is the idea of developing a database system to store and retrieve large volumes of data",
@@ -863,9 +888,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -874,9 +899,9 @@
       "answer": "detect",
       "choices": [],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -887,9 +912,9 @@
       "answer": "Network security",
       "choices": [],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T11:51:23Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Prevention"
@@ -909,9 +934,9 @@
         "c. Hardware"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -922,9 +947,9 @@
       "answer": "Spam",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -942,9 +967,9 @@
         "b. Virus"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -966,9 +991,9 @@
         "d. Session Layer"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:19:36Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -981,11 +1006,13 @@
         "unstructured attacks"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It uses code to access operating systems and software.",
@@ -994,11 +1021,13 @@
         "structured attacks"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It was the first generation security standard for wireless network.",
@@ -1007,11 +1036,13 @@
         "WEP"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It will help the company to provide a better strategy in keeping a data secured while avoiding intruders to alter or steal important and confidential information.",
@@ -1029,9 +1060,9 @@
         "c. CIA Triad of Information"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-06T10:16:37Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "conflictHistory": [
         {
@@ -1084,9 +1115,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -1097,11 +1128,13 @@
         "True"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Network security is the process of taking physical and software preventative measures to protect the underlying networking infrastructure from unauthorized access",
@@ -1110,20 +1143,22 @@
         "True"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "NTFS and FAT/FAT32 is an example of?",
       "answer": "File system",
       "choices": [],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1136,11 +1171,13 @@
         "malicious threats"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Preventive security is implemented by the tasks and tools you use to prevent unauthorized people or programs from accessing your networks and the devices connected to them.",
@@ -1149,11 +1186,13 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "SMTP and FTP are used to transfer information over a computer network.",
@@ -1165,9 +1204,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1178,11 +1217,13 @@
         "antivirus"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "SQL stands for?",
@@ -1197,9 +1238,9 @@
         "d. Structured Query Language"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1212,11 +1253,13 @@
         "False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "System that are intended to manage the computer itself such as the operating system.",
@@ -1230,9 +1273,9 @@
         "d. Software"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1279,9 +1322,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1292,11 +1335,13 @@
         "virus"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "These are logon information from all the websites you visit and is stored in memory on computer",
@@ -1307,9 +1352,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "shortanswer"
     },
@@ -1320,20 +1365,22 @@
         "data security attacks"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "These are what make networks prone to information loss and downtime",
       "answer": "Vulnerabilities",
       "choices": [],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:19:36Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1352,9 +1399,9 @@
         "c. ISO Layer"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1367,11 +1414,13 @@
         "CISCO"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This is a way of protecting a computer from intrusion through the ports.",
@@ -1380,11 +1429,13 @@
         "firewall"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This is an enhanced encryption protocol combining a 104-bit key and a 24-bit initializing vector.",
@@ -1393,11 +1444,13 @@
         "WEP 128"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This is an improved version of WEP.",
@@ -1406,11 +1459,13 @@
         "WPA"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This is data being transported on a network.",
@@ -1419,11 +1474,13 @@
         "traffic"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This is when the user damages data or equipment unintentionally.",
@@ -1432,11 +1489,13 @@
         "accidental threats"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This layer involves devices such as router, UTP Cables and other networking devices to transfer data.",
@@ -1453,9 +1512,9 @@
         "d. Transport Layer"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:19:36Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1466,9 +1525,9 @@
       "answer": "Application Layer",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1481,11 +1540,13 @@
         "physical security threats"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-18T08:05:39Z",
-      "lastVerifiedAt": "2026-09-23T14:39:58Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
-      "wrongAnswers": []
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This service is the one responsible for handling connections to a remote network resources.",
@@ -1501,9 +1562,9 @@
         "d. Messenger service"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1519,9 +1580,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1537,9 +1598,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:32:15Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1555,9 +1616,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:32:15Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1571,9 +1632,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:31:49Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1589,9 +1650,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:31:49Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1609,9 +1670,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:31:49Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -1634,9 +1695,9 @@
         "d. User settings"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1650,9 +1711,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1663,9 +1724,9 @@
       "answer": "Phishing",
       "choices": [],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1681,9 +1742,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:27:20Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1701,9 +1762,9 @@
         "d. Software freezes or crashes"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-09-22T12:31:44Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "community_contribution",
       "wrongAnswers": [],
       "alternateAnswers": [
@@ -1716,7 +1777,8 @@
           "timestamp": "2026-10-06T10:18:50Z"
         }
       ],
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "What is the name of the “secure cookie” used with EAP-FAST that can be used in lieu of a certificate, or even in addition to a certificate?",
@@ -1735,9 +1797,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:31:49Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1755,9 +1817,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:32:15Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1775,9 +1837,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:32:15Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1793,9 +1855,9 @@
         "c. Session Layer"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1817,9 +1879,9 @@
         "d. Uninstall Necessary Software"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1846,9 +1908,9 @@
         "d. SWITCH>enableSWITCH#configure terminalSWITCH(config)#interface f0/2SWITCH(config-if)#no shutdown"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-09-24T14:00:49Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "alternateAnswers": [
@@ -1911,9 +1973,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:32:15Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1930,9 +1992,9 @@
         "d. To secure company asset"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-18T08:20:16Z",
-      "lastVerifiedAt": "2026-10-04T11:14:52Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1955,9 +2017,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-06T10:31:49Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1976,9 +2038,9 @@
         "d. Messenger service"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T13:14:15Z",
-      "lastVerifiedAt": "2026-10-06T10:20:55Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1992,9 +2054,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T12:31:44Z",
-      "lastVerifiedAt": "2026-10-06T10:18:50Z",
+      "lastVerifiedAt": "2026-10-22T14:19:29Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
