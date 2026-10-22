@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T22:43:23Z",
-  "totalQuestions": 49,
+  "updatedAt": "2026-10-22T22:49:08Z",
+  "totalQuestions": 53,
   "tier": "verified",
   "questions": [
     {
@@ -389,6 +389,33 @@
       "lastVerifiedAt": "2026-10-22T22:02:52Z"
     },
     {
+      "question": "Suppose that the user wanted to add a new column name as CUST_NAME data type char size 6. What is the correct type of statement to use?",
+      "answer": "ALTER",
+      "choices": [
+        "a. UPDATE",
+        "b. INSERT",
+        "c. DELETE",
+        "d. ALTER",
+        "b. ALTER",
+        "c. INSERT",
+        "d. DELETE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "INSERT"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:34:24Z",
+      "lastVerifiedAt": "2026-10-22T22:49:08Z"
+    },
+    {
       "question": "Supposed that the user uses the ff SELECT statement: what will be the possible output. SELECT GRADE AS STUDENT MARK FROM GRADE_REPORT;",
       "answer": "Error because of missing “” mark.",
       "choices": [
@@ -735,6 +762,25 @@
       "lastVerifiedAt": "2026-10-22T22:20:55Z"
     },
     {
+      "question": "True/False. Database Architecture is the overall design of the database",
+      "answer": "False",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:40:22Z",
+      "lastVerifiedAt": "2026-10-22T22:49:08Z"
+    },
+    {
       "question": "True/False. Database is the term generally used to describe what was done by large mainframe computers from the late 1940's until the early 1980's.",
       "answer": "False",
       "choices": [],
@@ -751,6 +797,25 @@
       "lastVerifiedAt": "2026-10-22T22:34:24Z"
     },
     {
+      "question": "True/False. Security is one of the characteristic of database that includes also the protection of the database from unauthorized access confidentiality and unauthorized changes.",
+      "answer": "False",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T22:34:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T22:34:24Z",
+      "lastVerifiedAt": "2026-10-22T22:49:08Z"
+    },
+    {
       "question": "True/False. Table is known as the collection of data that contains information relevant to an enterprise.",
       "answer": "False",
       "choices": [],
@@ -759,12 +824,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T22:40:22Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:40:22Z"
+      "lastVerifiedAt": "2026-10-22T22:49:08Z"
     },
     {
       "question": "Which of the following is not part of advantage of database?",
@@ -773,19 +838,22 @@
         "a. Data independence",
         "b. Efficient data access",
         "c. Database instance",
-        "d. Data integrity and security"
+        "d. Data integrity and security",
+        "a. Efficient data access",
+        "b. Data integrity and security",
+        "d. Data independence"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-22T22:34:24Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:34:24Z"
+      "lastVerifiedAt": "2026-10-22T22:49:08Z"
     },
     {
       "question": "Which of the following is not part of characteristics of database?",
@@ -864,11 +932,42 @@
         "a. Lower Efficiency",
         "b. Qualified Personnel",
         "c. Data integrity",
-        "d. Costs"
+        "d. Costs",
+        "a. Costs",
+        "b. Data integrity",
+        "c. Lower Efficiency",
+        "d. Qualified Personnel"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-22T22:40:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T22:49:08Z"
+    },
+    {
+      "question": "Which of the following is not part of DML statement?",
+      "answer": "CREATE table",
+      "choices": [
+        "a. CREATE table",
+        "b. INSERT",
+        "c. MERGER",
+        "d. UPDATE",
+        "a. INSERT",
+        "b. MERGER",
+        "c. UPDATE",
+        "d. CREATE table"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "MERGER"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -876,7 +975,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-22T22:40:22Z"
+      "lastEvidenceAt": "2026-10-22T22:40:22Z",
+      "lastVerifiedAt": "2026-10-22T22:49:08Z"
     },
     {
       "question": "Which of the following is not part of handling data?",
