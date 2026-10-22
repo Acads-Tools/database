@@ -1,9 +1,25 @@
 {
   "subjectCode": "IT6201A",
   "subjectName": "Data Structures and Algorithm Analysis",
-  "updatedAt": "2026-10-22T21:52:33Z",
-  "totalQuestions": 10,
+  "updatedAt": "2026-10-22T21:57:47Z",
+  "totalQuestions": 20,
   "questions": [
+    {
+      "question": "Are applied to the table and form the logical schema.",
+      "answer": "Constraints",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+    },
     {
       "question": "Are said to exhibit physical data independence if they do not depend on the physical schema.",
       "answer": "Application program",
@@ -35,6 +51,88 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T21:52:33Z"
+    },
+    {
+      "question": "It is a bundle of actions which are done within a database to bring it from one consistent state to a new consistent state.",
+      "answer": "Transaction",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+    },
+    {
+      "question": "It is a collection of interrelated data and a set of programs to access those data.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Database-management system (DBMS)"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T21:57:47Z"
+    },
+    {
+      "question": "It is a unit of data – is a symbol or a set of symbols which is used to represent something.",
+      "answer": "Datum",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+    },
+    {
+      "question": "It is an association among several entities.",
+      "answer": "Relationship",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+    },
+    {
+      "question": "It is an interpreted data – data supplied with semantics.",
+      "answer": "information",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
     },
     {
       "question": "It is collection of data that contains information relevant to an enterprise.",
@@ -119,6 +217,22 @@
       "lastVerifiedAt": "2026-10-22T21:52:33Z"
     },
     {
+      "question": "The overall design of the database is called the",
+      "answer": "Database schema",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+    },
+    {
       "question": "The overall logical structure schema of a database can be expressed graphically by an [____] .",
       "answer": "entity relationship diagram",
       "choices": [],
@@ -133,6 +247,22 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T21:52:33Z"
+    },
+    {
+      "question": "This describes the database design at the logical level.",
+      "answer": "Logical schema",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
     },
     {
       "question": "This describes the database design at the physical level.",
@@ -153,6 +283,22 @@
       "lastEvidenceAt": "2026-10-22T21:52:33Z"
     },
     {
+      "question": "This is a characteristic of database that includes also the protection of the database from unauthorized access confidentiality and unauthorized changes.",
+      "answer": "data integrity",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-22T21:57:47Z"
+    },
+    {
       "question": "This is also known as facts that can be recorded and that have implicit meaning.",
       "answer": "data",
       "choices": [],
@@ -167,6 +313,24 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-22T21:52:33Z"
+    },
+    {
+      "question": "This is formed by one or more than one attributes.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "instance of the database"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-22T21:57:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-22T21:57:47Z"
     }
   ]
 }
