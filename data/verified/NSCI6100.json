@@ -1,8 +1,8 @@
 {
   "subjectCode": "NSCI6100",
   "subjectName": "NSCI6100",
-  "updatedAt": "2026-10-23T23:48:02Z",
-  "totalQuestions": 145,
+  "updatedAt": "2026-10-23T23:51:56Z",
+  "totalQuestions": 149,
   "tier": "verified",
   "questions": [
     {
@@ -55,6 +55,27 @@
       "firstSeenAt": "2026-10-14T09:49:53Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-15T22:36:41Z"
+    },
+    {
+      "question": "3 L = ____________gal",
+      "answer": "16.194",
+      "choices": [
+        "a. 19.164",
+        "b. 16.194",
+        "c. 20.19",
+        "d. 14.16"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:51:56Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "3 liter = ____________ gal ?",
@@ -400,17 +421,18 @@
         "d. kinematics",
         "b. projectile",
         "c. kinematics",
-        "d. free fall"
+        "d. free fall",
+        "c. free fall"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "A uniform rod of length 50cm and mass 0.2kg is placed on a fulcrum at a distance of 40cm from the left end of the rod. At what distance from the left end of the rod should a 0.6kg mass be hung to balance the rod?",
@@ -1107,6 +1129,27 @@
       "lastVerifiedAt": "2026-10-15T22:36:41Z"
     },
     {
+      "question": "g = _____________kg",
+      "answer": "0.3",
+      "choices": [
+        "a. 0.1",
+        "b. 0.2",
+        "c. 0.4",
+        "d. 0.3"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:51:56Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
+    },
+    {
       "question": "gram = _______________ kilogram ?",
       "answer": "0.15 kg",
       "choices": [
@@ -1403,10 +1446,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:27:47Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "In triangle DEF, side e = 8 cm, f = 10 cm, and the angle at D is 60°. Find side d.",
@@ -1452,7 +1495,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:04:56Z"
+      "lastVerifiedAt": "2026-10-14T04:04:56Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-23T23:51:56Z"
+        }
+      ]
     },
     {
       "question": "inches = ____________ meter",
@@ -1777,17 +1826,19 @@
         "a. 51,000 g",
         "b. 52,000 g",
         "c. 40,000 g",
-        "d. 50,000 g"
+        "d. 50,000 g",
+        "b. 50,000 g",
+        "d. 51,000 g"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:49:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-15T22:36:41Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "kg = ______________ lbs",
@@ -1963,7 +2014,31 @@
         "a. 0.1268",
         "b. 2.168",
         "c. 3.268",
-        "d. 1.268"
+        "d. 1.268",
+        "a. 3.268",
+        "b. 0.1268",
+        "c. 2.168"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-23T23:40:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
+    },
+    {
+      "question": "Modern revised form of metric system and worlds most widely used system of units",
+      "answer": "International System of Units",
+      "choices": [
+        "a. International System of Units",
+        "b. Metric System of units",
+        "c. English System of Units",
+        "d. None of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1971,11 +2046,11 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-23T23:40:59Z",
+      "firstSeenAt": "2026-10-23T23:51:56Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "Once we know how long the projectile stayed in the air, finding the _____________ from the horizontal motion is simple.",
@@ -2028,6 +2103,25 @@
       "lastVerifiedAt": "2026-10-23T23:15:33Z"
     },
     {
+      "question": "One atmosphere is equivalent to 14.7 pounds per square inch.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:51:56Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
+    },
+    {
       "question": "Quantities that are fully described by a magnitude.",
       "answer": "scalars",
       "choices": [
@@ -2039,19 +2133,22 @@
         "c. none of the choices",
         "d. direction",
         "a. vectors",
-        "b. direction"
+        "b. direction",
+        "b. none of the choices",
+        "c. direction",
+        "d. vectors"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "Quantities that are fully described by both magnitude and a direction.",
@@ -2125,11 +2222,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T04:11:25Z",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "Standard unit of length in metric system.",
@@ -2195,17 +2292,20 @@
         "c. centiliter",
         "d. milliliter",
         "b. milliliter",
-        "d. liter"
+        "d. liter",
+        "a. liter",
+        "b. centiliter",
+        "c. kiloliter"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:27:47Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "Such an object will rise until its velocity is ______________.",
@@ -2597,17 +2697,18 @@
         "a. 3 or three",
         "b. 1 or one",
         "c. 2 or two",
-        "d. 4 or four"
+        "d. 4 or four",
+        "c. 1 or one"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "The moment caused by the resultant force about some arbitrary point is equal to the sum of the moment due to all of the component forces of the system.",
@@ -2621,12 +2722,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "The moment of the resultant of a system of forces with respect to any axis or point is equal to the vector sum of the moments of the individual forces of the system with respect to the same access or point.",
@@ -2655,17 +2756,18 @@
         "d. period",
         "a. angular harmonic motion",
         "b. none of the choices",
-        "c. acceleration"
+        "c. acceleration",
+        "b. acceleration"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "The motion of a body which repeats itself at regular intervals of time or period.",
@@ -2873,12 +2975,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "The temperature unit commonly used in USA is Fahrenheit.",
@@ -2938,10 +3040,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "The vectors are translated, to a common origin.",
@@ -3008,10 +3110,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:27:47Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "Three forces act on a point: 3 N at 0°, 4 N at 90°, and 5 N at 217°. What is the net force?",
@@ -3208,17 +3310,19 @@
         "c. Metric unit",
         "d. None of the choices",
         "a. derived units",
-        "b. Base unit"
+        "b. Base unit",
+        "b. Metric unit",
+        "c. derived units"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:27:47Z"
+      "lastVerifiedAt": "2026-10-23T23:51:56Z"
     },
     {
       "question": "What force is necessary to generate a 20.0 N*m torque at an angle of 50 degrees from along a 3.00 m rod?",
