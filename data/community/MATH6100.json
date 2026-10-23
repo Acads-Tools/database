@@ -1,7 +1,7 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-23T11:11:18Z",
+  "updatedAt": "2026-10-23T11:13:13Z",
   "totalQuestions": 76,
   "questions": [
     {
@@ -130,12 +130,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-23T11:11:18Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:13:13Z"
     },
     {
       "question": "Consider the equation below: [Image: [moodle-asset:120977/function.png]] After evaluating g(-4), g(-1) and g(3), choose which graph represents the given conditions.",
@@ -393,17 +393,20 @@
         "a. 1",
         "b. 0",
         "c. 2/3",
-        "d. 3/2"
+        "d. 3/2",
+        "a. 3/2",
+        "c. 1",
+        "d. 2/3"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:13:13Z"
     },
     {
       "question": "INSTEAD OF triggers can be written only for views.",
@@ -570,17 +573,21 @@
         "b. The slope of the tangent lines x=1, x=2 and x=3 is 1.",
         "c. The slope of the tangent lines x=1 and x=3 is 0.",
         "d. The slope of the tangent line x=2 is 0.",
-        "e. The slope of the tangent line x=2 is 1."
+        "e. The slope of the tangent line x=2 is 1.",
+        "a. The slope of the tangent line x=2 is 1.",
+        "c. The slope of the tangent line x=2 is 0.",
+        "d. The slope of the tangent lines x=1, x=2 and x=3 is 1.",
+        "e. The slope of the tangent lines x=1 and x=3 is 0."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:13:13Z"
     },
     {
       "question": "Sketch the lines x=1, x=2, and x=3 tangent to the curve given in figure 7. Estimate the slope of each of the tangent lines you drew. [Image: [moodle-asset:120934/Calc-As1.png]]",
@@ -594,7 +601,9 @@
         "a. The slope of the tangent line at x=2 is 0.",
         "b. The slope of the tangent lines at x=1 and x=3 is 0.",
         "c. The slope of the tangent lines at x=1 is 1 and at x=3 is -1.",
-        "d. The slope of the tangent lines at x=1, x=2 and x=3 is 1."
+        "d. The slope of the tangent lines at x=1, x=2 and x=3 is 1.",
+        "a. The slope of the tangent lines at x=1 is 1 and at x=3 is -1.",
+        "c. The slope of the tangent lines at x=1 and x=3 is 0."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -604,7 +613,13 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:11:18Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "The slope of the tangent lines at x=1 is 1 and at x=3 is -1., The slope of the tangent line at x=2 is 0.",
+          "timestamp": "2026-10-23T11:13:13Z"
+        }
+      ]
     },
     {
       "question": "The 2 divisions of Calculus are:",
@@ -616,7 +631,9 @@
         "d. Trigonometry",
         "a. Algebra",
         "b. Differential",
-        "c. Integral"
+        "c. Integral",
+        "a. Trigonometry",
+        "d. Differential"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -626,7 +643,13 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:11:18Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Integral, Differential",
+          "timestamp": "2026-10-23T11:13:13Z"
+        }
+      ]
     },
     {
       "question": "The distinction between data administration and database administration:",
@@ -672,7 +695,10 @@
         "a. summation of small areas",
         "b. largest or smallest volume of a solid",
         "c. rate or speed",
-        "d. area between the graph of a function and the x-axis"
+        "d. area between the graph of a function and the x-axis",
+        "a. largest or smallest volume of a solid",
+        "c. summation of small areas",
+        "d. rate or speed"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -687,6 +713,10 @@
         {
           "answer": "largest or smallest volume of a solid, rate or speed",
           "timestamp": "2026-10-23T11:11:18Z"
+        },
+        {
+          "answer": "largest or smallest volume of a solid, rate or speed",
+          "timestamp": "2026-10-23T11:13:13Z"
         }
       ]
     },
@@ -749,12 +779,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-23T11:11:18Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:13:13Z"
     },
     {
       "question": "The slope of a horizontal line is [____: 0] . (Answer should be numeric)",
@@ -772,21 +802,22 @@
     },
     {
       "question": "The slope of a horizontal line is [____] . (Answer should be numeric)",
-      "answer": "",
+      "answer": "0",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Zero (0)"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-23T11:11:18Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-23T11:11:18Z"
+      "lastEvidenceAt": "2026-10-23T11:11:18Z",
+      "lastVerifiedAt": "2026-10-23T11:13:13Z"
     },
     {
       "question": "The slope of a vertical line is [____: Undefined] .",
@@ -811,12 +842,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-23T11:11:18Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:13:13Z"
     },
     {
       "question": "The slope of the line through (5,15) and (x+8, x²-2x) is [____: x-5] .",
@@ -855,12 +886,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-23T11:11:18Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+      "lastVerifiedAt": "2026-10-23T11:13:13Z"
     },
     {
       "question": "The sum of two prime numbers is a prime.",
