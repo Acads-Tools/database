@@ -1,9 +1,28 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-14T10:01:29Z",
-  "totalQuestions": 65,
+  "updatedAt": "2026-10-23T11:06:10Z",
+  "totalQuestions": 71,
   "questions": [
+    {
+      "question": "[Image: [moodle-asset:121409/A8-4.JPG]] Answers: (a) [____] (b) [____ 2]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "3",
+        "2"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:06:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:06:10Z"
+    },
     {
       "question": "A PL/SQL block must consist of declarative, executable and exception handling section.",
       "answer": "False",
@@ -69,6 +88,24 @@
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:29:20Z"
+    },
+    {
+      "question": "At which values of x is the function from the graph shown continuous? State the answers from the least to the highest, if there would be more than one. [Image: [moodle-asset:120704/SQ9-1.JPG]] Answer: x = [____]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "0, 4"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:06:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:06:10Z"
     },
     {
       "question": "Calculus was developed by Leibniz and [____: Newton] . (Indicate only the last name)",
@@ -805,6 +842,25 @@
       "lastVerifiedAt": "2026-10-14T03:03:59Z"
     },
     {
+      "question": "Use the function h defined by the graph below to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} (x \\) . \\(\\Large h (x - 1)) \\)(b) \\(\\Large \\lim_{x \\rightarrow 0} \\frac {h (3 + x) - h(3)}{h(x)} \\) [Image: [moodle-asset:121435/SQ8-3_4a.jpg]] Answers: (a) [____] (b) [____ 2]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "2",
+        "h′(3)"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:06:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:06:10Z"
+    },
+    {
       "question": "Use the function h defined by the graph below to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} {x + h(x)} \\)(b) \\(\\Large \\lim_{x \\rightarrow 3} h(\\frac {x}{2}) \\) [Image: [moodle-asset:121434/SQ8-3_4.JPG]] Answers: (a) [____: 3] (b) [____ 2: 3/4]",
       "answer": "3, 3/4",
       "choices": [],
@@ -817,6 +873,44 @@
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:29:20Z"
+    },
+    {
+      "question": "Use the function h defined by the graph below to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} {x + h(x)} \\)(b) \\(\\Large \\lim_{x \\rightarrow 3} h(\\frac {x}{2}) \\) [Image: [moodle-asset:121434/SQ8-3_4.JPG]] Answers: (a) [____] (b) [____ 2]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "2",
+        "1"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:06:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:06:10Z"
+    },
+    {
+      "question": "Use the function h defined by the graph shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} h (5-x) \\)(b) \\(\\Large \\lim_{x \\rightarrow 0} {h (3 + x) - h(3)} \\) [Image: [moodle-asset:121408/A8-2.JPG]] Answers: (a) [____] (b) [____ 2]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "0",
+        "Does not exist"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:06:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:06:10Z"
     },
     {
       "question": "Use the functions f and g defined by the graphs as shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 1} ( f(x) x g(x)) \\)(b) \\(\\Large \\lim_{x \\rightarrow 1} f(g(x)) \\) [Image: [moodle-asset:121433/A8-1.JPG]] Answers: (a) [____: 2] (b) [____ 2: 2]",
@@ -850,6 +944,25 @@
       "firstSeenAt": "2026-10-14T03:29:20Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T03:29:20Z"
+    },
+    {
+      "question": "Use the graph below to determine the right-hand limit of the function f(x) at: (a) x=-2 (b) x=10 [Image: [moodle-asset:121431/A8-5.JPG]] Answers: (a) [____] (b) [____ 2]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "2",
+        "-4"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:06:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:06:10Z"
     },
     {
       "question": "What prevents this procedure from being created successfully? CREATE OR REPLACE PROCEDURE DELETE_PLAYER(V_ID IN NUMBER) IS BEGIN DELETE FROM PLAYER WHERE V_ID = 31; EXCEPTION WHEN STATS_EXIST_EXCEPTION THEN DBMS_OUTPUT.PUT_LINE(‘Cannot delete this player, child records exist in PLAYER_BAT_STAT table’); END;",
