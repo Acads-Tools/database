@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-23T10:31:24Z",
-  "totalQuestions": 110,
+  "updatedAt": "2026-10-23T10:34:05Z",
+  "totalQuestions": 130,
   "questions": [
     {
       "question": "[Image: matrices1 - [moodle-asset:218982/matrices.png]] Matrix B is",
@@ -227,6 +227,27 @@
       "firstSeenAt": "2026-10-14T03:44:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "A frequently used method as it enables binary variables, sum polytomous variable to be modelled.",
+      "answer": "logistic regression",
+      "choices": [
+        "a. linear regression",
+        "b. exponential regression",
+        "c. logistic regression",
+        "d. binomial regression"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "A graph used to indicate intervals in a frequency distribution is refereed to as a______________.",
@@ -494,6 +515,27 @@
       "lastVerifiedAt": "2026-10-21T15:22:36Z"
     },
     {
+      "question": "Classification table is also called ________",
+      "answer": "confusion matrix",
+      "choices": [
+        "a. criteria matrix",
+        "b. conditional matrix",
+        "c. confidential matrix",
+        "d. confusion matrix"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
       "question": "Data involving two variables are called _________data.",
       "answer": "bivariate",
       "choices": [
@@ -513,6 +555,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-21T15:22:36Z"
+    },
+    {
+      "question": "Displays the performance of a model and enables a comparison to be made with other models.",
+      "answer": "ROC curve",
+      "choices": [
+        "a. SBC",
+        "b. DAC",
+        "c. ROC curve",
+        "d. GLM"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "Empirical rule for a normal distribution lie ______% of data with 1 standard deviation below and above the mean.",
@@ -591,6 +654,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-21T15:22:36Z"
+    },
+    {
+      "question": "He proposed the use of a penalized likehood function.",
+      "answer": "Firth",
+      "choices": [
+        "a. Gombartz",
+        "b. Hein",
+        "c. Heitz",
+        "d. Firth"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "If A= { x/x is a distinct letter in the word \"MATHEMATICS\"} AND B={x/x is a distinct letter in the word \"STATISTICS\"} then their intersection is",
@@ -752,6 +836,69 @@
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:49:32Z"
+    },
+    {
+      "question": "It corresponds to the case where the dependent variable has more than 2 categories.",
+      "answer": "multinomial logit model",
+      "choices": [
+        "a. multinomial logit model",
+        "b. polynomial logit model",
+        "c. binomial logit model",
+        "d. trinomial logit model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
+      "question": "It does NOT require the assumption that the parameters are normally distributed.",
+      "answer": "profile likehood",
+      "choices": [
+        "a. densiy likehood",
+        "b. mass likehood",
+        "c. definite likehood",
+        "d. profile likehood"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
+      "question": "It enables the performance of a model and enables a comparison to be made with other models.",
+      "answer": "ROC",
+      "choices": [
+        "a. LR",
+        "b. GML",
+        "c. IOT",
+        "d. ROC"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "It extracts meaningful numerical indices from information and make it available to statistical and machine learning.",
@@ -1340,6 +1487,27 @@
       "lastVerifiedAt": "2026-10-21T15:22:36Z"
     },
     {
+      "question": "ROC comes from ______theory.",
+      "answer": "signal detection",
+      "choices": [
+        "a. signal execution",
+        "b. signal attraction",
+        "c. signal detraction",
+        "d. signal detection"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
       "question": "Running time for algorithms is usually measured in",
       "answer": "",
       "choices": [
@@ -1366,6 +1534,27 @@
       "lastEvidenceAt": "2026-10-14T03:49:32Z"
     },
     {
+      "question": "SBC means_________",
+      "answer": "Schwar’s Bayesian Criterion",
+      "choices": [
+        "a. Schwar’s Bayesian Criterion",
+        "b. Schmidt’s Bayesian Criterion",
+        "c. Standard Bayes’ Criterion",
+        "d. Schars’ Bayes Criteria"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
       "question": "The area of the standard normal curve to the right of z=0.82 is _______.",
       "answer": "0.206",
       "choices": [
@@ -1383,6 +1572,27 @@
       "firstSeenAt": "2026-10-14T03:44:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:44:10Z"
+    },
+    {
+      "question": "The classification table that XL Stat can display.",
+      "answer": "confusion matrix",
+      "choices": [
+        "a. confusion matrix",
+        "b. square matrix",
+        "c. inverse matrix",
+        "d. identity matrix"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "The following are abstract notions EXCEPT",
@@ -1547,6 +1757,27 @@
       "lastVerifiedAt": "2026-10-14T03:39:42Z"
     },
     {
+      "question": "The method that does NOT require t he assumption that the parameters are normally distributed.",
+      "answer": "profile likehood",
+      "choices": [
+        "a. identity likehood",
+        "b. profile likehood",
+        "c. profile",
+        "d. profile link"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
       "question": "The method that does not require the assumption that parameters are normally distributed.",
       "answer": "profile likehood",
       "choices": [
@@ -1566,6 +1797,48 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-21T15:22:36Z"
+    },
+    {
+      "question": "The method used to iteratively find a solution to a multinomial legit model.",
+      "answer": "Newton-Raphson algorithm",
+      "choices": [
+        "a. Newtonian algorithm",
+        "b. Kun’s alhorithm",
+        "c. Baye’s algorithm",
+        "d. Newton-Raphson algorithm"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
+      "question": "The most common functions used to link probability to the explanatory variables are the LOGIT model and ________model.",
+      "answer": "PROBIT",
+      "choices": [
+        "a. LOGET",
+        "b. PROBIT",
+        "c. PROBET",
+        "d. LEGIT"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "The normal distribution with a mean of 0 and standard deviation of 1.",
@@ -1606,6 +1879,48 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-21T15:22:36Z"
+    },
+    {
+      "question": "The proportion of a well-classified negative event.",
+      "answer": "specificity",
+      "choices": [
+        "a. clarity",
+        "b. identity",
+        "c. sensitivity",
+        "d. specificity"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
+      "question": "The proportion of a well-defined classified positive events.",
+      "answer": "sensitivity",
+      "choices": [
+        "a. volume",
+        "b. velocity",
+        "c. sensitivity",
+        "d. clarity"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "The proportion of well defined negative events is called ________________.",
@@ -1759,6 +2074,69 @@
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:49:32Z"
+    },
+    {
+      "question": "To estimate the parameters of the model ,the ________function is maximized.",
+      "answer": "likehood",
+      "choices": [
+        "a. specificity",
+        "b. sensiivity",
+        "c. likehood",
+        "d. multinomial"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
+      "question": "What does GLM means?",
+      "answer": "Generalized Linear model",
+      "choices": [
+        "a. Generalized Linear Mode",
+        "b. General Linear Model",
+        "c. Generalized Linear model",
+        "d. General Line Mode"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
+    },
+    {
+      "question": "What does ROC mean?",
+      "answer": "Receiver Operating Characteristics",
+      "choices": [
+        "a. Receiver Operating Channel",
+        "b. Receptor Operating Characteristics",
+        "c. Receiver Operating Character",
+        "d. Receiver Operating Characteristics"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "What is a data structure that has a fixed size?",
@@ -2064,6 +2442,27 @@
       "firstSeenAt": "2026-10-14T03:48:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:49:32Z"
+    },
+    {
+      "question": "Which belong to the GLM family?",
+      "answer": "logistic and linear",
+      "choices": [
+        "a. logistic only",
+        "b. exponential only",
+        "c. linear only",
+        "d. logistic and linear"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     },
     {
       "question": "Which is a concatenation of α =babaa β =a^6b^8a which is α β ?",
@@ -2385,6 +2784,27 @@
       "firstSeenAt": "2026-10-13T23:05:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:33:10Z"
+    },
+    {
+      "question": "Which pair belongs to the same family of models called GLM ? i) logistic ii) linear regression iii.) multinomial regression iv)probability",
+      "answer": "I and ii",
+      "choices": [
+        "a. iii and iv",
+        "b. ii and iii",
+        "c. I and iv",
+        "d. I and ii"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T10:34:05Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T10:34:05Z"
     }
   ]
 }
