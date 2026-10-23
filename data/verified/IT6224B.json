@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-06T10:13:31Z",
-  "totalQuestions": 232,
+  "updatedAt": "2026-10-23T15:10:52Z",
+  "totalQuestions": 236,
   "tier": "verified",
   "questions": [
     {
@@ -194,6 +194,31 @@
       "lastVerifiedAt": "2026-10-06T09:58:24Z"
     },
     {
+      "question": "[Image: [moodle-asset:382186/q.png]] Observe the above exhibit carefully. The ADS MusicStudio network administrator is trying to configure R1 to run OSPFv3 but the neighbor adjacency is not forming with the router connected to Fa0/0. What is the cause of the problem?",
+      "answer": "No router ID has been configured.",
+      "choices": [
+        "a. FastEthernet0/0 has been configured as a passive interface.",
+        "b. A link-local address has not been configured on interface FastEthernet0/0.",
+        "c. Interfaces are not enabled",
+        "d. No router ID has been configured.",
+        "b. No router ID has been configured.",
+        "c. A link-local address has not been configured on interface FastEthernet0/0.",
+        "d. Interfaces are not enabled"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "FastEthernet0/0 has been configured as a passive interface."
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-04T15:41:56Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-04T15:41:56Z",
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+    },
+    {
       "question": "[Image: [moodle-asset:382189/q.png]] Referring to the exhibit, the command “show ipv6 route can be issued on router R2 to verify the propagation of a static default router from R1 to R2\" As discussed in this chapter why is MD5 authentication is more secure than simple authentication of OSPF updates?a",
       "answer": "MD5 does not send the password to the neighbor router.",
       "choices": [
@@ -279,17 +304,21 @@
         "a. The OSPF area is configured improperly.",
         "b. The network wildcard mask is configured improperly.",
         "c. The process id is configured improperly.",
-        "d. The network number is configured improperly."
+        "d. The network number is configured improperly.",
+        "a. The network wildcard mask is configured improperly.",
+        "b. The network number is configured improperly.",
+        "c. The OSPF area is configured improperly.",
+        "d. The process id is configured improperly."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:03:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "A certified network administrator of Gilas Medical Hospital has just changed the router ID on a router that is working in an OSPFv2 environment. What should the administrator do to reset the adjacencies and use the new router ID?",
@@ -330,10 +359,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "A Cisco enhancement of RSTP to provide a spanning tree instance for each vlan is called STP.",
@@ -504,10 +533,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "A network administrator is overseeing the implementation of first hop redundancy protocols. Which two protocols will not be able to function with multivendor devices?",
@@ -766,10 +795,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "A virtual [____: link] is a special OSPF transit area that is used to connect a remote OSPF network to Area 0.",
@@ -923,6 +952,27 @@
       "lastVerifiedAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Among the commands listed below which is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?",
+      "answer": "show ip protocols",
+      "choices": [
+        "a. show ip mac-address",
+        "b. show ip ospf interface",
+        "c. show ip protocols",
+        "d. show ip route ospf"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T15:10:52Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "Among the listed below what organization that set or influence WLAN standards?",
@@ -1102,17 +1152,21 @@
         "a. Inter-area route",
         "b. internal route",
         "c. Intra-area route",
-        "d. External route"
+        "d. External route",
+        "a. Intra-area route",
+        "b. Inter-area route",
+        "c. External route",
+        "d. internal route"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "As discussed in OSPF chapters what happens when a router has two network statements in different areas?",
@@ -1125,17 +1179,19 @@
         "a. It becomes ASBR",
         "b. It becomes DR",
         "c. It becomes ABR",
-        "d. It becomes BDR"
+        "d. It becomes BDR",
+        "a. It becomes ABR",
+        "c. It becomes ASBR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "As discussed in our topic Scaling Networks chapter 6,which area is referred to as the \"backbone area\"?",
@@ -1766,6 +1822,27 @@
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
+      "question": "In implementation of OSPF network what command pertains to propagating a default route?",
+      "answer": "Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
+      "choices": [
+        "a. Ip route 10.0.0.0 0.0.0.255 Serial0",
+        "b. Ip route 10.0.0.0 255.0.0.0 192.168.1.2",
+        "c. Ip route 192.0.0.0 255.0.0.0 192.168.1.2",
+        "d. Ip route 0.0.0.0 0.0.0.0 192.200.1.2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T15:10:52Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+    },
+    {
       "question": "In implementing EtherChannel technology, which PAgP mode combination will establish an EtherChannel?",
       "answer": "switch 1 set to desirable; switch 2 set to desirable.",
       "choices": [
@@ -2049,17 +2126,20 @@
         "a. Ip route 10.0.0.0 0.0.0.255 Serial0",
         "b. Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
         "c. Ip route 10.0.0.0 255.0.0.0 192.168.1.2",
-        "d. Ip route 192.0.0.0 255.0.0.0 192.168.1.2"
+        "d. Ip route 192.0.0.0 255.0.0.0 192.168.1.2",
+        "b. Ip route 192.0.0.0 255.0.0.0 192.168.1.2",
+        "c. Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
+        "d. Ip route 10.0.0.0 0.0.0.255 Serial0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "In single-area OSPF concepts which parameter would you tune to affect the selection of a static route as a backup, when a dynamic protocol is also being used?",
@@ -2216,10 +2296,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "In troubleshooting OSPF issues why do OSPF serial interfaces usually require manual bandwidth configuration?",
@@ -2311,17 +2391,20 @@
         "a. ABR",
         "b. ASBR",
         "c. any router",
-        "d. DR"
+        "d. DR",
+        "a. any router",
+        "b. ABR",
+        "c. ASBR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "In understanding of OSPF networks what is used to facilitate hierarchical routing in OSPF?",
@@ -2771,14 +2854,18 @@
         "c. network 172.16.8.0 0.0.0.7 area 15",
         "d. network 172.16.8.0 0.0.7.255 area 0",
         "a. network 172.16.8.0 0.0.7.255 area 15",
-        "c. network 172.16.8.0 0.0.7.255 area 0"
+        "c. network 172.16.8.0 0.0.7.255 area 0",
+        "a. network 172.16.8.0 0.0.0.7 area 15",
+        "b. network 172.16.8.0 0.0.7.255 area 0",
+        "c. network 172.16.8.0 0.0.0.7 area 0",
+        "d. network 172.16.8.0 0.0.7.255 area 15"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z",
+      "lastVerifiedAt": "2026-10-23T15:10:52Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2813,10 +2900,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "The command clear ip ospf [____: process] forces a router with a new or changed router ID to form new adjacencies.",
@@ -3371,17 +3458,18 @@
         "c. It becomes ABR",
         "a. It becomes BDR",
         "b. It becomes DR",
-        "d. It becomes ASBR"
+        "d. It becomes ASBR",
+        "c. It becomes BDR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "What information is advertised in a type 4 LSA?",
@@ -3765,17 +3853,21 @@
         "a. O",
         "b. O IA",
         "c. O E1",
-        "d. O E2"
+        "d. O E2",
+        "a. O E2",
+        "b. O E1",
+        "c. O IA",
+        "d. O"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "What today's network design would contain the scope of disruptions on a network should a failure occur?",
@@ -4010,17 +4102,18 @@
         "b. Use highiest ip address, OSPF is a classful routing protocol & OSPF does not allow authentication",
         "c. Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors.",
         "a. Allows authentication, uses concept of area which helps for route summarization and dependent to hop counts.",
-        "d. Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors."
+        "d. Converge quickly, Identify the best route by the use of cost & before exchanging routing information, OSPF routers find out neighbors.",
+        "b. Converge quickly, Identify the best router by the use of hops & OSPF routers identify directly connected devices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "Which algorithm is used by the OSPF routing process to construct the SPF tree on a router?",
@@ -4841,17 +4934,19 @@
         "a. 2, 4 & 5",
         "b. 2, 4 & 6",
         "c. 1 , 2 & 4",
-        "d. 2, 3 & 4"
+        "d. 2, 3 & 4",
+        "b. 2, 3 & 4",
+        "d. 2, 4 & 6"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
       "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation?",
@@ -4971,6 +5066,27 @@
       "confirmations": 2,
       "firstSeenAt": "2026-09-23T13:58:50Z",
       "lastVerifiedAt": "2026-10-06T09:47:58Z",
+      "source": "review_screen",
+      "questionType": "multichoice"
+    },
+    {
+      "question": "Why do OSPF serial interfaces usually require manual bandwidth configuration?",
+      "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
+      "choices": [
+        "a. OSPF uses the bandwidth value to compute routes for its routing table.",
+        "b. Bandwidth value affects the actual speed of the link.",
+        "c. All serial interfaces default to a value of 1.544 Mb/s.",
+        "d. Each side of an OSPF serial link should be configured with a unique value.",
+        "b. Each side of an OSPF serial link should be configured with a unique value.",
+        "c. Bandwidth value affects the actual speed of the link.",
+        "d. All serial interfaces default to a value of 1.544 Mb/s."
+      ],
+      "wrongAnswers": [],
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-09-23T14:45:38Z",
+      "lastVerifiedAt": "2026-10-23T15:10:52Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
