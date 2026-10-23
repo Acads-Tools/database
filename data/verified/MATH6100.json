@@ -1,7 +1,7 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-23T11:13:13Z",
+  "updatedAt": "2026-10-23T11:20:18Z",
   "totalQuestions": 62,
   "tier": "verified",
   "questions": [
@@ -87,17 +87,20 @@
         "a. [Image: [moodle-asset:303158/graph4.png]]",
         "b. [Image: [moodle-asset:303155/graph1.png]]",
         "c. [Image: [moodle-asset:303156/graph2.png]]",
-        "d. [Image: [moodle-asset:303157/graph3.png]]"
+        "d. [Image: [moodle-asset:303157/graph3.png]]",
+        "a. [Image: [moodle-asset:303157/graph3.png]]",
+        "c. [Image: [moodle-asset:303158/graph4.png]]",
+        "d. [Image: [moodle-asset:303156/graph2.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+      "lastVerifiedAt": "2026-10-23T11:20:18Z"
     },
     {
       "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 0} \\frac {cos 2x - 1}{cos x - 1} \\) Answer: [____: 4]",
@@ -474,17 +477,21 @@
         "a. g(x-1)",
         "b. [ g(x) ]",
         "c. | g(x) |",
-        "d. g(x)-1"
+        "d. g(x)-1",
+        "a. g(x)-1",
+        "b. g(x-1)",
+        "c. [ g(x) ]",
+        "d. | g(x) |"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+      "lastVerifiedAt": "2026-10-23T11:20:18Z"
     },
     {
       "question": "Sketch the lines X=1, x=2, and x=3 tangent to the curve given in figure 7. Estimate the slope of each of the tangent lines you drew. [Image: [moodle-asset:120685/Calc-As1.png]]",

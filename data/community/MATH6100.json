@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-23T11:13:13Z",
-  "totalQuestions": 76,
+  "updatedAt": "2026-10-23T11:20:18Z",
+  "totalQuestions": 77,
   "questions": [
     {
       "question": "[Image: [moodle-asset:121409/A8-4.JPG]] Answers: (a) [____] (b) [____ 2]",
@@ -61,11 +61,16 @@
         "a. [Image: [moodle-asset:302443/SQ4-5d.png]]",
         "b. [Image: [moodle-asset:302442/SQ4-5c.png]]",
         "c. [Image: [moodle-asset:302441/SQ4-5b.png]]",
-        "d. [Image: [moodle-asset:302440/SQ4-5a.png]]"
+        "d. [Image: [moodle-asset:302440/SQ4-5a.png]]",
+        "a. [Image: [moodle-asset:302440/SQ4-5a.png]]",
+        "b. [Image: [moodle-asset:302441/SQ4-5b.png]]",
+        "c. [Image: [moodle-asset:302443/SQ4-5d.png]]",
+        "d. [Image: [moodle-asset:302442/SQ4-5c.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "[Image: [moodle-asset:302443/SQ4-5d.png]]"
+        "[Image: [moodle-asset:302443/SQ4-5d.png]]",
+        "[Image: [moodle-asset:302441/SQ4-5b.png]]"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -73,7 +78,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-14T02:37:40Z"
+      "lastEvidenceAt": "2026-10-23T11:20:18Z"
     },
     {
       "question": "At which values of x is the function from the graph shown continuous? State the answers from the least to the highest, if there would be more than one. [Image: [moodle-asset:120704/SQ9-1.JPG]] Answer: x = [____: -1]",
@@ -144,17 +149,20 @@
         "a. [Image: [moodle-asset:303158/graph4.png]]",
         "b. [Image: [moodle-asset:303155/graph1.png]]",
         "c. [Image: [moodle-asset:303156/graph2.png]]",
-        "d. [Image: [moodle-asset:303157/graph3.png]]"
+        "d. [Image: [moodle-asset:303157/graph3.png]]",
+        "a. [Image: [moodle-asset:303157/graph3.png]]",
+        "c. [Image: [moodle-asset:303158/graph4.png]]",
+        "d. [Image: [moodle-asset:303156/graph2.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+      "lastVerifiedAt": "2026-10-23T11:20:18Z"
     },
     {
       "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 0} \\frac {cos 2x - 1}{cos x - 1} \\) Answer: [____: 4]",
@@ -548,17 +556,21 @@
         "a. g(x-1)",
         "b. [ g(x) ]",
         "c. | g(x) |",
-        "d. g(x)-1"
+        "d. g(x)-1",
+        "a. g(x)-1",
+        "b. g(x-1)",
+        "c. [ g(x) ]",
+        "d. | g(x) |"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:37:40Z"
+      "lastVerifiedAt": "2026-10-23T11:20:18Z"
     },
     {
       "question": "Sketch the lines X=1, x=2, and x=3 tangent to the curve given in figure 7. Estimate the slope of each of the tangent lines you drew. [Image: [moodle-asset:120685/Calc-As1.png]]",
@@ -683,6 +695,24 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "The figure shows the temperature during a day in a place. How fast is the temperature changing from 1:00 P.M. to 7:00 P.M.? Round-off your answer to 2 decimal places. [Image: [moodle-asset:121087/A6-4.JPG]] Answer: [____] ⁰F/hour",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "-167"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:20:18Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:20:18Z"
     },
     {
       "question": "The following problems could be solved by differential calculus:",
