@@ -150,7 +150,7 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 | `MATH6100` | Calculus 1 | **78** | Active |
 | `MATH6200` | MATH6200 | **150** | Active |
 | `MKTG6256` | MKTG6256 | **54** | Active |
-| `NSCI6100` | NSCI6100 | **112** | Active |
+| `NSCI6100` | NSCI6100 | **132** | Active |
 | `NSTP6102` | National Service Training Program 2 | **45** | Active |
 | `OFAD6303A` | OFAD6303A | **22** | Active |
 | `PHYED6102` | PHYED6102 | **63** | Active |

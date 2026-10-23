@@ -1,9 +1,30 @@
 {
   "subjectCode": "NSCI6100",
   "subjectName": "NSCI6100",
-  "updatedAt": "2026-10-23T23:27:47Z",
-  "totalQuestions": 112,
+  "updatedAt": "2026-10-23T23:30:16Z",
+  "totalQuestions": 132,
   "questions": [
+    {
+      "question": "\"Sum of all forces acting on a body is zero\". This condition represents equilibrium's",
+      "answer": "First condition",
+      "choices": [
+        "a. Fourth condition",
+        "b. First condition",
+        "c. Third condition",
+        "d. Second condition"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
     {
       "question": "2 L = ________ gal ?",
       "answer": "1.37 gal",
@@ -157,13 +178,13 @@
       "lastVerifiedAt": "2026-10-23T23:15:33Z"
     },
     {
-      "question": "A bolt connecting the main and rear frame of a mountain bike requires of 15 N.m to tighten. If you are capable of applying 40N of force to a wrench in any given direction, what is the minimum length of the wrench that will result in the required torque?",
-      "answer": "0.375 m",
+      "question": "A 5.0 m-long uniform beam is held in position by a cord as shown in the diagram. If the tension in the cord is 8.0 N, what is the weight of the beam? [Image: torque - [moodle-asset:340720/fig1.PNG]]",
+      "answer": "18 N",
       "choices": [
-        "a. 3.75 m",
-        "b. none of the choices",
-        "c. 0.375 m",
-        "d. 37.5 m"
+        "a. 4.8 N",
+        "b. 9.6 N",
+        "c. 8.0 N",
+        "d. 18 N"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -171,9 +192,53 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "A body at rest or moving with uniform velocity will have acceleration",
+      "answer": "0",
+      "choices": [
+        "a. 0",
+        "b. max",
+        "c. min",
+        "d. 1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "A bolt connecting the main and rear frame of a mountain bike requires of 15 N.m to tighten. If you are capable of applying 40N of force to a wrench in any given direction, what is the minimum length of the wrench that will result in the required torque?",
+      "answer": "0.375 m",
+      "choices": [
+        "a. 3.75 m",
+        "b. none of the choices",
+        "c. 0.375 m",
+        "d. 37.5 m",
+        "c. 37.5 m",
+        "d. 0.375 m"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:04:56Z"
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "A car starts from rest and accelerates uniformly over a time of 5.21 seconds for a distance of 110 m. Determine the acceleration of the car.",
@@ -316,6 +381,27 @@
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T23:16:44Z"
+    },
+    {
+      "question": "A uniform rod of length 50cm and mass 0.2kg is placed on a fulcrum at a distance of 40cm from the left end of the rod. At what distance from the left end of the rod should a 0.6kg mass be hung to balance the rod?",
+      "answer": "45 cm",
+      "choices": [
+        "a. 45 cm",
+        "b. 4.5 cm",
+        "c. 54 cm",
+        "d. none of the choices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "Add the following vectors and determine the resultant. 3.0 m/s, 45 deg and 5.0 m/s, 135 deg",
@@ -621,13 +707,13 @@
       "lastVerifiedAt": "2026-10-23T23:15:33Z"
     },
     {
-      "question": "Equilibrium occurs when…",
-      "answer": "all of the choices",
+      "question": "Does a bridge anchored resting on two pillars have any torque?",
+      "answer": "Yes, but it is at equilibrium",
       "choices": [
-        "a. the sum of the upward forces equals the sum of the downward forces.",
-        "b. the net force on the object is zero.",
-        "c. all of the choices",
-        "d. all the forces acting on an object are balanced."
+        "a. No, it isn't moving",
+        "b. No, Bridge can't have torque",
+        "c. Yes, but it will soon break because of the torque",
+        "d. Yes, but it is at equilibrium"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -635,9 +721,53 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "Equilibrium is the tendency of a force to cause an object to rotate about an axis.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "Equilibrium occurs when…",
+      "answer": "all of the choices",
+      "choices": [
+        "a. the sum of the upward forces equals the sum of the downward forces.",
+        "b. the net force on the object is zero.",
+        "c. all of the choices",
+        "d. all the forces acting on an object are balanced.",
+        "a. all of the choices",
+        "b. all the forces acting on an object are balanced.",
+        "c. the sum of the upward forces equals the sum of the downward forces.",
+        "d. the net force on the object is zero."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:04:56Z"
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "Fahrenheit = _____________ Celsius",
@@ -859,7 +989,30 @@
         "a. Equilibrium",
         "b. Uniform motion",
         "c. Rest",
-        "d. Constant force"
+        "d. Constant force",
+        "a. Uniform motion",
+        "b. Equilibrium",
+        "c. Constant force",
+        "d. Rest"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-14T04:04:56Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "If net force acting on body is zero then body is said to be.",
+      "answer": "In equilibrium",
+      "choices": [
+        "a. Imbalanced",
+        "b. In equilibrium",
+        "c. none of the choices",
+        "d. not in equilibrium"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -867,9 +1020,30 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-14T04:04:56Z",
+      "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:04:56Z"
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "If the body is in equilibrium under the action of a number of the forces, then the algebraic sum of the moments of the forces about any point is equal to one.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "If the polygon is closed, the resultant is a vector of zero magnitude and has no direction. This is called the ________ vector.",
@@ -1767,6 +1941,27 @@
       "lastVerifiedAt": "2026-10-23T23:16:44Z"
     },
     {
+      "question": "Suzie applies a force of 40.0 N at an angle of 60 degrees up from the horizontal to a wooden rod using a spring scale. If she generates a torque of 73.0 N*m, how long was the rod?",
+      "answer": "2.11 m",
+      "choices": [
+        "a. 2.11 m",
+        "b. 211 m",
+        "c. 21.1 m",
+        "d. none of the choices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
       "question": "The 300-lb force and the 400-lb force shown in the figure are to be held in equilibrium by a third force F acting at an unknown angle θ with the horizontal. Determine the values of F. NOTE : see fig-10 from the LIST OF FIGURE in Week-1",
       "answer": "F = 205.31 lb",
       "choices": [
@@ -1815,6 +2010,25 @@
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T23:16:44Z"
+    },
+    {
+      "question": "The angle between the two Force is scalar is one of the three quantities of torque magnitude.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "The boiling point of water is 212 Fahrenheit.",
@@ -1974,6 +2188,44 @@
       "lastVerifiedAt": "2026-10-23T23:15:33Z"
     },
     {
+      "question": "The force applied is one of the three quantities of torque acceleration.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "The length of the lever arm connecting the axis to the point of the force application is one of the three quantities of torque magnitude.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
       "question": "The main advantages of the metric system is that it has many base unit for each physical quantity.",
       "answer": "False",
       "choices": [
@@ -2033,6 +2285,25 @@
       "lastVerifiedAt": "2026-10-23T23:16:44Z"
     },
     {
+      "question": "The moment caused by the resultant force about some arbitrary point is equal to the sum of the moment due to all of the component forces of the system.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
       "question": "The moment of the resultant of a system of forces with respect to any axis or point is equal to the vector sum of the moments of the individual forces of the system with respect to the same access or point.",
       "answer": "True",
       "choices": [
@@ -2044,10 +2315,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:18:07Z"
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "The motion is repeated in the same length of time.",
@@ -2197,10 +2468,29 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:04:56Z"
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "The symbol of torque is the Greek word for TAO.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "The temperature unit commonly used in USA is Fahrenheit.",
@@ -2356,6 +2646,67 @@
       "lastVerifiedAt": "2026-10-23T23:18:07Z"
     },
     {
+      "question": "To satisfy first condition of equilibrium, if rightward forces are positive, leftward forces must be:",
+      "answer": "negative",
+      "choices": [
+        "a. negative",
+        "b. doubled",
+        "c. halved",
+        "d. positive"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "Torque is defined as the cross product of the lever arm distance vector and the force vector.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
+      "question": "Two students are balancing on a 10m seesaw. The seesaw is designed so that each so that each side of the seesaw is 5m long. The students on the left weight 60kg and standing 3m away from the center. The student on the right weighs 45kg. The seesaw is parallel to the ground. Assume the board that makes the seesaw is massless. What distance from the center should the student on the right be if they want the seesaw to stay parallel to the ground?",
+      "answer": "4 m",
+      "choices": [
+        "a. none of the choices",
+        "b. 5 m",
+        "c. 6 m",
+        "d. 4 m"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
+    },
+    {
       "question": "Two vectors A and B are added by drawing the arrows which represents the vector in such a way that the initial point of B is on the terminal point of A. The resultant C = A + B, is the vector from the initial point of A to the terminal point of B.",
       "answer": "Polygon Method",
       "choices": [
@@ -2426,6 +2777,29 @@
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T23:27:47Z"
+    },
+    {
+      "question": "What force is necessary to generate a 20.0 N*m torque at an angle of 50 degrees from along a 3.00 m rod?",
+      "answer": "",
+      "choices": [
+        "a. none of the choices",
+        "b. 2.3 N",
+        "c. 2 N",
+        "d. 3 N"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "none of the choices"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "What is Friends language name of International System of Unit",
@@ -2518,6 +2892,27 @@
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T23:27:47Z"
+    },
+    {
+      "question": "What is the magnitude of the sum of the two forces shown in the diagram below? [Image: fig2 - [moodle-asset:340722/fig2%20%282%29.PNG]]",
+      "answer": "46 N",
+      "choices": [
+        "a. 142 N",
+        "b. 137 N",
+        "c. 102 N",
+        "d. 46 N"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     },
     {
       "question": "What is the standard unit of force?",
@@ -2627,6 +3022,27 @@
       "firstSeenAt": "2026-10-14T09:49:53Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-15T22:36:41Z"
+    },
+    {
+      "question": "You are helping your aunt move a piano on wheels from one room to another. When you push the piano horizontally, it moves at constant speed. What can you say about the piano?",
+      "answer": "It is in equilibrium because it experiences net force opposite to the friction force",
+      "choices": [
+        "a. It is in dynamic equilibrium.",
+        "b. It is in static equilibrium.",
+        "c. It is in equilibrium because it doesn’t experience a friction force.",
+        "d. It is in equilibrium because it experiences net force opposite to the friction force"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:30:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:30:16Z"
     }
   ]
 }
