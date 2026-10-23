@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-23T15:10:52Z",
-  "totalQuestions": 240,
+  "updatedAt": "2026-10-23T15:12:44Z",
+  "totalQuestions": 241,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -170,6 +170,27 @@
       "lastVerifiedAt": "2026-10-04T15:46:46Z"
     },
     {
+      "question": "[Image: [moodle-asset:382157/q.png]] Referring to the test result shown above. Given the output for this command, if the router ID has not been manually set, what router ID will OSPF use for this RouterD?",
+      "answer": "172.16.5.1",
+      "choices": [
+        "a. 10.1.1.2",
+        "b. 172.16.5.1",
+        "c. 10.154.154.1",
+        "d. 192.168.5.316"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T15:12:44Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
+    },
+    {
       "question": "[Image: [moodle-asset:382170/q.png]] Refer to the show command test result shown above. What is indicated by the O IA in the router output?",
       "answer": "The route was learned from another area.",
       "choices": [
@@ -202,7 +223,9 @@
         "d. No router ID has been configured.",
         "b. No router ID has been configured.",
         "c. A link-local address has not been configured on interface FastEthernet0/0.",
-        "d. Interfaces are not enabled"
+        "d. Interfaces are not enabled",
+        "a. No router ID has been configured.",
+        "b. FastEthernet0/0 has been configured as a passive interface."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -211,11 +234,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T15:41:56Z",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "[Image: [moodle-asset:382189/q.png]] Referring to the exhibit, the command “show ipv6 route can be issued on router R2 to verify the propagation of a static default router from R1 to R2\" As discussed in this chapter why is MD5 authentication is more secure than simple authentication of OSPF updates?a",
@@ -566,17 +589,21 @@
         "a. O IA",
         "b. O",
         "c. C",
-        "d. O E2"
+        "d. O E2",
+        "a. O",
+        "b. O E2",
+        "c. O IA",
+        "d. C"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T09:58:24Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "A network administrator of Genesis Airlines issue a command of show cdp neigbors on a router, what do you think is the reason?",
@@ -1235,17 +1262,20 @@
         "a. Init state",
         "b. Loading state",
         "c. Two-Way state",
-        "d. Exchange state"
+        "d. Exchange state",
+        "a. Exchange state",
+        "b. Init state",
+        "d. Loading state"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:41:56Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "As discussed in scaling networks what type of OSPF LSA is originated by ASBR routers to advertise external routes?",
@@ -1259,17 +1289,19 @@
         "b. type 5",
         "c. type 2",
         "a. type 3",
-        "d. type 5"
+        "d. type 5",
+        "c. type 1",
+        "d. type 2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "As discussed in this chapter multiarea OSPF what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
@@ -1580,14 +1612,16 @@
         "b. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3.",
         "d. This route is a propagated default route.",
         "c. The route is located two hops away.",
-        "d. The metric for this route is 110"
+        "d. The metric for this route is 110",
+        "a. The metric for this route is 110",
+        "d. The edge of the OSPF area 0 is the interface that is addressed 192.168.16.3."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z",
+      "lastVerifiedAt": "2026-10-23T15:12:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1786,17 +1820,20 @@
         "c. Rip v1",
         "d. Rip v2",
         "b. Rip v2",
-        "d. Single-area OSPF"
+        "d. Single-area OSPF",
+        "a. Rip v1",
+        "c. Rip v2",
+        "d. Multi-area OSPF"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:00:09Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "If you want to disable STP on a port connected to a server, which command would you use?",
@@ -1851,12 +1888,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-23T15:10:52Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "In implementing EtherChannel technology, which PAgP mode combination will establish an EtherChannel?",
@@ -1917,17 +1954,20 @@
         "a. Area",
         "b. Router",
         "c. Subnet",
-        "d. Backbone"
+        "d. Backbone",
+        "a. Backbone",
+        "b. Area",
+        "d. Router"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "In link state advertisement the type 1 LSAs are also refered to as:",
@@ -1947,10 +1987,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "In managing Cisco devices, what are two ways to access a Cisco switch for out-of-band management?",
@@ -2125,17 +2165,19 @@
         "d. ABR",
         "a. ABR",
         "c. Internal Router",
-        "d. Backbone Router"
+        "d. Backbone Router",
+        "b. Internal Router",
+        "d. ASBR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "In RMS University, the network admin is trying to add a new router into an established OSPF network. The network attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
@@ -2216,17 +2258,20 @@
         "a. link bandwidth",
         "b. link delay",
         "c. administrative distance",
-        "d. hop count"
+        "d. hop count",
+        "a. link delay",
+        "b. administrative distance",
+        "c. link bandwidth"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "In the understanding of wireless LAN technologies what wireless LAN technology that operates in the range of a few feet (Bluetooth)?",
@@ -2377,17 +2422,19 @@
         "a. 2, 3, 6",
         "b. 4, 5, 6",
         "c. 1, 2, 3",
-        "d. 1, 3, 5"
+        "d. 1, 3, 5",
+        "b. 2, 3, 6",
+        "c. 1, 3, 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "In understanding in OSPF networks what does an O E1 or E2 routing table entry mean?",
@@ -3465,17 +3512,21 @@
         "a. Hello",
         "b. LSA (Link State Advertisements)",
         "c. Bandwidth",
-        "d. Backbone area"
+        "d. Backbone area",
+        "a. Bandwidth",
+        "b. Backbone area",
+        "c. LSA (Link State Advertisements)",
+        "d. Hello"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:32:08Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "What does an O IA routing table entry mean?",
@@ -3487,17 +3538,20 @@
         "d. Internal route",
         "a. Intra-area route",
         "c. Internal route",
-        "d. Inter-area route"
+        "d. Inter-area route",
+        "a. Internal route",
+        "b. Intra-area route",
+        "c. External route"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "What does an O routing table entry mean?",
@@ -4191,10 +4245,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "Which algorithm is used by the OSPF routing process to construct the SPF tree on a router?",
@@ -4341,17 +4395,19 @@
         "a. show ip ospf interface serial 0/0/0",
         "b. show ip ospf interface fastethernet 0/1",
         "c. show ip ospf neighbor",
-        "d. show ipv6 ospf interface serial 0/0/0"
+        "d. show ipv6 ospf interface serial 0/0/0",
+        "a. show ip ospf neighbor",
+        "c. show ip ospf interface serial 0/0/0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "Which command will limit the bandwidth that is used by EIGRP process 1 to 20%? [____: ip bandwidth-percent eigrp 1 20]",
@@ -4432,17 +4488,18 @@
         "d. It requires a three-layer hierarchical network design approach.",
         "a. It requires a three-layer hierarchical network design approach.",
         "c. It consists of multiple network areas that are daisy-chained together.",
-        "a. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area"
+        "a. It has multiple routers that run multiple routing protocols simultaneously, and each protocol consists of an area",
+        "b. It requires a three-layer hierarchical network design approach."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:04:45Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "Which EIGRP parameter must match between all routers forming an EIGRP adjacency?",
@@ -5003,10 +5060,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:03:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "Which three steps in the design and implementation of a multiarea OSPF network are considered planning steps? (Choose a letter)",
@@ -5017,17 +5074,19 @@
         "c. 1 , 2 & 4",
         "d. 2, 3 & 4",
         "b. 2, 3 & 4",
-        "d. 2, 4 & 6"
+        "d. 2, 4 & 6",
+        "c. 2, 3 & 4",
+        "d. 1 , 2 & 4"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:12:44Z"
     },
     {
       "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation?",
