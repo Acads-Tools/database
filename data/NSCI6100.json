@@ -1,8 +1,8 @@
 {
   "subjectCode": "NSCI6100",
   "subjectName": "NSCI6100",
-  "updatedAt": "2026-10-23T23:40:59Z",
-  "totalQuestions": 136,
+  "updatedAt": "2026-10-23T23:44:14Z",
+  "totalQuestions": 137,
   "questions": [
     {
       "question": "\"Sum of all forces acting on a body is zero\". This condition represents equilibrium's",
@@ -277,12 +277,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "A cylinder weighing 400 lb. is held against a smooth incline by means of the weightless rod AB in the figure. Determine the forces P and N exerted on the cylinder by the rod and the incline.NOTE : see fig-6 from the LIST OF FIGURE in Week-1",
@@ -528,17 +528,20 @@
         "a. none of the choices",
         "b. free falling object",
         "c. free fall",
-        "d. range"
+        "d. range",
+        "b. free fall",
+        "c. range",
+        "d. free falling object"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "An object thrown upward with velocity will rise to a height.",
@@ -885,7 +888,11 @@
         "b. none of the choices",
         "d. 293.15 kelvin",
         "c. 87.33 kelvin",
-        "d. 338.706 kelvin"
+        "d. 338.706 kelvin",
+        "a. 390.128",
+        "b. 312.098",
+        "c. 310.928",
+        "d. 318.109"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -910,6 +917,10 @@
         {
           "rejectedAnswer": "338.706 kelvin",
           "timestamp": "2026-10-15T22:36:41Z"
+        },
+        {
+          "rejectedAnswer": "310.928",
+          "timestamp": "2026-10-23T23:44:14Z"
         }
       ]
     },
@@ -954,17 +965,18 @@
         "c. P = -14.76 kN",
         "d. none of the choices",
         "c. none of the choices",
-        "d. P = 4.76 kN"
+        "d. P = 4.76 kN",
+        "b. P = -14.76 kN"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "Free-falling objects always encounter air resistance.",
@@ -1098,19 +1110,20 @@
         "a. none of the choices",
         "b. not in equilibrium",
         "c. Imbalanced",
-        "d. In equilibrium"
+        "d. In equilibrium",
+        "a. In equilibrium"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "If the body is in equilibrium under the action of a number of the forces, then the algebraic sum of the moments of the forces about any point is equal to one.",
@@ -1369,17 +1382,19 @@
         "a. none of the choices",
         "c. 5.24 meter",
         "b. 25.4 meter",
-        "d. 2.54 meter"
+        "d. 2.54 meter",
+        "b. none of the choices",
+        "c. 2.54 meter"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:49:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-15T22:36:41Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "Is defined as the projection of uniform circular motion on a straight line.",
@@ -1422,10 +1437,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "It is autonomous of the body’s mass.",
@@ -1550,19 +1565,21 @@
         "b. dynamics",
         "d. kinematics",
         "b. statics",
-        "c. none of the choices"
+        "c. none of the choices",
+        "a. statics",
+        "b. kinematics"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "It is the world’s most widely used system of units, both in everyday commerce and in science.",
@@ -1691,11 +1708,17 @@
         "a. 1322.77",
         "b. 1377.22",
         "c. 1422.77",
-        "d. 1722.30"
+        "d. 1722.30",
+        "a. 167.534",
+        "b. 165.347",
+        "c. 160.347",
+        "d. 163.547"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "167.534"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -1703,7 +1726,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z",
+      "lastEvidenceAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "km = _________________mile",
@@ -1736,10 +1760,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:27:47Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "lbs = _____ kg?",
@@ -1761,10 +1785,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:49:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-15T22:36:41Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "m = ______ yrd ?",
@@ -1826,17 +1850,19 @@
         "a. none of the choices",
         "b. 4803.15 inches",
         "c. 480.315 inches",
-        "b. none of the choices"
+        "b. none of the choices",
+        "b. 48031.5 inches",
+        "d. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:49:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-15T22:36:41Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "ml = __________ cup",
@@ -2139,10 +2165,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "The ______ in simple harmonic motion is proportional and opposite to the displacement.",
@@ -2178,12 +2204,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "The boiling point of water is 212 Fahrenheit.",
@@ -2217,7 +2243,8 @@
         "a. none of the choices",
         "d. T = 43.24 lb , C = 53.94 lb",
         "b. none of the choices",
-        "d. T = 49.24 lb , C = 57.94 lb"
+        "d. T = 49.24 lb , C = 57.94 lb",
+        "d. T = 439.24 lb , C = 537.94 lb"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2226,11 +2253,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T04:10:41Z",
-      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "The cylinders in the figure have the indicated weights and dimensions. Assuming smooth contact surfaces, determine the reactions at A, B, C, and D on the cylinders.NOTE : see fig-13 from the LIST OF FIGURES in Week-1",
@@ -2592,19 +2619,22 @@
         "a. none of the choices",
         "b. method",
         "c. theory",
-        "d. object"
+        "d. object",
+        "a. method",
+        "b. object",
+        "d. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "The resultant of non-concurrent force system is defined according to _________, __________, and ___________.",
@@ -2632,6 +2662,25 @@
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T23:15:33Z"
+    },
+    {
+      "question": "The SI units for time is minute.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:44:14Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "The sum of the clockwise moments equals sum of the anticlockwise moments when the body is in equilibrium.",
@@ -2893,19 +2942,20 @@
         "c. none of the choices",
         "d. 6 m",
         "b. 4 m",
-        "c. 5 m"
+        "c. 5 m",
+        "a. 6 m"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "Two vectors A and B are added by drawing the arrows which represents the vector in such a way that the initial point of B is on the terminal point of A. The resultant C = A + B, is the vector from the initial point of A to the terminal point of B.",
@@ -2996,7 +3046,8 @@
         "b. 2 N",
         "c. 2.3 N",
         "d. none of the choices",
-        "b. 3 N"
+        "b. 3 N",
+        "a. 2.3 N"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -3006,13 +3057,13 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-23T23:32:04Z",
-      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+      "lastVerifiedAt": "2026-10-23T23:44:14Z"
     },
     {
       "question": "What is Friends language name of International System of Unit",
