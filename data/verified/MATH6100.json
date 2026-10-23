@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-23T11:20:18Z",
-  "totalQuestions": 62,
+  "updatedAt": "2026-10-23T11:25:51Z",
+  "totalQuestions": 63,
   "tier": "verified",
   "questions": [
     {
@@ -90,17 +90,18 @@
         "d. [Image: [moodle-asset:303157/graph3.png]]",
         "a. [Image: [moodle-asset:303157/graph3.png]]",
         "c. [Image: [moodle-asset:303158/graph4.png]]",
-        "d. [Image: [moodle-asset:303156/graph2.png]]"
+        "d. [Image: [moodle-asset:303156/graph2.png]]",
+        "c. [Image: [moodle-asset:303157/graph3.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:20:18Z"
+      "lastVerifiedAt": "2026-10-23T11:25:51Z"
     },
     {
       "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 0} \\frac {cos 2x - 1}{cos x - 1} \\) Answer: [____: 4]",
@@ -481,17 +482,20 @@
         "a. g(x)-1",
         "b. g(x-1)",
         "c. [ g(x) ]",
-        "d. | g(x) |"
+        "d. | g(x) |",
+        "a. [ g(x) ]",
+        "b. | g(x) |",
+        "c. g(x-1)"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:20:18Z"
+      "lastVerifiedAt": "2026-10-23T11:25:51Z"
     },
     {
       "question": "Sketch the lines X=1, x=2, and x=3 tangent to the curve given in figure 7. Estimate the slope of each of the tangent lines you drew. [Image: [moodle-asset:120685/Calc-As1.png]]",
@@ -616,6 +620,25 @@
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:37:40Z"
+    },
+    {
+      "question": "The figure shows the temperature during a day in a place. How fast is the temperature changing from 1:00 P.M. to 7:00 P.M.? Round-off your answer to 2 decimal places. [Image: [moodle-asset:121087/A6-4.JPG]] Answer: [____] ⁰F/hour",
+      "answer": "-1.67",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "-167"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:20:18Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:20:18Z",
+      "lastVerifiedAt": "2026-10-23T11:25:51Z"
     },
     {
       "question": "The following problems could be solved by differential calculus:",
