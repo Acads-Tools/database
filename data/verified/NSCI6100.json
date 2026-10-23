@@ -1,8 +1,8 @@
 {
   "subjectCode": "NSCI6100",
   "subjectName": "NSCI6100",
-  "updatedAt": "2026-10-23T23:37:23Z",
-  "totalQuestions": 132,
+  "updatedAt": "2026-10-23T23:40:59Z",
+  "totalQuestions": 136,
   "tier": "verified",
   "questions": [
     {
@@ -424,19 +424,20 @@
         "a. 4.5 cm",
         "b. none of the choices",
         "d. 54 cm",
-        "d. 45 cm"
+        "d. 45 cm",
+        "a. 54 cm"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "Add the following vectors and determine the resultant. 3.0 m/s, 45 deg and 5.0 m/s, 135 deg",
@@ -577,6 +578,27 @@
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T04:04:56Z"
+    },
+    {
+      "question": "Celsius = ____________ Fahrenheit",
+      "answer": "122",
+      "choices": [
+        "a. 120",
+        "b. 121",
+        "c. 122",
+        "d. 123"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:40:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "centigrade = _____________ Fahrenheit ?",
@@ -761,19 +783,21 @@
         "a. Yes, but it is at equilibrium",
         "d. No, it isn't moving",
         "a. No, Bridge can't have torque",
-        "b. Yes, but it is at equilibrium"
+        "b. Yes, but it is at equilibrium",
+        "a. Yes, but it will soon break because of the torque",
+        "c. No, it isn't moving"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "Equilibrium is the tendency of a force to cause an object to rotate about an axis.",
@@ -787,12 +811,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "Equilibrium occurs when…",
@@ -1101,12 +1125,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "If the polygon is closed, the resultant is a vector of zero magnitude and has no direction. This is called the ________ vector.",
@@ -1149,17 +1173,18 @@
         "c. graphical solution",
         "d. none of the choices",
         "c. logical solution",
-        "d. algebraic solution"
+        "d. algebraic solution",
+        "d. graphical solution"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "If ∠A = 89 o and ∠C = 56o, find the value of ∠B.",
@@ -1207,10 +1232,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "In order to add ______ quantities, one has merely to make the algebraic addition.",
@@ -1388,17 +1413,20 @@
         "c. period",
         "d. simple pendulum",
         "a. waves",
-        "b. none of the choices"
+        "b. none of the choices",
+        "b. simple pendulum",
+        "c. waves",
+        "d. period"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "It is autonomous of the body’s mass.",
@@ -1658,6 +1686,27 @@
       "lastVerifiedAt": "2026-10-15T22:36:41Z"
     },
     {
+      "question": "kg = ______________ lbs",
+      "answer": "1322.77",
+      "choices": [
+        "a. 1322.77",
+        "b. 1377.22",
+        "c. 1422.77",
+        "d. 1722.30"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:40:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+    },
+    {
       "question": "km = _________________mile",
       "answer": "80.778",
       "choices": [
@@ -1791,6 +1840,27 @@
       "lastVerifiedAt": "2026-10-15T22:36:41Z"
     },
     {
+      "question": "ml = __________ cup",
+      "answer": "1.268",
+      "choices": [
+        "a. 0.1268",
+        "b. 2.168",
+        "c. 3.268",
+        "d. 1.268"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:40:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+    },
+    {
       "question": "Once we know how long the projectile stayed in the air, finding the _____________ from the horizontal motion is simple.",
       "answer": "range",
       "choices": [
@@ -1799,17 +1869,19 @@
         "c. trajectory height",
         "d. none of the choices",
         "b. none of the choices",
-        "d. free falling object"
+        "d. free falling object",
+        "a. none of the choices",
+        "d. range"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "One ____________ would be to resolve a pair of forces using the parallelogram or triangle method into a resultant.",
@@ -2060,17 +2132,18 @@
         "b. F = 205.31 lb",
         "c. F = 20.31 lb",
         "d. none of the choices",
-        "c. 5.31 lb"
+        "c. 5.31 lb",
+        "b. none of the choices"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "The ______ in simple harmonic motion is proportional and opposite to the displacement.",
@@ -2143,7 +2216,9 @@
         "a. T = 439.24 lb , C = 537.94 lb",
         "c. T = 43.24 lb , C = 53.94 lb",
         "a. none of the choices",
-        "d. T = 43.24 lb , C = 53.94 lb"
+        "d. T = 43.24 lb , C = 53.94 lb",
+        "b. none of the choices",
+        "d. T = 49.24 lb , C = 57.94 lb"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2152,11 +2227,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T04:10:41Z",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "The cylinders in the figure have the indicated weights and dimensions. Assuming smooth contact surfaces, determine the reactions at A, B, C, and D on the cylinders.NOTE : see fig-13 from the LIST OF FIGURES in Week-1",
@@ -2309,6 +2384,25 @@
       "lastVerifiedAt": "2026-10-23T23:36:15Z"
     },
     {
+      "question": "The main advantage of the metric system is that it has a single base unit of each physical quantity.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:40:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+    },
+    {
       "question": "The main advantages of the metric system is that it has many base unit for each physical quantity.",
       "answer": "False",
       "choices": [
@@ -2398,10 +2492,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "The motion is repeated in the same length of time.",
@@ -2435,17 +2529,18 @@
         "d. simple harmonic motion",
         "b. simple harmonic motion",
         "c. none of the choices",
-        "d. displacement"
+        "d. displacement",
+        "b. displacement"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "The motion of objects can not be described by words",
@@ -2722,19 +2817,20 @@
         "d. Pythagorean",
         "a. Parallelogram",
         "b. Polygon",
-        "d. Trigonometric"
+        "d. Trigonometric",
+        "b. Pythagorean"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "To satisfy first condition of equilibrium, if rightward forces are positive, leftward forces must be:",
@@ -2777,12 +2873,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "Two students are balancing on a 10m seesaw. The seesaw is designed so that each so that each side of the seesaw is 5m long. The students on the left weight 60kg and standing 3m away from the center. The student on the right weighs 45kg. The seesaw is parallel to the ground. Assume the board that makes the seesaw is massless. What distance from the center should the student on the right be if they want the seesaw to stay parallel to the ground?",
@@ -2911,13 +3007,13 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-23T23:32:04Z",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     },
     {
       "question": "What is Friends language name of International System of Unit",
@@ -3163,19 +3259,21 @@
         "b. It is in equilibrium because it doesn’t experience a friction force.",
         "c. It is in static equilibrium.",
         "a. It is in static equilibrium.",
-        "d. It is in dynamic equilibrium."
+        "d. It is in dynamic equilibrium.",
+        "a. It is in equilibrium because it doesn’t experience a friction force.",
+        "c. It is in equilibrium because it experiences net force opposite to the friction force"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:40:59Z"
     }
   ]
 }
