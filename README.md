@@ -147,7 +147,7 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 | `ITE6200` | Application Development and Emerging Technology | **170** | Active |
 | `ITE6202` | ITE6202 | **112** | Active |
 | `ITE6301` | Technopreneurship | **200** | Active |
-| `MATH6100` | Calculus 1 | **71** | Active |
+| `MATH6100` | Calculus 1 | **76** | Active |
 | `MATH6200` | MATH6200 | **150** | Active |
 | `MKTG6256` | MKTG6256 | **54** | Active |
 | `NSCI6100` | NSCI6100 | **112** | Active |

@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-23T11:06:10Z",
-  "totalQuestions": 57,
+  "updatedAt": "2026-10-23T11:11:18Z",
+  "totalQuestions": 61,
   "tier": "verified",
   "questions": [
     {
@@ -63,6 +63,22 @@
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T09:57:56Z"
+    },
+    {
+      "question": "Calculus was developed by Leibniz and [____] . (Indicate only the last name)",
+      "answer": "Newton",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:11:18Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
     },
     {
       "question": "Consider the equation below: [Image: [moodle-asset:120977/function.png]] After evaluating g(-4), g(-1) and g(3), choose which graph represents the given conditions.",
@@ -310,10 +326,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T09:57:56Z"
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
     },
     {
       "question": "INSTEAD OF triggers can be written only for views.",
@@ -475,17 +491,22 @@
         "b. The slope of the tangent lines at x=1 is 1 and at x=3 is -1.",
         "c. The slope of the tangent lines x=1, x=2 and x=3 is 1.",
         "d. The slope of the tangent line x=2 is 1.",
-        "e. The slope of the tangent line x=2 is 0."
+        "e. The slope of the tangent line x=2 is 0.",
+        "a. The slope of the tangent lines at x=1 is 1 and at x=3 is -1.",
+        "b. The slope of the tangent lines x=1, x=2 and x=3 is 1.",
+        "c. The slope of the tangent lines x=1 and x=3 is 0.",
+        "d. The slope of the tangent line x=2 is 0.",
+        "e. The slope of the tangent line x=2 is 1."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T09:57:56Z"
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
     },
     {
       "question": "Sketch the lines x=1, x=2, and x=3 tangent to the curve given in figure 7. Estimate the slope of each of the tangent lines you drew. [Image: [moodle-asset:120934/Calc-As1.png]]",
@@ -495,17 +516,21 @@
         "b. The slope of the tangent line at x=2 is 0.",
         "c. The slope of the tangent lines at x=1, x=2 and x=3 is 1.",
         "d. The slope of the tangent lines at x=1 is 1 and at x=3 is -1.",
-        "e. The slope of the tangent line at x=2 is 1."
+        "e. The slope of the tangent line at x=2 is 1.",
+        "a. The slope of the tangent line at x=2 is 0.",
+        "b. The slope of the tangent lines at x=1 and x=3 is 0.",
+        "c. The slope of the tangent lines at x=1 is 1 and at x=3 is -1.",
+        "d. The slope of the tangent lines at x=1, x=2 and x=3 is 1."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T09:57:56Z"
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
     },
     {
       "question": "The 2 divisions of Calculus are:",
@@ -514,17 +539,20 @@
         "a. Differential",
         "b. Integral",
         "c. Algebra",
-        "d. Trigonometry"
+        "d. Trigonometry",
+        "a. Algebra",
+        "b. Differential",
+        "c. Integral"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T09:57:56Z"
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
     },
     {
       "question": "The distinction between data administration and database administration:",
@@ -566,7 +594,11 @@
         "a. rate or speed",
         "b. area between the graph of a function and the x-axis",
         "c. largest or smallest volume of a solid",
-        "d. summation of small areas"
+        "d. summation of small areas",
+        "a. summation of small areas",
+        "b. largest or smallest volume of a solid",
+        "c. rate or speed",
+        "d. area between the graph of a function and the x-axis"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -576,7 +608,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T09:57:56Z"
+      "lastVerifiedAt": "2026-10-14T09:57:56Z",
+      "alternateAnswers": [
+        {
+          "answer": "largest or smallest volume of a solid, rate or speed",
+          "timestamp": "2026-10-23T11:11:18Z"
+        }
+      ]
     },
     {
       "question": "The IN OUT parameter mode can be assigned a default value.",
@@ -629,6 +667,22 @@
       "lastVerifiedAt": "2026-10-14T09:57:56Z"
     },
     {
+      "question": "The process of taking the limit of a sum of little quantities is called [____] .",
+      "answer": "Integration",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:11:18Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+    },
+    {
       "question": "The slope of a horizontal line is [____: 0] . (Answer should be numeric)",
       "answer": "0",
       "choices": [],
@@ -657,6 +711,22 @@
       "lastVerifiedAt": "2026-10-14T09:57:56Z"
     },
     {
+      "question": "The slope of a vertical line is [____] .",
+      "answer": "Undefined",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:11:18Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
+    },
+    {
       "question": "The slope of the line through (5,15) and (x+8, x²-2x) is [____: x-5] .",
       "answer": "x-5",
       "choices": [],
@@ -683,6 +753,22 @@
       "firstSeenAt": "2026-10-14T09:57:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T09:57:56Z"
+    },
+    {
+      "question": "The slope of the tangent line is called the [____] of the function f(x) at point P.",
+      "answer": "Derivative",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:11:18Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T11:11:18Z"
     },
     {
       "question": "The sum of two prime numbers is a prime.",
