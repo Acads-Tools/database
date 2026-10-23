@@ -1,8 +1,8 @@
 {
   "subjectCode": "NSCI6100",
   "subjectName": "NSCI6100",
-  "updatedAt": "2026-10-23T23:44:14Z",
-  "totalQuestions": 137,
+  "updatedAt": "2026-10-23T23:46:21Z",
+  "totalQuestions": 142,
   "questions": [
     {
       "question": "\"Sum of all forces acting on a body is zero\". This condition represents equilibrium's",
@@ -218,19 +218,22 @@
         "d. 1",
         "a. min",
         "c. 1",
-        "d. 0"
+        "d. 0",
+        "a. max",
+        "b. 0",
+        "d. min"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "A bolt connecting the main and rear frame of a mountain bike requires of 15 N.m to tighten. If you are capable of applying 40N of force to a wrench in any given direction, what is the minimum length of the wrench that will result in the required torque?",
@@ -337,13 +340,13 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-15T22:39:26Z",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "A millimeter is about the thickness of a dime.",
@@ -451,19 +454,21 @@
         "c. 5.38 m/s",
         "d. 3.38 m/s",
         "a. 5.38 m/s",
-        "c. 4.38 m/s"
+        "c. 4.38 m/s",
+        "b. 5.38 m/s",
+        "d. 6.38 m/s"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "All free-falling objects (on Earth) accelerate at a rate of _____________.",
@@ -653,6 +658,27 @@
       "lastVerifiedAt": "2026-10-15T22:36:41Z"
     },
     {
+      "question": "Commonly defined as the amount of heat energy required to raise the temperature of one gram of water by one degree celsius.",
+      "answer": "calorie",
+      "choices": [
+        "a. calorie",
+        "b. none of the choices",
+        "c. joules",
+        "d. gravity"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:46:21Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
+    },
+    {
       "question": "Cords are loop around a small spacer separating two cylinders each weighing 400 lb. and pass, as shown in the fig-12 from the LIST OF FIGURE in Week-1 over a frictionless pulley to weights of 200 lb. and 400 lb. Determine the angle θ.",
       "answer": "θ = 60 degrees",
       "choices": [
@@ -670,17 +696,18 @@
         "a. θ = 76 degrees",
         "c. none of the choices",
         "d. θ = 60 degrees",
-        "c. θ = 70 degrees"
+        "c. θ = 70 degrees",
+        "b. θ = 76 degrees"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "Determine the magnitude of P and F necessary to keep the concurrent force system in the figure in equilibrium.NOTE : see fig-8 from the LIST OF FIGURE in week-1",
@@ -892,7 +919,8 @@
         "a. 390.128",
         "b. 312.098",
         "c. 310.928",
-        "d. 318.109"
+        "d. 318.109",
+        "d. 706.38 kelvin"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -921,6 +949,10 @@
         {
           "rejectedAnswer": "310.928",
           "timestamp": "2026-10-23T23:44:14Z"
+        },
+        {
+          "rejectedAnswer": "338.706 kelvin",
+          "timestamp": "2026-10-23T23:46:21Z"
         }
       ]
     },
@@ -1275,6 +1307,25 @@
       "lastVerifiedAt": "2026-10-23T23:37:23Z"
     },
     {
+      "question": "In practice, every four years calendars will have 365 days, to make up for extra day over four years.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:46:21Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
+    },
+    {
       "question": "In practice, every three calendar years will have 365 days, and every fourth year is a “leap year”, which has 366 days, to make up for the extra quarter day over four years.",
       "answer": "True",
       "choices": [
@@ -1458,10 +1509,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "It is decimalized system of measurement based on the metre and the gram.",
@@ -1664,17 +1715,20 @@
         "a. 288.65",
         "b. 256.88",
         "c. 200.85",
-        "d. 286.85"
+        "d. 286.85",
+        "a. 200.85",
+        "b. 288.65",
+        "c. 256.88"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T04:04:56Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "kg = ____ g ?",
@@ -1987,6 +2041,27 @@
       "lastVerifiedAt": "2026-10-23T23:37:23Z"
     },
     {
+      "question": "Since 1860s, the international system of units is the internationally recognized standard metric system.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:46:21Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
+    },
+    {
       "question": "Since all of these forces are not entirely parallel, the position of the resultant can be established using the ________ or ________ methods.",
       "answer": "graphical, algebraic",
       "choices": [
@@ -2101,17 +2176,21 @@
         "d. 2",
         "b. 5",
         "c. 2",
-        "d. 3"
+        "d. 3",
+        "a. 3",
+        "b. 2",
+        "c. 0 or zero",
+        "d. 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T04:07:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:16:44Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "Suzie applies a force of 40.0 N at an angle of 60 degrees up from the horizontal to a wooden rod using a spring scale. If she generates a torque of 73.0 N*m, how long was the rod?",
@@ -2158,17 +2237,18 @@
         "c. F = 20.31 lb",
         "d. none of the choices",
         "c. 5.31 lb",
-        "b. none of the choices"
+        "b. none of the choices",
+        "a. F = 20.31 lb"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:44:14Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "The ______ in simple harmonic motion is proportional and opposite to the displacement.",
@@ -2339,11 +2419,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-23T23:14:04Z",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "The figure represents the concurrent force system acting at a joint of a bridge truss. Determine the value of P and F to maintain equilibrium of the forces.NOTE : see fig-9 from the LIST OF FIGURE in Week-1",
@@ -2518,10 +2598,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:40:59Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "The motion is repeated in the same length of time.",
@@ -2609,6 +2689,25 @@
       "lastVerifiedAt": "2026-10-23T23:16:44Z"
     },
     {
+      "question": "The pressure units commonly used in the USA include the inch of mercury and the atmosphere (29.92 inches of mercury).",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:46:21Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
+    },
+    {
       "question": "The resultant and equilibrant of several sets of such known forces are determined by both graphical and analytical methods.",
       "answer": "method",
       "choices": [
@@ -2651,17 +2750,19 @@
         "a. none of the choices",
         "b. magnitude, inclination, position",
         "d. speed, inclination, position",
-        "c. speed, inclination, position"
+        "c. speed, inclination, position",
+        "b. none of the choices",
+        "d. magnitude, displacement, position"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-14T04:10:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:15:33Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "The SI units for time is minute.",
@@ -2734,6 +2835,25 @@
       "firstSeenAt": "2026-10-14T04:04:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T04:04:56Z"
+    },
+    {
+      "question": "The term torque was introduced into English scientific literature by Lord Kevin, in 1884.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T23:46:21Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "The three forces in the figure create a vertical resultant acting through point A. If T is known to be 361 lb., compute the values of F and P.NOTE: see fig-4 from the LIST OF FIGURE in week-1",
@@ -2968,19 +3088,22 @@
         "b. Head-to-Tail Method",
         "c. Polygon Method",
         "d. Trigonometric Method",
-        "b. Trigonometric Method"
+        "b. Trigonometric Method",
+        "a. Head-to-Tail Method",
+        "c. Parallelogram Method",
+        "d. Polygon Method"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-15T22:39:26Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:37:23Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "Two weightless bars pinned together as shown in the fig-15 from the LIST OF FIGURE in Week-1 support a load of 35 kN. Determine the forces P and F acting respectively along bars AB and AC that maintain equilibrium of pin A.",
@@ -3098,17 +3221,19 @@
         "c. National Institute of Standards and Technology",
         "d. None of the choices",
         "b. National Institute of Standards and Technology",
-        "c. National Institute of Science and Technology"
+        "c. National Institute of Science and Technology",
+        "a. National Institute of Science and Technology",
+        "c. Nation Institute of Standard and Technology"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T09:47:07Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T23:27:47Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "What is the acronym of NPL?",
@@ -3180,12 +3305,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-23T23:30:16Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-23T23:36:15Z"
+      "lastVerifiedAt": "2026-10-23T23:46:21Z"
     },
     {
       "question": "What is the standard unit of force?",
