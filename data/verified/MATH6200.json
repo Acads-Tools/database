@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-23T10:46:33Z",
-  "totalQuestions": 149,
+  "updatedAt": "2026-10-23T10:47:52Z",
+  "totalQuestions": 150,
   "tier": "verified",
   "questions": [
     {
@@ -19,10 +19,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "[Image: matrix - [moodle-asset:218978/matrices.png]] Which of the matrices is singular?",
@@ -31,17 +31,21 @@
         "a. A",
         "b. C",
         "c. B",
-        "d. none"
+        "d. none",
+        "a. B",
+        "b. A",
+        "c. none",
+        "d. C"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "[Image: matrix1 - [moodle-asset:218979/matrices.png]] Which of the following is the transpose of B?",
@@ -50,17 +54,21 @@
         "a. [Image: d - [moodle-asset:556413/dddd.png]]",
         "b. [Image: c - [moodle-asset:556412/c.png]]",
         "c. [Image: a - [moodle-asset:556410/a.png]]",
-        "d. [Image: b - [moodle-asset:556411/b.png]]"
+        "d. [Image: b - [moodle-asset:556411/b.png]]",
+        "a. [Image: c - [moodle-asset:556412/c.png]]",
+        "b. [Image: b - [moodle-asset:556411/b.png]]",
+        "c. [Image: d - [moodle-asset:556413/dddd.png]]",
+        "d. [Image: a - [moodle-asset:556410/a.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "[Image: matrix2 - [moodle-asset:218980/matrices.png]] Which of the following is TRUE?",
@@ -69,17 +77,19 @@
         "a. AB is not possible",
         "b. A + B = B+ A",
         "c. AB=BA",
-        "d. BC=CB"
+        "d. BC=CB",
+        "a. AB=BA",
+        "c. AB is not possible"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "[Image: matrix3 - [moodle-asset:218981/matrices.png]] 3A + B =",
@@ -88,17 +98,20 @@
         "a. [Image: d - [moodle-asset:556421/matrix%203.png]]",
         "b. [Image: a - [moodle-asset:556418/matrix.png]]",
         "c. [Image: b - [moodle-asset:556419/matrix%201.png]]",
-        "d. [Image: c - [moodle-asset:556420/matrix%202.png]]"
+        "d. [Image: c - [moodle-asset:556420/matrix%202.png]]",
+        "a. [Image: b - [moodle-asset:556419/matrix%201.png]]",
+        "b. [Image: d - [moodle-asset:556421/matrix%203.png]]",
+        "c. [Image: a - [moodle-asset:556418/matrix.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "___________ uses artifacts to present data visually.",
@@ -160,17 +173,19 @@
         "a. static",
         "b. nonlinear",
         "c. linear",
-        "d. dynamic"
+        "d. dynamic",
+        "a. dynamic",
+        "d. static"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "A bell shaped curve that is symmetric about a vertical line.",
@@ -394,17 +409,21 @@
         "a. Have same number of rows",
         "b. Have same number of columns.",
         "c. Are square matrices.",
-        "d. Have same sizes."
+        "d. Have same sizes.",
+        "a. Have same sizes.",
+        "b. Have same number of rows",
+        "c. Have same number of columns.",
+        "d. Are square matrices."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "Algorithms are independent of its",
@@ -484,17 +503,21 @@
         "a. linear",
         "b. dynamic",
         "c. nonlinear",
-        "d. static"
+        "d. static",
+        "a. static",
+        "b. linear",
+        "c. dynamic",
+        "d. nonlinear"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "Another term for an empty set.",
@@ -845,17 +868,20 @@
         "a. { (3,4) (3,5) (2,4 ) {2,2) }",
         "b. { (3,3) (3,5) (2,4 ) {2,5) }",
         "c. { (3,4) (3,3) (2,4 ) {2,5) }",
-        "d. { (3,4) (3,5) (2,4 ) {2,5) }"
+        "d. { (3,4) (3,5) (2,4 ) {2,5) }",
+        "b. { (3,4) (3,3) (2,4 ) {2,5) }",
+        "c. { (3,4) (3,5) (2,4 ) {2,5) }",
+        "d. { (3,3) (3,5) (2,4 ) {2,5) }"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "If R= { (3,3), (3,6), (5,5),(5,10),(6.12)} is a binary relation in R which the domain is",
@@ -1430,17 +1456,20 @@
         "a. nonlinear",
         "b. dynamic",
         "c. static",
-        "d. linear"
+        "d. linear",
+        "a. linear",
+        "b. nonlinear",
+        "d. dynamic"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "It refers to well based theories and sound business judgement.",
@@ -1692,10 +1721,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "PAW means____________.",
@@ -2107,17 +2136,20 @@
         "a. null set",
         "b. singleton",
         "c. nonsingular",
-        "d. singular"
+        "d. singular",
+        "a. singleton",
+        "b. nonsingular",
+        "c. null set"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "The method that does NOT require t he assumption that the parameters are normally distributed.",
@@ -2431,17 +2463,19 @@
         "a. equal",
         "b. adjoint",
         "c. joint",
-        "d. disjoint"
+        "d. disjoint",
+        "a. disjoint",
+        "d. equal"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "These are the data skills that a good data scientist need to cultivate EXCEPT",
@@ -2559,17 +2593,19 @@
         "a. linear",
         "b. nonlinear",
         "c. static",
-        "d. dynamic"
+        "d. dynamic",
+        "c. dynamic",
+        "d. static"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "What is a great example of data product?",
@@ -2599,17 +2635,20 @@
         "a. data structure",
         "b. ML",
         "c. ADT",
-        "d. data science"
+        "d. data science",
+        "b. data science",
+        "c. ML",
+        "d. ADT"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "What is the correct meaning of ADT?",
@@ -2618,17 +2657,46 @@
         "a. Adequate Data Type",
         "b. Abstract Data Topography",
         "c. Adequate Data Tautology",
-        "d. Abstract Data Type"
+        "d. Abstract Data Type",
+        "a. Abstract Data Type",
+        "b. Adequate Data Type",
+        "c. Abstract Data Topography",
+        "d. Adequate Data Tautology"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-14T03:39:42Z",
+      "source": "review_screen",
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
+    },
+    {
+      "question": "What is the earlier name for data science?",
+      "answer": "datalogy",
+      "choices": [
+        "a. datatology",
+        "b. datology",
+        "c. dataology",
+        "d. datalogy",
+        "a. dataology",
+        "b. datatology",
+        "c. datology"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "datology"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastEvidenceAt": "2026-10-14T03:39:42Z",
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "What is the focus of data science?",
@@ -2637,17 +2705,19 @@
         "a. organization of data",
         "b. statistical computation",
         "c. collection of data",
-        "d. manipulate data efficiently and effectively"
+        "d. manipulate data efficiently and effectively",
+        "a. statistical computation",
+        "b. organization of data"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "What is the mean for a standard normal distribution?",
@@ -2704,17 +2774,20 @@
         "a. 8x8",
         "b. 5x5",
         "c. 8x5",
-        "d. 5x 8"
+        "d. 5x 8",
+        "a. 5x5",
+        "b. 5x 8",
+        "d. 8x8"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "What is the value of the mean if a score of 110 is 3 standard deviation above the mean?",
@@ -2959,10 +3032,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:39:42Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:39:42Z"
+      "lastVerifiedAt": "2026-10-23T10:47:52Z"
     },
     {
       "question": "Which is NOT a component of KR?",
