@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6200",
   "subjectName": "MATH6200",
-  "updatedAt": "2026-10-23T10:42:02Z",
-  "totalQuestions": 128,
+  "updatedAt": "2026-10-23T10:42:58Z",
+  "totalQuestions": 129,
   "tier": "verified",
   "questions": [
     {
@@ -466,17 +466,18 @@
         "d. null",
         "a. singleton",
         "b. zero",
-        "c. cipher"
+        "c. cipher",
+        "c. singleton"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "Any way to get new expressions from old ones.",
@@ -702,11 +703,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T03:45:45Z",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "If A={ 2,3} B={4,5},which of the following is a Cartesian product of the two sets?",
@@ -737,17 +738,20 @@
         "d. {3,5,6}",
         "a. {3,5,6,10,12}",
         "b. {3,5,6}",
-        "d. {3,6}"
+        "d. {3,6}",
+        "b. {3,6}",
+        "c. {3,5,6}",
+        "d. {5,10,12}"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "If R={ (3,3), (3,6), (5,5),(5,10),(6.12) is a cartesian product of sets X and Y and x= {3,5,6} then Y=?",
@@ -760,7 +764,9 @@
         "a. {3,6}",
         "b. {3,5,6}",
         "c. {3,5,6,10,12}",
-        "d. {5,10,12}"
+        "d. {5,10,12}",
+        "b. {5,10,12}",
+        "c. {3,6}"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -769,11 +775,38 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T03:45:45Z",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
+    },
+    {
+      "question": "In α =babaa β =a^6b^5bb, what is the length of the concatenation of the two strings?",
+      "answer": "18",
+      "choices": [
+        "a. 15",
+        "b. 18",
+        "c. 16",
+        "d. 20",
+        "b. 16",
+        "c. 18",
+        "a. 16",
+        "c. 15"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "16",
+        "15"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T03:45:45Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-14T03:47:03Z",
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "It allows you to see which value of the explanatory variable corresponds a given probability success.",
@@ -1938,17 +1971,19 @@
         "a. {3,5,6,10,12}",
         "b. {5,10,12}",
         "c. {3,5,6}",
-        "d. {3,6}"
+        "d. {3,6}",
+        "a. {3,5,6}",
+        "c. {3,5,6,10,12}"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "The sets A= { x/x is a distinct letter in the word \"MATHEMATICS\"} and B={x/x is a distinct letter in the word \"STATISTICS\"} , the two sets are",
@@ -1961,17 +1996,19 @@
         "a. joint",
         "b. equivalent",
         "c. equal",
-        "d. disjoint"
+        "d. disjoint",
+        "a. equivalent",
+        "d. joint"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "The symbol used to indicate strings with no elements.",
@@ -1984,17 +2021,18 @@
         "a. λ",
         "b. β",
         "c. δ",
-        "d. α"
+        "d. α",
+        "b. δ"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "The term \"analysis of algorithms\" was coined by",
@@ -2443,17 +2481,19 @@
         "d. a^6b^8ababba",
         "a. a^6b^8ababba",
         "c. babaaaa^6b^8a",
-        "d. babab^8a"
+        "d. babab^8a",
+        "b. babab^8a",
+        "c. babaa b^8a"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "Which is NOT a basic representation technology?",
@@ -2648,17 +2688,21 @@
         "a. {I,M,P}",
         "b. {I,M,S,P}",
         "c. {I.M,S}",
-        "d. {I,L,M,P}"
+        "d. {I,L,M,P}",
+        "a. {I,M,S,P}",
+        "b. {I,M,P}",
+        "c. {I,L,M,P}",
+        "d. {I.M,S}"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T03:45:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T03:47:03Z"
+      "lastVerifiedAt": "2026-10-23T10:42:58Z"
     },
     {
       "question": "Which of the following is NOT a goal in data mining?",
