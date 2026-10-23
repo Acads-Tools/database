@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-23T11:25:51Z",
-  "totalQuestions": 77,
+  "updatedAt": "2026-10-23T11:31:20Z",
+  "totalQuestions": 78,
   "questions": [
     {
       "question": "[Image: [moodle-asset:121409/A8-4.JPG]] Answers: (a) [____] (b) [____ 2]",
@@ -324,6 +324,24 @@
       "lastVerifiedAt": "2026-10-14T02:49:15Z"
     },
     {
+      "question": "Find the slope of the line through (-5,3) and (x+1, x-2). Answer: m = [____]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "(x-5)/(x+6)"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:31:20Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:31:20Z"
+    },
+    {
       "question": "Find the slope of the line which is tangent to the circle with center C(3,1) at the point P(8,13). Answer: slope of the tangent line = -5/ [____: 12]",
       "answer": "12",
       "choices": [],
@@ -488,11 +506,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:44:18Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T02:44:18Z",
-      "lastVerifiedAt": "2026-10-14T02:49:15Z"
+      "lastVerifiedAt": "2026-10-23T11:31:20Z"
     },
     {
       "question": "Locking may cause which of the following problems?",
@@ -1349,7 +1367,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "<="
+        "<=",
+        "<"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -1357,7 +1376,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T02:49:15Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-14T02:49:15Z"
+      "lastEvidenceAt": "2026-10-23T11:31:20Z"
     }
   ]
 }
