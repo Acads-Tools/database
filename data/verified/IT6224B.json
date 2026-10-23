@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-23T15:12:44Z",
+  "updatedAt": "2026-10-23T15:15:03Z",
   "totalQuestions": 237,
   "tier": "verified",
   "questions": [
@@ -136,17 +136,19 @@
         "d. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces.",
         "a. The routers have the same priority.",
         "c. The routers do not have global IPv6 addresses that are configured on the Fa0/0 interfaces.",
-        "d. The routers are configured with the same router ID."
+        "d. The routers are configured with the same router ID.",
+        "b. The routers are configured with the same router ID.",
+        "c. The routers have both been elected as the DR."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "[Image: [moodle-asset:382147/q.png]] Refer to the exhibit shown above. A certified network administrator is troubleshooting the four routers that are connected to an Ethernet LAN segment and are configured to run OSPFv3. However, none of the routers are receiving routing updates. What is the cause of the problem?",
@@ -251,14 +253,16 @@
         "d. MD5 requires passwords that are at least 8 characters long.",
         "a. MD5 employs IPsec to keep the updates from being intercepted.",
         "b. MD5 requires passwords that are at least 8 characters long.",
-        "d. MD5 does not send the password to the neighbor router."
+        "d. MD5 does not send the password to the neighbor router.",
+        "c. MD5 does not send the password to the neighbor router.",
+        "d. MD5 uses both a username and a password to authenticate the neighbor."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z",
+      "lastVerifiedAt": "2026-10-23T15:15:03Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -269,17 +273,19 @@
         "a. network 192.168.10.128 0.0.0.127 area 1",
         "b. network 192.168.0 .0 0.0.127.255 area",
         "c. network 192.168.1.128 255.255.255.128 area 1",
-        "d. network 192.168.10.128 0.0.0.127 area 0"
+        "d. network 192.168.10.128 0.0.0.127 area 0",
+        "a. network 192.168.1.128 255.255.255.128 area 1",
+        "c. network 192.168.10.128 0.0.0.127 area 1"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:01:56Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "A BDR is also elected in case the DR fails. If the DR stops producing Hello packets, the BDR promotes itself and assumes the role of DR.",
@@ -1076,10 +1082,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:03:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "An ASBR generates what type of LSAs for each of its external routes and floods them into the area that it is connected to.",
@@ -1208,17 +1214,19 @@
         "c. It becomes ABR",
         "d. It becomes BDR",
         "a. It becomes ABR",
-        "c. It becomes ASBR"
+        "c. It becomes ASBR",
+        "b. It becomes BDR",
+        "d. It becomes ASBR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "As discussed in our topic Scaling Networks chapter 6,which area is referred to as the \"backbone area\"?",
@@ -1569,17 +1577,19 @@
         "a. type 3",
         "b. type 0",
         "c. type 1",
-        "d. type 2"
+        "d. type 2",
+        "b. type 2",
+        "d. type 0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "During the checking a routing table, a network specialist notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
@@ -1758,17 +1768,20 @@
         "a. the lowest IP address among its active interfaces",
         "b. the IP address of the console management interface",
         "c. the IP address of the first Fast Ethernet interface",
-        "d. the highest IP address among its active interfaces"
+        "d. the highest IP address among its active interfaces",
+        "b. the highest IP address among its active interfaces",
+        "c. the IP address of the console management interface",
+        "d. the IP address of the first Fast Ethernet interface"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:46:46Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
@@ -1814,10 +1827,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:12:44Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "If you want to disable STP on a port connected to a server, which command would you use?",
@@ -2124,17 +2137,19 @@
         "c. Internal Router",
         "d. Backbone Router",
         "b. Internal Router",
-        "d. ASBR"
+        "d. ASBR",
+        "a. Backbone Router",
+        "b. ABR"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:12:44Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "In RMS University, the network admin is trying to add a new router into an established OSPF network. The network attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
@@ -2218,17 +2233,18 @@
         "d. hop count",
         "a. link delay",
         "b. administrative distance",
-        "c. link bandwidth"
+        "c. link bandwidth",
+        "b. link bandwidth"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:12:44Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "In the understanding of wireless LAN technologies what wireless LAN technology that operates in the range of a few feet (Bluetooth)?",
@@ -2400,17 +2416,19 @@
         "a. Static route",
         "b. External route",
         "c. Inter-area route",
-        "d. Intra-area route"
+        "d. Intra-area route",
+        "a. Inter-area route",
+        "c. Static route"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-04T15:34:12Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "In understanding multiarea OSPF network which statement describes a multiarea OSPF network?",
@@ -2441,17 +2459,20 @@
         "d. DR",
         "a. any router",
         "b. ABR",
-        "c. ASBR"
+        "c. ASBR",
+        "a. DR",
+        "c. ABR",
+        "d. any router"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-06T10:01:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "In understanding of OSPF networks what is used to facilitate hierarchical routing in OSPF?",
@@ -2765,10 +2786,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "Rack Unit is the networking term used to express the thickness or height of a switch.",
@@ -2797,17 +2818,19 @@
         "a. 10.0.0.0 255.255.240.0",
         "b. 10.0.4.0 255.255.248.0",
         "c. 10.0.4.0 255.255.0.0",
-        "d. 10.0. 8.0 255.255.248.0"
+        "d. 10.0. 8.0 255.255.248.0",
+        "a. 10.0.4.0 255.255.248.0",
+        "d. 10.0.0.0 255.255.240.0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "Refer to the test result taken from our test labs. R1 and R2 are connected to the same LAN segment and are configured to run OSPFv3. They are not forming a neighbor adjacency. What is the cause of the problem?",
@@ -2910,9 +2933,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z",
+      "lastVerifiedAt": "2026-10-23T15:15:03Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2947,10 +2970,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "The command clear ip ospf [____: process] forces a router with a new or changed router ID to form new adjacencies.",
@@ -3668,7 +3691,9 @@
         "d. It improves the routing efficiency by reducing the routing table and link-state update overhead.",
         "b. It improves the routing efficiency by reducing the routing table and link-state update overhead.",
         "c. It enables multiple routing protocols to be running in a large network.",
-        "d. It increases the routing performance by dividing the neighbor table into separate smaller ones."
+        "d. It increases the routing performance by dividing the neighbor table into separate smaller ones.",
+        "a. It enables multiple routing protocols to be running in a large network.",
+        "b. It allows OSPFv2 and OSPFv3 to be running together."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -3681,7 +3706,13 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T15:34:12Z",
-      "lastVerifiedAt": "2026-10-06T09:58:24Z"
+      "lastVerifiedAt": "2026-10-06T09:58:24Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "It does improves the routing efficiency by reducing the routing table and link-state update overhead.",
+          "timestamp": "2026-10-23T15:15:03Z"
+        }
+      ]
     },
     {
       "question": "What is one way to correct a spanning tree failure?",
@@ -3911,17 +3942,18 @@
         "a. O E2",
         "b. O E1",
         "c. O IA",
-        "d. O"
+        "d. O",
+        "b. O E2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:10:52Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "What today's network design would contain the scope of disruptions on a network should a failure occur?",
@@ -4995,17 +5027,19 @@
         "b. 2, 3 & 4",
         "d. 2, 4 & 6",
         "c. 2, 3 & 4",
-        "d. 1 , 2 & 4"
+        "d. 1 , 2 & 4",
+        "a. 2, 4 & 6",
+        "d. 2, 4 & 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T15:12:44Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation?",
@@ -5063,17 +5097,21 @@
         "a. Interface ip address & secret key",
         "b. OSPF router ID & loopback interface",
         "c. Secret key & OSPF message",
-        "d. Router hostname & mac-address"
+        "d. Router hostname & mac-address",
+        "a. Secret key & OSPF message",
+        "b. Interface ip address & secret key",
+        "c. Router hostname & mac-address",
+        "d. OSPF router ID & loopback interface"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T10:03:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T10:03:20Z"
+      "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
       "question": "Which type of routing table entry would indicate that an external route was redistributed into the multiarea OSPF process?",
