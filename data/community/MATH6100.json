@@ -1,7 +1,7 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-25T02:34:18Z",
+  "updatedAt": "2026-10-25T02:35:25Z",
   "totalQuestions": 85,
   "questions": [
     {
@@ -580,17 +580,20 @@
         "c. Versioning",
         "d. Erroneous updates",
         "b. Erroneous updates",
-        "d. All of the above"
+        "d. All of the above",
+        "a. Versioning",
+        "b. Deadlock",
+        "c. All of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Performance analysis and tuning is which of the following?",
@@ -601,17 +604,19 @@
         "c. Undertaken one time at the time of a DBMS installation",
         "d. Undertaken as an ongoing part of the backup of a database",
         "b. Undertaken one time at the time of a DBMS installation",
-        "c. Undertaken as an ongoing part of managing a database"
+        "c. Undertaken as an ongoing part of managing a database",
+        "b. Undertaken as an ongoing part of the backup of a database",
+        "d. Undertaken as an ongoing part of managing a database"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Poor data administration can lead to which of the following?",
@@ -622,17 +627,20 @@
         "c. Missing data elements",
         "d. All of the above",
         "b. Missing data elements",
-        "c. A single definition of the same data entity"
+        "c. A single definition of the same data entity",
+        "a. Missing data elements",
+        "b. All of the above",
+        "d. Familiarity with existing data"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Refer to the figure. Which of the following represents the graph drawn in red? [Image: [moodle-asset:120978/A4-5.png]]",
@@ -762,17 +770,20 @@
         "a. Is always well-defined in all organizations",
         "b. Is usually well-defined in small organizations",
         "c. Is usually well-defined in large organizations",
-        "d. Is rarely well-defined in large organizations"
+        "d. Is rarely well-defined in large organizations",
+        "a. Is usually well-defined in large organizations",
+        "b. Is always well-defined in all organizations",
+        "c. Is usually well-defined in small organizations"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "The figure shows the distance of a car from a measuring position located on the edge of a straight road. (a) What was the average velocity of the car from t=10 to t=30 seconds? (b) What was the average velocity of the car from t=20 to t=25 seconds? [Image: [moodle-asset:121085/A6-2.JPG]] Answers: (a) average velocity = [____: 10] feet/second (b) average velocity = [____ 2: -20] feet/second",
@@ -871,17 +882,19 @@
         "a. Database administrators",
         "b. Database designers",
         "c. Data administrators",
-        "d. Application programmers"
+        "d. Application programmers",
+        "a. Application programmers",
+        "c. Database administrators"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "The process of taking the limit of a sum of little quantities is called [____: Integration] .",
@@ -1055,7 +1068,7 @@
     },
     {
       "question": "The transaction log includes which of the following?",
-      "answer": "",
+      "answer": "The essential data of the record",
       "choices": [
         "a. The after-image of a record",
         "b. The essential data of the record",
@@ -1064,7 +1077,9 @@
         "a. The before-image of a record",
         "b. The before and after-image of a record",
         "c. The after-image of a record",
-        "d. The essential data of the record"
+        "d. The essential data of the record",
+        "c. The before and after-image of a record",
+        "d. The after-image of a record"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1072,12 +1087,13 @@
         "The before-image of a record"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-25T02:34:18Z"
+      "lastEvidenceAt": "2026-10-25T02:34:18Z",
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Use the Bisection Algorithm Method to find the root of the given function to an interval of length less than or equal to 0.1. Answer should be up to one decimal place only. f(x) = x² - 2 on [0,3] Answer: [____: 1.4]",
@@ -1316,17 +1332,18 @@
         "a. The database server",
         "b. Planned database maintenance activities",
         "c. All of the above",
-        "d. Data becoming lost or inaccurate"
+        "d. Data becoming lost or inaccurate",
+        "d. The database server"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Which of the following is part of an administrative policy to secure a database?",
@@ -1337,21 +1354,23 @@
         "c. Ensure appropriate responses rates are in external maintenance agreements",
         "d. Authentication policies",
         "b. Ensure appropriate responses rates are in external maintenance agreements",
-        "c. Limiting particular areas within a building to only authorized people"
+        "c. Limiting particular areas within a building to only authorized people",
+        "b. Authentication policies",
+        "d. Ensure appropriate responses rates are in external maintenance agreements"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Which of the following is the preferred way to recover a database after a system failure?",
-      "answer": "",
+      "answer": "Switch to duplicate database",
       "choices": [
         "a. Rollforward",
         "b. Rollback",
@@ -1360,7 +1379,11 @@
         "a. Switch to duplicate database",
         "b. Reprocess transactions",
         "c. Rollback",
-        "d. Rollforward"
+        "d. Rollforward",
+        "a. Reprocess transactions",
+        "b. Rollforward",
+        "c. Switch to duplicate database",
+        "d. Rollback"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -1368,12 +1391,13 @@
         "Rollback"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-25T02:34:18Z"
+      "lastEvidenceAt": "2026-10-25T02:34:18Z",
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Which of the following is the preferred way to recover a database after a transaction in progress terminates abnormally?",
@@ -1385,17 +1409,18 @@
         "d. Switch to duplicate database",
         "b. Switch to duplicate database",
         "c. Rollback",
-        "d. Rollforward"
+        "d. Rollforward",
+        "d. Rollback"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-14T02:56:06Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-25T02:34:18Z"
+      "lastVerifiedAt": "2026-10-25T02:35:25Z"
     },
     {
       "question": "Which of the following is TRUE about the parameter modes in subprograms?",
