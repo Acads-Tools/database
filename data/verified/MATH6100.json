@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-25T02:35:25Z",
-  "totalQuestions": 73,
+  "updatedAt": "2026-10-25T02:46:24Z",
+  "totalQuestions": 75,
   "tier": "verified",
   "questions": [
     {
@@ -101,6 +101,25 @@
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:29:20Z"
+    },
+    {
+      "question": "At which values of x is the function from the graph shown continuous? State the answers from the least to the highest, if there would be more than one. [Image: [moodle-asset:120704/SQ9-1.JPG]] Answer: x = [____]",
+      "answer": "-1",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "0, 4"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-23T11:06:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-23T11:06:10Z",
+      "lastVerifiedAt": "2026-10-25T02:46:24Z"
     },
     {
       "question": "Calculus was developed by Leibniz and [____: Newton] . (Indicate only the last name)",
@@ -1037,6 +1056,22 @@
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T03:29:20Z"
+    },
+    {
+      "question": "Use the Bisection Algorithm Method to find the root of the given function to an interval of length less than or equal to 0.1. Answer should be up to one decimal place only. f(x) = x² - 2 on [0,3] Answer: [____]",
+      "answer": "1.4",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:46:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-25T02:46:24Z"
     },
     {
       "question": "Use the function h defined by the graph as shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 2} h(2x - 2) \\)(b) \\(\\Large \\lim_{x \\rightarrow 2} h(1 + x) \\) [Image: [moodle-asset:121407/A8-2.JPG]] Answers: (a) [____: 1] (b) [____ 2: 1]",

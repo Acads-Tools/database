@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-25T02:35:25Z",
-  "totalQuestions": 85,
+  "updatedAt": "2026-10-25T02:46:24Z",
+  "totalQuestions": 87,
   "questions": [
     {
       "question": "[Image: [moodle-asset:121409/A8-4.JPG]] Answers: (a) [____] (b) [____ 2]",
@@ -122,21 +122,22 @@
     },
     {
       "question": "At which values of x is the function from the graph shown continuous? State the answers from the least to the highest, if there would be more than one. [Image: [moodle-asset:120704/SQ9-1.JPG]] Answer: x = [____]",
-      "answer": "",
+      "answer": "-1",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "0, 4"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-23T11:06:10Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-23T11:06:10Z"
+      "lastEvidenceAt": "2026-10-23T11:06:10Z",
+      "lastVerifiedAt": "2026-10-25T02:46:24Z"
     },
     {
       "question": "Calculus was developed by Leibniz and [____: Newton] . (Indicate only the last name)",
@@ -1110,6 +1111,22 @@
       "lastVerifiedAt": "2026-10-14T03:29:20Z"
     },
     {
+      "question": "Use the Bisection Algorithm Method to find the root of the given function to an interval of length less than or equal to 0.1. Answer should be up to one decimal place only. f(x) = x² - 2 on [0,3] Answer: [____]",
+      "answer": "1.4",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:46:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-25T02:46:24Z"
+    },
+    {
       "question": "Use the function f defined by the graph shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 1^+} f(x) \\)(b) \\(\\Large \\lim_{x \\rightarrow 1^-} f(x) \\) [Image: [moodle-asset:121432/SQ8-5%2B.JPG]] Answers: (a) [____: 1] (b) [____ 2: 0]",
       "answer": "",
       "choices": [],
@@ -1226,6 +1243,25 @@
       "firstSeenAt": "2026-10-14T03:03:59Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-14T03:03:59Z"
+    },
+    {
+      "question": "Use the functions f and g defined by the graphs as shown to determine the following limits: (a) \\(\\Large \\lim_{x \\rightarrow 1} {f(x) + g(x)} \\)(b) \\(\\Large \\lim_{x \\rightarrow 2} \\frac {f(x)}{g(x)} \\) [Image: [moodle-asset:121406/A8-1.JPG]] Answers: (a) [____] (b) [____ 2]",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "0",
+        "5/4"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:46:24Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-25T02:46:24Z"
     },
     {
       "question": "Use the graph below to determine the right-hand limit of the function f(x) at: (a) x=-2 (b) x=10 [Image: [moodle-asset:121431/A8-5.JPG]] Answers: (a) [____: 3] (b) [____ 2: -1]",
