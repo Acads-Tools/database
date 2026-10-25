@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-25T02:26:06Z",
-  "totalQuestions": 81,
+  "updatedAt": "2026-10-25T02:31:42Z",
+  "totalQuestions": 85,
   "questions": [
     {
       "question": "[Image: [moodle-asset:121409/A8-4.JPG]] Answers: (a) [____] (b) [____ 2]",
@@ -208,6 +208,22 @@
       "lastVerifiedAt": "2026-10-14T02:53:25Z"
     },
     {
+      "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 0} \\frac {cos 2x - 1}{cos x - 1} \\) Answer: [____]",
+      "answer": "4",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:31:42Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-25T02:31:42Z"
+    },
+    {
       "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 10} \\frac {\\sqrt {3x - 5}}{5} \\) Answer: [____: 1]",
       "answer": "1",
       "choices": [],
@@ -250,6 +266,22 @@
       "lastVerifiedAt": "2026-10-14T02:53:25Z"
     },
     {
+      "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 3} \\frac {5x^2 - 8x - 13}{x^2 - 5} \\) Answer: [____]",
+      "answer": "2",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:31:42Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-25T02:31:42Z"
+    },
+    {
       "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 3} \\frac {x^4 - 81}{2x^2 - 5x - 3} \\) Answer: [____: 108] / [____ 2: 7]",
       "answer": "108, 7",
       "choices": [],
@@ -275,10 +307,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:53:25Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+      "lastVerifiedAt": "2026-10-25T02:31:42Z"
     },
     {
       "question": "Find the equation of the line passing through (-2,3) and perpendicular to the line 4x=9-2y. Use the general equation of the line for your final answer. Answer: x - [____: 2] y + [____ 2: 8] = 0",
@@ -1002,10 +1034,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:53:25Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+      "lastVerifiedAt": "2026-10-25T02:31:42Z"
     },
     {
       "question": "The transaction log includes which of the following?",
@@ -1398,17 +1430,21 @@
         "a. (-2 and 3) or -3",
         "b. -2 and (3 or -3)",
         "c. (-2 or 3) and -3",
-        "d. -2 or (3 and -3)"
+        "d. -2 or (3 and -3)",
+        "a. -2 and (3 or -3)",
+        "b. (-2 and 3) or -3",
+        "c. -2 or (3 and -3)",
+        "d. (-2 or 3) and -3"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-14T02:53:25Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-14T02:53:25Z"
+      "lastVerifiedAt": "2026-10-25T02:31:42Z"
     },
     {
       "question": "Write the contrapositive of the statement: I feel good when I jog. Answer: When I don't jog, I feel [____: Bad] .",
@@ -1423,6 +1459,22 @@
       "firstSeenAt": "2026-10-14T02:53:25Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:53:25Z"
+    },
+    {
+      "question": "Write the contrapositive of the statement: I feel good when I jog. Answer: When I don't jog, I feel [____] .",
+      "answer": "Bad",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:31:42Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-25T02:31:42Z"
     },
     {
       "question": "Write the contrapositive of the statement: If x>3, then x²>9. Use words or phrase for your answer. Answer: If x² [____: <=] 9, then x [____ 2: <=] 3.",
@@ -1440,6 +1492,22 @@
       "firstSeenAt": "2026-10-14T02:49:15Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-23T11:31:20Z"
+    },
+    {
+      "question": "Write the negation of the statement: 8 is a prime number. Answer: 8 is [____]",
+      "answer": "not a prime number",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:31:42Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-25T02:31:42Z"
     }
   ]
 }
