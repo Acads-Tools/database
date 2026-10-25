@@ -1,8 +1,8 @@
 {
   "subjectCode": "MATH6100",
   "subjectName": "Calculus 1",
-  "updatedAt": "2026-10-25T02:18:50Z",
-  "totalQuestions": 65,
+  "updatedAt": "2026-10-25T02:26:06Z",
+  "totalQuestions": 67,
   "tier": "verified",
   "questions": [
     {
@@ -23,6 +23,27 @@
       "lastVerifiedAt": "2026-10-14T02:58:26Z"
     },
     {
+      "question": "A state has just adopted the following state income tax system: no tax on the first $10,000 earned, 1% of the next $10,000 earned, 2% of the next $20,000 earned, and 3% of all additional earnings. Write a multiline function for T(x), the state income tax due on earnings of x dollars.",
+      "answer": "[Image: [moodle-asset:303163/A4-4_1.png]]",
+      "choices": [
+        "a. [Image: [moodle-asset:303163/A4-4_1.png]]",
+        "b. [Image: [moodle-asset:303165/A4-4_3.png]]",
+        "c. [Image: [moodle-asset:303164/A4-4_2.png]]",
+        "d. [Image: [moodle-asset:303166/A4-4_4.png]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-25T02:26:06Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-25T02:26:06Z"
+    },
+    {
       "question": "A subprogram that returns a value.",
       "answer": "Function",
       "choices": [],
@@ -35,6 +56,37 @@
       "firstSeenAt": "2026-10-14T02:58:26Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-14T02:58:26Z"
+    },
+    {
+      "question": "An enrollment slip indicates a specific down payment based from the number of units enrolled by a student as follows: for number of units from 1 to 9, down payment is Php 5000; for number of units from 10 to 15, down payment is Php 10,000; and a down payment of Php 15,000 for units from 16 to 21. Which of the multiline functions define E(d), the down payment due on specific number of units enrolled. Unit is of integer type.",
+      "answer": "[Image: [moodle-asset:302440/SQ4-5a.png]]",
+      "choices": [
+        "a. [Image: [moodle-asset:302443/SQ4-5d.png]]",
+        "b. [Image: [moodle-asset:302442/SQ4-5c.png]]",
+        "c. [Image: [moodle-asset:302441/SQ4-5b.png]]",
+        "d. [Image: [moodle-asset:302440/SQ4-5a.png]]",
+        "a. [Image: [moodle-asset:302440/SQ4-5a.png]]",
+        "b. [Image: [moodle-asset:302441/SQ4-5b.png]]",
+        "c. [Image: [moodle-asset:302443/SQ4-5d.png]]",
+        "d. [Image: [moodle-asset:302442/SQ4-5c.png]]",
+        "a. [Image: [moodle-asset:302442/SQ4-5c.png]]",
+        "b. [Image: [moodle-asset:302440/SQ4-5a.png]]",
+        "d. [Image: [moodle-asset:302441/SQ4-5b.png]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "[Image: [moodle-asset:302443/SQ4-5d.png]]",
+        "[Image: [moodle-asset:302441/SQ4-5b.png]]",
+        "[Image: [moodle-asset:302442/SQ4-5c.png]]"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-14T02:37:40Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-23T11:25:51Z",
+      "lastVerifiedAt": "2026-10-25T02:26:06Z"
     },
     {
       "question": "At which values of x is the function from the graph shown continuous? State the answers from the least to the highest, if there would be more than one. [Image: [moodle-asset:120704/SQ9-1.JPG]] Answer: x = [____: -1]",
@@ -91,17 +143,19 @@
         "a. [Image: [moodle-asset:303157/graph3.png]]",
         "c. [Image: [moodle-asset:303158/graph4.png]]",
         "d. [Image: [moodle-asset:303156/graph2.png]]",
-        "c. [Image: [moodle-asset:303157/graph3.png]]"
+        "c. [Image: [moodle-asset:303157/graph3.png]]",
+        "b. [Image: [moodle-asset:303157/graph3.png]]",
+        "d. [Image: [moodle-asset:303155/graph1.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:25:51Z"
+      "lastVerifiedAt": "2026-10-25T02:26:06Z"
     },
     {
       "question": "Evaluate \\(\\Large \\lim_{x \\rightarrow 0} \\frac {cos 2x - 1}{cos x - 1} \\) Answer: [____: 4]",
@@ -492,10 +546,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-14T02:37:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-23T11:25:51Z"
+      "lastVerifiedAt": "2026-10-25T02:26:06Z"
     },
     {
       "question": "Sketch the lines X=1, x=2, and x=3 tangent to the curve given in figure 7. Estimate the slope of each of the tangent lines you drew. [Image: [moodle-asset:120685/Calc-As1.png]]",
