@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:25:09Z",
+  "updatedAt": "2026-10-26T11:26:19Z",
   "totalQuestions": 166,
   "questions": [
     {
@@ -736,13 +736,20 @@
       "question": "It allows the administrators to identify which software is allowed to run and was initially added to Windows XP and Windows Server 2003.",
       "answer": "Software Restriction Policies",
       "choices": [
-        "Software Restriction Policies"
+        "Software Restriction Policies",
+        "a. Group Policy",
+        "b. Software Restriction Policies",
+        "c. Advanced Security Settings",
+        "d. User Account Control"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It allows you to control which role functionality is installed and enabled.",
@@ -833,13 +840,20 @@
       "question": "It enables the IT Administrators to automate one-to-several management of users and computers.",
       "answer": "Group Policy",
       "choices": [
-        "Group Policy"
+        "Group Policy",
+        "a. Action Center",
+        "b. Control Panel",
+        "c. Applocker",
+        "d. Group Policy"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It enables the user to log on and access resources on a specific computer and usually reside in SAM.",
@@ -917,13 +931,20 @@
       "question": "It is a central location for viewing messages about your system and the starting point for diagnosing and solving issues with your system.",
       "answer": "Action Center",
       "choices": [
-        "Action Center"
+        "Action Center",
+        "a. Action Center",
+        "b. Group Policy",
+        "c. Control Panel",
+        "d. Applocker"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a collection of Domain Trees.",
@@ -1221,13 +1242,20 @@
       "question": "It is a new Windows 7 security feature that enables IT professionals to specify exactly what is allowed to run on user desktops.",
       "answer": "Applocker",
       "choices": [
-        "Applocker"
+        "Applocker",
+        "a. Bitlocker",
+        "b. Encrypting File Systems",
+        "c. User Account Control",
+        "d. Applocker"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a scriptable command line utility that create scripts to automate disk related task.",
@@ -1245,13 +1273,20 @@
       "question": "It is a security feature that simplifies the ability of users to run as standard users and perform all neccessary daily tasks",
       "answer": "User Account Control",
       "choices": [
-        "User Account Control"
+        "User Account Control",
+        "a. Bitlocker",
+        "b. Encrypting File Systems",
+        "c. Applocker",
+        "d. User Account Control"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a small software program that allows a hardware device to communicate with a computer",
@@ -1269,13 +1304,20 @@
       "question": "It is a software that is designed to deliberately harm a computer.",
       "answer": "Malicious Software",
       "choices": [
-        "Malicious Software"
+        "Malicious Software",
+        "a. None of the Choices",
+        "b. Bitlocker",
+        "c. Applocker",
+        "d. Malicious Software"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a strong authentication (with strong EAP method) and strong (TKIP) or very strong (AES) encryption used by medium and large organization.",
@@ -1469,13 +1511,20 @@
       "question": "It is an enhanced privacy features of Internet Explorer 8 that inherently more secure that using delete browsing history to maintain privacy because there are no logs kept or tracks made during browsing",
       "answer": "InPrivate Browsing",
       "choices": [
-        "InPrivate Browsing"
+        "InPrivate Browsing",
+        "a. Bitlocker",
+        "b. InPrivate Filtering",
+        "c. InPrivate Browsing",
+        "d. Applocker"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is an object that contains all of the information that defines a user in Windows Server 2008 R2.",
@@ -1519,13 +1568,20 @@
       "question": "It is one of the feature of Windows 7 that encrypts the computer operating system and data stored on the operating system volume.",
       "answer": "Bitlocker",
       "choices": [
-        "Bitlocker"
+        "Bitlocker",
+        "a. User Account Control",
+        "b. Encrypting File Systems",
+        "c. Bitlocker",
+        "d. Applocker"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is one of the features of Mobile Computers wherein it synchronizes various content including music, video, contacts, calendar events, web browser favorites and other files between Windows Mobile devices and Windows 7",
@@ -1622,13 +1678,20 @@
       "question": "It is the built-in encryption tool for Windows file systems",
       "answer": "Encrypting File Systems",
       "choices": [
-        "Encrypting File Systems"
+        "Encrypting File Systems",
+        "a. Bitlocker",
+        "b. Applocker",
+        "c. User Account Control",
+        "d. Encrypting File Systems"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is the foundation of the Internet naming scheme and it supports accessing resources by using alphanumeric names.",
@@ -2099,13 +2162,20 @@
       "question": "This are equivalents to door locks, employee badges and security systems. It protects the computer and networks from intrusions.",
       "answer": "Firewall",
       "choices": [
-        "Firewall"
+        "Firewall",
+        "a. Bitlocker",
+        "b. Firewall",
+        "c. Internet",
+        "d. Group Policy"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:42:54Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:26:19Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "This are point-to-point connection across a private or public network. It uses special protocols, called tunneling protocol to make a virtual call to a virtual port.",
