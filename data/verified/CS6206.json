@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:21:09Z",
+  "updatedAt": "2026-10-26T11:21:57Z",
   "totalQuestions": 165,
   "tier": "verified",
   "questions": [
@@ -760,15 +760,20 @@
       "question": "It defines the type of access granted to a user, group, or computer for a file or folder.",
       "answer": "NTFS Permission",
       "choices": [
-        "NTFS Permission"
+        "NTFS Permission",
+        "a. Inherited Permission",
+        "b. NTFS Permission",
+        "c. None of the choices",
+        "d. Explicit Permission"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It enables IT Administrator to automate one-to-many management of users and computers.",
@@ -1044,15 +1049,20 @@
       "question": "It is a feature of Windows 7 that allows windows 7 to be backward compatible",
       "answer": "Windows XP mode",
       "choices": [
-        "Windows XP mode"
+        "Windows XP mode",
+        "a. None of the choices",
+        "b. Virtual XP",
+        "c. Windows XP compatibility",
+        "d. Windows XP mode"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a graphical user interface that is used to manage disks and volumes both basic and dynamic, locally or on remote computers.",
@@ -1093,29 +1103,39 @@
       "question": "It is a method of sharing folders that allow multiple default public folders for each computer and files shared with same computer and with same network.",
       "answer": "Public Sharing",
       "choices": [
-        "Public Sharing"
+        "Public Sharing",
+        "a. None of the choices",
+        "b. Public Sharing",
+        "c. Basic Sharing",
+        "d. Advance Sharing"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a method of sharing folders that allows you to share folders quickly.",
       "answer": "Basic Sharing",
       "choices": [
-        "Basic Sharing"
+        "Basic Sharing",
+        "a. Advance Sharing",
+        "b. Public Sharing",
+        "c. None of the choices",
+        "d. Basic Sharing"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a method of turning a computer on or off wherein the system state is saved to memory.",
@@ -1133,15 +1153,20 @@
       "question": "It is a new authentication features that controls the ability of online IDs to authenticate to a computer.",
       "answer": "Online Identity Integration",
       "choices": [
-        "Online Identity Integration"
+        "Online Identity Integration",
+        "a. Biometrics",
+        "b. Smartcards",
+        "c. Online Identity Integration",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a new Windows 7 security feature that enables IT professionals to specify exactly what is allowed to run on user desktops.",
@@ -1268,15 +1293,20 @@
       "question": "It is a type of printing wherein it is used by legacy application in pre-vista version of windows that uses enhanced metafile format (EMF) as the spool file format.",
       "answer": "GDI based printing",
       "choices": [
-        "GDI based printing"
+        "GDI based printing",
+        "a. GDI based printing",
+        "b. PDF based printing",
+        "c. None of the choices",
+        "d. XPS based printing"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a way for you to limit use of disk space on a volume for each user to conserve disk space.",
@@ -1318,15 +1348,20 @@
       "question": "It is a Windows Authentication Method that is used by windows 7 clients and server running Microsoft Windows Server 2000 or later",
       "answer": "Kerberos v5",
       "choices": [
-        "Kerberos v5"
+        "Kerberos v5",
+        "a. None of the choices",
+        "b. Certificate Mapping",
+        "c. Kerberos v5",
+        "d. NTLM"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a wireless network modes that allows a wireless network adapters connects directly to another wireless network adapter for the purpose of temporarily sharing of files, presentations or an internet connection among multiple computers and devices.",
@@ -1592,29 +1627,39 @@
       "question": "It is the process of determining whether something or someone has permission to access the resources",
       "answer": "Authorization",
       "choices": [
-        "Authorization"
+        "Authorization",
+        "a. Access",
+        "b. Authentication",
+        "c. None of the choices",
+        "d. Authorization"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is the process of verifying the identity of something or someone.",
       "answer": "Authentication",
       "choices": [
-        "Authentication"
+        "Authentication",
+        "a. None of the choices",
+        "b. Authentication",
+        "c. Authorization",
+        "d. Access"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:28Z",
+      "lastVerifiedAt": "2026-10-26T11:21:57Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is used to display IP Configuration information and to release and renew addresses",
