@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:22:47Z",
+  "updatedAt": "2026-10-26T11:24:00Z",
   "totalQuestions": 166,
   "tier": "verified",
   "questions": [
@@ -991,12 +991,14 @@
         "a. Network Adapter",
         "b. Switch",
         "c. Firewall",
-        "d. Router"
+        "d. Router",
+        "a. Switch",
+        "c. Router"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:17:34Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1273,15 +1275,20 @@
       "question": "It is a strong authentication (with strong EAP method) and strong (TKIP) or very strong (AES) encryption used by medium and large organization.",
       "answer": "WPA-Enterprise",
       "choices": [
-        "WPA-Enterprise"
+        "WPA-Enterprise",
+        "a. WPA-Enterprise",
+        "b. WPA-Personal",
+        "c. WPA2-Personal",
+        "d. IEEE 802.1X"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a tool used to remove system-specific data from the Windows operating system, configure windows to start in audit mode, configure the windows operating system to start the Windows Welcome phase and reset Windows Product activation.",
@@ -1325,15 +1332,20 @@
       "question": "It is a type of network that interconnect devices by means of radio waves instead of wires and cables",
       "answer": "Wireless Network",
       "choices": [
-        "Wireless Network"
+        "Wireless Network",
+        "a. Virtual Local Area Network",
+        "b. Wireless Network",
+        "c. Campus Area Network",
+        "d. Wired Network"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a type of printing wherein it is used by legacy application in pre-vista version of windows that uses enhanced metafile format (EMF) as the spool file format.",
@@ -1413,15 +1425,20 @@
       "question": "It is a wireless network modes that allows a wireless network adapters connects directly to another wireless network adapter for the purpose of temporarily sharing of files, presentations or an internet connection among multiple computers and devices.",
       "answer": "Ad hoc mode",
       "choices": [
-        "Ad hoc mode"
+        "Ad hoc mode",
+        "a. Ad hoc mode",
+        "b. Bluetooth mode",
+        "c. Infrastructure mode",
+        "d. Wired mode"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is an administrative tool for managing user settings and computer settings across a network",
@@ -1757,13 +1774,20 @@
       "question": "It provides storage for the users' files and share folders that contain users' files.",
       "answer": "File Server",
       "choices": [
-        "File Server"
+        "File Server",
+        "a. File Server",
+        "b. Application Server",
+        "c. Domain Controller",
+        "d. Web Server"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It provides transparent access to internal network resources whenever they are connected to the Internet. It also enables the IT Professionals to manage remote computers outside of the office and does not require a VPN connection.",
@@ -1974,15 +1998,20 @@
       "question": "Strong EAP methods provide strong authentication",
       "answer": "IEEE 802.1X",
       "choices": [
-        "IEEE 802.1X"
+        "IEEE 802.1X",
+        "a. WPA2-Personal",
+        "b. IEEE 802.1X",
+        "c. WPA-Enterprise",
+        "d. WPA-Personal"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Subnet Mask are used to determine the best route for packet forwarding",
@@ -2236,15 +2265,19 @@
         "a. None of the choices",
         "b. 600mbps",
         "c. 54mbps",
-        "d. 11mbps"
+        "d. 11mbps",
+        "a. 54mbps",
+        "c. 11mbps",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What type of notation does IP version 6 address uses?",
@@ -2274,15 +2307,20 @@
         "a. Accessories",
         "b. Control Panel",
         "c. System Tools",
-        "d. Program Files"
+        "d. Program Files",
+        "a. System Tools",
+        "b. Accessories",
+        "c. Program Files",
+        "d. Control Panel"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is a main type of group?",
@@ -2423,15 +2461,18 @@
         "a. Check all Physical obstructions",
         "b. None of the Choices",
         "c. Check for devices that may cause interference",
-        "d. Ensure close proximity to the Wireless APs"
+        "d. Ensure close proximity to the Wireless APs",
+        "a. Check for devices that may cause interference",
+        "c. Check all Physical obstructions"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is not a Wireless LAN Standards?",
@@ -2535,15 +2576,20 @@
         "a. You can configure the client computer by going to the accessories in the start menu and clicking the network options.",
         "b. You can configure the client computer by using the Network Dialog Box and following the Wizard",
         "c. You can configure the client computer by using the group policy",
-        "d. You can configure the client computer by using the command line: netsh wlan"
+        "d. You can configure the client computer by using the command line: netsh wlan",
+        "a. You can configure the client computer by using the Network Dialog Box and following the Wizard",
+        "b. You can configure the client computer by using the group policy",
+        "c. You can configure the client computer by using the command line: netsh wlan",
+        "d. You can configure the client computer by going to the accessories in the start menu and clicking the network options."
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:35:18Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:24:00Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following version of Windows are allowed for Upgrade?",
