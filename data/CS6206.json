@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-09-29T15:52:08Z",
+  "updatedAt": "2026-10-26T11:14:14Z",
   "totalQuestions": 165,
   "questions": [
     {
@@ -823,15 +823,20 @@
       "question": "It enables you to manage network traffic, group physically dispersed nodes into logical area networks and isolate network traffic.",
       "answer": "Virtual Local Area Network",
       "choices": [
-        "Virtual Local Area Network"
+        "Virtual Local Area Network",
+        "a. Virtual Local Area Network",
+        "b. Metropolitan Area Network",
+        "c. Wireless Local Area Network",
+        "d. Visual Local Area Network"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:01Z",
+      "lastVerifiedAt": "2026-10-26T11:14:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It holds a copy of AD DS and responds to request for active directory information.",
@@ -914,29 +919,39 @@
       "question": "It is a device that converts instructions from the network protocol stack into electric signals.",
       "answer": "Network Adapter",
       "choices": [
-        "Network Adapter"
+        "Network Adapter",
+        "a. Router",
+        "b. Firewall",
+        "c. Switch",
+        "d. Network Adapter"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:01Z",
+      "lastVerifiedAt": "2026-10-26T11:14:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a device that provides wiring concentrator functionality like a hub but it also enables network traffic management, performs firewall functions and makes routing decisions based upon traffic priority.",
       "answer": "Switch",
       "choices": [
-        "Switch"
+        "Switch",
+        "a. Switch",
+        "b. Hub",
+        "c. Firewall",
+        "d. Router"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:01Z",
+      "lastVerifiedAt": "2026-10-26T11:14:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a device, usually a router, on a TCP/IP internet that forwards IP packets to other subnets.",
@@ -1020,15 +1035,20 @@
       "question": "It is a group of services hosted on a network which is a private structure and has the internet-like service provision.",
       "answer": "Intranet",
       "choices": [
-        "Intranet"
+        "Intranet",
+        "a. Intranet",
+        "b. Extranet",
+        "c. Cloud",
+        "d. Internet"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:01Z",
+      "lastVerifiedAt": "2026-10-26T11:14:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a method of sharing folders that allow multiple default public folders for each computer and files shared with same computer and with same network.",
@@ -1465,15 +1485,20 @@
       "question": "It is the most common form of computer network.",
       "answer": "Local Area Network",
       "choices": [
-        "Local Area Network"
+        "Local Area Network",
+        "a. Local Area Network",
+        "b. Metropolitan Area Network",
+        "c. Campus Area Network",
+        "d. Wide Area Network"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:01Z",
+      "lastVerifiedAt": "2026-10-26T11:14:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is the non-contiguous storage of data on a volume",
@@ -2004,15 +2029,20 @@
       "question": "What is the IEEE 802 Standards for Local Wireless Networks?",
       "answer": "IEEE 802.11",
       "choices": [
-        "IEEE 802.11"
+        "IEEE 802.11",
+        "a. IEEE 802.3",
+        "b. IEEE 802.11",
+        "c. IEEE 802.5",
+        "d. IEEE 802.16"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:01Z",
+      "lastVerifiedAt": "2026-10-26T11:14:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is the maximum bit rate for the 802.11n technologies?",
@@ -2099,25 +2129,35 @@
     },
     {
       "question": "Which of the following is not a LAN Physical Topology?",
-      "answer": "Mesh",
+      "answer": "",
       "choices": [
         "a. Crown",
         "b. Bus",
         "c. Mesh",
-        "d. Hybrid"
+        "d. Hybrid",
+        "a. Hybrid",
+        "b. Mesh",
+        "c. Crown",
+        "d. Bus"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:07:30Z",
       "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution",
-      "wrongAnswers": [],
+      "source": "moodle_review_elimination",
+      "wrongAnswers": [
+        "Mesh"
+      ],
       "conflictHistory": [
         {
           "rejectedAnswer": "Crown",
           "timestamp": "2026-09-29T15:52:08Z"
         }
-      ]
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-26T11:14:14Z"
     },
     {
       "question": "Which of the following is not a Performance Monitor tool?",
@@ -2136,18 +2176,27 @@
     },
     {
       "question": "Which of the following is not a Physical WAN Components?",
-      "answer": "Bridge",
+      "answer": "",
       "choices": [
         "a. Leased Lines",
         "b. Network Adapter",
         "c. Backbone",
-        "d. Bridge"
+        "d. Bridge",
+        "b. Bridge",
+        "d. Network Adapter"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:07:30Z",
       "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "source": "moodle_review_elimination",
+      "wrongAnswers": [
+        "Bridge"
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "questionType": "multichoice",
+      "lastEvidenceAt": "2026-10-26T11:14:14Z"
     },
     {
       "question": "Which of the following is not a Specialized version of Windows 7?",
@@ -2194,7 +2243,15 @@
       "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:07:30Z",
       "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "802.11 h",
+          "timestamp": "2026-10-26T11:14:14Z"
+        }
+      ]
     },
     {
       "question": "Which of the following is not an advantage of installing a 64-bit edition of Windows 7?",
@@ -2237,15 +2294,20 @@
         "a. Token Ring",
         "b. FDDI (Fiber Distributed Data Interface)",
         "c. WiMax",
-        "d. Ethernet"
+        "d. Ethernet",
+        "a. Ethernet",
+        "b. WiMax",
+        "c. Token Ring",
+        "d. FDDI (Fiber Distributed Data Interface)"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-09-29T15:52:08Z",
+      "lastVerifiedAt": "2026-10-26T11:14:14Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following statement is not correct?",
