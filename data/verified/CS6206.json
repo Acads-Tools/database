@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:14:14Z",
+  "updatedAt": "2026-10-26T11:17:34Z",
   "totalQuestions": 165,
   "tier": "verified",
   "questions": [
@@ -828,12 +828,15 @@
         "a. Virtual Local Area Network",
         "b. Metropolitan Area Network",
         "c. Wireless Local Area Network",
-        "d. Visual Local Area Network"
+        "d. Visual Local Area Network",
+        "a. Visual Local Area Network",
+        "c. Virtual Local Area Network",
+        "d. Wireless Local Area Network"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:14:14Z",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -924,12 +927,16 @@
         "a. Router",
         "b. Firewall",
         "c. Switch",
-        "d. Network Adapter"
+        "d. Network Adapter",
+        "a. Network Adapter",
+        "b. Switch",
+        "c. Firewall",
+        "d. Router"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:14:14Z",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -943,12 +950,15 @@
         "a. Switch",
         "b. Hub",
         "c. Firewall",
-        "d. Router"
+        "d. Router",
+        "a. Hub",
+        "b. Firewall",
+        "c. Switch"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:14:14Z",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1040,12 +1050,16 @@
         "a. Intranet",
         "b. Extranet",
         "c. Cloud",
-        "d. Internet"
+        "d. Internet",
+        "a. Extranet",
+        "b. Intranet",
+        "c. Internet",
+        "d. Cloud"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:14:14Z",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1490,12 +1504,14 @@
         "a. Local Area Network",
         "b. Metropolitan Area Network",
         "c. Campus Area Network",
-        "d. Wide Area Network"
+        "d. Wide Area Network",
+        "a. Metropolitan Area Network",
+        "b. Local Area Network"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:14:14Z",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2034,12 +2050,15 @@
         "a. IEEE 802.3",
         "b. IEEE 802.11",
         "c. IEEE 802.5",
-        "d. IEEE 802.16"
+        "d. IEEE 802.16",
+        "a. IEEE 802.16",
+        "c. IEEE 802.3",
+        "d. IEEE 802.5"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:14:14Z",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2130,7 +2149,7 @@
     },
     {
       "question": "Which of the following is not a LAN Physical Topology?",
-      "answer": "",
+      "answer": "Crown",
       "choices": [
         "a. Crown",
         "b. Bus",
@@ -2141,11 +2160,11 @@
         "c. Crown",
         "d. Bus"
       ],
-      "verified": false,
-      "confirmations": 4,
+      "verified": true,
+      "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "Mesh"
       ],
@@ -2184,7 +2203,9 @@
         "c. Backbone",
         "d. Bridge",
         "b. Bridge",
-        "d. Network Adapter"
+        "d. Network Adapter",
+        "a. Network Adapter",
+        "d. Leased Lines"
       ],
       "verified": false,
       "confirmations": 4,
@@ -2192,12 +2213,13 @@
       "lastVerifiedAt": "2026-09-22T03:28:50Z",
       "source": "moodle_review_elimination",
       "wrongAnswers": [
-        "Bridge"
+        "Bridge",
+        "Backbone"
       ],
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
       "questionType": "multichoice",
-      "lastEvidenceAt": "2026-10-26T11:14:14Z"
+      "lastEvidenceAt": "2026-10-26T11:17:34Z"
     },
     {
       "question": "Which of the following is not a Specialized version of Windows 7?",
@@ -2238,7 +2260,10 @@
         "a. 802.11 h",
         "b. 802.11 n",
         "c. 802.11 b",
-        "d. 802.11 a"
+        "d. 802.11 a",
+        "a. 802.11 n",
+        "b. 802.11 a",
+        "d. 802.11 h"
       ],
       "verified": true,
       "confirmations": 4,
@@ -2251,6 +2276,10 @@
         {
           "rejectedAnswer": "802.11 h",
           "timestamp": "2026-10-26T11:14:14Z"
+        },
+        {
+          "rejectedAnswer": "802.11 h",
+          "timestamp": "2026-10-26T11:17:34Z"
         }
       ]
     },
@@ -2299,12 +2328,13 @@
         "a. Ethernet",
         "b. WiMax",
         "c. Token Ring",
-        "d. FDDI (Fiber Distributed Data Interface)"
+        "d. FDDI (Fiber Distributed Data Interface)",
+        "b. Ethernet"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-10-26T11:14:14Z",
+      "lastVerifiedAt": "2026-10-26T11:17:34Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
