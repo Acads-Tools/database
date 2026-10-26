@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T17:13:51Z",
+  "updatedAt": "2026-10-26T17:15:16Z",
   "totalQuestions": 166,
   "questions": [
     {
@@ -839,13 +839,20 @@
       "question": "It enables IT Administrator to automate one-to-many management of users and computers.",
       "answer": "Group Policy",
       "choices": [
-        "Group Policy"
+        "Group Policy",
+        "a. Nesting Groups",
+        "b. Organizational Units",
+        "c. None of the Choices",
+        "d. Group Policy"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T17:15:16Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It enables the IT Administrators to automate one-to-several management of users and computers.",
@@ -874,12 +881,15 @@
         "a. Built-in User Accounts",
         "b. Domain User Accounts",
         "c. None of the Choices",
-        "d. Local User Accounts"
+        "d. Local User Accounts",
+        "b. Local User Accounts",
+        "c. Domain User Accounts",
+        "d. None of the Choices"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:21:09Z",
+      "lastVerifiedAt": "2026-10-26T17:15:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -893,12 +903,15 @@
         "a. Domain User Accounts",
         "b. Local User Accounts",
         "c. Built-in User Accounts",
-        "d. None of the Choices"
+        "d. None of the Choices",
+        "a. Local User Accounts",
+        "b. None of the Choices",
+        "d. Domain User Accounts"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:21:09Z",
+      "lastVerifiedAt": "2026-10-26T17:15:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -967,12 +980,14 @@
         "a. Domain Local",
         "b. Forest",
         "c. Universal",
-        "d. Global"
+        "d. Global",
+        "a. Universal",
+        "c. Domain Local"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:21:09Z",
+      "lastVerifiedAt": "2026-10-26T17:15:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1901,12 +1916,15 @@
         "a. Domain Controller",
         "b. Domain User",
         "c. User Accounts",
-        "d. Groups"
+        "d. Groups",
+        "a. Groups",
+        "b. Domain Controller",
+        "d. Domain User"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:21:09Z",
+      "lastVerifiedAt": "2026-10-26T17:15:16Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
