@@ -1,9 +1,30 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:21:57Z",
-  "totalQuestions": 165,
+  "updatedAt": "2026-10-26T11:22:47Z",
+  "totalQuestions": 166,
   "questions": [
+    {
+      "question": "16.0.0 /12 is what type of IPv4 Address.",
+      "answer": "Private IP Address",
+      "choices": [
+        "a. Private IP Address",
+        "b. Host ID",
+        "c. Broadcast Address",
+        "d. Public IP Address"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-26T11:22:47Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z"
+    },
     {
       "question": "172.16.0.0 /12 is what type of IPv4 Address.",
       "answer": "APrivate IP Address",
@@ -312,15 +333,20 @@
       "question": "APIPA stands for:",
       "answer": "Automatic Private IP Addressing",
       "choices": [
-        "Automatic Private IP Addressing"
+        "Automatic Private IP Addressing",
+        "a. Automatic Private IP Addressing",
+        "b. Asia Pacific Intellectual Property Association",
+        "c. Automatic Protocol for Internet Public Address",
+        "d. Association of Pacific Island Public Auditors"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Certificates are used as authentication credentials.",
@@ -612,29 +638,39 @@
       "question": "How many bits are there in an IP version 4 address?",
       "answer": "32 bits",
       "choices": [
-        "32 bits"
+        "32 bits",
+        "a. 24 bits",
+        "b. 128 bits",
+        "c. 64 bits",
+        "d. 32 bits"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "How many bits are there in an IP version 6 address?",
       "answer": "128 bits",
       "choices": [
-        "128 bits"
+        "128 bits",
+        "a. 128 bits",
+        "b. 32 bits",
+        "c. 24 bits",
+        "d. 64 bits"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Hub only supports single ports",
@@ -991,15 +1027,20 @@
       "question": "It is a device, usually a router, on a TCP/IP internet that forwards IP packets to other subnets.",
       "answer": "Default Gateway",
       "choices": [
-        "Default Gateway"
+        "Default Gateway",
+        "a. Network Address",
+        "b. Subnet Mask",
+        "c. Host ID",
+        "d. Default Gateway"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a downloadable application that helps windows user identify which edition of Windows 7 meets their needs.",
@@ -1264,15 +1305,20 @@
       "question": "It is a type of IPv4 Address that is required by the devices and host that connect directly to the Internet. This address must be unique, routable on the internet and must be assigned by IANA.",
       "answer": "Public IP Address",
       "choices": [
-        "Public IP Address"
+        "Public IP Address",
+        "a. Network Address",
+        "b. Public IP Address",
+        "c. Private IP Address",
+        "d. Broadcast Address"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a type of network that interconnect devices by means of radio waves instead of wires and cables",
@@ -1746,15 +1792,20 @@
       "question": "It specifies which part of an IPv4 address is the network ID and which part of the IPv4 address is the Host ID.",
       "answer": "Subnet Mask",
       "choices": [
-        "Subnet Mask"
+        "Subnet Mask",
+        "a. Host ID",
+        "b. Default Gateway",
+        "c. Subnet Mask",
+        "d. Network Address"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It specifies which part of the IPv4 address is the host ID",
@@ -2140,15 +2191,20 @@
       "question": "What is the binary notation for the 255.255.255.0 subnet mask?",
       "answer": "11111111.11111111.11111111.00000000",
       "choices": [
-        "11111111.11111111.11111111.00000000"
+        "11111111.11111111.11111111.00000000",
+        "a. 11111111.11111111.11111110.00000000",
+        "b. 11111111.00000000.00000000.00000000",
+        "c. 11111111.11111111.11111111.00000000",
+        "d. 11111111.11111111.11111000.00000000"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "What is the IEEE 802 Standards for Local Wireless Networks?",
@@ -2196,15 +2252,19 @@
         "a. Hexadecimal",
         "b. Binary",
         "c. Octal",
-        "d. Decimal"
+        "d. Decimal",
+        "a. Octal",
+        "c. Decimal",
+        "d. Hexadecimal"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:33:49Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Where will you see the Manage Wireless Networks tool in your PC?",
@@ -2431,15 +2491,18 @@
         "a. Anycast",
         "b. Multicast",
         "c. Unicast",
-        "d. Broadcast"
+        "d. Broadcast",
+        "c. Broadcast",
+        "d. Unicast"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:33:49Z",
-      "lastVerifiedAt": "2026-09-29T15:51:18Z",
+      "lastVerifiedAt": "2026-10-26T11:22:47Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is not the common network architecture types?",
