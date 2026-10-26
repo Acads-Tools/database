@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:20:25Z",
+  "updatedAt": "2026-10-26T11:21:09Z",
   "totalQuestions": 165,
   "questions": [
     {
@@ -797,27 +797,39 @@
       "question": "It enables the user to log on and access resources on a specific computer and usually reside in SAM.",
       "answer": "Local User Accounts",
       "choices": [
-        "Local User Accounts"
+        "Local User Accounts",
+        "a. Built-in User Accounts",
+        "b. Domain User Accounts",
+        "c. None of the Choices",
+        "d. Local User Accounts"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:21:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It enables users to log on to the domain to gain access to the network resources and it is reside in Active Directory.",
       "answer": "Domain User Accounts",
       "choices": [
-        "Domain User Accounts"
+        "Domain User Accounts",
+        "a. Domain User Accounts",
+        "b. Local User Accounts",
+        "c. Built-in User Accounts",
+        "d. None of the Choices"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:07Z",
+      "lastVerifiedAt": "2026-10-26T11:21:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It enables you to manage network traffic, group physically dispersed nodes into logical area networks and isolate network traffic.",
@@ -869,13 +881,20 @@
       "question": "It is a collection of Domain Trees.",
       "answer": "Forest",
       "choices": [
-        "Forest"
+        "Forest",
+        "a. Domain Local",
+        "b. Forest",
+        "c. Universal",
+        "d. Global"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:39:08Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:21:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a collection of user accounts, computer accounts, contacts and other groups that you can manage as a single unit.",
@@ -1350,15 +1369,20 @@
       "question": "It is an object that contains all of the information that defines a user in Windows Server 2008 R2.",
       "answer": "User Account",
       "choices": [
-        "User Account"
+        "User Account",
+        "a. Domain User",
+        "b. User Account",
+        "c. Domain Controller",
+        "d. Groups"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:07Z",
+      "lastVerifiedAt": "2026-10-26T11:21:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is one of the Considerations on why using the option of Upgrade rather than Migrate.",
@@ -1622,15 +1646,20 @@
       "question": "It provides authenticaltion, host operations of master roles, hosting the global catalog and support group policies and sysvol.",
       "answer": "Domain Controller",
       "choices": [
-        "Domain Controller"
+        "Domain Controller",
+        "a. Domain Controller",
+        "b. Domain User",
+        "c. User Accounts",
+        "d. Groups"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:07Z",
+      "lastVerifiedAt": "2026-10-26T11:21:09Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It provides storage for the users' files and share folders that contain users' files.",
