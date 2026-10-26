@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:24:00Z",
+  "updatedAt": "2026-10-26T11:25:09Z",
   "totalQuestions": 166,
   "questions": [
     {
@@ -365,13 +365,20 @@
       "question": "Checks for symptoms of defective computer memory and usually can be started from administratve tools in the control panel",
       "answer": "Windows Memory Diagnostics Tool",
       "choices": [
-        "Windows Memory Diagnostics Tool"
+        "Windows Memory Diagnostics Tool",
+        "a. Windows Network Diagnostics Tool",
+        "b. Windows Memory Diagnostics Tool",
+        "c. Reliability Monitor",
+        "d. Performance Monitor"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Contains the partition table for the disk and a small amount of executable code",
@@ -1443,13 +1450,20 @@
       "question": "It is an administrative tool for managing user settings and computer settings across a network",
       "answer": "Window Update Group Policy",
       "choices": [
-        "Window Update Group Policy"
+        "Window Update Group Policy",
+        "a. Window Update Group Policy",
+        "b. System Restore Points",
+        "c. None of the choices",
+        "d. Windows Backup"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is an enhanced privacy features of Internet Explorer 8 that inherently more secure that using delete browsing history to maintain privacy because there are no logs kept or tracks made during browsing",
@@ -1632,25 +1646,39 @@
       "question": "It is the measurement of how a system conforms to expected behavior",
       "answer": "Reliability",
       "choices": [
-        "Reliability"
+        "Reliability",
+        "a. Usability",
+        "b. Reliability",
+        "c. Security",
+        "d. Performance"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is the measurement on how quickly the computer completes a task.",
       "answer": "Performance",
       "choices": [
-        "Performance"
+        "Performance",
+        "a. Usability",
+        "b. Performance",
+        "c. Security",
+        "d. Reliability"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is the most common form of computer network.",
@@ -1742,13 +1770,20 @@
       "question": "It provides assistance in resolving network-related issues",
       "answer": "Windows Network Diagnostics Tool",
       "choices": [
-        "Windows Network Diagnostics Tool"
+        "Windows Network Diagnostics Tool",
+        "a. Windows Network Diagnostics Tool",
+        "b. Reliability Monitor",
+        "c. Windows Memory Diagnostic Tool",
+        "d. Performance Monitor"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It provides authenticaltion, host operations of master roles, hosting the global catalog and support group policies and sysvol.",
@@ -1944,13 +1979,20 @@
       "question": "Provides a timeline of system changes and reliability. It also provides a system stability chart and reports on software installations and software or hardware failures.",
       "answer": "Reliability Monitor",
       "choices": [
-        "Reliability Monitor"
+        "Reliability Monitor",
+        "a. Windows Network Diagnostics Tool",
+        "b. Windows Memory Diagnosstics Tool",
+        "c. Reliability Monitor",
+        "d. Performance Monitor"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Routers divides packets equally then send it to all end devices in the network",
@@ -2345,13 +2387,19 @@
         "a. Safe Mode",
         "b. Boot logging",
         "c. Last known good configuration",
-        "d. None of the choices"
+        "d. None of the choices",
+        "a. Boot logging",
+        "b. Last known good configuration",
+        "c. Safe Mode"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:42:13Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following is not a LAN Physical Topology?",
@@ -2392,17 +2440,23 @@
         "a. Monitoring Tools",
         "b. Windows Memory Diagnostics Tool",
         "c. Data Collector Sets",
-        "d. Reports"
+        "d. Reports",
+        "a. Windows Memory Diagnostics Tool",
+        "b. Reports",
+        "d. Monitoring Tools"
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-17T16:42:13Z",
-      "lastVerifiedAt": "2026-09-22T03:43:29Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "Which of the following is not a Physical WAN Components?",
-      "answer": "",
+      "answer": "Network Adapter",
       "choices": [
         "a. Leased Lines",
         "b. Network Adapter",
@@ -2411,13 +2465,16 @@
         "b. Bridge",
         "d. Network Adapter",
         "a. Network Adapter",
-        "d. Leased Lines"
+        "d. Leased Lines",
+        "a. Backbone",
+        "b. Leased Lines",
+        "c. Network Adapter"
       ],
-      "verified": false,
-      "confirmations": 4,
+      "verified": true,
+      "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-26T11:25:09Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "Bridge",
         "Backbone"
@@ -2483,7 +2540,9 @@
         "d. 802.11 a",
         "a. 802.11 n",
         "b. 802.11 a",
-        "d. 802.11 h"
+        "d. 802.11 h",
+        "c. 802.11 a",
+        "d. 802.11 b"
       ],
       "verified": true,
       "confirmations": 4,
@@ -2500,6 +2559,10 @@
         {
           "rejectedAnswer": "802.11 h",
           "timestamp": "2026-10-26T11:17:34Z"
+        },
+        {
+          "rejectedAnswer": "802.11 h",
+          "timestamp": "2026-10-26T11:25:09Z"
         }
       ]
     },
