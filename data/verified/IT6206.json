@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6206",
   "subjectName": "Information Assurance and Security 2",
-  "updatedAt": "2026-10-26T18:32:22Z",
+  "updatedAt": "2026-10-26T18:40:38Z",
   "totalQuestions": 122,
   "tier": "verified",
   "questions": [
@@ -133,12 +133,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-10-23T16:02:22Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z"
+      "lastVerifiedAt": "2026-10-26T18:40:38Z"
     },
     {
       "question": "_______ : assuring that authorized users have continued access to information and resources",
@@ -192,9 +192,9 @@
         "Management controls"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -312,9 +312,9 @@
         "articulation"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -446,9 +446,9 @@
         "organization"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -474,9 +474,9 @@
         "program of management"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -489,9 +489,9 @@
         "software"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -641,9 +641,9 @@
         "active"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -818,9 +818,9 @@
         "Regulatory compliance's"
       ],
       "verified": true,
-      "confirmations": 49,
+      "confirmations": 52,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -904,9 +904,9 @@
         "Rising cost of breaches"
       ],
       "verified": true,
-      "confirmations": 85,
+      "confirmations": 87,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1028,7 +1028,7 @@
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
-      "lastEvidenceAt": "2026-10-26T16:32:58Z"
+      "lastEvidenceAt": "2026-10-26T18:40:38Z"
     },
     {
       "question": "If you feel vulnerable do not ask Police or Security to escort you to your car",
@@ -1115,9 +1115,9 @@
         "prudent policy setter"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1216,12 +1216,14 @@
       "source": "review_screen",
       "wrongAnswers": [
         "Non-substantial (intangible) resources",
-        "intangible"
+        "intangible",
+        "non-physical",
+        "strategic"
       ],
       "questionType": "multichoice",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-26T18:32:22Z"
+      "lastEvidenceAt": "2026-10-26T18:40:38Z"
     },
     {
       "question": "involves the implementation of standard operational security procedures that define the nature and frequency of the interaction between users, systems, and system resources, the purpose.",
@@ -1450,9 +1452,9 @@
         "Technical measure"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1480,9 +1482,9 @@
         "mechanisms"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1574,9 +1576,9 @@
         "Increasingly sophisticated attacker"
       ],
       "verified": true,
-      "confirmations": 43,
+      "confirmations": 45,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -1750,9 +1752,9 @@
         "management controls"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1778,9 +1780,9 @@
         "Security policy"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1909,9 +1911,9 @@
         "residual risk"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1939,9 +1941,9 @@
         "Proliferation of IoT devices"
       ],
       "verified": true,
-      "confirmations": 85,
+      "confirmations": 87,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1969,9 +1971,9 @@
         "Security policy"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2014,9 +2016,9 @@
         "Software developer"
       ],
       "verified": true,
-      "confirmations": 85,
+      "confirmations": 86,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2029,9 +2031,9 @@
         "Computer Network Architects"
       ],
       "verified": true,
-      "confirmations": 43,
+      "confirmations": 44,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T16:32:58Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Computer Network Architect",
@@ -2095,7 +2097,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-26T16:43:30Z"
+      "lastEvidenceAt": "2026-10-26T18:40:38Z"
     },
     {
       "question": "What jobs in information security is this? Salary: $95,510 Responsibilities: Information security analysts monitor their companies' computer networks to combat hackers and compile reports of security breaches.",
@@ -2104,9 +2106,9 @@
         "Information Security Analyst"
       ],
       "verified": true,
-      "confirmations": 85,
+      "confirmations": 86,
       "firstSeenAt": "2026-09-17T16:43:14Z",
-      "lastVerifiedAt": "2026-10-26T18:32:22Z",
+      "lastVerifiedAt": "2026-10-26T18:40:38Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
