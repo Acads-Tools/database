@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-26T16:57:38Z",
+  "updatedAt": "2026-10-26T17:06:25Z",
   "totalQuestions": 115,
   "questions": [
     {
@@ -405,7 +405,7 @@
     },
     {
       "question": "Coded Messages",
-      "answer": "",
+      "answer": "Cryptography",
       "choices": [
         "Cryptography",
         "Pseudonames",
@@ -434,12 +434,13 @@
         "Phishing"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-26T16:57:38Z"
+      "lastEvidenceAt": "2026-10-26T16:57:38Z",
+      "lastVerifiedAt": "2026-10-26T17:06:25Z"
     },
     {
       "question": "Computer networks are systems of information processing components that use a variety of hardware, software, data management, and telecommunications network technologies.",
@@ -596,11 +597,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-26T11:59:33Z",
-      "lastVerifiedAt": "2026-10-26T16:57:38Z"
+      "lastVerifiedAt": "2026-10-26T17:06:25Z"
     },
     {
       "question": "E-business and e-commerce applications involve interconnected business information systems under applications.",
@@ -653,10 +654,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T16:57:38Z",
+      "lastVerifiedAt": "2026-10-26T17:06:25Z",
       "lastEvidenceAt": "2026-10-26T11:59:33Z"
     },
     {
@@ -695,7 +696,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-26T16:57:38Z"
+      "lastEvidenceAt": "2026-10-26T17:06:25Z"
     },
     {
       "question": "Gaining a strategic advantage over competitors requires the innovative application of information technologies.",
@@ -1608,10 +1609,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T16:57:38Z",
+      "lastVerifiedAt": "2026-10-26T17:06:25Z",
       "lastEvidenceAt": "2026-10-12T11:17:38Z"
     },
     {
@@ -1677,10 +1678,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T16:57:38Z",
+      "lastVerifiedAt": "2026-10-26T17:06:25Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -1822,11 +1823,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-26T11:54:12Z",
-      "lastVerifiedAt": "2026-10-26T16:57:38Z"
+      "lastVerifiedAt": "2026-10-26T17:06:25Z"
     },
     {
       "question": "Secret-key Encryption",
@@ -1859,10 +1860,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T16:57:38Z",
+      "lastVerifiedAt": "2026-10-26T17:06:25Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -1896,10 +1897,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T16:57:38Z",
+      "lastVerifiedAt": "2026-10-26T17:06:25Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -2438,7 +2439,8 @@
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Pseudonames",
-        "Security"
+        "Security",
+        "Information security"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -2446,7 +2448,7 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-26T16:57:38Z",
+      "lastEvidenceAt": "2026-10-26T17:06:25Z",
       "lastVerifiedAt": "2026-10-26T11:59:33Z"
     },
     {
