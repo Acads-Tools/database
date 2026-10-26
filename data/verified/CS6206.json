@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T17:10:49Z",
+  "updatedAt": "2026-10-26T17:11:21Z",
   "totalQuestions": 166,
   "tier": "verified",
   "questions": [
@@ -1085,12 +1085,16 @@
         "a. None of the choices",
         "b. Windows Upgrade Advisor",
         "c. User State Migration Tool",
-        "d. Windows Easy Transfer"
+        "d. Windows Easy Transfer",
+        "a. Windows Easy Transfer",
+        "b. User State Migration Tool",
+        "c. Windows Upgrade Advisor",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1353,12 +1357,14 @@
         "a. Imagex",
         "b. Loadstate",
         "c. Scanstate",
-        "d. Sysprep"
+        "d. Sysprep",
+        "b. Scanstate",
+        "c. Loadstate"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1560,12 +1566,15 @@
         "a. Does not require the reinstallation of applications",
         "b. Typically, requires more storage space",
         "c. None of the choices",
-        "d. Typically, requires replacing existing computer hardware"
+        "d. Typically, requires replacing existing computer hardware",
+        "a. None of the choices",
+        "c. Typically, requires replacing existing computer hardware",
+        "d. Does not require the reinstallation of applications"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1610,12 +1619,15 @@
         "a. Deployment",
         "b. Usability",
         "c. Security",
-        "d. Reliability and Performance"
+        "d. Reliability and Performance",
+        "a. Reliability and Performance",
+        "c. Deployment",
+        "d. Security"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1632,12 +1644,15 @@
         "a. Security",
         "b. Usability",
         "c. Reliability and Performance",
-        "d. Deployment"
+        "d. Deployment",
+        "b. Deployment",
+        "c. Usability",
+        "d. Reliability and Performance"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1651,12 +1666,15 @@
         "a. Clean Installation",
         "b. None of the Choices",
         "c. Migration",
-        "d. Upgrade Installation"
+        "d. Upgrade Installation",
+        "b. Upgrade Installation",
+        "c. None of the Choices",
+        "d. Migration"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1670,12 +1688,14 @@
         "a. Migration",
         "b. None of the Choices",
         "c. Clean Installation",
-        "d. Upgrade Installation"
+        "d. Upgrade Installation",
+        "c. Upgrade Installation",
+        "d. Clean Installation"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2581,7 +2601,9 @@
         "d. Windows 7 Enterprise",
         "b. Windows 7 Enterprise",
         "c. Windows 7 Ultimate",
-        "d. Windows 7 Home Basic"
+        "d. Windows 7 Home Basic",
+        "a. Windows 7 Home Basic",
+        "b. Windows 7 Professional"
       ],
       "verified": true,
       "confirmations": 3,
@@ -2594,6 +2616,10 @@
         {
           "rejectedAnswer": "Windows 7 Professional",
           "timestamp": "2026-10-26T11:20:25Z"
+        },
+        {
+          "rejectedAnswer": "Windows 7 Professional",
+          "timestamp": "2026-10-26T17:11:21Z"
         }
       ]
     },
@@ -2669,12 +2695,15 @@
         "a. More Memory",
         "b. Improved Security",
         "c. Improved Performance",
-        "d. It supports 16-bit Windows on Windows (WOW) environment"
+        "d. It supports 16-bit Windows on Windows (WOW) environment",
+        "a. Improved Security",
+        "b. It supports 16-bit Windows on Windows (WOW) environment",
+        "d. More Memory"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2760,9 +2789,9 @@
         "d. Windows Vista SP1"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-10-26T11:20:25Z",
+      "lastVerifiedAt": "2026-10-26T17:11:21Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
