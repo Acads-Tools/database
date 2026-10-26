@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T11:17:34Z",
+  "updatedAt": "2026-10-26T11:20:25Z",
   "totalQuestions": 165,
   "questions": [
     {
@@ -981,15 +981,20 @@
       "question": "It is a downloadable application that helps windows user identify which edition of Windows 7 meets their needs.",
       "answer": "Windows Upgrade Advisor",
       "choices": [
-        "Windows Upgrade Advisor"
+        "Windows Upgrade Advisor",
+        "a. None of the choices",
+        "b. Windows Upgrade Advisor",
+        "c. User State Migration Tool",
+        "d. Windows Easy Transfer"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a dynamic volume that encompasses available free-space from single, dynamic, hard disk drive.",
@@ -1196,15 +1201,20 @@
       "question": "It is a tool used to remove system-specific data from the Windows operating system, configure windows to start in audit mode, configure the windows operating system to start the Windows Welcome phase and reset Windows Product activation.",
       "answer": "Sysprep",
       "choices": [
-        "Sysprep"
+        "Sysprep",
+        "a. Imagex",
+        "b. Loadstate",
+        "c. Scanstate",
+        "d. Sysprep"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a type of IPv4 Address that is required by the devices and host that connect directly to the Internet. This address must be unique, routable on the internet and must be assigned by IANA.",
@@ -1354,15 +1364,20 @@
       "question": "It is one of the Considerations on why using the option of Upgrade rather than Migrate.",
       "answer": "Does not require the reinstallation of applications",
       "choices": [
-        "Does not require the reinstallation of applications"
+        "Does not require the reinstallation of applications",
+        "a. Does not require the reinstallation of applications",
+        "b. Typically, requires more storage space",
+        "c. None of the choices",
+        "d. Typically, requires replacing existing computer hardware"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is one of the feature of Windows 7 that encrypts the computer operating system and data stored on the operating system volume.",
@@ -1392,15 +1407,20 @@
       "question": "It is one of the Key Features of Windows 7 that simplify a user's ability to organize, search for, and view information.",
       "answer": "Usability",
       "choices": [
-        "Usability"
+        "Usability",
+        "a. Deployment",
+        "b. Usability",
+        "c. Security",
+        "d. Reliability and Performance"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is one of the Key Features of Windows 7 that takes advantage of modern computing hardware, running more reliably and providing more consistent performance than previous versions of Windows.",
@@ -1409,43 +1429,58 @@
         "Reliability and Performance",
         "Usability",
         "Security",
-        "Deployment"
+        "Deployment",
+        "a. Security",
+        "b. Usability",
+        "c. Reliability and Performance",
+        "d. Deployment"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is one of the Options for Installing Windows 7 where in you install Windows 7 on a new partition and replace an existing operating system on a partition.",
       "answer": "Clean Installation",
       "choices": [
-        "Clean Installation"
+        "Clean Installation",
+        "a. Clean Installation",
+        "b. None of the Choices",
+        "c. Migration",
+        "d. Upgrade Installation"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is one of the Options for Installing Windows 7 where in you replace an existing version of Windows with Windows 7 but all user applications, files and settings are retained.",
       "answer": "Upgrade Installation",
       "choices": [
-        "Upgrade Installation"
+        "Upgrade Installation",
+        "a. Migration",
+        "b. None of the Choices",
+        "c. Clean Installation",
+        "d. Upgrade Installation"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is the built-in encryption tool for Windows file systems",
@@ -2227,13 +2262,24 @@
         "a. Windows 7 Professional",
         "b. Windows 7 Ultimate",
         "c. Windows 7 Home Basic",
-        "d. Windows 7 Enterprise"
+        "d. Windows 7 Enterprise",
+        "b. Windows 7 Enterprise",
+        "c. Windows 7 Ultimate",
+        "d. Windows 7 Home Basic"
       ],
       "verified": true,
       "confirmations": 3,
       "firstSeenAt": "2026-09-17T16:28:46Z",
       "lastVerifiedAt": "2026-09-22T03:31:57Z",
-      "source": "community_contribution"
+      "source": "community_contribution",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Windows 7 Professional",
+          "timestamp": "2026-10-26T11:20:25Z"
+        }
+      ]
     },
     {
       "question": "Which of the following is not a way to improve the signal strength?",
@@ -2289,15 +2335,20 @@
         "a. It supports 16-bit Windows on Windows (WOW) environment",
         "b. Improved Performance",
         "c. More Memory",
-        "d. Improved Security"
+        "d. Improved Security",
+        "a. More Memory",
+        "b. Improved Security",
+        "c. Improved Performance",
+        "d. It supports 16-bit Windows on Windows (WOW) environment"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is not an IPv6 Address types?",
@@ -2363,15 +2414,20 @@
         "a. Windows Vista SP1",
         "b. Windows XP",
         "c. None of the choices",
-        "d. Windows 95"
+        "d. Windows 95",
+        "a. Windows 95",
+        "b. None of the choices",
+        "c. Windows XP",
+        "d. Windows Vista SP1"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-09-29T15:49:29Z",
+      "lastVerifiedAt": "2026-10-26T11:20:25Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     }
   ]
 }
