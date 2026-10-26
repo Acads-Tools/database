@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-17T16:42:19Z",
+  "updatedAt": "2026-10-26T06:12:27Z",
   "totalQuestions": 180,
   "tier": "verified",
   "questions": [
@@ -654,12 +654,13 @@
         "b. Bus structure",
         "c. Bus interconnection",
         "d. Bus structure",
-        "c. Bus network"
+        "c. Bus network",
+        "d. Bus interconnection"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -774,7 +775,9 @@
       "firstSeenAt": "2026-09-11T02:47:09Z",
       "lastVerifiedAt": "2026-10-02T21:42:57Z",
       "source": "community_contribution",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "Bus topology"
+      ],
       "isAiSuggestion": false,
       "questionType": "shortanswer",
       "conflictHistory": [
@@ -783,7 +786,9 @@
           "reason": "AI suggestion cannot overwrite verified answer",
           "timestamp": "2026-10-02T04:11:40Z"
         }
-      ]
+      ],
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-26T06:12:27Z"
     },
     {
       "question": "A level-triggered interrupt is requested by holding the interrupt signal at its particular (high or low) active logic level.",
@@ -1234,9 +1239,9 @@
         "d. 1994"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1411,9 +1416,9 @@
         "Suggested (Verified DB): Input Fill"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2033,9 +2038,9 @@
         "Suggested (Verified DB): PCI Fill"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2393,9 +2398,9 @@
         "Suggested (Verified DB): Memory Fill"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2480,9 +2485,9 @@
         "d. Bus line"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2549,9 +2554,9 @@
         "Suggested (Verified DB): Processor Fill"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3008,9 +3013,9 @@
         "Suggested (Verified DB): Power pin Fill"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3130,9 +3135,9 @@
         "a. Processor"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3164,9 +3169,9 @@
         "d. CPU"
       ],
       "verified": true,
-      "confirmations": 31,
+      "confirmations": 32,
       "firstSeenAt": "2026-09-11T02:42:05Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3542,9 +3547,9 @@
         "c. 64"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3653,9 +3658,9 @@
         "d. 1990"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3723,12 +3728,13 @@
         "a. Network Line",
         "c. Data line",
         "b. Control Line",
-        "b. Network Line"
+        "b. Network Line",
+        "c. Address Line"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3791,10 +3797,10 @@
       "answer": "data bus",
       "choices": [],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-02T21:42:57Z",
-      "source": "community_contribution",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
+      "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "shortanswer"
@@ -4058,9 +4064,9 @@
         "d. Internet"
       ],
       "verified": true,
-      "confirmations": 37,
+      "confirmations": 38,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:23:42Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internet and Network"
@@ -4094,9 +4100,9 @@
         "Suggested (Verified DB): Control line Fill"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-15T12:14:01Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -4192,9 +4198,9 @@
         "c. Peripheral Component Internet"
       ],
       "verified": true,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-17T15:42:45Z",
+      "lastVerifiedAt": "2026-10-26T06:12:27Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
