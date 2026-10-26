@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-26T11:48:23Z",
-  "totalQuestions": 102,
+  "updatedAt": "2026-10-26T11:54:12Z",
+  "totalQuestions": 104,
   "tier": "verified",
   "questions": [
     {
@@ -430,6 +430,43 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Digital Signature",
+      "answer": "Authentication",
+      "choices": [
+        "Cryptography",
+        "Pseudonames",
+        "Encryption",
+        "Anonymity",
+        "Physical Security Barriers",
+        "Exploits",
+        "Pseudo identity",
+        "Phishing",
+        "E-mail spam",
+        "Electronic Access Controls",
+        "Confidentiality",
+        "Trojan Horse",
+        "Symmetric encryption",
+        "Security",
+        "Authentication",
+        "Information security",
+        "Asymmetric encryption",
+        "Untraceable identity"
+      ],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Asymmetric encryption",
+        "Trojan Horse"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:57:31Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T11:17:38Z",
+      "lastVerifiedAt": "2026-10-26T11:54:12Z"
+    },
+    {
       "question": "E-business and e-commerce applications involve interconnected business information systems under applications.",
       "answer": "True",
       "choices": [
@@ -451,7 +488,26 @@
     {
       "question": "E-mail Fraud",
       "answer": "Phishing",
-      "choices": [],
+      "choices": [
+        "Cryptography",
+        "Pseudonames",
+        "Encryption",
+        "Anonymity",
+        "Physical Security Barriers",
+        "Exploits",
+        "Pseudo identity",
+        "Phishing",
+        "E-mail spam",
+        "Electronic Access Controls",
+        "Confidentiality",
+        "Trojan Horse",
+        "Symmetric encryption",
+        "Security",
+        "Authentication",
+        "Information security",
+        "Asymmetric encryption",
+        "Untraceable identity"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Pseudo identity",
@@ -460,10 +516,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:49:36Z",
+      "lastVerifiedAt": "2026-10-26T11:54:12Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -1273,7 +1329,26 @@
     {
       "question": "No Identity",
       "answer": "Anonymity",
-      "choices": [],
+      "choices": [
+        "Cryptography",
+        "Pseudonames",
+        "Encryption",
+        "Anonymity",
+        "Physical Security Barriers",
+        "Exploits",
+        "Pseudo identity",
+        "Phishing",
+        "E-mail spam",
+        "Electronic Access Controls",
+        "Confidentiality",
+        "Trojan Horse",
+        "Symmetric encryption",
+        "Security",
+        "Authentication",
+        "Information security",
+        "Asymmetric encryption",
+        "Untraceable identity"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Confidentiality"
@@ -1281,10 +1356,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:21:10Z",
+      "lastVerifiedAt": "2026-10-26T11:54:12Z",
       "lastEvidenceAt": "2026-10-12T11:17:38Z"
     },
     {
@@ -1322,7 +1397,26 @@
     {
       "question": "Preventing of unauthorized disclosure of information",
       "answer": "Confidentiality",
-      "choices": [],
+      "choices": [
+        "Cryptography",
+        "Pseudonames",
+        "Encryption",
+        "Anonymity",
+        "Physical Security Barriers",
+        "Exploits",
+        "Pseudo identity",
+        "Phishing",
+        "E-mail spam",
+        "Electronic Access Controls",
+        "Confidentiality",
+        "Trojan Horse",
+        "Symmetric encryption",
+        "Security",
+        "Authentication",
+        "Information security",
+        "Asymmetric encryption",
+        "Untraceable identity"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Security",
@@ -1331,10 +1425,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:49:36Z",
+      "lastVerifiedAt": "2026-10-26T11:54:12Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -1404,7 +1498,26 @@
     {
       "question": "Secret-key Encryption",
       "answer": "Symmetric encryption",
-      "choices": [],
+      "choices": [
+        "Cryptography",
+        "Pseudonames",
+        "Encryption",
+        "Anonymity",
+        "Physical Security Barriers",
+        "Exploits",
+        "Pseudo identity",
+        "Phishing",
+        "E-mail spam",
+        "Electronic Access Controls",
+        "Confidentiality",
+        "Trojan Horse",
+        "Symmetric encryption",
+        "Security",
+        "Authentication",
+        "Information security",
+        "Asymmetric encryption",
+        "Untraceable identity"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Anonymity",
@@ -1413,16 +1526,35 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:49:36Z",
+      "lastVerifiedAt": "2026-10-26T11:54:12Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
       "question": "Sensors, Security Lighting and Natural Trees",
       "answer": "Physical Security Barriers",
-      "choices": [],
+      "choices": [
+        "Cryptography",
+        "Pseudonames",
+        "Encryption",
+        "Anonymity",
+        "Physical Security Barriers",
+        "Exploits",
+        "Pseudo identity",
+        "Phishing",
+        "E-mail spam",
+        "Electronic Access Controls",
+        "Confidentiality",
+        "Trojan Horse",
+        "Symmetric encryption",
+        "Security",
+        "Authentication",
+        "Information security",
+        "Asymmetric encryption",
+        "Untraceable identity"
+      ],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Security",
@@ -1431,10 +1563,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:49:36Z",
+      "lastVerifiedAt": "2026-10-26T11:54:12Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -1865,6 +1997,43 @@
       "lastVerifiedAt": "2026-10-12T11:27:28Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Witness Protection",
+      "answer": "Pseudo identity",
+      "choices": [
+        "Cryptography",
+        "Pseudonames",
+        "Encryption",
+        "Anonymity",
+        "Physical Security Barriers",
+        "Exploits",
+        "Pseudo identity",
+        "Phishing",
+        "E-mail spam",
+        "Electronic Access Controls",
+        "Confidentiality",
+        "Trojan Horse",
+        "Symmetric encryption",
+        "Security",
+        "Authentication",
+        "Information security",
+        "Asymmetric encryption",
+        "Untraceable identity"
+      ],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Pseudonames",
+        "Security"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T20:57:31Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T11:21:10Z",
+      "lastVerifiedAt": "2026-10-26T11:54:12Z"
     },
     {
       "question": "“Information plays a vital role in organizations, and in recent years companies have recognized the significance of corporate data as an organizational asset”.",
