@@ -1,7 +1,7 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-26T11:54:12Z",
+  "updatedAt": "2026-10-26T11:59:33Z",
   "totalQuestions": 113,
   "questions": [
     {
@@ -420,7 +420,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-26T11:54:12Z"
+      "lastEvidenceAt": "2026-10-26T11:59:33Z"
     },
     {
       "question": "Computer networks are systems of information processing components that use a variety of hardware, software, data management, and telecommunications network technologies.",
@@ -553,7 +553,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:17:38Z",
+      "lastEvidenceAt": "2026-10-26T11:59:33Z",
       "lastVerifiedAt": "2026-10-26T11:54:12Z"
     },
     {
@@ -601,7 +601,8 @@
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Pseudo identity",
-        "Exploits"
+        "Exploits",
+        "E-mail spam"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -610,7 +611,7 @@
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-26T11:54:12Z",
-      "lastEvidenceAt": "2026-10-12T11:21:10Z"
+      "lastEvidenceAt": "2026-10-26T11:59:33Z"
     },
     {
       "question": "Encryption and Authentication",
@@ -647,7 +648,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-26T11:54:12Z"
+      "lastEvidenceAt": "2026-10-26T11:59:33Z"
     },
     {
       "question": "Gaining a strategic advantage over competitors requires the innovative application of information technologies.",
@@ -1542,10 +1543,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T11:54:12Z",
+      "lastVerifiedAt": "2026-10-26T11:59:33Z",
       "lastEvidenceAt": "2026-10-12T11:17:38Z"
     },
     {
@@ -1611,10 +1612,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T11:54:12Z",
+      "lastVerifiedAt": "2026-10-26T11:59:33Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -1683,7 +1684,7 @@
     },
     {
       "question": "Rootkit",
-      "answer": "",
+      "answer": "Exploits",
       "choices": [
         "Cryptography",
         "Pseudonames",
@@ -1711,12 +1712,13 @@
         "Untraceable identity"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-26T11:54:12Z"
+      "lastEvidenceAt": "2026-10-26T11:54:12Z",
+      "lastVerifiedAt": "2026-10-26T11:59:33Z"
     },
     {
       "question": "Secret-key Encryption",
@@ -1749,10 +1751,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T11:54:12Z",
+      "lastVerifiedAt": "2026-10-26T11:59:33Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -1786,10 +1788,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-26T11:54:12Z",
+      "lastVerifiedAt": "2026-10-26T11:59:33Z",
       "lastEvidenceAt": "2026-10-12T11:21:10Z"
     },
     {
@@ -2252,11 +2254,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:57:31Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:21:10Z",
-      "lastVerifiedAt": "2026-10-26T11:54:12Z"
+      "lastVerifiedAt": "2026-10-26T11:59:33Z"
     },
     {
       "question": "“Information plays a vital role in organizations, and in recent years companies have recognized the significance of corporate data as an organizational asset”.",
