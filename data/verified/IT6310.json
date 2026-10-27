@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-27T09:02:08Z",
-  "totalQuestions": 157,
+  "updatedAt": "2026-10-27T09:02:58Z",
+  "totalQuestions": 161,
   "tier": "verified",
   "questions": [
     {
@@ -214,6 +214,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T09:02:08Z"
+    },
+    {
+      "question": "Adware is a type of malware that restricts user access to the computer either by encrypting files on the hard drive or locking down the system",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
     },
     {
       "question": "Always disable unnecessary features of the web server that are not going to be used",
@@ -591,6 +610,27 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Is the process of using social skills to encourage people to disclose their credentials",
+      "answer": "Social Engineering",
+      "choices": [
+        "a. Phishing",
+        "b. Social Engineering",
+        "c. Spam",
+        "d. Tailgating"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
+    },
+    {
       "question": "It can manipulate your system including the deletion of the important files on your computer.",
       "answer": "ActiveX controls",
       "choices": [
@@ -707,6 +747,27 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It has an additional ability where they can modify security settings of a software.",
+      "answer": "Spyware",
+      "choices": [
+        "a. Ransomware",
+        "b. Spyware",
+        "c. Malware",
+        "d. Adware"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
     },
     {
       "question": "It has been developed by ISO in the year 1984.",
@@ -1103,6 +1164,22 @@
       ],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "It is designed to appear as a legit program to gain access to a network.",
+      "answer": "Trojan horse",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
     },
     {
       "question": "It is the idea of developing a database system to store and retrieve large volumes of data",

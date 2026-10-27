@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-27T09:02:08Z",
-  "totalQuestions": 169,
+  "updatedAt": "2026-10-27T09:02:58Z",
+  "totalQuestions": 174,
   "questions": [
     {
       "question": "[1] indicates a succesful authorization, but the server has chosen to ignore the REQUEST and is replacing it with the information sent back in the RESPONSE",
@@ -234,6 +234,25 @@
       "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
+      "question": "Adware is a type of malware that restricts user access to the computer either by encrypting files on the hard drive or locking down the system",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
+    },
+    {
       "question": "Always disable unnecessary features of the web server that are not going to be used",
       "answer": "True",
       "choices": [
@@ -248,6 +267,24 @@
       "lastVerifiedAt": "2026-10-27T08:37:19Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "An attack where the hacker mimics another employee in the company.",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Impersonation Attack"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T09:02:58Z"
     },
     {
       "question": "An information that is only accessed by an authorized person.",
@@ -628,6 +665,27 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Is the process of using social skills to encourage people to disclose their credentials",
+      "answer": "Social Engineering",
+      "choices": [
+        "a. Phishing",
+        "b. Social Engineering",
+        "c. Spam",
+        "d. Tailgating"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
+    },
+    {
       "question": "It can manipulate your system including the deletion of the important files on your computer.",
       "answer": "ActiveX controls",
       "choices": [
@@ -744,6 +802,27 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "It has an additional ability where they can modify security settings of a software.",
+      "answer": "Spyware",
+      "choices": [
+        "a. Ransomware",
+        "b. Spyware",
+        "c. Malware",
+        "d. Adware"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
     },
     {
       "question": "It has been developed by ISO in the year 1984.",
@@ -1140,6 +1219,22 @@
       ],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "It is designed to appear as a legit program to gain access to a network.",
+      "answer": "Trojan horse",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:02:58Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:58Z"
     },
     {
       "question": "It is the idea of developing a database system to store and retrieve large volumes of data",
