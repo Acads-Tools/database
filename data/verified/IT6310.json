@@ -1,10 +1,29 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-27T08:53:11Z",
-  "totalQuestions": 151,
+  "updatedAt": "2026-10-27T09:02:08Z",
+  "totalQuestions": 157,
   "tier": "verified",
   "questions": [
+    {
+      "question": "[1] indicates a succesful authorization, but the server has chosen to ignore the REQUEST and is replacing it with the information sent back in the RESPONSE",
+      "answer": "PASS_REPL",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "RADIUS replace"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
+    },
     {
       "question": "[1] is a critical AAA function that must not be disregarded.",
       "answer": "Accounting",
@@ -14,12 +33,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
+    },
+    {
+      "question": "[1] is a mechanism for gathering data, logging it locally on the Cisco Cg-OS router, and transferring it to the AAA server for billing purposes.",
+      "answer": "accounting",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "AAA accounting"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is a message that works as a receipt acknowledgement, letting the AAA client know that the accounting message has been received by the AAA server.",
@@ -30,12 +68,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is a network access AAA protocol that is virtually entirely utilized.",
@@ -46,12 +84,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is one type of AAA that you should be aware of. It allows you to govern who has access to a network device console, telnet connection, secure shell session, or other manner.",
@@ -62,12 +100,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "A popular feature of Windows that allows you to harden multiple systems quickly.",
@@ -98,12 +136,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
@@ -170,12 +208,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Always disable unnecessary features of the web server that are not going to be used",
@@ -289,12 +327,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Availability refers to the ability of a network to protect its information from any unauthorized access.",
@@ -311,6 +349,25 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Before allowing an entity to connect with the network, [1] can be used to verify the identity of the device or user.",
+      "answer": "Network Access",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Authentication"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Big corporations are not at risks to any form of security breach.",
@@ -464,12 +521,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Internet is an example of a network.",
@@ -1401,12 +1458,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "RADIUS uses [1] for authentication and UDP/1813 for accounting as standard ports.",
@@ -1417,12 +1474,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "SMTP and FTP are used to transfer information over a computer network.",
@@ -1538,12 +1595,69 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
+    },
+    {
+      "question": "The [1] was created to authenticate and authorize iusers for mainframes, Unix terminals, and other consoles as part of the device administration AAA.",
+      "answer": "TACACS",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "TACACS+"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
+    },
+    {
+      "question": "The AAA client sends an [1] message to the AAA server, which includes time, packets, DHCP, and CDP information.",
+      "answer": "Accounting-Request",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "accounting request"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
+    },
+    {
+      "question": "The AAA server wants the AAA client to send the authorization request to a different user, as indicated by the [1] response.",
+      "answer": "FOLLOW",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "RADIUS redirect"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The following codes is an example of?TryMessageBox.Show(cdbl(txtTotalValue.text) + cdbl(txtTotalVAT.text))Catch ex as InvalidCastExceptionMessageBox.Show(\"Please supply 2 numbers as input\")Catch ex as ExceptionMessageBox.Show(\"An error has occurred. Please try again.\")End Try",
@@ -1583,12 +1697,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "These are created with malicious intent and sent by attackers.",
@@ -2118,12 +2232,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Using [1], you can define remote AAA servers for authentication, authorisation, and accounting.",
@@ -2134,12 +2248,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "very single application must go through the options and check whether each application is configured in the most secure state.",

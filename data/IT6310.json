@@ -1,26 +1,27 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-27T08:53:11Z",
+  "updatedAt": "2026-10-27T09:02:08Z",
   "totalQuestions": 169,
   "questions": [
     {
       "question": "[1] indicates a succesful authorization, but the server has chosen to ignore the REQUEST and is replacing it with the information sent back in the RESPONSE",
-      "answer": "",
+      "answer": "PASS_REPL",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "RADIUS replace"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is a critical AAA function that must not be disregarded.",
@@ -31,30 +32,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is a mechanism for gathering data, logging it locally on the Cisco Cg-OS router, and transferring it to the AAA server for billing purposes.",
-      "answer": "",
+      "answer": "accounting",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "AAA accounting"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is a message that works as a receipt acknowledgement, letting the AAA client know that the accounting message has been received by the AAA server.",
@@ -65,12 +67,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is a network access AAA protocol that is virtually entirely utilized.",
@@ -81,12 +83,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] is one type of AAA that you should be aware of. It allows you to govern who has access to a network device console, telnet connection, secure shell session, or other manner.",
@@ -97,12 +99,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "[1] This response indicates that the user's access to the requested service should be refused.",
@@ -110,7 +112,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "403 Forbidden"
+        "403 Forbidden",
+        "Access Denied"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -120,7 +123,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "A popular feature of Windows that allows you to harden multiple systems quickly.",
@@ -151,12 +154,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
@@ -223,12 +226,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Always disable unnecessary features of the web server that are not going to be used",
@@ -342,12 +345,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Availability refers to the ability of a network to protect its information from any unauthorized access.",
@@ -367,21 +370,22 @@
     },
     {
       "question": "Before allowing an entity to connect with the network, [1] can be used to verify the identity of the device or user.",
-      "answer": "",
+      "answer": "Network Access",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Authentication"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Big corporations are not at risks to any form of security breach.",
@@ -450,7 +454,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "accounting method list"
+        "accounting method list",
+        "method list"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -460,7 +465,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "How are updated profiles distributed to customer ISE deployments?",
@@ -553,12 +558,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Internet is an example of a network.",
@@ -1388,7 +1393,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "authentication"
+        "authentication",
+        "Network Access Control"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -1398,7 +1404,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Name three ways in which an endpoint profile can be used in an authorization policy rule?",
@@ -1508,12 +1514,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "RADIUS uses [1] for authentication and UDP/1813 for accounting as standard ports.",
@@ -1524,12 +1530,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "RFCs specify a new RADIUS upgrade known as [1] to RADIUS, or change of authorization as it is most frequently known (CoA)",
@@ -1537,7 +1543,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "Dynamic Authorization Extensions"
+        "Dynamic Authorization Extensions",
+        "RADIUS CoA"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -1547,7 +1554,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "SMTP and FTP are used to transfer information over a computer network.",
@@ -1663,66 +1670,69 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The [1] was created to authenticate and authorize iusers for mainframes, Unix terminals, and other consoles as part of the device administration AAA.",
-      "answer": "",
+      "answer": "TACACS",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "TACACS+"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The AAA client sends an [1] message to the AAA server, which includes time, packets, DHCP, and CDP information.",
-      "answer": "",
+      "answer": "Accounting-Request",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "accounting request"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The AAA server wants the AAA client to send the authorization request to a different user, as indicated by the [1] response.",
-      "answer": "",
+      "answer": "FOLLOW",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
         "RADIUS redirect"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T08:53:11Z",
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The communication between the [1] router and the AAA servers is secured by a pre-shared secret key.",
@@ -1730,7 +1740,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "NAS"
+        "NAS",
+        "Network Access Server"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -1740,7 +1751,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The following codes is an example of?TryMessageBox.Show(cdbl(txtTotalValue.text) + cdbl(txtTotalVAT.text))Catch ex as InvalidCastExceptionMessageBox.Show(\"Please supply 2 numbers as input\")Catch ex as ExceptionMessageBox.Show(\"An error has occurred. Please try again.\")End Try",
@@ -1780,12 +1791,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The placeholder and its value are paired together and referred to as [1].",
@@ -1793,7 +1804,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "attribute-value pairs"
+        "attribute-value pairs",
+        "key-value pair"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -1803,7 +1815,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "The property is the [1] placeholder, and the value is the actual allocated number for that placeholder.",
@@ -1811,7 +1823,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "variable name"
+        "variable name",
+        "key"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -1821,7 +1834,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "These are created with malicious intent and sent by attackers.",
@@ -2351,12 +2364,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "Using [1], you can define remote AAA servers for authentication, authorisation, and accounting.",
@@ -2367,12 +2380,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:53:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+      "lastVerifiedAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "very single application must go through the options and check whether each application is configured in the most secure state.",
@@ -2672,7 +2685,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "default option"
+        "default option",
+        "Default method list"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -2682,7 +2696,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "When the user authentication fails, [1]. The end user will be asked to try again if their log in is rejected.",
@@ -2690,7 +2704,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "access is denied"
+        "access is denied",
+        "authentication failure"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -2700,7 +2715,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "When the user authentication is successful, [1] so that the authorisation procedure can begin. if the AAA client is set up to authorize",
@@ -2708,7 +2723,8 @@
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
-        "the user's credentials are validated"
+        "the user's credentials are validated",
+        "AAA requests are sent"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -2718,7 +2734,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T08:53:11Z"
+      "lastEvidenceAt": "2026-10-27T09:02:08Z"
     },
     {
       "question": "When using RADIUS, what tells the AAA server which type of action is being authenticated?",
