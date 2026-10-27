@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-23T15:29:44Z",
-  "totalQuestions": 243,
+  "updatedAt": "2026-10-27T10:31:07Z",
+  "totalQuestions": 260,
   "tier": "verified",
   "questions": [
     {
@@ -458,6 +458,27 @@
       "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
+      "question": "A certified network expert is configuring a LAN with a redundant first hop to make better use of the available network resources. Which protocol should the engineer implement?",
+      "answer": "GLBP",
+      "choices": [
+        "a. VRRP",
+        "b. HSRP",
+        "c. FHRP",
+        "d. GLBP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "A Cisco enhancement of RSTP to provide a spanning tree instance for each vlan is called STP.",
       "answer": "False",
       "choices": [
@@ -827,10 +848,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:04:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:46:13Z"
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "A router is running an EIGRP process and obtaining updates from other routers. What is an indication within the routing table that a route is a candidate for a default route?",
@@ -950,9 +971,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-06T09:45:10Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1107,6 +1128,27 @@
       "lastVerifiedAt": "2026-10-05T14:01:32Z"
     },
     {
+      "question": "Among the listed below, what are the distinct functions of layer 2 switching that increase available bandwidth on the network? 1. Address learning 2. Routing 3. Forwarding and filtering 4. Creating network loops 5. Loop avoidance 6. IP addressing",
+      "answer": "1, 3 and 5",
+      "choices": [
+        "a. 2 and 6",
+        "b. 3 and 5",
+        "c. 2, 4 and 6",
+        "d. 1, 3 and 5"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "An ABR in a multiarea OSPF network receives LSAs from its neighbor that identify the neighbor as an ASBR with learned external networks from the Internet. Which LSA type would the ABR send to other areas to identify the ASBR, so that internal traffic that is destined for the Internet will be sent through the ASBR?",
       "answer": "LSA type 5",
       "choices": [
@@ -1245,6 +1287,48 @@
       "lastVerifiedAt": "2026-10-23T15:29:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "As discussed in chapter 1, the duplication of devices, services, or connections so that, in the event of a failure, the redundant devices, services , or connections can perform the work of those that failed.",
+      "answer": "Redundancy",
+      "choices": [
+        "a. Redundancy",
+        "b. Duplication",
+        "c. Bundle",
+        "d. Backup"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
+      "question": "As discussed in Chapter 2, what do you called a design methodology for building networks in three layers including access, distribution, and core.",
+      "answer": "hierarchical network",
+      "choices": [
+        "a. STP",
+        "b. Collapsed Core",
+        "c. hierarchical network",
+        "d. Etherchannel technology"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "As discussed in link state advertisement which two statements correctly describe OSPF type 3 LSAs? Type 3 LSAs are used to update routes between OSPF areas. Type 3 LSAs are known as router link entries​. Type 3 LSAs are used for routes to networks outside the OSPF autonomous system​. Type 3 LSAs are known as autonomous system external LSA entries.​ Type 3 LSAs are generated without requiring a full SPF calculation.​",
@@ -1430,6 +1514,27 @@
       "lastVerifiedAt": "2026-10-06T10:00:09Z"
     },
     {
+      "question": "As discussed in this chapter, which of the following listed below is a layer 2 protocol used to maintain a loop-free network and this refers to the IEEE 802.1D standard?",
+      "answer": "STP",
+      "choices": [
+        "a. VTP",
+        "b. CDP",
+        "c. RIP",
+        "d. STP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "As discussed in wireless LAN technologies and standards, what wireless LAN technology that is an IEEE 802.16 WWAN standard that provides wireless broadband access of up to 30mi (50km)?",
       "answer": "WIMAX",
       "choices": [
@@ -1474,6 +1579,48 @@
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:01:56Z"
+    },
+    {
+      "question": "As per our current module discussion, which non-proprietary protocol provides router redundancy for a group of routers which support IPv4 LANs?",
+      "answer": "VRRPv2",
+      "choices": [
+        "a. VRRPv2",
+        "b. HSRP",
+        "c. SLB",
+        "d. GLBP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
+      "question": "As shown in the exhibit below, which protocol information is being displayed in the output? [Image: [moodle-asset:6347381/q.png]]",
+      "answer": "GLBP",
+      "choices": [
+        "a. FHRP",
+        "b. GLBP",
+        "c. VRRP",
+        "d. HSRP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?",
@@ -1788,12 +1935,14 @@
         "b. 12 Gb/s, because of overhead requirements",
         "c. 24 Gb/s, by providing full bandwidth to each port",
         "b. 48 Gb/s, because of overhead requirements",
-        "d. 12 Gb/s, because of overhead requirements"
+        "d. 12 Gb/s, because of overhead requirements",
+        "a. 48 Gb/s, because of overhead requirements",
+        "d. 48 Gb/s, because this is the maximum forwarding rate on Cisco switches"
       ],
       "verified": true,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-06T09:44:39Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "wrongAnswers": [
         "48 Gb/s, because of overhead requirements"
@@ -1878,6 +2027,27 @@
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
+      "question": "If the network administrator of Genesis Mobile Telecommunications wanted to disable STP on a port connected to a server, which command would you use?",
+      "answer": "spanning-tree portfast",
+      "choices": [
+        "a. disable spanning-tree",
+        "b. spanning-tree off",
+        "c. spanning-tree security",
+        "d. spanning-tree portfast"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "If you are a network design engineer, which type of router would an enterprise use to allow customers to access content anytime and anyplace, regardless of whether they are at home or work?",
       "answer": "Network edge routers",
       "choices": [
@@ -1947,6 +2117,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Immediately after a router completes its boot sequence, the network administrator of Gilas Telecoms wants to check the routers configuration. From privileged EXEC mode, which of the following commands can the administrator use for this purpose?",
+      "answer": "show startup-config & show running-config",
+      "choices": [
+        "a. show startup-config & show running-config",
+        "b. show flash &show startup-config",
+        "c. show NVRAM &show running-config",
+        "d. show version &show running-config"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "In configuring OSPF authentication which two pieces of information are used by the OSPF MD5 algorithm to generate a signature?",
       "answer": "secret key & OSPF message",
       "choices": [
@@ -1964,6 +2155,27 @@
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
+      "question": "In Genesis Research Lab, a network administrator is reviewing a network design that uses a fixed configuration enterprise router that supports both LAN and WAN connections. However, the engineer realizes that the router does not have enough interfaces to support growth and network expansion. Which type of device should be used as a replacement?",
+      "answer": "a modular router",
+      "choices": [
+        "a. another fixed configuration router",
+        "b. a Layer 3 switch",
+        "c. a modular router",
+        "d. a PoE device"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "In implementation of OSPF network what command pertains to propagating a default route?",
@@ -2104,6 +2316,27 @@
       "isAiSuggestion": false
     },
     {
+      "question": "In managing cisco devices, which two requirements must always be met to use in-band management to configure a network device?",
+      "answer": "at least one network interface that is connected and operational & Telnet, SSH, or HTTP access to the device",
+      "choices": [
+        "a. at least one network interface that is connected and operational & Telnet, SSH, or HTTP access to the device",
+        "b. a terminal emulation client & a direct connection to the console port",
+        "c. a direct connection to the console port & at least one network interface that is connected and operational",
+        "d. a direct connection to the auxiliary port & Telnet, SSH, or HTTP access to the device"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "In network troubleshooting, which command can be issued on a router to verify that automatic summarization is enabled?",
       "answer": "show ip protocols",
       "choices": [
@@ -2116,14 +2349,16 @@
         "d. show ip protocols",
         "a. show ip protocols",
         "c. show ip eigrp neighbors",
-        "d. show ip interface brief"
+        "d. show ip interface brief",
+        "a. show ip interface brief",
+        "d. show ip eigrp interfaces"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:44:39Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2141,9 +2376,9 @@
         "d. show ip route"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-05T13:58:40Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2157,9 +2392,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-06T09:45:10Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2175,9 +2410,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:44:39Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2244,6 +2479,27 @@
       "firstSeenAt": "2026-10-04T15:32:08Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
+    },
+    {
+      "question": "In reference to our current topic which is LAN Redundancy, which 3 components are combined to form a bridge ID?",
+      "answer": "extended system ID, MAC address, bridge priority",
+      "choices": [
+        "a. extended system ID, MAC address, bridge priority",
+        "b. IP address, extended system ID, cost",
+        "c. MAC address, port ID, ip address",
+        "d. port ID, ip address, MAC address"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "In RMS University, the network admin is trying to add a new router into an established OSPF network. The network attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
@@ -2341,6 +2597,27 @@
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
+      "question": "In the Cisco Enterprise Architecture, which two functional parts of the network are combined to form a collapsed core design. This is usually implemented in a small to medium network setup?",
+      "answer": "core layer and distribution layer",
+      "choices": [
+        "a. access layer & enterprise edge",
+        "b. distribution layer & enterprise edge",
+        "c. core layer and distribution layer",
+        "d. provider edge & access layer"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "In the understanding of wireless LAN technologies what wireless LAN technology that operates in the range of a few feet (Bluetooth)?",
       "answer": "WPAN",
       "choices": [
@@ -2408,9 +2685,13 @@
       "firstSeenAt": "2026-09-22T08:09:58Z",
       "lastVerifiedAt": "2026-10-06T09:45:10Z",
       "source": "review_screen",
-      "wrongAnswers": [],
+      "wrongAnswers": [
+        "They are campus LAN switches that perform the same functions as Cisco 2960 switches."
+      ],
       "isAiSuggestion": false,
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "In troubleshooting EtherChannels as shown in the diagram below. An EtherChannel was configured between switches S1 and S2, but the interfaces do not form an EtherChannel. What is the problem? [Image: [moodle-asset:382057/q.png]]",
@@ -2635,6 +2916,27 @@
       "firstSeenAt": "2026-10-04T15:34:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:00:09Z"
+    },
+    {
+      "question": "In which situation would a network expert install a Cisco Nexus Series or Cisco Catalyst 6500 Series switch to promote infrastructure scalability?",
+      "answer": "on a data center network to provide expansion and transport flexibility",
+      "choices": [
+        "a. to enable virtual stacking of switches to provide cloud-managed access",
+        "b. on a campus LAN network as access layer switches",
+        "c. on a service provider network to promote integrated security, and simplified management",
+        "d. on a data center network to provide expansion and transport flexibility"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "In wireless LAN standards what wireless LAN technology that is an IEEE 802.15 WPAN standard; uses a device pairing process to communicate over distance up to .05 mile (100m)?",
@@ -2893,9 +3195,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-06T09:44:39Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3108,9 +3410,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-10-06T09:46:13Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4360,12 +4662,15 @@
         "d. Access and distribution layer",
         "a. Distribution and core layer",
         "b. Enterprise edge and access layer",
-        "d. Provider edge and access layer"
+        "d. Provider edge and access layer",
+        "a. Access and distribution layer",
+        "c. Provider edge and access layer",
+        "d. Enterprise edge and access layer"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-04T15:00:53Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -4790,12 +5095,13 @@
         "b. Routing protocol implementation",
         "c. Implementing etherChannel implementation",
         "b. Wireless connectivity implementation",
-        "d. Implementing etherChannel implementation"
+        "d. Implementing etherChannel implementation",
+        "c. Routing protocol implementation"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-10-06T09:45:10Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -4826,6 +5132,27 @@
       "lastVerifiedAt": "2026-10-06T09:47:35Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Which non-proprietary protocol among the listed below provides router redundancy for a group of routers which support IPv4 LANs?",
+      "answer": "VRRPv2",
+      "choices": [
+        "a. SLB",
+        "b. GLBP",
+        "c. VRRPv2",
+        "d. HSRP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
       "question": "Which of the following is a layer 2 protocol used to maintain a loop-free network?",
@@ -5133,6 +5460,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Which STP priority configuration would ensure that a switch would always be the root switch?",
+      "answer": "spanning-tree vlan 10 priority 0",
+      "choices": [
+        "a. spanning-tree vlan 10 priority 61440",
+        "b. spanning-tree vlan 10 root primary",
+        "c. spanning-tree vlan 10 priority 4096",
+        "d. spanning-tree vlan 10 priority 0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "Which three statements describe the routing protocol OSPF? It supports VLSM. It is used to route between autonomous systems. It confines network instability to one area of the network. It increases routing overhead on the network. It allows extensive control of routing updates It is simpler to configure than RIPv2.",
       "answer": "1, 3, 5",
       "choices": [
@@ -5355,6 +5703,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "You want to run the new 802.1w on your switches. Which of the following command syntax would enable this protocol?",
+      "answer": "Switch(config)# spanning-tree mode rapid-pvst",
+      "choices": [
+        "a. Switch# spanning-tree mode rapid-pvst",
+        "b. Switch(config)Switch(config)# spanning-tree mode 802.1w",
+        "c. Switch(config)# mode span rapid-pvst",
+        "d. Switch(config)# spanning-tree mode rapid-pvst"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:31:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
       "question": "You want to run the new 802.1w on your switches. Which of the following would enable this protocol?",
       "answer": "Switch(config)# spanning-tree mode rapid-pvst",
       "choices": [
@@ -5366,14 +5735,15 @@
         "b. Switch# spanning-tree mode 802.1w",
         "d. Switch# spanning-tree mode rapid-pvst",
         "b. Switch(config)# spanning-tree mode 802.1w",
-        "c. Switch(config)# spanning-tree mode rapid-pvst"
+        "c. Switch(config)# spanning-tree mode rapid-pvst",
+        "a. Switch(config)# spanning-tree mode 802.1w"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-10-06T09:46:13Z",
+      "lastVerifiedAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     }
