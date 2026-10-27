@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-26T17:09:31Z",
-  "totalQuestions": 108,
+  "updatedAt": "2026-10-27T11:24:34Z",
+  "totalQuestions": 136,
   "tier": "verified",
   "questions": [
     {
@@ -14,12 +14,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "[____] consists of raw facts, such as an employee number, total hours worked in a week, inventory part numbers, or sales orders.",
@@ -30,12 +30,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "[____] is a collection of facts organized and processed so that they have additional value beyond the value of the individual facts.",
@@ -46,12 +46,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "[____] is collected in order to create information and knowledge about particular subjects that interest any given organization in order for that organization to make better management decisions.",
@@ -62,12 +62,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "[____] is often called the lead time.",
@@ -86,6 +86,27 @@
       "lastVerifiedAt": "2026-10-18T12:37:31Z"
     },
     {
+      "question": "A device that receives and analyzes packets and then routes them towards their destination.",
+      "answer": "Router",
+      "choices": [
+        "a. Switch",
+        "b. Bridge",
+        "c. Router",
+        "d. Hub"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "A network allows you to share internet connections, data and resources within your business, improving both efficiency and speed of working.",
       "answer": "True",
       "choices": [
@@ -97,12 +118,28 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "A network device that connects two networks together and only allows packets through that are needed.",
+      "answer": "Bridge",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "A strategic information system is not developed to respond to the corporate world and many business initiatives.",
@@ -258,12 +295,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "As humans tend to follow a life script, an individual's reaction to certain rules of conduct is always intentional.",
@@ -314,6 +351,25 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Assumptions and constraints should also be documented.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "Believing in human life implies on the belief that life has a purpose and this applies to everyone, whether one believes in a superior deity or an atheist.",
       "answer": "True",
       "choices": [
@@ -328,6 +384,44 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "BI also helps to improve the visibility of these processes and make it possible to identify any areas which need attention.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "BI system helps them to get fresh insights to develop unique business strategies.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "CMR is a software allows for more efficient communication with your prospects and clients.",
@@ -470,6 +564,25 @@
       "lastVerifiedAt": "2026-10-26T12:07:47Z"
     },
     {
+      "question": "Deliverable then need to be documented along with the project scope.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "Determinative Laws fixes ways of acting in accordance with natural law.",
       "answer": "True",
       "choices": [
@@ -552,7 +665,7 @@
       "lastVerifiedAt": "2026-10-26T17:06:25Z"
     },
     {
-      "question": "E-business and e-commerce applications involve interconnected business information systems under applications.",
+      "question": "DNS which acts as the directory on the Internet.",
       "answer": "True",
       "choices": [
         "a. True",
@@ -564,11 +677,51 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "During this phase of SDLC, the security architecture is designed.",
+      "answer": "Design",
+      "choices": [
+        "a. Planning",
+        "b. Analysis",
+        "c. Design",
+        "d. Develop"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "E-business and e-commerce applications involve interconnected business information systems under applications.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "E-mail Fraud",
@@ -609,6 +762,27 @@
       "lastEvidenceAt": "2026-10-26T11:59:33Z"
     },
     {
+      "question": "First developed by Tim Berners-Lee in 1990.",
+      "answer": "HTML",
+      "choices": [
+        "a. SMTP",
+        "b. SCM",
+        "c. HTML",
+        "d. HTTP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "Gaining a strategic advantage over competitors requires the innovative application of information technologies.",
       "answer": "Support of Strategies for Competitive Advantage",
       "choices": [
@@ -621,12 +795,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Human Nature can result to a bias environment that AIs might learn from.",
@@ -713,12 +887,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Impartial moral rules are ideally designed to apply equitably to all participants in the system.",
@@ -806,19 +980,22 @@
         "a. Deliver",
         "b. Make",
         "c. Develop",
-        "d. Plan"
+        "d. Plan",
+        "b. Plan",
+        "c. Make",
+        "d. Develop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "In this stage, the planning should mainly focus on designing a strategy that yields maximum profit.",
@@ -827,19 +1004,21 @@
         "a. Make",
         "b. Deliver",
         "c. Plan",
-        "d. Develop"
+        "d. Develop",
+        "a. Plan",
+        "c. Make"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "In this stage, the products are designed, produced, tested, packaged, and synchronized for delivery.",
@@ -848,19 +1027,23 @@
         "a. Plan",
         "b. Make",
         "c. Deliver",
-        "d. Develop"
+        "d. Develop",
+        "a. Make",
+        "b. Deliver",
+        "c. Develop",
+        "d. Plan"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Individuals whose data are mined cannot be identified with or linked to certain newly created groups.",
@@ -891,12 +1074,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Information Systems are used by tactical managers to monitor the organization's current performance status.",
@@ -1096,6 +1279,85 @@
       "questionType": "shortanswer"
     },
     {
+      "question": "It is a program that connects users to the Internet or network to send text messages.",
+      "answer": "Instant Messenger",
+      "choices": [
+        "a. Blog",
+        "b. Podcast",
+        "c. Wiki",
+        "d. Instant Messenger"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "It is a set of processes, architectures, and technologies that convert raw data into meaningful information that drives profitable business actions.",
+      "answer": "Business Intelligence",
+      "choices": [
+        "a. Business Intelligence",
+        "b. Artificial Intelligence",
+        "c. Management System",
+        "d. Analysis System"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "It is a suite of software and services to transform data into actionable intelligence and knowledge.",
+      "answer": "Business Intelligence",
+      "choices": [
+        "a. Management System",
+        "b. Analysis System",
+        "c. Business Intelligence",
+        "d. Artificial Intelligence"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "It is a technology that takes an Internet signal and converts it into radio waves.",
+      "answer": "Wi-Fi",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "It is an invasion of privacy by wrongful entry, seizing, or acquiring possession of the property of others",
       "answer": "intrusion",
       "choices": [],
@@ -1115,11 +1377,32 @@
         "a. e-business",
         "b. online transaction",
         "c. e- transaction",
-        "d. online system"
+        "d. online system",
+        "a. online system",
+        "c. e-business",
+        "d. e- transaction"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-18T12:37:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "It is data about the performance of a system, it is the [____] .",
+      "answer": "Feedback",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Performance"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -1127,7 +1410,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastEvidenceAt": "2026-10-18T12:37:31Z",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "It is the application of data mining techniques to discover patterns from the Web",
@@ -1227,6 +1511,27 @@
       "lastVerifiedAt": "2026-10-18T12:37:31Z"
     },
     {
+      "question": "It is the unique address of a network.",
+      "answer": "IP address",
+      "choices": [
+        "a. Serial Number",
+        "b. Subnet Mask",
+        "c. IP address",
+        "d. MAC address"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "It is threatening behavior or unwanted advances directed at an adult using the Internet or other forms of online and electronic communications",
       "answer": "Cyberstalking",
       "choices": [
@@ -1273,6 +1578,22 @@
       "lastVerifiedAt": "2026-10-18T12:37:31Z"
     },
     {
+      "question": "It refers the knowledge from the Knowledge Base",
+      "answer": "Inference Engine",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "It refers to any business conducted online using the internet and related digital technologies called [____] .",
       "answer": "e-business",
       "choices": [],
@@ -1300,6 +1621,25 @@
       "lastVerifiedAt": "2026-10-26T17:09:18Z",
       "source": "review_screen",
       "questionType": "shortanswer"
+    },
+    {
+      "question": "Knowledge management systems refer to any kind of IT system that stores and retrieves knowledge, improves collaboration, locates knowledge sources, mines repositories for hidden knowledge, captures and uses knowledge, or in some other way enhances the KM process.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Legal acts conform to what an individual believes to be the right thing to do.",
@@ -1348,12 +1688,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Match the following words to the given choices",
@@ -1476,12 +1816,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "One of the contributing factors in the cause of violations is when consumers lack the ethics of how what they consider a little bit of information can turn into a big invasion of privacy",
@@ -1548,12 +1888,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "Propetary technology is any combination of processes, tools, or systems of interrelated connections that are the property of a business or individual.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "reckless alteration",
@@ -1680,6 +2039,25 @@
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-26T11:54:12Z",
       "lastVerifiedAt": "2026-10-26T17:06:25Z"
+    },
+    {
+      "question": "RSS stands for \"Really Simple Syndication\".",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Secret-key Encryption",
@@ -1832,12 +2210,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "Tactical users are the decisions that partly based on set guidelines and judgmental calls.",
@@ -1886,12 +2264,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T12:37:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "The [____] level is concerned with performing day to day business transactions of the organization.",
@@ -1926,6 +2304,46 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The data analyst is a statistician who always needs to drill deep down into data.",
+      "answer": "The Professional Data Analyst",
+      "choices": [
+        "a. The head of the company",
+        "b. The Business User",
+        "c. The Professional Data Analyst",
+        "d. The IT Users"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "The data is time-variant this means that whenever data is loaded into the data warehouse, it receives a time stamp, which allows for comparisons between different time periods.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "The data that the AI technology is using to train and learn mostly coveres all the aspect of human behavior",
       "answer": "False",
       "choices": [
@@ -1940,6 +2358,25 @@
       "lastVerifiedAt": "2026-10-26T17:09:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "The design phase is concerned with the physical construction of the system. Included are the design or configuration of the network ,design of user interfaces,design of system interfaces and security issues.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "The human errors in coding can be sometimes referred to as [____: bugs]",
@@ -2000,6 +2437,63 @@
       "lastVerifiedAt": "2026-10-26T17:09:18Z"
     },
     {
+      "question": "The spiral life cycle is shown as a spiral model that begins with the planning phase first from the center (inward) of the spiral, eventually working its way outward, over and over again, until completion of the project.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "The system analysis phase focuses on what the system will do in an effort that views all stakeholders, as viable sources of information.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "The term betadata can be understood as “data about data.”",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "The two kinds of rules of conduct; Directives which involves the macroethical level and Social policies that involves the microethical level.",
       "answer": "False",
       "choices": [
@@ -2049,7 +2543,30 @@
         "a. Impact printers",
         "b. Laser printers",
         "c. 3-in-1 Printer",
-        "d. Inkjet printers"
+        "d. Inkjet printers",
+        "a. Laser printers",
+        "b. Impact printers"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-18T12:37:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "These are usually small text files, given ID tags that are stored on your computer's browser directory or program data subfolders.",
+      "answer": "Cookies",
+      "choices": [
+        "a. Source",
+        "b. Bravo",
+        "c. Cookies",
+        "d. HTTP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2057,11 +2574,11 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-18T12:37:31Z",
+      "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
     },
     {
       "question": "This stage is basically the logistics phase, where customer orders are accepted and delivery of the goods is planned.",
@@ -2266,6 +2783,41 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Wi-fi is an important wireless technology that has enabled many functionalities that are used every day.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
+      "question": "Wi-Fi is stands for [____] .",
+      "answer": "Wireless Fidelity",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+    },
+    {
       "question": "Witness Protection",
       "answer": "Pseudo identity",
       "choices": [
@@ -2322,7 +2874,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-18T12:37:31Z"
+      "lastVerifiedAt": "2026-10-18T12:37:31Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-27T11:24:34Z"
+        }
+      ]
     }
   ]
 }
