@@ -139,7 +139,7 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 | `IT6205A` | Information Assurance and Security 1 | **126** | Active |
 | `IT6206` | Information Assurance and Security 2 | **150** | Active |
 | `IT6208` | System Integration and Architecture 1 | **116** | Active |
-| `IT6209` | Introduction to Multimedia | **173** | Active |
+| `IT6209` | Introduction to Multimedia | **181** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **247** | Active |
 | `IT6310` | Network Security | **179** | Active |
 | `IT6314` | IT6314 | **239** | Active |
