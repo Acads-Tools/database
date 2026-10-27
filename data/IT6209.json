@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6209",
   "subjectName": "Introduction to Multimedia",
-  "updatedAt": "2026-10-27T09:23:00Z",
-  "totalQuestions": 231,
+  "updatedAt": "2026-10-27T09:24:11Z",
+  "totalQuestions": 263,
   "questions": [
     {
       "question": "\"Stop motion\" is a kind of animation",
@@ -60,19 +60,23 @@
         "a. Heal",
         "b. Smudge",
         "c. Convolve",
-        "d. Dodge"
+        "d. Dodge",
+        "a. Convolve",
+        "b. Heal",
+        "c. Dodge",
+        "d. Smudge"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "A classified bit file format that is used for simple animations on web.",
@@ -81,19 +85,23 @@
         "a. GIF",
         "b. Flash",
         "c. MPEG",
-        "d. JPEG"
+        "d. JPEG",
+        "a. MPEG",
+        "b. JPEG",
+        "c. GIF",
+        "d. Flash"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "A collection of characters of a single size and style belonging to a particular typeface family- Arial Black and Arial Narrow.",
@@ -118,6 +126,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T09:17:57Z"
+    },
+    {
+      "question": "A distinctive sign which is used to distinguish the products or services of one business from others and often closely linked to brands.",
+      "answer": "Trademark",
+      "choices": [
+        "a. Branding",
+        "b. Patent",
+        "c. Trademark",
+        "d. Copyright"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "A family of graphic characters that usually includes many type sizes and styles is called a:",
@@ -160,6 +189,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T09:17:57Z"
+    },
+    {
+      "question": "A file format for Adobe Photoshop.",
+      "answer": "PSD",
+      "choices": [
+        "a. APD",
+        "b. PSD",
+        "c. EPS",
+        "d. CAD"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "A font is a collection of characters of a single size and style belonging to a particular type face family.",
@@ -364,19 +414,44 @@
         "a. Conclove",
         "b. Clone Tool",
         "c. Heal Tool",
-        "d. Smudge"
+        "d. Smudge",
+        "b. Smudge",
+        "d. Clone Tool"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "A transform tool which changes the perspective layers, selection or path in GIMP",
+      "answer": "",
+      "choices": [
+        "a. [Image: [moodle-asset:421939/C.png]]",
+        "b. [Image: [moodle-asset:421942/w3.png]]",
+        "c. [Image: [moodle-asset:421940/w1.png]]",
+        "d. [Image: [moodle-asset:421941/w2.png]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "[Image: [moodle-asset:421941/w2.png]]"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "A Type face is a family of graphic characters that usually includes many type sizes and styles",
@@ -504,6 +579,27 @@
       "firstSeenAt": "2026-10-04T11:07:04Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T11:07:04Z"
+    },
+    {
+      "question": "Among the following choices, which refers to showcasing a talent or past work on an individual into a medium?",
+      "answer": "portfolio",
+      "choices": [
+        "a. modules",
+        "b. website",
+        "c. blog",
+        "d. portfolio"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "An action that requires calculating the number of frames between keyframes and the path the action takes, and then actually sketching with pencil the series of progressively different outlines.",
@@ -825,6 +921,27 @@
       "lastVerifiedAt": "2026-10-27T09:18:42Z"
     },
     {
+      "question": "Classified as intangible need in multimedia which strategize the details of overall timeline, skills, budget the necessary hardware and software to be used and even the resources for the project.",
+      "answer": "Organization",
+      "choices": [
+        "a. Communication",
+        "b. Organization",
+        "c. Budgeting",
+        "d. Costing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
       "question": "Classified in phonological writing wherein it is the most recently invented writing system and commonly used as of today.",
       "answer": "Alphabets",
       "choices": [
@@ -1024,6 +1141,27 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "DVD is an abbreviation of?",
+      "answer": "Digital Versatile Disc",
+      "choices": [
+        "a. Digital Vector Disc",
+        "b. Digital Versatile Disc",
+        "c. Digital Video Disc",
+        "d. Decompressed Versatile Disc"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Flipbook is one of the earliest predecessor to the animation we know today",
@@ -1562,19 +1700,21 @@
         "a. Linear",
         "b. Non Linear",
         "c. Progression",
-        "d. Computer based Training"
+        "d. Computer based Training",
+        "c. Computer based Training",
+        "d. Progression"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "It is an animation software created by Patrick Corrier.",
@@ -1583,19 +1723,22 @@
         "a. Flash",
         "b. Corel Draw",
         "c. Photoshop",
-        "d. Pencil 2D"
+        "d. Pencil 2D",
+        "a. Pencil 2D",
+        "c. Flash",
+        "d. Photoshop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "It is important to determine the audience, budget and the appropriate market when considering the concept development.",
@@ -1703,11 +1846,41 @@
         "a. Height",
         "b. Mean line",
         "c. Baseline",
-        "d. Cap height"
+        "d. Cap height",
+        "a. Baseline",
+        "c. Cap height",
+        "d. Height"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-27T09:23:00Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "It is the hard edge painting tool in GIMP",
+      "answer": "[Image: [moodle-asset:421913/C.png]]",
+      "choices": [
+        "a. [Image: [moodle-asset:421912/w2.png]]",
+        "b. [Image: [moodle-asset:421911/w1.png]]",
+        "c. [Image: [moodle-asset:421914/w3.png]]",
+        "d. [Image: [moodle-asset:421913/C.png]]",
+        "a. [Image: [moodle-asset:421911/w1.png]]",
+        "b. [Image: [moodle-asset:421914/w3.png]]",
+        "c. [Image: [moodle-asset:421913/C.png]]",
+        "d. [Image: [moodle-asset:421912/w2.png]]"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "[Image: [moodle-asset:421914/w3.png]]"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -1715,30 +1888,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
-    },
-    {
-      "question": "It is the hard edge painting tool in GIMP",
-      "answer": "",
-      "choices": [
-        "a. [Image: [moodle-asset:421912/w2.png]]",
-        "b. [Image: [moodle-asset:421911/w1.png]]",
-        "c. [Image: [moodle-asset:421914/w3.png]]",
-        "d. [Image: [moodle-asset:421913/C.png]]"
-      ],
-      "questionType": "multichoice",
-      "wrongAnswers": [
-        "[Image: [moodle-asset:421914/w3.png]]"
-      ],
-      "wrongAnswerEvidence": true,
-      "verified": false,
-      "isAiSuggestion": false,
-      "confirmations": 1,
-      "firstSeenAt": "2026-10-27T09:23:00Z",
-      "source": "review_screen",
-      "originType": "quiz",
-      "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-27T09:23:00Z"
+      "lastEvidenceAt": "2026-10-27T09:23:00Z",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "It is the process of making the illusion of motion and change by means of rapid display of successive drawings or images in sequence.",
@@ -1757,6 +1908,69 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "It is used for calligraphy style painting in GIMP",
+      "answer": "Ink",
+      "choices": [
+        "a. Airbrush",
+        "b. Pencil",
+        "c. Ink",
+        "d. Paintbrush"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "It refers to the height of a capital letter above the baseline.",
+      "answer": "Cap Height",
+      "choices": [
+        "a. Cap Height",
+        "b. Lower Case",
+        "c. Ascender",
+        "d. Caps Lock"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "It refers to the portion of a letter that extends below the baseline of a font.",
+      "answer": "Descenders",
+      "choices": [
+        "a. Cap Height",
+        "b. Descenders",
+        "c. Ascender",
+        "d. Mean Line"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "It specifies the intensity of the hue.",
@@ -1854,19 +2068,22 @@
         "a. Liquid Crystal Display",
         "b. Liquid Cathode Display",
         "c. Laser Crystal Display",
-        "d. Laser Cathode Display"
+        "d. Laser Cathode Display",
+        "b. Laser Crystal Display",
+        "c. Laser Cathode Display",
+        "d. Liquid Cathode Display"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Light plays an important role in displaying colors on the screen.",
@@ -2563,6 +2780,27 @@
       "isAiSuggestion": false
     },
     {
+      "question": "RGB, HSB, CYMK area ________ for multimedia elements.",
+      "answer": "Color Specification Format",
+      "choices": [
+        "a. Color Specification Format",
+        "b. Font Style Specification Format",
+        "c. Rendering Specification Format",
+        "d. File Format System"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
       "question": "Sound can add appeal in multimedia",
       "answer": "True",
       "choices": [
@@ -3033,19 +3271,23 @@
         "a. Non Linear",
         "b. Computer based Training",
         "c. Progression",
-        "d. Linear"
+        "d. Linear",
+        "a. Computer based Training",
+        "b. Linear",
+        "c. Non Linear",
+        "d. Progression"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "These are often represented in the form of still picture, painting or a photograph.",
@@ -3090,6 +3332,48 @@
       "lastVerifiedAt": "2026-10-23T15:36:45Z"
     },
     {
+      "question": "These are tools that allow users to interact with the computer. Usually they are being installed in the computers.",
+      "answer": "Software",
+      "choices": [
+        "a. Software",
+        "b. Hardware",
+        "c. Money",
+        "d. Professionals"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "This elements usually depicted to add emotions or feelings on a film or any presentation?",
+      "answer": "Audio",
+      "choices": [
+        "a. Animation",
+        "b. Text",
+        "c. Speech",
+        "d. Audio"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
       "question": "This ensures that the multimedia project is unique and consistently different from other works.",
       "answer": "Creativity",
       "choices": [
@@ -3111,13 +3395,13 @@
       "lastVerifiedAt": "2026-10-27T09:23:00Z"
     },
     {
-      "question": "This refers to the audio recording with the method of replicating the original sound waves.",
-      "answer": "Analog",
+      "question": "This is a set of clearly defined methods of communication between various software components.",
+      "answer": "API",
       "choices": [
-        "a. Transmission",
-        "b. Digital Audio",
-        "c. Analog",
-        "d. Analog and Digital Audio"
+        "a. DAW",
+        "b. MIT",
+        "c. API",
+        "d. GUI"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -3125,11 +3409,78 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "This is the option dialog in GIMP where we can change the font, color and size of the text interactively.",
+      "answer": "Text Option Dialog",
+      "choices": [
+        "a. Text Tool",
+        "b. Text Option Dialog",
+        "c. Text Layer Dialog",
+        "d. Layering Panel"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "This is where the data or information for streaming is located.",
+      "answer": "Server",
+      "choices": [
+        "a. Protocol",
+        "b. HTML",
+        "c. Server",
+        "d. IP Address"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "This refers to the audio recording with the method of replicating the original sound waves.",
+      "answer": "Analog",
+      "choices": [
+        "a. Transmission",
+        "b. Digital Audio",
+        "c. Analog",
+        "d. Analog and Digital Audio",
+        "a. Analog",
+        "b. Analog and Digital Audio",
+        "c. Transmission",
+        "d. Digital Audio"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "This tool selects a contagious region on the basis of the color.",
@@ -3223,6 +3574,27 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Under selection tools in GIMP, this tool it selects all instances of a colour in an image.",
+      "answer": "By Colour",
+      "choices": [
+        "a. Free Select Tool",
+        "b. By Colour",
+        "c. Rectangle Select Tool",
+        "d. Magic Wand"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
       "question": "Underline, boldface, and italics are examples of font styles.",
       "answer": "a. True",
       "choices": [
@@ -3277,6 +3649,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-27T09:23:00Z"
+    },
+    {
+      "question": "Usually it is the particular family design of letters or numbers.",
+      "answer": "Typefaces",
+      "choices": [
+        "a. Arial",
+        "b. Typefaces",
+        "c. Serif",
+        "d. Point"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Vector images are examples of Still images.",
@@ -3441,19 +3834,22 @@
         "a. MPEG",
         "b. Windows",
         "c. PDA",
-        "d. PDF"
+        "d. PDF",
+        "a. PDA",
+        "b. MPEG",
+        "c. Windows"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "What do you call the animation technique to make a physically manipulated object appear to move on its own?",
@@ -3502,19 +3898,22 @@
         "a. CelAnimation",
         "b. Thaumatrope",
         "c. Cartoons",
-        "d. Stop Motion"
+        "d. Stop Motion",
+        "b. Cartoons",
+        "c. Stop Motion",
+        "d. Thaumatrope"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "What does MPEG stands for?",
@@ -3536,6 +3935,48 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T09:23:00Z"
+    },
+    {
+      "question": "What does Sony introduced during Japanese computer show in 1984?",
+      "answer": "CD-ROM",
+      "choices": [
+        "a. Flash Drive",
+        "b. DVD",
+        "c. CD-ROM",
+        "d. Floppy Disc"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "What does this tool ( [Image: [moodle-asset:6352339/47.png]] ) is used for in GIMP?",
+      "answer": "Remove the edges on the area from the image",
+      "choices": [
+        "a. Selects a rectangular region",
+        "b. It is not available in GIMP",
+        "c. Create path to select shapes",
+        "d. Remove the edges on the area from the image"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "What does Thomas Edison invetented from the following?",
@@ -3565,19 +4006,23 @@
         "a. Tagged-Imagery File Format",
         "b. Typical-Image File Format",
         "c. Transitioned-Image File Format",
-        "d. Tagged-Image File Format"
+        "d. Tagged-Image File Format",
+        "a. Typical-Image File Format",
+        "b. Tagged-Imagery File Format",
+        "c. Tagged-Image File Format",
+        "d. Transitioned-Image File Format"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "What format has been approved as an international standard for digital video in 1991?",
@@ -3620,6 +4065,48 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T09:23:00Z"
+    },
+    {
+      "question": "What is a Pixel?",
+      "answer": "Smallest dot element in bitmap",
+      "choices": [
+        "a. An image editing program",
+        "b. An Atom on the monitor screen",
+        "c. Smallest dot element in bitmap",
+        "d. A file format system"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "What is a rendering in terms of multimedia?",
+      "answer": "The process of finalizing a compilation of video edits, audio clips, animation and effects into one video file to watch and listen",
+      "choices": [
+        "a. The process of finalizing a compilation of video edits, audio clips, animation and effects into one video file to watch and listen",
+        "b. A method of transmitting or receiving data those are broken into packets over a computer to allow playback while receiving the other part of the data.",
+        "c. These are the short video which was originally part of the longer recording or the original videog",
+        "d. The process of video editing where special effects are used to show the next clip or shots"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "What is multimedia?",
@@ -3949,13 +4436,13 @@
       "lastVerifiedAt": "2026-10-06T09:43:06Z"
     },
     {
-      "question": "Which among the following sentences describes the Ideogran?",
-      "answer": "It is simply a graphic symbol that represents an idea or concept, independent of any particular language and specific words or phrases",
+      "question": "Which among the following is NOT a layer property in GIMP",
+      "answer": "Size",
       "choices": [
-        "a. It is simply a graphic symbol that represents an idea or concept, independent of any particular language and specific words or phrases",
-        "b. These are often represented in the form of still picture, painting or a photograph.",
-        "c. Characters seen on computers",
-        "d. Classified in phonological writing wherein it is the most recently invented writing system and commonly used as of today."
+        "a. Name",
+        "b. Mode",
+        "c. Opacity",
+        "d. Size"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -3963,11 +4450,75 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "Which among the following is not classified as images?These are often represented in the form of still picture, painting or a photograph.",
+      "answer": "Video Clipping",
+      "choices": [
+        "a. Video Clipping",
+        "b. Painting",
+        "c. Photograph",
+        "d. Still picture"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "Which among the following is not considered as a video steaming site/media?",
+      "answer": "Spinnr d. Netflix",
+      "choices": [
+        "a. Youtube",
+        "b. Spinnr d. Netflix",
+        "c. Crunchyroll"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "Which among the following sentences describes the Ideogran?",
+      "answer": "It is simply a graphic symbol that represents an idea or concept, independent of any particular language and specific words or phrases",
+      "choices": [
+        "a. It is simply a graphic symbol that represents an idea or concept, independent of any particular language and specific words or phrases",
+        "b. These are often represented in the form of still picture, painting or a photograph.",
+        "c. Characters seen on computers",
+        "d. Classified in phonological writing wherein it is the most recently invented writing system and commonly used as of today.",
+        "a. These are often represented in the form of still picture, painting or a photograph.",
+        "b. It is simply a graphic symbol that represents an idea or concept, independent of any particular language and specific words or phrases"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Which among the given choices doesn't belong in GIMP's Toolbox?",
@@ -3991,6 +4542,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T09:17:57Z"
+    },
+    {
+      "question": "Which among the given choices is a multimedia application?",
+      "answer": "Journalism",
+      "choices": [
+        "a. Delivery",
+        "b. Planning",
+        "c. Journalism",
+        "d. Text"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Which among the given choices is a raster and vector graphics editor for Microsoft Windows.",
@@ -4018,6 +4590,27 @@
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-27T09:13:22Z",
       "lastVerifiedAt": "2026-10-27T09:17:57Z"
+    },
+    {
+      "question": "Which among the given file extension is the image file format of GIMP image-editing program?",
+      "answer": ".xct",
+      "choices": [
+        "a. .xct",
+        "b. .psd",
+        "c. .gimp",
+        "d. .jpeg"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Which among the given names created and started the Pencil-2D software?",
@@ -4100,6 +4693,48 @@
       "lastVerifiedAt": "2026-10-27T09:23:00Z"
     },
     {
+      "question": "Which among the sentences below is true?",
+      "answer": "Audacity is an open-source sound editing and recording sound software.",
+      "choices": [
+        "a. Audacity is Published for Mac Os and Linux only",
+        "b. Audacity is a licensed software for sound-editing and recording",
+        "c. Audacity is created by Microsoft Corporation",
+        "d. Audacity is an open-source sound editing and recording sound software."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "Which among the tool set does this tool belongs to?",
+      "answer": "Selection Tool",
+      "choices": [
+        "a. Transform Tool",
+        "b. Brush Tools",
+        "c. Text Editor Tool",
+        "d. Selection Tool"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
       "question": "Which of the following defines Vector in multimedia?",
       "answer": "These are graphics usually uses lines, polylines and polygons to represent images in computer graphics",
       "choices": [
@@ -4142,6 +4777,27 @@
       "lastVerifiedAt": "2026-10-27T09:23:00Z"
     },
     {
+      "question": "Which of the following is not a browser?",
+      "answer": "Spotify",
+      "choices": [
+        "a. Safari",
+        "b. Spotify",
+        "c. Chrome",
+        "d. Mozilla"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
       "question": "Which of the following is not a color specification format?",
       "answer": "ROYGBIV",
       "choices": [
@@ -4172,7 +4828,31 @@
         "a. MP4",
         "b. AVI",
         "c. JPEG",
-        "d. MOV"
+        "d. MOV",
+        "a. AVI",
+        "b. JPEG",
+        "c. MP4"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-27T09:23:00Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "Which of the following is not true about Video?",
+      "answer": "None of the above",
+      "choices": [
+        "a. Videos are are useful for gaining information",
+        "b. Videos display a moving visual media",
+        "c. None of the above",
+        "d. Videos are often used to record an evidence of a crime"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -4180,11 +4860,11 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-27T09:23:00Z",
+      "firstSeenAt": "2026-10-27T09:24:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Which of the following is not under Transform Tool in GIMP?",
@@ -4256,19 +4936,23 @@
         "a. [Image: [moodle-asset:421845/w2.png]]",
         "b. [Image: [moodle-asset:421846/w3.png]]",
         "c. [Image: [moodle-asset:421844/C.png]]",
-        "d. [Image: [moodle-asset:421843/w1.png]]"
+        "d. [Image: [moodle-asset:421843/w1.png]]",
+        "a. [Image: [moodle-asset:421846/w3.png]]",
+        "b. [Image: [moodle-asset:421844/C.png]]",
+        "c. [Image: [moodle-asset:421843/w1.png]]",
+        "d. [Image: [moodle-asset:421845/w2.png]]"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Which of the following sentences is TRUE?",
@@ -4305,12 +4989,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:23:00Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Which of to following statement is not true about GIMP?",
@@ -4332,6 +5016,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T09:23:00Z"
+    },
+    {
+      "question": "Who among the given choices usually responsible for handling and ensuring that project meet the requirements .",
+      "answer": "Tester",
+      "choices": [
+        "a. Programmer",
+        "b. Project Manager",
+        "c. Tester",
+        "d. Designer"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:24:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Who among the given choices usually responsible for handling the overall content and determines the design elements required in for its structure.",
@@ -4363,7 +5068,32 @@
         "a. Microsoft Corporation",
         "b. IBM",
         "c. AppleInc",
-        "d. Adobe"
+        "d. Adobe",
+        "a. IBM",
+        "b. AppleInc",
+        "c. Adobe",
+        "d. Microsoft Corporation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-27T09:23:00Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
+    },
+    {
+      "question": "Who initiated the Xandu Project and coined the term hypertext?",
+      "answer": "Ted Nelson",
+      "choices": [
+        "a. Vannevar Bush",
+        "b. Ted Nelson",
+        "c. Steve Jobs",
+        "d. Nicholas Negroponte"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -4371,11 +5101,11 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-27T09:23:00Z",
+      "firstSeenAt": "2026-10-27T09:24:11Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:23:00Z"
+      "lastVerifiedAt": "2026-10-27T09:24:11Z"
     },
     {
       "question": "Who invented the motion picture camera?",
