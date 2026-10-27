@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-26T17:17:40Z",
-  "totalQuestions": 166,
+  "updatedAt": "2026-10-27T10:41:46Z",
+  "totalQuestions": 167,
   "tier": "verified",
   "questions": [
     {
@@ -740,13 +740,20 @@
       "question": "It a server that is used to access the corporate resources from outside the corporate network.",
       "answer": "Remote Access Server",
       "choices": [
-        "Remote Access Server"
+        "Remote Access Server",
+        "a. Remote Access Server",
+        "b. DNS Server",
+        "c. DHCP Server",
+        "d. None of the Choices"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It allows the administrators to identify which software is allowed to run and was initially added to Windows XP and Windows Server 2003.",
@@ -771,13 +778,20 @@
       "question": "It allows you to control which role functionality is installed and enabled.",
       "answer": "Role Services",
       "choices": [
-        "Role Services"
+        "Role Services",
+        "a. Server Features",
+        "b. Role",
+        "c. None of the choices",
+        "d. Role Services"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It caches content from remote and web servers in the branch location so users can quickly access the content. This cache can be hosted centrally in the branch location or distributed across user PCs.",
@@ -941,9 +955,9 @@
         "d. Metropolitan Area Network"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -953,13 +967,20 @@
       "question": "It holds a copy of AD DS and responds to request for active directory information.",
       "answer": "Domain Controller",
       "choices": [
-        "Domain Controller"
+        "Domain Controller",
+        "a. File Server",
+        "b. Application Server",
+        "c. Domain Controller",
+        "d. Web Server"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a central location for viewing messages about your system and the starting point for diagnosing and solving issues with your system.",
@@ -1019,13 +1040,20 @@
       "question": "It is a computer that is dedicated to running network-aware application software.",
       "answer": "Application Server",
       "choices": [
-        "Application Server"
+        "Application Server",
+        "a. Web Server",
+        "b. Domain Controller",
+        "c. Application Server",
+        "d. File Server"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a device on a TCP/IP internet that forwards packets to other subnet",
@@ -1061,9 +1089,9 @@
         "b. Router"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1083,9 +1111,9 @@
         "c. Switch"
       ],
       "verified": true,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1127,9 +1155,9 @@
         "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1206,12 +1234,14 @@
         "c. Internet",
         "d. Cloud",
         "b. Cloud",
-        "c. Intranet"
+        "c. Intranet",
+        "a. Internet",
+        "d. Extranet"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1404,12 +1434,14 @@
         "c. Scanstate",
         "d. Sysprep",
         "b. Scanstate",
-        "c. Loadstate"
+        "c. Loadstate",
+        "c. Sysprep",
+        "d. Loadstate"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1626,12 +1658,15 @@
         "d. Typically, requires replacing existing computer hardware",
         "a. None of the choices",
         "c. Typically, requires replacing existing computer hardware",
-        "d. Does not require the reinstallation of applications"
+        "d. Does not require the reinstallation of applications",
+        "a. Typically, requires more storage space",
+        "b. Does not require the reinstallation of applications",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1679,12 +1714,15 @@
         "d. Reliability and Performance",
         "a. Reliability and Performance",
         "c. Deployment",
-        "d. Security"
+        "d. Security",
+        "a. Usability",
+        "b. Deployment",
+        "c. Reliability and Performance"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1704,12 +1742,13 @@
         "d. Deployment",
         "b. Deployment",
         "c. Usability",
-        "d. Reliability and Performance"
+        "d. Reliability and Performance",
+        "d. Usability"
       ],
       "verified": true,
-      "confirmations": 10,
+      "confirmations": 11,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1726,12 +1765,16 @@
         "d. Upgrade Installation",
         "b. Upgrade Installation",
         "c. None of the Choices",
-        "d. Migration"
+        "d. Migration",
+        "a. Migration",
+        "b. Clean Installation",
+        "c. Upgrade Installation",
+        "d. None of the Choices"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1747,12 +1790,15 @@
         "c. Clean Installation",
         "d. Upgrade Installation",
         "c. Upgrade Installation",
-        "d. Clean Installation"
+        "d. Clean Installation",
+        "a. None of the Choices",
+        "b. Clean Installation",
+        "d. Migration"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1781,13 +1827,20 @@
       "question": "It is the foundation of the Internet naming scheme and it supports accessing resources by using alphanumeric names.",
       "answer": "DNS Server",
       "choices": [
-        "DNS Server"
+        "DNS Server",
+        "a. Remote Access Server",
+        "b. DHCP Server",
+        "c. DNS Server",
+        "d. None of the Choices"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is the measurement of how a system conforms to expected behavior",
@@ -1844,12 +1897,14 @@
         "a. Wide Area Network",
         "b. Campus Area Network",
         "c. Metropolitan Area Network",
-        "d. Local Area Network"
+        "d. Local Area Network",
+        "c. Wide Area Network",
+        "d. Campus Area Network"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1980,12 +2035,16 @@
         "a. File Server",
         "b. Application Server",
         "c. Domain Controller",
-        "d. Web Server"
+        "d. Web Server",
+        "a. Application Server",
+        "b. Web Server",
+        "c. File Server",
+        "d. Domain Controller"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:24:00Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2007,13 +2066,20 @@
       "question": "It reduces the complexity and amount of administrative work by using automatic TCP/IP configuration.",
       "answer": "DHCP Server",
       "choices": [
-        "DHCP Server"
+        "DHCP Server",
+        "a. None of the Choices",
+        "b. Remote Access Server",
+        "c. DNS Server",
+        "d. DHCP Server"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It specifies which part of an IPv4 address is the network ID and which part of the IPv4 address is the Host ID.",
@@ -2473,12 +2539,16 @@
         "c. IEEE 802.3",
         "d. IEEE 802.5",
         "b. IEEE 802.5",
-        "c. IEEE 802.11"
+        "c. IEEE 802.11",
+        "a. IEEE 802.5",
+        "b. IEEE 802.3",
+        "c. IEEE 802.16",
+        "d. IEEE 802.11"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2602,12 +2672,14 @@
         "b. Mesh",
         "c. Crown",
         "d. Bus",
-        "a. Mesh"
+        "a. Mesh",
+        "c. Hybrid",
+        "d. Crown"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Mesh"
@@ -2667,9 +2739,9 @@
         "d. Backbone"
       ],
       "verified": true,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Bridge",
@@ -2681,8 +2753,29 @@
       "lastEvidenceAt": "2026-10-26T11:17:34Z"
     },
     {
+      "question": "Which of the following is not a Server Role of Windows Server 2008 R2?",
+      "answer": "Windows Power Shell",
+      "choices": [
+        "a. Remote Desktop Services",
+        "b. Active Directory Domain Services",
+        "c. Windows Power Shell",
+        "d. DHCP Server"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T10:41:46Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z"
+    },
+    {
       "question": "Which of the following is not a Specialized version of Windows 7?",
-      "answer": "Windows 7 Home Basic",
+      "answer": "",
       "choices": [
         "a. Windows 7 Professional",
         "b. Windows 7 Ultimate",
@@ -2692,14 +2785,18 @@
         "c. Windows 7 Ultimate",
         "d. Windows 7 Home Basic",
         "a. Windows 7 Home Basic",
-        "b. Windows 7 Professional"
+        "b. Windows 7 Professional",
+        "c. Windows 7 Enterprise",
+        "d. Windows 7 Professional"
       ],
-      "verified": true,
+      "verified": false,
       "confirmations": 3,
       "firstSeenAt": "2026-09-17T16:28:46Z",
       "lastVerifiedAt": "2026-09-22T03:31:57Z",
-      "source": "community_contribution",
-      "wrongAnswers": [],
+      "source": "moodle_review_elimination",
+      "wrongAnswers": [
+        "Windows 7 Home Basic"
+      ],
       "questionType": "multichoice",
       "conflictHistory": [
         {
@@ -2710,7 +2807,10 @@
           "rejectedAnswer": "Windows 7 Professional",
           "timestamp": "2026-10-26T17:11:21Z"
         }
-      ]
+      ],
+      "isAiSuggestion": false,
+      "wrongAnswerEvidence": true,
+      "lastEvidenceAt": "2026-10-27T10:41:46Z"
     },
     {
       "question": "Which of the following is not a way to improve the signal strength?",
@@ -2745,7 +2845,10 @@
         "d. 802.11 h",
         "c. 802.11 a",
         "d. 802.11 b",
-        "b. 802.11 b"
+        "b. 802.11 b",
+        "a. 802.11 b",
+        "b. 802.11 h",
+        "c. 802.11 n"
       ],
       "verified": true,
       "confirmations": 4,
@@ -2770,6 +2873,10 @@
         {
           "rejectedAnswer": "802.11 h",
           "timestamp": "2026-10-26T17:10:49Z"
+        },
+        {
+          "rejectedAnswer": "802.11 h",
+          "timestamp": "2026-10-27T10:41:46Z"
         }
       ]
     },
@@ -2787,12 +2894,14 @@
         "d. It supports 16-bit Windows on Windows (WOW) environment",
         "a. Improved Security",
         "b. It supports 16-bit Windows on Windows (WOW) environment",
-        "d. More Memory"
+        "d. More Memory",
+        "c. Improved Security",
+        "d. Improved Performance"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2833,12 +2942,14 @@
         "c. Token Ring",
         "d. FDDI (Fiber Distributed Data Interface)",
         "b. Ethernet",
-        "a. WiMax"
+        "a. WiMax",
+        "c. FDDI (Fiber Distributed Data Interface)",
+        "d. Token Ring"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-10-26T17:10:49Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2877,12 +2988,14 @@
         "a. Windows 95",
         "b. None of the choices",
         "c. Windows XP",
-        "d. Windows Vista SP1"
+        "d. Windows Vista SP1",
+        "b. Windows Vista SP1",
+        "d. Windows XP"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-10-26T17:11:21Z",
+      "lastVerifiedAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
