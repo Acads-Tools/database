@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-27T09:02:58Z",
-  "totalQuestions": 161,
+  "updatedAt": "2026-10-27T09:04:10Z",
+  "totalQuestions": 166,
   "tier": "verified",
   "questions": [
     {
@@ -270,6 +270,22 @@
       "questionType": "shortanswer",
       "wrongAnswerEvidence": true,
       "lastEvidenceAt": "2026-10-04T11:15:41Z"
+    },
+    {
+      "question": "Another term for Port security.",
+      "answer": "MAC limiting",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:04:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:04:10Z"
     },
     {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
@@ -631,6 +647,22 @@
       "lastVerifiedAt": "2026-10-27T09:02:58Z"
     },
     {
+      "question": "It can limit which devices can connect to a specific port on the switch by listing specific MAC addresses with the port.",
+      "answer": "Port Security",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:04:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:04:10Z"
+    },
+    {
       "question": "It can manipulate your system including the deletion of the important files on your computer.",
       "answer": "ActiveX controls",
       "choices": [
@@ -832,6 +864,22 @@
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "shortanswer"
+    },
+    {
+      "question": "It is a core feature of Windows that permits the network administrator to enable and disable different features in Windows",
+      "answer": "Group Policies",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:04:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:04:10Z"
     },
     {
       "question": "It is a model designed to guide policies for information security within an organization.",
@@ -3077,6 +3125,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Which of these are not part of the two categories of Group Policy. (Choose any that applies)",
+      "answer": "Security settings, Window settings",
+      "choices": [
+        "a. Computer settings",
+        "b. User settings",
+        "c. Security settings",
+        "d. Window settings"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:04:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:04:10Z"
+    },
+    {
       "question": "Which probe is used to trigger the SNMPQUERY probe to query a NAD?",
       "answer": "Both A and D",
       "choices": [
@@ -3213,6 +3282,26 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "You can configure user rights on the system, auditing, and other security settings such as creating a logon banner",
+      "answer": "Local Policies",
+      "choices": [
+        "a. User Settings",
+        "b. Local Policies",
+        "c. Account Policies"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T09:04:10Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T09:04:10Z"
     }
   ]
 }
