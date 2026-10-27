@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-27T08:42:47Z",
+  "updatedAt": "2026-10-27T08:44:10Z",
   "totalQuestions": 137,
   "tier": "verified",
   "questions": [
@@ -268,19 +268,22 @@
         "a. Import the update packs that are downloaded from Cisco.com.",
         "b. Cisco’s Profiler Feed Service.",
         "c. Each new version of ISE or ISE patch includes new profile policies.",
-        "d. The profiles are distributed together with the posture checks and compliance modules."
+        "d. The profiles are distributed together with the posture checks and compliance modules.",
+        "a. The profiles are distributed together with the posture checks and compliance modules.",
+        "c. Import the update packs that are downloaded from Cisco.com.",
+        "d. Each new version of ISE or ISE patch includes new profile policies."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "How many key phases are there in an incident response plan ?",
@@ -1170,19 +1173,23 @@
         "b. EndPointProfile attribute",
         "c. EndPointPolicy attribute",
         "d. Logical profiles",
-        "e. NMAP OS-Scan result"
+        "e. NMAP OS-Scan result",
+        "b. EndPointPolicy attribute",
+        "c. Logical profiles",
+        "d. NMAP OS-Scan result",
+        "e. EndPointProfile attribute"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Network security is the practice of preventing and protecting against unauthorized intrusion into corporate networks.",
@@ -1661,9 +1668,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1679,12 +1686,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "True or False? A tunneled EAP type is able to use native EAP types as its inner method.",
@@ -1698,12 +1705,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "True or False? Cisco switches should be configured in production to send syslog messages to the ISE MNT node.",
@@ -1717,9 +1724,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1733,9 +1740,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1744,19 +1751,21 @@
       "answer": "False",
       "choices": [
         "a. True",
-        "b. False"
+        "b. False",
+        "a. False",
+        "b. True"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "True or False? MSCHAPv2 may be used to perform machine authentication with an LDAP connection to Active Directory.",
@@ -1770,9 +1779,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -1788,12 +1797,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "True or False? The profiling service is enabled by default on ISE policy service nodes.",
@@ -1807,12 +1816,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "True or False? The supplicant is required to trust the certificate of the authentication server before it will form the TLS tunnel within which the EAP transaction will occur.",
@@ -1828,9 +1837,9 @@
       ],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -1988,12 +1997,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "What are two ways to collect HTTP user agent strings?",
@@ -2003,7 +2012,9 @@
         "b. Through the AnyConnect HTTP User Agent Reporting Tool",
         "c. SPAN port mirroring",
         "d. Device sensor in the switch",
-        "e. Directly from ISE web portals"
+        "e. Directly from ISE web portals",
+        "b. Directly from ISE web portals",
+        "e. Through the AnyConnect HTTP User Agent Reporting Tool"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2015,7 +2026,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "alternateAnswers": [
+        {
+          "answer": "Directly from ISE web portals, SPAN port mirroring",
+          "timestamp": "2026-10-27T08:44:10Z"
+        }
+      ]
     },
     {
       "question": "What determines when an endpoint is assigned to a profile?",
@@ -2024,19 +2041,21 @@
         "a. The ISE posture agent will identify the profile of an endpoint to ISE.",
         "b. The certainty value must equal or exceed the minimum certainty value of the profile.",
         "c. The profile that matches the most conditions will be assigned.",
-        "d. All profiles are manually assigned by the administrator."
+        "d. All profiles are manually assigned by the administrator.",
+        "c. All profiles are manually assigned by the administrator.",
+        "d. The profile that matches the most conditions will be assigned."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "What is the name of the “secure cookie” used with EAP-FAST that can be used in lieu of a certificate, or even in addition to a certificate?",
@@ -2059,9 +2078,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2081,9 +2100,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2094,19 +2113,23 @@
         "a. The outer identity is used for dual-factor authentications such as a username/password combined with a one-time password (OTP).",
         "b. The outer identity provides a mechanism to authenticate the identity of the endpoint during the tunnel establishment phase.",
         "c. The outer identity represents the machine, whereas the inner identity represents the user during EAP chaining.",
-        "d. The outer identity provides a mechanism to modify the actual identity of the end user or device to allow for identity spoofing."
+        "d. The outer identity provides a mechanism to modify the actual identity of the end user or device to allow for identity spoofing.",
+        "a. The outer identity provides a mechanism to authenticate the identity of the endpoint during the tunnel establishment phase.",
+        "b. The outer identity is used for dual-factor authentications such as a username/password combined with a one-time password (OTP).",
+        "c. The outer identity provides a mechanism to modify the actual identity of the end user or device to allow for identity spoofing.",
+        "d. The outer identity represents the machine, whereas the inner identity represents the user during EAP chaining."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "When configuring a Cisco switch for 802.1X, at which level of the configuration do the 802.1X-related commands exist?",
@@ -2115,19 +2138,23 @@
         "a. Both at global configuration level as well as per interface.",
         "b. Interface configuration only.",
         "c. Global configuration only.",
-        "d. Enabling 802.1X changes the context to a dot1x subconfiguration mode, where all related commands are entered."
+        "d. Enabling 802.1X changes the context to a dot1x subconfiguration mode, where all related commands are entered.",
+        "a. Interface configuration only.",
+        "b. Global configuration only.",
+        "c. Enabling 802.1X changes the context to a dot1x subconfiguration mode, where all related commands are entered.",
+        "d. Both at global configuration level as well as per interface."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "When configuring a Cisco Wireless LAN Controller (WLC) for communication with ISE, what must be configured for the wireless LAN (WLAN)? (Choose two.)",
@@ -2142,14 +2169,17 @@
         "a. The WLAN must be configured for SNMP NAC.",
         "b. The authentication and authorization RADIUS servers can be pointed to the same ISE PSN.",
         "c. The authentication and authorization RADIUS servers can be pointed to different ISE PSNs, as long as those PSNs are part of a node group.",
-        "d. The WLAN must be configured for RADIUS NAC."
+        "d. The WLAN must be configured for RADIUS NAC.",
+        "a. The WLAN must be configured for RADIUS NAC.",
+        "b. The authentication and authorization RADIUS servers can be pointed to different ISE PSNs, as long as those PSNs are part of a node group.",
+        "d. The authentication and authorization RADIUS servers can be pointed to the same ISE PSN."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2160,19 +2190,21 @@
         "a. RADIUS does not distinguish between different services.",
         "b. The Service-Type field.",
         "c. The TACACS+ service.",
-        "d. The action AV-pair."
+        "d. The action AV-pair.",
+        "a. The TACACS+ service.",
+        "c. RADIUS does not distinguish between different services."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which command on a Cisco switch will display the current status of the AAA server(s)?",
@@ -2181,19 +2213,22 @@
         "a. show aaa servers",
         "b. show ise servers",
         "c. show authentication servers",
-        "d. show radius servers"
+        "d. show radius servers",
+        "a. show radius servers",
+        "c. show aaa servers",
+        "d. show authentication servers"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which command will validate that authentications are being attempted, which authentications are successful, and which authorization results have been assigned?",
@@ -2202,19 +2237,21 @@
         "a. show authentication statistics",
         "b. show authentication method dot1x",
         "c. show aaa servers",
-        "d. show authentication session interface"
+        "d. show authentication session interface",
+        "a. show aaa servers",
+        "c. show authentication statistics"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which host mode will permit a virtually unlimited number of endpoints per port, allowing all subsequent MAC addresses to share the authorization result of the first endpoint authorized?",
@@ -2223,19 +2260,23 @@
         "a. MDA",
         "b. Multi-Auth",
         "c. Multi-Host",
-        "d. Single Mode"
+        "d. Single Mode",
+        "a. Single Mode",
+        "b. MDA",
+        "c. Multi-Auth",
+        "d. Multi-Host"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which interface-level command is the equivalent of “turn authentication on”?",
@@ -2244,19 +2285,21 @@
         "a. aaa server radius dynamic-author",
         "b. dot1x system-auth-control",
         "c. ip device-tracking",
-        "d. authentication port-control auto"
+        "d. authentication port-control auto",
+        "a. dot1x system-auth-control",
+        "b. aaa server radius dynamic-author"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following are not part of OSI Layer?",
@@ -2309,19 +2352,21 @@
         "a. REPLY",
         "b. CHALLENGE",
         "c. START",
-        "d. REQUEST"
+        "d. REQUEST",
+        "b. REQUEST",
+        "d. CHALLENGE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following are the commands for disabling a port in a Network Switch. Choose any that Apply",
@@ -2400,7 +2445,12 @@
         "b. Network administration",
         "c. Device administration",
         "d. Device access",
-        "e. Network access"
+        "e. Network access",
+        "a. Network access",
+        "b. Device access",
+        "c. A division of minor league baseball",
+        "d. Network administration",
+        "e. Device administration"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2412,7 +2462,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "alternateAnswers": [
+        {
+          "answer": "Network access, Device administration",
+          "timestamp": "2026-10-27T08:44:10Z"
+        }
+      ]
     },
     {
       "question": "Which of the following best describes an AV-pair?",
@@ -2421,19 +2477,22 @@
         "a. Cisco likes to throw in terms to confuse the reader.",
         "b. The AV-pair is used to specify the quality of service (QoS) for audio and video traffic.",
         "c. When communicating with an AAA protocol, the AV-pair stipulates a common attribute or object and its assigned value.",
-        "d. The AV-pair is used to choose either TACACS+ or RADIUS."
+        "d. The AV-pair is used to choose either TACACS+ or RADIUS.",
+        "a. When communicating with an AAA protocol, the AV-pair stipulates a common attribute or object and its assigned value.",
+        "b. Cisco likes to throw in terms to confuse the reader.",
+        "c. The AV-pair is used to specify the quality of service (QoS) for audio and video traffic."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following best describes the difference between authentication and authorization?",
@@ -2442,19 +2501,23 @@
         "a. There is no difference between authentication and authorization.",
         "b. Authentication is used with both network access and device administration, whereas authorization applies only to device administration.",
         "c. Authorization determines what a user may do, whereas an authentication determines what devices the user can interact with.",
-        "d. Authentication validates the user’s identity, whereas authorization determines what that user is permitted to do."
+        "d. Authentication validates the user’s identity, whereas authorization determines what that user is permitted to do.",
+        "a. Authorization determines what a user may do, whereas an authentication determines what devices the user can interact with.",
+        "b. Authentication validates the user’s identity, whereas authorization determines what that user is permitted to do.",
+        "c. There is no difference between authentication and authorization.",
+        "d. Authentication is used with both network access and device administration, whereas authorization applies only to device administration."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following Cisco products should be used for device administration with TACACS+?",
@@ -2463,19 +2526,21 @@
         "a. Cisco Secure Access Control Server (ACS)",
         "b. Cisco Centri",
         "c. Cisco Identity Services Engine",
-        "d. Cisco TACACS+ Control Server (TCS)"
+        "d. Cisco TACACS+ Control Server (TCS)",
+        "a. Cisco TACACS+ Control Server (TCS)",
+        "d. Cisco Secure Access Control Server (ACS)"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following is true?",
@@ -2484,19 +2549,22 @@
         "a. The EAP communication occurs between the supplicant and theauthentication server.",
         "b. The supplicant uses RADIUS to communicate the user’s identity to the authentication server.",
         "c. The authenticator decides whether the supplicant is allowed on the network.",
-        "d. The authenticator uses EAP to send the user’s credentials to the authentication server."
+        "d. The authenticator uses EAP to send the user’s credentials to the authentication server.",
+        "a. The authenticator decides whether the supplicant is allowed on the network.",
+        "c. The authenticator uses EAP to send the user’s credentials to the authentication server.",
+        "d. The EAP communication occurs between the supplicant and theauthentication server."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following protocols is best suited for authenticating and authorizing a user for network access AAA?",
@@ -2505,19 +2573,21 @@
         "a. RADIUS",
         "b. CHAP",
         "c. TACACS+",
-        "d. MS-CHAPv2"
+        "d. MS-CHAPv2",
+        "c. MS-CHAPv2",
+        "d. TACACS+"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following protocols is best suited for granular command level control with device administration AAA?",
@@ -2526,19 +2596,23 @@
         "a. DIAMETER",
         "b. RADIUS+",
         "c. RADIUS",
-        "d. TACACS+"
+        "d. TACACS+",
+        "a. RADIUS+",
+        "b. DIAMETER",
+        "c. TACACS+",
+        "d. RADIUS"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which of the following technologies enables an administrator to maintain the same configuration on all access ports, on all switches, regardless of the type of device connecting to the network?",
@@ -2560,9 +2634,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2603,12 +2677,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Which supplicant(s) is capable of EAP chaining?",
@@ -2625,14 +2699,16 @@
         "d. Odyssey Client",
         "a. Odyssey Client",
         "c. Cisco AnyConnect NAM",
-        "d. Cisco Secure Services Client (CSSC)"
+        "d. Cisco Secure Services Client (CSSC)",
+        "b. Cisco AnyConnect NAM",
+        "c. Windows Native Supplicant"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z",
+      "lastVerifiedAt": "2026-10-27T08:44:10Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2643,19 +2719,23 @@
         "a. HTTP, CDP, RADIUS",
         "b. CDP, DHCP, LLDP",
         "c. CDP, DHCP, RADIUS",
-        "d. CDP, HTTP, SNMP"
+        "d. CDP, HTTP, SNMP",
+        "a. CDP, HTTP, SNMP",
+        "b. HTTP, CDP, RADIUS",
+        "c. CDP, DHCP, LLDP",
+        "d. CDP, DHCP, RADIUS"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Why is RADIUS or TACACS+ needed? Why can’t the end user authenticate directly to the authentication server?",
@@ -2664,19 +2744,21 @@
         "a. Because the names sound so cool.",
         "b. RADIUS and TACACS+ are used between the end user and the authentication server.",
         "c. The added level of complexity helps Cisco and other vendors to sell more products.",
-        "d. Both RADIUS and TACACS+ extend the Layer-2 authentication protocols, allowing the end user to communicate with an authentication server that is not Layer-2 adjacent"
+        "d. Both RADIUS and TACACS+ extend the Layer-2 authentication protocols, allowing the end user to communicate with an authentication server that is not Layer-2 adjacent",
+        "b. The added level of complexity helps Cisco and other vendors to sell more products.",
+        "c. RADIUS and TACACS+ are used between the end user and the authentication server."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:42:47Z"
+      "lastVerifiedAt": "2026-10-27T08:44:10Z"
     },
     {
       "question": "Without this service on your environment, you won't be able to share any of your resources",
