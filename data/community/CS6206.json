@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6206",
   "subjectName": "Principles of Operating Systems",
-  "updatedAt": "2026-10-27T10:41:56Z",
+  "updatedAt": "2026-10-27T10:44:45Z",
   "totalQuestions": 167,
   "questions": [
     {
@@ -747,12 +747,14 @@
         "a. DHCP Server",
         "b. None of the Choices",
         "c. Remote Access Server",
-        "d. DNS Server"
+        "d. DNS Server",
+        "c. DNS Server",
+        "d. Remote Access Server"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -789,12 +791,14 @@
         "a. None of the choices",
         "b. Role Services",
         "c. Role",
-        "d. Server Features"
+        "d. Server Features",
+        "c. Role Services",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -819,13 +823,20 @@
         "Master Boot Record Disk",
         "Dynamic Disk",
         "None of the choices",
-        "GUID Partition (GPT)"
+        "GUID Partition (GPT)",
+        "a. Master Boot Record Disk",
+        "b. GUID Partition (GPT)",
+        "c. None of the choices",
+        "d. Dynamic Disk"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It contains the partition table for the disk and a small amount of executable code called as the master boot code.",
@@ -834,13 +845,20 @@
         "None of the choices",
         "Master Boot Record Disk",
         "GUID Partition (GPT)",
-        "Dynamic Disk"
+        "Dynamic Disk",
+        "a. None of the choices",
+        "b. Master Boot Record Disk",
+        "c. GUID Partition (GPT)",
+        "d. Dynamic Disk"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It defines the type of access granted to a user, group, or computer for a file or folder.",
@@ -872,12 +890,14 @@
         "a. Nesting Groups",
         "b. Organizational Units",
         "c. None of the Choices",
-        "d. Group Policy"
+        "d. Group Policy",
+        "c. Group Policy",
+        "d. None of the Choices"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:15:16Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -913,12 +933,14 @@
         "d. Local User Accounts",
         "b. Local User Accounts",
         "c. Domain User Accounts",
-        "d. None of the Choices"
+        "d. None of the Choices",
+        "a. Domain User Accounts",
+        "d. Built-in User Accounts"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:15:16Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -935,12 +957,14 @@
         "d. None of the Choices",
         "a. Local User Accounts",
         "b. None of the Choices",
-        "d. Domain User Accounts"
+        "d. Domain User Accounts",
+        "c. None of the Choices",
+        "d. Built-in User Accounts"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:15:16Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -964,9 +988,9 @@
         "c. Visual Local Area Network"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1024,12 +1048,15 @@
         "c. Universal",
         "d. Global",
         "a. Universal",
-        "c. Domain Local"
+        "c. Domain Local",
+        "a. Forest",
+        "b. Global",
+        "d. Domain Local"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:15:16Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1039,15 +1066,20 @@
       "question": "It is a collection of user accounts, computer accounts, contacts and other groups that you can manage as a single unit.",
       "answer": "Groups",
       "choices": [
-        "Groups"
+        "Groups",
+        "a. User Account",
+        "b. Domain User",
+        "c. Domain Controller",
+        "d. Groups"
       ],
       "verified": true,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-29T15:50:07Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "It is a computer that is dedicated to running network-aware application software.",
@@ -1060,12 +1092,14 @@
         "d. File Server",
         "b. Application Server",
         "c. File Server",
-        "d. Domain Controller"
+        "d. Domain Controller",
+        "a. Domain Controller",
+        "b. Web Server"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1103,12 +1137,14 @@
         "c. Router",
         "a. Firewall",
         "b. Router",
-        "d. Switch"
+        "d. Switch",
+        "c. Network Adapter",
+        "d. Firewall"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1132,9 +1168,9 @@
         "d. Switch"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1175,12 +1211,14 @@
         "c. Windows Upgrade Advisor",
         "d. None of the choices",
         "a. Windows Upgrade Advisor",
-        "c. None of the choices"
+        "c. None of the choices",
+        "a. User State Migration Tool",
+        "b. None of the choices"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1190,25 +1228,39 @@
       "question": "It is a dynamic volume that encompasses available free-space from single, dynamic, hard disk drive.",
       "answer": "Simple Volume",
       "choices": [
-        "Simple Volume"
+        "Simple Volume",
+        "a. Striped Volume",
+        "b. Simple Volume",
+        "c. Spanned Volume",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a dynamic volume that joins areas of unallocated space disks into a single logical disk",
       "answer": "Spanned Volume",
       "choices": [
-        "Spanned Volume"
+        "Spanned Volume",
+        "a. None of the choices",
+        "b. Simple Volume",
+        "c. Striped Volume",
+        "d. Spanned Volume"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a feature of Windows 7 that allows windows 7 to be backward compatible",
@@ -1220,12 +1272,14 @@
         "c. Windows XP compatibility",
         "d. Windows XP mode",
         "a. Virtual XP",
-        "b. None of the choices"
+        "b. None of the choices",
+        "a. Windows XP mode",
+        "d. Virtual XP"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:16:02Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1235,13 +1289,20 @@
       "question": "It is a graphical user interface that is used to manage disks and volumes both basic and dynamic, locally or on remote computers.",
       "answer": "Disk Management",
       "choices": [
-        "Disk Management"
+        "Disk Management",
+        "a. Diskpart",
+        "b. Disk Management",
+        "c. None of the choices",
+        "d. Local Disk"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a group of services hosted on a network which is a private structure and has the internet-like service provision.",
@@ -1260,12 +1321,13 @@
         "c. Intranet",
         "a. Internet",
         "d. Extranet",
-        "b. Internet"
+        "b. Internet",
+        "d. Intranet"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1281,12 +1343,14 @@
         "c. Basic Sharing",
         "d. Advance Sharing",
         "b. Basic Sharing",
-        "c. Public Sharing"
+        "c. Public Sharing",
+        "c. Advance Sharing",
+        "d. Basic Sharing"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:16:02Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1303,12 +1367,14 @@
         "d. Basic Sharing",
         "a. Basic Sharing",
         "b. Advance Sharing",
-        "d. Public Sharing"
+        "d. Public Sharing",
+        "a. None of the choices",
+        "c. Advance Sharing"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:16:02Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1334,12 +1400,15 @@
         "a. Biometrics",
         "b. Smartcards",
         "c. Online Identity Integration",
-        "d. None of the choices"
+        "d. None of the choices",
+        "a. None of the choices",
+        "b. Biometrics",
+        "d. Smartcards"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:16:02Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1368,13 +1437,20 @@
       "question": "It is a scriptable command line utility that create scripts to automate disk related task.",
       "answer": "Diskpart",
       "choices": [
-        "Diskpart"
+        "Diskpart",
+        "a. Local Disk",
+        "b. None of the choices",
+        "c. Diskpart",
+        "d. Disk Management"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a security feature that simplifies the ability of users to run as standard users and perform all neccessary daily tasks",
@@ -1399,13 +1475,20 @@
       "question": "It is a small software program that allows a hardware device to communicate with a computer",
       "answer": "Drivers",
       "choices": [
-        "Drivers"
+        "Drivers",
+        "a. Device Stage",
+        "b. Drivers",
+        "c. None of the choices",
+        "d. Dynamic Update"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a software that is designed to deliberately harm a computer.",
@@ -1463,12 +1546,15 @@
         "d. Loadstate",
         "a. Sysprep",
         "b. Imagex",
-        "d. Scanstate"
+        "d. Scanstate",
+        "a. Scanstate",
+        "b. Sysprep",
+        "d. Imagex"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1525,12 +1611,14 @@
         "d. XPS based printing",
         "a. PDF based printing",
         "b. XPS based printing",
-        "d. GDI based printing"
+        "d. GDI based printing",
+        "c. PDF based printing",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:16:02Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1540,13 +1628,20 @@
       "question": "It is a way for you to limit use of disk space on a volume for each user to conserve disk space.",
       "answer": "Disk Quotas",
       "choices": [
-        "Disk Quotas"
+        "Disk Quotas",
+        "a. None of the choices",
+        "b. Disk Shrinking",
+        "c. Disk Fragmentation",
+        "d. Disk Quotas"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is a windows 7 feature that enables support staff to connect to a remote desktop computer.",
@@ -1584,12 +1679,13 @@
         "a. Certificate Mapping",
         "b. NTLM",
         "c. None of the choices",
-        "d. Kerberos v5"
+        "d. Kerberos v5",
+        "d. None of the choices"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:16:02Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1666,9 +1762,9 @@
         "d. Groups"
       ],
       "verified": true,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T11:21:09Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1693,9 +1789,9 @@
         "c. Typically, requires more storage space"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1748,12 +1844,14 @@
         "b. Deployment",
         "c. Reliability and Performance",
         "b. Reliability and Performance",
-        "d. Deployment"
+        "d. Deployment",
+        "b. Security",
+        "d. Usability"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1776,12 +1874,14 @@
         "d. Reliability and Performance",
         "d. Usability",
         "a. Reliability and Performance",
-        "c. Security"
+        "c. Security",
+        "a. Deployment",
+        "b. Security"
       ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1803,12 +1903,13 @@
         "b. Clean Installation",
         "c. Upgrade Installation",
         "d. None of the Choices",
-        "a. None of the Choices"
+        "a. None of the Choices",
+        "d. Clean Installation"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1828,12 +1929,14 @@
         "a. None of the Choices",
         "b. Clean Installation",
         "d. Migration",
-        "c. Migration"
+        "c. Migration",
+        "b. Upgrade Installation",
+        "c. None of the Choices"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1869,12 +1972,16 @@
         "d. None of the Choices",
         "a. None of the Choices",
         "b. Remote Access Server",
-        "d. DHCP Server"
+        "d. DHCP Server",
+        "a. DNS Server",
+        "b. None of the Choices",
+        "c. DHCP Server",
+        "d. Remote Access Server"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1942,9 +2049,9 @@
         "d. Metropolitan Area Network"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1954,13 +2061,20 @@
       "question": "It is the non-contiguous storage of data on a volume",
       "answer": "Disk Fragmentation",
       "choices": [
-        "Disk Fragmentation"
+        "Disk Fragmentation",
+        "a. Disk Fragmentation",
+        "b. None of the choices",
+        "c. Disk Shrinking",
+        "d. Disk Quotas"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "community_contribution"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
+      "wrongAnswers": [],
+      "questionType": "multichoice",
+      "isAiSuggestion": false
     },
     {
       "question": "It is the process of determining whether something or someone has permission to access the resources",
@@ -1974,12 +2088,15 @@
         "a. Authorization",
         "b. None of the choices",
         "c. Access",
-        "d. Authentication"
+        "d. Authentication",
+        "a. Authentication",
+        "c. Authorization",
+        "d. Access"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:16:02Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2056,12 +2173,14 @@
         "d. Groups",
         "a. Groups",
         "b. Domain Controller",
-        "d. Domain User"
+        "d. Domain User",
+        "b. User Accounts",
+        "c. Domain Controller"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-26T17:15:16Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2118,9 +2237,9 @@
         "d. DNS Server"
       ],
       "verified": true,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2592,9 +2711,9 @@
         "d. IEEE 802.3"
       ],
       "verified": true,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-09-17T16:00:06Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2673,15 +2792,20 @@
         "a. Universal",
         "b. Distribution",
         "c. Domain Local",
-        "d. Global"
+        "d. Global",
+        "a. Global",
+        "b. Universal",
+        "c. Distribution",
+        "d. Domain Local"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:30:27Z",
-      "lastVerifiedAt": "2026-09-29T15:50:07Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
-      "isAiSuggestion": false
+      "isAiSuggestion": false,
+      "questionType": "multichoice"
     },
     {
       "question": "Which of the following is not a Boot-option for troubleshooting startup problems?",
@@ -2720,12 +2844,13 @@
         "d. Bus",
         "a. Mesh",
         "c. Hybrid",
-        "d. Crown"
+        "d. Crown",
+        "d. Mesh"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Mesh"
@@ -2787,9 +2912,9 @@
         "c. Bridge"
       ],
       "verified": true,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Bridge",
@@ -2817,16 +2942,16 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T10:41:46Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z"
+      "lastVerifiedAt": "2026-10-27T10:44:45Z"
     },
     {
       "question": "Which of the following is not a Specialized version of Windows 7?",
-      "answer": "",
+      "answer": "Windows 7 Professional",
       "choices": [
         "a. Windows 7 Professional",
         "b. Windows 7 Ultimate",
@@ -2842,11 +2967,11 @@
         "a. Windows 7 Ultimate",
         "b. Windows 7 Home Basic"
       ],
-      "verified": false,
-      "confirmations": 3,
+      "verified": true,
+      "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-09-22T03:31:57Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "Windows 7 Home Basic"
       ],
@@ -2887,7 +3012,7 @@
     },
     {
       "question": "Which of the following is not a Wireless LAN Standards?",
-      "answer": "",
+      "answer": "802.11 h",
       "choices": [
         "a. 802.11 h",
         "b. 802.11 n",
@@ -2903,13 +3028,14 @@
         "b. 802.11 h",
         "c. 802.11 n",
         "c. 802.11 h",
-        "d. 802.11 n"
+        "d. 802.11 n",
+        "a. 802.11 a"
       ],
-      "verified": false,
-      "confirmations": 4,
+      "verified": true,
+      "confirmations": 1,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-09-22T03:28:50Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "802.11 a"
       ],
@@ -2957,12 +3083,13 @@
         "d. More Memory",
         "c. Improved Security",
         "d. Improved Performance",
-        "a. Improved Performance"
+        "a. Improved Performance",
+        "c. It supports 16-bit Windows on Windows (WOW) environment"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3005,12 +3132,13 @@
         "b. Ethernet",
         "a. WiMax",
         "c. FDDI (Fiber Distributed Data Interface)",
-        "d. Token Ring"
+        "d. Token Ring",
+        "d. WiMax"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-17T16:07:30Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3051,12 +3179,13 @@
         "c. Windows XP",
         "d. Windows Vista SP1",
         "b. Windows Vista SP1",
-        "d. Windows XP"
+        "d. Windows XP",
+        "a. Windows XP"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-17T16:28:46Z",
-      "lastVerifiedAt": "2026-10-27T10:41:56Z",
+      "lastVerifiedAt": "2026-10-27T10:44:45Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
