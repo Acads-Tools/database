@@ -1,10 +1,74 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-27T08:44:10Z",
-  "totalQuestions": 137,
+  "updatedAt": "2026-10-27T08:53:11Z",
+  "totalQuestions": 151,
   "tier": "verified",
   "questions": [
+    {
+      "question": "[1] is a critical AAA function that must not be disregarded.",
+      "answer": "Accounting",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
+    {
+      "question": "[1] is a message that works as a receipt acknowledgement, letting the AAA client know that the accounting message has been received by the AAA server.",
+      "answer": "Accounting-Response",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
+    {
+      "question": "[1] is a network access AAA protocol that is virtually entirely utilized.",
+      "answer": "RADIUS",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
+    {
+      "question": "[1] is one type of AAA that you should be aware of. It allows you to govern who has access to a network device console, telnet connection, secure shell session, or other manner.",
+      "answer": "Device Administration",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
     {
       "question": "A popular feature of Windows that allows you to harden multiple systems quickly.",
       "answer": "Security Templates",
@@ -24,6 +88,22 @@
       "wrongAnswerEvidence": true,
       "questionType": "shortanswer",
       "lastEvidenceAt": "2026-10-04T11:17:32Z"
+    },
+    {
+      "question": "A RADIUS server's [1] allows it to communicate with a network device and disconnect a user's connection, bounce the port, or even tell the device to re-authenticate the user.",
+      "answer": "Change of Authorization",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
     },
     {
       "question": "A security layer used in mobile devices that employ the Wireless Applications Protocol (WAP).",
@@ -80,6 +160,22 @@
         }
       ],
       "isAiSuggestion": false
+    },
+    {
+      "question": "Access control is provided by [1].",
+      "answer": "authorization",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
     },
     {
       "question": "Always disable unnecessary features of the web server that are not going to be used",
@@ -183,6 +279,22 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Authentication, authorization, and accounting sometimes known as [1] are three security principles.",
+      "answer": "AAA",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
     },
     {
       "question": "Availability refers to the ability of a network to protect its information from any unauthorized access.",
@@ -342,6 +454,22 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "In the early 1990s, [1] developed a new protocol called TACACS+, which was issued as an open standard.",
+      "answer": "Cisco",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
     },
     {
       "question": "Internet is an example of a network.",
@@ -1265,6 +1393,38 @@
       "isAiSuggestion": false
     },
     {
+      "question": "RADIUS is an [1] (IETF) standard for AAA.",
+      "answer": "Internet Engineering Task Force",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
+    {
+      "question": "RADIUS uses [1] for authentication and UDP/1813 for accounting as standard ports.",
+      "answer": "UDP/1812",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
+    {
       "question": "SMTP and FTP are used to transfer information over a computer network.",
       "answer": "True",
       "choices": [
@@ -1370,6 +1530,22 @@
       "lastEvidenceAt": "2026-10-04T11:15:41Z"
     },
     {
+      "question": "The [1] can give stes, which are lists of commands that an authenticated user is allowed or not allowed to run.",
+      "answer": "Cisco Secure Access Control Server",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
+    {
       "question": "The following codes is an example of?TryMessageBox.Show(cdbl(txtTotalValue.text) + cdbl(txtTotalVAT.text))Catch ex as InvalidCastExceptionMessageBox.Show(\"Please supply 2 numbers as input\")Catch ex as ExceptionMessageBox.Show(\"An error has occurred. Please try again.\")End Try",
       "answer": "try/catch block",
       "choices": [
@@ -1397,6 +1573,22 @@
       "lastVerifiedAt": "2026-10-27T08:37:19Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "The message delivered from the AAA client to the AAA server to signify a notification activity is known as a [1].",
+      "answer": "Request",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
     },
     {
       "question": "These are created with malicious intent and sent by attackers.",
@@ -1916,6 +2108,38 @@
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Users are identified through [1], which includes login and password dialog, challenge and answer, messaging support, and encryption, depending on the security mechanism you choose.",
+      "answer": "Authentication",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
+    },
+    {
+      "question": "Using [1], you can define remote AAA servers for authentication, authorisation, and accounting.",
+      "answer": "server groups",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T08:53:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-27T08:53:11Z"
     },
     {
       "question": "very single application must go through the options and check whether each application is configured in the most secure state.",
