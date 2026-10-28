@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-28T10:31:36Z",
-  "totalQuestions": 133,
+  "updatedAt": "2026-10-28T10:34:31Z",
+  "totalQuestions": 140,
   "tier": "verified",
   "questions": [
     {
@@ -58,9 +58,9 @@
         "c. Risk transfer"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -87,19 +87,22 @@
         "a. Trusted Computer Based",
         "b. Trusting Computing Based",
         "c. Trusted Computing Base",
-        "d. Trusting Computer Based"
+        "d. Trusting Computer Based",
+        "a. Trusted Computing Base",
+        "b. Trusted Computer Based",
+        "c. Trusting Computing Based"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T17:07:01Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T17:07:01Z"
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
     },
     {
       "question": "Actions taken that protect and defend information and information systems by ensuring their availability, integrity, authentication, confidentiality and non-repudiation",
@@ -121,11 +124,16 @@
     {
       "question": "After the first six phases, an attacker can act to achieve the goals. These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
       "answer": "Action on Objective",
-      "choices": [],
+      "choices": [
+        "a. Action on Objective",
+        "b. Program",
+        "c. System",
+        "d. Trusted"
+      ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -153,9 +161,9 @@
         "a. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -235,9 +243,9 @@
         "b. Design"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -917,6 +925,27 @@
       "lastVerifiedAt": "2026-10-28T03:37:59Z"
     },
     {
+      "question": "Failure of the mechanism may destroy the basis for trust.",
+      "answer": "Trust",
+      "choices": [
+        "a. System",
+        "b. TCB",
+        "c. Assurance",
+        "d. Trust"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:34:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+    },
+    {
       "question": "Four Security Domain",
       "answer": "Physical Security, Personnel Security, IT Security and Operational Security",
       "choices": [
@@ -1275,9 +1304,9 @@
       "answer": "Installation",
       "choices": [],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "shortanswer",
@@ -1364,6 +1393,27 @@
       "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
+      "question": "Is a collection of all the trust mechanisms of a computer system which collectively enforce the policy.",
+      "answer": "TCB",
+      "choices": [
+        "a. Lifecycle",
+        "b. Trust",
+        "c. TCB",
+        "d. Assurance"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:34:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+    },
+    {
       "question": "Is a generic term that implies a mechanism in place to provide a basis for confidence in the reliability/security of the system.",
       "answer": "Trust",
       "choices": [
@@ -1385,13 +1435,34 @@
         "b. The risk treatment"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Is a measure of confidence that the security features, practices, procedures, and architecture of a system accurately mediates and enforces the security policy.",
+      "answer": "Assurance",
+      "choices": [
+        "a. TCB",
+        "b. Lifecyle",
+        "c. Assurance",
+        "d. System"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:34:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
     },
     {
       "question": "Is a process, not an end state",
@@ -1462,7 +1533,7 @@
       "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
-      "question": "Is it true or false. Storage the minimum required data online and maximum discretion in providing them to a third party (users, companies) is some basic steps in storing personal data.",
+      "question": "Is it true or false. An additional risk occurs when personal information is stored in client accounts on commercial websites, which may become the target of cyber-attacks anytime, so stored data becomes vulnerable is some basic steps in storing personal data.",
       "answer": "True",
       "choices": [
         "a. True",
@@ -1474,11 +1545,68 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:34:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+    },
+    {
+      "question": "Is it true or false. Encrypting all personal information when saved on different storage media is some basic steps in storing personal data.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:34:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+    },
+    {
+      "question": "Is it true or false. Storage the minimum required data online and maximum discretion in providing them to a third party (users, companies) is some basic steps in storing personal data.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T17:07:01Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T17:07:01Z"
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+    },
+    {
+      "question": "Is it true or false. The use of complex, unique, hard to guess or break passwords, consisting of numbers, upper/lower case letters and special characters is some basic steps in storing personal data.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:34:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
     },
     {
       "question": "Is it true or false. Using encrypted versions of protocols when sensitive information is exchanged so as to ensure data confidentiality and prevent identity theft is some basic steps in storing personal data.",
@@ -1492,12 +1620,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T17:07:01Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T17:07:01Z"
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
     },
     {
       "question": "Is roughly equivalent to privacy",
@@ -1541,6 +1669,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:30:49Z"
+    },
+    {
+      "question": "Is the process by which an asset is managed from its arrival or creation to its termination or destruction.",
+      "answer": "Lifecycle",
+      "choices": [
+        "a. Lifecycle",
+        "b. System",
+        "c. Assurance",
+        "d. TCB"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:34:31Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z"
     },
     {
       "question": "Is the process of maintaining an acceptable level of perceived risk",
@@ -1629,9 +1778,9 @@
         "c. Install"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [
         "System"
@@ -1663,9 +1812,9 @@
         "c. Delivery"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1724,9 +1873,9 @@
         "d. Risk transfer"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1737,9 +1886,9 @@
       "answer": "command and control",
       "choices": [],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:24:07Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -1798,9 +1947,9 @@
         "c. System"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -1905,9 +2054,9 @@
         "b. Reconnaissance"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2012,7 +2161,11 @@
         "i. Make risk management decisions",
         "c. Assess profitable",
         "i. Assess risks",
-        "i. Prioritize countermeasure options"
+        "i. Prioritize countermeasure options",
+        "a. Assess assets, Assess threats, Assess vulnerabilities, Assess risks, Prioritize countermeasure options and Make risk management decisions",
+        "b. Assess assets, Assess threats, Assess vulnerabilities, Assess risks, Prioritize countermeasure options and System Unit",
+        "c. Assess assets, Assess vulnerabilities, Assess risks, Prioritize countermeasure options and Make risk management decisions",
+        "d. System, Assess threats, Assess vulnerabilities, Assess risks, Prioritize countermeasure options and Make risk management decisions"
       ],
       "verified": true,
       "confirmations": 2,
@@ -2084,6 +2237,10 @@
         {
           "rejectedAnswer": "Make risk management decisions, Assess threats, Assess risks, Prioritize countermeasure options, Assess vulnerabilities, Assess assets",
           "timestamp": "2026-10-28T03:23:34Z"
+        },
+        {
+          "rejectedAnswer": "Assess assets, Assess threats, Assess vulnerabilities, Assess risks, Prioritize countermeasure options and Make risk management decisions",
+          "timestamp": "2026-10-28T10:34:31Z"
         }
       ]
     },
@@ -2109,9 +2266,9 @@
         "c. Risk Acceptance"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2255,9 +2412,9 @@
         "a. Risk Transfer, Design, Coding, Testing, Deployment, Production and Decommission"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2284,9 +2441,9 @@
         "a. Risk Transfer"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2344,9 +2501,9 @@
         "d. Risk Avoidance"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T03:23:34Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2590,9 +2747,9 @@
         "a. Exploitation"
       ],
       "verified": true,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -2660,9 +2817,9 @@
         "c. Install"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2779,9 +2936,9 @@
         "a. Action on objective"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2970,9 +3127,9 @@
         "b. Weaponization"
       ],
       "verified": true,
-      "confirmations": 26,
+      "confirmations": 27,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -3277,11 +3434,16 @@
     {
       "question": "Usually an infected host must be accessible outside of the local network to establish a command and control channel between the victim and the attacker. Once this bidirectional communication has been made, an attacker has access inside the target environment and can usually control the activity by manually launching commands;",
       "answer": "command and control",
-      "choices": [],
+      "choices": [
+        "a. Command and Control",
+        "b. System Code",
+        "c. Command",
+        "d. Program Code"
+      ],
       "verified": true,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [
         "command",
@@ -3314,9 +3476,9 @@
         "d. System, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T03:32:32Z",
+      "lastVerifiedAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
