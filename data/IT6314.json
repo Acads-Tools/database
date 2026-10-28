@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T02:48:20Z",
+  "updatedAt": "2026-10-28T02:50:51Z",
   "totalQuestions": 292,
   "questions": [
     {
@@ -1247,7 +1247,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:05:25Z"
+      "lastEvidenceAt": "2026-10-28T02:50:51Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. Two ways on how to print / display text on the screen (Note : Seperate answers with ;)",
@@ -3343,10 +3343,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:25Z"
+      "lastVerifiedAt": "2026-10-28T02:50:51Z"
     },
     {
       "question": "The following comparison condition would return TRUE or FALSE [Image: sad - https://semestralexam.amaes.com/2612/theme/image.php/boost/core/1786935029/s/sad] 4 7)",
@@ -3396,10 +3396,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:05:25Z"
+      "lastVerifiedAt": "2026-10-28T02:50:51Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE: !(3 >= 3 || 8 < 1)",
@@ -3487,17 +3487,19 @@
         "c. y = $y – $x;",
         "d. $x = $y – $x;",
         "a. $y = $x – $y;",
-        "b. $x = $y – $x;"
+        "b. $x = $y – $x;",
+        "a. y = $y – $x;",
+        "c. $x = $y – $x;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T02:50:51Z"
     },
     {
       "question": "The HAVING clause does which of the following?",
@@ -3583,10 +3585,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "lastVerifiedAt": "2026-10-28T02:50:51Z",
       "alternateAnswers": [
         {
           "answer": "NOT",
@@ -3645,6 +3647,14 @@
         {
           "rejectedAnswer": "OR",
           "timestamp": "2026-10-17T12:16:19Z"
+        },
+        {
+          "rejectedAnswer": "OR",
+          "timestamp": "2026-10-28T02:50:51Z"
+        },
+        {
+          "rejectedAnswer": "NOT",
+          "timestamp": "2026-10-28T02:50:51Z"
         }
       ]
     },
@@ -4245,10 +4255,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:09:33Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T02:50:51Z"
     },
     {
       "question": "True or False - The operator NOT is another way to broaden a search or retrieve more records.",
@@ -4262,10 +4272,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T02:50:51Z"
     },
     {
       "question": "True or False - The operator OR, when used to link two or concept terms will retrieve fewer records because both terms need not be present in each article.",
