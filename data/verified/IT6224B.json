@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-28T17:04:07Z",
-  "totalQuestions": 278,
+  "updatedAt": "2026-10-28T17:05:22Z",
+  "totalQuestions": 316,
   "tier": "verified",
   "questions": [
     {
@@ -482,6 +482,27 @@
       "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
+      "question": "A certified wireless professional wishes to extend the range of the existing IEEE 802.11n network without changing the AP. What can the administrator do to accomplish this?",
+      "answer": "Deploy a Wi-Fi Repeater.",
+      "choices": [
+        "a. Split the wireless traffic between the 802.11n 2.4 GHz band and the 5 GHz band.",
+        "b. Change to WPA2 authentication.",
+        "c. Upgrade the firmware on the AP.",
+        "d. Deploy a Wi-Fi Repeater."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "A Cisco enhancement of RSTP to provide a spanning tree instance for each vlan is called STP.",
       "answer": "False",
       "choices": [
@@ -550,6 +571,25 @@
       "lastVerifiedAt": "2026-10-06T09:51:19Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A network administrator discovers a visitor is trying to flood an AP with deauthentication frames. After some interrogation the security department finds out he is from a competitor company. The attack the visitor used is called jamming.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "A network administrator is analyzing the differences between an EIGRP hold timer and EIGRP hello interval. What statement is valid about EIGRP hello and hold timers?",
@@ -899,6 +939,27 @@
       "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
+      "question": "A remote class room can successfully access video-intensive streaming lectures via wired computers. However, when an 802.11n wireless access point is installed and used with 25 wireless laptops to access the same lectures, poor audio and video quality is experienced. Which wireless solution would improve the performance for the laptops?",
+      "answer": "Add another access point.",
+      "choices": [
+        "a. Upgrade the access point to one that can route.",
+        "b. Add another access point.",
+        "c. Decrease the power of the wireless transmitter.",
+        "d. Adjust the wireless NICs in the laptops to operate at 10GHz to be compatible with 802.11n."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "A router is running an EIGRP process and obtaining updates from other routers. What is an indication within the routing table that a route is a candidate for a default route?",
       "answer": "*",
       "choices": [
@@ -1074,17 +1135,21 @@
         "a. 2.4Ghz",
         "b. 3Ghz",
         "c. 900Mhz",
-        "d. 5Ghz"
+        "d. 5Ghz",
+        "a. 900Mhz",
+        "b. 2.4Ghz",
+        "c. 5Ghz",
+        "d. 3Ghz"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T14:01:32Z"
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "Among the 802.11 standards what is the maximum speed of 802.11a?",
@@ -1109,6 +1174,27 @@
       "lastVerifiedAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Among the 802.11 standards what is the maximum speed of 802.11g?",
+      "answer": "54Mb/s",
+      "choices": [
+        "a. 64Mb/s",
+        "b. 2Mb/s",
+        "c. 54Mb/s",
+        "d. 600Mb/s"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "Among the choices below, which protocol specified by RFC 2281 provides network redundancy for IP networks, ensuring that user traffic immediately and transparently recovers from first-hop failures in network edge devices or access circuits?",
@@ -1175,23 +1261,48 @@
       "lastVerifiedAt": "2026-10-23T15:10:52Z"
     },
     {
-      "question": "Among the listed below what organization that set or influence WLAN standards?",
-      "answer": "IEEE",
+      "question": "Among the listed below what advantage do a WLAN router offers vs. access point?",
+      "answer": "Increase in security",
       "choices": [
-        "a. IEEE",
-        "b. FBI",
-        "c. APEC",
-        "d. AWG"
+        "a. Increase in users capacity",
+        "b. Increase in range",
+        "c. Stable connection",
+        "d. Increase in security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "Among the listed below what organization that set or influence WLAN standards?",
+      "answer": "IEEE",
+      "choices": [
+        "a. IEEE",
+        "b. FBI",
+        "c. APEC",
+        "d. AWG",
+        "a. APEC",
+        "b. IEEE",
+        "c. AWG",
+        "d. FBI"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T14:01:32Z"
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "Among the listed below, how can an enterprise network be designed to optimize bandwidth?",
@@ -1234,6 +1345,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
+      "question": "Among the types of wireless attacks, which one basically driving around looking for vulnerable APs to attack. Sometimes unauthorized person will even use drones to try and hack APs on higher floors of a building?",
+      "answer": "War Driving",
+      "choices": [
+        "a. War Driving",
+        "b. Man in the Middle",
+        "c. Jamming",
+        "d. Packet Sniffing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "An ABR in a multiarea OSPF network receives LSAs from its neighbor that identify the neighbor as an ASBR with learned external networks from the Internet. Which LSA type would the ABR send to other areas to identify the ASBR, so that internal traffic that is destined for the Internet will be sent through the ASBR?",
@@ -1286,6 +1418,27 @@
       "lastVerifiedAt": "2026-10-06T09:46:13Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "An architect needs wireless access in the construction office during the construction of a new building. The construction office is in the new building and directly across the road from headquarters. What could be used to satisfy this requirement of needing a narrow area of coverage?",
+      "answer": "Yagi",
+      "choices": [
+        "a. satellite",
+        "b. Yagi",
+        "c. multiple MIMO antennas",
+        "d. omnidirectional"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "An ASBR generates type 5 LSAs for each of its external routes and floods them into the area that it is connected to.",
@@ -1376,6 +1529,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "As describe in wireless lan technology standard which three Wi-Fi standards operate in the 2.4GHz range of frequencies?",
+      "answer": "802.11b, 812.11g & 802.11n",
+      "choices": [
+        "a. 802.11ac, 802.11a & 802.11d",
+        "b. 802.11b, 812.11g & 802.11n",
+        "c. 802.11b, 802.11ac & 802.11a",
+        "d. 802.11n, 802.11g & 802.11ac"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "As discussed in chapter 1, the duplication of devices, services, or connections so that, in the event of a failure, the redundant devices, services , or connections can perform the work of those that failed.",
       "answer": "Redundancy",
       "choices": [
@@ -1440,6 +1614,48 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
+      "question": "As discussed in link aggregation chapter, what are two advantages of using LACP?",
+      "answer": "allows use of multivendor devices & allows automatic formation of EtherChannel links",
+      "choices": [
+        "a. allows use of multivendor devices & allows automatic formation of EtherChannel links",
+        "b. provides a simulated environment for testing link aggregation & increases redundancy to Layer 3 devices",
+        "c. decreases the amount of configuration that is needed on a switch for EtherChannel & increases redundancy to Layer 3 devices",
+        "d. eliminates the need for the spanning-tree protocol & allows automatic formation of EtherChannel links"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "As discussed in link aggregation what are two requirements to be able to configure an EtherChannel between two switches?",
+      "answer": "All the interfaces need to work at the same speed & need to be working in the same duplex mode.",
+      "choices": [
+        "a. All the interfaces need to work at the same speed & need to be working in the same duplex mode.",
+        "b. All interfaces need to be assigned to different VLANs & need to be working in the same duplex mode.",
+        "c. Different allowed ranges of VLANs must exist on each end & need to be working in the same duplex mode.",
+        "d. The interfaces that are involved need to be contiguous on the switch & All interfaces need to be assigned to different VLANs"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "As discussed in link state advertisement which two statements correctly describe OSPF type 3 LSAs? Type 3 LSAs are used to update routes between OSPF areas. Type 3 LSAs are known as router link entries​. Type 3 LSAs are used for routes to networks outside the OSPF autonomous system​. Type 3 LSAs are known as autonomous system external LSA entries.​ Type 3 LSAs are generated without requiring a full SPF calculation.​",
@@ -1602,6 +1818,27 @@
       "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
+      "question": "As discussed in this chapter which 2 protocols are link aggregation protocols?",
+      "answer": "802.3ad & PagP",
+      "choices": [
+        "a. PAgP & STP",
+        "b. 802.3ad & PagP",
+        "c. STP & RSTP",
+        "d. EtherChannel & STP"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "As discussed in this chapter which statement is true regarding OSPF multi-area adjacencies?",
       "answer": "One logical interface will be a primary link, and the other configured as a secondary link; the secondary link will be established as an unnumbered point-to-point interface.",
       "choices": [
@@ -1644,6 +1881,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
+      "question": "As discussed in wireless LAN security, an employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?",
+      "answer": "rogue access point",
+      "choices": [
+        "a. cracking",
+        "b. Man in the middle",
+        "c. denial of service",
+        "d. rogue access point"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "As discussed in wireless LAN technologies and standards, what wireless LAN technology that is an IEEE 802.16 WWAN standard that provides wireless broadband access of up to 30mi (50km)?",
@@ -1790,7 +2048,11 @@
         "c. providing redundant links that dynamically block or forward traffic",
         "a. providing redundant devices to allow traffic to flow in the event of device failure",
         "b. grouping two devices to share a virtual IP address",
-        "c. providing redundant devices to allow traffic to flow in the event of device failure"
+        "c. providing redundant devices to allow traffic to flow in the event of device failure",
+        "a. grouping two devices to share a virtual IP address.",
+        "b. grouping multiple physical ports to increase bandwidth between two switches.",
+        "c. providing redundant links that dynamically block or forward traffic.",
+        "d. providing redundant devices to allow traffic to flow in the event of device failure."
       ],
       "wrongAnswers": [],
       "verified": true,
@@ -1799,7 +2061,13 @@
       "firstSeenAt": "2026-09-23T14:38:50Z",
       "lastVerifiedAt": "2026-10-06T09:47:35Z",
       "source": "review_screen",
-      "questionType": "multichoice"
+      "questionType": "multichoice",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "grouping multiple physical ports to increase bandwidth between two switches.",
+          "timestamp": "2026-10-28T17:05:22Z"
+        }
+      ]
     },
     {
       "question": "ASBRs are capable of summarizing which type of routes?",
@@ -1931,6 +2199,27 @@
       "lastVerifiedAt": "2026-10-23T15:29:44Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "During a Cisco certification exam, a network engineer is configuring a small network as shown below, an etherChannel was configured between switches S1 and S2, but the interfaces do not form an EtherChannel. What is the problem? [Image: [moodle-asset:6347472/q.png]]",
+      "answer": "The EtherChannel was not configured with the same allowed range of VLANs on each interface.",
+      "choices": [
+        "a. The switch ports have to be configured as access ports with each port having a VLAN assigned.",
+        "b. The EtherChannel was not configured with the same allowed range of VLANs on each interface.",
+        "c. The interface port-channel number has to be different on each switch.",
+        "d. The interface port-channel number has to be different on each switch."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "During checking of routing table, a network engineer notices the following entry: O*E2 0.0.0.0/0 [110/1] via 192.168.16.3, 00:20:22, Serial0/0/0 What information can be gathered from this output?",
@@ -2071,6 +2360,48 @@
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
+      "question": "During the wireless implementation planning what type of wireless antenna is best suited for providing coverage in large open spaces, such as hallways or large conference rooms?",
+      "answer": "omnidirectional",
+      "choices": [
+        "a. omnidirectional",
+        "b. directional",
+        "c. Yagi",
+        "d. parabolic dish"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "During which stage of establishing connectivity between a WLAN client and an AP does the client learn the MAC address of the AP?",
+      "answer": "association",
+      "choices": [
+        "a. association",
+        "b. authentication",
+        "c. encryption",
+        "d. discovery"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "How many switches in a network must be running STP or RSTP in order to avoid broadcast storms?",
@@ -2352,6 +2683,69 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
+      "question": "In Cisco APs that operate in a home environment and Cisco APs that operate in a corporate environment what is the most likely advantage of corporate access points?",
+      "answer": "Many corporate AP models can operate in either autonomous mode or controller-based mode.",
+      "choices": [
+        "a. Many corporate AP models can operate in either autonomous mode or controller-based mode.",
+        "b. Autonomous APs are used only in the home environment, and they incorporate the functions of a router, switch, and AP into one device.",
+        "c. Cisco corporate APs do not support PoE.",
+        "d. Controller-based APs are used in the corporate environment, and they are server-dependent devices that require an initial configuration to operate."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "In comparison with Cisco APs that operate in a home environment and Cisco APs that operate in a corporate environment, what is the difference?",
+      "answer": "Most corporate AP models can operate in either autonomous mode or controller-based mode.",
+      "choices": [
+        "a. Corporate APs will not work without its controller.",
+        "b. Controller-based APs are used in the corporate environment, and they are server-dependent devices that require an initial configuration to operate.",
+        "c. Autonomous APs are used only in the home environment, and they incorporate the functions of a router, switch, and AP into one device.",
+        "d. Most corporate AP models can operate in either autonomous mode or controller-based mode."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "In configuring Etherchannels which mode configuration setting would allow formation of an EtherChannel link between switches SW1 and SW2 without sending negotiation traffic?",
+      "answer": "SW1: on SW2: on",
+      "choices": [
+        "a. SW1: desirable SW2: desirable",
+        "b. SW1: auto SW2: auto PortFast enabled on both switches",
+        "c. SW1: auto SW2: auto trunking enabled on both switches",
+        "d. SW1: on SW2: on"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "In configuring OSPF authentication which two pieces of information are used by the OSPF MD5 algorithm to generate a signature?",
@@ -2792,6 +3186,27 @@
       "lastVerifiedAt": "2026-10-06T10:01:56Z"
     },
     {
+      "question": "In Scaling Networks course, link aggregation should be implemented at which layer of the hierarchical network?",
+      "answer": "Access, distribution, and core",
+      "choices": [
+        "a. Access, distribution, and core",
+        "b. Core only",
+        "c. Access and distribution",
+        "d. Distribution and core"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "In scaling networks what command pertains to propagating a default route?",
       "answer": "Ip route 0.0.0.0 0.0.0.0 192.200.1.2",
       "choices": [
@@ -2864,6 +3279,69 @@
       "firstSeenAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
+    },
+    {
+      "question": "In specific 802.11 wireless lan standard what frequency band is assigned for 802.11a?",
+      "answer": "5Ghz",
+      "choices": [
+        "a. 2.4Ghz",
+        "b. 2.4Mhz",
+        "c. 5Ghz",
+        "d. 5Mhz"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "In specific 802.11 wireless lan standard what maximum speed can 802.11ac reach?",
+      "answer": "1300Mbps",
+      "choices": [
+        "a. 11Mbps",
+        "b. 54Mbps",
+        "c. 600Mbps",
+        "d. 1300Mbps"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "In specific 802.11 wireless lan standard what maximum speed can 802.11n reached?",
+      "answer": "600Mbps",
+      "choices": [
+        "a. 600Mbps",
+        "b. 128Mbps",
+        "c. 1Gps",
+        "d. 54Mbps"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "In terms of network reliability, the ability of a network to be up most of the time. Sometimes referred to as 99.999, or \"five nines\".",
@@ -2941,14 +3419,15 @@
         "d. WLAN",
         "a. Wi-fi(Wireless Fidelity)",
         "b. WPAN",
-        "c. WIMAX"
+        "c. WIMAX",
+        "d. WPAN"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:48:31Z",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3024,6 +3503,27 @@
       "firstSeenAt": "2026-10-04T15:16:10Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T09:47:58Z"
+    },
+    {
+      "question": "In troubleshooting EtherChannels as shown in the diagram below. An EtherChannel was configured between switches S1 and S2, but the interfaces do not form an EtherChannel. What is the problem? [Image: [moodle-asset:6347419/q.png]]",
+      "answer": "The EtherChannel was not configured with the same allowed range of VLANs on each interface.",
+      "choices": [
+        "a. The interface port-channel number has to be different on each switch.",
+        "b. The switch ports were not configured with speed and duplex mode.",
+        "c. The switch ports have to be configured as access ports with each port having a VLAN assigned.",
+        "d. The EtherChannel was not configured with the same allowed range of VLANs on each interface."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "In troubleshooting OSPF issues which command is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?",
@@ -3117,6 +3617,27 @@
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
+      "question": "In understanding link aggregation what is a best practice to use before beginning an EtherChannel implementation?",
+      "answer": "Shut down each of the affected interfaces.",
+      "choices": [
+        "a. Assign affected interfaces to the management VLAN.",
+        "b. Assign affected interfaces to VLAN 1.",
+        "c. Shut down each of the affected interfaces.",
+        "d. Enable each of the affected interfaces."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "In understanding multiarea OSPF network which statement describes a multiarea OSPF network?",
       "answer": "It has a core backbone area with other areas connected to the backbone area.",
       "choices": [
@@ -3208,6 +3729,27 @@
       "lastVerifiedAt": "2026-10-06T10:04:45Z"
     },
     {
+      "question": "In understanding wireless LAN technology and standards, what is the maximum data rate specified for IEEE 802.11g WLANs?",
+      "answer": "54Mbps",
+      "choices": [
+        "a. 2Mbps",
+        "b. 54Mbps",
+        "c. 600Mbps",
+        "d. 100Mbps"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "In verifying multiarea OSPF which command can be used to verify the contents of the LSDB in an OSPF area?",
       "answer": "show ip ospf database",
       "choices": [
@@ -3253,6 +3795,27 @@
       "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
+      "question": "In wireless LAN security what is an advantage of SSID cloaking?",
+      "answer": "Clients will have to manually identify the SSID to connect to the network.",
+      "choices": [
+        "a. It is the best way to secure a wireless network.",
+        "b. Clients will have to manually identify the SSID to connect to the network.",
+        "c. It provides free Internet access in public locations where knowing the SSID is of no concern.",
+        "d. SSIDs are very difficult to discover because APs do not broadcast them."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "In wireless LAN standards what wireless LAN technology that is an IEEE 802.15 WPAN standard; uses a device pairing process to communicate over distance up to .05 mile (100m)?",
       "answer": "Bluetooth",
       "choices": [
@@ -3265,14 +3828,17 @@
         "c. None of the choices",
         "d. Wi-Fi",
         "c. Wi-Fi",
-        "d. None of the choices"
+        "d. None of the choices",
+        "b. Bluetooth",
+        "a. Wi-Fi",
+        "b. None of the choices"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-06T09:48:31Z",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3287,17 +3853,18 @@
         "a. WLAN",
         "b. Bluetooth",
         "c. Wi-Fi",
-        "d. WIMAX"
+        "d. WIMAX",
+        "b. WIMAX"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-05T14:01:52Z"
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "Internal router is a router that has all of its interfaces in the same area.",
@@ -3316,6 +3883,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "It is known as WiGig and operates using a tri-band solution in the 2.4, 5, and 60 GHz ranges in IEEE wireless standard?",
+      "answer": "802.11ad",
+      "choices": [
+        "a. 802.11ad",
+        "b. 802.11g",
+        "c. 802.11ac",
+        "d. 802.11n"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "Link aggregation should be implemented at which layer of the hierarchical network?",
       "answer": "Access, distribution, and core",
       "choices": [
@@ -3328,14 +3916,16 @@
         "d. Distribution and core",
         "b. Access and distribution",
         "c. Distribution and core",
-        "d. Network layer"
+        "d. Network layer",
+        "a. Network layer",
+        "b. Access, distribution, and core"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-06T09:48:31Z",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3900,6 +4490,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "The senior network administrator discovers a rogue AP in the network. The rogue AP is capturing traffic and then forwarding it on to the legitimate AP. What type of attack is this?",
+      "answer": "Man in the middle",
+      "choices": [
+        "a. WEP/WPA attacks",
+        "b. Ninja moves",
+        "c. Man in the middle",
+        "d. Jamming"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "The show ip ospf interface command use to verify active RIP interfaces.",
       "answer": "False",
       "choices": [
@@ -3998,6 +4609,48 @@
       "lastVerifiedAt": "2026-10-23T15:27:40Z"
     },
     {
+      "question": "The trunk link between two 2960 switches has reached its capacity. How can solve this problem in the most economical way?",
+      "answer": "Combine physical ports into a high-speed logical link by configuring EtherChannel.",
+      "choices": [
+        "a. Replace the two 2960 switches with highier port capacity switches.",
+        "b. Increase the speed of the ports.",
+        "c. Decrease the size of the inter-switch collision domain by configuring additional VLANs.",
+        "d. Combine physical ports into a high-speed logical link by configuring EtherChannel."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "The use of PAgP to create EtherChannels is discussed in link aggregation chapter as part of Scaling Network. Which statement below as discussed in this course is true about PagP?",
+      "answer": "It is a Cisco Proprietary",
+      "choices": [
+        "a. It requires more physical links than LACP does.",
+        "b. It mandates that an even number of ports (2, 4, 6, etc.) be used",
+        "c. It increases the number of ports that are participating in spanning tree.",
+        "d. It is a Cisco Proprietary"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "The wildcard mask that is used to advertise exactly the network 192.168.160.0 with subnet mask 255.255.240.0 is [____: 0.0.15.255]",
       "answer": "0.0.15.255",
       "choices": [],
@@ -4049,6 +4702,27 @@
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
     },
     {
+      "question": "This wireless attack comes from an old term called war dialing, where people would dial random phone numbers in search of modems. It is basically people driving around looking for vulnerable APs to attack. What wireless attack is this?",
+      "answer": "War driving",
+      "choices": [
+        "a. Jamming",
+        "b. Bluetooth",
+        "c. Password theft",
+        "d. War driving"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "Two routers, R1 and R2, have established an EIGRP neighbor relationship, but there is still a connectivity problem. Which issue could be causing this problem??",
       "answer": "an access list that is blocking advertisements from other networks",
       "choices": [
@@ -4096,10 +4770,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:48:31Z"
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "Understanding scaling networks, which feature supports higher throughput in switched networks by combining multiple switch ports?",
@@ -4117,9 +4791,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-23T13:58:50Z",
-      "lastVerifiedAt": "2026-10-06T09:48:31Z",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4172,6 +4846,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Using 2 switches, which PAgP mode combination will establish an EtherChannel?",
+      "answer": "switch 1 set to desirable; switch 2 set to desirable.",
+      "choices": [
+        "a. switch 1 set to on; switch 2 set to desirable.",
+        "b. switch 1 set to auto; switch 2 set to on.",
+        "c. switch 1 set to desirable; switch 2 set to desirable.",
+        "d. switch 1 set to auto; switch 2 set to auto."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "Using LACP, besides of being a multivendor protocol which among the listed below describes as it advantage?",
       "answer": "allows automatic formation of EtherChannel links",
       "choices": [
@@ -4193,6 +4888,27 @@
       "lastVerifiedAt": "2026-10-05T14:01:52Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "Using PagP as range of ports to be configured as etherchannel, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+      "answer": "auto",
+      "choices": [
+        "a. active",
+        "b. pasive",
+        "c. auto",
+        "d. desirable"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "What are the building blocks of OSPF?",
@@ -4550,6 +5266,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "What is the maximum data rate specified for IEEE 802.11b WLANs as described in wireless standards?",
+      "answer": "11 Mbps",
+      "choices": [
+        "a. 100 Mbps",
+        "b. 54 Mbps",
+        "c. 10 Mbps",
+        "d. 11 Mbps"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "What is the most likely effect on the topology if Spanning Tree Protocol has been disabled?",
       "answer": "Broadcast storm",
       "choices": [
@@ -4775,14 +5512,15 @@
         "c. Jamming",
         "d. Packet Sniffing",
         "a. Packet Sniffing",
-        "d. War Driving"
+        "d. War Driving",
+        "c. Packet Sniffing"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-06T09:48:31Z",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4793,17 +5531,20 @@
         "a. active",
         "b. desirable",
         "c. passive",
-        "d. auto"
+        "d. auto",
+        "b. passive",
+        "c. auto",
+        "d. desirable"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T09:48:31Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:48:31Z"
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP on a port only if the port receives LACP packets from another device?",
@@ -5089,6 +5830,27 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Which certificating body certifies vendors for adherence to the 802.11 standards to improve interoperability of 802.11 products?",
+      "answer": "Wi-Fi Alliance",
+      "choices": [
+        "a. EE",
+        "b. FCC",
+        "c. Wi-Fi Alliance",
+        "d. IEEE"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
       "question": "Which classless routing protocol supports VLSM and CIDR, supports manual route summarization, and uses the multicast address 224.0.0.9?",
       "answer": "RIPv2",
       "choices": [
@@ -5131,6 +5893,27 @@
       "firstSeenAt": "2026-10-06T10:00:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:03:20Z"
+    },
+    {
+      "question": "Which command listed below will initiate etherchannel interface configuration mode?",
+      "answer": "interface port-channel interface-identifier",
+      "choices": [
+        "a. interface range interface-identifier",
+        "b. interface interface-identifier",
+        "c. interface port-channel interface-identifier",
+        "d. channel-group group-identifier"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "Which command statement below will a network engineer issue to verify the configured hello and dead timer intervals on a point-to-point WAN link between two routers that are running OSPFv2?",
@@ -6017,6 +6800,48 @@
       "questionType": "multichoice",
       "wrongAnswerEvidence": true,
       "lastEvidenceAt": "2026-10-06T10:10:08Z"
+    },
+    {
+      "question": "Which type of wireless antenna is best suited for providing coverage in large open spaces, such as hallways or large conference rooms?",
+      "answer": "Omnidirectional",
+      "choices": [
+        "a. Yagi",
+        "b. Omnidirectional",
+        "c. VHF antenna",
+        "d. Space sattelite"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
+    },
+    {
+      "question": "Which wireless network topology is being configured by a IT technician who is installing a keyboard, a mouse, and headphones, each of which uses Bluetooth?",
+      "answer": "ad hoc mode",
+      "choices": [
+        "a. Bluetooth mode",
+        "b. ad hoc mode",
+        "c. infrastructure mode",
+        "d. hotspot"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:05:22Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:05:22Z"
     },
     {
       "question": "Whichamong the listed below describes an EtherChannel implementation as mentioned in Link Aggregation chapter?",
