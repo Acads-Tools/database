@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-28T02:41:02Z",
-  "totalQuestions": 57,
+  "updatedAt": "2026-10-28T02:45:57Z",
+  "totalQuestions": 76,
   "questions": [
     {
       "question": "_____ is a command line interface that lets you run Unix commands to explore _____ is a command line interface that lets you run Unix commands to explore directories, execute scripts, and work with Python",
@@ -51,6 +51,65 @@
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
     },
     {
+      "question": "A bottom-up parser uses a stack to store both state and sentential forms.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
+      "question": "A grammar in Chomsky Normal Form have no rules of the form.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
+      "question": "A hand-made scanner basic approach is to ready one or more characters at a time.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
       "question": "A hand-made scanner its basic approach is to ready one or more characters at a time.",
       "answer": "b. False",
       "choices": [
@@ -86,6 +145,46 @@
       ]
     },
     {
+      "question": "A parser is a compiler or interpreter component that breaks data into smaller elements for easy translation into another language.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
+      "question": "A parser takes output in the form of a sequence of tokens or program instructions and usually builds a data structure in the form of a parse tree or an abstract syntax tree.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
       "question": "A top-down parser is that a parse tree created by bottom to top.",
       "answer": "False",
       "choices": [
@@ -101,6 +200,27 @@
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
+    },
+    {
+      "question": "A variable that is being (partially) defined by the production.",
+      "answer": "Head of the production",
+      "choices": [
+        "a. Body of the production",
+        "b. Middle of the production",
+        "c. End of the production",
+        "d. Head of the production"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "An approach in parsing that starts with the start symbol and apply the productions until it arrives at the desired string.",
@@ -141,6 +261,25 @@
       "firstSeenAt": "2026-10-11T18:25:54Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
+    },
+    {
+      "question": "An important consequence of the Greibach Normal Form is that every non terminal isnot right recursive.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "Another approach in parsing that starts with the string and reduce it to the start symbol by applying the productions backwards",
@@ -210,17 +349,19 @@
         "D. Scanner",
         "A. Hand-made Scanner",
         "B. Scanner",
-        "C. NOTA"
+        "C. NOTA",
+        "c. Regular Expressions",
+        "d. Hand-made Scanner"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:41:02Z"
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "Backtracking come up in every stage of the compiler with an unexpected item that doesn't match the current objective, so it must be put back.",
@@ -254,6 +395,10 @@
         {
           "rejectedAnswer": "True",
           "timestamp": "2026-10-28T02:19:10Z"
+        },
+        {
+          "rejectedAnswer": "True",
+          "timestamp": "2026-10-28T02:45:57Z"
         }
       ]
     },
@@ -281,6 +426,46 @@
           "timestamp": "2026-10-18T14:24:51Z"
         }
       ]
+    },
+    {
+      "question": "Context-free grammar consists of a finite set of grammar rules.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
+      "question": "Finite Automation (FA) is an abstract machine that can be used to certain forms of analysis.",
+      "answer": "b. False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "True"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "Finite Automation (FA) is an abstract machine that can be used to certain forms of computation.",
@@ -334,10 +519,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:41:02Z"
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "If you execute the following expression, what is the output? >>> 3 + 5 * 2",
@@ -409,6 +594,25 @@
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
     },
     {
+      "question": "In CFG, grammars are used to generate recognize strings, rather than strings.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
       "question": "In programming, a crash is when your program stops early or freezes because something unexpected happened",
       "answer": "True",
       "choices": [
@@ -426,6 +630,25 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
+    },
+    {
+      "question": "In the compiler model, the parser obtains a string of tokens from the lexical analyzer, and verifies that the string can be generated by the grammar for the source language.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "In this function definition, the variable \"name\" is _____def hello(name): print(\"Hey,\", name)",
@@ -562,6 +785,27 @@
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
     },
     {
+      "question": "Kind of symbols which behave like variables ranging over strings of terminals.",
+      "answer": "non-terminals",
+      "choices": [
+        "a. Numeric",
+        "b. polarity",
+        "c. non-terminals",
+        "d. variables"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
       "question": "Multiple statements grouped together are called a _____",
       "answer": "block",
       "choices": [
@@ -583,6 +827,46 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
+    },
+    {
+      "question": "Parsers is sometimes called lexical analyzer or lexers.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
+      "question": "Part of production rule that represents one way to form strings in the language of the variable of the head.",
+      "answer": "Body of the production",
+      "choices": [
+        "a. Middle of the production",
+        "b. End of the productionEnd of the production",
+        "c. Head of the production",
+        "d. Body of the production"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "Placing some restrictions on how to process the input is done in creating a parser for a compiler.",
@@ -642,6 +926,25 @@
       "firstSeenAt": "2026-10-11T18:13:44Z",
       "source": "amauoed",
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
+    },
+    {
+      "question": "Recursive analysis and derivation are equivalent.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "Scanners is sometimes called lexical analyzer or lexers.",
@@ -769,6 +1072,44 @@
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
     },
     {
+      "question": "The parser collects sufficient number of tokens and builds a parse tree.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
+      "question": "The parser does not return any syntax error for the source language.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
       "question": "The scanner returns TOKEN NOT and will consume the put-back character on the next call to scan token.",
       "answer": "True",
       "choices": [
@@ -780,10 +1121,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:41:02Z"
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
+      "question": "The symbols of the alphabet underlying the languages under consideration",
+      "answer": "terminals",
+      "choices": [
+        "a. variables",
+        "b. Numeric",
+        "c. polarity",
+        "d. terminals"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "These are seen in order appearance in the token stream.",
@@ -897,6 +1259,27 @@
       "lastVerifiedAt": "2026-10-28T02:41:02Z"
     },
     {
+      "question": "Used as a symbol for Production rule.",
+      "answer": "Arrow pointing to the right",
+      "choices": [
+        "a. Arrow pointing downwards",
+        "b. Arrow pointing to the right",
+        "c. Arrow pointing to the left",
+        "d. Arrow pointing upwards"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:45:57Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
+    },
+    {
       "question": "What are the category on most languages have tokens?",
       "answer": "All of the above",
       "choices": [
@@ -908,17 +1291,18 @@
         "B. Keywords",
         "C. Identifiers",
         "D. Numbers",
-        "C. Numbers"
+        "C. Numbers",
+        "d. All of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:41:02Z"
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "What does this expression evaluate to? 2 * 3 + 2 * 5",
@@ -973,17 +1357,20 @@
         "A. The process of identifying tokens from the raw text source code of a program.",
         "B. Are words in the language structure itself, like while or class or true.",
         "C. Are literal character sequences that must be clearly distinguished from keywords or identifiers.",
-        "D. NOTA"
+        "D. NOTA",
+        "a. Are literal character sequences that must be clearly distinguished from keywords or identifiers.",
+        "c. NOTA",
+        "d. The process of identifying tokens from the raw text source code of a program."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:41:02Z"
+      "lastVerifiedAt": "2026-10-28T02:45:57Z"
     },
     {
       "question": "What is the output of the following program?defisEven(num): return num % 2 = 0 if isEven(3): print(\"3 is even\") else: print(\"3 is not even\")",
