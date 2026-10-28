@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-28T11:35:09Z",
+  "updatedAt": "2026-10-28T11:42:08Z",
   "totalQuestions": 186,
   "questions": [
     {
@@ -142,9 +142,9 @@
         "b. Internal Drive"
       ],
       "verified": true,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T11:35:09Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internal Drive"
@@ -234,12 +234,13 @@
         "a. Floppy Disk",
         "c. Flash Drive",
         "d. Memory Card",
-        "b. Flash Drive"
+        "b. Flash Drive",
+        "d. Hard Drive"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -267,9 +268,9 @@
         "c. Magnetic disk"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T11:35:09Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -440,12 +441,13 @@
         "c. Transparent Mode",
         "a. PCI",
         "a. Burst mode",
-        "b. Burst mode"
+        "b. Burst mode",
+        "c. Cycle stealing mode"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -615,9 +617,9 @@
         "c. Keyboard"
       ],
       "verified": true,
-      "confirmations": 32,
+      "confirmations": 33,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:06:50Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -722,12 +724,14 @@
         "d. Printer",
         "c. Keyboard",
         "d. Mouse",
-        "a. Mouse"
+        "a. Mouse",
+        "b. Keyboard",
+        "c. Headset"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -751,12 +755,13 @@
         "d. Redundant Array of Dependent Disks",
         "c. Floppy Disk",
         "b. Floppy Disk",
-        "d. Redundant Array of Independent Disks"
+        "d. Redundant Array of Independent Disks",
+        "d. Hard Disk"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T11:35:09Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -890,9 +895,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 32,
+      "confirmations": 33,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:06:50Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1084,12 +1089,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:42:19Z"
+      "lastVerifiedAt": "2026-10-28T11:42:08Z"
     },
     {
       "question": "Any peripheral device that is not housed inside the computer cabinet.",
@@ -1106,12 +1111,15 @@
         "a. External Devices",
         "c. Floppy Disk",
         "d. Hard Drive",
-        "b. Hard Drive"
+        "b. Hard Drive",
+        "a. Internal Devices",
+        "b. Floppy Disk",
+        "c. External Devices"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1129,12 +1137,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:42:19Z"
+      "lastVerifiedAt": "2026-10-28T11:42:08Z"
     },
     {
       "question": "Approximately a trillion (10 ) bytes.",
@@ -1398,12 +1406,13 @@
         "a. 185 TB",
         "c. 185 EB",
         "b. 185 TB",
-        "c. 185 GB"
+        "c. 185 GB",
+        "c. 186 KB"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1491,12 +1500,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:42:19Z"
+      "lastVerifiedAt": "2026-10-28T11:42:08Z"
     },
     {
       "question": "Driven by the motherboard, received by the PCI card",
@@ -1648,12 +1657,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:42:19Z"
+      "lastVerifiedAt": "2026-10-28T11:42:08Z"
     },
     {
       "question": "If you have 4 bits, you make one ______",
@@ -2101,9 +2110,9 @@
         "b. Data buffering"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2176,9 +2185,9 @@
         "a. I/O Modules"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2206,9 +2215,9 @@
         "b. External Memory"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2851,9 +2860,9 @@
         "b. 1950"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2880,9 +2889,9 @@
         "c. 1928"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2973,12 +2982,13 @@
         "c. Floppy Disk",
         "b. Hard Drive",
         "c. Flash Drive",
-        "d. Flash Drive"
+        "d. Flash Drive",
+        "a. USB port"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3347,9 +3357,9 @@
         "d. Direct Memory Access"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3424,6 +3434,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-17T16:42:19Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T11:42:08Z"
         }
       ]
     },
@@ -3501,13 +3515,13 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-17T16:35:12Z",
-      "lastVerifiedAt": "2026-10-17T16:42:19Z"
+      "lastVerifiedAt": "2026-10-28T11:42:08Z"
     },
     {
       "question": "The following are MODES OF OPERATION (DMA), except:",
@@ -3520,19 +3534,20 @@
         "a. CYCLE STEALING MODE",
         "b. REITERATIVE MODE",
         "c. BURST MODE",
-        "d. TRANSPARENT MODE"
+        "d. TRANSPARENT MODE",
+        "d. REITERATIVE MODE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T16:35:12Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:42:19Z"
+      "lastVerifiedAt": "2026-10-28T11:42:08Z"
     },
     {
       "question": "The hard disk drive forms the brain of the Central Processing Unit",
@@ -3757,9 +3772,9 @@
         "d. External Hard Drive"
       ],
       "verified": true,
-      "confirmations": 23,
+      "confirmations": 24,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -4054,9 +4069,9 @@
         "d. I/O Module"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -4182,7 +4197,8 @@
       "questionType": "shortanswer",
       "wrongAnswers": [
         "Input/Output (I/O)",
-        "Input/Output"
+        "Input/Output",
+        "Communication mechanism"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -4192,7 +4208,7 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-17T16:42:19Z"
+      "lastEvidenceAt": "2026-10-28T11:42:08Z"
     },
     {
       "question": "This person gave the TedTalk \"You should Learn to Program\"",
@@ -4434,12 +4450,13 @@
         "b. User Network Internet",
         "b. User Neutral Interface",
         "c. User Network Interface",
-        "d. User Network Internet"
+        "d. User Network Internet",
+        "c. User Natural Interface"
       ],
       "verified": true,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:48Z",
+      "lastVerifiedAt": "2026-10-28T11:42:08Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
