@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-28T10:30:49Z",
+  "updatedAt": "2026-10-28T10:31:36Z",
   "totalQuestions": 133,
   "tier": "verified",
   "questions": [
@@ -961,7 +961,8 @@
         "c. IT Security",
         "d. Data Security",
         "e. Operational Security",
-        "f. Web Security"
+        "f. Web Security",
+        "a. Personnel Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -978,6 +979,10 @@
         {
           "answer": "Physical Security, Personnel Security, IT Security, Operational Security",
           "timestamp": "2026-10-28T10:30:49Z"
+        },
+        {
+          "answer": "Personnel Security, IT Security, Physical Security, Operational Security",
+          "timestamp": "2026-10-28T10:31:36Z"
         }
       ]
     },
@@ -1410,19 +1415,21 @@
         "c. Personnel Security",
         "d. IT Security",
         "b. Personnel Security",
-        "c. Physical Security"
+        "c. Physical Security",
+        "a. IT Security",
+        "d. Operational Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T16:56:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:31:36Z"
     },
     {
       "question": "Is data endowed with relevance and purpose.",
@@ -1752,19 +1759,22 @@
         "c. Desired Effects",
         "d. Data",
         "a. Data",
-        "d. Information"
+        "d. Information",
+        "b. Data",
+        "c. Attacker's Operations",
+        "d. Desired Effects"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T16:56:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:31:36Z"
     },
     {
       "question": "Physical security consist in the closure of IT equipment in a dedicated space and the provision of access control.",
@@ -1805,10 +1815,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:31:36Z"
     },
     {
       "question": "Protection against unauthorized modification or destruction of information",
@@ -2845,7 +2855,10 @@
         "a. Desired Effects",
         "b. Perceptual",
         "d. Frameworks",
-        "e. Physical"
+        "e. Physical",
+        "a. Perceptual",
+        "b. Conceptual",
+        "c. Desired Effects"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2862,6 +2875,10 @@
         {
           "answer": "Desired Effects, Perceptual, Physical",
           "timestamp": "2026-10-28T10:30:49Z"
+        },
+        {
+          "answer": "Perceptual, Desired Effects, Physical",
+          "timestamp": "2026-10-28T10:31:36Z"
         }
       ]
     },
