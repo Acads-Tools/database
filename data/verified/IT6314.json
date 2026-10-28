@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:13:24Z",
+  "updatedAt": "2026-10-28T03:14:57Z",
   "totalQuestions": 264,
   "tier": "verified",
   "questions": [
@@ -1998,7 +1998,10 @@
         "a. 1234567891011",
         "b. 12345678910",
         "c. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
-        "d. After for loop"
+        "d. After for loop",
+        "b. error",
+        "c. red",
+        "b. In for loop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2007,7 +2010,9 @@
         "infinite loop",
         "12345678910",
         "-3-4-5",
-        "In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely"
+        "In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
+        "error",
+        "In for loopAfter for loop"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -2088,7 +2093,7 @@
           "timestamp": "2026-10-28T03:13:02Z"
         }
       ],
-      "lastEvidenceAt": "2026-10-17T12:16:19Z"
+      "lastEvidenceAt": "2026-10-28T03:14:57Z"
     },
     {
       "question": "MYSQL can be used to:",
@@ -4293,10 +4298,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:03:31Z"
+      "lastVerifiedAt": "2026-10-28T03:14:57Z"
     },
     {
       "question": "What is the function of the ucfirst and lcfirst functions?",
@@ -4312,10 +4317,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:07:23Z"
+      "lastVerifiedAt": "2026-10-28T03:14:57Z"
     },
     {
       "question": "What is the original name of JavaScript?",
@@ -4350,17 +4355,19 @@
         "d. Qwerghzo on off on",
         "a. Qwerghzi on off on",
         "b. Qwerghzi on onon",
-        "c. Qwerghzi off offoff"
+        "c. Qwerghzi off offoff",
+        "a. Qwerghzo on off on",
+        "d. Qwerghzi on off on"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:06:34Z"
+      "lastVerifiedAt": "2026-10-28T03:14:57Z"
     },
     {
       "question": "What is the output of the following code? $a=1; ++$a; $a*=$a; echo $a- -;",
@@ -4557,7 +4564,8 @@
         "c. b",
         "d. error",
         "a. error",
-        "c. no output"
+        "c. no output",
+        "c. abcd"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4566,10 +4574,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:52:29Z",
+      "lastVerifiedAt": "2026-10-28T03:14:57Z",
       "lastEvidenceAt": "2026-10-12T11:06:34Z"
     },
     {
@@ -4880,17 +4888,20 @@
         "c. D",
         "d. C",
         "b. D",
-        "c. B"
+        "c. B",
+        "a. D",
+        "b. C",
+        "d. A"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:43:54Z"
+      "lastVerifiedAt": "2026-10-28T03:14:57Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151150/q8.PNG]]",
@@ -4905,7 +4916,8 @@
         "d. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()",
         "b. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ()",
         "c. Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) Array ( [0] => red )",
-        "d. Array ( [4] => blue [5] => blue [6] => blue) Array ( [0] => red )"
+        "d. Array ( [4] => blue [5] => blue [6] => blue) Array ( [0] => red )",
+        "c. Array ( [4] => blue [5] => blue [6] => blue) Array ( [0] => red )"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4914,11 +4926,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T10:58:42Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:07:23Z",
-      "lastVerifiedAt": "2026-10-12T11:06:34Z"
+      "lastVerifiedAt": "2026-10-28T03:14:57Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151151/q9.PNG]]",
@@ -4932,17 +4944,19 @@
         "c. Array ( [0] => blue [1] => yellow [2] => red [3] => green )",
         "d. Array ( [0] => blue [1] => yellow )",
         "a. Array ( [0] => red [1] => green)",
-        "b. Array ( [0] => red [1] => green [2] => blue [3] => yellow )"
+        "b. Array ( [0] => red [1] => green [2] => blue [3] => yellow )",
+        "b. Array ( [0] => blue [1] => yellow [2] => red [3] => green )",
+        "d. Array ( [0] => red [1] => green)"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:58:42Z"
+      "lastVerifiedAt": "2026-10-28T03:14:57Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:6336234/q1.PNG]]",
