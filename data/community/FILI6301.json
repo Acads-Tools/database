@@ -1,8 +1,8 @@
 {
   "subjectCode": "FILI6301",
   "subjectName": "FILI6301",
-  "updatedAt": "2026-10-28T04:06:34Z",
-  "totalQuestions": 260,
+  "updatedAt": "2026-10-28T04:07:30Z",
+  "totalQuestions": 266,
   "questions": [
     {
       "question": "\"Ang lawiswis ng kawayan sa kabundukan sa isang musika sa pandinig.\" Anong uri ito ng tayutay?",
@@ -319,10 +319,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:15:18Z",
+      "lastVerifiedAt": "2026-10-28T04:07:30Z",
       "alternateAnswers": [
         {
           "answer": "b. False",
@@ -542,19 +542,22 @@
         "a. Konotatibo",
         "b. literary tranlation",
         "c. denotatibo",
-        "d. subhektibo"
+        "d. subhektibo",
+        "a. subhektibo",
+        "b. Konotatibo",
+        "d. literary tranlation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T15:39:56Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T15:39:56Z"
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
       "question": "Ang katangiang subhektibo sa pagsasaling wika ay nagatataglay ng mga pahiwatig na emosyon.",
@@ -1293,6 +1296,25 @@
       "lastVerifiedAt": "2026-10-28T04:04:47Z"
     },
     {
+      "question": "Ang pargamatika ay paglalahad ng lantad at di-lantad na kahulugan ng isang konteksto.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T04:07:30Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
+    },
+    {
       "question": "Ang patakaran sa uri ay tumitiyak sa kahusayan ng tagapagsalin sa iba't ibang uri nng genre na maaraing sumailalim sa pagsasalin.",
       "answer": "True",
       "choices": [
@@ -1471,6 +1493,27 @@
       "firstSeenAt": "2026-10-11T19:53:50Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-17T15:39:56Z"
+    },
+    {
+      "question": "Ang simili, metapora at sinekdoke ay uri ng tayutay na nabibilang sa pangkat na_______.",
+      "answer": "Pag-uugnay",
+      "choices": [
+        "a. Pag-uugnay",
+        "b. pandamdamin",
+        "c. paglalarawan",
+        "d. pagsasatunog"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T04:07:30Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
       "question": "Ang sukat at tugma ay makikita sa tuluyang anyo ng pagsasalin ng tula.",
@@ -1830,6 +1873,27 @@
       "firstSeenAt": "2026-10-11T18:42:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-17T13:43:07Z"
+    },
+    {
+      "question": "Ayon kay ____________ ang wika ay naangkop sa isang partikular at tiyak na sitawasyo.",
+      "answer": "Yule",
+      "choices": [
+        "a. Grice",
+        "b. Yule",
+        "c. fraser",
+        "d. Chomsky"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T04:07:30Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
       "question": "Ayon kay _______________ ang pagsasalin ng tula ay isang larangan kung saan ang diin ay nalalagay sa pagbuo ng isang bago at malayang tula.",
@@ -2624,6 +2688,27 @@
       "lastVerifiedAt": "2026-10-28T02:07:40Z"
     },
     {
+      "question": "Ipinakilala niya ang iba't ibang katangian ng pagsasaling wika.",
+      "answer": "Belhaag",
+      "choices": [
+        "a. Grice",
+        "b. Belhaag",
+        "c. fraser",
+        "d. Yule"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T04:07:30Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
+    },
+    {
       "question": "Ipinakilala niya ang tatlong uri ng pagsasaling wika.",
       "answer": "Roman Jakobson",
       "choices": [
@@ -2960,17 +3045,19 @@
         "a. tugma",
         "b. Talinghaga",
         "c. ritmo",
-        "d. sukat"
+        "d. sukat",
+        "a. sukat",
+        "c. Talinghaga"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T15:39:56Z"
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
       "question": "isang paraan ng pagsasalin kung saan hinihiram ng buo ang salitang isasalin.",
@@ -4080,10 +4167,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:45:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T15:39:56Z"
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
       "question": "Nakapaloob sa salin ang paglalarawan ng damdaming personal saloobin at paniniwala.",
@@ -4296,6 +4383,25 @@
       "firstSeenAt": "2026-10-11T19:50:54Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T19:50:54Z"
+    },
+    {
+      "question": "Pinatunayan ni Nida sa kanyang ibinigay na halimbawa na ang pagsasalin ng ttula sa paraang patula din.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T04:07:30Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
       "question": "Punto ng pagsasaling Wika kung saan dapat batid ng manunulat kung kailan naisulat at kung anong panahon at maging ang kultura.",
@@ -5006,6 +5112,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-17T13:28:11Z"
+    },
+    {
+      "question": "Sina ________________ at _____________ ay mayroong magkatulad na paniniwala kugnay sa pagsasalin ng tula sa paraang patula din",
+      "answer": "Savory at Nida",
+      "choices": [
+        "a. Savory at Santiago",
+        "b. Savory at Newmark",
+        "c. Nida at NewMark",
+        "d. Savory at Nida"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T04:07:30Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
       "question": "Sinabi ni Savory na ang pagiging mabisa ng isang salin ay nakasalalay sa kahusayan ng tagapagsalin mula sa orihinal.",
