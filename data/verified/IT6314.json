@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T02:40:13Z",
-  "totalQuestions": 256,
+  "updatedAt": "2026-10-28T02:42:09Z",
+  "totalQuestions": 258,
   "tier": "verified",
   "questions": [
     {
@@ -675,10 +675,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:18:50Z"
+      "lastVerifiedAt": "2026-10-28T02:42:09Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Element can be placed onto a web page in a pre-checked fashion by setting the checked attribute",
@@ -689,10 +689,29 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T02:42:09Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Element represents a control that presents a menu of options.",
+      "answer": "HTML select",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "element"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T11:59:02Z",
+      "lastVerifiedAt": "2026-10-28T02:42:09Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Function is used to display structured information (type and value) about one or more variables.",
@@ -731,10 +750,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T02:42:09Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.It allows us to collect data from the htm file and display to the php script.",
@@ -753,6 +772,24 @@
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T10:18:50Z",
       "lastVerifiedAt": "2026-10-12T11:02:29Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.One of the main points of interaction between a user and a web site or application. They allow users to send data to the web site.",
+      "answer": "HTML Forms",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Form",
+        "HTML Form"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T18:57:45Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T11:02:29Z",
+      "lastVerifiedAt": "2026-10-28T02:42:09Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Other term use for Option buttons?",
@@ -777,10 +814,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:00:53Z"
+      "lastVerifiedAt": "2026-10-28T02:42:09Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP version currently in use on most websites and included several new features such as support for object-oriented programming",
@@ -805,10 +842,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:02:29Z"
+      "lastVerifiedAt": "2026-10-28T02:42:09Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Symbol use to append data or string",
@@ -821,10 +858,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:56:14Z",
+      "lastVerifiedAt": "2026-10-28T02:42:09Z",
       "alternateAnswers": [
         {
           "answer": "period",
