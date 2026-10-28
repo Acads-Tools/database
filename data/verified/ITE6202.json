@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-28T09:50:30Z",
-  "totalQuestions": 210,
+  "updatedAt": "2026-10-28T09:56:56Z",
+  "totalQuestions": 213,
   "tier": "verified",
   "questions": [
     {
@@ -123,6 +123,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T03:33:04Z"
+    },
+    {
+      "question": "[____] is the process of building a model of a system.",
+      "answer": "prototyping",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "System modeling"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:37:42Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T11:37:42Z",
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "[____] level managers are concerned with the long-term planning of the organization.",
@@ -374,12 +393,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "A Web site that allows users to add and update content on the site using their own Web browser.",
@@ -499,19 +518,21 @@
         "a. It gives a bird's eye view",
         "b. To improve invisibility",
         "c. Fix Accountability",
-        "d. It streamlines business processes"
+        "d. It streamlines business processes",
+        "a. It streamlines business processes",
+        "d. It gives a bird's eye view"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "An [____] is a set of interrelated components that collect, manipulate, store, and disseminate data and information and provide a feedback mechanism to meet an objective",
@@ -622,12 +643,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Assumptions and constraints should also be documented.",
@@ -641,12 +662,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "At this stage, business needs are studied with the intention of making business processes more efficient.",
@@ -655,19 +676,22 @@
         "a. Develop",
         "b. Plan",
         "c. Analysis",
-        "d. Design"
+        "d. Design",
+        "a. Analysis",
+        "c. Design",
+        "d. Develop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Audio Modeling helps us understand and organize complex endeavors.",
@@ -681,12 +705,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Believing in human life implies on the belief that life has a purpose and this applies to everyone, whether one believes in a superior deity or an atheist.",
@@ -716,12 +740,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "BI system also helps organizations as decision makers get an overall bird's eye view through typical BI features like dashboards and scorecards.",
@@ -747,6 +771,10 @@
         {
           "answer": "True",
           "timestamp": "2026-10-28T09:50:30Z"
+        },
+        {
+          "answer": "True",
+          "timestamp": "2026-10-28T09:56:56Z"
         }
       ]
     },
@@ -762,12 +790,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "BI system helps them to get fresh insights to develop unique business strategies.",
@@ -781,12 +809,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "BI takes out all complexity associated with business processes. It also automates analytics by offering predictive analysis, computer modeling, bench marking and other methodologies.",
@@ -800,12 +828,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Bluetooth was created in ________by______________, it was intended to replace wired connections between devices.",
@@ -1021,12 +1049,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Determinative Laws fixes ways of acting in accordance with natural law.",
@@ -1180,12 +1208,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "E-business and e-commerce applications involve interconnected business information systems under applications.",
@@ -1295,12 +1323,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "First developed by Tim Berners-Lee in 1990.",
@@ -1583,19 +1611,23 @@
         "a. Design",
         "b. Maintenance/Support",
         "c. Implementation",
-        "d. Analysis"
+        "d. Analysis",
+        "a. Analysis",
+        "b. Design",
+        "c. Maintenance/Support",
+        "d. Implementation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "In this stage, mainly concentrate on building a strong relationship with suppliers of the raw materials required for production.",
@@ -1710,7 +1742,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-27T11:37:42Z",
+      "alternateAnswers": [
+        {
+          "answer": "True",
+          "timestamp": "2026-10-28T09:56:56Z"
+        }
+      ]
     },
     {
       "question": "Information systems also help store managers and other business professionals make better decisions.",
@@ -1861,12 +1899,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "It can be defined as the management of flow of products and services, which begins from the origin of products and ends at the product’s consumption.",
@@ -1976,12 +2014,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "It is a form of transaction between businesses, such as one involving a manufacturer and wholesaler, or a wholesaler and a retailer",
@@ -2080,19 +2118,22 @@
         "d. Analysis System",
         "b. Management System",
         "c. Analysis System",
-        "d. Artificial Intelligence"
+        "d. Artificial Intelligence",
+        "a. Analysis System",
+        "c. Business Intelligence",
+        "d. Management System"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "It is a set of rules that allow two (or more) devices to exchange information back and forth across the network.",
@@ -2120,19 +2161,22 @@
         "d. Artificial Intelligence",
         "a. Business Intelligence",
         "b. Management System",
-        "c. Analysis System"
+        "c. Analysis System",
+        "b. Business Intelligence",
+        "c. Artificial Intelligence",
+        "d. Analysis System"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "It is a technology that takes an Internet signal and converts it into radio waves.",
@@ -2250,12 +2294,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "It is data about the performance of a system, it is the [____] .",
@@ -2363,6 +2407,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-28T09:50:30Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T09:56:56Z"
         }
       ]
     },
@@ -2549,12 +2597,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "It refers to any business conducted online using the internet and related digital technologies called [____] .",
@@ -2581,12 +2629,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Its goal is to create a buzz about a product or idea that spreads wide and fast",
@@ -2613,12 +2661,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Legal acts conform to what an individual believes to be the right thing to do.",
@@ -2781,12 +2829,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "No Identity",
@@ -2852,12 +2900,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "One of the advantage of business intelligence is allows employees to be more productive on their tasks.",
@@ -2871,12 +2919,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "One of the contributing factors in the cause of violations is when consumers lack the ethics of how what they consider a little bit of information can turn into a big invasion of privacy",
@@ -2962,12 +3010,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Propetary technology is any combination of processes, tools, or systems of interrelated connections that are the property of a business or individual.",
@@ -3000,12 +3048,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "reckless alteration",
@@ -3164,12 +3212,32 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
+    },
+    {
+      "question": "SDLC is stands for [____] .",
+      "answer": "Systems Development Life Cycle",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Software Development Life Cycle",
+        "Software Development Lifecycle"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-27T11:24:34Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T11:37:42Z",
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Secret-key Encryption",
@@ -3322,12 +3390,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "Structured analysis uses a series of phases, to plan, analyze, design, implement, and support an information system.",
@@ -3341,12 +3409,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "System Analysts are people who use an information system or the information it produces.",
@@ -3416,13 +3484,32 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-27T11:37:42Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-27T11:37:42Z",
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
+    },
+    {
+      "question": "The [____] is the most crucial part of the expert system.",
+      "answer": "user interface",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "Inference Engine"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-27T11:37:42Z",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The [____] is the portion of customer demands that can be easily satisfied from the stock available.",
@@ -3468,12 +3555,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The Business users can increase the profit of their business by improving operational efficiency in their business.",
@@ -3494,7 +3581,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-27T11:37:42Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T09:56:56Z"
+        }
+      ]
     },
     {
       "question": "The danger with information matching is that no one knows who will use the built profiles from the matched information and where it will be used",
@@ -3523,19 +3616,22 @@
         "a. The Business User",
         "b. The Professional Data Analyst",
         "c. The IT Users",
-        "d. The head of the company"
+        "d. The head of the company",
+        "b. The IT Users",
+        "c. The head of the company",
+        "d. The Professional Data Analyst"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The data is time-variant this means that whenever data is loaded into the data warehouse, it receives a time stamp, which allows for comparisons between different time periods.",
@@ -3584,12 +3680,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The disadvantage of waterfall development is that it allows for departmentalization and managerial control.",
@@ -3603,12 +3699,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The fundamental unit of data transmitted over the Internet.",
@@ -3672,12 +3768,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The IT users can be found from across the organization.",
@@ -3703,6 +3799,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-28T09:50:30Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T09:56:56Z"
         }
       ]
     },
@@ -3747,12 +3847,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The system analysis phase focuses on what the system will do in an effort that views all stakeholders, as viable sources of information.",
@@ -3766,12 +3866,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The term betadata can be understood as “data about data.”",
@@ -3823,12 +3923,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "The term refers to such massively large data sets that conventional database tools do not have the processing power to analyze them.",
@@ -3966,19 +4066,23 @@
         "a. Facts",
         "b. User interface",
         "c. Expert System",
-        "d. Inference engine"
+        "d. Inference engine",
+        "a. User interface",
+        "b. Facts",
+        "c. Inference engine",
+        "d. Expert System"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "This data type allows for text longer than 256 characters.",
@@ -4010,19 +4114,23 @@
         "c. Develop",
         "d. Disposal",
         "a. Develop",
-        "c. Planning"
+        "c. Planning",
+        "a. Analysis",
+        "b. Planning",
+        "c. Disposal",
+        "d. Develop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T09:50:30Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "This internal set of web pages is called an extranet.",
@@ -4050,19 +4158,22 @@
         "a. Disposal",
         "b. Develop",
         "c. Analysis",
-        "d. Maintenace/Support"
+        "d. Maintenace/Support",
+        "a. Analysis",
+        "c. Maintenace/Support",
+        "d. Disposal"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:37:42Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:37:42Z"
+      "lastVerifiedAt": "2026-10-28T09:56:56Z"
     },
     {
       "question": "This stage is basically the logistics phase, where customer orders are accepted and delivery of the goods is planned.",
