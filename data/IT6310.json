@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-28T15:42:13Z",
-  "totalQuestions": 214,
+  "updatedAt": "2026-10-28T15:44:16Z",
+  "totalQuestions": 222,
   "questions": [
     {
       "question": "[1] indicates a succesful authorization, but the server has chosen to ignore the REQUEST and is replacing it with the information sent back in the RESPONSE",
@@ -421,12 +421,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:04:10Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:04:10Z"
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
     },
     {
       "question": "Any form of security incident that is not properly handled can and eventually wont turn into a bigger problem that will lead to a damaging data breach and wont cause large amount of expense or it will collapse the whole system",
@@ -985,12 +985,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:04:10Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:04:10Z"
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
     },
     {
       "question": "It can manipulate your system including the deletion of the important files on your computer.",
@@ -1233,12 +1233,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:04:10Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:04:10Z"
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
     },
     {
       "question": "It is a model designed to guide policies for information security within an organization.",
@@ -1487,6 +1487,38 @@
       "lastVerifiedAt": "2026-10-28T15:40:53Z"
     },
     {
+      "question": "It is a type of reporting method that is used to report critical events that typically require some form of actions from the system or network administrator.",
+      "answer": "Alarms",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
+    },
+    {
+      "question": "it is a type of reports that is only used to notify the system administrator that there’s a change occurred in the system.",
+      "answer": "Alerts",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
+    },
+    {
       "question": "It is a wireless security protocol created by Cisco to address the weaknesses in WEP and WPA.",
       "answer": "LEAP",
       "choices": [
@@ -1513,6 +1545,26 @@
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
+    },
+    {
+      "question": "It is an advanced method of error handling.",
+      "answer": "Exception handling",
+      "choices": [
+        "a. Exception handling",
+        "b. Run-time error",
+        "c. Error message"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
     },
     {
       "question": "It is an advanced method of handling an error.",
@@ -1821,6 +1873,26 @@
       "wrongAnswers": [],
       "questionType": "shortanswer",
       "isAiSuggestion": false
+    },
+    {
+      "question": "It means that the developer checks all the data to make sure that the information provided by the user in the application is valid and correct.",
+      "answer": "Input Validation",
+      "choices": [
+        "a. Exception Handling",
+        "b. Input Validation",
+        "c. try/catch block"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
     },
     {
       "question": "It pretends to be a legitimate programs in order to gain access to a system.",
@@ -2138,6 +2210,38 @@
       "isAiSuggestion": false
     },
     {
+      "question": "Networking device that has a filtering feature where it sends the traffic only to the port of the destination device.",
+      "answer": "Network Switch",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
+    },
+    {
+      "question": "Networking device that sends the packets to every one of its ports to ensure that it will reach its intended destination.",
+      "answer": "hub",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
+    },
+    {
       "question": "NTFS and FAT/FAT32 is an example of?",
       "answer": "File system",
       "choices": [],
@@ -2293,6 +2397,41 @@
       "wrongAnswers": [],
       "questionType": "multichoice",
       "isAiSuggestion": false
+    },
+    {
+      "question": "Software that makes each network devices works and do its job is called?",
+      "answer": "Firmware",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
+    },
+    {
+      "question": "Software vendors used to find out about the vulnerabilities of their system after receiving some reports from their users.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T15:44:16Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
     },
     {
       "question": "SQL stands for?",
@@ -4131,7 +4270,10 @@
         "a. Computer settings",
         "b. User settings",
         "c. Security settings",
-        "d. Window settings"
+        "d. Window settings",
+        "a. Window settings",
+        "c. Computer settings",
+        "d. Security settings"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -4143,7 +4285,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:04:10Z"
+      "lastVerifiedAt": "2026-10-27T09:04:10Z",
+      "alternateAnswers": [
+        {
+          "answer": "Window settings, Security settings",
+          "timestamp": "2026-10-28T15:44:16Z"
+        }
+      ]
     },
     {
       "question": "Which probe is used to trigger the SNMPQUERY probe to query a NAD?",
@@ -4308,19 +4456,21 @@
       "choices": [
         "a. User Settings",
         "b. Local Policies",
-        "c. Account Policies"
+        "c. Account Policies",
+        "a. Local Policies",
+        "b. User Settings"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T09:04:10Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T09:04:10Z"
+      "lastVerifiedAt": "2026-10-28T15:44:16Z"
     }
   ]
 }
