@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:16:18Z",
+  "updatedAt": "2026-10-28T03:16:52Z",
   "totalQuestions": 293,
   "questions": [
     {
@@ -242,17 +242,19 @@
       "choices": [
         "a. There are more fields than values",
         "b. Nothing, everything is fine",
-        "c. There are more values than fields"
+        "c. There are more values than fields",
+        "b. There are more values than fields",
+        "c. Nothing, everything is fine"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:38:11Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName, phoneNumber) VALUES ('Robert', 'Smith')\");",
@@ -3136,17 +3138,18 @@
         "a. improve",
         "b. increase",
         "c. improvement",
-        "d. improved"
+        "d. improved",
+        "d. improvement"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "The \"mysql_close()\" function allows you to close a MySQL connection?",
@@ -3177,10 +3180,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "The \"mysql_error()\" function returns the error description for a MYSQL operation?",
@@ -3603,10 +3606,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "The keystone of AJAX",
@@ -3985,17 +3988,18 @@
         "d. query();",
         "a. mysql_query()",
         "c. mysql_queries();",
-        "d. my_query();"
+        "d. my_query();",
+        "a. mysql_queries();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "This function allows you to close the current connection.",
@@ -4009,7 +4013,11 @@
         "b. close_database();",
         "c. mysql_close();",
         "d. closed();",
-        "b. closed();"
+        "b. closed();",
+        "a. close_database();",
+        "b. mysql_close();",
+        "c. closed();",
+        "d. close();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4018,11 +4026,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:07:49Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:07:49Z",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "This function allows you to connect to MySQL database",
@@ -4033,19 +4041,22 @@
         "c. connect();",
         "d. mysqlconnect(),",
         "a. mysql_connect(),",
-        "b. mysql_connected();"
+        "b. mysql_connected();",
+        "b. mysqlconnect(),",
+        "c. mysql_connect(),",
+        "d. connect();"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T13:20:55Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "This function is used to close the current session.",
@@ -6079,17 +6090,19 @@
         "c. SQL+",
         "d. SQL",
         "d. SQL+",
-        "a. SQL"
+        "a. SQL",
+        "c. MYSQL",
+        "d. Oracle Database"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:37:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "Which one of the following denotes the difference between SELECT and USE command?",
@@ -6174,17 +6187,18 @@
         "d. query_send()",
         "a. send_query()",
         "c. sendquery()",
-        "a. query()"
+        "a. query()",
+        "d. sendquery()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:38:11Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "Which one of the following sorts rows in SQL?",
@@ -6229,10 +6243,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:07:49Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+      "lastVerifiedAt": "2026-10-28T03:16:52Z"
     },
     {
       "question": "Which one of the following statements should be used to include a file?",
