@@ -1,8 +1,8 @@
 {
   "subjectCode": "FILI6301",
   "subjectName": "FILI6301",
-  "updatedAt": "2026-10-28T14:10:43Z",
-  "totalQuestions": 289,
+  "updatedAt": "2026-10-28T14:14:59Z",
+  "totalQuestions": 303,
   "questions": [
     {
       "question": "\"Ang lawiswis ng kawayan sa kabundukan sa isang musika sa pandinig.\" Anong uri ito ng tayutay?",
@@ -172,17 +172,20 @@
         "a. encyclopedia",
         "b. Personal na liham",
         "c. Manwal",
-        "d. teksbuk"
+        "d. teksbuk",
+        "b. teksbuk",
+        "c. Personal na liham",
+        "d. Manwal"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:52:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:52:45Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang \"Mi Ultimo a Dios ni Jose Rizal ay isinalin ni Vicente Almazor na may Filipininong salin na \"Ang aking Pahimakas\"",
@@ -269,26 +272,31 @@
     },
     {
       "question": "Ang _______________ ay bahagi nang pagsasaling wika, lalo't higit kung ang isasalin ay mula sa banyagang wika.",
-      "answer": "",
+      "answer": "Panghihiram",
       "choices": [
         "a. Pagbabaybay",
         "b. Pagbabasa",
         "c. Panghihiram",
-        "d. Pag-unawa"
+        "d. Pag-unawa",
+        "a. Pagbabasa",
+        "b. Pagbabaybay",
+        "c. Pag-unawa",
+        "d. Panghihiram"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "Pag-unawa"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-17T13:43:07Z"
+      "lastEvidenceAt": "2026-10-17T13:43:07Z",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang _______________ na pangkat ng tagapagsalin ay may laayuning makalikha nng salin sa kanilang wika.",
@@ -393,6 +401,25 @@
       "firstSeenAt": "2026-10-11T18:39:51Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-11T18:39:51Z"
+    },
+    {
+      "question": "Ang dalwang wikang kasangkot ay may magkatulad na kakanyahan.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang epiko ng kabikulan ay isinalin ni ___________.",
@@ -524,10 +551,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:44:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang kahusayan ng tagapagsalin sa wastong gamit ng gramatika ay isang gabay na kailangan ng isang tagapagsalin.",
@@ -679,12 +706,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T04:06:12Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang layunin ng tagapagsalin ay alisin ang hadlang sa pagitan ng dalawang _________.",
@@ -1022,12 +1049,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang pagkaunawa ng tagapgasalin sa ______ ay nagbibigay daan sa tagapagsalin na maisalin ang isang piyesa at naipaliliwanag ang naig ng manunulat.",
@@ -1220,6 +1247,25 @@
       "lastVerifiedAt": "2026-10-17T13:43:07Z"
     },
     {
+      "question": "Ang pagsasaling Intralingual ay pagsasalin kung saan nagaganap sa loob lamang ng magkatulad na salita.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
       "question": "Ang pagsasaling teknikal ay karaniwang nakapokus sa_______________.",
       "answer": "impormasyon, terminolohiya at estruktura",
       "choices": [
@@ -1252,10 +1298,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:52:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang pagsasaling wika ay isang gawaing natatapos sa mabilis na panahon.",
@@ -1269,12 +1315,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang Pagsasaling Wika ba ay nakapagpapataas ng Bokabularyo.",
@@ -1326,12 +1372,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T04:04:47Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang panghihiram dayalektal ay nagaganap sa pagitan ng iba't ibang wika sa loob ng isang bansa.",
@@ -1345,12 +1391,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T04:04:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T04:04:47Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang panghihiram kultural ay nagsimula pa noong pananakop ng amerikano at kastila",
@@ -1364,10 +1410,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T08:33:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T04:04:47Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang panghihiram ng salita ay may malaking ambag sa pagsasaling wika.",
@@ -1478,10 +1524,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:42:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:42:20Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang salin ng \"Once in aBlue Moon\" na Minsan sa asul na Buwan ay himig salin",
@@ -1654,10 +1700,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:51:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
+      "question": "Ang tagapagsalin ay susubukang magsalin ng akda mula sa bayan ng bulacan at gagamitin nito ang mga salitang sa kanila nagmula anong uri ng panghihiram ang kanyang gagamitin?",
+      "answer": "Panghihiram kultural",
+      "choices": [
+        "a. Panghihiram kultural",
+        "b. Panghihiram Dayalektal",
+        "c. Panghihiram Pulitikal",
+        "d. Panghihiram Rehiyunal"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ang talumpati ay isang akdang tuluyan na ginagawa sa itaas ng entablado",
@@ -1862,10 +1929,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:44:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T04:06:12Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Anong patakaran ang naglalahad ng ganito: kailangan tiyak nng tagpagsalin ang paksang isasalin.",
@@ -2201,26 +2268,29 @@
     },
     {
       "question": "Ayon sa kanya ang Pragmatik ay tumutukoy sa kaalaman kung paano naiuugnay ang wika sa sitwasyon ng gumagamit ng wika.",
-      "answer": "",
+      "answer": "Chomsky",
       "choices": [
         "a. Grice",
         "b. Chomsky",
         "c. Badayos",
-        "d. Yule"
+        "d. Yule",
+        "a. Badayos",
+        "c. Grice"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "Yule"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-17T15:39:56Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-17T15:39:56Z"
+      "lastEvidenceAt": "2026-10-17T15:39:56Z",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ayon sa kanya kung ang isang salin ay nasusulat sa Old English ito ay hindi gaanong mauunawaan ng kasalukyang mambabasa kay nararapat lamang na isalin ito sa Makabagong Ingles.",
@@ -2248,26 +2318,29 @@
     },
     {
       "question": "Ayon sa kanyang pagsasagawa ng ilang saliksik sa pagsasalin, sinabi niyang ang idyomatikong pahayag ay kailangang isalin din sa idyomatikong pahayag.",
-      "answer": "",
+      "answer": "Almario",
       "choices": [
         "a. Peter",
         "b. Almario",
         "c. Jakobson",
-        "d. Belhaag"
+        "d. Belhaag",
+        "a. Almario",
+        "b. Peter"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "Belhaag"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastEvidenceAt": "2026-10-17T13:43:07Z"
+      "lastEvidenceAt": "2026-10-17T13:43:07Z",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Batay sa lupong binuo ni Haring ang salin Bibliyang ito ang naging panuntunan ng matapata sa orihinal na diwa at lahulugan ng bana na kasulatan.",
@@ -2551,17 +2624,20 @@
         "c. Manunulat",
         "a. Manunulat",
         "c. Paksa",
-        "d. Wika"
+        "d. Wika",
+        "a. Paksa",
+        "b. Wika",
+        "d. Kultura"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:42:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T04:06:12Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Dito ibinibigay ang malapit na katumbas o angkop na kasingkahulugan sa target na wika ng pinagmulang wika.",
@@ -2946,17 +3022,20 @@
         "a. Ronald Jakobson",
         "b. Romano Jakobson",
         "c. Ronan Jakobson",
-        "d. Roman Jakobson"
+        "d. Roman Jakobson",
+        "a. Ronaldo S. Tinio",
+        "c. Ronwaldo Tecson",
+        "d. Ronaldo S. Tecson"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:44:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T08:37:12Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ipinakilalal ni yule ang tatlong pangkalahatang kakayahan sa komunikasyon.",
@@ -3306,6 +3385,48 @@
       "lastVerifiedAt": "2026-10-28T04:07:30Z"
     },
     {
+      "question": "Isang kilalang linguist na nagtaguyod ng tatlong uri ng pagsasaling wika.",
+      "answer": "Roman Jakobson",
+      "choices": [
+        "a. Nikolai Trubetzkoy",
+        "b. Belhaag",
+        "c. Roman Jakobson",
+        "d. Ferdinand Saussure"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
+      "question": "Isang paraan ng pagsasalin kung saan ang panghihiran ay inaadap ng normal na bigkas at baybayin sa wikang Filipino",
+      "answer": "Naturalisasyon",
+      "choices": [
+        "a. Hiram",
+        "b. Naturalisasyon",
+        "c. Adaptasyon",
+        "d. Salita sa salita"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
       "question": "isang paraan ng pagsasalin kung saan hinihiram ng buo ang salitang isasalin.",
       "answer": "Adaptasyon",
       "choices": [
@@ -3540,17 +3661,19 @@
         "b. Salita laban sa Salita",
         "b. Oktubre 24, 1968",
         "d. Salita laban sa Salita",
-        "a. Oktubre 24, 1968"
+        "a. Oktubre 24, 1968",
+        "c. Oktubre 25, 1968",
+        "d. Salita laban sa Diwa"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:42:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Ito ang tinatawag na translation proper?",
@@ -3754,19 +3877,23 @@
         "a. literary translation",
         "b. denotatibo",
         "c. Konotatibo",
-        "d. subhektibo"
+        "d. subhektibo",
+        "a. subhektibo",
+        "b. Konotatibo",
+        "c. literary translation",
+        "d. denotatibo"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Katangian ng pagsasalin kung saan ang karanasan ng tagapagsalin ay nakapaloob sa isinasaling akda.",
@@ -3891,17 +4018,19 @@
         "d. Saling Salita",
         "a. Saling Salita",
         "b. Himig Orihinal",
-        "d. Himig salin"
+        "d. Himig salin",
+        "a. Saling Diwa",
+        "c. Himig salin"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T08:33:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Kung ang ginamit mong wika sa pagsasalin ay nagmula sa ibang Rehiyon anong uri ng panghihiram ang ginamit mo?",
@@ -3940,17 +4069,18 @@
         "d. Salita laban sa Diwa",
         "a. Panahon ng Awtor laban sa Panahon ng Tagapagsalin",
         "b. Istilo ng Manunulat laban sa Istilo ng Tagapagsalin",
-        "d. Himig Orihinal laban sa Himig Salin"
+        "d. Himig Orihinal laban sa Himig Salin",
+        "d. Istilo ng Pagsasalita laban sa Istilo ng Tagapagsalin"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:51:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:08:23Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "kung ang isasaling ay nagmula sa ibang bansa bukod sa kaalaman ng tagapagsalin sa wika, kailangan batid din ng tagapagsalin ang________.",
@@ -3959,19 +4089,23 @@
         "a. Genre",
         "b. Kultura",
         "c. Kwentong bayan",
-        "d. Panitikan"
+        "d. Panitikan",
+        "a. Panitikan",
+        "b. Kwentong bayan",
+        "c. Genre",
+        "d. Kultura"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T04:06:12Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T04:06:12Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "kung ang salitang mula sa ibag bansa ay hiniram mo buo at binaybay mo lamang sa Filipino anong paraan ng panghihiram ang isinagawa mo?",
@@ -3996,6 +4130,27 @@
       "firstSeenAt": "2026-10-11T19:51:12Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T04:04:47Z"
+    },
+    {
+      "question": "Kung ang salitang mula sa wikang ingles ay hiniram mo buo at binaybay mo lamang sa Filipino anong paraan ng panghihiram ang isinagawa mo?",
+      "answer": "Tuwirang Panghihiram",
+      "choices": [
+        "a. Panghihiram Pulitikal",
+        "b. Ganap na Panghihiram",
+        "c. Panghihiram Dayalektal",
+        "d. Tuwirang Panghihiram"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Kung ang tagapagsalin ay likido ang ginamit sa kanyang salin, ito ay nangangahulugang ang wikang ___________ ng kanyang ginamit.",
@@ -4029,19 +4184,21 @@
         "a. wika",
         "b. Paksa",
         "c. Kultura",
-        "d. gramatika"
+        "d. gramatika",
+        "a. gramatika",
+        "d. Paksa"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:09:21Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "kung ang tagapagsalin ay magsasalin ng isang akdang nagmula sa mga sinauang Tsina, ang tagapagsalin ay nararapat na may sapat na kaalaman sa ______________ ng bansang Tsina.",
@@ -4093,17 +4250,20 @@
         "d. Filipino at Kastila",
         "a. Filipino at Filipino",
         "c. Filipino at Kastila",
-        "d. Filipino at Dayalekto"
+        "d. Filipino at Dayalekto",
+        "b. Filipino at Kastila",
+        "c. Filipino at Ingles",
+        "d. Filipino at Filipino"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:51:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:08:23Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "kung isasalin mo sa wikang Filipino ang \"The Mother is Watering the Plants\" gamit ang karaniwang pangungusap, ano ang magiging anyo nito?",
@@ -4112,7 +4272,32 @@
         "a. Si nanay ay diligan ang halaman",
         "b. Diniligan ni nanay ang halaman",
         "c. Dinilig ng nanay ang halaman",
-        "d. Si nanay ay dinilig ang halaman"
+        "d. Si nanay ay dinilig ang halaman",
+        "a. Dinilig ng nanay ang halaman",
+        "b. Si nanay ay diligan ang halaman",
+        "c. Si nanay ay dinilig ang halaman",
+        "d. Diniligan ni nanay ang halaman"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-17T13:43:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
+      "question": "Kung sa iyong pagsasalin ay ginamit mo ng buo ang salitang printer anong paraan ng panghihiram ang isinagawa mo?",
+      "answer": "Adaptasyon",
+      "choices": [
+        "a. Tuwirang Panghihiram",
+        "b. Adaptasyon",
+        "c. Parsyal na panghihiram",
+        "d. malaya"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -4120,11 +4305,11 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-17T13:43:07Z",
+      "firstSeenAt": "2026-10-28T14:14:59Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Kung sa iyong pagsasalin ay ginamit mo ng buo ang salitang XEROX anong paraan ng panghihiram ang isinagawa mo?",
@@ -4133,19 +4318,21 @@
         "a. Panghihiram na Kultural",
         "b. Parsyal na Panghihiram",
         "c. Tuwirang Panghihiram",
-        "d. Ganap ng Panghihiram"
+        "d. Ganap ng Panghihiram",
+        "c. Ganap ng Panghihiram",
+        "d. Tuwirang Panghihiram"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Layunin ng intralingual na pagsasalin ay magbigay ng interpretasyon ng teksto.",
@@ -4209,6 +4396,48 @@
       "lastVerifiedAt": "2026-10-28T14:10:43Z"
     },
     {
+      "question": "Mabilis na tumakbo ang Bata, Anong ayos ng pangungusap ang ipinakikita sa pangungusap?",
+      "answer": "Karaniwang Ayos",
+      "choices": [
+        "a. tambalang pangungusap",
+        "b. Di-karaniwang ayos",
+        "c. Karaniwang Ayos",
+        "d. payak na pangungusap."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
+      "question": "mahalaga sa pagsasalin ang paggamit ng ___________ upang mapagaan ang mabibigat na salita mula sa wikang ingles.",
+      "answer": "Eupemismo",
+      "choices": [
+        "a. paggamit nng diskyunaryo",
+        "b. Eupemismo",
+        "c. Feminismo",
+        "d. Uepeminismo"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
       "question": "Mahalaga sa pagsasaling teknikal ang pagkakaunawa ng tagsalin sa iba't ibang terminolohiya ng akdang isasalin.",
       "answer": "True",
       "choices": [
@@ -4220,10 +4449,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T08:37:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T08:37:12Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Mahalaga sa pagsulat ng pagsasalin ang pagsasagawa ng _______________, dito makikita kung ang natapos na salin ay may kamalian.",
@@ -4334,6 +4563,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T02:08:01Z"
+    },
+    {
+      "question": "Mas mahalagang maisalin ang kahulugan o mensahe ng piyesa kaysa sa mga salita.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Mas mahirap maunawaan ang diwang nais ipahatid ng manunulat sapagkat bawat tula ay natataglay ng masidhing _________________ ng manunulat.",
@@ -4595,10 +4843,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:52:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z",
       "lastEvidenceAt": "2026-10-12T08:37:12Z"
     },
     {
@@ -4630,10 +4878,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:52:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:52:45Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Paano isinasalin ang tula kung ang gamit mo ay istilo A, batay sa mga teknik sa pagsasalin ng tula.",
@@ -5086,6 +5334,27 @@
       "lastVerifiedAt": "2026-10-17T13:43:07Z"
     },
     {
+      "question": "Sa kalipunan ng mga wikaing tagalog ito ang itinuturing na istandard na wikang tagalog.",
+      "answer": "Tagalog Maynila",
+      "choices": [
+        "a. Tagalog Rizal",
+        "b. Tagalog Maynila",
+        "c. Tagalog Quezon",
+        "d. Tagalog Bulacan"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
       "question": "Sa kasaysayan ng Pilipinas at sa dami ng mga bansang sumakop dito, kailan ng aba nagkaaanyo ang Pagsasalin Wika sa Pilipinas.",
       "answer": "Sa panahon ng pananakop ng mga Kastila",
       "choices": [
@@ -5137,28 +5406,32 @@
         "a. Tagalog Maynila",
         "b. Tagalog Rizal",
         "c. Tagalog Bulacan",
-        "d. Tagalog Quezon"
+        "d. Tagalog Quezon",
+        "c. Tagalog Rizal"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:42:20Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T04:04:47Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Sa paagsasaling ito, hindi lamang sa salita nakapukos ang nagsasalin kundi sa eksaktong katumbas ng simbolo.",
-      "answer": "",
+      "answer": "Interlinggual",
       "choices": [
         "a. P.E",
         "b. Interlinggual",
         "c. Interesemiotico",
         "d. Intraliggual",
         "a. Interlinggual",
-        "b. P.E"
+        "b. P.E",
+        "b. Interesemiotico",
+        "c. Intraliggual",
+        "d. Interlinggual"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -5166,12 +5439,13 @@
         "Interesemiotico"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:52:45Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-17T13:43:07Z"
+      "lastEvidenceAt": "2026-10-17T13:43:07Z",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Sa paggamit ng makata ng tayutay sa kanyang nilikhang ang isa sa mga hadlang kung bakit mahirap isalin angn tula.",
@@ -5271,13 +5545,11 @@
       "lastVerifiedAt": "2026-10-17T15:39:56Z"
     },
     {
-      "question": "Sa pagsasaling Interlinggual iniiwasan ng tagapagsalin ang pagsasalin gamit ang _______.",
-      "answer": "salita sa salita",
+      "question": "Sa pagsasalin, ang unang likhang salin ay pinal at hindi na kailangan ng pagsangguni sa iba.",
+      "answer": "False",
       "choices": [
-        "a. paraprasis",
-        "b. pagpapakahulugan",
-        "c. salita sa diwa",
-        "d. salita sa salita"
+        "a. True",
+        "b. False"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -5285,11 +5557,34 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
+      "question": "Sa pagsasaling Interlinggual iniiwasan ng tagapagsalin ang pagsasalin gamit ang _______.",
+      "answer": "salita sa salita",
+      "choices": [
+        "a. paraprasis",
+        "b. pagpapakahulugan",
+        "c. salita sa diwa",
+        "d. salita sa salita",
+        "b. salita sa salita",
+        "d. pagpapakahulugan"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Sa pagsasaling ito ang mas naging aktibo ang wika sa panahon ng Globalisayon.",
@@ -5352,7 +5647,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T13:43:07Z"
+      "lastVerifiedAt": "2026-10-17T13:43:07Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T14:14:59Z"
+        }
+      ]
     },
     {
       "question": "Sa pagsasaling wika dapat na batid ng tagapagsalin ang kakanyahan ng dalawang wikang kasangkot,",
@@ -5516,6 +5817,27 @@
       ]
     },
     {
+      "question": "Salungatan sa pagsasalin kung saan ang tagapagsalin ay nagkakaroon ng suliranin kung ang salita ay tutumbasan ng literal o ibibigay ang nais pakahulugan ng manunulat.",
+      "answer": "Himig Orihinal laban sa Himig Salin",
+      "choices": [
+        "a. Himig Orihinal laban sa Himig Salin",
+        "b. Salita laban sa Diwa",
+        "c. Salita laban sa Salita",
+        "d. Panahon ng Awtor laban sa Panahon sa ng tagapagsalin"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
+    },
+    {
       "question": "Salungatan sa pagsasalingwika kung naniniwala ang tagapagsalin na mas mainam kung tutumbasan ng diwa ang salitang isasalin.",
       "answer": "Salita laban sa Diwa",
       "choices": [
@@ -5525,19 +5847,21 @@
         "d. salita ng awtor laban sa salita ng tagapagsalin",
         "a. Salita laban sa salita",
         "b. Himig salin laban sa Himig Orihinal",
-        "c. Salita laban sa Diwa"
+        "c. Salita laban sa Diwa",
+        "c. salita ng awtor laban sa salita ng tagapagsalin",
+        "d. Salita laban sa salita"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-17T13:43:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:08:23Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Si Eugene Nida ang ang isa kilalang tagapagsalin na naging pinuno ng anong Bible Society?",
@@ -5847,12 +6171,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T02:09:21Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:09:21Z"
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Upang higit na maunawaan ng tagapagsalin ang paksa ito ay nagsasagawa ng ________",
@@ -5897,6 +6221,27 @@
       "firstSeenAt": "2026-10-11T19:52:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-17T13:43:07Z"
+    },
+    {
+      "question": "Uri ng pagsasaling na itinuturing na informative at referensyal.",
+      "answer": "teknikal",
+      "choices": [
+        "a. intralinngual",
+        "b. pampanitikan",
+        "c. interlinggual",
+        "d. teknikal"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:14:59Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:14:59Z"
     },
     {
       "question": "Uri ng pagsasaling wika kung saan, ang tagapagsalin ay nagsasagawa ng muling paglalahad ng ideya sa magkatulad na wika.",
