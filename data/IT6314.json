@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:18:53Z",
-  "totalQuestions": 295,
+  "updatedAt": "2026-10-28T14:33:41Z",
+  "totalQuestions": 305,
   "questions": [
     {
       "question": "A constant can only be assigned a scalar value, like a string or a number.",
@@ -190,10 +190,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:53:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:57:01Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "Array values are keyed by ______ values (called indexed arrays) or using ______ values (called associative arrays). Of course, these key methods can be combined as well.",
@@ -776,10 +776,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-12T10:16:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:48:20Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared outside a function.",
@@ -793,7 +793,13 @@
       "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:48:20Z"
+      "lastVerifiedAt": "2026-10-28T02:48:20Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "Global",
+          "timestamp": "2026-10-28T14:33:41Z"
+        }
+      ]
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.A variable declared within a function",
@@ -807,7 +813,13 @@
       "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:57:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:44:53Z"
+      "lastVerifiedAt": "2026-10-28T02:44:53Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "local",
+          "timestamp": "2026-10-28T14:33:41Z"
+        }
+      ]
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Define styles for your documents, including the design, layout and variations in display for different devices and screen sizes.",
@@ -818,10 +830,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:44:53Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Element can be placed onto a web page in a pre-checked fashion by setting the checked attribute",
@@ -879,10 +891,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:53:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Is a line that is not read/executed as part of the program.",
@@ -946,7 +958,13 @@
       "confirmations": 6,
       "firstSeenAt": "2026-10-12T10:16:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:48:20Z"
+      "lastVerifiedAt": "2026-10-28T02:48:20Z",
+      "conflictHistory": [
+        {
+          "rejectedAnswer": "radio buttons",
+          "timestamp": "2026-10-28T14:33:41Z"
+        }
+      ]
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.PHP variables starts with what symbol.",
@@ -1017,10 +1035,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:56:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:48:20Z",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z",
       "alternateAnswers": [
         {
           "answer": "period",
@@ -1085,12 +1103,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T02:43:19Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:43:19Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.What year did PHP began its development?",
@@ -1101,10 +1119,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:53:46Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:13:24Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.Year that PHP 3 was released.",
@@ -2165,19 +2183,43 @@
         "a. DotNet",
         "b. Perl and C",
         "c. JavaScript",
-        "d. VBScript"
+        "d. VBScript",
+        "a. VBScript",
+        "d. DotNet"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T11:59:02Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer What does a semicolon signify at the end of a instruction or statement?",
+      "answer": "",
+      "choices": [
+        "a. the start of a PHP statement or instruciton",
+        "b. the end of a PHP statement or instruction",
+        "c. to ignore a PHP statement or instruciton"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "the start of a PHP statement or instruciton"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "Multiple Choice. Select the best answer What does PHP stand for?",
@@ -2186,7 +2228,31 @@
         "a. Private Hypertext Processor",
         "b. PHP: Hypertext Preprocessor",
         "c. Personal Hypertext Processor",
-        "d. Private Home Page"
+        "d. Private Home Page",
+        "a. PHP: Hypertext Preprocessor",
+        "b. Personal Hypertext Processor",
+        "c. Private Hypertext Processor"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer What is the correct way to end a PHP statement?",
+      "answer": ";",
+      "choices": [
+        "a. New Line",
+        "b. ;",
+        "c.",
+        "d. ."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2194,11 +2260,49 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
-      "firstSeenAt": "2026-10-17T11:59:02Z",
+      "firstSeenAt": "2026-10-28T14:33:41Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer Which is the correct way to write a multiple line PHP comment?",
+      "answer": "/* .. */",
+      "choices": [
+        "a. /* .. */",
+        "b. //"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answer Which is the incorrect way to start a single line PHP comment?",
+      "answer": "/* .. */",
+      "choices": [
+        "a. //",
+        "b. /* .. */"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "Multiple Choice. Select the best answer Which of the following is the incorrect way to declare a PHP variable?",
@@ -2391,6 +2495,46 @@
         }
       ],
       "lastEvidenceAt": "2026-10-28T03:14:57Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answerLook at the following code and determine what will be displayed in the browser:",
+      "answer": "Hello World 1",
+      "choices": [
+        "a. Hello World 2",
+        "b. Hello World 2 Hello World 1",
+        "c. Hello World 1 Hello World 2",
+        "d. Hello World 1"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
+      "question": "Multiple Choice. Select the best answerWhat data type will PHP automatically convert the following variable to:? $aVariable = 99;",
+      "answer": "integer (a number variable)",
+      "choices": [
+        "a. string (a text variable)",
+        "b. integer (a number variable)"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "MYSQL can be used to:",
@@ -2657,10 +2801,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-12T10:13:25Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:13:24Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "PHP development began in 1995.",
@@ -2691,10 +2835,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:43:19Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "PHP is based on C rather than ______.",
@@ -2729,10 +2873,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-12T10:00:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "PHP is proprietary software.",
@@ -2771,10 +2915,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:13:24Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "PHP project originally started in 1995 by RasmusLerdorf. (1994)",
@@ -2788,10 +2932,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T10:56:40Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:56:40Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "PHP runs on various platforms operating system such as apache and IIS",
@@ -4494,6 +4638,25 @@
       "lastVerifiedAt": "2026-10-12T10:39:08Z"
     },
     {
+      "question": "True or False All variables in PHP start with a $(dollar) sign?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
       "question": "True or False For maximum compatibility, you should use the shorthand form to create PHP scripts?",
       "answer": "b. False",
       "choices": [
@@ -4512,7 +4675,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-17T11:59:02Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T14:33:41Z"
+        }
+      ]
     },
     {
       "question": "True or False PHP can be run on Microsoft Windows IIS(Internet Information Server):",
@@ -4595,6 +4764,44 @@
       "lastVerifiedAt": "2026-10-17T11:59:02Z"
     },
     {
+      "question": "True or False Whitespace is not ignored in PHP?",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
+      "question": "True or False Writing comments is considered a bad programming practice?",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
+    },
+    {
       "question": "True or False. JavaScript can be inserted into any web page regardless of the file extension.",
       "answer": "True",
       "choices": [
@@ -4610,6 +4817,25 @@
       "firstSeenAt": "2026-10-12T11:11:37Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:11:37Z"
+    },
+    {
+      "question": "True or False. Select the best answer Syntax is a set of rules that must be followed to write properly structured code?",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:33:41Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "Using XAMPP server you can use SQL Server database.",
@@ -6596,10 +6822,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:43:19Z"
+      "lastVerifiedAt": "2026-10-28T14:33:41Z"
     },
     {
       "question": "XMLHttpRequest object function that cancel request.",
