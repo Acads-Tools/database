@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:15:44Z",
+  "updatedAt": "2026-10-28T03:16:18Z",
   "totalQuestions": 293,
   "questions": [
     {
@@ -37,10 +37,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:15:44Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "A subquery in an SQL SELECT statement",
@@ -1388,10 +1388,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:15:44Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "In an SQL SELECT statement querying a single table, the asterisk (*) means that:",
@@ -2412,10 +2412,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "MySQL runs on which operating systems?",
@@ -2923,17 +2923,20 @@
         "b. All the field of employee relation",
         "c. Salary",
         "d. Employee",
-        "d. Salary"
+        "d. Salary",
+        "a. Salary",
+        "b. Employee",
+        "c. Salary, dept_id"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:08:34Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:15:44Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "Select name, course_id from instructor, teaches where instructor_ID= teaches_ID; This Query can be replaced by which one of the following ?",
@@ -2952,17 +2955,18 @@
         "c. Select name, course_id from instructor natural join teaches;",
         "b. Select course_id from instructor join teaches;",
         "c. Select name,course_id from teaches,instructor where instructor_id=course_id;",
-        "d. Select name, course_id from instructor natural join teaches;"
+        "d. Select name, course_id from instructor natural join teaches;",
+        "a. Select course_id from instructor join teaches;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "Server command that calls itself",
@@ -3244,17 +3248,18 @@
         "c. From, select",
         "d. From, where",
         "a. Select, from",
-        "d. Where, from"
+        "d. Where, from",
+        "b. Where, from"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "The ________ clause is used to list the attributes desired in the result of a query.",
@@ -3808,6 +3813,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-28T02:20:49Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T03:16:18Z"
         }
       ]
     },
@@ -4286,17 +4295,19 @@
         "c. A Browser",
         "b. Some sort of client program to access the databases",
         "d. FTP and Telnet",
-        "d. Perl, PHP or Java"
+        "d. Perl, PHP or Java",
+        "c. Some sort of client program to access the databases",
+        "d. A Browser"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "True or False - The following search statement will exclude any records that contain the term \"poodle.\" (dogs OR canines) NOT cats.",
@@ -5860,10 +5871,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:15:44Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "Which of the following is the correct order of keywords for SQL SELECT statements?",
@@ -6284,17 +6295,21 @@
         "b. INSERT INTO",
         "c. ADD",
         "b. UPDATE",
-        "d. INSERT INTO"
+        "d. INSERT INTO",
+        "a. INSERT INTO",
+        "b. INSERT NEW",
+        "c. UPDATE",
+        "d. ADD"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:05:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:16:18Z"
     },
     {
       "question": "Which SQL statement is used to insert new data in a database?",
