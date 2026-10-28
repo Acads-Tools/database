@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-28T11:00:48Z",
-  "totalQuestions": 180,
+  "updatedAt": "2026-10-28T11:28:22Z",
+  "totalQuestions": 181,
   "tier": "verified",
   "questions": [
     {
@@ -16,19 +16,20 @@
         "b. SUPER DENSITY DICS",
         "b. SUPER DENSITY DISK",
         "c. SUPER DISK DRIVE",
-        "a. SUPER DENSITY DISK"
+        "a. SUPER DENSITY DISK",
+        "c. SUPER DENSITY DICS"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "______ are used to correct the error(s) present in the received data (bit stream) so that, we will get the original data.",
@@ -52,9 +53,9 @@
         "d. Error correction parity"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:03:21Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -82,9 +83,9 @@
         "b. CDROM"
       ],
       "verified": true,
-      "confirmations": 31,
+      "confirmations": 32,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:06:50Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -112,9 +113,9 @@
         "c. SRAM"
       ],
       "verified": true,
-      "confirmations": 36,
+      "confirmations": 37,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:06:50Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -142,9 +143,9 @@
         "b. Internal Drive"
       ],
       "verified": true,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:06:50Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Internal Drive"
@@ -267,9 +268,9 @@
         "c. Magnetic disk"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -357,9 +358,9 @@
         "a. Random Access Memory"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:02:52Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -411,12 +412,13 @@
         "b. Cache memory",
         "b. Memory Cell",
         "a. Read Only Memory",
-        "c. Random Access Memory"
+        "c. Random Access Memory",
+        "d. Memory Cell"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:02:52Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -737,9 +739,9 @@
         "d. Redundant Array of Independent Disks"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:04:04Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -754,12 +756,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "A group of simple ALUs that calculates a square root in stages, with intermediate results passing through ALUs arranged like a factory production line.",
@@ -950,9 +952,9 @@
         "b. NAR-flash"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:02:52Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -982,7 +984,7 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-14T16:29:45Z",
-      "lastEvidenceAt": "2026-10-17T16:13:27Z"
+      "lastEvidenceAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "All the instructions that are fetched from memory are located in the Instruction register.",
@@ -1122,12 +1124,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Architecture is concerned with how features (attributes) are implemented control signals, interfaces, memory technology",
@@ -1160,19 +1162,20 @@
         "a. Multilevel caches",
         "b. Non-cacheable memory",
         "c. Number of caches",
-        "d. Line size"
+        "d. Line size",
+        "b. Multilevel caches"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Baer defines computer architecture as \"the design of the integrated system which provides a useful tool to the programmer\"",
@@ -1223,6 +1226,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-15T02:34:41Z"
+    },
+    {
+      "question": "bits make one [____] .",
+      "answer": "nibble",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "1 nibble"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T16:13:27Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T16:13:27Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Blueberry released the first generation Macintosh, which was the first computer to come with a graphical user interface(GUI) and a mouse.",
@@ -1292,12 +1314,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Cache memory is a random access memory that is integrated into the hard disk drive.",
@@ -1511,9 +1533,9 @@
         "c. RDRAM"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:03:21Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1566,12 +1588,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "I/O module stands for Input / Output module, which is a device that acts as the connective bridge between a computer system at one end and an I/O or peripheral device of some kind at the other, such as a mouse keypad, webcam or scanner.",
@@ -1612,12 +1634,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "In 1950, ENIAC was first created The first general purpose computer",
@@ -1669,12 +1691,13 @@
         "a. DRAM",
         "c. SRAM",
         "d. ROM",
-        "b. None"
+        "b. None",
+        "a. ROM"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:02:52Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1811,12 +1834,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Information equal to 1000 terabytes or 10 bytes",
@@ -1827,12 +1850,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Intel’s 8086 was the first microprocessor to make it to Home computers.",
@@ -1889,12 +1912,14 @@
         "a. DRAM",
         "a. CDROM",
         "b. SRAM",
-        "b. CDRAM"
+        "b. CDRAM",
+        "c. CDROM",
+        "d. SRAM"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:03:21Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1967,19 +1992,20 @@
         "b. OR-FLASH",
         "a. FOR-FLASH",
         "c. OR-FLASH",
-        "c. NOR-FLASH"
+        "c. NOR-FLASH",
+        "b. FOR-FLASH"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "It is a compromise that exhibits the strengths of both the direct and associative approaches while reducing their disadvantages.",
@@ -2003,12 +2029,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "It is a crucial function that manages the speed discrepancy that exists between the speed of transfer of data between the processor and memory and peripheral devices.",
@@ -2158,19 +2184,21 @@
         "c. AUXILIARY MEMORY",
         "d. CACHE MEMORY",
         "c. CACHE MEMORY",
-        "b. VIRTUAL MEMORY"
+        "b. VIRTUAL MEMORY",
+        "a. BUFFER",
+        "d. AUXILIARY MEMORY"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "It is an advantage of a microprocessor.",
@@ -2256,12 +2284,13 @@
         "b. Even Parity Code",
         "d. Parity Code",
         "a. Binary Code",
-        "c. Odd Parity Code"
+        "c. Odd Parity Code",
+        "d. Binary Code"
       ],
       "verified": true,
-      "confirmations": 20,
+      "confirmations": 21,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:03:21Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2289,12 +2318,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "It is made to reduce the number of instructions per program, ignoring the number of cycles per instruction.",
@@ -2346,7 +2375,9 @@
         "c. EDO RAM",
         "d. MEMORY",
         "a. MEMORY",
-        "c. RANDON ACCESS MEMORY"
+        "c. RANDON ACCESS MEMORY",
+        "b. DRAM",
+        "c. CACHE MEMORY"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2372,6 +2403,14 @@
         {
           "rejectedAnswer": "CACHE MEMORY",
           "timestamp": "2026-10-17T16:13:27Z"
+        },
+        {
+          "rejectedAnswer": "CACHE MEMORY",
+          "timestamp": "2026-10-28T11:28:22Z"
+        },
+        {
+          "rejectedAnswer": "CACHE MEMORY",
+          "timestamp": "2026-10-28T11:28:22Z"
         }
       ]
     },
@@ -2499,9 +2538,9 @@
         "c. Direct mapping"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:06:50Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2645,12 +2684,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "It stands for binary digit.",
@@ -2665,19 +2704,20 @@
         "a. Byte",
         "d. None",
         "b. Binary",
-        "d. Nibble"
+        "d. Nibble",
+        "c. Nibble"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "It used to detect the error(s) present in the received data(bit stream).",
@@ -2698,12 +2738,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Keeps track of information, location, uses, status etc. The collective facilities are often known as ________",
@@ -3084,19 +3124,21 @@
         "d. 1024 Petabyte",
         "a. 1024 Megabyte",
         "b. 1024 Exabyte",
-        "c. 1024 Gigabyte"
+        "c. 1024 Gigabyte",
+        "a. 1024 Petabyte",
+        "d. 1024 Exabyte"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Term RAM refers solely to ________________",
@@ -3115,12 +3157,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "The 1960s saw large mainframe computers become much more common in large industries and with the US military and space program.",
@@ -3158,12 +3200,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "The ________ reads in instructions and data",
@@ -3491,12 +3533,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "The memory characterised on the basis of two key factors; _______ and _____________.",
@@ -3514,12 +3556,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "The operand is treated as a circular buffer of bits so its least and most significant bits are effectively adjacent.",
@@ -4082,12 +4124,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Thomas Hobbes said \" Arithmetic and Logic are the same things You can do it using Addition and Subtraction\"",
@@ -4230,9 +4272,9 @@
         "c. Erasable Programmable Read-Only Memory"
       ],
       "verified": true,
-      "confirmations": 25,
+      "confirmations": 26,
       "firstSeenAt": "2026-09-15T03:04:15Z",
-      "lastVerifiedAt": "2026-10-28T02:02:52Z",
+      "lastVerifiedAt": "2026-10-28T11:28:22Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -4396,12 +4438,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Which of the following is not belong to non-volatile memory?",
@@ -4415,19 +4457,22 @@
         "c. EPROM",
         "d. EEPROM",
         "b. EEPROM",
-        "c. PROM"
+        "c. PROM",
+        "a. EEPROM",
+        "b. NONE OF THESE",
+        "d. EPROM"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Which of the following is not categorised in physical characteristics of a memory.",
@@ -4452,12 +4497,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Who was invented the magnetic tape for the purpose of recording?",
@@ -4468,19 +4513,20 @@
         "c. Fritz Pleumer",
         "a. Fritz Pleumer",
         "b. Fritz Pfluemer",
-        "c. Frits Pfluemer"
+        "c. Frits Pfluemer",
+        "b. Fritz Pleumer"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T16:29:45Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:13:27Z"
+      "lastVerifiedAt": "2026-10-28T11:28:22Z"
     },
     {
       "question": "Word Width is the number of bits in the internal data bus of a processor or it is the number of bits a processor can process at a time",
