@@ -1,10 +1,31 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T02:20:49Z",
-  "totalQuestions": 215,
+  "updatedAt": "2026-10-28T02:40:13Z",
+  "totalQuestions": 256,
   "tier": "verified",
   "questions": [
+    {
+      "question": "A constant can only be assigned a scalar value, like a string or a number.",
+      "answer": "define()",
+      "choices": [
+        "a. iInclude_once()",
+        "b. define()",
+        "c. require()",
+        "d. include()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
     {
       "question": "A NULL value is treated as a blank or 0.",
       "answer": "False",
@@ -65,6 +86,27 @@
       "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
+      "question": "Allow for multiple items of the same type to be aggregated under a single representative entity.",
+      "answer": "Compound Datatypes",
+      "choices": [
+        "a. Compound Datatypes",
+        "b. Scalar Datatypes",
+        "c. Global Variable",
+        "d. Local Variable"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "An object-oriented computer programming language commonly used to create interactive effects within web browsers",
       "answer": "JavaScript",
       "choices": [
@@ -82,6 +124,27 @@
       "firstSeenAt": "2026-10-12T11:10:01Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:10:01Z"
+    },
+    {
+      "question": "And the Founder/Developer of PHP is ____________.",
+      "answer": "RasmusLerdorf",
+      "choices": [
+        "a. Erasmus Lerdurf",
+        "b. RasmusLerdorf",
+        "c. RasmusLerderf",
+        "d. Erasmus Lerdorf"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "Andi Gutmans was the inventor of PHP.",
@@ -208,6 +271,27 @@
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
     },
     {
+      "question": "Capable of containing a single item of information.",
+      "answer": "Scalar Datatypes",
+      "choices": [
+        "a. Local Variable",
+        "b. Compound Datatypes",
+        "c. Scalar Datatypes",
+        "d. Global Variable"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
       "answer": "123123",
       "choices": [
@@ -258,6 +342,48 @@
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
     },
     {
+      "question": "Determine the exact output of the code: $num = 3.14; echo floor($num);",
+      "answer": "3",
+      "choices": [
+        "a. 4",
+        "b. 3.5",
+        "c. 3",
+        "d. 3.75"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Determine the exact output of the code: for($val=1; $val<=100; $val+=2) { $tem[] = $val*=2; } echo max($tem);",
+      "answer": "188",
+      "choices": [
+        "a. 188",
+        "b. 250",
+        "c. 44",
+        "d. 92"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "Facebook, wordpress uses php as script language.",
       "answer": "True",
       "choices": [
@@ -306,6 +432,27 @@
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:13:47Z"
+    },
+    {
+      "question": "FOREACH, EXPLODE and MAIL are examples of crazy functions.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. No correct answer",
+        "c. Sometimes",
+        "d. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "Function is used to convert a human readable string to a Unix time.",
@@ -376,6 +523,90 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
+    },
+    {
+      "question": "Functions that are built-in into PHP to perform some standard operations.",
+      "answer": "Predefined Functions",
+      "choices": [
+        "a. User Defined Functions",
+        "b. Functions",
+        "c. Predefined Functions",
+        "d. Undefined Functions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Functions that are provided by the user of the program.",
+      "answer": "User Defined Functions",
+      "choices": [
+        "a. User Defined Functions",
+        "b. Undefined Functions",
+        "c. Predefined Functions",
+        "d. Functions"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Generate fatal error.",
+      "answer": "require()",
+      "choices": [
+        "a. include()",
+        "b. define()",
+        "c. iInclude_once()",
+        "d. require()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "How will you able to retrive data in your table?",
+      "answer": "mysql_query(\"SELECT * FROM table\"); mysqli_query(\"SELECT * FROM table\");",
+      "choices": [
+        "a. mysql_retrieve (\"SELECT * FROM table\"); mysqli_retrieve (\"SELECT * FROM table\");",
+        "b. mysql_query(\"SELECT FROM table\"); mysqli_query(\"SELECT FROM table\");",
+        "c. mysql_query(\"SELECT * FROM table\"); mysqli_query(\"SELECT * FROM table\");",
+        "d. mysql_retrieve (\"SELECT FROM table\"); mysqli_retrieve (\"SELECT FROM table\");"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided. Area that can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.",
@@ -925,6 +1156,27 @@
       "lastVerifiedAt": "2026-10-12T11:16:35Z"
     },
     {
+      "question": "In what year does PHP was developed?",
+      "answer": "1994",
+      "choices": [
+        "a. 1996",
+        "b. 1998",
+        "c. 1997",
+        "d. 1994"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "In which positions PHP's indexed array begin?",
       "answer": "0",
       "choices": [
@@ -972,6 +1224,27 @@
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
     },
     {
+      "question": "Is a function also use for outputting strings.",
+      "answer": "Print",
+      "choices": [
+        "a. &",
+        "b. ?>",
+        "c. Print",
+        "d. ;"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "Is the SQL statement correct or not. SELECT vend_name, prod_name, prod_price, vendors.vend_id, products.vend_id FROM vendors INNER JOINS products ON vendors.vend_id = products.vend_id;",
       "answer": "No",
       "choices": [
@@ -991,6 +1264,174 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
+    },
+    {
+      "question": "It is a command used to add individual records in a table.",
+      "answer": "INSERT, INTO",
+      "choices": [
+        "a. APPEND, INTO",
+        "b. ADD, INTO",
+        "c. UPDATE, SET",
+        "d. INSERT, INTO"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It is a function that removes an existing file from the server.",
+      "answer": "unlink()",
+      "choices": [
+        "a. drop()",
+        "b. delete()",
+        "c. remove()",
+        "d. unlink()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It is a function that retrieves the number of rows from a query result set.",
+      "answer": "mysql_num_rows() mysqli_num_rows()",
+      "choices": [
+        "a. mysql_result() mysqli_result()",
+        "b. mysql_fetch_row() mysqli_fetch_row()",
+        "c. mysql_affected_rows() mysqli_affected_rows()",
+        "d. mysql_num_rows() mysqli_num_rows()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It is a function that saves the uploaded file permanently into the server.",
+      "answer": "move_uploaded_file()",
+      "choices": [
+        "a. save_uploaded_file()",
+        "b. make_uploaded_file()",
+        "c. move_uploaded_file()",
+        "d. store_uploaded_file()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It is a SQL keyword that creates an autoincrementing field.",
+      "answer": "AUTO_INCREMENT",
+      "choices": [
+        "a. AUTOINCREMENT",
+        "b. INCREMENT",
+        "c. AUTO",
+        "d. AUTO_INCREMENT"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It is an array containing information such as headers, paths and script locations wherein it is created by the web server itself",
+      "answer": "$_SERVER",
+      "choices": [
+        "a. $_REQUEST",
+        "b. $_SERVER",
+        "c. $_SESSION",
+        "d. PHP_SELF"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It opens a connection to a MySQL database server",
+      "answer": "mysql_connect / mysqli_connect",
+      "choices": [
+        "a. mysql_close / mysqli_close",
+        "b. mysql_query / mysqli_query",
+        "c. mysql_connect / mysqli_connect",
+        "d. mysql_error / mysqli_error"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It proceeds the statement causes execution of the current loop iteration to end and commence at the beginning of the next loop.",
+      "answer": "continue",
+      "choices": [
+        "a. else",
+        "b. goto....label:",
+        "c. break",
+        "d. continue"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "It refers to a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh",
@@ -1016,6 +1457,48 @@
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:10:25Z"
+    },
+    {
+      "question": "It reports the error message from the last failed database connection attempt.",
+      "answer": "mysql_error / mysqli_error",
+      "choices": [
+        "a. mysql_query / mysqli_query",
+        "b. mysql_close / mysqli_close",
+        "c. mysql_connect / mysqli_connect",
+        "d. mysql_error / mysqli_error"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "It specifies the parameter to be processed by the $_FILES",
+      "answer": "index",
+      "choices": [
+        "a. file",
+        "b. index",
+        "c. values",
+        "d. uploaded"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "It's a function returns the Unix timestamp for a date.",
@@ -1213,6 +1696,90 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-17T13:20:55Z"
+    },
+    {
+      "question": "Key Categories: free of charge.",
+      "answer": "Price",
+      "choices": [
+        "a. Possibility",
+        "b. Practicality",
+        "c. Price",
+        "d. Power"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Key Categories: more libraries and thousands of functions",
+      "answer": "Power",
+      "choices": [
+        "a. Power",
+        "b. Possibility",
+        "c. Practicality",
+        "d. Price"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Key Categories: offered more than 25 database products.",
+      "answer": "Possibility",
+      "choices": [
+        "a. Price",
+        "b. Power",
+        "c. Practicality",
+        "d. Possibility"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Managing of cookies can be done using this function",
+      "answer": "setcookie()",
+      "choices": [
+        "a. $_COOKIE",
+        "b. $COOKIE[]",
+        "c. setcookie()",
+        "d. cookie()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "Multiple Choice. Select the best answer If a source file contains PHP code, what extension should be used?",
@@ -1606,6 +2173,27 @@
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
     },
     {
+      "question": "One that declared outside a function and is available to all.",
+      "answer": "Global Variable",
+      "choices": [
+        "a. Compound Datatypes",
+        "b. Local Variable",
+        "c. Scalar Datatypes",
+        "d. Global Variable"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "Originally PHP is known as \"Personal Home Pages\"",
       "answer": "b. False",
       "choices": [
@@ -1714,6 +2302,27 @@
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "PHP is based on C rather than ______.",
+      "answer": "PERL",
+      "choices": [
+        "a. PEARL",
+        "b. PERL",
+        "c. COBOL",
+        "d. JAVA"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "PHP is one of the most widely used and recognizable web technology use on the internet.",
@@ -2009,6 +2618,90 @@
       "lastVerifiedAt": "2026-10-12T11:11:37Z"
     },
     {
+      "question": "Software Requirements: Web Server except for :",
+      "answer": "IIIS7",
+      "choices": [
+        "a. Google Web Server",
+        "b. IIIS7",
+        "c. Apache",
+        "d. NGiNXTM"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Sorts by value in reverse order; keeps the same key",
+      "answer": "arsort()",
+      "choices": [
+        "a. asort()",
+        "b. sort()",
+        "c. arsort()",
+        "d. rsort()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Sorts by value; keeps the same key.",
+      "answer": "asort()",
+      "choices": [
+        "a. arsort()",
+        "b. asort()",
+        "c. sort()",
+        "d. rsort()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "Split a string by string.",
+      "answer": "explode()",
+      "choices": [
+        "a. iInclude_once()",
+        "b. implode(",
+        "c. unset()",
+        "d. explode()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "Status 200 means",
       "answer": "OK",
       "choices": [
@@ -2031,6 +2724,27 @@
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T11:11:37Z"
+    },
+    {
+      "question": "strlen(\"seven\"); what is the output?",
+      "answer": "5",
+      "choices": [
+        "a. 8",
+        "b. 7",
+        "c. 5",
+        "d. 6"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "The \"I\" in MySQLi stands for",
@@ -2254,6 +2968,27 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-17T11:59:02Z"
+    },
+    {
+      "question": "The default user of your phpmyadmin",
+      "answer": "root",
+      "choices": [
+        "a. user",
+        "b. root",
+        "c. superadmin",
+        "d. admin"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "The following are examples of >, =, ==________ Operators",
@@ -2912,6 +3647,69 @@
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
     },
     {
+      "question": "This function is used to close the current session.",
+      "answer": "session_destroy()",
+      "choices": [
+        "a. session_destroy()",
+        "b. destroy_session()",
+        "c. session_close()",
+        "d. close_session()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "This is an example of: $Ice <= $Crown;",
+      "answer": "Comparison Operator",
+      "choices": [
+        "a. Arithmetic Operator",
+        "b. Assignment Operator",
+        "c. Logical Operator",
+        "d. Comparison Operator"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
+      "question": "This is an example of: $Pui % $haha;",
+      "answer": "Arithmetic Operator",
+      "choices": [
+        "a. Logical Operator",
+        "b. Assignment Operator",
+        "c. Comparison Operator",
+        "d. Arithmetic Operator"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
+    },
+    {
       "question": "This is Employee table. [Image: [moodle-asset:151160/q8.PNG]] Select * from employee where employee_id>1009; Which of the following employee_id will be displayed?",
       "answer": "1018",
       "choices": [
@@ -2962,6 +3760,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
+    },
+    {
+      "question": "This is language construct that is used to output one or more string.",
+      "answer": "echo",
+      "choices": [
+        "a. &",
+        "b. ;",
+        "c. ?>",
+        "d. echo"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "To remove duplicate rows from the result set of a SELECT use the following keyword:",
@@ -3503,6 +4322,27 @@
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "What is the statement terminator for PHP?",
+      "answer": ";",
+      "choices": [
+        "a. ;",
+        "b. print",
+        "c. ?>",
+        "d. echo"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "What will be displayed in a browser when the following PHP code is executed [Image: 26 - [moodle-asset:6335981/26.png]]",
@@ -4228,6 +5068,27 @@
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T02:20:49Z"
+    },
+    {
+      "question": "Which of the following that can be use read cookies in PHP?",
+      "answer": "$_COOKIE",
+      "choices": [
+        "a. $_COOKIE",
+        "b. $_COOKIES",
+        "c. cookie()",
+        "d. setcookie()"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:40:13Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:40:13Z"
     },
     {
       "question": "Which of these query will display the result, assume table name is employee ? [Image: [moodle-asset:151153/q1.PNG]]",
