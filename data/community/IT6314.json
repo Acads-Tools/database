@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:03:31Z",
+  "updatedAt": "2026-10-28T03:13:02Z",
   "totalQuestions": 293,
   "questions": [
     {
@@ -197,17 +197,20 @@
         "a. Positive number, negative number",
         "b. Integer, String",
         "c. Even Number, String",
-        "d. Float, String"
+        "d. Float, String",
+        "a. Even Number, String",
+        "c. Float, String",
+        "d. Integer, String"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "Assume you would like to sort an array in ascending order by value while preserving key associations. Which of the following PHP sorting functions would you use?",
@@ -219,17 +222,19 @@
         "d. asort()",
         "a. ksort()",
         "c. asort()",
-        "d. krsort()"
+        "d. krsort()",
+        "a. sort()",
+        "b. ksort()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:06:34Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName) VALUES ('Robert', 'Smith', '123-983-2929')\");",
@@ -2322,6 +2327,14 @@
         {
           "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
           "timestamp": "2026-10-28T03:03:31Z"
+        },
+        {
+          "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
+          "timestamp": "2026-10-28T03:13:02Z"
+        },
+        {
+          "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
+          "timestamp": "2026-10-28T03:13:02Z"
         }
       ],
       "lastEvidenceAt": "2026-10-17T12:16:19Z"
@@ -2770,17 +2783,19 @@
         "c. 1",
         "d. 2",
         "a. 1",
-        "b. 0"
+        "b. 0",
+        "a. -1",
+        "c. 2"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:03:31Z"
+      "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "php.org is the official php resource.",
@@ -4765,7 +4780,8 @@
         "c. 1, 0, -1, 1",
         "d. 1, 1, -1, 1",
         "a. 1, 0, -1, 1",
-        "b. -1, -1, 1, -1"
+        "b. -1, -1, 1, -1",
+        "d. 1, 0, -1, 1"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4775,11 +4791,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T10:58:42Z",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "What is the output of the following? echo substr(\"abcdef\", -2), ', '; echo substr(\"abcdef\", 4), ', '; echo substr(\"abcdef\", -3, -1), ', '; echo substr(\"abcdef\", 4, -2), ', '; echo substr(\"abcdef\", 2, -1)",
@@ -5122,24 +5138,28 @@
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151142/w6-q10.PNG]]",
-      "answer": "",
+      "answer": "Error",
       "choices": [
         "a. The number is: 0",
         "b. no Output",
         "c. The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
-        "d. Error"
+        "d. Error",
+        "a. The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10",
+        "b. The number is: 0",
+        "c. no Output"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "The number is: 0 The number is: 1 The number is: 2 The number is: 3 The number is: 4 The number is: 5 The number is: 6 The number is: 7 The number is: 8 The number is: 9 The number is: 10"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:33:34Z"
+      "lastEvidenceAt": "2026-10-11T19:33:34Z",
+      "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336227/w6-q4.PNG]]",
@@ -5323,7 +5343,7 @@
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: w6-q2 - [moodle-asset:151134/w6-q2.PNG]]",
-      "answer": "",
+      "answer": "##########",
       "choices": [
         "a. ########",
         "b. ##########",
@@ -5332,23 +5352,27 @@
         "a. No output",
         "b. ########",
         "c. ##########",
-        "d. ############"
+        "d. ############",
+        "b. ############",
+        "c. ########",
+        "d. ##########"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "No output"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:07:23Z"
+      "lastEvidenceAt": "2026-10-12T11:07:23Z",
+      "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151143/q1.PNG]]",
-      "answer": "",
+      "answer": "Error",
       "choices": [
         "a. 13",
         "b. 16",
@@ -5360,12 +5384,13 @@
         "13"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T19:16:32Z"
+      "lastEvidenceAt": "2026-10-11T19:16:32Z",
+      "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151144/q2.PNG]]",
@@ -5451,11 +5476,14 @@
         "a. I like Volvo, BMW and Toyota",
         "b. I like. Volvo.,. BMW. and) Toyota) .",
         "c. I like Volvo BMW and Toyota)",
-        "d. I like Volvo, BMW and Toyota."
+        "d. I like Volvo, BMW and Toyota.",
+        "a. I like Volvo, BMW and Toyota.",
+        "d. I like Volvo, BMW and Toyota"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "I like Volvo, BMW and Toyota"
+        "I like Volvo, BMW and Toyota",
+        "I like Volvo BMW and Toyota)"
       ],
       "wrongAnswerEvidence": true,
       "verified": false,
@@ -5463,7 +5491,7 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-12T10:43:54Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:43:54Z"
+      "lastEvidenceAt": "2026-10-28T03:13:02Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151148/q6.PNG]]",
