@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:14:57Z",
+  "updatedAt": "2026-10-28T03:15:44Z",
   "totalQuestions": 264,
   "tier": "verified",
   "questions": [
@@ -38,10 +38,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "AJAX is a programming language",
@@ -1175,17 +1175,20 @@
         "a. LIKE %qpt",
         "b. LIKE ^.*ton$",
         "c. LIKE ton$",
-        "d. LIKE *ton"
+        "d. LIKE *ton",
+        "a. LIKE *ton",
+        "c. LIKE %qpt",
+        "d. LIKE ^.*ton$"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-12T11:01:41Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "In an SQL SELECT statement querying a single table, the asterisk (*) means that:",
@@ -1270,17 +1273,19 @@
         "b. Field",
         "c. Relation",
         "d. Table",
-        "c. Field"
+        "c. Field",
+        "a. Field",
+        "d. Relation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "Is a function also use for outputting strings.",
@@ -2668,17 +2673,18 @@
         "d. All the field of employee relation",
         "b. All the field of employee relation",
         "c. Salary",
-        "d. Employee"
+        "d. Employee",
+        "d. Salary"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:08:34Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T13:20:55Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "Select name, course_id from instructor, teaches where instructor_ID= teaches_ID; This Query can be replaced by which one of the following ?",
@@ -3871,10 +3877,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:01:41Z",
+      "lastVerifiedAt": "2026-10-28T03:15:44Z",
       "lastEvidenceAt": "2026-10-12T11:08:10Z"
     },
     {
@@ -3942,10 +3948,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "To remove duplicate rows from the results of an SQL SELECT statement, the ________ qualifier specified must be included.",
@@ -5182,10 +5188,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "Which of the following displays the unique values of the column. Select ________ dept_name from instructor;",
@@ -5202,17 +5208,18 @@
         "b. From",
         "c. Distinct",
         "d. All",
-        "d. Name"
+        "d. Name",
+        "a. From"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:35:55Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "Which of the following is the correct order of keywords for SQL SELECT statements?",
@@ -5324,10 +5331,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:20:49Z"
+      "lastVerifiedAt": "2026-10-28T03:15:44Z"
     },
     {
       "question": "Which of the following that can be use read cookies in PHP?",
@@ -5361,7 +5368,9 @@
         "a. elect employee",
         "b. Select employee from name",
         "c. Select name from employee",
-        "d. Select name"
+        "d. Select name",
+        "c. elect employee",
+        "d. Select employee from name"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -5370,10 +5379,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:08:35Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:35:55Z",
+      "lastVerifiedAt": "2026-10-28T03:15:44Z",
       "lastEvidenceAt": "2026-10-12T11:08:34Z"
     },
     {
