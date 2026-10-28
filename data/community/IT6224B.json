@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6224B",
   "subjectName": "Data Communications and Networking 3",
-  "updatedAt": "2026-10-27T10:31:07Z",
-  "totalQuestions": 264,
+  "updatedAt": "2026-10-28T17:04:07Z",
+  "totalQuestions": 281,
   "questions": [
     {
       "question": "[____: show ip ospf interface] Used to display the OSPFv2 parameters configured on an interface, such as the OSPFv2 process ID that the interface is assigned to, the area that the interfaces are in, the cost of the interface, and the Hello and Dead intervals.",
@@ -463,19 +463,22 @@
         "a. VRRP",
         "b. HSRP",
         "c. FHRP",
-        "d. GLBP"
+        "d. GLBP",
+        "a. HSRP",
+        "b. FHRP",
+        "c. VRRP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "A Cisco enhancement of RSTP to provide a spanning tree instance for each vlan is called STP.",
@@ -489,10 +492,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-06T09:46:13Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-06T09:46:13Z"
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "A network administrator configured an EtherChannel link with three interfaces between two switches. What is the result if one of the three interfaces is down?",
@@ -757,6 +760,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "A network link connected to a switch went down. How long can it take for a network using spanning tree topology to converge again after a topology change?",
+      "answer": "up to 50 seconds",
+      "choices": [
+        "a. up to 50 seconds",
+        "b. up to 15 seconds",
+        "c. up to 20 seconds",
+        "d. up to 10 seconds"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
       "question": "A network problem occurs suddenly, what is the initial approach that should be used to troubleshoot a broadcast storm in a switched network?",
       "answer": "Manually remove redundant links in the switched network.",
       "choices": [
@@ -832,6 +856,27 @@
       "lastVerifiedAt": "2026-10-06T09:54:14Z",
       "source": "review_screen",
       "questionType": "multichoice"
+    },
+    {
+      "question": "A newly hired certified network engineer of RMS Industries is troubleshooting a switch and wants to verify if it is a root bridge. Which of the following listed below is the right command to display the correct information?",
+      "answer": "show spanning-tree",
+      "choices": [
+        "a. show vlan",
+        "b. show startup-config",
+        "c. show running-config",
+        "d. show spanning-tree"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "A newly hired network engineer has been instructed to implement EtherChannel in a corporate network. What does this configuration consist of?",
@@ -1104,6 +1149,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Among the choices listed below, which port state will switch ports immediately transition to when configured for PortFast?",
+      "answer": "Forwarding",
+      "choices": [
+        "a. Forwarding",
+        "b. Learning",
+        "c. Listening",
+        "d. Blocking"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
       "question": "Among the commands listed below which is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network?",
       "answer": "show ip protocols",
       "choices": [
@@ -1142,6 +1208,27 @@
       "firstSeenAt": "2026-10-04T15:14:18Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-05T14:01:32Z"
+    },
+    {
+      "question": "Among the listed below, how can an enterprise network be designed to optimize bandwidth?",
+      "answer": "by organizing the network to control traffic patterns",
+      "choices": [
+        "a. by installing devices with failover capabilities",
+        "b. by deploying a collapsed core model",
+        "c. by organizing the network to control traffic patterns",
+        "d. by limiting the size of failure domains"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "Among the listed below, what are the distinct functions of layer 2 switching that increase available bandwidth on the network? 1. Address learning 2. Routing 3. Forwarding and filtering 4. Creating network loops 5. Loop avoidance 6. IP addressing",
@@ -1326,13 +1413,13 @@
       "lastVerifiedAt": "2026-10-27T10:31:07Z"
     },
     {
-      "question": "As discussed in Chapter 2, what do you called a design methodology for building networks in three layers including access, distribution, and core.",
-      "answer": "hierarchical network",
+      "question": "As discussed in chapter 2 , what will exist when the spanning tree protocol has worked and the network has converged?",
+      "answer": "One root bridge per network, one root port per non root bridge, one designated port per segment, non-designated ports.",
       "choices": [
-        "a. STP",
-        "b. Collapsed Core",
-        "c. hierarchical network",
-        "d. Etherchannel technology"
+        "a. One root bridge per network, one root port on each switch, one non-designated port on each segment, other ports are blocked.",
+        "b. One root bridge per segment, one root port per non root bridge, one designated port per segment, non-designated ports.",
+        "c. One root bridge per network, one root port on each bridge, one designated port on each bridge, all non-designated ports are blocked.",
+        "d. One root bridge per network, one root port per non root bridge, one designated port per segment, non-designated ports."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1340,11 +1427,35 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
+      "question": "As discussed in Chapter 2, what do you called a design methodology for building networks in three layers including access, distribution, and core.",
+      "answer": "hierarchical network",
+      "choices": [
+        "a. STP",
+        "b. Collapsed Core",
+        "c. hierarchical network",
+        "d. Etherchannel technology",
+        "b. Etherchannel technology",
+        "c. Collapsed Core",
+        "d. hierarchical network"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "As discussed in link state advertisement which two statements correctly describe OSPF type 3 LSAs? Type 3 LSAs are used to update routes between OSPF areas. Type 3 LSAs are known as router link entries​. Type 3 LSAs are used for routes to networks outside the OSPF autonomous system​. Type 3 LSAs are known as autonomous system external LSA entries.​ Type 3 LSAs are generated without requiring a full SPF calculation.​",
@@ -1573,6 +1684,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "As discussed which is true of the PVST+ protocol?",
+      "answer": "It allows different VLANs to have different root bridges and allows ports to be blocked for some VLANs but not others.",
+      "choices": [
+        "a. It was the first version of STP to include the PortFast feature that allows access ports to transition directly to the forwarding state.",
+        "b. It allows different VLANs to have different root bridges and allows ports to be blocked for some VLANs but not others.",
+        "c. It is Cisco's implementation of Rapid STP.",
+        "d. It supports the use of VLANs and requires that ISL frame tagging should be used on VLAN trunk links."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
       "question": "As mentioned in chapter 6 type 3 LSA is required for every ________.",
       "answer": "Subnet",
       "choices": [
@@ -1616,6 +1748,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T10:31:07Z"
+    },
+    {
+      "question": "As per our discussion in this module LAN Redundancy, what is the outcome of a Layer 2 broadcast storm?",
+      "answer": "New traffic is discarded by the switch because it is unable to be processed.",
+      "choices": [
+        "a. CSMA/CD will cause each host to continue transmitting frames.",
+        "b. ARP broadcast requests are returned to the transmitting host.",
+        "c. New traffic is discarded by the switch because it is unable to be processed.",
+        "d. Routers will take over the forwarding of frames as switches become congested."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "As shown in the exhibit below, which protocol information is being displayed in the output? [Image: [moodle-asset:6347381/q.png]]",
@@ -1822,6 +1975,27 @@
       "lastVerifiedAt": "2026-10-06T10:03:20Z"
     },
     {
+      "question": "During connectivity issues, why would a network admin issue the show cdp neigbors command on a router?",
+      "answer": "to display device ID and other information about directly connected Cisco devices",
+      "choices": [
+        "a. to display line status and other information about directly connected Cisco devices",
+        "b. to display router ID and other information about OSPF neighbors",
+        "c. to display routing table and other information about directly connected Cisco devices",
+        "d. to display device ID and other information about directly connected Cisco devices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
       "question": "During router configuration what OSPF LSA type is used to inform routers of the router ID of the DR in each multiaccess network in an OSPF area?",
       "answer": "type 2",
       "choices": [
@@ -1913,6 +2087,27 @@
       "firstSeenAt": "2026-10-04T15:41:56Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-04T15:41:56Z"
+    },
+    {
+      "question": "How many switches in a network must be running STP or RSTP in order to avoid broadcast storms?",
+      "answer": "At least one in each loop.",
+      "choices": [
+        "a. At least one.",
+        "b. At least the switch that is chosen as the root bridge.",
+        "c. All of them.",
+        "d. At least one in each loop."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "How much traffic for a 12port gigabit switch capable of generating when operating at full wire speed?",
@@ -2041,6 +2236,27 @@
       "firstSeenAt": "2026-10-04T15:46:46Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
+    },
+    {
+      "question": "If no bridge priority is configured in PVST, which criteria is considered when electing the root bridge?",
+      "answer": "lowest MAC address",
+      "choices": [
+        "a. lowest MAC address",
+        "b. highest MAC address",
+        "c. lowest IP address",
+        "d. highest IP address"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "If the network administrator of Genesis Mobile Telecommunications wanted to disable STP on a port connected to a server, which command would you use?",
@@ -2333,7 +2549,7 @@
     },
     {
       "question": "In managing Cisco devices, what is a characteristic of out-of-band device management?",
-      "answer": "",
+      "answer": "Out-of-band device management requires a direct connection to a network interface.",
       "choices": [
         "a. It requires Telnet, SSH, or HTTP to access a Cisco device.",
         "b. It requires at least one network interface on the device to be connected and operational.",
@@ -2343,13 +2559,15 @@
         "c. It requires at least one network interface on the device to be connected and operational.",
         "d. It requires a terminal emulation client.",
         "a. It requires a terminal emulation client.",
-        "b. It requires Telnet, SSH, or HTTP to access a Cisco device."
+        "b. It requires Telnet, SSH, or HTTP to access a Cisco device.",
+        "a. It requires at least one network interface on the device to be connected and operational.",
+        "c. It requires Telnet, SSH, or HTTP to access a Cisco device."
       ],
-      "verified": false,
+      "verified": true,
       "confirmations": 1,
       "firstSeenAt": "2026-09-22T08:09:58Z",
-      "lastVerifiedAt": "2026-09-22T08:09:58Z",
-      "source": "moodle_review_elimination",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
       "wrongAnswers": [
         "It requires a terminal emulation client."
       ],
@@ -2399,9 +2617,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-27T10:31:07Z",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2453,9 +2671,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-27T10:31:07Z",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -2524,13 +2742,13 @@
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
     },
     {
-      "question": "In reference to our current topic which is LAN Redundancy, which 3 components are combined to form a bridge ID?",
-      "answer": "extended system ID, MAC address, bridge priority",
+      "question": "In reference to module 2 of this course, which is true of the difference between STP and RSTP?",
+      "answer": "STP stops sending user data while the whole network converges, but RSTP closes down and converges each link separately.",
       "choices": [
-        "a. extended system ID, MAC address, bridge priority",
-        "b. IP address, extended system ID, cost",
-        "c. MAC address, port ID, ip address",
-        "d. port ID, ip address, MAC address"
+        "a. STP stops sending user data while the whole network converges, but RSTP closes down and converges each link separately.",
+        "b. STP uses a proposal and agreement process to allow switches to negotiate on port roles, but RSTP assigns the roles centrally.",
+        "c. RSTP is the default version on all Cisco switches now, but STP was the default until IOS version 11.4",
+        "d. RSTP is able to support VLANs by using Cisco proprietary enhancements but STP is not."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2538,11 +2756,35 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
+      "question": "In reference to our current topic which is LAN Redundancy, which 3 components are combined to form a bridge ID?",
+      "answer": "extended system ID, MAC address, bridge priority",
+      "choices": [
+        "a. extended system ID, MAC address, bridge priority",
+        "b. IP address, extended system ID, cost",
+        "c. MAC address, port ID, ip address",
+        "d. port ID, ip address, MAC address",
+        "a. port ID, ip address, MAC address",
+        "c. extended system ID, MAC address, bridge priority",
+        "d. MAC address, port ID, ip address"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "In RMS University, the network admin is trying to add a new router into an established OSPF network. The network attached to the new router do not appear in the routing tables of the other OSPF routers. Given the information in the partial configuration shown below, what configuration error is causing this problem? Router(config)# router ospf 1 Router(config-router)# network 10.0.0.0 255.0.0.0 area 0",
@@ -2638,6 +2880,48 @@
       "firstSeenAt": "2026-10-06T10:04:45Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-23T15:15:03Z"
+    },
+    {
+      "question": "In terms of network reliability, the ability of a network to be up most of the time. Sometimes referred to as 99.999, or \"five nines\".",
+      "answer": "Reliability",
+      "choices": [
+        "a. Flexibility",
+        "b. Integrity",
+        "c. Scalability",
+        "d. Reliability"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
+      "question": "In the above network diagram of DFA Headquarters core switches , which switch will be chosen as root bridge and why?",
+      "answer": "Sw-C, because it has the lowest priority",
+      "choices": [
+        "a. Sw-B, because it has the highest MAC address",
+        "b. Sw-D, because it has the highest priority",
+        "c. Sw-A, because it has the lowest MAC address",
+        "d. Sw-C, because it has the lowest priority"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "In the Cisco Enterprise Architecture, which two functional parts of the network are combined to form a collapsed core design. This is usually implemented in a small to medium network setup?",
@@ -2984,19 +3268,22 @@
         "a. to enable virtual stacking of switches to provide cloud-managed access",
         "b. on a campus LAN network as access layer switches",
         "c. on a service provider network to promote integrated security, and simplified management",
-        "d. on a data center network to provide expansion and transport flexibility"
+        "d. on a data center network to provide expansion and transport flexibility",
+        "a. on a campus LAN network as access layer switches",
+        "b. on a data center network to provide expansion and transport flexibility",
+        "d. to enable virtual stacking of switches to provide cloud-managed access"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T10:31:07Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T10:31:07Z"
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "In wireless LAN standards what wireless LAN technology that is an IEEE 802.15 WPAN standard; uses a device pairing process to communicate over distance up to .05 mile (100m)?",
@@ -3188,6 +3475,27 @@
       "firstSeenAt": "2026-10-06T10:00:09Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-06T10:04:45Z"
+    },
+    {
+      "question": "Observe the given output below. A certified network engineer is troubleshooting host connectivity on a LAN that uses a first hop redundancy protocol. Which IPv4 gateway address should be configured on the host?",
+      "answer": "192.168.2.100",
+      "choices": [
+        "a. 192.168.2.0",
+        "b. 192.168.2.1",
+        "c. 192.168.2.100",
+        "d. 192.168.2.2"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
     },
     {
       "question": "OSPF features [____: Classless] OSPFv2 is classless by design; therefore, it supports IPv4 VLSM and CIDR.",
@@ -4296,6 +4604,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "What is the most likely effect on the topology if Spanning Tree Protocol has been disabled?",
+      "answer": "Broadcast storm",
+      "choices": [
+        "a. Excessive collisions",
+        "b. All hosts will reply to the ARP request",
+        "c. The router will reply to the ARP request",
+        "d. Broadcast storm"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
       "question": "What is the purpose of Spanning Tree Protocol in a switched LAN as discussed in this chapter?",
       "answer": "To prevent switching loops in networks with redundant switched paths",
       "choices": [
@@ -4349,14 +4678,18 @@
         "c. It uses a terminal emulation client.",
         "d. It is used to monitor and make configuration changes to a network device over a network connection.",
         "c. It is used to monitor and make configuration changes to a network device over a network connection.",
-        "d. It uses a terminal emulation client."
+        "d. It uses a terminal emulation client.",
+        "a. It uses a terminal emulation client.",
+        "b. It is used to monitor and make configuration changes to a network device over a network connection.",
+        "c. It is used for initial configuration or when a network connection is unavailable.",
+        "d. It uses a direct connection to a console or AUX port."
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:45:38Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4471,14 +4804,16 @@
         "a. The deployment of distribution layer switches in pairs and the division of access layer switch connections between them",
         "c. The installation of only enterprise class equipment throughout the network",
         "c. The configuration of all access layer devices to share a single gateway",
-        "d. The installation of only enterprise class equipment throughout the network"
+        "d. The installation of only enterprise class equipment throughout the network",
+        "b. The configuration of all access layer devices to share a single gateway",
+        "d. The reduction in the number of redundant devices and connections in the network core"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-09-25T09:34:30Z",
-      "lastVerifiedAt": "2026-10-06T09:44:39Z",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -4792,12 +5127,16 @@
         "c. It is used to monitor and make configuration changes to a network device over a network connection.",
         "d. It is used for initial configuration or when a network connection is unavailable.",
         "b. It is used to monitor and make configuration changes to a network device over a network connection.",
-        "c. It uses a terminal emulation client."
+        "c. It uses a terminal emulation client.",
+        "a. It uses a terminal emulation client.",
+        "b. It is used for initial configuration or when a network connection is unavailable.",
+        "c. It uses a direct connection to a console or AUX port.",
+        "d. It is used to monitor and make configuration changes to a network device over a network connection."
       ],
       "verified": true,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-09-22T08:07:16Z",
-      "lastVerifiedAt": "2026-10-04T14:59:31Z",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -5391,6 +5730,27 @@
       "lastVerifiedAt": "2026-10-06T09:54:14Z"
     },
     {
+      "question": "Which RSTP ports are connected to end devices?",
+      "answer": "Edge ports",
+      "choices": [
+        "a. Designated ports",
+        "b. Root ports",
+        "c. Trunk ports",
+        "d. Edge ports"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
       "question": "Which show command displays the administrative distance of the routing protocol that is being used?",
       "answer": "show ip protocols",
       "choices": [
@@ -5534,9 +5894,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 7,
+      "confirmations": 8,
       "firstSeenAt": "2026-09-23T14:38:50Z",
-      "lastVerifiedAt": "2026-10-06T09:47:35Z",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -5735,6 +6095,27 @@
       "questionType": "multichoice"
     },
     {
+      "question": "Why do a network administrator change a switch priority to a higher value than that of other switches in the network?",
+      "answer": "To make sure that the switch is not chosen as the root bridge.",
+      "choices": [
+        "a. To make sure that no ports on the switch are blocked.",
+        "b. To make sure that the switch is chosen as the root bridge.",
+        "c. To help the network converge more quickly.",
+        "d. To make sure that the switch is not chosen as the root bridge."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T17:04:07Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z"
+    },
+    {
       "question": "Why do OSPF serial interfaces usually require manual bandwidth configuration?",
       "answer": "OSPF uses the bandwidth value to compute routes for its routing table.",
       "choices": [
@@ -5817,14 +6198,15 @@
         "d. Switch# spanning-tree mode rapid-pvst",
         "b. Switch(config)# spanning-tree mode 802.1w",
         "c. Switch(config)# spanning-tree mode rapid-pvst",
-        "a. Switch(config)# spanning-tree mode 802.1w"
+        "a. Switch(config)# spanning-tree mode 802.1w",
+        "d. Switch# spanning-tree mode 802.1w"
       ],
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-09-23T14:44:45Z",
-      "lastVerifiedAt": "2026-10-27T10:31:07Z",
+      "lastVerifiedAt": "2026-10-28T17:04:07Z",
       "source": "review_screen",
       "questionType": "multichoice"
     }
