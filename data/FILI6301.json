@@ -1,8 +1,8 @@
 {
   "subjectCode": "FILI6301",
   "subjectName": "FILI6301",
-  "updatedAt": "2026-10-28T02:09:39Z",
-  "totalQuestions": 247,
+  "updatedAt": "2026-10-28T02:14:33Z",
+  "totalQuestions": 252,
   "questions": [
     {
       "question": "\"Ang lawiswis ng kawayan sa kabundukan sa isang musika sa pandinig.\" Anong uri ito ng tayutay?",
@@ -408,6 +408,27 @@
       "firstSeenAt": "2026-10-11T19:48:57Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-17T13:28:11Z"
+    },
+    {
+      "question": "Ang hakbang na ito ng segmentasyon ay tinatawag na transitional units.",
+      "answer": "Hakbang 1",
+      "choices": [
+        "a. Hakbang 3",
+        "b. Hakbang 2",
+        "c. Hakbang 1",
+        "d. Hakbang 4"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:14:33Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "Ang ikalimang yugto ng pagsasalin ay maituturing patay na panahon dahin sa kawalan ng programa para sa pagsasalin.",
@@ -1651,17 +1672,21 @@
         "a. Tauhan",
         "b. Banghay",
         "c. Pamagat",
-        "d. Panimula"
+        "d. Panimula",
+        "a. Panimula",
+        "b. Tauhan",
+        "c. Banghay",
+        "d. Pamagat"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T18:47:30Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T18:47:30Z"
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "Apat ang istilo ng teksto ayon Nida, ang isa ay ang paglalahad ng sunod-sunod na pangyayari kung saan binibiyang diin ang gamit ng pandiwa.Kilala ito sa tawag na ______________.",
@@ -2217,7 +2242,8 @@
         "c. Suliranin",
         "a. Tunggalian",
         "c. Wika",
-        "d. Suliranin"
+        "d. Suliranin",
+        "b. Tunggalian"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2227,11 +2253,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:48:46Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T09:05:49Z",
-      "lastVerifiedAt": "2026-10-17T15:39:56Z"
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "Gamitin sa pagsasaling teknikal ang pagtutumbas ng salita sa salita",
@@ -2731,12 +2757,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T15:39:56Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T15:39:56Z"
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "Isang akdang tuluyan na maaring mabasa sa isang upuan lamang at nag-iiwan ng kakintalan sa mambabasa.",
@@ -2864,17 +2890,18 @@
         "c. Sanaysay",
         "a. Alamat",
         "b. Maikling kwento",
-        "d. Tula"
+        "d. Tula",
+        "b. Alamat"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:56:12Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T15:39:56Z"
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "Isinasaad dito ang pinakamasidhing kawilihan, dito makakamtan ng tauhan ang tagumpay o kabiguan.",
@@ -3157,10 +3184,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:59:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T09:05:29Z"
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "kailangang malinaw sa tagapagsalin ang uri ng genre, anong uri ng patakaran ang nagsasaad nito?",
@@ -4186,6 +4213,48 @@
       "lastVerifiedAt": "2026-10-28T02:09:21Z"
     },
     {
+      "question": "Sa Hakbang 4 ng segmentasyon nagaganap ang _______________________.",
+      "answer": "Pagsasama-sama ng nabuong mga pangungusap",
+      "choices": [
+        "a. Paghahati-hati ng pangungusap",
+        "b. Pagsasalin sa nabuong segment",
+        "c. Pagsasama-sama ng nabuong mga pangungusap",
+        "d. Pagsasaayos ng mga saling Segment"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:14:33Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
+    },
+    {
+      "question": "Sa hakbang na ito pinaghahati-hati ang mga pangungusap.",
+      "answer": "hakbang 1",
+      "choices": [
+        "a. hakbang 1",
+        "b. hakbang 3",
+        "c. hakbang 2",
+        "d. hakbang 4"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:14:33Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
+    },
+    {
       "question": "Sa ikalawang hakbang kailangan hati-hatiin ang mga pangungusap upang walang makalimutang diwa na isasalin.",
       "answer": "b. False",
       "choices": [
@@ -4217,6 +4286,25 @@
           "timestamp": "2026-10-17T15:39:56Z"
         }
       ]
+    },
+    {
+      "question": "Sa Ikatlong hakbang isinasaayos ang mga saling segment.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:14:33Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "Sa ikatlong yugto binigyang tuon ang pagsasalin ng mga akdang pampaanitikan na nasusulat sa wikang Ingles",
@@ -4978,6 +5066,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-17T13:43:07Z"
+    },
+    {
+      "question": "Uri ng tunggalian kung saan ang tauhan ay nakikipagtunggali sa mga proyektong panlipunan.",
+      "answer": "Tunggalian ng tao sa lipunan",
+      "choices": [
+        "a. Tunggalian ng tao sa kalikasan",
+        "b. Tunggalian ng tao sarili",
+        "c. Tunggalian ng tao sa lipunan",
+        "d. Tunggalian ng tao sa tao"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:14:33Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:14:33Z"
     },
     {
       "question": "Yugto ng Pagsasaling Wika kung saan karamihan sa isinalin ay mga kagamitang pampagtuturo na nasusulat sa wikang Ingles.",
