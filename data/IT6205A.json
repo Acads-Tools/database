@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-28T03:50:58Z",
-  "totalQuestions": 126,
+  "updatedAt": "2026-10-28T10:30:49Z",
+  "totalQuestions": 134,
   "questions": [
     {
       "question": "A full inventory of architecture elements that implement security services must be compiled in preparation for a gap analysis. What phase is that?",
@@ -74,10 +74,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Acronym for TCB?",
@@ -112,10 +112,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "After the first six phases, an attacker can act to achieve the goals. These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
@@ -414,12 +414,14 @@
         "b. Availability",
         "c. Security",
         "d. Confidentiality",
-        "b. Integrity"
+        "b. Integrity",
+        "a. Confidentiality",
+        "d. Integrity"
       ],
       "verified": true,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [
         "Security"
@@ -473,9 +475,9 @@
         "c. Security"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -490,10 +492,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Availability: Availability of information refers to ensuring that authorized parties are able to access the information when needed",
@@ -503,9 +505,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -519,9 +521,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -624,13 +626,29 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
+    },
+    {
+      "question": "Consists of employees, former employees and contractors.",
+      "answer": "Insiders",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Converting data into information thus requires knowledge",
@@ -658,10 +676,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Cyber security, also referred to as information technology security, focuses on protecting computers, networks, programs and data from unintended or unauthorized access, change or destruction.",
@@ -671,9 +689,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -687,9 +705,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -703,9 +721,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -737,10 +755,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Definition of relevant stakeholders and discovery of their concerns and objectives will require development of a high-level scenario. What phase is that?",
@@ -964,7 +982,13 @@
         "c. Personnel Security",
         "d. Physical Security",
         "e. Web Security",
-        "f. Operational Security"
+        "f. Operational Security",
+        "a. Physical Security",
+        "b. Personnel Security",
+        "c. IT Security",
+        "d. Data Security",
+        "e. Operational Security",
+        "f. Web Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -976,7 +1000,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:56:05Z"
+      "lastVerifiedAt": "2026-10-17T16:56:05Z",
+      "alternateAnswers": [
+        {
+          "answer": "Physical Security, Personnel Security, IT Security, Operational Security",
+          "timestamp": "2026-10-28T10:30:49Z"
+        }
+      ]
     },
     {
       "question": "From the Baseline Security Architecture and the Enterprise Continuum, there will be existing security infrastructure and security building blocks that can be applied to the requirements derived from this architecture development engagement. What phase is that?",
@@ -1254,9 +1284,9 @@
         "b. False"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1301,10 +1331,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Information Assurance (IA) is the study of how to protect your information assets from destruction, degradation, manipulation and exploitation.",
@@ -1318,10 +1348,42 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+    },
+    {
+      "question": "Information security technical measures such as: encryption and key management, intrusion detection, anti-virus software, auditing, redundancy, firewalls, policies and standards.",
+      "answer": "Defender's Operations",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+    },
+    {
+      "question": "Involves the implementation of standard operational security procedures that define the nature and frequency of the interaction between users, systems, and system resources, the purpose of which is to.",
+      "answer": "Operational Security",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Is a generic term that implies a mechanism in place to provide a basis for confidence in the reliability/security of the system.",
@@ -1358,9 +1420,9 @@
       "answer": "Security",
       "choices": [],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1373,19 +1435,21 @@
         "a. Operational Security",
         "b. Physical Security",
         "c. Personnel Security",
-        "d. IT Security"
+        "d. IT Security",
+        "b. Personnel Security",
+        "c. Physical Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T16:56:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:56:05Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Is data endowed with relevance and purpose.",
@@ -1404,17 +1468,18 @@
         "a. Data",
         "d. Knowledge",
         "b. Information",
-        "c. Noise"
+        "c. Noise",
+        "a. Knowledge"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Is it true or false. Storage the minimum required data online and maximum discretion in providing them to a third party (users, companies) is some basic steps in storing personal data.",
@@ -1473,26 +1538,63 @@
         "b. Confidentiality"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "multichoice"
     },
     {
+      "question": "Is the inherent technical features and functions that collectively contribute to an IT infrastructure achieving and sustaining confidentiality, integrity, availability, accountability, authenticity, and reliability.”",
+      "answer": "IT Security",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+    },
+    {
       "question": "Is the process of maintaining an acceptable level of perceived risk",
       "answer": "Security",
       "choices": [],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
       "questionType": "shortanswer"
+    },
+    {
+      "question": "Is the study of how to protect your information assets from destruction, degradation, manipulation and exploitation.",
+      "answer": "Information Assurance",
+      "choices": [
+        "a. Efficient",
+        "b. Confidentiality",
+        "c. Information Assurance",
+        "d. Integrity"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "It should be: accurate, timely, complete, verifiable, consistent, available.",
@@ -1520,10 +1622,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Logical security consists in software that are necessary to control the access to information and services of a system. The logical level is divided into two categories: access security level and service security level.",
@@ -1675,19 +1777,21 @@
         "a. Information",
         "b. Attacker's Operations",
         "c. Desired Effects",
-        "d. Data"
+        "d. Data",
+        "a. Data",
+        "d. Information"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T16:56:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:56:05Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Physical security consist in the closure of IT equipment in a dedicated space and the provision of access control.",
@@ -1728,10 +1832,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T16:56:05Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Protection against unauthorized modification or destruction of information",
@@ -1742,10 +1846,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Raw facts with a known coding system",
@@ -1756,10 +1860,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Raw facts with an unknown coding system",
@@ -1770,10 +1874,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+    },
+    {
+      "question": "Refers to the protection of hardware, software, and data against physical threats to reduce or prevent disruptions to operations and services and loss of assets.”",
+      "answer": "Physical Security",
+      "choices": [
+        "a. IT Security",
+        "b. Personnel Security",
+        "c. Physical Security",
+        "d. Operational Security"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Research, target identification and selection: it may be looking for e-mail addresses, social relationships, or data about a particular technology, information displayed on various websites;",
@@ -2120,10 +2245,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Seven Stages of lifecycle model",
@@ -2743,7 +2868,11 @@
         "b. Frameworks",
         "c. Conceptual",
         "d. Perceptual",
-        "e. Desired Effects"
+        "e. Desired Effects",
+        "a. Desired Effects",
+        "b. Perceptual",
+        "d. Frameworks",
+        "e. Physical"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -2755,7 +2884,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T16:56:05Z"
+      "lastVerifiedAt": "2026-10-17T16:56:05Z",
+      "alternateAnswers": [
+        {
+          "answer": "Desired Effects, Perceptual, Physical",
+          "timestamp": "2026-10-28T10:30:49Z"
+        }
+      ]
     },
     {
       "question": "Three Features of Security",
@@ -2774,12 +2909,15 @@
         "d. Confidentiality, Integrity and Availability",
         "b. Confidentiality, Integrity and Security",
         "d. CyberSpace, Integrity and Availability",
-        "c. Confidentiality, Integrity and Availability"
+        "c. Confidentiality, Integrity and Availability",
+        "a. Efficient, Integrity and Availability",
+        "b. No Feelings, Integrity and Availability",
+        "c. Confidentiality, Integrity and Flexible"
       ],
       "verified": true,
-      "confirmations": 17,
+      "confirmations": 18,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-12T10:24:57Z",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2794,10 +2932,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-16T11:24:07Z"
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+    },
+    {
+      "question": "To affect the technical performance and the capability of physical systems, to disrupt the capabilities of the defender.",
+      "answer": "Desired Effects",
+      "choices": [
+        "a. Attacker's Operations",
+        "b. Perceptual",
+        "c. Noise",
+        "d. Desired Effects"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Transmitting the weapon to the target environment.",
@@ -3103,6 +3262,27 @@
       "firstSeenAt": "2026-10-06T11:23:55Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T03:50:58Z"
+    },
+    {
+      "question": "Type of Concept for Cybercrime",
+      "answer": "Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
+      "choices": [
+        "a. Program, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
+        "b. Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
+        "c. Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and System",
+        "d. Digital Underground, Efficient Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:30:49Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:30:49Z"
     },
     {
       "question": "Usually an infected host must be accessible outside of the local network to establish a command and control channel between the victim and the attacker. Once this bidirectional communication has been made, an attacker has access inside the target environment and can usually control the activity by manually launching commands;",
