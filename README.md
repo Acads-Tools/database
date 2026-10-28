@@ -142,7 +142,7 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 | `IT6209` | Introduction to Multimedia | **263** | Active |
 | `IT6224B` | Data Communications and Networking 3 | **264** | Active |
 | `IT6310` | Network Security | **179** | Active |
-| `IT6314` | IT6314 | **293** | Active |
+| `IT6314` | IT6314 | **294** | Active |
 | `IT6322A` | Mobile Application Development | **90** | Active |
 | `ITE6200` | Application Development and Emerging Technology | **170** | Active |
 | `ITE6202` | ITE6202 | **179** | Active |

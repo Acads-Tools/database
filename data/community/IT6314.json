@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:17:11Z",
-  "totalQuestions": 293,
+  "updatedAt": "2026-10-28T03:17:38Z",
+  "totalQuestions": 294,
   "questions": [
     {
       "question": "A constant can only be assigned a scalar value, like a string or a number.",
@@ -78,10 +78,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "Ajax Stands for",
@@ -353,6 +353,27 @@
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:10:25Z"
+    },
+    {
+      "question": "Consider the following code snippet : var grand_Total=eval(\"10*10+5\");",
+      "answer": "105 as an integer value",
+      "choices": [
+        "a. 105 as a string",
+        "b. 105 as an integer value",
+        "c. Exception is thrown",
+        "d. 10*10+5"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:17:38Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
@@ -1740,17 +1761,19 @@
         "b. Ajax",
         "c. jQuery",
         "a. jQuery",
-        "b. HTML"
+        "b. HTML",
+        "a. PHP",
+        "c. HTML"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "It reports the error message from the last failed database connection attempt.",
@@ -1958,17 +1981,20 @@
         "a. Function/Method",
         "b. Trigger",
         "c. Event",
-        "d. Preprocessor"
+        "d. Preprocessor",
+        "a. Trigger",
+        "b. Preprocessor",
+        "d. Event"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "Joining values together (by appending them to each other) to form a single long value.",
@@ -2482,17 +2508,21 @@
         "d. HTTPXMLHttpRequest",
         "b. XMLHttpRequests",
         "c. HTTPXMLHttpRequest",
-        "d. HTML Request"
+        "d. HTML Request",
+        "a. HTTPXMLHttpRequest",
+        "b. XMLHttpRequest",
+        "c. HTML Request",
+        "d. XMLHttpRequests"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "One of the parameters to represent the day of the month",
@@ -2985,17 +3015,18 @@
         "c. $_SERVERS['PHP_SELF']",
         "d. $_SERVER['PHP_SELFS']",
         "b. $_SERVERS['PHP_SELF']",
-        "c. $_SERVER['PHP_SELF']"
+        "c. $_SERVER['PHP_SELF']",
+        "b. $_SERVER['PHP_SELFIE']"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "Software Requirements: Web Server except for :",
@@ -3093,17 +3124,20 @@
         "b. Continue",
         "c. Cancel",
         "d. Error",
-        "a. Cancel"
+        "a. Cancel",
+        "a. Error",
+        "b. Cancel",
+        "d. Continue"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "strlen(\"seven\"); what is the output?",
@@ -4704,17 +4738,19 @@
         "a. LiveScripting",
         "c. LiveScript",
         "a. LiveScripts",
-        "d. LiveScripting"
+        "d. LiveScripting",
+        "a. LivesScript",
+        "b. LiveScripting"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "What is the output of the following code snippet? $str = 'asdfghyo off on off'; $replace_pairs = array('a' => 'q', 's' => 'w', 'd' => 'e', 'f' => 'r', 'y' => 'z', 'o' => 'i', 'off' => 'on', 'on' => 'off'); echo strtr($str, $replace_pairs);",
@@ -6385,17 +6421,19 @@
         "a. Wally Eich",
         "b. Jason Eich",
         "c. Brendan Smith",
-        "d. Brendan Eich"
+        "d. Brendan Eich",
+        "b. Brendan Smith",
+        "d. Wally Eich"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:09:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:25Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "With SQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?",
@@ -6491,17 +6529,20 @@
         "a. Cancel()",
         "b. Ignore()",
         "c. Stop()",
-        "d. Abort()"
+        "d. Abort()",
+        "b. Abort()",
+        "c. Ignore()",
+        "d. Stop()"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-28T03:17:38Z"
     },
     {
       "question": "You can add a row using SQL in a database with which of the following?",
