@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T02:42:09Z",
-  "totalQuestions": 258,
+  "updatedAt": "2026-10-28T02:43:19Z",
+  "totalQuestions": 260,
   "tier": "verified",
   "questions": [
     {
@@ -911,10 +911,26 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
+    },
+    {
+      "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.What functionality was added to PHP 5.1 as interface for accessing databases?",
+      "answer": "PDO",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:43:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "IDENTIFICATION. Read the question carefully and type your answer in the space provided.What year did PHP began its development?",
@@ -997,10 +1013,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:57:01Z"
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. PHP version that uses void return type, class constant visibility modifiers, null types",
@@ -2267,10 +2283,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:57:01Z"
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "PDO stands for Personal Data Objects",
@@ -2335,10 +2351,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "PHP is based on C rather than ______.",
@@ -2395,7 +2411,13 @@
       "confirmations": 1,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-09T06:21:45Z"
+      "lastVerifiedAt": "2026-10-09T06:21:45Z",
+      "alternateAnswers": [
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T02:43:19Z"
+        }
+      ]
     },
     {
       "question": "PHP only runs in Apache web server.",
@@ -2447,6 +2469,25 @@
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-12T10:56:40Z"
+    },
+    {
+      "question": "PHP script tags ends with ?>;",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T02:43:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "PHP's numerically indexed array begin with position __.",
@@ -3001,10 +3042,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 9,
       "firstSeenAt": "2026-10-11T18:52:15Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "The default user of your phpmyadmin",
@@ -4112,12 +4153,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T11:59:02Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T11:59:02Z"
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "Version 4 of php supports global variables $Get etc. (v4.1)",
@@ -5559,10 +5600,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-09T06:21:45Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:57:01Z"
+      "lastVerifiedAt": "2026-10-28T02:43:19Z"
     },
     {
       "question": "XMLHttpRequest object function that cancel request.",
