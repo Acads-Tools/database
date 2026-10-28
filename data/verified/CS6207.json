@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-18T14:32:03Z",
+  "updatedAt": "2026-10-28T02:19:10Z",
   "totalQuestions": 56,
   "tier": "verified",
   "questions": [
@@ -79,6 +79,10 @@
         {
           "rejectedAnswer": "False",
           "timestamp": "2026-10-18T14:32:03Z"
+        },
+        {
+          "rejectedAnswer": "False",
+          "timestamp": "2026-10-28T02:19:10Z"
         }
       ]
     },
@@ -214,10 +218,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "Backtracking come up in every stage of the compiler with an unexpected item that doesn't match the current objective, so it must be put back.",
@@ -247,6 +251,10 @@
         {
           "rejectedAnswer": "True",
           "timestamp": "2026-10-18T14:32:03Z"
+        },
+        {
+          "rejectedAnswer": "True",
+          "timestamp": "2026-10-28T02:19:10Z"
         }
       ]
     },
@@ -287,10 +295,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "How would you write the \"Hello, world!\" program in Python?",
@@ -327,10 +335,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "If you execute the following expression, what is the output? >>> 3 + 5 * 2",
@@ -648,10 +656,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "Some of the single character tokens are easy; if the scanner reads a * character then it immediately returns [Dropdown 1: TOKEN MULTIPLY] .",
@@ -662,10 +670,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "Source code is written in rich text",
@@ -757,10 +765,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "These are seen in order appearance in the token stream.",
@@ -892,10 +900,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "What does this expression evaluate to? 2 * 3 + 2 * 5",
@@ -957,10 +965,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:32:03Z"
+      "lastVerifiedAt": "2026-10-28T02:19:10Z"
     },
     {
       "question": "What is the output of the following program?defisEven(num): return num % 2 = 0 if isEven(3): print(\"3 is even\") else: print(\"3 is not even\")",
