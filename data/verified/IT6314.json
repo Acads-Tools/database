@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T02:54:26Z",
-  "totalQuestions": 260,
+  "updatedAt": "2026-10-28T03:03:31Z",
+  "totalQuestions": 261,
   "tier": "verified",
   "questions": [
     {
@@ -1989,7 +1989,11 @@
         "d. In for loopIn for loopIn for loopIn for loop……infinitely",
         "c. infinite loop",
         "b. 123456789101112",
-        "d. 1234567891011"
+        "d. 1234567891011",
+        "a. 1234567891011",
+        "b. 12345678910",
+        "c. In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
+        "d. After for loop"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2057,6 +2061,18 @@
         {
           "rejectedAnswer": "In for loopAfter for loop",
           "timestamp": "2026-10-17T12:16:19Z"
+        },
+        {
+          "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
+          "timestamp": "2026-10-28T03:03:31Z"
+        },
+        {
+          "rejectedAnswer": "In for loopAfter for loop",
+          "timestamp": "2026-10-28T03:03:31Z"
+        },
+        {
+          "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
+          "timestamp": "2026-10-28T03:03:31Z"
         }
       ],
       "lastEvidenceAt": "2026-10-17T12:16:19Z"
@@ -2503,17 +2519,19 @@
         "a. 0",
         "b. -1",
         "c. 1",
-        "d. 2"
+        "d. 2",
+        "a. 1",
+        "b. 0"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:43:54Z"
+      "lastVerifiedAt": "2026-10-28T03:03:31Z"
     },
     {
       "question": "php.org is the official php resource.",
@@ -3628,7 +3646,9 @@
         "d. Numeric array, Associative array, Dimensional array",
         "a. Numeric array, Associative array, Dimensional array",
         "c. Const array, Associative array, Multidimensional array",
-        "d. Numeric array, Associative array, Multidimensional array"
+        "d. Numeric array, Associative array, Multidimensional array",
+        "b. Const array, Associative array, Multidimensional array",
+        "c. Numeric array, String array, Multidimensional array"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -3637,11 +3657,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:52:29Z",
-      "lastVerifiedAt": "2026-10-12T11:07:23Z"
+      "lastVerifiedAt": "2026-10-28T03:03:31Z"
     },
     {
       "question": "This are functions that operate on a set of rows to calculate and return a single value.",
@@ -4247,17 +4267,21 @@
         "d. counts",
         "a. counts",
         "b. array_count",
-        "d. count"
+        "d. count",
+        "a. count",
+        "b. counts",
+        "c. array_count",
+        "d. count_array"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:43:54Z"
+      "lastVerifiedAt": "2026-10-28T03:03:31Z"
     },
     {
       "question": "What is the function of the ucfirst and lcfirst functions?",
@@ -4545,7 +4569,9 @@
         "c. -6-7",
         "d. -6-7-8",
         "b. -6-7",
-        "c. infinite loop"
+        "c. infinite loop",
+        "a. -6-7-8",
+        "d. no output"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4554,11 +4580,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:33:34Z",
-      "lastVerifiedAt": "2026-10-12T11:06:34Z"
+      "lastVerifiedAt": "2026-10-28T03:03:31Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:151139/w6-q7.PNG]]",
@@ -4675,6 +4701,33 @@
       "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
+      "question": "What will be the output of the following PHP code ? [Image: w6-q1 - [moodle-asset:151133/w6-q1.PNG]]",
+      "answer": "Error",
+      "choices": [
+        "a. infinite loop",
+        "b. 0",
+        "c. No output",
+        "d. Error",
+        "a. 0",
+        "b. No output",
+        "c. infinite loop",
+        "c. Error",
+        "d. No output"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "0"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:16:32Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-11T19:33:34Z",
+      "lastVerifiedAt": "2026-10-28T03:03:31Z"
+    },
+    {
       "question": "What will be the output of the following PHP code ? [Image: w6-q1 - [moodle-asset:6336224/w6-q1.PNG]]",
       "answer": "Error",
       "choices": [
@@ -4708,7 +4761,9 @@
         "c. Sum",
         "a. Error",
         "b. 1",
-        "d. 49"
+        "d. 49",
+        "c. 1",
+        "d. Sum"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4718,11 +4773,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-12T11:06:34Z",
-      "lastVerifiedAt": "2026-10-11T19:52:29Z"
+      "lastVerifiedAt": "2026-10-28T03:03:31Z"
     },
     {
       "question": "What will be the output of the following PHP code? [Image: [moodle-asset:151148/q6.PNG]]",
@@ -4856,7 +4911,9 @@
         "d. Default Argument Value",
         "b. Call By Value",
         "c. Default Argument Value",
-        "d. Call By Reference"
+        "d. Call By Reference",
+        "a. Call By Reference",
+        "d. Type Hinting"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4865,11 +4922,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:33:34Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:33:34Z",
-      "lastVerifiedAt": "2026-10-12T10:58:42Z"
+      "lastVerifiedAt": "2026-10-28T03:03:31Z"
     },
     {
       "question": "What will happen in this function call? [Image: [moodle-asset:6336240/q7.PNG]]",
