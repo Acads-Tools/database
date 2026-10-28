@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:17:38Z",
+  "updatedAt": "2026-10-28T03:17:57Z",
   "totalQuestions": 265,
   "tier": "verified",
   "questions": [
@@ -55,10 +55,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:17:38Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "Ajax Stands for",
@@ -73,17 +73,18 @@
         "c. Asynchronous JavaScript And XHML.",
         "b. Asynchronous JavaScripts And XML.",
         "d. Asynchronous JavaScript And XHML.",
-        "d. Asynchronous JavaScript And XML."
+        "d. Asynchronous JavaScript And XML.",
+        "a. Asynchronous JavaScript And XML."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "Allow for multiple items of the same type to be aggregated under a single representative entity.",
@@ -113,17 +114,21 @@
         "a. JavaScript",
         "b. AJAX",
         "c. PHP",
-        "d. HTML"
+        "d. HTML",
+        "a. AJAX",
+        "b. PHP",
+        "c. HTML",
+        "d. JavaScript"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:10:01Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:01Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "And the Founder/Developer of PHP is ____________.",
@@ -307,19 +312,23 @@
         "a. 105 as a string",
         "b. 105 as an integer value",
         "c. Exception is thrown",
-        "d. 10*10+5"
+        "d. 10*10+5",
+        "a. Exception is thrown",
+        "b. 10*10+5",
+        "c. 105 as a string",
+        "d. 105 as an integer value"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T03:17:38Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T03:17:38Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "Consider the following snippet code var string1 = \"123\"; var intvalue = 123; alert( string1 + intvalue );",
@@ -2675,10 +2684,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "Security is not an issue with JavaScript",
@@ -2692,10 +2701,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "Select * from employee where salary>10000 and dept_id=101; Which of the following fields are displayed as output?",
@@ -2767,17 +2776,19 @@
         "d. $_SERVER['PHP_SELFS']",
         "b. $_SERVERS['PHP_SELF']",
         "c. $_SERVER['PHP_SELF']",
-        "b. $_SERVER['PHP_SELFIE']"
+        "b. $_SERVER['PHP_SELFIE']",
+        "a. $_SERVERS['PHP_SELF']",
+        "d. $_SERVER['PHP_SELFIE']"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:40:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:17:38Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "Software Requirements: Web Server except for :",
@@ -2878,17 +2889,18 @@
         "a. Cancel",
         "a. Error",
         "b. Cancel",
-        "d. Continue"
+        "d. Continue",
+        "b. OK"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:17:38Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "strlen(\"seven\"); what is the output?",
@@ -3414,17 +3426,19 @@
         "a. XMLHttpRequest",
         "c. XMLHttpRequests",
         "d. XMLHttpsRequest",
-        "b. XMLHttpRequests"
+        "b. XMLHttpRequests",
+        "a. XMLsHttpRequest",
+        "d. XMLHttpRequest"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:37Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "The logical operator && stands for?",
@@ -4400,17 +4414,19 @@
         "a. LiveScripts",
         "d. LiveScripting",
         "a. LivesScript",
-        "b. LiveScripting"
+        "b. LiveScripting",
+        "b. LiveScripts",
+        "d. LivesScript"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T20:39:09Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:17:38Z"
+      "lastVerifiedAt": "2026-10-28T03:17:57Z"
     },
     {
       "question": "What is the output of the following code snippet? $str = 'asdfghyo off on off'; $replace_pairs = array('a' => 'q', 's' => 'w', 'd' => 'e', 'f' => 'r', 'y' => 'z', 'o' => 'i', 'off' => 'on', 'on' => 'off'); echo strtr($str, $replace_pairs);",
