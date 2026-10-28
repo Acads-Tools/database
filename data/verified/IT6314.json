@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T14:33:41Z",
-  "totalQuestions": 277,
+  "updatedAt": "2026-10-28T14:42:54Z",
+  "totalQuestions": 286,
   "tier": "verified",
   "questions": [
     {
@@ -217,10 +217,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:13:02Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Assume you would like to sort an array in ascending order by value while preserving key associations. Which of the following PHP sorting functions would you use?",
@@ -241,10 +241,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:06:34Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:13:02Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Assuming the table and fields below exists, what is wrong with the following mysql query example: mysql_query(\"INSERT INTO contacts (firstName, lastName) VALUES ('Robert', 'Smith', '123-983-2929')\");",
@@ -1071,10 +1071,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:54:26Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. +, -, *, /, %, are all examples of what category of operators",
@@ -1085,10 +1085,30 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-12T11:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:54:26Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
+    },
+    {
+      "question": "Identification. Write your answer on the space provided. If I wanted to concatenate a word to a string variable I would use which of these?",
+      "answer": ".",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "dot",
+        "period",
+        ".-=",
+        ".="
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-11T19:04:05Z",
+      "source": "review_screen",
+      "lastEvidenceAt": "2026-10-12T11:05:25Z",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. PHP version that enabled the filter extension by default Native JSON default",
@@ -1161,11 +1181,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-17T12:16:19Z",
-      "lastVerifiedAt": "2026-10-12T10:39:08Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Identification. Write your answer on the space provided. Which operator will check if two variables are the same?",
@@ -1205,19 +1225,22 @@
         "a. 10",
         "b. 12",
         "c. 9",
-        "d. 11"
+        "d. 11",
+        "b. 11",
+        "c. 12",
+        "d. 9"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T12:16:19Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "If the variable $x = 11; , what will $x equal if it is incremented, that is, if I write $x++; what value will $x contain after it has been incremented?",
@@ -1239,10 +1262,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "In a LIKE clause, you can could ask for any value ending in \"qpt\" by writing",
@@ -2155,18 +2178,24 @@
         "d. After for loop",
         "b. error",
         "c. red",
-        "b. In for loop"
+        "b. In for loop",
+        "c. In for loopIn for loopIn for loopIn for loop……infinitely",
+        "d. In for loopAfter for loop",
+        "b. red green blue yellow",
+        "d. error",
+        "c. 123456789101112",
+        "a. 123456789101112",
+        "d. 12345678910"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
-        "After for loop",
         "In for loop",
-        "infinite loop",
         "12345678910",
         "-3-4-5",
         "In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely",
         "error",
-        "In for loopAfter for loop"
+        "In for loopAfter for loop",
+        "1234567891011"
       ],
       "wrongAnswerEvidence": true,
       "verified": true,
@@ -2245,9 +2274,29 @@
         {
           "rejectedAnswer": "In for loopIn for loopIn for loopIn for loop……infinitely",
           "timestamp": "2026-10-28T03:13:02Z"
+        },
+        {
+          "rejectedAnswer": "infinite loop",
+          "timestamp": "2026-10-28T14:42:54Z"
+        },
+        {
+          "rejectedAnswer": "After for loop",
+          "timestamp": "2026-10-28T14:42:54Z"
+        },
+        {
+          "rejectedAnswer": "no output",
+          "timestamp": "2026-10-28T14:42:54Z"
+        },
+        {
+          "rejectedAnswer": "red green blue yellow",
+          "timestamp": "2026-10-28T14:42:54Z"
+        },
+        {
+          "rejectedAnswer": "infinite loop",
+          "timestamp": "2026-10-28T14:42:54Z"
         }
       ],
-      "lastEvidenceAt": "2026-10-28T03:14:57Z"
+      "lastEvidenceAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Multiple Choice. Select the best answerLook at the following code and determine what will be displayed in the browser:",
@@ -3337,19 +3386,22 @@
         "a. Bitwise",
         "b. Escape Sequence",
         "c. Equality",
-        "d. Arithmetic"
+        "d. Arithmetic",
+        "a. Logical",
+        "b. Assignment",
+        "c. Comparison"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T12:16:19Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z",
       "alternateAnswers": [
         {
           "answer": "Equality",
@@ -3405,10 +3457,29 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T19:08:38Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
+    },
+    {
+      "question": "The following condition will return TRUE or FALSE ( (4 >= 4 && 8 3) )",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:42:54Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE [Image: sad - https://semestral.amaes.com/2612/theme/image.php/boost/core/1782106702/s/sad] 7 >= 7 && 9 < 2)",
@@ -3426,6 +3497,46 @@
       "firstSeenAt": "2026-10-11T19:08:38Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T02:50:51Z"
+    },
+    {
+      "question": "The following condition will return TRUE or FALSE [Image: sad - https://semestralexam.amaes.com/2612/theme/image.php/boost/core/1793023628/s/sad] 4 >= 4 || 8 < 1)",
+      "answer": "a. True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "False"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:42:54Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
+    },
+    {
+      "question": "The following condition will return TRUE or FALSE [Image: sad - https://semestralexam.amaes.com/2612/theme/image.php/boost/core/1793023628/s/sad] 7 >= 7 && 9 < 2)",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:42:54Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "The following condition will return TRUE or FALSE: !(3 >= 3 || 8 < 1)",
@@ -3610,17 +3721,18 @@
         "b. OR",
         "c. AND",
         "c. NOT MAYBE",
-        "d. MAYBE"
+        "d. MAYBE",
+        "a. NOT MAYBE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 8,
       "firstSeenAt": "2026-10-11T19:04:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:50:51Z",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z",
       "alternateAnswers": [
         {
           "answer": "NOT",
@@ -3691,6 +3803,10 @@
         {
           "rejectedAnswer": "NOT",
           "timestamp": "2026-10-28T02:54:26Z"
+        },
+        {
+          "rejectedAnswer": "OR",
+          "timestamp": "2026-10-28T14:42:54Z"
         }
       ]
     },
@@ -3712,6 +3828,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-17T12:16:19Z"
+    },
+    {
+      "question": "The PHP If Statement will only execute the code within it's curly braces if the if condition is FALSE?",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:42:54Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "The query given below will not give an error. Which one of the following has to be replaced to get the desired output? Select ID, name, dept name, sal * 1.1 where instructor;",
@@ -3899,7 +4034,10 @@
         "c. Const array, Associative array, Multidimensional array",
         "d. Numeric array, Associative array, Multidimensional array",
         "b. Const array, Associative array, Multidimensional array",
-        "c. Numeric array, String array, Multidimensional array"
+        "c. Numeric array, String array, Multidimensional array",
+        "a. Numeric array, String array, Multidimensional array",
+        "b. Numeric array, Associative array, Dimensional array",
+        "d. Const array, Associative array, Multidimensional array"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -3908,11 +4046,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-11T19:52:29Z",
-      "lastVerifiedAt": "2026-10-28T03:03:31Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "This are functions that operate on a set of rows to calculate and return a single value.",
@@ -4339,10 +4477,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:06:05Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:39:08Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "True or False All variables in PHP start with a $(dollar) sign?",
@@ -4674,10 +4812,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:14:57Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What is the function of the ucfirst and lcfirst functions?",
@@ -4693,10 +4831,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-11T19:16:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:14:57Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What is the original name of JavaScript?",
@@ -4737,17 +4875,18 @@
         "b. Qwerghzi on onon",
         "c. Qwerghzi off offoff",
         "a. Qwerghzo on off on",
-        "d. Qwerghzi on off on"
+        "d. Qwerghzi on off on",
+        "c. Qwerghzo on off on"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:14:57Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What is the output of the following code? $a=1; ++$a; $a*=$a; echo $a- -;",
@@ -4756,19 +4895,22 @@
         "a. 3",
         "b. 6",
         "c. 5",
-        "d. 4"
+        "d. 4",
+        "b. 4",
+        "c. 6",
+        "d. 5"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T12:16:19Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What is the output of the following code? [Image: 16 - [moodle-asset:6335973/16.png]]",
@@ -4792,6 +4934,27 @@
       "lastVerifiedAt": "2026-10-17T12:16:19Z"
     },
     {
+      "question": "What is the output of the following code? [Image: 20 - [moodle-asset:6335976/20.png]]",
+      "answer": "1: 2, 2: 20, 3: 16",
+      "choices": [
+        "a. 1: 2, 2: 20, 3: 16",
+        "b. 1: 3, 2: 20, 3: 15",
+        "c. 1: 2, 2:21, 3:15",
+        "d. 1: 3, 2:21, 3:16"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:42:54Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
+    },
+    {
       "question": "What is the output of the following? echo strcmp('first', 'second'), \", \"; echo strcmp('44', '054'), \", \"; echo strcmp('0x80', 'a'), \", \"; echo strcmp('a', 'A');",
       "answer": "1, 0, -1, 1",
       "choices": [
@@ -4805,7 +4968,8 @@
         "d. 1, 1, -1, 1",
         "a. 1, 0, -1, 1",
         "b. -1, -1, 1, -1",
-        "d. 1, 0, -1, 1"
+        "d. 1, 0, -1, 1",
+        "b. 1, 1, -1, 1"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -4818,7 +4982,7 @@
       "confirmations": 2,
       "firstSeenAt": "2026-10-11T19:52:29Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T10:58:42Z",
+      "lastEvidenceAt": "2026-10-28T14:42:54Z",
       "lastVerifiedAt": "2026-10-28T03:13:02Z"
     },
     {
@@ -4876,8 +5040,10 @@
         "b. Hello World"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Hello World"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -4885,18 +5051,56 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "alternateAnswers": [
+        {
+          "answer": "a. Nothing Will Be Displayed",
+          "timestamp": "2026-10-28T14:42:54Z"
+        }
+      ]
+    },
+    {
+      "question": "What will be displayed in a browser when the following PHP code is executed. [Image: 25 - [moodle-asset:6335980/25.png]]",
+      "answer": "Hello World Welcome to the USA",
+      "choices": [
+        "a. Hello World Welcome to the USA",
+        "b. Welcome to the USA",
+        "c. Welcome to the USA Hello World",
+        "d. Tom is in love with Rose",
+        "a. Tom is in love with Rose",
+        "b. Welcome to the USA Hello World",
+        "c. Hello World Welcome to the USA",
+        "d. Welcome to the USA"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [
+        "Welcome to the USA"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-17T12:16:19Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-17T12:16:19Z",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What will be displayed in a browser when the following PHP code is executed: [Image: 27 - [moodle-asset:6335982/27.png]]",
       "answer": "Hello World",
       "choices": [
         "a. Hello World",
-        "b. Nothing Will Be Displayed"
+        "b. Nothing Will Be Displayed",
+        "a. Nothing Will Be Displayed",
+        "b. Hello World"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "Nothing Will Be Displayed"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -4904,7 +5108,13 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "alternateAnswers": [
+        {
+          "answer": "b. Hello World",
+          "timestamp": "2026-10-28T14:42:54Z"
+        }
+      ]
     },
     {
       "question": "What will be the output of the following code? If say date is 16/04/2017. [Image: [moodle-asset:6336265/q2.PNG]]",
@@ -5073,11 +5283,15 @@
         "a. 123456789101112",
         "b. 1234567891011",
         "c. error",
-        "d. 12345678910"
+        "d. 12345678910",
+        "b. 12345678910",
+        "d. 1234567891011"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "123456789101112"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -5085,7 +5299,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "lastEvidenceAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: [moodle-asset:6336228/w6-q5.PNG]]",
@@ -5163,11 +5378,15 @@
         "a. 0",
         "b. Error",
         "c. No output",
-        "d. infinite loop"
+        "d. infinite loop",
+        "b. No output",
+        "c. Error"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "No output"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -5175,7 +5394,8 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "lastEvidenceAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What will be the output of the following PHP code ? [Image: w6-q2 - [moodle-asset:151134/w6-q2.PNG]]",
@@ -5345,11 +5565,17 @@
         "a. 0",
         "b. 13",
         "c. Error",
-        "d. 16"
+        "d. 16",
+        "a. 16",
+        "b. 0",
+        "c. 13",
+        "d. Error"
       ],
       "questionType": "multichoice",
-      "wrongAnswers": [],
-      "wrongAnswerEvidence": false,
+      "wrongAnswers": [
+        "13"
+      ],
+      "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
@@ -5357,7 +5583,29 @@
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-17T12:16:19Z",
+      "lastEvidenceAt": "2026-10-28T14:42:54Z"
+    },
+    {
+      "question": "What will be the output of the following PHP code? [Image: [moodle-asset:6336236/q3.PNG]]",
+      "answer": "AMA University",
+      "choices": [
+        "a. AMA University",
+        "b. Error",
+        "c. $msg",
+        "d. 0"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:42:54Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "What will be the output of the following PHP code? If say date is 16/04/2017. [Image: [moodle-asset:6336268/q5.PNG]]",
@@ -5458,6 +5706,27 @@
       "lastVerifiedAt": "2026-10-12T11:07:23Z"
     },
     {
+      "question": "What will the following script output? [Image: WebDev2 shortquiz6 - [moodle-asset:6335850/vvz.png]]",
+      "answer": "78",
+      "choices": [
+        "a. 88",
+        "b. 98",
+        "c. 78",
+        "d. 68"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T14:42:54Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
+    },
+    {
       "question": "When three or more AND and OR conditions are combined, it is easier to use the SQL keyword(s):",
       "answer": "Both IN and NOT IN.",
       "choices": [
@@ -5507,19 +5776,22 @@
         "a. Operator",
         "b. Functions",
         "c. Array",
-        "d. Variable"
+        "d. Variable",
+        "a. Variable",
+        "c. Operator",
+        "d. Array"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-17T12:16:19Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-17T12:16:19Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Which of the following are the five built-in functions provided by SQL?",
@@ -5855,17 +6127,19 @@
         "c. functionName(parameters) { function body }",
         "d. functionfumctionName(parameters) { function body }",
         "a. functionfumctionName(parameters) { function body }",
-        "d. function { function body }"
+        "d. function { function body }",
+        "b. functionName(parameters) { function body }",
+        "c. data type functionName(parameters) { function body }"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T19:36:43Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T10:58:42Z"
+      "lastVerifiedAt": "2026-10-28T14:42:54Z"
     },
     {
       "question": "Which one of the following method is used to retrieve the number of rows affected by an INSERT, UPDATE, or DELETE query",
