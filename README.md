@@ -130,7 +130,7 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 | `CS6209` | Software Engineering 1 | **223** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
 | `FILI6201` | FILI6201 | **150** | Active |
-| `FILI6301` | FILI6301 | **252** | Active |
+| `FILI6301` | FILI6301 | **253** | Active |
 | `GE6301` | Gender and Society | **0** | Answer sharing disabled (non-reviewable) |
 | `HMS6301` | HMS6301 | **10** | Active |
 | `IT6200` | IT6200 | **19** | Active |
