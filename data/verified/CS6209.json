@@ -1,10 +1,31 @@
 {
   "subjectCode": "CS6209",
   "subjectName": "Software Engineering 1",
-  "updatedAt": "2026-10-28T10:18:04Z",
-  "totalQuestions": 224,
+  "updatedAt": "2026-10-28T10:22:11Z",
+  "totalQuestions": 268,
   "tier": "verified",
   "questions": [
+    {
+      "question": ".NET are specific to which platform?",
+      "answer": "Microsoft",
+      "choices": [
+        "a. LINUX",
+        "b. Java",
+        "c. Microsoft",
+        "d. Mac-OS"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
     {
       "question": "___________ is probably the most important phase for long-term support as well as for the reputation of the company.",
       "answer": "Testing",
@@ -140,6 +161,27 @@
       "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
+      "question": "A ___________is an executable instruction. It may have one or more parameters.",
+      "answer": "Command",
+      "choices": [
+        "a. Command Line Interface",
+        "b. Task Analysis",
+        "c. Command",
+        "d. Command Prompt"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "A company is developing an advance version of their current software available in the market, what model approach would they prefer ?",
       "answer": "Both RAD & Iterative Enhancement",
       "choices": [
@@ -250,17 +292,19 @@
         "a. All of the above",
         "b. A project is deliverable",
         "c. A project is temporary",
-        "a. A project is an endeavor"
+        "a. A project is an endeavor",
+        "c. All of the above",
+        "d. A project is temporary"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-18T14:37:30Z"
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "A small program needs to be written using software engineering principles.",
@@ -371,6 +415,27 @@
       "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
+      "question": "Acceptance testing is also known as",
+      "answer": "Beta testing",
+      "choices": [
+        "a. White box testing",
+        "b. Beta testing",
+        "c. Grey box testing",
+        "d. Alpha Testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "After defining architecture, software components and their interfaces, the next phase of development is the creation of __________________.",
       "answer": "design documents",
       "choices": [
@@ -395,6 +460,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
+    },
+    {
+      "question": "All entities involved in the solution design are known as __________. For example, person, banks, company, and customers are treated as objects.",
+      "answer": "Objects",
+      "choices": [
+        "a. Objects",
+        "b. Inheritance",
+        "c. Encapsulation",
+        "d. Classes"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "Alpha testing is done at",
@@ -573,6 +659,48 @@
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
     },
     {
+      "question": "Behavioral testing is",
+      "answer": "Black box testing",
+      "choices": [
+        "a. None of the mentioned",
+        "b. Grey box testing",
+        "c. Black box testing",
+        "d. White box testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "Beta testing is done at",
+      "answer": "User’s end",
+      "choices": [
+        "a. None of the mentioned",
+        "b. User’s end",
+        "c. User’s & Developer’s end",
+        "d. Developer’s end"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Boundary value analysis belong to?",
       "answer": "Black Box Testing",
       "choices": [
@@ -720,6 +848,27 @@
       "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
+      "question": "Consider the example and categorize it accordingly, “A pattern-matching system developed as part of a text-processing system may be reused in a database management system”.",
+      "answer": "Component reuse",
+      "choices": [
+        "a. Application system reuse",
+        "b. Object and function reuse",
+        "c. None of the mentioned",
+        "d. Component reuse"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Consider the following Statement: “The data set will contain an end of file character.”What characteristic of SRS is being depicted here ?",
       "answer": "Non-verifiable",
       "choices": [
@@ -809,6 +958,48 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:11:14Z"
+    },
+    {
+      "question": "COTS product reuse means",
+      "answer": "Systems are developed by configuring and integrating existing application systems",
+      "choices": [
+        "a. Class and function libraries that implement commonly used abstractions are available for reuse",
+        "b. Shared components are woven into an application at different places when the program is compiled",
+        "c. Large-scale systems that encapsulate generic business functionality and rules are configured for an organization",
+        "d. Systems are developed by configuring and integrating existing application systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "COTS stands for",
+      "answer": "Commercial Off-The-Shelf systems",
+      "choices": [
+        "a. None of the mentioned",
+        "b. Commercial Off-The-System state",
+        "c. Commercial Off-The-Shelf states",
+        "d. Commercial Off-The-Shelf systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "During the implementation process, developers must write enough comments inside the code so that if anybody starts working on the code later on, he/she is able to understand what has already been written.",
@@ -1131,6 +1322,27 @@
       "lastVerifiedAt": "2026-10-18T14:35:31Z"
     },
     {
+      "question": "Identify the correct statement with respect to Evolutionary development:",
+      "answer": "Evolutionary development usually has two flavors; exploratory development, and throw-away prototyping",
+      "choices": [
+        "a. Very large projects are usually done using evolutionary development based approach",
+        "b. Evolutionary development usually has two flavors; exploratory development, and throw-away prototyping",
+        "c. Sometimes the construction of a throw-away prototype is not followed by a re- implementation of the software system using a more structured approach",
+        "d. It facilitates easy project management, through the high volume of documentation it generates"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Identify the correct statement: “Software engineers shall",
       "answer": "act consistently with the public interest.”",
       "choices": [
@@ -1388,6 +1600,27 @@
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
     },
     {
+      "question": "In ________________, the system comprises of many smaller sub-systems known as functions.",
+      "answer": "function-oriented design",
+      "choices": [
+        "a. structured design",
+        "b. software design",
+        "c. function-oriented design",
+        "d. object-oriented design"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "In almost all serious software development projects, a revision or version control system is used. This version control system keeps a record of changes in source code files and is usually built in a tree-like structure.",
       "answer": "Branches",
       "choices": [
@@ -1447,6 +1680,27 @@
           "timestamp": "2026-10-28T10:18:04Z"
         }
       ]
+    },
+    {
+      "question": "In OOD, the attributes (data variables) and methods (operation on the data) are bundled together is called _________________.",
+      "answer": "Encapsulation",
+      "choices": [
+        "a. Polymorphism",
+        "b. Inheritance",
+        "c. Encapsulation",
+        "d. Classes"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "In reference with top-down analysis, _________________ sub-divides the modules into further smaller units of code.",
@@ -1579,6 +1833,27 @@
       "lastVerifiedAt": "2026-10-28T10:11:14Z"
     },
     {
+      "question": "It has been a great tool of interaction with computers until the video display monitors came into existence.",
+      "answer": "Command Line Interface",
+      "choices": [
+        "a. Command Line Interface",
+        "b. Interface Design",
+        "c. All of the choices",
+        "d. Graphical User Interface"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "It implies separating software into components according to functionality and responsibility.",
       "answer": "Modularity",
       "choices": [
@@ -1634,6 +1909,27 @@
       "lastVerifiedAt": "2026-10-28T04:27:01Z"
     },
     {
+      "question": "It is a conceptualization of problem into several well-organized elements of solution",
+      "answer": "Structured design",
+      "choices": [
+        "a. Object Oriented Design",
+        "b. Software Design",
+        "c. Function Oriented Design",
+        "d. Structured design"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "It is a method of evaluating the expression passed to a function as an argument.",
       "answer": "Strict evaluation",
       "choices": [
@@ -1686,6 +1982,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
+    },
+    {
+      "question": "It is a process to conceptualize the software requirements into software implementation.",
+      "answer": "Software Design",
+      "choices": [
+        "a. Software Design",
+        "b. Structured Design",
+        "c. Object-Oriented Design",
+        "d. Function Oriented Design"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "It is a simplified representation of a software process. Each process represents a process from a particular perspective, and thus provides only partial information about that process.",
@@ -1919,6 +2236,27 @@
       "lastVerifiedAt": "2026-10-28T04:25:31Z"
     },
     {
+      "question": "It is communication between different modules.",
+      "answer": "Coupling",
+      "choices": [
+        "a. Functioning",
+        "b. Cohesion",
+        "c. Coupling",
+        "d. None of the choices"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "It is conducted to test program and its implementation, in order to improve code efficiency or structure. It is also known as ‘Structural’ testing.",
       "answer": "White-box Testing",
       "choices": [
@@ -2014,6 +2352,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:18:04Z"
+    },
+    {
+      "question": "It is grouping of all functionally related elements",
+      "answer": "Cohesion",
+      "choices": [
+        "a. Coupling",
+        "b. Functioning",
+        "c. Mixing",
+        "d. Cohesion"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "It is important in designing software that is free from unnatural restrictions and limitations.",
@@ -2163,6 +2522,27 @@
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
     },
     {
+      "question": "It is text-based notifier that is mostly shows the context in which the user is working. It is generated by the software system.",
+      "answer": "Command Prompt",
+      "choices": [
+        "a. Cursor",
+        "b. Command Prompt",
+        "c. Command Line Interface",
+        "d. Command"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "It is the ability of a set of inherent characteristics of a product, service, product component, or process to fulfill requirements of customers.",
       "answer": "Quality",
       "choices": [
@@ -2206,7 +2586,8 @@
         "b. Verification",
         "c. All of the above",
         "d. Validation",
-        "a. All of the above"
+        "a. All of the above",
+        "b. Validation"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2215,10 +2596,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 9,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T04:25:31Z",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z",
       "lastEvidenceAt": "2026-10-12T12:06:05Z"
     },
     {
@@ -2367,6 +2748,48 @@
       "lastVerifiedAt": "2026-10-18T14:37:30Z"
     },
     {
+      "question": "It takes the whole software system as one entity and then decomposes it to achieve more than one sub-system or component based on some characteristics.",
+      "answer": "Top Down Design",
+      "choices": [
+        "a. Bottom-up Design",
+        "b. Top-Side Design",
+        "c. Top Down Design",
+        "d. Up-Side Design"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "It works around the entities and their characteristics instead of functions involved in the software system. This design strategies focuses on entities and its characteristics.",
+      "answer": "Object Oriented Design",
+      "choices": [
+        "a. Structured Design",
+        "b. Object Oriented Design",
+        "c. Software Design",
+        "d. Function Oriented Design"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Lower and upper limits are present in which chart?",
       "answer": "Run chart",
       "choices": [
@@ -2460,6 +2883,27 @@
       "firstSeenAt": "2026-10-11T19:35:17Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T10:11:14Z"
+    },
+    {
+      "question": "Model preferred to create client/server applications is",
+      "answer": "Concurrent Model",
+      "choices": [
+        "a. Spiral Model",
+        "b. Concurrent Model",
+        "c. Incremental Model",
+        "d. WINWIN Spiral Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "Most functional programming languages use ______________ as their type systems. λ-expressions are executed by evaluating them as they occur.",
@@ -2560,6 +3004,48 @@
       "lastVerifiedAt": "2026-10-28T10:11:14Z"
     },
     {
+      "question": "OOD allows similar classes to stack up in hierarchical manner where the lower or sub-classes can import, implement and re-use allowed variables and methods from their immediate super classes.",
+      "answer": "Inheritance",
+      "choices": [
+        "a. Inheritance",
+        "b. Classes",
+        "c. Objects",
+        "d. Encapsulation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "OOD languages provide a mechanism where methods performing similar tasks but vary in arguments, can be assigned same name.",
+      "answer": "Polymorphism",
+      "choices": [
+        "a. Inheritance",
+        "b. Classes",
+        "c. Polymorphism",
+        "d. Encapsulation"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Over the time, customer may ask for new features or functions in the software.",
       "answer": "Client Requirements",
       "choices": [
@@ -2615,6 +3101,48 @@
       "firstSeenAt": "2026-10-11T19:44:20Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T04:27:01Z"
+    },
+    {
+      "question": "Processes for evolving a software product depend on:",
+      "answer": "All of the mentioned",
+      "choices": [
+        "a. Skills and experience of the people involved",
+        "b. Development processes used",
+        "c. All of the mentioned",
+        "d. Type of software to be maintained"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "Program modularization and Source code translation are the activities of_____________",
+      "answer": "Reengineering",
+      "choices": [
+        "a. Reverse Engineering and Reengineering",
+        "b. Forward engineering",
+        "c. Reverse Engineering",
+        "d. Reengineering"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "Programming interfaces of present-day languages are very sophisticated and are equipped huge library functions.",
@@ -2824,7 +3352,9 @@
         "c. Both C & D",
         "d. All except C",
         "a. All except C",
-        "d. All of the above"
+        "d. All of the above",
+        "c. All except C",
+        "d. Both C & D"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -2834,13 +3364,13 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-18T07:19:05Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-18T07:26:06Z",
-      "lastVerifiedAt": "2026-10-28T10:03:06Z"
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "Resources include people, hardware, software, or other assets. Many different types of people, skill sets, and resources are needed to build a home.",
@@ -2899,6 +3429,25 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-18T14:37:30Z"
+    },
+    {
+      "question": "Reuse-based software engineering is a software engineering strategy where the development process is geared to reusing existing software.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "SDLC stands for",
@@ -3182,6 +3731,27 @@
       "lastVerifiedAt": "2026-10-28T10:18:04Z"
     },
     {
+      "question": "Software evolution does not comprises:",
+      "answer": "Negotiating with client",
+      "choices": [
+        "a. Development activities",
+        "b. Negotiating with client",
+        "c. Re-engineering activities",
+        "d. Maintenance activities"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Software Maintenance includes",
       "answer": "All of the mentioned",
       "choices": [
@@ -3246,6 +3816,27 @@
       ]
     },
     {
+      "question": "SPICE stands for",
+      "answer": "Software Process Improvement and Capability Determination",
+      "choices": [
+        "a. None of the mentioned",
+        "b. Software Process Improvement and Compatibility Determination",
+        "c. Software Process Improvement and Capability Determination",
+        "d. Software Process Improvement and Control Determination"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Spiral Model has high reliability requirements.",
       "answer": "True",
       "choices": [
@@ -3282,6 +3873,69 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
+    },
+    {
+      "question": "Spiral model was developed by",
+      "answer": "Berry Boehm",
+      "choices": [
+        "a. Bev Littlewood",
+        "b. Victor Bisili",
+        "c. Berry Boehm",
+        "d. Roger Pressman"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "Testing done without planning and Documentation is called",
+      "answer": "Adhoc testing",
+      "choices": [
+        "a. Adhoc testing",
+        "b. Unit testing",
+        "c. Regression testing",
+        "d. None of the mentioned"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "The ___________________ model starts with most specific and basic components. It proceeds with composing higher level of components by using basic or lower level components.",
+      "answer": "Bottom-up Design",
+      "choices": [
+        "a. Bottom-up Design",
+        "b. Top-Side Design",
+        "c. Top Down Design",
+        "d. Up-Side Design"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "The application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software.",
@@ -3422,6 +4076,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
+    },
+    {
+      "question": "The Incremental Model is combination of elements of",
+      "answer": "Linear Model & Prototyping Model",
+      "choices": [
+        "a. Linear Model & Prototyping Model",
+        "b. Build & FIX Model & Waterfall Model",
+        "c. Waterfall Model & RAD Model",
+        "d. Linear Model & RAD Model"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "The input is divided into higher and lower end values. If these values pass the test, it is assumed that all values in between may pass too.",
@@ -3676,6 +4351,27 @@
       "lastVerifiedAt": "2026-10-28T04:27:01Z"
     },
     {
+      "question": "The open source movement has meant that there is a huge reusable code base available at",
+      "answer": "low cost",
+      "choices": [
+        "a. high cost",
+        "b. low cost",
+        "c. short period of time",
+        "d. free of cost"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "The outcome of software engineering is an efficient and reliable software product.",
       "answer": "True",
       "choices": [
@@ -3798,10 +4494,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T04:18:59Z"
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "The software must evolve to meet changing customer needs.",
@@ -3883,10 +4579,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 6,
+      "confirmations": 7,
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T04:18:59Z"
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "The spiral model has two dimensions namely _____________ and ____________",
@@ -4030,6 +4726,48 @@
       "firstSeenAt": "2026-10-11T19:27:32Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-28T04:18:59Z"
+    },
+    {
+      "question": "The testing in which code is checked",
+      "answer": "White box testing",
+      "choices": [
+        "a. Red box testing",
+        "b. Green box testing",
+        "c. Black box testing",
+        "d. White box testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "The two dimensions of spiral model are",
+      "answer": "radial, angular",
+      "choices": [
+        "a. diagonal, perpendicular",
+        "b. radial, angular",
+        "c. diagonal, angular",
+        "d. radial, perpendicular"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "These are actual coding mistakes made by developers. In addition, there is a difference in output of software and desired output is considered as ______.",
@@ -4394,12 +5132,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-18T07:57:27Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:11:14Z"
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "These documentations are maintained by the developers and actual coders. These documents, as a whole, represent information about the code.",
@@ -5077,6 +5815,27 @@
       "lastVerifiedAt": "2026-10-28T04:24:23Z"
     },
     {
+      "question": "Unit testing is done by",
+      "answer": "Developers",
+      "choices": [
+        "a. Testers",
+        "b. Users",
+        "c. Developers",
+        "d. Customers"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Verification ensures the product being developed is according to design specifications.",
       "answer": "True",
       "choices": [
@@ -5118,6 +5877,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
+    },
+    {
+      "question": "What are generic application systems that may be designed to support a particular business type, activity, or sometimes a complete enterprise?",
+      "answer": "COTS-solution systems",
+      "choices": [
+        "a. COTS-integrated systems",
+        "b. Both COTS-solution and COTS-integrated systems",
+        "c. COTS-solution systems",
+        "d. ERP systems"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "What are the Mandatory Quality Procedures?",
@@ -5441,6 +6221,48 @@
       "lastEvidenceAt": "2026-10-12T11:51:14Z"
     },
     {
+      "question": "Which of the following is a generic structure that is extended to create a more specific subsystem or application?",
+      "answer": "Framework",
+      "choices": [
+        "a. Mac-OS",
+        "b. Software reuse",
+        "c. None of the mentioned",
+        "d. Framework"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "Which of the following is black box testing",
+      "answer": "Boundary value analysis",
+      "choices": [
+        "a. Boundary value analysis",
+        "b. Code path analysis",
+        "c. None of the mentioned",
+        "d. Basic path testing"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Which of the following is included in SRS ?",
       "answer": "Design Constraints",
       "choices": [
@@ -5498,6 +6320,48 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-18T14:37:30Z"
+    },
+    {
+      "question": "Which of the following is non-functional testing?",
+      "answer": "Performance testing",
+      "choices": [
+        "a. Unit testing",
+        "b. Black box testing",
+        "c. Performance testing",
+        "d. None of the mentioned"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
+      "question": "Which of the following is not an advantages of software reuse?",
+      "answer": "high effectiveness",
+      "choices": [
+        "a. faster software development",
+        "b. high effectiveness",
+        "c. lower risks",
+        "d. lower costs"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "Which of the following is not considered as a risk in project management?",
@@ -5583,6 +6447,27 @@
       "firstSeenAt": "2026-10-11T19:23:02Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-18T14:37:30Z"
+    },
+    {
+      "question": "Which of the following is not used in measuring the size of the software",
+      "answer": "Size of module",
+      "choices": [
+        "a. None of the mentioned",
+        "b. Size of module",
+        "c. KLOC",
+        "d. Function Points"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "Which of the following is responsible for the quality objective?",
@@ -6176,6 +7061,27 @@
       "lastEvidenceAt": "2026-10-12T12:17:23Z"
     },
     {
+      "question": "Which technique is applied to ensure the continued evolution of legacy systems ?",
+      "answer": "Reverse Engineering and Reengineering",
+      "choices": [
+        "a. Forward engineering",
+        "b. Reverse Engineering and Reengineering",
+        "c. Reengineering",
+        "d. Reverse Engineering"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
+    },
+    {
       "question": "Which two models doesn’t allow defining requirements early in the cycle?",
       "answer": "Prototyping & Spiral",
       "choices": [
@@ -6397,6 +7303,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T10:03:06Z"
+    },
+    {
+      "question": "“An ordering system may be adapted to cope with a centralized ordering process in one company and a distributed process in another.” Which category the example belong to?",
+      "answer": "Process specialization",
+      "choices": [
+        "a. Process specialization",
+        "b. Platform specialization",
+        "c. Environment specialization",
+        "d. Functional specialization"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T10:22:11Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T10:22:11Z"
     },
     {
       "question": "“Software engineers should not use their technical skills to misuse other people’s computers.”Here the term misuse refers to:",

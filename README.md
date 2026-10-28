@@ -127,7 +127,7 @@ Course databases are stored in [`data/`](data/) as structured JSON files named b
 | `CS6205` | Automata Theory and Formal Languages | **170** | Active |
 | `CS6206` | Principles of Operating Systems | **167** | Active |
 | `CS6207` | CS6207 | **76** | Active |
-| `CS6209` | Software Engineering 1 | **224** | Active |
+| `CS6209` | Software Engineering 1 | **268** | Active |
 | `CS6301` | Logic Design and Digital Computer Circuits | **187** | Active |
 | `FILI6201` | FILI6201 | **150** | Active |
 | `FILI6301` | FILI6301 | **270** | Active |
