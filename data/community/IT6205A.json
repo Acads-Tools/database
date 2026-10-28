@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-28T10:43:22Z",
+  "updatedAt": "2026-10-28T10:47:39Z",
   "totalQuestions": 141,
   "questions": [
     {
@@ -302,10 +302,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:37:59Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Assess and baseline current security-specific technologies",
@@ -392,10 +392,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Assurance that information is not disclosed to unauthorized persons",
@@ -568,10 +568,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Changes in security standards are usually less disruptive since the trade-off for their adoption is based on the value of the change.",
@@ -626,10 +626,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Concept of Cybercrime Cyber Crime Computer crime, or cybercrime, is any crime that involves a computer and a network. The computer may have been used in the commission of a crime, or it may be the target.",
@@ -768,10 +768,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Definition of relevant stakeholders and discovery of their concerns and objectives will require development of a high-level scenario. What phase is that?",
@@ -799,10 +799,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 30,
+      "confirmations": 31,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Determine who are the legitimate actors who will interact with the product/service/process",
@@ -920,10 +920,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Every system will rely upon resources that may be depleted in cases that may or may not be anticipated at the point of system design. What phase is that?",
@@ -951,10 +951,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Failure of the mechanism may destroy the basis for trust.",
@@ -963,19 +963,22 @@
         "a. System",
         "b. TCB",
         "c. Assurance",
-        "d. Trust"
+        "d. Trust",
+        "a. Assurance",
+        "b. System",
+        "c. TCB"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Four Security Domain",
@@ -1023,7 +1026,12 @@
         "d. Data Security",
         "e. Operational Security",
         "f. Web Security",
-        "a. Personnel Security"
+        "a. Personnel Security",
+        "a. Data Security",
+        "b. Web Security",
+        "c. Operational Security",
+        "e. Personnel Security",
+        "f. IT Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -1044,6 +1052,10 @@
         {
           "answer": "Personnel Security, IT Security, Physical Security, Operational Security",
           "timestamp": "2026-10-28T10:31:36Z"
+        },
+        {
+          "answer": "Operational Security, Physical Security, Personnel Security, IT Security",
+          "timestamp": "2026-10-28T10:47:39Z"
         }
       ]
     },
@@ -1073,10 +1085,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Identify existing security services available for re-use",
@@ -1314,10 +1326,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "In information security, data integrity means maintaining and assuring the accuracy and consistency of data over its entire life-cycle.",
@@ -1374,10 +1386,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 13,
+      "confirmations": 14,
       "firstSeenAt": "2026-10-04T07:22:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Information Assurance (IA) is the study of how to protect your information assets from destruction, degradation, manipulation and exploitation.",
@@ -1435,19 +1447,23 @@
         "a. Lifecycle",
         "b. Trust",
         "c. TCB",
-        "d. Assurance"
+        "d. Assurance",
+        "a. Trust",
+        "b. Lifecycle",
+        "c. Assurance",
+        "d. TCB"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Is a generic term that implies a mechanism in place to provide a basis for confidence in the reliability/security of the system.",
@@ -1486,19 +1502,22 @@
         "a. TCB",
         "b. Lifecyle",
         "c. Assurance",
-        "d. System"
+        "d. System",
+        "a. System",
+        "b. TCB",
+        "d. Lifecyle"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Is a process, not an end state",
@@ -1713,19 +1732,23 @@
         "a. Lifecycle",
         "b. System",
         "c. Assurance",
-        "d. TCB"
+        "d. TCB",
+        "a. System",
+        "b. TCB",
+        "c. Lifecycle",
+        "d. Assurance"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T10:34:31Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Is the process of maintaining an acceptable level of perceived risk",
@@ -1747,19 +1770,23 @@
         "a. Efficient",
         "b. Confidentiality",
         "c. Information Assurance",
-        "d. Integrity"
+        "d. Integrity",
+        "a. Information Assurance",
+        "b. Integrity",
+        "c. Confidentiality",
+        "d. Efficient"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "It should be: accurate, timely, complete, verifiable, consistent, available.",
@@ -1814,9 +1841,9 @@
         "c. Install"
       ],
       "verified": true,
-      "confirmations": 22,
+      "confirmations": 23,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [
         "System"
@@ -1882,10 +1909,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 15,
+      "confirmations": 16,
       "firstSeenAt": "2026-10-04T07:39:10Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Not performing an activity that would incur risk.",
@@ -1983,9 +2010,9 @@
         "c. System"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 28,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2054,19 +2081,21 @@
         "a. IT Security",
         "b. Personnel Security",
         "c. Physical Security",
-        "d. Operational Security"
+        "d. Operational Security",
+        "c. Operational Security",
+        "d. Physical Security"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Research, target identification and selection: it may be looking for e-mail addresses, social relationships, or data about a particular technology, information displayed on various websites;",
@@ -2303,9 +2332,9 @@
         "c. Risk Acceptance"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2449,9 +2478,9 @@
         "a. Risk Transfer, Design, Coding, Testing, Deployment, Production and Decommission"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 19,
       "firstSeenAt": "2026-09-14T14:26:37Z",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2571,10 +2600,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-10-04T07:37:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "The ability to add and change security policies, add or change how policies are implemented in the enterprise, and add or change the persons or entities related to the systems.",
@@ -2602,10 +2631,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-10-04T07:37:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "The ability to provide forensic data attesting that the systems have been used in accordance with stated security policies.",
@@ -2633,10 +2662,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-10-04T07:37:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "The ability to test and prove that the enterprise architecture has the security attributes required to uphold the stated security policies.",
@@ -2664,10 +2693,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-10-04T07:37:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "The definition and enforcement of permitted capabilities for a person or entity whose identity has been established.",
@@ -2784,9 +2813,9 @@
         "a. Exploitation"
       ],
       "verified": true,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "alternateAnswers": [
         {
@@ -2854,9 +2883,9 @@
         "c. Install"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T10:35:38Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -2884,10 +2913,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-10-04T07:37:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "The protection of information assets from loss or unintended disclosure, and resources from unauthorized and unintended use.",
@@ -2915,10 +2944,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-10-04T07:37:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "The substantiation of the identity of a person or entity related to the enterprise or system in some way.",
@@ -2946,10 +2975,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-10-04T07:37:14Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T10:39:39Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "These actions typically consist of collecting information, modifying data integrity, or attacking the availability of services and devices, but the victim system can also be used as a starting point for infecting other systems or for expanding access to the local network.",
@@ -2973,9 +3002,9 @@
         "a. Action on objective"
       ],
       "verified": true,
-      "confirmations": 27,
+      "confirmations": 29,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T10:34:31Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
@@ -3096,12 +3125,14 @@
         "c. Confidentiality, Integrity and Availability",
         "a. Efficient, Integrity and Availability",
         "b. No Feelings, Integrity and Availability",
-        "c. Confidentiality, Integrity and Flexible"
+        "c. Confidentiality, Integrity and Flexible",
+        "c. Efficient, Integrity and Availability",
+        "d. Confidentiality, Integrity and Flexible"
       ],
       "verified": true,
-      "confirmations": 18,
+      "confirmations": 20,
       "firstSeenAt": "2026-09-14T14:19:50Z",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3454,19 +3485,22 @@
         "a. Program, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
         "b. Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
         "c. Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and System",
-        "d. Digital Underground, Efficient Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet"
+        "d. Digital Underground, Efficient Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
+        "a. Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet",
+        "b. Digital Underground, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and System",
+        "c. Program, Underground Economy, Phishing, Hacktivism, Cyberwar:Estonia Case and Stuxnet"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-28T10:30:49Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:30:49Z"
+      "lastVerifiedAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "Usually an infected host must be accessible outside of the local network to establish a command and control channel between the victim and the attacker. Once this bidirectional communication has been made, an attacker has access inside the target environment and can usually control the activity by manually launching commands;",
@@ -3475,7 +3509,10 @@
         "a. Command and Control",
         "b. System Code",
         "c. Command",
-        "d. Program Code"
+        "d. Program Code",
+        "a. System Code",
+        "b. Program Code",
+        "d. Command and Control"
       ],
       "verified": true,
       "confirmations": 13,
@@ -3489,7 +3526,7 @@
       "questionType": "shortanswer",
       "isAiSuggestion": false,
       "wrongAnswerEvidence": true,
-      "lastEvidenceAt": "2026-10-28T03:25:48Z"
+      "lastEvidenceAt": "2026-10-28T10:47:39Z"
     },
     {
       "question": "What are the steps in intrusion model?",
@@ -3513,9 +3550,9 @@
         "d. System, Weaponise, Deliver, Exploit, Install, C2 and Action"
       ],
       "verified": true,
-      "confirmations": 29,
+      "confirmations": 30,
       "firstSeenAt": "2026-09-14T14:57:10Z",
-      "lastVerifiedAt": "2026-10-28T10:35:38Z",
+      "lastVerifiedAt": "2026-10-28T10:47:39Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "questionType": "multichoice",
