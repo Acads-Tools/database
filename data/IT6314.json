@@ -1,8 +1,8 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:18:35Z",
-  "totalQuestions": 294,
+  "updatedAt": "2026-10-28T03:18:53Z",
+  "totalQuestions": 295,
   "questions": [
     {
       "question": "A constant can only be assigned a scalar value, like a string or a number.",
@@ -44,14 +44,17 @@
     },
     {
       "question": "A subquery in an SQL SELECT statement",
-      "answer": "",
+      "answer": "has a distinct form that cannot be duplicated by a join.",
       "choices": [
         "a. can always be duplicated by a join.",
         "b. cannot have its results sorted using ORDER BY.",
         "c. can only be used with two tables.",
         "d. has a distinct form that cannot be duplicated by a join.",
         "a. has a distinct form that cannot be duplicated by a join.",
-        "d. can always be duplicated by a join."
+        "d. can always be duplicated by a join.",
+        "a. can only be used with two tables.",
+        "b. has a distinct form that cannot be duplicated by a join.",
+        "c. cannot have its results sorted using ORDER BY."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
@@ -59,12 +62,13 @@
         "can always be duplicated by a join."
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-11T20:42:51Z"
+      "lastEvidenceAt": "2026-10-11T20:42:51Z",
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "AJAX is a programming language",
@@ -1449,10 +1453,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:16:35Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "In what year does PHP was developed?",
@@ -3972,17 +3976,19 @@
         "a. An exact match is not possible in a CREATE statement.",
         "b. An exact match is not possible in a SELECT statement.",
         "c. An exact match is necessary in a SELECT statement.",
-        "d. An exact match is necessary in a CREATE statement."
+        "d. An exact match is necessary in a CREATE statement.",
+        "c. An exact match is necessary in a CREATE statement.",
+        "d. An exact match is necessary in a SELECT statement."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:16:35Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "There are three different kind of arrays:",
@@ -4349,10 +4355,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:16:35Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
+    },
+    {
+      "question": "To sort the results of a query use:",
+      "answer": "ORDER BY.",
+      "choices": [
+        "a. No correct answer",
+        "b. ORDER BY.",
+        "c. GROUP BY.",
+        "d. SORT BY."
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:18:53Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "To use MySQL on your computer, you'll need?",
@@ -4630,17 +4657,19 @@
         "d. Structured Query Language",
         "a. Strong Question Language",
         "b. Structured Query Language",
-        "d. Structured Question Language"
+        "d. Structured Question Language",
+        "a. None of the above",
+        "c. Structured Query Language"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "What does the following command do? INSERT INTO table2 SELECT * FROM table1;",
@@ -4699,17 +4728,21 @@
         "a. None of the above",
         "b. Return those rows from the table author in which the name of the author starts with the character 'W'",
         "c. Return those rows from the table author in which the name of the author ends with the character 'W'",
-        "d. Return those rows from the table author in which the name of the author contains the character 'W' somewhere in the middle of the author name"
+        "d. Return those rows from the table author in which the name of the author contains the character 'W' somewhere in the middle of the author name",
+        "a. Return those rows from the table author in which the name of the author starts with the character 'W'",
+        "b. None of the above",
+        "c. Return those rows from the table author in which the name of the author contains the character 'W' somewhere in the middle of the author name",
+        "d. Return those rows from the table author in which the name of the author ends with the character 'W'"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:11:21Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:11:21Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "What functions count elements in an array?",
@@ -5994,17 +6027,19 @@
         "a. To specify the syntax and semantics of SQL manipulation language",
         "b. To define the data structures",
         "b. All of the above.",
-        "c. To specify the syntax and semantics of SQL manipulation language"
+        "c. To specify the syntax and semantics of SQL manipulation language",
+        "a. To specify the syntax and semantics of SQL data definition language",
+        "d. To define the data structures"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:18:35Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "Which of the following returns the numbers of rows in a column?",
@@ -6192,17 +6227,19 @@
         "a. None of the above",
         "b. SELECT checks which database is currently selected, USE selects a database",
         "c. SELECT is for querying a database, USE is for selecting the database.SELECT is for querying a database, USE is for selecting the database.",
-        "d. Both of them selects a database"
+        "d. Both of them selects a database",
+        "c. Both of them selects a database",
+        "d. SELECT is for querying a database, USE is for selecting the database.SELECT is for querying a database, USE is for selecting the database."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:10:44Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "Which one of the following is the right way of defining a function in PHP?",
@@ -6488,17 +6525,20 @@
         "a. EXTRACT FirstName FROM Persons",
         "b. SELECT FirstName FROM Persons",
         "c. None of the choices",
-        "d. SELECT Persons.FirstName"
+        "d. SELECT Persons.FirstName",
+        "a. None of the choices",
+        "b. EXTRACT FirstName FROM Persons",
+        "c. SELECT FirstName FROM Persons"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:42:51Z"
+      "lastVerifiedAt": "2026-10-28T03:18:53Z"
     },
     {
       "question": "With SQL, how do you select all the columns from a table named \"Persons\"?",
