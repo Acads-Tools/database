@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6207",
   "subjectName": "CS6207",
-  "updatedAt": "2026-10-28T02:47:47Z",
+  "updatedAt": "2026-10-28T02:48:09Z",
   "totalQuestions": 76,
   "questions": [
     {
@@ -62,12 +62,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "A grammar in Chomsky Normal Form have no rules of the form.",
@@ -81,12 +81,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "A hand-made scanner basic approach is to ready one or more characters at a time.",
@@ -124,6 +124,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-28T02:47:47Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T02:48:09Z"
         }
       ]
     },
@@ -174,12 +178,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "A parser takes output in the form of a sequence of tokens or program instructions and usually builds a data structure in the form of a parse tree or an abstract syntax tree.",
@@ -217,6 +221,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-28T02:47:47Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T02:48:09Z"
         }
       ]
     },
@@ -250,19 +258,21 @@
         "a. Head of the production",
         "b. End of the production",
         "c. Body of the production",
-        "d. Middle of the production"
+        "d. Middle of the production",
+        "a. End of the production",
+        "b. Body of the production"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "An approach in parsing that starts with the start symbol and apply the productions until it arrives at the desired string.",
@@ -316,12 +326,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "Another approach in parsing that starts with the string and reduce it to the start symbol by applying the productions backwards",
@@ -403,10 +413,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "Backtracking come up in every stage of the compiler with an unexpected item that doesn't match the current objective, so it must be put back.",
@@ -460,6 +470,10 @@
         {
           "rejectedAnswer": "True",
           "timestamp": "2026-10-28T02:47:47Z"
+        },
+        {
+          "rejectedAnswer": "True",
+          "timestamp": "2026-10-28T02:48:09Z"
         }
       ]
     },
@@ -500,12 +514,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "Finite Automation (FA) is an abstract machine that can be used to certain forms of analysis.",
@@ -543,6 +557,10 @@
         {
           "answer": "False",
           "timestamp": "2026-10-28T02:47:47Z"
+        },
+        {
+          "answer": "False",
+          "timestamp": "2026-10-28T02:48:09Z"
         }
       ]
     },
@@ -598,10 +616,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "If you execute the following expression, what is the output? >>> 3 + 5 * 2",
@@ -684,12 +702,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "In programming, a crash is when your program stops early or freezes because something unexpected happened",
@@ -722,12 +740,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "In this function definition, the variable \"name\" is _____def hello(name): print(\"Hey,\", name)",
@@ -879,19 +897,20 @@
         "c. Numeric",
         "a. non-terminals",
         "b. variables",
-        "d. non-terminals"
+        "d. non-terminals",
+        "c. variables"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "Multiple statements grouped together are called a _____",
@@ -928,12 +947,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "Part of production rule that represents one way to form strings in the language of the variable of the head.",
@@ -960,12 +979,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "Placing some restrictions on how to process the input is done in creating a parser for a compiler.",
@@ -1038,12 +1057,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "Scanners is sometimes called lexical analyzer or lexers.",
@@ -1182,12 +1201,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "The parser does not return any syntax error for the source language.",
@@ -1201,12 +1220,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "The scanner returns TOKEN NOT and will consume the put-back character on the next call to scan token.",
@@ -1220,10 +1239,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "The symbols of the alphabet underlying the languages under consideration",
@@ -1240,19 +1259,20 @@
         "d. polarity",
         "b. variables",
         "c. Numeric",
-        "d. variables"
+        "d. variables",
+        "b. polarity"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "These are seen in order appearance in the token stream.",
@@ -1387,12 +1407,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 5,
+      "confirmations": 6,
       "firstSeenAt": "2026-10-28T02:45:57Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "What are the category on most languages have tokens?",
@@ -1409,17 +1429,20 @@
         "C. Numbers",
         "d. All of the above",
         "d. identifiers",
-        "b. All of the above"
+        "b. All of the above",
+        "a. identifiers",
+        "b. numbers",
+        "c. Keywords"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "What does this expression evaluate to? 2 * 3 + 2 * 5",
@@ -1481,17 +1504,19 @@
         "b. NOTA",
         "c. Are words in the language structure itself, like while or class or true.",
         "b. Are literal character sequences that must be clearly distinguished from keywords or identifiers.",
-        "d. Are words in the language structure itself, like while or class or true."
+        "d. Are words in the language structure itself, like while or class or true.",
+        "a. Are words in the language structure itself, like while or class or true.",
+        "c. The process of identifying tokens from the raw text source code of a program."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 12,
+      "confirmations": 13,
       "firstSeenAt": "2026-10-11T18:58:26Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T02:47:47Z"
+      "lastVerifiedAt": "2026-10-28T02:48:09Z"
     },
     {
       "question": "What is the output of the following program?defisEven(num): return num % 2 = 0 if isEven(3): print(\"3 is even\") else: print(\"3 is not even\")",
