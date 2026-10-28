@@ -1,8 +1,8 @@
 {
   "subjectCode": "CS6205",
   "subjectName": "Automata Theory and Formal Languages",
-  "updatedAt": "2026-10-28T04:28:50Z",
-  "totalQuestions": 169,
+  "updatedAt": "2026-10-28T04:32:29Z",
+  "totalQuestions": 170,
   "questions": [
     {
       "question": "* Starts from tree leaves. It proceeds upward to the root which is the starting symbol S",
@@ -895,6 +895,27 @@
       "firstSeenAt": "2026-10-11T18:36:42Z",
       "source": "review_screen",
       "lastVerifiedAt": "2026-10-18T15:00:43Z"
+    },
+    {
+      "question": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [Blank 1](a+b)* .",
+      "answer": "A set of strings of a’s and b’s of any length including the null string. So L= { ε, a, b, aa , ab , bb , ba, aaa…….}, the regular expression is [(a+b)*].",
+      "choices": [
+        "a. (a+b)*",
+        "b. (a+b)*abb",
+        "c. (aa)*(bb)*b",
+        "d. (aa + ab + ba + bb)*"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T04:32:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T04:32:29Z"
     },
     {
       "question": "A set of terminals where N ∩ T = NULL.",
