@@ -1,8 +1,8 @@
 {
   "subjectCode": "ITE6202",
   "subjectName": "ITE6202",
-  "updatedAt": "2026-10-28T03:33:04Z",
-  "totalQuestions": 179,
+  "updatedAt": "2026-10-28T03:43:29Z",
+  "totalQuestions": 214,
   "questions": [
     {
       "question": "[____] are now rarely used except for special purposes.",
@@ -162,13 +162,13 @@
       "lastVerifiedAt": "2026-10-28T03:33:04Z"
     },
     {
-      "question": "A device that receives and analyzes packets and then routes them towards their destination.",
-      "answer": "Router",
+      "question": "_______ is a software application that is used to create and manage databases, and can take the form of a personal DBMS, used by one person, or an enterprise DBMS that can be used by multiple users.",
+      "answer": "DBMS",
       "choices": [
-        "a. Switch",
-        "b. Bridge",
-        "c. Router",
-        "d. Hub"
+        "a. OLAP",
+        "b. DBMS",
+        "c. MIS",
+        "d. SCM"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
@@ -176,11 +176,55 @@
       "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "A database is an organized collection of related information.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "A device that receives and analyzes packets and then routes them towards their destination.",
+      "answer": "Router",
+      "choices": [
+        "a. Switch",
+        "b. Bridge",
+        "c. Router",
+        "d. Hub",
+        "a. Hub",
+        "b. Router",
+        "c. Bridge",
+        "d. Switch"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "A network allows you to share internet connections, data and resources within your business, improving both efficiency and speed of working.",
@@ -202,6 +246,27 @@
       "lastVerifiedAt": "2026-10-28T03:33:04Z"
     },
     {
+      "question": "A network device that connects multiple devices together and filters packets based on their destination within the connected devices.",
+      "answer": "Switch",
+      "choices": [
+        "a. Hub",
+        "b. Bridge",
+        "c. Switch",
+        "d. Router"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "A network device that connects two networks together and only allows packets through that are needed.",
       "answer": "Bridge",
       "choices": [],
@@ -210,12 +275,68 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "A new buzzword that has been capturing the attention of businesses lately is big data.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "A simple network device that connects other devices to the network and sends packets to all the devices connected to it.",
+      "answer": "hub",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "A special form of the number data type that formats all values with a currency indicator and two decimal places.",
+      "answer": "Currency",
+      "choices": [
+        "Text",
+        "Number",
+        "Paragraph Text",
+        "Currency"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "A strategic information system is not developed to respond to the corporate world and many business initiatives.",
@@ -237,6 +358,25 @@
       "lastVerifiedAt": "2026-10-28T03:33:04Z"
     },
     {
+      "question": "A switch will send a packet to another router; in other cases, it will send it directly to its destination.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 2,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "A system analyst is defined as an interactive and reliable computer-based decision-making system which uses both facts and heuristics to solve complex decision-making problems.",
       "answer": "False",
       "choices": [
@@ -254,6 +394,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
+    },
+    {
+      "question": "A Web site that allows users to add and update content on the site using their own Web browser.",
+      "answer": "Wiki",
+      "choices": [
+        "a. Blog",
+        "b. Wiki",
+        "c. HTTP",
+        "d. HTML"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "adaptations",
@@ -655,6 +816,27 @@
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
     },
     {
+      "question": "Bluetooth was created in ________by______________, it was intended to replace wired connections between devices.",
+      "answer": "1994; Ericsson",
+      "choices": [
+        "a. 1994; Sony",
+        "b. 1995;Ericson",
+        "c. 1996; Nokia",
+        "d. 1994; Ericsson"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "CMR is a software allows for more efficient communication with your prospects and clients.",
       "answer": "b. False",
       "choices": [
@@ -801,6 +983,41 @@
       "lastVerifiedAt": "2026-10-28T02:38:41Z"
     },
     {
+      "question": "Data mining is the process of analyzing data to find previously unknown trends, patterns, and associations in order to make decisions.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "DBMS is stands for [____] .",
+      "answer": "Database Management System",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "Deliverable then need to be documented along with the project scope.",
       "answer": "True",
       "choices": [
@@ -902,6 +1119,22 @@
       "lastVerifiedAt": "2026-10-28T02:37:02Z"
     },
     {
+      "question": "DNS stands for [____] .",
+      "answer": "Domain Name System",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "DNS which acts as the directory on the Internet.",
       "answer": "True",
       "choices": [
@@ -913,12 +1146,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "Domain name is used if you had to try to remember the IP address of every web server you wanted to access, the Internet would not be nearly as easy to use.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "During this phase of SDLC, the security architecture is designed.",
@@ -1065,19 +1317,21 @@
         "a. SMTP",
         "b. SCM",
         "c. HTML",
-        "d. HTTP"
+        "d. HTTP",
+        "a. HTML",
+        "c. SMTP"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "Gaining a strategic advantage over competitors requires the innovative application of information technologies.",
@@ -1098,6 +1352,41 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-28T03:33:04Z"
+    },
+    {
+      "question": "HTML is short for [____] .",
+      "answer": "Hypertext Markup Language",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "HTML is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "Human Nature can result to a bias environment that AIs might learn from.",
@@ -1520,6 +1809,22 @@
       "lastEvidenceAt": "2026-10-26T12:03:22Z"
     },
     {
+      "question": "IP is stands for [____] .",
+      "answer": "Internet Protocol",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "It also comprises movement and storage of raw materials that are involved in work in progress, inventory and fully furnished goods.",
       "answer": "SCM",
       "choices": [
@@ -1676,6 +1981,48 @@
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
     },
     {
+      "question": "It is a form of transaction between businesses, such as one involving a manufacturer and wholesaler, or a wholesaler and a retailer",
+      "answer": "B2B",
+      "choices": [
+        "a. B2B",
+        "b. B2C",
+        "c. A2B",
+        "d. A2A"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "It is a human-friendly name for a device on the Internet.",
+      "answer": "Domain Name",
+      "choices": [
+        "a. Ip address",
+        "b. Domain Name",
+        "c. Host Name",
+        "d. Client Name"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "It is a messaging social platform that enables a user to chat with friends by using pictures",
       "answer": "snapchat",
       "choices": [],
@@ -1695,19 +2042,23 @@
         "a. Blog",
         "b. Podcast",
         "c. Wiki",
-        "d. Instant Messenger"
+        "d. Instant Messenger",
+        "a. Podcast",
+        "b. Wiki",
+        "c. Instant Messenger",
+        "d. Blog"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "It is a set of processes, architectures, and technologies that convert raw data into meaningful information that drives profitable business actions.",
@@ -1732,6 +2083,22 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
+    },
+    {
+      "question": "It is a set of rules that allow two (or more) devices to exchange information back and forth across the network.",
+      "answer": "protocol",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "It is a suite of software and services to transform data into actionable intelligence and knowledge.",
@@ -1766,12 +2133,49 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "It is a way of distributing audio files via the Internet.",
+      "answer": "Podcasting",
+      "choices": [
+        "a. Blog",
+        "b. Podcasting",
+        "c. Wiki",
+        "d. Instant Messaging"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "It is a way to easily distribute a list of headlines, update notices, and sometimes content to a wide number of people.",
+      "answer": "RSS",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "It is an invasion of privacy by wrongful entry, seizing, or acquiring possession of the property of others",
@@ -1785,6 +2189,22 @@
       "lastVerifiedAt": "2026-10-26T16:50:06Z",
       "source": "review_screen",
       "questionType": "shortanswer"
+    },
+    {
+      "question": "It is an organized collection, because in a database, all data is described and associated with other data.",
+      "answer": "database",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "It is as an umbrella term that encompasses e-commerce, e-sales, e-banking, e-learning and online communication.",
@@ -1844,6 +2264,69 @@
       "originLabel": "Quiz",
       "lastEvidenceAt": "2026-10-18T12:37:31Z",
       "lastVerifiedAt": "2026-10-28T03:33:04Z"
+    },
+    {
+      "question": "It is for storing non-numeric data that is brief, generally under 256 characters. The database designer can identify the maximum length of the text.",
+      "answer": "Text",
+      "choices": [
+        "Text",
+        "Number",
+        "Paragraph Text",
+        "Currency"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "It is for storing numbers.",
+      "answer": "Number",
+      "choices": [
+        "Text",
+        "Number",
+        "Paragraph Text",
+        "Currency"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "It is full of some very technical concepts based on some simple principles.",
+      "answer": "Networking Communication",
+      "choices": [
+        "a. Telecommunication",
+        "b. Network",
+        "c. Networking Communication",
+        "d. Networking Telecommunication"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "It is not important that the proposed design be tested for performance, and to ensure that it meets the requirements outlined during the analysis phase.",
@@ -1973,19 +2456,22 @@
         "a. Serial Number",
         "b. Subnet Mask",
         "c. IP address",
-        "d. MAC address"
+        "d. MAC address",
+        "b. MAC address",
+        "c. Subnet Mask",
+        "d. IP address"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "It is threatening behavior or unwanted advances directed at an adult using the Internet or other forms of online and electronic communications",
@@ -2500,12 +2986,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "Rapid Application Development makes use of tools to facilitate the development of systems to meet aggressive time lines.",
@@ -2664,12 +3150,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "Scope can be refined during the implementation is the initialization process.",
@@ -3104,12 +3590,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "The data that the AI technology is using to train and learn mostly coveres all the aspect of human behavior",
@@ -3164,6 +3650,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
+    },
+    {
+      "question": "The fundamental unit of data transmitted over the Internet.",
+      "answer": "Packet",
+      "choices": [
+        "a. Packet",
+        "b. Data",
+        "c. Extranet",
+        "d. Intranet"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "The human errors in coding can be sometimes referred to as [____: bugs]",
@@ -3313,12 +3820,31 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "The term business-to-business refers to the process of selling products and services directly between consumers who are the end-users of its products or services.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "The term knowledge acquisition means how to get required domain knowledge by the expert system.",
@@ -3338,6 +3864,27 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
+    },
+    {
+      "question": "The term refers to such massively large data sets that conventional database tools do not have the processing power to analyze them.",
+      "answer": "new buzzword",
+      "choices": [
+        "a. metadata",
+        "b. new buzzword",
+        "c. betadata",
+        "d. information"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "The two kinds of rules of conduct; Directives which involves the macroethical level and Social policies that involves the microethical level.",
@@ -3414,19 +3961,38 @@
         "a. Source",
         "b. Bravo",
         "c. Cookies",
-        "d. HTTP"
+        "d. HTTP",
+        "a. HTTP",
+        "c. Source",
+        "d. Cookies"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "These radio waves can be picked up within a radius of approximately [____] by devices with a wireless adapter.",
+      "answer": "65 feet",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "This component takes the user's query in a readable form and passes it to the inference engine.",
@@ -3450,6 +4016,27 @@
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
     },
     {
+      "question": "This data type allows for text longer than 256 characters.",
+      "answer": "Paragraph Text",
+      "choices": [
+        "Text",
+        "Number",
+        "Paragraph Text",
+        "Currency"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "This first phase of the development life cycle, security considerations are key to diligent and early integration, thereby ensuring that threats, requirements, and potential constraints in functionality and integration are considered.",
       "answer": "Planning",
       "choices": [
@@ -3469,6 +4056,25 @@
       "originType": "quiz",
       "originLabel": "Quiz",
       "lastVerifiedAt": "2026-10-27T11:37:42Z"
+    },
+    {
+      "question": "This internal set of web pages is called an extranet.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "This section addresses security considerations unique to the second SDLC phase.",
@@ -3638,6 +4244,81 @@
       "questionType": "multichoice"
     },
     {
+      "question": "VoIP is stands for [____] .",
+      "answer": "",
+      "choices": [],
+      "questionType": "shortanswer",
+      "wrongAnswers": [
+        "voice over internet protocol"
+      ],
+      "wrongAnswerEvidence": true,
+      "verified": false,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastEvidenceAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "Web enabled refers to a product or service that can be used through, or in conjunction with, the World Wide Web.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "When a device intends to send a message to another device,it breaks the message down into smaller pieces, called packets.",
+      "answer": "True",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
+      "question": "When a packet is sent from one device out over the Internet, it does follow a straight path to its destination.",
+      "answer": "False",
+      "choices": [
+        "a. True",
+        "b. False"
+      ],
+      "questionType": "multichoice",
+      "wrongAnswers": [],
+      "wrongAnswerEvidence": false,
+      "verified": true,
+      "isAiSuggestion": false,
+      "confirmations": 1,
+      "firstSeenAt": "2026-10-28T03:43:29Z",
+      "source": "review_screen",
+      "originType": "quiz",
+      "originLabel": "Quiz",
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
+    },
+    {
       "question": "Which of the following is a purpose of a social networking web site?I. Breakdown the barriers of distance and timeII. Bridge cultural differencesIII. Create an online communityIV. Social Interaction",
       "answer": "All of the Above",
       "choices": [
@@ -3708,12 +4389,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "Wi-Fi is stands for [____] .",
@@ -3724,12 +4405,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-27T11:24:34Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T11:24:34Z"
+      "lastVerifiedAt": "2026-10-28T03:43:29Z"
     },
     {
       "question": "Witness Protection",
