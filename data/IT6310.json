@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6310",
   "subjectName": "Network Security",
-  "updatedAt": "2026-10-28T16:00:07Z",
+  "updatedAt": "2026-10-28T16:07:52Z",
   "totalQuestions": 222,
   "questions": [
     {
@@ -3105,9 +3105,9 @@
       "wrongAnswers": [],
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 16,
+      "confirmations": 17,
       "firstSeenAt": "2026-09-23T14:39:58Z",
-      "lastVerifiedAt": "2026-10-27T08:44:10Z",
+      "lastVerifiedAt": "2026-10-28T16:07:52Z",
       "source": "review_screen",
       "questionType": "multichoice"
     },
@@ -3734,19 +3734,21 @@
         "d. show radius servers",
         "a. show radius servers",
         "c. show aaa servers",
-        "d. show authentication servers"
+        "d. show authentication servers",
+        "b. show radius servers",
+        "d. show ise servers"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:44:10Z"
+      "lastVerifiedAt": "2026-10-28T16:07:52Z"
     },
     {
       "question": "Which command will validate that authentications are being attempted, which authentications are successful, and which authorization results have been assigned?",
@@ -3782,19 +3784,20 @@
         "a. Single Mode",
         "b. MDA",
         "c. Multi-Auth",
-        "d. Multi-Host"
+        "d. Multi-Host",
+        "d. MDA"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:44:10Z"
+      "lastVerifiedAt": "2026-10-28T16:07:52Z"
     },
     {
       "question": "Which interface-level command is the equivalent of “turn authentication on”?",
@@ -4173,19 +4176,21 @@
         "a. RADIUS+",
         "b. DIAMETER",
         "c. TACACS+",
-        "d. RADIUS"
+        "d. RADIUS",
+        "b. TACACS+",
+        "d. DIAMETER"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:44:10Z"
+      "lastVerifiedAt": "2026-10-28T16:07:52Z"
     },
     {
       "question": "Which of the following technologies enables an administrator to maintain the same configuration on all access ports, on all switches, regardless of the type of device connecting to the network?",
@@ -4398,19 +4403,21 @@
         "c. The added level of complexity helps Cisco and other vendors to sell more products.",
         "d. Both RADIUS and TACACS+ extend the Layer-2 authentication protocols, allowing the end user to communicate with an authentication server that is not Layer-2 adjacent",
         "b. The added level of complexity helps Cisco and other vendors to sell more products.",
-        "c. RADIUS and TACACS+ are used between the end user and the authentication server."
+        "c. RADIUS and TACACS+ are used between the end user and the authentication server.",
+        "a. RADIUS and TACACS+ are used between the end user and the authentication server.",
+        "b. Because the names sound so cool."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-27T08:42:47Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-27T08:44:10Z"
+      "lastVerifiedAt": "2026-10-28T16:07:52Z"
     },
     {
       "question": "Without this service on your environment, you won't be able to share any of your resources",
