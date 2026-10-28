@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6205A",
   "subjectName": "Information Assurance and Security 1",
-  "updatedAt": "2026-10-28T03:39:47Z",
+  "updatedAt": "2026-10-28T03:41:57Z",
   "totalQuestions": 125,
   "tier": "verified",
   "questions": [
@@ -258,11 +258,11 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 14,
+      "confirmations": 15,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
       "lastEvidenceAt": "2026-10-04T12:06:34Z",
-      "lastVerifiedAt": "2026-10-28T03:39:47Z"
+      "lastVerifiedAt": "2026-10-28T03:41:57Z"
     },
     {
       "question": "Assess and baseline current security-specific architecture elements. What phase is that?",
@@ -304,10 +304,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:39:47Z"
+      "lastVerifiedAt": "2026-10-28T03:41:57Z"
     },
     {
       "question": "Assess and baseline current security-specific technologies. What phase is that?",
@@ -349,10 +349,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:39:47Z"
+      "lastVerifiedAt": "2026-10-28T03:41:57Z"
     },
     {
       "question": "Assess the impact of new security measures upon other new components or existing leveraged systems. What phase is that?",
@@ -755,10 +755,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:39:47Z"
+      "lastVerifiedAt": "2026-10-28T03:41:57Z"
     },
     {
       "question": "Determine who are the legitimate actors who will interact with the product/service/process. What phase is that?",
@@ -831,10 +831,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 21,
+      "confirmations": 22,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:39:47Z"
+      "lastVerifiedAt": "2026-10-28T03:41:57Z"
     },
     {
       "question": "Establish architecture artifact, design, and code reviews and define acceptance criteria for the successful implementation of the findings. What phase is that?",
@@ -999,10 +999,10 @@
       "wrongAnswerEvidence": true,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 11,
+      "confirmations": 12,
       "firstSeenAt": "2026-10-04T07:41:04Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-28T03:39:47Z",
+      "lastVerifiedAt": "2026-10-28T03:41:57Z",
       "lastEvidenceAt": "2026-10-16T13:27:24Z"
     },
     {
@@ -2372,7 +2372,7 @@
     },
     {
       "question": "The following security specifics appropriate to the security architecture must be addressed within each phase in addition to the generic phase activities.",
-      "answer": "Phase C: Information Systems Architecture",
+      "answer": "",
       "choices": [],
       "questionType": "shortanswer",
       "wrongAnswers": [
@@ -2386,15 +2386,16 @@
         "Phase A",
         "Phase A – Architecture Vision",
         "architecture continuum",
-        "architecture phases"
+        "architecture phases",
+        "Phase C: Information Systems Architecture"
       ],
       "wrongAnswerEvidence": true,
-      "verified": true,
+      "verified": false,
       "isAiSuggestion": false,
       "confirmations": 2,
       "firstSeenAt": "2026-10-04T07:41:04Z",
-      "source": "verified_curated",
-      "lastEvidenceAt": "2026-10-28T03:39:47Z",
+      "source": "moodle_review_elimination",
+      "lastEvidenceAt": "2026-10-28T03:41:57Z",
       "lastVerifiedAt": "2026-10-16T20:25:00Z"
     },
     {
