@@ -1,7 +1,7 @@
 {
   "subjectCode": "CS6204",
   "subjectName": "Computer Architecture and Organization",
-  "updatedAt": "2026-10-28T10:54:04Z",
+  "updatedAt": "2026-10-28T11:00:48Z",
   "totalQuestions": 180,
   "tier": "verified",
   "questions": [
@@ -291,19 +291,21 @@
         "A. Register",
         "B. Connector",
         "C. Flash Drive",
-        "D. USB port"
+        "D. USB port",
+        "B. Register",
+        "C. USB port"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "_________ queues are not an independent scheduling algorithm. They make use of other existing algorithms to group and schedule jobs with common characteristics.",
@@ -468,9 +470,9 @@
         "c. Cache memory"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -493,19 +495,20 @@
         "a. Personal computer",
         "b. Program counter",
         "c. Hard drive",
-        "d. Database"
+        "d. Database",
+        "a. Database"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "A (or B) is increased by one and the resulting value appears at Y.",
@@ -566,6 +569,10 @@
         {
           "rejectedAnswer": "True",
           "timestamp": "2026-10-28T10:54:04Z"
+        },
+        {
+          "rejectedAnswer": "True",
+          "timestamp": "2026-10-28T11:00:48Z"
         }
       ]
     },
@@ -674,9 +681,9 @@
         "d. Bus interconnection"
       ],
       "verified": true,
-      "confirmations": 33,
+      "confirmations": 34,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -819,12 +826,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "A microprocessor is an integrated circuit (IC) which incorporates core functions of a computer’s central processing unit (CPU).",
@@ -838,12 +845,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "A printer is an external hardware output device that takes the electronic data stored on a computer or other device and generates a soft copy of it.",
@@ -915,12 +922,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "A type of flash memory",
@@ -989,12 +996,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "An ALU is a ______________ circuit, meaning that its outputs will change asynchronously in response to input changes.",
@@ -1035,12 +1042,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "An input-output processor (IOP) is a processor with direct memory access capability.",
@@ -1229,12 +1236,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Both PCI and PCI-X were superseded by PCI Express, which was introduced in?",
@@ -1258,9 +1265,9 @@
         "a. 1994"
       ],
       "verified": true,
-      "confirmations": 33,
+      "confirmations": 34,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1304,12 +1311,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Capacity of true tape",
@@ -1383,12 +1390,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Control unit as the name specifies controls the flow of data and signals in the microprocessor",
@@ -1402,12 +1409,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Direct memory access (DMA) is a feature of computer systems that allows certain hardware subsystems to access main system memory (read-only memory), independent of the central processing unit (CPU).",
@@ -1533,9 +1540,9 @@
         "b. Headset"
       ],
       "verified": true,
-      "confirmations": 34,
+      "confirmations": 35,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -1740,12 +1747,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "In the 1960s, this is where you find the computer memory",
@@ -1777,19 +1784,23 @@
         "d. 1970",
         "a. 1972",
         "c. 1973",
-        "d. 1971"
+        "d. 1971",
+        "a. 1970",
+        "b. 1971",
+        "c. 1972",
+        "d. 1973"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Information equal to 1000 exabytes or 10 bytes.",
@@ -1835,12 +1846,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Interrupts may be implemented in hardware as a distinct component with control lines, or they may be integrated into the memory subsystem.",
@@ -1854,12 +1865,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "It can be used as true cache.",
@@ -1911,12 +1922,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "It has multiple-bank internal architecture that improves opportunities for on-chip parallelism. Generally, it uses dual data banks internally. It starts access in one bank then next, and then receives data from first then second.",
@@ -2306,9 +2317,9 @@
         "c. SISC"
       ],
       "verified": true,
-      "confirmations": 36,
+      "confirmations": 37,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2382,12 +2393,13 @@
         "c. Level-triggered interrupt",
         "b. Trigger methods",
         "b. Edge-triggered interrupt",
-        "d. Level-triggered interrupt"
+        "d. Level-triggered interrupt",
+        "c. Software interrupt"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2458,9 +2470,9 @@
         "d. False interrupt"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -2794,12 +2806,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Microprocessors are very versatile, the same chip can be used for a number of applications by simply changing the program (instructions stored in the memory).",
@@ -2813,12 +2825,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 8,
+      "confirmations": 10,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Microprocessors uses a clock signal to control the rate at which instructions are executed, synchronize other internal components and to control the data transfer between them.",
@@ -2890,12 +2902,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Princeton Institute for Advanced Studies (IAS) computer is the prototype for all subsequent general-purpose computers",
@@ -2925,12 +2937,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Processors typically have an internal interrupt mask register which allows selective enabling and disabling of hardware interrupts.",
@@ -2944,12 +2956,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Production of dumps, traces, error messages, and other debugging and ____________",
@@ -2991,12 +3003,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "RISC is a type of microprocessor architecture which uses small, general purpose and highly optimized instruction set rather than more specialized set of instructions found in others.",
@@ -3010,12 +3022,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Short term scheduler is also called as _______",
@@ -3122,12 +3134,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "The ________ of a tape is the surface that can be magnetically manipulate by a tape head",
@@ -3175,9 +3187,9 @@
         "c. Information"
       ],
       "verified": true,
-      "confirmations": 33,
+      "confirmations": 34,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3209,9 +3221,9 @@
         "d. CPU"
       ],
       "verified": true,
-      "confirmations": 34,
+      "confirmations": 35,
       "firstSeenAt": "2026-09-11T02:42:05Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3346,12 +3358,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "The first substantial computer was the giant ENIAC machine by John W. Mauchly and J. Presper Eckert at the University of Pennsylvania.",
@@ -3365,12 +3377,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "The following are I/O module's important functions, which one is not included:",
@@ -3437,12 +3449,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "The IC is a central termination point for data channels, CPU, and memory",
@@ -3589,9 +3601,9 @@
         "c. 64"
       ],
       "verified": true,
-      "confirmations": 33,
+      "confirmations": 34,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3701,9 +3713,9 @@
         "d. 1990"
       ],
       "verified": true,
-      "confirmations": 33,
+      "confirmations": 34,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3721,12 +3733,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "These are examples of an Operating System, except:",
@@ -3778,9 +3790,9 @@
         "a. Data line"
       ],
       "verified": true,
-      "confirmations": 33,
+      "confirmations": 34,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -3961,19 +3973,20 @@
         "c. High reliability",
         "d. Cheap",
         "d. High reliability",
-        "c. Cheap"
+        "c. Cheap",
+        "b. All of the above"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "This is in contrast to a floating-point unit (FPU), which operates on floating point numbers.",
@@ -4135,12 +4148,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Used to control the access to and the use of the data and address lines",
@@ -4169,12 +4182,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Vacuum Tubes (1950s) - one bit on the size of a thumb",
@@ -4188,12 +4201,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "What does EPROM stand for?",
@@ -4247,9 +4260,9 @@
         "c. Peripheral Component Internet"
       ],
       "verified": true,
-      "confirmations": 33,
+      "confirmations": 34,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -4304,9 +4317,9 @@
         "d. Non-maskable intersection"
       ],
       "verified": true,
-      "confirmations": 35,
+      "confirmations": 36,
       "firstSeenAt": "2026-09-11T02:47:09Z",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z",
+      "lastVerifiedAt": "2026-10-28T11:00:48Z",
       "source": "review_screen",
       "wrongAnswers": [],
       "isAiSuggestion": false,
@@ -4342,19 +4355,22 @@
         "d. giant ENIAC machine",
         "a. megacomputer",
         "c. the big machine",
-        "d. Intel"
+        "d. Intel",
+        "a. Intel",
+        "b. the big machine",
+        "c. giant ENIAC machine"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     },
     {
       "question": "Which is not belongs to optical storage devices?",
@@ -4478,12 +4494,12 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 4,
+      "confirmations": 5,
       "firstSeenAt": "2026-10-14T15:45:32Z",
       "source": "review_screen",
       "originType": "quiz",
       "originLabel": "Quiz",
-      "lastVerifiedAt": "2026-10-28T10:54:04Z"
+      "lastVerifiedAt": "2026-10-28T11:00:48Z"
     }
   ]
 }
