@@ -1,7 +1,7 @@
 {
   "subjectCode": "IT6314",
   "subjectName": "IT6314",
-  "updatedAt": "2026-10-28T03:17:57Z",
+  "updatedAt": "2026-10-28T03:18:35Z",
   "totalQuestions": 294,
   "questions": [
     {
@@ -2409,10 +2409,10 @@
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:16:35Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "MySQL COUNT() function returns",
@@ -2421,17 +2421,21 @@
         "a. a count of number of non-NULL values of a given expression",
         "b. None of the choices",
         "c. a count of number of string values of a given expression",
-        "d. a count of number of values of a given expression"
+        "d. a count of number of values of a given expression",
+        "a. a count of number of string values of a given expression",
+        "b. a count of number of values of a given expression",
+        "c. None of the choices",
+        "d. a count of number of non-NULL values of a given expression"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-12T11:13:47Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:13:47Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "MySQL is",
@@ -3348,17 +3352,19 @@
         "b. DELETE TABLE CUSTOMER;",
         "d. UPDATE TABLE CUSTOMER;",
         "a. DROP TABLE CUSTOMER;",
-        "c. REMOVE TABLE CUSTOMER;"
+        "c. REMOVE TABLE CUSTOMER;",
+        "c. UPDATE TABLE CUSTOMER;",
+        "d. REMOVE TABLE CUSTOMER;"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 3,
+      "confirmations": 4,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:13:47Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "The date() function returns ___ representation of the current date and/or time.",
@@ -3883,17 +3889,21 @@
         "c. to limit the columns displayed.",
         "d. None of the above is correct.",
         "b. None of the above is correct.",
-        "d. for ranges."
+        "d. for ranges.",
+        "a. for ranges.",
+        "b. to limit the columns displayed.",
+        "c. None of the above is correct.",
+        "d. as a wildcard."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:13:47Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "The SQL keyword(s) ________ is used with wildcards.",
@@ -4658,24 +4668,29 @@
     },
     {
       "question": "What does the following command do? SELECT pub_name,LENGTH(pub_name) FROM publisher WHERE LENGTH(pub_name)>=20;",
-      "answer": "",
+      "answer": "Returns the pub_name and length of pub_name from publisher table where the length of the publisher's name is more than or equal to 20.",
       "choices": [
         "a. Returns the pub_name and length of pub_name from publisher table if the length of the pub_name column (in the structure of the table) is more than or equal to 20.",
         "b. None of the choices",
         "c. Returns the pub_name and length of pub_name from publisher table where the length of the publisher's name is more than or equal to 20.",
-        "d. Returns the length of pub_name from publisher table where the length of the publisher's name is more than or equal to 20."
+        "d. Returns the length of pub_name from publisher table where the length of the publisher's name is more than or equal to 20.",
+        "a. None of the choices",
+        "b. Returns the pub_name and length of pub_name from publisher table where the length of the publisher's name is more than or equal to 20.",
+        "c. Returns the length of pub_name from publisher table where the length of the publisher's name is more than or equal to 20.",
+        "d. Returns the pub_name and length of pub_name from publisher table if the length of the pub_name column (in the structure of the table) is more than or equal to 20."
       ],
       "questionType": "multichoice",
       "wrongAnswers": [
         "None of the choices"
       ],
       "wrongAnswerEvidence": true,
-      "verified": false,
+      "verified": true,
       "isAiSuggestion": false,
       "confirmations": 1,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastEvidenceAt": "2026-10-12T11:10:44Z"
+      "lastEvidenceAt": "2026-10-12T11:10:44Z",
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "What does the following MySQL command do? SELECT * FROM author WHERE auth_name LIKE 'W%';",
@@ -5855,17 +5870,20 @@
         "a. SUM, AVG, MULT, DIV, MIN",
         "b. SUM, AVG, MIN, MAX, MULT",
         "c. SUM, AVG, MIN, MAX, NAME",
-        "d. COUNT, SUM, AVG, MAX, MIN"
+        "d. COUNT, SUM, AVG, MAX, MIN",
+        "b. SUM, AVG, MIN, MAX, NAME",
+        "c. COUNT, SUM, AVG, MAX, MIN",
+        "d. SUM, AVG, MIN, MAX, MULT"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "Which of the following can add a row to a table?",
@@ -5951,17 +5969,19 @@
         "c. FROM, WHERE, SELECT",
         "d. WHERE, FROM,SELECT",
         "a. FROM, WHERE, SELECT",
-        "c. SELECT, FROM, WHERE"
+        "c. SELECT, FROM, WHERE",
+        "c. WHERE, FROM,SELECT",
+        "d. SELECT, FROM, WHERE"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-12T11:10:44Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:16:35Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "Which of the following is the original purpose of SQL?",
@@ -5972,17 +5992,19 @@
         "c. All of the above.",
         "d. To specify the syntax and semantics of SQL data definition language",
         "a. To specify the syntax and semantics of SQL manipulation language",
-        "b. To define the data structures"
+        "b. To define the data structures",
+        "b. All of the above.",
+        "c. To specify the syntax and semantics of SQL manipulation language"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:13:47Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "Which of the following returns the numbers of rows in a column?",
@@ -6017,17 +6039,21 @@
         "c. It can be used to remove a table with all data",
         "d. It can be used to delete only data but not structure of a table",
         "a. It can be used to delete only data but not structure of a table",
-        "d. It can be used to delete an index"
+        "d. It can be used to delete an index",
+        "a. It can be used to remove a database",
+        "b. It can be used to delete only data but not structure of a table",
+        "c. It can be used to delete an index",
+        "d. It can be used to remove a table with all data"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 2,
+      "confirmations": 3,
       "firstSeenAt": "2026-10-11T20:42:51Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-12T11:16:35Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "Which of the following statements contains an error?",
@@ -6392,17 +6418,21 @@
         "a. INSERT INTO",
         "b. ADD NEW",
         "c. ADD RECORD",
-        "d. INSERT NEW"
+        "d. INSERT NEW",
+        "a. ADD RECORD",
+        "b. INSERT NEW",
+        "c. ADD NEW",
+        "d. INSERT INTO"
       ],
       "questionType": "multichoice",
       "wrongAnswers": [],
       "wrongAnswerEvidence": false,
       "verified": true,
       "isAiSuggestion": false,
-      "confirmations": 1,
+      "confirmations": 2,
       "firstSeenAt": "2026-10-11T20:41:53Z",
       "source": "review_screen",
-      "lastVerifiedAt": "2026-10-11T20:41:53Z"
+      "lastVerifiedAt": "2026-10-28T03:18:35Z"
     },
     {
       "question": "Which statement will evaluate and include a file into the location where it is called.",
